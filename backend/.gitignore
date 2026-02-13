@@ -1,0 +1,77 @@
+# ===============================
+# Python Basics
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.claude
+# Virtual Environments
+env/
+venv/
+.venv/
+
+# ===============================
+# Environment & Secrets
+# ===============================
+.env
+.env.*
+!.env.example
+secrets.json
+
+# ===============================
+# Database (LOCAL only)
+# ===============================
+*.sqlite3
+*.db
+*.sql
+
+# ===============================
+# Frontend (EXCLUDE COMPLETELY)
+# ===============================
+frontend/
+node_modules/
+dist/
+build/
+
+# ===============================
+# AI / ML Large Files
+# ===============================
+data/
+datasets/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.weights
+*.joblib
+*.pkl
+
+# ===============================
+# Logs & Runtime Files
+# ===============================
+logs/
+*.log
+*.pid
+
+# ===============================
+# IDEs & OS
+# ===============================
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# ===============================
+# Testing
+# ===============================
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# ===============================
+# Docker
+# ===============================
+.dockerignore
