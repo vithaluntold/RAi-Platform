@@ -7,8 +7,8 @@ from sqlalchemy.orm import Session
 from uuid import UUID
 from datetime import datetime
 
-from app.api.deps import get_db, get_current_user
-from app.models.user import User
+from app.api.deps import get_db, get_current_active_user, require_roles
+from app.models.user import User, UserRole
 from app.models import (
     Project,
     ProjectTask,
@@ -37,7 +37,7 @@ async def list_projects(
     page: int = Query(1, ge=1),
     limit: int = Query(20, ge=1, le=100),
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     List projects with optional filters and statistics.
@@ -104,7 +104,7 @@ async def list_projects(
 async def create_project(
     payload: ProjectCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """
     Create a new project (Kanban board).
@@ -151,7 +151,7 @@ async def create_project(
 async def get_project_kanban(
     project_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Get project with Kanban board: tasks grouped by status columns.
@@ -191,7 +191,7 @@ async def create_task(
     project_id: str,
     payload: ProjectTaskCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Create a new task in project (in todo column).
@@ -236,7 +236,7 @@ async def update_task(
     task_id: str,
     payload: ProjectTaskUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Update task properties (title, description, status, priority, etc).
@@ -286,7 +286,7 @@ async def move_task(
     task_id: str,
     payload: ProjectTaskMove,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Move task to different Kanban column and position.
@@ -315,7 +315,7 @@ async def delete_task(
     project_id: str,
     task_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Delete a task from project.
@@ -355,7 +355,7 @@ async def add_collaborator(
     project_id: str,
     payload: ProjectCollaboratorAdd,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """
     Add collaborator to project with specified role.

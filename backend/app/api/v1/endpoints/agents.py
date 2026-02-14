@@ -6,8 +6,8 @@ from fastapi import APIRouter, Depends, Query, HTTPException
 from sqlalchemy.orm import Session
 from uuid import UUID
 
-from app.api.deps import get_db, get_current_user
-from app.models.user import User
+from app.api.deps import get_db, get_current_active_user, require_roles
+from app.models.user import User, UserRole
 from app.models.agent import Agent, WorkflowTaskAgent, AssignmentTaskAgent
 from app.schemas.agent import (
     AgentCreate, AgentUpdate, AgentResponse,
@@ -29,7 +29,7 @@ router = APIRouter()
 def create_agent(
     payload: AgentCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Create a new agent definition"""
     agent = AgentService.create_agent(db, payload.model_dump(), current_user.id)
@@ -41,7 +41,7 @@ def list_agents(
     agent_type: str = Query(None),
     status: str = Query(None),
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List all agents with optional filters"""
     return AgentService.list_agents(db, agent_type=agent_type, status=status)
@@ -51,7 +51,7 @@ def list_agents(
 def get_agent(
     agent_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """Get a single agent by ID"""
     agent = AgentService.get_agent(db, agent_id)
@@ -65,7 +65,7 @@ def update_agent(
     agent_id: UUID,
     payload: AgentUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Update an agent definition"""
     agent = AgentService.update_agent(
@@ -80,7 +80,7 @@ def update_agent(
 def delete_agent(
     agent_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Soft-delete an agent (marks inactive)"""
     if not AgentService.delete_agent(db, agent_id):
@@ -98,7 +98,7 @@ def attach_agent_to_workflow_task(
     task_id: UUID,
     payload: WorkflowTaskAgentCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Attach an agent to a workflow template task"""
     wta = WorkflowTaskAgentService.attach_agent(db, task_id, payload.model_dump())
@@ -114,7 +114,7 @@ def attach_agent_to_workflow_task(
 def list_workflow_task_agents(
     task_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List all agents attached to a workflow template task"""
     items = WorkflowTaskAgentService.list_task_agents(db, task_id)
@@ -133,7 +133,7 @@ def update_workflow_task_agent(
     wta_id: UUID,
     payload: WorkflowTaskAgentUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Update agent config on a workflow template task"""
     wta = WorkflowTaskAgentService.update_task_agent(
@@ -149,7 +149,7 @@ def update_workflow_task_agent(
 def remove_workflow_task_agent(
     wta_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Remove an agent from a workflow template task"""
     if not WorkflowTaskAgentService.remove_task_agent(db, wta_id):
@@ -167,7 +167,7 @@ def assign_agent_to_assignment_task(
     task_id: UUID,
     payload: AssignmentTaskAgentCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Manually assign an agent to an assignment task"""
     ata = AssignmentTaskAgentService.assign_agent(
@@ -184,7 +184,7 @@ def assign_agent_to_assignment_task(
 def list_assignment_task_agents(
     task_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List all agents assigned to an assignment task"""
     items = AssignmentTaskAgentService.list_task_agents(db, task_id)
@@ -203,7 +203,7 @@ def update_assignment_task_agent(
     ata_id: UUID,
     payload: AssignmentTaskAgentUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Update agent assignment on an assignment task"""
     ata = AssignmentTaskAgentService.update_task_agent(
@@ -219,7 +219,7 @@ def update_assignment_task_agent(
 def remove_assignment_task_agent(
     ata_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Remove an agent from an assignment task"""
     if not AssignmentTaskAgentService.remove_task_agent(db, ata_id):
@@ -237,7 +237,7 @@ def execute_agent(
     ata_id: UUID,
     payload: AgentExecutionCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """Trigger an agent execution on an assignment task"""
     try:
@@ -256,7 +256,7 @@ def execute_agent(
 def list_agent_executions(
     ata_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List all executions for an assignment task agent"""
     return AgentExecutionService.list_executions(db, ata_id)
@@ -269,7 +269,7 @@ def list_agent_executions(
 def get_agent_execution(
     execution_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """Get a single execution result"""
     execution = AgentExecutionService.get_execution(db, execution_id)

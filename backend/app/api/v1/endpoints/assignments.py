@@ -7,8 +7,8 @@ from sqlalchemy.orm import Session
 import uuid
 from uuid import UUID
 
-from app.api.deps import get_db, get_current_user
-from app.models.user import User
+from app.api.deps import get_db, get_current_active_user, require_roles
+from app.models.user import User, UserRole
 from app.models import WorkflowAssignment, Client
 from app.schemas.assignment import (
     AssignmentCreate,
@@ -31,7 +31,7 @@ async def list_assignments(
     page: int = Query(1, ge=1),
     limit: int = Query(20, ge=1, le=100),
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     List assignments with optional filters.
@@ -105,7 +105,7 @@ async def list_assignments(
 async def create_assignment(
     payload: AssignmentCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """
     Create a new workflow assignment in draft status.
@@ -146,7 +146,7 @@ async def create_assignment(
 async def get_assignment_detail(
     assignment_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Get assignment with full hierarchy: stages -> steps -> tasks.
@@ -168,7 +168,7 @@ async def update_assignment(
     assignment_id: str,
     payload: AssignmentUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """
     Update assignment properties.
@@ -224,7 +224,7 @@ async def update_assignment_task(
     task_id: str,
     payload: TaskUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Update task status, assignment, and time tracking.
@@ -257,7 +257,7 @@ async def update_assignment_step(
     step_id: str,
     payload: StepUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Update step status with auto-progression.
@@ -284,7 +284,7 @@ async def update_assignment_stage(
     stage_id: str,
     payload: StageUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """
     Update stage status with auto-progression.

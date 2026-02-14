@@ -17,7 +17,7 @@ class User(Base):
     email = Column(String(255), unique=True, index=True, nullable=False)
     hashed_password = Column(String(255), nullable=True)  # nullable for AD users
 
-    role = Column(Enum(UserRole), default=UserRole.WORKER, nullable=False)
+    role = Column(Enum(UserRole), default=UserRole.ENDUSER, nullable=False)
     is_active = Column(Boolean, default=True)
 
     # AD / Keycloak fields

@@ -8,8 +8,8 @@ from sqlalchemy.orm import Session
 from uuid import UUID
 from typing import Optional
 
-from app.api.deps import get_db, get_current_user
-from app.models.user import User
+from app.api.deps import get_db, get_current_active_user, require_roles
+from app.models.user import User, UserRole
 from app.models import Workflow, WorkflowStage, WorkflowStep, WorkflowTask, WorkflowAssignment
 from app.services.assignment_service import AssignmentService
 
@@ -27,7 +27,7 @@ class CanvasNodeUpdate(BaseModel):
 async def get_workflow_canvas(
     workflow_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Get workflow template visualization as nodes and edges for canvas rendering.
@@ -122,7 +122,7 @@ async def get_workflow_canvas(
 async def get_assignment_canvas(
     assignment_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Get assignment visualization: cloned workflow with status overlay.
@@ -278,7 +278,7 @@ async def get_assignment_canvas(
 async def get_workflow_stats(
     workflow_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Get workflow template statistics: stage count, typical duration, etc.
@@ -331,7 +331,7 @@ async def update_canvas_node_status(
     assignment_id: str,
     payload: CanvasNodeUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """
     Update a node's status directly from canvas view.

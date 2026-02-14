@@ -8,7 +8,7 @@ class UserOnboard(BaseModel):
     password: str
     first_name: str
     last_name: str
-    role: Optional[str] = "worker"  # default role if not specified
+    role: Optional[str] = "enduser"  # default role if not specified
 
 # Bulk onboarding request
 class BulkOnboardRequest(BaseModel):

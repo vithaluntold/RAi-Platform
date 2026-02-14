@@ -6,8 +6,8 @@ from sqlalchemy.orm import Session
 from uuid import UUID
 from typing import Optional
 
-from app.api.deps import get_db, get_current_user
-from app.models.user import User
+from app.api.deps import get_db, get_current_active_user, require_roles
+from app.models.user import User, UserRole
 from app.schemas.contact import ContactCreate, ContactUpdate, ContactResponse, ContactListItem
 from app.services.contact_service import ContactService
 
@@ -21,7 +21,7 @@ async def list_contacts(
     skip: int = Query(0, ge=0),
     limit: int = Query(50, ge=1, le=100),
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List all contacts with optional filtering and search."""
     return ContactService.get_contacts(db, status=status, search=search, skip=skip, limit=limit)
@@ -31,7 +31,7 @@ async def list_contacts(
 async def create_contact(
     payload: ContactCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Create a new contact."""
     contact = ContactService.create_contact(
@@ -51,7 +51,7 @@ async def create_contact(
 async def get_contact(
     contact_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """Get contact details including linked clients."""
     result = ContactService.get_contact_with_clients(UUID(contact_id), db)
@@ -65,7 +65,7 @@ async def update_contact(
     contact_id: str,
     payload: ContactUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Update contact details."""
     contact = ContactService.update_contact(
@@ -88,7 +88,7 @@ async def update_contact(
 async def delete_contact(
     contact_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Delete a contact and all its client associations."""
     deleted = ContactService.delete_contact(UUID(contact_id), db)

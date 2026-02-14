@@ -6,8 +6,8 @@ from sqlalchemy.orm import Session
 from uuid import UUID
 from typing import Optional
 
-from app.api.deps import get_db, get_current_user
-from app.models.user import User
+from app.api.deps import get_db, get_current_active_user, require_roles
+from app.models.user import User, UserRole
 from app.schemas.client import ClientCreate, ClientUpdate, ClientResponse, ClientListItem, LinkContactToClient
 from app.services.client_service import ClientService
 
@@ -21,7 +21,7 @@ async def list_clients(
     skip: int = Query(0, ge=0),
     limit: int = Query(50, ge=1, le=100),
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List all clients with optional filtering and search."""
     return ClientService.get_clients(db, status=status, search=search, skip=skip, limit=limit)
@@ -31,7 +31,7 @@ async def list_clients(
 async def create_client(
     payload: ClientCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Create a new client."""
     client = ClientService.create_client(
@@ -51,7 +51,7 @@ async def create_client(
 async def get_client(
     client_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """Get client details including linked contacts."""
     client = ClientService.get_client(UUID(client_id), db)
@@ -86,7 +86,7 @@ async def update_client(
     client_id: str,
     payload: ClientUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Update client details."""
     client = ClientService.update_client(
@@ -109,7 +109,7 @@ async def update_client(
 async def delete_client(
     client_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Delete a client and all its contact associations."""
     deleted = ClientService.delete_client(UUID(client_id), db)
@@ -123,7 +123,7 @@ async def link_contact_to_client(
     client_id: str,
     payload: LinkContactToClient,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Link a contact to this client."""
     client = ClientService.get_client(UUID(client_id), db)
@@ -151,7 +151,7 @@ async def unlink_contact_from_client(
     client_id: str,
     contact_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Remove a contact link from this client."""
     removed = ClientService.unlink_contact(UUID(client_id), UUID(contact_id), db)
@@ -164,7 +164,7 @@ async def unlink_contact_from_client(
 async def get_client_contacts(
     client_id: str,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """Get all contacts linked to this client."""
     client = ClientService.get_client(UUID(client_id), db)

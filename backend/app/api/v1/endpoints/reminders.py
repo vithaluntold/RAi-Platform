@@ -3,9 +3,9 @@ from sqlalchemy.orm import Session
 from typing import Optional
 from uuid import UUID
 
-from app.api.deps import get_current_user
+from app.api.deps import get_current_active_user, require_roles
 from app.db.session import get_db
-from app.models.user import User
+from app.models.user import User, UserRole
 from app.schemas.reminder import (
     ReminderCreate,
     ReminderSnooze,
@@ -26,7 +26,7 @@ def list_reminders(
     skip: int = 0,
     limit: int = 50,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_active_user),
 ):
     """Get all reminders for the current user."""
     return ReminderService.get_user_reminders(
@@ -39,7 +39,7 @@ def list_reminders(
 @router.get("/counts", response_model=ReminderCountResponse)
 def get_reminder_counts(
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_active_user),
 ):
     """Get pending/overdue counts for the badge in the UI."""
     return ReminderService.get_reminder_counts(db, user_id=current_user.id)
@@ -51,7 +51,7 @@ def get_reminder_counts(
 def create_reminder(
     body: ReminderCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_active_user),
 ):
     """Create a manual reminder on an entity."""
     valid_types = {"assignment", "stage", "step", "task"}
@@ -78,7 +78,7 @@ def create_reminder(
 def get_reminder(
     reminder_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_active_user),
 ):
     reminder = ReminderService.get_reminder_by_id(db, reminder_id, current_user.id)
     if not reminder:
@@ -93,7 +93,7 @@ def update_reminder(
     reminder_id: UUID,
     body: ReminderUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_active_user),
 ):
     data = body.model_dump(exclude_unset=True)
     reminder = ReminderService.update_reminder(db, reminder_id, current_user.id, data)
@@ -109,7 +109,7 @@ def snooze_reminder(
     reminder_id: UUID,
     body: ReminderSnooze,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_active_user),
 ):
     """Snooze a reminder — resets to pending at the new time. State in DB."""
     reminder = ReminderService.snooze_reminder(
@@ -126,7 +126,7 @@ def snooze_reminder(
 def dismiss_reminder(
     reminder_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_active_user),
 ):
     """Dismiss a reminder permanently."""
     reminder = ReminderService.dismiss_reminder(db, reminder_id, current_user.id)
@@ -141,7 +141,7 @@ def dismiss_reminder(
 def delete_reminder(
     reminder_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_active_user),
 ):
     """Hard delete a reminder."""
     deleted = ReminderService.delete_reminder(db, reminder_id, current_user.id)

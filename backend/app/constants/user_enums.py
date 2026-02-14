@@ -5,7 +5,8 @@ from enum import Enum
 class UserRole(str, Enum):
     """User roles in the system."""
     ADMIN = "admin"
-    WORKER = "worker"
+    MANAGER = "manager"
+    ENDUSER = "enduser"
     CLIENT = "client"
 
 

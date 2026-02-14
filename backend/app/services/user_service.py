@@ -30,7 +30,7 @@ def onboard_multiple_users(db: Session, user_list: list[UserOnboard]):
             first_name=first_name,
             last_name=last_name,
             email=user_data.email,
-            role=UserRole.WORKER,  # default role for onboarding
+            role=UserRole.ENDUSER,  # default role for onboarding
             hashed_password=hashed_password,
             is_active=True
         )

@@ -1,6 +1,8 @@
 from fastapi import APIRouter, Depends, UploadFile, File, HTTPException
 from sqlalchemy.orm import Session
 from app.api import deps
+from app.api.deps import require_roles
+from app.models.user import User, UserRole
 import shutil
 import os
 
@@ -14,7 +16,7 @@ if not os.path.exists(UPLOAD_DIR):
 async def upload_document(
     file: UploadFile = File(...),
     db: Session = Depends(deps.get_db),
-    current_user = Depends(deps.get_current_user)
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     file_location = f"{UPLOAD_DIR}/{file.filename}"
     

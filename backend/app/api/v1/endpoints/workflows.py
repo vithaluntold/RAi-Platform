@@ -4,8 +4,8 @@ Supports full hierarchy: Workflow → Stages → Steps → Tasks
 """
 from fastapi import APIRouter, Depends, Query, HTTPException
 from sqlalchemy.orm import Session
-from app.api.deps import get_db, get_current_user
-from app.models.user import User
+from app.api.deps import get_db, get_current_active_user, require_roles
+from app.models.user import User, UserRole
 from app.services.workflow_service import WorkflowService
 from app.schemas.workflow import (
     WorkflowCreate,
@@ -29,7 +29,7 @@ router = APIRouter()
 def create_workflow(
     payload: WorkflowCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Create a new workflow template."""
     try:
@@ -59,7 +59,7 @@ def create_workflow(
 def get_workflows(
     status: Optional[str] = Query(None, description="Filter by status"),
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List all workflow templates."""
     workflows = WorkflowService.list_workflows(db=db, status=status)
@@ -82,7 +82,7 @@ def get_workflows(
 def get_workflow(
     workflow_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """Get workflow with full hierarchy (stages → steps → tasks + agents)."""
     result = WorkflowService.get_workflow_hierarchy(workflow_id, db)
@@ -96,7 +96,7 @@ def update_workflow(
     workflow_id: UUID,
     payload: WorkflowUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Update a workflow template."""
     workflow = WorkflowService.update_workflow(
@@ -123,7 +123,7 @@ def update_workflow(
 def delete_workflow(
     workflow_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Delete a workflow template and all its children."""
     if not WorkflowService.delete_workflow(workflow_id, db):
@@ -138,7 +138,7 @@ def create_stage(
     workflow_id: UUID,
     payload: StageCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Add a stage to a workflow."""
     workflow = WorkflowService.get_workflow(workflow_id, db)
@@ -166,7 +166,7 @@ def create_stage(
 def get_stages(
     workflow_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List stages for a workflow."""
     stages = WorkflowService.list_stages(workflow_id, db)
@@ -189,7 +189,7 @@ def update_stage(
     stage_id: UUID,
     payload: StageUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Update a stage."""
     stage = WorkflowService.update_stage(
@@ -214,7 +214,7 @@ def update_stage(
 def delete_stage(
     stage_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Delete a stage and all its children."""
     if not WorkflowService.delete_stage(stage_id, db):
@@ -227,7 +227,7 @@ def reorder_stages(
     workflow_id: UUID,
     stage_ids: List[UUID],
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Reorder stages by providing ordered list of stage IDs."""
     WorkflowService.reorder_stages(workflow_id, stage_ids, db)
@@ -241,7 +241,7 @@ def create_step(
     stage_id: UUID,
     payload: StepCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Add a step to a stage."""
     step = WorkflowService.create_step(
@@ -266,7 +266,7 @@ def create_step(
 def get_steps(
     stage_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List steps for a stage."""
     steps = WorkflowService.list_steps(stage_id, db)
@@ -289,7 +289,7 @@ def update_step(
     step_id: UUID,
     payload: StepUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Update a step."""
     step = WorkflowService.update_step(
@@ -314,7 +314,7 @@ def update_step(
 def delete_step(
     step_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Delete a step and all its tasks."""
     if not WorkflowService.delete_step(step_id, db):
@@ -329,7 +329,7 @@ def create_task(
     step_id: UUID,
     payload: TaskCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Add a task to a step."""
     task = WorkflowService.create_task(
@@ -354,7 +354,7 @@ def create_task(
 def get_tasks(
     step_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List tasks for a step."""
     tasks = WorkflowService.list_tasks(step_id, db)
@@ -377,7 +377,7 @@ def update_task(
     task_id: UUID,
     payload: TaskUpdate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Update a task."""
     task = WorkflowService.update_task(
@@ -402,7 +402,7 @@ def update_task(
 def delete_task(
     task_id: UUID,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
 ):
     """Delete a task and its agent links."""
     if not WorkflowService.delete_task(task_id, db):
