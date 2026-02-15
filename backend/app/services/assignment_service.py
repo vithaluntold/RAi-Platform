@@ -21,10 +21,21 @@ from app.models.agent import (
 )
 from app.services.notification_service import NotificationService
 from app.models.notification import NotificationType
+from app.services.automation_service import AutomationEngine, DependencyService
 
 
 class AssignmentService:
     """Service for managing workflow assignments"""
+
+    @staticmethod
+    def _get_assignment_label(assignment: "WorkflowAssignment", db: Session) -> str:
+        """Resolve a human-readable label for an assignment by looking up 
+        the linked workflow template name."""
+        from app.models.workflow import Workflow
+        workflow = db.query(Workflow).filter(
+            Workflow.id == assignment.workflow_id
+        ).first()
+        return workflow.name if workflow else f"Assignment {assignment.id}"
 
     @staticmethod
     def activate_assignment(assignment_id: UUID, db: Session) -> None:
@@ -55,6 +66,9 @@ class AssignmentService:
             WorkflowStage.workflow_id == workflow.id
         ).order_by(WorkflowStage.position).all()
 
+        # Entity ID map for dependency cloning: {template_id: cloned_id}
+        entity_id_map = {}
+
         # Clone each stage with its steps and tasks
         for stage in stages:
             cloned_stage = AssignmentWorkflowStage(
@@ -64,9 +78,11 @@ class AssignmentService:
                 description=stage.description,
                 order=stage.position,
                 status="not_started",
+                execution_mode=getattr(stage, 'execution_mode', 'sequential') or 'sequential',
             )
             db.add(cloned_stage)
             db.flush()  # Get ID for child inserts
+            entity_id_map[stage.id] = cloned_stage.id
 
             # Get steps in stage
             steps = db.query(WorkflowStep).filter(
@@ -81,9 +97,11 @@ class AssignmentService:
                     description=step.description,
                     order=step.position,
                     status="not_started",
+                    execution_mode=getattr(step, 'execution_mode', 'sequential') or 'sequential',
                 )
                 db.add(cloned_step)
                 db.flush()
+                entity_id_map[step.id] = cloned_step.id
 
                 # Get tasks in step
                 tasks = db.query(WorkflowTask).filter(
@@ -101,6 +119,7 @@ class AssignmentService:
                     )
                     db.add(cloned_task)
                     db.flush()
+                    entity_id_map[task.id] = cloned_task.id
 
                     # Clone agents attached to this template task
                     template_agents = db.query(WorkflowTaskAgent).filter(
@@ -121,7 +140,26 @@ class AssignmentService:
                         )
                         db.add(cloned_agent)
 
+        # Clone template dependencies into assignment-level dependencies
+        DependencyService.clone_dependencies_for_assignment(
+            assignment_id=assignment.id,
+            workflow_id=workflow.id,
+            entity_id_map=entity_id_map,
+            db=db,
+        )
+
         db.commit()
+
+        # Fire automation trigger: assignment activated
+        try:
+            AutomationEngine.fire_trigger(
+                trigger_event="assignment_activated",
+                assignment_id=assignment.id,
+                context={"workflow_name": workflow.name},
+                db=db,
+            )
+        except Exception:
+            pass  # Automation failures should not block activation
 
     @staticmethod
     def get_assignment_hierarchy(assignment_id: UUID, db: Session) -> dict:
@@ -198,6 +236,7 @@ class AssignmentService:
                     "order": step.order,
                     "due_date": step.due_date,
                     "completed_date": step.completed_date,
+                    "execution_mode": getattr(step, 'execution_mode', 'sequential') or 'sequential',
                     "tasks": tasks_list,
                 })
 
@@ -210,6 +249,7 @@ class AssignmentService:
                 "order": stage.order,
                 "start_date": stage.start_date,
                 "completed_date": stage.completed_date,
+                "execution_mode": getattr(stage, 'execution_mode', 'sequential') or 'sequential',
                 "steps": steps_data,
             })
 
@@ -356,7 +396,7 @@ class AssignmentService:
             step = db.query(AssignmentWorkflowStep).filter(
                 AssignmentWorkflowStep.id == task.step_id
             ).first()
-            assignment_name = ""
+            assignment_label = ""
             assignment_id = None
             if step:
                 stage = db.query(AssignmentWorkflowStage).filter(
@@ -367,18 +407,38 @@ class AssignmentService:
                         WorkflowAssignment.id == stage.assignment_id
                     ).first()
                     if assignment:
-                        assignment_name = assignment.name
+                        assignment_label = AssignmentService._get_assignment_label(assignment, db)
                         assignment_id = assignment.id
             notify_user = task.assigned_to or (assigned_to if assigned_to else None)
             if notify_user:
                 NotificationService.notify_task_completed(
                     db=db,
                     task_name=task.name,
-                    assignment_name=assignment_name,
+                    assignment_name=assignment_label,
                     assigned_to=notify_user,
                     assignment_id=assignment_id,
                 )
                 db.commit()
+
+            # Fire automation trigger: task completed
+            if assignment_id:
+                try:
+                    DependencyService.mark_dependencies_satisfied_by_source(
+                        assignment_id=assignment_id,
+                        source_entity_type="task",
+                        source_entity_id=task.id,
+                        db=db,
+                    )
+                    AutomationEngine.fire_trigger(
+                        trigger_event="task_completed",
+                        assignment_id=assignment_id,
+                        entity_type="task",
+                        entity_id=task.id,
+                        context={"task_name": task.name},
+                        db=db,
+                    )
+                except Exception:
+                    pass
 
         return {
             "id": str(task.id),
@@ -441,10 +501,28 @@ class AssignmentService:
                         NotificationService.notify_step_completed(
                             db=db,
                             step_name=step.name,
-                            assignment_name=_assignment.name,
+                            assignment_name=AssignmentService._get_assignment_label(_assignment, db),
                             assigned_to=step.assigned_to,
                             assignment_id=_assignment.id,
                         )
+                    if _assignment:
+                        try:
+                            DependencyService.mark_dependencies_satisfied_by_source(
+                                assignment_id=_assignment.id,
+                                source_entity_type="step",
+                                source_entity_id=step.id,
+                                db=db,
+                            )
+                            AutomationEngine.fire_trigger(
+                                trigger_event="step_completed",
+                                assignment_id=_assignment.id,
+                                entity_type="step",
+                                entity_id=step.id,
+                                context={"step_name": step.name},
+                                db=db,
+                            )
+                        except Exception:
+                            pass
             elif any_blocked:
                 step.status = "in_progress"
                 result["step"] = "in_progress"
@@ -493,10 +571,28 @@ class AssignmentService:
                     NotificationService.notify_stage_completed(
                         db=db,
                         stage_name=stage.name,
-                        assignment_name=_assignment_for_stage.name,
+                        assignment_name=AssignmentService._get_assignment_label(_assignment_for_stage, db),
                         assigned_to=stage.assigned_to,
                         assignment_id=_assignment_for_stage.id,
                     )
+                if _assignment_for_stage:
+                    try:
+                        DependencyService.mark_dependencies_satisfied_by_source(
+                            assignment_id=_assignment_for_stage.id,
+                            source_entity_type="stage",
+                            source_entity_id=stage.id,
+                            db=db,
+                        )
+                        AutomationEngine.fire_trigger(
+                            trigger_event="stage_completed",
+                            assignment_id=_assignment_for_stage.id,
+                            entity_type="stage",
+                            entity_id=stage.id,
+                            context={"stage_name": stage.name},
+                            db=db,
+                        )
+                    except Exception:
+                        pass
             elif any_in_progress:
                 stage.status = "in_progress"
                 if not stage.start_date:
@@ -536,13 +632,23 @@ class AssignmentService:
                 result["assignment"] = "completed"
 
                 # Notify assignment completed
-                if assignment.assigned_to:
+                if assignment.assigned_by:
                     NotificationService.notify_assignment_completed(
                         db=db,
-                        assignment_name=assignment.name,
-                        assigned_to=assignment.assigned_to,
+                        assignment_name=AssignmentService._get_assignment_label(assignment, db),
+                        assigned_to=assignment.assigned_by,
                         assignment_id=assignment.id,
                     )
+                # Fire automation trigger: assignment completed
+                try:
+                    AutomationEngine.fire_trigger(
+                        trigger_event="assignment_completed",
+                        assignment_id=assignment.id,
+                        context={"assignment_id": str(assignment.id)},
+                        db=db,
+                    )
+                except Exception:
+                    pass
             elif any_in_progress:
                 assignment.status = "in_progress"
                 if not assignment.start_date:
@@ -601,7 +707,7 @@ class AssignmentService:
                     NotificationService.notify_step_completed(
                         db=db,
                         step_name=step.name,
-                        assignment_name=_assgn.name,
+                        assignment_name=AssignmentService._get_assignment_label(_assgn, db),
                         assigned_to=notify_user,
                         assignment_id=_assgn.id,
                     )
@@ -717,7 +823,7 @@ class AssignmentService:
                 NotificationService.notify_stage_completed(
                     db=db,
                     stage_name=stage.name,
-                    assignment_name=_assgn_for_stage.name,
+                    assignment_name=AssignmentService._get_assignment_label(_assgn_for_stage, db),
                     assigned_to=notify_user,
                     assignment_id=_assgn_for_stage.id,
                 )

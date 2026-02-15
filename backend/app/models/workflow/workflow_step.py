@@ -12,6 +12,7 @@ class WorkflowStep(Base):
     """
     Template step within a workflow stage.
     Steps break down each stage into more granular units of work.
+    Supports parallel execution mode for concurrent steps.
     """
     __tablename__ = "workflow_steps"
 
@@ -26,6 +27,9 @@ class WorkflowStep(Base):
 
     # Ordering within stage
     position = Column(Integer, nullable=False)
+
+    # Execution mode: sequential (default) or parallel
+    execution_mode = Column(String(50), default="sequential", nullable=False)
 
     # Custom metadata
     custom_metadata = Column(JSON, nullable=True)

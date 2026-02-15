@@ -55,3 +55,21 @@ from app.models.reminder import (  # noqa
     ReminderEntityType,
     ReminderOffset,
 )
+from app.models.document import Document, DocumentStatus, DocumentCategory  # noqa
+from app.models.automation import (  # noqa
+    WorkflowDependency,
+    AssignmentDependency,
+    DependencyType,
+    AutomationRule,
+    AutomationCondition,
+    AutomationAction,
+    AutomationExecutionLog,
+    TriggerEvent,
+    ActionType,
+    ConditionOperator,
+    AutomationRuleStatus,
+    WorkflowSOP,
+    RecurringSchedule,
+    RecurrenceFrequency,
+    ExecutionMode,
+)

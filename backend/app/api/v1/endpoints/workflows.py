@@ -149,6 +149,7 @@ def create_stage(
         name=payload.name,
         description=payload.description,
         position=payload.position,
+        execution_mode=payload.execution_mode,
         db=db,
     )
     return {
@@ -157,6 +158,7 @@ def create_stage(
         "name": stage.name,
         "description": stage.description,
         "position": stage.position,
+        "execution_mode": stage.execution_mode or "sequential",
         "created_at": stage.created_at,
         "updated_at": stage.updated_at,
     }
@@ -177,6 +179,7 @@ def get_stages(
             "name": s.name,
             "description": s.description,
             "position": s.position,
+            "execution_mode": s.execution_mode or "sequential",
             "created_at": s.created_at,
             "updated_at": s.updated_at,
         }
@@ -198,6 +201,7 @@ def update_stage(
         name=payload.name,
         description=payload.description,
         position=payload.position,
+        execution_mode=payload.execution_mode,
     )
     if not stage:
         raise HTTPException(status_code=404, detail="Stage not found")
@@ -207,6 +211,7 @@ def update_stage(
         "name": stage.name,
         "description": stage.description,
         "position": stage.position,
+        "execution_mode": stage.execution_mode or "sequential",
     }
 
 
@@ -249,6 +254,7 @@ def create_step(
         name=payload.name,
         description=payload.description,
         position=payload.position,
+        execution_mode=payload.execution_mode,
         db=db,
     )
     return {
@@ -257,6 +263,7 @@ def create_step(
         "name": step.name,
         "description": step.description,
         "position": step.position,
+        "execution_mode": step.execution_mode or "sequential",
         "created_at": step.created_at,
         "updated_at": step.updated_at,
     }
@@ -277,6 +284,7 @@ def get_steps(
             "name": s.name,
             "description": s.description,
             "position": s.position,
+            "execution_mode": s.execution_mode or "sequential",
             "created_at": s.created_at,
             "updated_at": s.updated_at,
         }
@@ -298,6 +306,7 @@ def update_step(
         name=payload.name,
         description=payload.description,
         position=payload.position,
+        execution_mode=payload.execution_mode,
     )
     if not step:
         raise HTTPException(status_code=404, detail="Step not found")
@@ -307,6 +316,7 @@ def update_step(
         "name": step.name,
         "description": step.description,
         "position": step.position,
+        "execution_mode": step.execution_mode or "sequential",
     }
 
 

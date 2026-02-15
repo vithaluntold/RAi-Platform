@@ -32,6 +32,9 @@ class AssignmentWorkflowStep(Base):
     # Ordering within stage
     order = Column(Integer, nullable=False)
     
+    # Execution mode: sequential (default) or parallel
+    execution_mode = Column(String(50), default="sequential", nullable=False)
+    
     # Status tracking (reuse StageStatus for consistency)
     status = Column(
         SQLEnum(StageStatus),

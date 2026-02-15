@@ -12,6 +12,7 @@ class WorkflowStage(Base):
     """
     Template stage within a workflow.
     Defines the sequential phases of a workflow process.
+    Supports parallel execution mode for concurrent stages.
     """
     __tablename__ = "workflow_stages"
 
@@ -26,6 +27,9 @@ class WorkflowStage(Base):
 
     # Ordering within workflow
     position = Column(Integer, nullable=False)
+
+    # Execution mode: sequential (default) or parallel
+    execution_mode = Column(String(50), default="sequential", nullable=False)
 
     # Custom metadata
     custom_metadata = Column(JSON, nullable=True)

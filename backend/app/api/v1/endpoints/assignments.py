@@ -185,8 +185,9 @@ async def update_assignment(
         if not assignment:
             raise HTTPException(status_code=404, detail="Assignment not found")
 
-        # If transitioning to active, clone workflow
-        if payload.status == "active" and assignment.status != "active":
+        # If transitioning to active, clone workflow (guard against double-activation)
+        current_status = assignment.status.value if hasattr(assignment.status, 'value') else str(assignment.status)
+        if payload.status == "active" and current_status != "active":
             AssignmentService.activate_assignment(UUID(assignment_id), db)
 
         # Update fields

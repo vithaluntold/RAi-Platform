@@ -56,6 +56,24 @@ from app.models.reminder import (
     ReminderEntityType,
     ReminderOffset,
 )
+from app.models.document import Document, DocumentStatus, DocumentCategory
+from app.models.automation import (
+    WorkflowDependency,
+    AssignmentDependency,
+    DependencyType,
+    AutomationRule,
+    AutomationCondition,
+    AutomationAction,
+    AutomationExecutionLog,
+    TriggerEvent,
+    ActionType,
+    ConditionOperator,
+    AutomationRuleStatus,
+    WorkflowSOP,
+    RecurringSchedule,
+    RecurrenceFrequency,
+    ExecutionMode,
+)
 
 __all__ = [
     # User models
@@ -111,4 +129,24 @@ __all__ = [
     "ReminderStatus",
     "ReminderEntityType",
     "ReminderOffset",
+    # Document models
+    "Document",
+    "DocumentStatus",
+    "DocumentCategory",
+    # Automation models
+    "WorkflowDependency",
+    "AssignmentDependency",
+    "DependencyType",
+    "AutomationRule",
+    "AutomationCondition",
+    "AutomationAction",
+    "AutomationExecutionLog",
+    "TriggerEvent",
+    "ActionType",
+    "ConditionOperator",
+    "AutomationRuleStatus",
+    "WorkflowSOP",
+    "RecurringSchedule",
+    "RecurrenceFrequency",
+    "ExecutionMode",
 ]

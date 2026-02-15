@@ -40,13 +40,15 @@ class WorkflowResponse(BaseModel):
 class StageCreate(BaseModel):
     name: str = Field(..., min_length=1, max_length=255)
     description: Optional[str] = Field(None, max_length=1000)
-    position: Optional[int] = None  # auto-calculated if omitted
+    position: Optional[int] = None
+    execution_mode: Optional[str] = Field("sequential", description="sequential or parallel")  # auto-calculated if omitted
 
 
 class StageUpdate(BaseModel):
     name: Optional[str] = Field(None, min_length=1, max_length=255)
     description: Optional[str] = Field(None, max_length=1000)
     position: Optional[int] = None
+    execution_mode: Optional[str] = None
 
 
 class StageResponse(BaseModel):
@@ -55,6 +57,7 @@ class StageResponse(BaseModel):
     name: str
     description: Optional[str]
     position: int
+    execution_mode: str = "sequential"
     created_at: datetime
     updated_at: datetime
 
@@ -68,12 +71,14 @@ class StepCreate(BaseModel):
     name: str = Field(..., min_length=1, max_length=255)
     description: Optional[str] = Field(None, max_length=1000)
     position: Optional[int] = None
+    execution_mode: Optional[str] = Field("sequential", description="sequential or parallel")
 
 
 class StepUpdate(BaseModel):
     name: Optional[str] = Field(None, min_length=1, max_length=255)
     description: Optional[str] = Field(None, max_length=1000)
     position: Optional[int] = None
+    execution_mode: Optional[str] = None
 
 
 class StepResponse(BaseModel):
@@ -82,6 +87,7 @@ class StepResponse(BaseModel):
     name: str
     description: Optional[str]
     position: int
+    execution_mode: str = "sequential"
     created_at: datetime
     updated_at: datetime
 
@@ -134,6 +140,7 @@ class StepWithTasks(BaseModel):
     name: str
     description: Optional[str]
     position: int
+    execution_mode: str = "sequential"
     tasks: List[TaskWithAgents] = []
 
     class Config:
@@ -145,6 +152,7 @@ class StageWithSteps(BaseModel):
     name: str
     description: Optional[str]
     position: int
+    execution_mode: str = "sequential"
     steps: List[StepWithTasks] = []
 
     class Config:

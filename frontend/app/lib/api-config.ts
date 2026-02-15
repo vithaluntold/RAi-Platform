@@ -16,6 +16,9 @@ export const API_ENDPOINTS = {
   // Documents
   DOCUMENTS: "/api/v1/documents",
   DOCUMENT: (id: string) => `/api/v1/documents/${id}`,
+  DOCUMENT_UPLOAD: "/api/v1/documents/upload",
+  DOCUMENT_STATS: "/api/v1/documents/stats",
+  DOCUMENT_DOWNLOAD: (id: string) => `/api/v1/documents/${id}/download`,
 
   // Workflows
   WORKFLOWS: "/api/v1/workflows",

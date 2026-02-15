@@ -117,6 +117,7 @@ class WorkflowService:
         db: Session,
         description: Optional[str] = None,
         position: Optional[int] = None,
+        execution_mode: Optional[str] = "sequential",
     ) -> WorkflowStage:
         if position is None:
             max_pos = db.query(func.max(WorkflowStage.position)).filter(
@@ -128,6 +129,7 @@ class WorkflowService:
             name=name,
             description=description,
             position=position,
+            execution_mode=execution_mode or "sequential",
         )
         db.add(stage)
         db.commit()
@@ -150,6 +152,7 @@ class WorkflowService:
         name: Optional[str] = None,
         description: Optional[str] = None,
         position: Optional[int] = None,
+        execution_mode: Optional[str] = None,
     ) -> Optional[WorkflowStage]:
         stage = db.query(WorkflowStage).filter(WorkflowStage.id == stage_id).first()
         if not stage:
@@ -160,6 +163,8 @@ class WorkflowService:
             stage.description = description
         if position is not None:
             stage.position = position
+        if execution_mode is not None:
+            stage.execution_mode = execution_mode
         stage.updated_at = datetime.utcnow()
         db.commit()
         db.refresh(stage)
@@ -205,6 +210,7 @@ class WorkflowService:
         db: Session,
         description: Optional[str] = None,
         position: Optional[int] = None,
+        execution_mode: Optional[str] = "sequential",
     ) -> WorkflowStep:
         if position is None:
             max_pos = db.query(func.max(WorkflowStep.position)).filter(
@@ -216,6 +222,7 @@ class WorkflowService:
             name=name,
             description=description,
             position=position,
+            execution_mode=execution_mode or "sequential",
         )
         db.add(step)
         db.commit()
@@ -238,6 +245,7 @@ class WorkflowService:
         name: Optional[str] = None,
         description: Optional[str] = None,
         position: Optional[int] = None,
+        execution_mode: Optional[str] = None,
     ) -> Optional[WorkflowStep]:
         step = db.query(WorkflowStep).filter(WorkflowStep.id == step_id).first()
         if not step:
@@ -248,6 +256,8 @@ class WorkflowService:
             step.description = description
         if position is not None:
             step.position = position
+        if execution_mode is not None:
+            step.execution_mode = execution_mode
         step.updated_at = datetime.utcnow()
         db.commit()
         db.refresh(step)
@@ -405,6 +415,7 @@ class WorkflowService:
                     "name": step.name,
                     "description": step.description,
                     "position": step.position,
+                    "execution_mode": step.execution_mode or "sequential",
                     "tasks": tasks_data,
                 })
 
@@ -413,6 +424,7 @@ class WorkflowService:
                 "name": stage.name,
                 "description": stage.description,
                 "position": stage.position,
+                "execution_mode": stage.execution_mode or "sequential",
                 "steps": steps_data,
             })
 
