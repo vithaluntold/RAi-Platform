@@ -1,5 +1,25 @@
-// API configuration
-export const API_BASE_URL = typeof process !== 'undefined' && process.env.NEXT_PUBLIC_API_URL ? process.env.NEXT_PUBLIC_API_URL : "http://localhost:8000";
+// API configuration — resolved at RUNTIME to avoid stale cached URLs
+function resolveApiBaseUrl(): string {
+  // Client-side: detect environment from hostname at runtime
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname;
+    // Railway production — proxy through same origin (Next.js rewrites)
+    if (hostname === 'rai-platform-prod.up.railway.app') {
+      return '';
+    }
+    // Any other non-localhost domain — use same-origin proxy
+    if (hostname !== 'localhost' && hostname !== '127.0.0.1') {
+      return '';
+    }
+  }
+  // Local development or server-side rendering
+  if (typeof process !== 'undefined' && process.env.NEXT_PUBLIC_API_URL) {
+    return process.env.NEXT_PUBLIC_API_URL;
+  }
+  return 'http://localhost:8000';
+}
+
+export const API_BASE_URL = resolveApiBaseUrl();
 
 export const API_ENDPOINTS = {
   // Auth
