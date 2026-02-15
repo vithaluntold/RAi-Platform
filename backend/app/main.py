@@ -50,10 +50,20 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title=settings.PROJECT_NAME, lifespan=lifespan)
 
-# CORS middleware
+# Build CORS origins — include configured origins + Railway auto-generated domains
+_cors_origins: list[str] = [origin.rstrip("/") for origin in settings.BACKEND_CORS_ORIGINS]
+# Also allow Railway's auto-generated *.up.railway.app domains
+import os as _os
+for _var in ("RAILWAY_SERVICE_PROUD_ALIGNMENT_URL", "RAILWAY_PUBLIC_DOMAIN"):
+    _val = _os.environ.get(_var, "")
+    if _val:
+        _url = f"https://{_val.rstrip('/')}" if not _val.startswith("http") else _val.rstrip("/")
+        if _url not in _cors_origins:
+            _cors_origins.append(_url)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[origin.rstrip("/") for origin in settings.BACKEND_CORS_ORIGINS],
+    allow_origins=_cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
