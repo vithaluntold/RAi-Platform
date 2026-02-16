@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 const backendUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
 const nextConfig: NextConfig = {
+  // Enable standalone output for Docker deployment
+  output: 'standalone',
+  
   // Proxy all /api/v1/* requests to the backend — eliminates CORS entirely
   rewrites: async () => [
     {
