@@ -63,6 +63,7 @@ CORS_ORIGINS=["https://your-frontend.railway.app"]
 ```
 
 **Generate secure keys:**
+
 ```bash
 # Generate SECRET_KEY
 python -c "import secrets; print(secrets.token_urlsafe(32))"
@@ -91,11 +92,13 @@ NODE_ENV=production
 ### 4. Post-Deployment
 
 1. **Run Database Migrations** (Backend service terminal):
+
    ```bash
    alembic upgrade head
    ```
 
 2. **Seed Database** (Backend service terminal):
+
    ```bash
    python seed_db.py
    ```
@@ -106,7 +109,7 @@ NODE_ENV=production
 
 ### 5. Default Credentials (After Seeding)
 
-```
+```text
 Admin:
 Email: admin@rai-platform.com
 Password: Admin@123456
@@ -128,21 +131,25 @@ Password: Manager@123456
 ## Troubleshooting
 
 ### Backend won't start
+
 1. Check DATABASE_URL is correct
 2. Verify all Azure environment variables are set
 3. Check logs: Railway dashboard → Service → Logs
 
 ### Frontend can't connect to backend
+
 1. Verify NEXT_PUBLIC_API_URL points to backend service
 2. Check CORS_ORIGINS in backend includes frontend URL
 3. Ensure backend service is running
 
 ### Database migration errors
+
 1. Run `alembic current` to check migration state
 2. If needed, reset: `alembic downgrade base` then `alembic upgrade head`
 3. Check PostgreSQL connection and permissions
 
 ### Compliance analysis fails
+
 1. Verify all Azure credentials are valid
 2. Check Azure OpenAI quota and deployment
 3. Verify Document Intelligence service is active
@@ -158,6 +165,7 @@ Password: Manager@123456
 ## Scaling
 
 Railway auto-scales based on load. For manual scaling:
+
 1. Go to service settings
 2. Adjust replicas under "Deploy" settings
 3. Configure resource limits if needed
@@ -165,6 +173,7 @@ Railway auto-scales based on load. For manual scaling:
 ## CI/CD
 
 Railway automatically deploys on push to `main` branch:
+
 1. Push to GitHub → Triggers Railway build
 2. Railway builds Docker images
 3. Runs health checks
@@ -190,8 +199,14 @@ Railway automatically deploys on push to `main` branch:
 - Monitor Azure API usage (main cost driver)
 - Set up budget alerts in Azure portal
 
+## Platform Statistics
+
+- **IFRS/IAS Standards**: 42 (covers major standards)
+- **Decision Tree Questions**: 1,474 compliance checks
+- **Frameworks Supported**: IFRS (US GAAP and Ind AS ready)
+
 ## Support
 
-- Railway docs: https://docs.railway.app
-- GitHub issues: https://github.com/vithaluntold/RAi-Platform/issues
+- Railway docs: <https://docs.railway.app>
+- GitHub issues: <https://github.com/vithaluntold/RAi-Platform/issues>
 - Backend API docs: `https://your-backend.railway.app/docs`

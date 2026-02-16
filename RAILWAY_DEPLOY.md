@@ -3,11 +3,11 @@
 ## One-Click Setup
 
 1. **Fork Repository** (if not already done)
-   - Go to: https://github.com/vithaluntold/RAi-Platform
+   - Go to: <https://github.com/vithaluntold/RAi-Platform>
    - Click "Fork"
 
 2. **Create Railway Account**
-   - Visit: https://railway.app
+   - Visit: <https://railway.app>
    - Sign up with GitHub
 
 3. **Deploy Backend**
@@ -78,7 +78,7 @@ Run this twice - once for `SECRET_KEY`, once for `JWT_SECRET_KEY`.
 - [ ] Backend health check: `https://your-backend.railway.app/health`
 - [ ] Frontend loads: `https://your-frontend.railway.app`
 - [ ] Database seeded with users
-- [ ] Login with admin@rai-platform.com / Admin@123456
+- [ ] Login with `admin@rai-platform.com` / `Admin@123456`
 - [ ] Change default passwords
 - [ ] Test compliance analysis workflow
 - [ ] Verify agent registry shows compliance agent
@@ -97,6 +97,7 @@ Run this twice - once for `SECRET_KEY`, once for `JWT_SECRET_KEY`.
 - **Total: $5-10/month** (plus Azure API costs)
 
 Azure costs depend on usage:
+
 - OpenAI GPT-4: ~$0.03/1K tokens
 - Document Intelligence: ~$10/1K pages
 - AI Search: ~$75/month (Basic tier)
