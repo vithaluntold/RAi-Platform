@@ -1,0 +1,1073 @@
+{
+  "title": "IFRS 14 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 14",
+      "title": "Rate-regulated activities",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 14.",
+      "items": [
+        {
+          "id": "618.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.20",
+          "question": "Does the entity have regulatory deferral account debit balances?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present a separate line item in the statement of financial position for the total of all regulatory deferral account debit balances?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account debit balances?",
+            "guidance": "Check the entity's financial records and disclosures. Regulatory deferral accounts are specific to entities subject to rate regulation. Look for the presence of amounts that comply with IFRS 14 definitions in the statement of financial position or related notes.",
+            "yes_case": {
+              "question": "Are the regulatory deferral account debit balances presented as a separate line item in the statement of financial position?",
+              "guidance": "Review the statement of financial position as required by IFRS 14.20. Ensure that the regulatory deferral account balances are clearly identified as a separate line item and not included within other asset categories.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "618.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.21",
+          "question": "Does the entity have regulatory deferral account balances as defined by IFRS 14?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present a separate line item in the statement of financial position for the total of all regulatory deferral account credit balances?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account balances as defined by IFRS 14?",
+            "guidance": "Review the entity's accounting policies and financial statements. Regulatory deferral accounts arise from rate regulation and are recognized when an entity is within the scope of IFRS 14. Check if any balances meet the definition set in IFRS 14.6-9.",
+            "yes_case": {
+              "question": "Has the entity correctly presented regulatory deferral account balances in the statement of financial position?",
+              "guidance": "Ensure the regulatory deferral account balances are shown separately. IFRS 14.21 requires these balances to be presented as separate line items distinctly identified from other assets and liabilities.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity fail to present regulatory deferral account credit balances as a separate line item distinctly identified in the statement of financial position?",
+                "guidance": "Verify if the regulatory deferral account credit balances are combined with other liabilities or omitted entirely. Failing to comply with IFRS 14.21 results in non-compliance.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "619",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.22",
+          "question": "Does the entity have regulatory deferral account balances as defined under IFRS 14?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present, in the other comprehensive income section of the statement of profit or loss and other comprehensive income, the net movement in all regulatory deferral account balances for the reporting period that relate to items recognised in other comprehensive income?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account balances as defined under IFRS 14?",
+            "guidance": "Check the entity's financial statements and accounting policies to determine if regulatory deferral account balances are recognized. Refer to IAS 1 and IFRS 14 for definitions. Regulatory deferral accounts are unique to entities subject to rate regulation and are recognized only if specified criteria in IFRS 14 are met.",
+            "yes_case": {
+              "question": "Are there any movements in the regulatory deferral account balances during the reporting period that relate to items recognized in other comprehensive income?",
+              "guidance": "Review the movements in regulatory deferral account balances disclosed in the notes and cross-reference with the Statement of Profit or Loss and Other Comprehensive Income. Identify whether these movements are connected specifically to items presented in the other comprehensive income section.",
+              "yes_case": {
+                "question": "Does the entity present the net movement in all regulatory deferral account balances relating to items recognized in other comprehensive income within the other comprehensive income section of the statement of profit or loss and other comprehensive income?",
+                "guidance": "Examine the other comprehensive income section of the Statement of Profit or Loss and Other Comprehensive Income. Verify that the net movement in all regulatory deferral account balances is presented clearly and in accordance with IFRS 14. Check for proper aggregation and labeling.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "620.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.22",
+          "question": "Does the entity prepare financial statements that include regulatory deferral account balances under IFRS 14?",
+          "question_type": "Followup",
+          "source_question": "619",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity use a separate line item for the net movement related to items that will not be reclassified subsequently to profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements that include regulatory deferral account balances under IFRS 14?",
+            "guidance": "Review the accounting policies and financial statements to determine if IFRS 14 is applied. Regulatory deferral account balances are specific to entities subject to rate regulation. Verify that IFRS 14 is mentioned explicitly in the accounting framework and that such balances are presented.",
+            "yes_case": {
+              "question": "Do the financial statements include items related to regulatory deferral account balances that will not be reclassified subsequently to profit or loss?",
+              "guidance": "Inspect the notes to the financial statements and the statement of profit or loss and other comprehensive income. Check for regulatory deferral account-related items that are classified within other comprehensive income and confirm whether they are stated as 'not reclassified to profit or loss'.",
+              "yes_case": {
+                "question": "Does the entity use a separate line item for the net movement related to items that will not be reclassified subsequently to profit or loss?",
+                "guidance": "Evaluate the statement of profit or loss and other comprehensive income. Verify that all the net movements related to these items are presented separately under regulatory deferral accounts, ensuring compliance with IFRS 14.22.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "620.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.22",
+          "question": "Does the entity apply IFRS 14 Regulatory Deferral Accounts?",
+          "question_type": "Followup",
+          "source_question": "619",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity use a separate line item for the net movement related to items that will be reclassified subsequently to profit or loss when specific conditions are met?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 14 Regulatory Deferral Accounts?",
+            "guidance": "Review the entity's accounting policies and disclosures. IFRS 14 applies only to entities that are first-time adopters of IFRS and are recognizing regulatory deferral account balances. Check the entity's financial statements for the presence of regulatory deferral accounts and note if IFRS 14 is explicitly applied.",
+            "yes_case": {
+              "question": "Does the entity recognize items that will be reclassified subsequently to profit or loss based on specific conditions?",
+              "guidance": "Examine the nature of the regulatory deferral account balances recognized by the entity. Review their classification and assess whether specific conditions for reclassification into profit or loss are disclosed. Ensure compliance with IFRS 14.22.",
+              "yes_case": {
+                "question": "Does the entity use a separate line item for the net movement related to these items in the financial statements?",
+                "guidance": "Inspect the presentation in the statement of profit or loss and other comprehensive income. IFRS 14.22 requires the net movement related to items that will be reclassified to profit or loss under certain conditions to be presented as a separate line item. Verify the entity is segregating such movements appropriately.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "621",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.23",
+          "question": "Does the entity have regulatory deferral account balances as defined by IFRS 14?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present a separate line item in the profit or loss section of the statement of profit or loss and other comprehensive income (or in the separate statement of profit or loss) for the remaining net movement in all regulatory deferral account balances for the reporting period, excluding movements that are not reflected in profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account balances as defined by IFRS 14?",
+            "guidance": "Check the financial statements and accounting policies note to determine if the entity applies IFRS 14 and has balances arising from rate-regulated activities that qualify as regulatory deferral account balances. Regulatory deferral accounts relate to costs or revenues that are deferred under the permission of a rate regulator. Avoid assuming applicability without explicit evidence of regulatory deferral accounts.",
+            "yes_case": {
+              "question": "Have any net movements in regulatory deferral account balances occurred during the reporting period?",
+              "guidance": "Review the movements in the regulatory deferral account balances for the reporting period in the financial statements. Look at reconciliation schedules and statements showing changes in these accounts. Ensure that only items affecting profit or loss are considered.",
+              "yes_case": {
+                "question": "Is the net movement (excluding movements not reflected in profit or loss) presented as a separate line item in the statement of profit or loss and other comprehensive income or separate statement of profit or loss?",
+                "guidance": "Check the statement of profit or loss and other comprehensive income or the separate statement of profit or loss for a distinct line item showing the remaining net movement in regulatory deferral account balances. This should exclude movements not reflected in profit or loss. IFRS 14.23 requires this disclosure separately for clarity. Ensure the line item is clearly labeled.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "622",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.24, IFRS 14.B9–B12",
+          "question": "Does the entity recognise regulatory deferral account balances?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "When an entity recognises a deferred tax asset or liability as a result of recognising regulatory deferral account balances, does the entity present the resulting deferred tax asset (liability) and the related movement with the related regulatory deferral account balances and movements, instead of within the totals presented in accordance with IAS 12?",
+          "decision_tree": {
+            "question": "Does the entity recognise regulatory deferral account balances?",
+            "guidance": "Verify whether the entity applies IFRS 14 and has regulatory deferral account balances recorded. Check the notes to the financial statements for any reference to IFRS 14 adoption and the existence of these balances as permitted under regulatory frameworks.",
+            "yes_case": {
+              "question": "Has the entity recognised deferred tax assets or liabilities arising from these regulatory deferral account balances?",
+              "guidance": "Review the deferred tax section of the entity's financial statements and cross-reference it with the disclosures on regulatory deferral account balances. Ensure that deferred tax assets or liabilities are directly linked to these balances under IFRS 14.",
+              "yes_case": {
+                "question": "Does the entity present the resulting deferred tax asset (liability) and the related movements with the regulatory deferral account balances and movements?",
+                "guidance": "Check the presentation within the Statement of Financial Position and Statement of Profit or Loss and Other Comprehensive Income. Ensure deferred tax assets or liabilities linked to regulatory deferral accounts are shown with these accounts, rather than included with totals calculated under IAS 12. Pay attention to IFRS 14.24 and B9–B12 for presentation rules.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "623.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B11",
+          "question": "Does the entity apply IFRS 14 for regulatory deferral accounts?",
+          "question_type": "Followup",
+          "source_question": "622",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Instead of applying IAS 12, does the entity present the deferred tax asset (liability) with the line items presented for the regulatory deferral account debit balances and credit balances?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 14 for regulatory deferral accounts?",
+            "guidance": "Check whether the entity's financial statements include regulatory deferral account debit balances or credit balances as defined under IFRS 14. These arise when an entity is subject to rate regulation. Review the accounting policies note for references to IFRS 14 application.",
+            "yes_case": {
+              "question": "Does the entity have deferred tax assets or liabilities related to regulatory deferral accounts?",
+              "guidance": "Review the Statement of Financial Position and accompanying notes. Verify whether deferred tax assets or liabilities are recognized and specifically linked to regulatory deferral account balances.",
+              "yes_case": {
+                "question": "Does the entity present the deferred tax asset (liability) with the line items for regulatory deferral account debit balances and credit balances instead of applying IAS 12?",
+                "guidance": "Examine the Statement of Financial Position for deferred tax amounts. Ensure such amounts are grouped or presented alongside regulatory deferral account debit and credit balances instead of being presented separately under IAS 12 requirements.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "623.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B11",
+          "question": "Does the entity apply IFRS 14 for regulatory deferral accounts?",
+          "question_type": "Followup",
+          "source_question": "622",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Instead of applying IAS 12, does the entity present the deferred tax asset (liability) as a separate line item alongside the related regulatory deferral account debit balances and credit balances?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 14 for regulatory deferral accounts?",
+            "guidance": "Review the entity’s financial statements and note disclosures to determine if the entity has elected to apply IFRS 14. Check for references to regulatory deferral accounts in the accounting policy notes.",
+            "yes_case": {
+              "question": "Does the entity have deferred tax assets or liabilities related to its regulatory deferral account balances?",
+              "guidance": "Examine the balance sheet and accompanying notes to check if deferred tax assets or liabilities related to the regulatory deferral accounts are reported. Focus on deferred tax items directly associated with regulatory deferral balances.",
+              "yes_case": {
+                "question": "Does the entity present the deferred tax asset or liability as a separate line item alongside the related regulatory deferral account debit balances and credit balances?",
+                "guidance": "Verify the presentation in the balance sheet. Ensure that deferred tax assets/liabilities are shown as separate line items directly adjacent to the regulatory deferral account debit and credit balances, as required by IFRS 14.B11. Avoid combining these items into other line items or failing to disclose them distinctly.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "624.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B12",
+          "question": "Does the entity have deferred tax assets or liabilities?",
+          "question_type": "Followup",
+          "source_question": "622",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Instead of applying IAS 12, does the entity present the movement in the deferred tax asset (liability) with the line items presented for the movements in regulatory deferral account balances?",
+          "decision_tree": {
+            "question": "Does the entity have deferred tax assets or liabilities?",
+            "guidance": "Review the entity's Statement of Financial Position and notes to the financial statements to confirm whether deferred tax assets or liabilities are recognized. Cross-check with applicable tax regulations and IAS 12 requirements. Look for relevant disclosures under IAS 12.",
+            "yes_case": {
+              "question": "Does the entity apply IFRS 14 for regulatory deferral account balances?",
+              "guidance": "Review the accounting policies section of the financial statements to confirm application of IFRS 14. Verify the entity has regulatory deferral account balances recognized under IFRS 14. Cross-reference Section B of IFRS 14 for details.",
+              "yes_case": {
+                "question": "Does the entity present the movement in deferred tax assets or liabilities with the line items presented for movements in regulatory deferral account balances?",
+                "guidance": "Examine the entity's financial statements, specifically the presentation of movements in deferred tax assets or liabilities. Check if these movements are grouped or presented alongside regulatory deferral account balances on the face of financial statements or in the notes. Ensure compliance with IFRS 14.B12.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "624.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B12",
+          "question": "Does the entity apply IFRS 14 and have regulatory deferral account balances presented in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "622",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Instead of applying IAS 12, does the entity present the movement in the deferred tax asset (liability) as a separate line item alongside the related movements in regulatory deferral account balances?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 14 and have regulatory deferral account balances presented in its financial statements?",
+            "guidance": "Review the financial statements and accounting policies. Check if the entity has elected to apply IFRS 14 for regulatory deferral accounts. Regulatory deferral accounts are typically related to entities operating in rate-regulated industries. Ensure these balances exist and are recognized in accordance with IFRS 14.",
+            "yes_case": {
+              "question": "Does the entity have deferred tax assets or liabilities that are related to the regulatory deferral account balances?",
+              "guidance": "Examine the entity's deferred tax calculations. Confirm whether deferred tax assets or liabilities arise specifically due to regulatory deferral account balances. Cross-check with IAS 12 to verify the relationship between deferred tax balances and regulatory deferral expenditures.",
+              "yes_case": {
+                "question": "Does the entity present the movement in deferred tax assets (liabilities) as a separate line item alongside the related movements in regulatory deferral account balances?",
+                "guidance": "Inspect the statement of financial position and other related disclosures. Verify whether the movement of deferred tax assets (liabilities) is clearly presented as a distinct line item alongside movements in regulatory deferral account balances, as required by IFRS 14.B12.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "625",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.25, IFRS 14.B19–B22",
+          "question": "Does the entity have any discontinued operations or disposal groups as defined under IFRS 5?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "When presenting a discontinued operation or disposal group under IFRS 5, does the entity present any related regulatory deferral account balances and the net movement in those balances, as applicable, with the regulatory deferral account balances and movements instead of within the discontinued operations or disposal group?",
+          "decision_tree": {
+            "question": "Does the entity have any discontinued operations or disposal groups as defined under IFRS 5?",
+            "guidance": "Refer to the criteria for discontinued operations and disposal groups in IFRS 5. Determine whether the group of assets and liabilities meets the definition of held for sale or discontinued operations. Review financial statement disclosures and supporting schedules for details.",
+            "yes_case": {
+              "question": "Does the entity have regulatory deferral account balances as defined under IFRS 14?",
+              "guidance": "Check the financial records for the existence of regulatory deferral account balances, which are defined in IFRS 14 as amounts expected to be recovered through rates charged to customers as permitted by a rate regulator. Review the entity's regulatory framework and disclosures for references to such balances.",
+              "yes_case": {
+                "question": "Has the entity presented the regulatory deferral account balances and net movements with other regulatory deferral account balances, rather than within the discontinued operations or disposal group?",
+                "guidance": "Examine the financial statements and confirm the presentation. Regulatory deferral account balances and movements should appear separately, grouped with other regulatory deferral accounts, as specified in IFRS 14.25 and IFRS 14.B19–B22. Ensure the entity has not included them under the discontinued operations or disposal group section.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "626.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B20",
+          "question": "Does the entity have rate-regulated activities associated with discontinued operations?",
+          "question_type": "Followup",
+          "source_question": "625",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Instead of applying IFRS 5.33, does the entity present the movement in regulatory deferral account balances from the rate-regulated activities of the discontinued operation within the line item for movements in those balances related to profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity have rate-regulated activities associated with discontinued operations?",
+            "guidance": "Review the entity's operations and financial statements to identify if there are any rate-regulated activities that qualify as discontinued operations. Refer to IFRS 14 and IFRS 5 for definitions and criteria. Check for disclosures in the notes about regulatory deferral account balances related to rate-regulated activities.",
+            "yes_case": {
+              "question": "Does the entity recognize regulatory deferral account balances under IFRS 14?",
+              "guidance": "Verify if the entity applies IFRS 14 'Regulatory Deferral Accounts' and has recognized regulatory deferral account balances. Check the financial statements and disclosures for specific items classified under regulatory deferral account balances. Ensure adherence to IFRS 14.10 for recognition criteria.",
+              "yes_case": {
+                "question": "Does the entity present the movement in regulatory deferral account balances from the rate-regulated activities of the discontinued operation within the line item for movements in those balances related to profit or loss instead of applying IFRS 5.33?",
+                "guidance": "Check the financial statements, specifically the discontinued operations section and the profit or loss statements. Confirm if the movement in regulatory deferral account balances is presented within the specific line item for movements in those balances, instead of following IFRS 5.33. Pay attention to consistency in application and ensure compliance with IFRS 14.B20.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "626.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B20",
+          "question": "Does the entity have rate-regulated activities related to discontinued operations?",
+          "question_type": "Followup",
+          "source_question": "625",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Instead of applying IFRS 5.33, does the entity present the movement in regulatory deferral account balances from the rate-regulated activities of the discontinued operation as a separate line item alongside the related line item for movements in those balances related to profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity have rate-regulated activities related to discontinued operations?",
+            "guidance": "Review the entity's operations and financial statements, specifically looking for disclosures about rate-regulated activities. Check if any operations meet the definition of discontinued operations provided in IFRS 5.31-32. Ensure activities fall under the criteria of IFRS 14 regarding regulatory deferral account balances.",
+            "yes_case": {
+              "question": "Does the entity use regulatory deferral account balances in accordance with IFRS 14?",
+              "guidance": "Verify if the entity has elected to apply IFRS 14 for regulatory deferral accounts. Check the financial statements to ensure regulatory deferral account balances are recognized and disclosed appropriately according to IFRS 14 guidelines.",
+              "yes_case": {
+                "question": "Does the entity present the movement in regulatory deferral account balances from the rate-regulated activities of the discontinued operation as a separate line item alongside the related line item for movements in those balances related to profit or loss?",
+                "guidance": "Review the statement of profit or loss and other comprehensive income, ensuring movements related to regulatory deferral account balances from discontinued operations are presented as a separate line item, as required under IFRS 14.B20. Confirm that these movements are disclosed alongside corresponding items from ongoing operations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "627.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B21",
+          "question": "Does the entity have regulatory deferral account debit balances related to a disposal group?",
+          "question_type": "Followup",
+          "source_question": "625",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Instead of applying IFRS 5.38, does the entity present the total of the regulatory deferral account debit balances that are part of the disposal group within the line items for regulatory deferral account debit and credit balances?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account debit balances related to a disposal group?",
+            "guidance": "Check the entity's Statement of Financial Position and disposal group disclosures. Specifically, look for regulatory deferral account debit balances associated with disposal groups, as outlined in IFRS 14 and IFRS 5. Confirm this through notes and supporting schedules. Ensure you don't incorrectly include unrelated balances.",
+            "yes_case": {
+              "question": "Does the entity present the total of regulatory deferral account debit balances that are part of the disposal group within the line items for regulatory deferral account debit and credit balances?",
+              "guidance": "Review the presentation in the financial statements to ensure compliance with IFRS 14.B21. Verify that the regulatory deferral account debit balances linked to the disposal group are presented within the prescribed line items and not classified elsewhere, as required by IFRS 14. Pay attention to the disclosure notes and ensure alignment with IFRS 5.38 is avoided.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "627.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B21",
+          "question": "Does the entity have regulatory deferral account balances?",
+          "question_type": "Followup",
+          "source_question": "625",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Instead of applying IFRS 5.38, does the entity present the total of the regulatory deferral account debit and credit balances that are part of the disposal group as separate line items alongside the other regulatory deferral account debit and credit balances?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account balances?",
+            "guidance": "Check the entity's financial statements or consolidated financial statements for any mention of regulatory deferral accounts. These are accounts established due to specific rate regulations in certain jurisdictions. Look for disclosures under IFRS 14.",
+            "yes_case": {
+              "question": "Are the regulatory deferral account balances part of a disposal group?",
+              "guidance": "Review the notes to the financial statements and IFRS 14 disclosures to determine if the regulatory deferral account balances are included within a disposal group classified as held for sale. Refer to IFRS 5.38 for definition and classification criteria of disposal groups.",
+              "yes_case": {
+                "question": "Does the entity present the total of the regulatory deferral account debit and credit balances that are part of the disposal group as separate line items alongside the other regulatory deferral account debit and credit balances?",
+                "guidance": "Examine the statement of financial position to verify if regulatory deferral account debit and credit balances associated with the disposal group are separately presented. Ensure these are shown distinctly from other regulatory deferral account debit and credit balances, as stipulated by IFRS 14.B21.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "628",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B22",
+          "question": "Does the entity hold regulatory deferral account balances as defined under IFRS 14?",
+          "question_type": "Followup",
+          "source_question": "625",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity includes regulatory deferral account balances and movements related to the disposal group or discontinued operation within the related regulatory deferral account line items, does it disclose them separately as part of the analysis described in IFRS 14.33?",
+          "decision_tree": {
+            "question": "Does the entity hold regulatory deferral account balances as defined under IFRS 14?",
+            "guidance": "Review the entity’s financial statements, including the balance sheet and notes. Regulatory deferral account balances are specific assets or liabilities arising from rate regulation, as defined under IFRS 14. Check if the entity applies IFRS 14, particularly in jurisdictions allowing deferral account recognition.",
+            "yes_case": {
+              "question": "Do the regulatory deferral account balances or movements relate to a disposal group or discontinued operation?",
+              "guidance": "Verify transactions related to disposal groups or discontinued operations in the financial statements (e.g., IFRS 5-related disclosures). Look specifically for any link to regulatory deferral account balances or movements.",
+              "yes_case": {
+                "question": "Does the entity disclose these balances or movements separately as part of the analysis described in IFRS 14.33?",
+                "guidance": "Check the disclosures in the notes to the financial statements, specifically those related to regulatory deferral accounts. IFRS 14.33 requires separate disclosure and analysis, including explanations of changes. Ensure all required details are included.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "629",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.26, IFRS 14.B13, IFRS 14.B14",
+          "question": "Does the entity present earnings per share (EPS) under IAS 33?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "When presenting earnings per share under IAS 33, does the entity present additional basic and diluted earnings per share calculated using the IAS 33 earnings amounts but excluding movements in regulatory deferral account balances?",
+          "decision_tree": {
+            "question": "Does the entity present earnings per share (EPS) under IAS 33?",
+            "guidance": "Review the financial statements and confirm whether the entity has included EPS information under IAS 33. Check the Statement of Profit or Loss or accompanying notes for basic and diluted EPS disclosures. Ensure that EPS disclosures are applicable based on the entity’s issuance of shares and IAS 33 requirements.",
+            "yes_case": {
+              "question": "Does the entity have regulatory deferral account balances as defined under IFRS 14?",
+              "guidance": "Examine the financial statements for the presence of regulatory deferral account balances, which arise from rates regulated by a framework allowing deferral of income or expenses. Regulatory deferral account balances should be clearly stated, typically under assets or liabilities.",
+              "yes_case": {
+                "question": "Does the entity present additional basic and diluted EPS calculated using IAS 33 earnings amounts but excluding movements in regulatory deferral account balances?",
+                "guidance": "Review the disclosures accompanying the EPS presentation under IAS 33. Verify whether an additional calculation of EPS is provided where the IAS 33 earnings amounts are adjusted by excluding movements in regulatory deferral account balances, as required by IFRS 14. Check for clarity and sufficiency of this disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "630",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B14",
+          "question": "Does the entity apply IFRS 14 Regulatory Deferral Accounts?",
+          "question_type": "Followup",
+          "source_question": "629",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "For each earnings per share amount under IAS 33, does the entity applying IFRS 14 present additional basic and diluted earnings per share excluding net movement in regulatory deferral account balances, with equal prominence to the IAS 33 amounts?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 14 Regulatory Deferral Accounts?",
+            "guidance": "Check whether the entity has adopted IFRS 14. This standard is applicable only if the entity is a first-time adopter of IFRS and has elected to continue accounting for regulatory deferral account balances after initial adoption. Review the entity's basis of preparation note in the financial statements and IFRS 14-specific disclosures.",
+            "yes_case": {
+              "question": "Does the entity report earnings per share (EPS) amounts under IAS 33?",
+              "guidance": "Review the Statement of Profit or Loss and Other Comprehensive Income and accompanying notes to verify if the entity computes basic and diluted earnings per share in accordance with IAS 33. Look for specific EPS disclosures based on continuing operations or other criteria.",
+              "yes_case": {
+                "question": "Does the entity present additional basic and diluted EPS amounts excluding net movement in regulatory deferral account balances, with equal prominence to the IAS 33 amounts?",
+                "guidance": "Check the notes to the financial statements and the Statement of Profit or Loss. Confirm whether the entity separately discloses EPS amounts excluding the net movement in regulatory deferral account balances, and that these are presented with the same prominence as IAS 33 EPS amounts. Ensure the regulatory deferral impact is excluded properly.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "631.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.27(a)",
+          "question": "Is the entity subject to rate regulation that establishes the prices it can charge customers?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of, and the risks associated with, the rate regulation that establishes the prices it can charge customers?",
+          "decision_tree": {
+            "question": "Is the entity subject to rate regulation that establishes the prices it can charge customers?",
+            "guidance": "Review the contracts, regulatory agreements, and operating environment of the entity. Rate regulation typically involves external regulatory bodies setting or approving prices charged to customers. Look for explicit references in the financial statement notes or regulatory filings. Confirm the existence of rate regulation applied to the entity.",
+            "yes_case": {
+              "question": "Does the entity disclose the nature of the rate regulation and the associated risks in the financial statements?",
+              "guidance": "Check the financial statements, particularly the notes. Look for detailed explanations regarding the rate regulation, including its scope, details of the pricing mechanism, and any risks such as regulatory changes or disputes that could impact the entity. Ensure that these disclosures align with IFRS 14.27(a).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Are disclosures concerning rate regulation missing, unclear, or insufficiently detailed as per IFRS 14.27(a)?",
+                "guidance": "Compare the entity’s disclosures with IFRS 14.27(a). Missing disclosures or vague/insufficiently detailed information about the nature and risks of rate regulation may indicate non-compliance.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "631.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.27(b)",
+          "question": "Is the entity subject to rate regulation?",
+          "question_type": "Followup",
+          "source_question": "631.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the effects of that rate regulation on its financial position, financial performance and cash flows?",
+          "decision_tree": {
+            "question": "Is the entity subject to rate regulation?",
+            "guidance": "Review the entity's operations and legal environment to determine if it is subject to government regulation that establishes rates for goods or services. Consult contracts, licensing agreements, and regulatory documents to confirm. Examples include utility companies regulated by public authorities.",
+            "yes_case": {
+              "question": "Has the entity applied IFRS 14 Regulatory Deferral Accounts for items impacted by rate regulation?",
+              "guidance": "Verify whether the entity has elected to apply IFRS 14. This standard applies only if the entity is entitled to continue recognizing regulatory deferral account balances. Check the accounting policy section and confirm regulatory deferral accounts are disclosed in the financial statements.",
+              "yes_case": {
+                "question": "Does the entity disclose the effects of rate regulation on its financial position, financial performance, and cash flows, as required by IFRS 14.27(b)?",
+                "guidance": "Examine the disclosure notes to ensure that the specific effects of rate regulation on the financial position, performance, and cash flows are clearly detailed. This includes any changes to regulatory deferral account balances during the reporting period. Ensure compliance with IFRS 14.27(b) requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "632",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.28",
+          "question": "Does the entity apply IFRS 14 Regulatory Deferral Accounts?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If disclosures under IFRS 14.30–36 are insufficient to meet the objective in IFRS 14.27, does the entity disclose additional information necessary to meet that objective?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 14 Regulatory Deferral Accounts?",
+            "guidance": "Review the entity's accounting policy note and inquire if any regulatory deferral accounts are recognized in the financial statements. Regulatory deferral accounts are specific to entities operating in regulated industries where regulators permit or require deferral of certain costs or revenue. If IFRS 14 is not applied, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity disclosed information required under IFRS 14.30–36 about regulatory deferral accounts?",
+              "guidance": "Examine the financial statement disclosures for compliance with IFRS 14.30–36. Verify descriptions, basis of recognition, and measurement, as well as any changes in accounting policy related to regulatory deferral accounts. Additionally, check if risks and uncertainties and reconciliation of balances are provided.",
+              "yes_case": {
+                "question": "Do the disclosures under IFRS 14.30–36 meet the objective stated in IFRS 14.27?",
+                "guidance": "Evaluate whether the disclosures provide sufficient information to enable users of the financial statements to assess the nature of, and risks associated with, regulatory deferral accounts and their impact on financial performance and position. Compare the disclosures against the objectives in IFRS 14.27.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": {
+                  "question": "Has the entity disclosed additional information necessary to meet the objective in IFRS 14.27?",
+                  "guidance": "Check if the entity has provided additional, specific disclosures to address any gaps identified in meeting the objective of IFRS 14.27. Review notes or supplementary information for enhanced explanations.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                }
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "633.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.30(a)",
+          "question": "Does the entity have rate-regulated activities?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For each type of rate-regulated activity, does the entity disclose a brief description of the nature and extent of the activity and the regulatory rate-setting process?",
+          "decision_tree": {
+            "question": "Does the entity have rate-regulated activities?",
+            "guidance": "Rate-regulated activities involve operations subject to regulations governing the pricing of goods or services. Review contracts, agreements, and regulatory frameworks applicable to the entity to identify any regulated pricing activities. Check for references to regulatory authorities, rate-setting mechanisms, or tariff adjustments.",
+            "yes_case": {
+              "question": "Has the entity disclosed a brief description of the nature and extent of each type of rate-regulated activity?",
+              "guidance": "Examine the entity’s financial statements, especially the notes section, for disclosures describing what rate-regulated activities are undertaken. Ensure the descriptions cover the extent of operations, geographical scopes, and other key details relevant to the activities.",
+              "yes_case": {
+                "question": "Has the entity disclosed the regulatory rate-setting process for each type of rate-regulated activity?",
+                "guidance": "Verify that the disclosure explains how pricing is determined. This should include details on how rates are approved by the regulatory authority, the inputs used in the rate-setting process, and any conditions impacting rate adjustments.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "633.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.30(b)",
+          "question": "Does the entity engage in rate-regulated activities?",
+          "question_type": "Followup",
+          "source_question": "633.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each type of rate-regulated activity, does the entity disclose the identity of the rate regulator(s), and if the regulator is a related party, does it explain that relationship?",
+          "decision_tree": {
+            "question": "Does the entity engage in rate-regulated activities?",
+            "guidance": "Review the business operations and financial statements to confirm whether the entity conducts activities subject to rate regulation. Rate regulation typically occurs in industries like utilities, telecommunications, or transportation, where government or regulatory bodies control pricing. Check relevant disclosures or the nature of revenue sources.",
+            "yes_case": {
+              "question": "Has the entity disclosed the identity of the rate regulator(s) for each type of rate-regulated activity?",
+              "guidance": "Verify the entity’s financial statements and notes for disclosure about the rate regulator(s). Refer to IFRS 14.30(b) for required disclosure details. The identity should be explicit and connected to specific rate-regulated activities.",
+              "yes_case": {
+                "question": "Is any rate regulator a related party, and has the entity explained that relationship?",
+                "guidance": "Determine if the disclosed rate regulator qualifies as a related party under IAS 24. If so, confirm the explanation of the relationship is included in line with IAS 24 principles. Look for the related party note disclosures and verify sufficient detail is provided.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "633.3",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.30(c)",
+          "question": "Does the entity have rate-regulated activities?",
+          "question_type": "Followup",
+          "source_question": "633.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each type of rate-regulated activity, does the entity disclose how the future recovery of each class of regulatory deferral account debit balance or reversal of credit balance is affected by risks and uncertainty (for example, demand risk, regulatory risk, other risks)?",
+          "decision_tree": {
+            "question": "Does the entity have rate-regulated activities?",
+            "guidance": "Refer to the entity's business model and assess whether it is involved in activities subject to rate regulation. This typically involves industries such as utilities (e.g., electricity, water, gas) where pricing for goods or services is determined by a regulatory authority. Check contracts, agreements, and regulatory filings.",
+            "yes_case": {
+              "question": "Does the entity recognize regulatory deferral account balances in accordance with IFRS 14?",
+              "guidance": "Review the financial statements, particularly the Statement of Financial Position and accompanying notes, to determine if the entity has recognized regulatory deferral account balances. Cross-check with IFRS 14 paragraphs 20 to 23 for recognition criteria.",
+              "yes_case": {
+                "question": "Does the entity disclose for each type of rate-regulated activity how future recovery of the debit balance or reversal of the credit balance is affected by risks and uncertainties?",
+                "guidance": "Inspect the financial statement notes related to rate-regulated activities. Ensure the disclosure explicitly addresses each type of rate-regulated activity and discusses the risks affecting recovery (e.g., demand risk, regulatory risk, other risks). Refer to IFRS 14.30(c) for disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "634",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.32",
+          "question": "Does the entity have regulatory deferral account balances as defined under IFRS 14?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the basis on which regulatory deferral account balances are recognised and derecognised, how they are initially and subsequently measured, including how they are assessed for recoverability and how any impairment loss is allocated?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account balances as defined under IFRS 14?",
+            "guidance": "Review the entity's financial statements, particularly the notes on regulatory deferral accounts as required under IFRS 14. Verify whether the entity applies IFRS 14 and whether it operates in a rate-regulated environment where regulatory deferral account balances exist. Common pitfalls include confusing deferred revenue or expense accounts with regulatory deferral accounts.",
+            "yes_case": {
+              "question": "Does the entity disclose the basis for recognizing and derecognizing these regulatory deferral account balances?",
+              "guidance": "Check the notes to the financial statements and identify whether the entity has explicitly disclosed the methodology or criteria it uses for recognizing and derecognizing regulatory deferral account balances. IFRS 14.32 requires entities to explain the basis clearly.",
+              "yes_case": {
+                "question": "Does the entity disclose how regulatory deferral account balances are initially and subsequently measured, including recoverability and allocation of any impairment loss?",
+                "guidance": "Review the notes to the financial statements for clear disclosures on the measurement process, including any methodologies (e.g., fair value or historical cost) and how recoverability is assessed. Confirm that impairment losses, if any, are disclosed and allocated properly as per IFRS 14.32. Pay attention to any omitted details or vague explanations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "635.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.33(a)",
+          "question": "Does the entity have regulatory deferral account balances as defined under IFRS 14?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For each class of regulatory deferral account balance, does the entity disclose a reconciliation of the carrying amount at the beginning and end of the period in a table (or other appropriate format)?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account balances as defined under IFRS 14?",
+            "guidance": "Review the financial statements and accounting policies disclosed by the entity. Regulatory deferral account balances generally arise due to rate regulation impacting the entity's revenue recognition. Check whether the entity applies IFRS 14 and recognizes such balances on the statement of financial position.",
+            "yes_case": {
+              "question": "Does the entity disclose a reconciliation of the carrying amount for each class of regulatory deferral account balance at the beginning and end of the period?",
+              "guidance": "Check the notes to the financial statements for a reconciliation table or equivalent format. Each reconciliation should clearly show opening balances, additions, adjustments, and closing balances per class of regulatory deferral account, in line with IFRS 14.33(a) requirements. Failure to provide this information indicates non-compliance with the disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "635.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.33",
+          "question": "Does the entity apply IFRS 14 to regulatory deferral account balances?",
+          "question_type": "Followup",
+          "source_question": "635.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amounts recognised in the current period in the statement of financial position as regulatory deferral account balances?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 14 to regulatory deferral account balances?",
+            "guidance": "Check the accounting policy disclosure note and relevant sections of the financial statements. IFRS 14 applies only to entities that are rate-regulated and elect to continue recognizing regulatory deferral account balances. Ensure the entity qualifies under this standard before proceeding.",
+            "yes_case": {
+              "question": "Does the entity have regulatory deferral account balances recognized in the statement of financial position for the current period?",
+              "guidance": "Review the Statement of Financial Position and related notes for the presence of items identified as regulatory deferral account balances. These balances are typically classified separately in accordance with IFRS 14.",
+              "yes_case": {
+                "question": "Does the entity disclose the amounts recognized in the current period as regulatory deferral account balances?",
+                "guidance": "Examine the notes to the financial statements to ensure disclosure of the amounts recognized as regulatory deferral account balances during the current reporting period. Verify that the descriptions, amounts, and relevance of these disclosures comply with IFRS 14.33.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "635.3",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.33(c)",
+          "question": "Does the entity have regulatory deferral account balances recorded in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "635.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the remaining periods over which it expects to recover or amortise each class of regulatory deferral account debit balance or to reverse each class of regulatory deferral account credit balance?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account balances recorded in its financial statements?",
+            "guidance": "Check the Statement of Financial Position and associated notes. Regulatory deferral account balances are specific to entities subject to rate regulation and are recognized under IFRS 14. Ensure the entity is eligible for IFRS 14 before proceeding.",
+            "yes_case": {
+              "question": "Has the entity classified regulatory deferral account debit and credit balances into identifiable classes in its financial statements?",
+              "guidance": "Review the financial statement notes. Regulatory deferral account balances must be grouped into meaningful classes based on their nature or recovery/reversal characteristics, as stipulated by IFRS 14. Ensure the classification is clearly presented and supported.",
+              "yes_case": {
+                "question": "Does the entity disclose the remaining periods over which it expects to recover or amortize each class of regulatory deferral account debit balance or reverse each class of credit balance?",
+                "guidance": "Examine the notes to the financial statements. Look for specific disclosures identifying timeframes for recovery, amortization, or reversal as required by IFRS 14.33(c). Ensure these disclosures are sufficiently detailed to comply with transparency requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "636",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.34(a)",
+          "question": "Does the entity operate in an environment where rate regulation affects financial reporting?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "When rate regulation affects the amount and timing of income tax expense or income, does the entity disclose the impact on current and deferred tax amounts recognised?",
+          "decision_tree": {
+            "question": "Does the entity operate in an environment where rate regulation affects financial reporting?",
+            "guidance": "Examine the entity's jurisdiction and industry. Rate regulation typically applies to industries such as utilities (e.g., electricity, water). Review applicable laws, contracts, or regulatory frameworks that dictate how revenue, costs, or profits are determined.",
+            "yes_case": {
+              "question": "Does rate regulation affect the amount or timing of the entity's income tax expense or income?",
+              "guidance": "Identify the components of the entity's rate regulation setup. Specifically, assess whether the regulation impacts taxable income (e.g., introducing deferred tax liabilities or assets due to timing differences). Review the income tax calculation in note disclosures and accounting policies.",
+              "yes_case": {
+                "question": "Does the entity disclose the impact of rate regulation on current and deferred tax amounts recognised?",
+                "guidance": "Confirm that the financial statements include disclosure about the impact of rate regulation on income tax expense (current tax) and deferred tax. Look for specific notes in the tax section or regulatory disclosure and ensure compliance with IFRS 14.34(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "637",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.34(b)",
+          "question": "Does the entity hold any regulatory deferral account balances related to taxation according to IFRS 14?",
+          "question_type": "Followup",
+          "source_question": "636",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity separately disclose any regulatory deferral account balance related to taxation and the related movement in that balance?",
+          "decision_tree": {
+            "question": "Does the entity hold any regulatory deferral account balances related to taxation according to IFRS 14?",
+            "guidance": "Review the financial statements, specifically any sections referring to regulatory deferral account balances as defined by IFRS 14. Check for the existence of balances linked to taxation. Ensure these balances meet the definition in IFRS 14. Ensure proper identification by referencing the entity's accounting policies and any supplementary notes.",
+            "yes_case": {
+              "question": "Has the entity disclosed the regulatory deferral account balance related to taxation separately in the financial statements?",
+              "guidance": "Verify the presentation in the Statement of Financial Position and supporting notes. Ensure the regulatory deferral account balance related to taxation is presented distinctly and not aggregated with other items. Reference IFRS 14.34(b) for the required disclosure format and specific details.",
+              "yes_case": {
+                "question": "Has the entity disclosed the movement in the regulatory deferral account balance related to taxation as required under IFRS 14?",
+                "guidance": "Review the notes to the financial statements and any reconciliation provided. Ensure that the opening balance, additions, deductions, and closing balance of the regulatory deferral account related to taxation are disclosed clearly as per IFRS 14. Verify all movements are consistent with accounting records and appropriately explained.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "638.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.35(a)",
+          "question": "Does the entity have an interest in a rate-regulated subsidiary, associate, or joint venture?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "When disclosing an interest in a rate-regulated subsidiary, associate or joint venture under IFRS 12, does the entity disclose the amounts included for the regulatory deferral account debit balances and credit balances?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in a rate-regulated subsidiary, associate, or joint venture?",
+            "guidance": "Review the financial statements and disclosures for information about interests in subsidiaries, associates, or joint ventures. Check if any of these entities are subject to rate regulation as defined under IFRS 14. Look for references to regulatory frameworks or laws governing these entities.",
+            "yes_case": {
+              "question": "Do the financial statements include regulatory deferral account balances (debit or credit) for the rate-regulated entity?",
+              "guidance": "Examine the disclosures in the Statement of Financial Position and accompanying notes. Look for accounts labeled as regulatory deferral account balances (either assets or liabilities). Ensure these are specifically recognized in accordance with IFRS 14.",
+              "yes_case": {
+                "question": "Does the entity disclose the specific amounts of regulatory deferral account debit and credit balances in accordance with IFRS 12?",
+                "guidance": "Review the notes to the financial statements for disclosures relating to IFRS 12. Verify that the amounts for regulatory deferral account debit and credit balances are explicitly disclosed for the rate-regulated subsidiary, associate, or joint venture. Ensure the disclosures are clear and include all required details.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "638.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.35(b)",
+          "question": "Does the entity have an interest in a rate-regulated subsidiary, associate, or joint venture?",
+          "question_type": "Followup",
+          "source_question": "638.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "When disclosing an interest in a rate-regulated subsidiary, associate or joint venture under IFRS 12, does the entity disclose the net movement in those balances for the interests disclosed?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in a rate-regulated subsidiary, associate, or joint venture?",
+            "guidance": "Review the entity's group structure and investment portfolio in accordance with IFRS 12. Check whether the entity has disclosed an interest in any subsidiaries, associates, or joint ventures that are subject to rate regulation. Refer to IFRS 12 disclosures for clarity.",
+            "yes_case": {
+              "question": "Has the entity disclosed the net movement in balances related to its interest in the rate-regulated subsidiary, associate, or joint venture?",
+              "guidance": "Validate the entity's IFRS 12 disclosures and look for details regarding the movements in regulatory deferral account balances. Ensure that net movements are clearly stated and corroborate the figures against supporting documentation or calculations.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "639",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B25",
+          "question": "Does the entity recognize regulatory deferral account balances in accordance with IFRS 14?",
+          "question_type": "Followup",
+          "source_question": "638.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity that recognises regulatory deferral account balances disclose the net movement in those balances included within amounts required by IFRS 12.12(e)?",
+          "decision_tree": {
+            "question": "Does the entity recognize regulatory deferral account balances in accordance with IFRS 14?",
+            "guidance": "Check the entity's financial statements or accounting policies to determine if regulatory deferral account balances are recognized. Look for disclosures explicitly referencing IFRS 14 and regulatory deferral accounts. Ensure this recognition complies with the scope outlined in IFRS 14.4-7. If no regulatory deferral account balances are recognized, this item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity disclosed the net movement in regulatory deferral account balances within the amounts required by IFRS 12.12(e)?",
+              "guidance": "Review the financial statement disclosures related to regulatory deferral accounts. Specifically, check whether the entity discloses the net movement in these balances within the notes concerning IFRS 12.12(e) (Disclosure of Interests in Other Entities). Ensure the net movement is separately identified and explained as required.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "640.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B27(a)",
+          "question": "Does the entity have regulatory deferral account balances recognized under IFRS 14?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "In addition to IFRS 12 disclosures, does the entity disclose the total regulatory deferral account debit balance?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral account balances recognized under IFRS 14?",
+            "guidance": "Review the financial statements and note disclosures. Regulatory deferral accounts under IFRS 14 are balances arising from rate-regulated activities that are recognized separately in the financial statements as debit or credit regulatory deferral accounts. Common pitfalls include misidentifying revenue adjustments as regulatory deferral accounts or failing to refer to the regulatory framework.",
+            "yes_case": {
+              "question": "Does the entity include IFRS 12 disclosures in its financial statements for these regulatory deferral accounts?",
+              "guidance": "Refer to IFRS 12 and verify that the entity discloses information about any interest it has in other entities, including structured entities. Check for detailed disclosures such as nature, size, and risk exposure. Missing or incomplete IFRS 12 disclosures may indicate compliance issues.",
+              "yes_case": {
+                "question": "Does the entity disclose the total regulatory deferral account debit balance in addition to IFRS 12 disclosures?",
+                "guidance": "Cross-check the financial statement notes and disclosures to verify the total regulatory deferral account debit balance is disclosed clearly, as required by IFRS 14.B27(a). Ensure the disclosure is accurate, complete, and identifiable. Be cautious about aggregation errors or missing figures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "640.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B27(b)",
+          "question": "Does the entity have regulatory deferral accounts presented in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "640.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "In addition to IFRS 12 disclosures, does the entity disclose the total regulatory deferral account credit balance?",
+          "decision_tree": {
+            "question": "Does the entity have regulatory deferral accounts presented in its financial statements?",
+            "guidance": "Review the financial statements (statement of financial position and notes). Confirm the presence of regulatory deferral account balances, which are typically created under rate regulation frameworks. Look for line items explicitly labeled as 'regulatory deferral account debit/credit balances' or references to IFRS 14 within the notes.",
+            "yes_case": {
+              "question": "Has the entity made disclosures under IFRS 12 related to interests in other entities?",
+              "guidance": "Check the notes to the financial statements for disclosures relating to IFRS 12, particularly those addressing structured entities, joint arrangements, associates, or any other interest in entities. Ensure that relevant disclosures under IFRS 12 are present.",
+              "yes_case": {
+                "question": "Does the entity disclose the total regulatory deferral account credit balance, as required by IFRS 14.B27(b)?",
+                "guidance": "Review both the notes and the statement of financial position to verify whether the total regulatory deferral account credit balance is disclosed. Disclosures should include the amounts recognized and narrative explanations as required by IFRS 14.B27(b). Ensure consistency and completeness in the amounts disclosed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "640.3",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B27(c)",
+          "question": "Does the entity have interests in other entities that require disclosures under IFRS 12?",
+          "question_type": "Followup",
+          "source_question": "640.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "In addition to IFRS 12 disclosures, does the entity disclose the net movements in those balances, split between amounts recognised in profit or loss and amounts recognised in other comprehensive income, for each entity requiring IFRS 12 disclosures?",
+          "decision_tree": {
+            "question": "Does the entity have interests in other entities that require disclosures under IFRS 12?",
+            "guidance": "Review the financial statements and related disclosures. Determine if the entity holds interests in subsidiaries, joint arrangements, associates, or unconsolidated structured entities necessitating IFRS 12 disclosures. Common pitfalls include failing to recognize interests that should be disclosed or identifying entities incorrectly.",
+            "yes_case": {
+              "question": "Are there net movements in balances related to these entities during the reporting period?",
+              "guidance": "Examine the account balances for interests in these entities, including profit or loss accounts and other comprehensive income (OCI) accounts. Look for any changes in balances during the reporting period, ensuring movements are properly documented.",
+              "yes_case": {
+                "question": "Has the entity disclosed these net movements, split between amounts recognized in profit or loss and amounts recognized in other comprehensive income, for each entity requiring IFRS 12 disclosures?",
+                "guidance": "Check the disclosures in the notes to the financial statements. Verify that net movements are reported separately for amounts recognized in profit or loss and in OCI. Ensure disclosures are specific to each entity requiring IFRS 12 disclosures and comply with the requirements of IFRS 14.B27(c).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "641",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.B28",
+          "question": "Has the entity elected to apply IFRS 14 (Regulatory Deferral Accounts)?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "In addition to IFRS 12.19 disclosures, does the entity that elects to apply IFRS 14 disclose the portion of gain or loss attributable to derecognising regulatory deferral account balances in the former subsidiary when control is lost?",
+          "decision_tree": {
+            "question": "Has the entity elected to apply IFRS 14 (Regulatory Deferral Accounts)?",
+            "guidance": "Check the entity's accounting policies disclosed in the financial statements to determine if it has elected to apply IFRS 14. Ensure that IFRS 14 is explicitly mentioned as being applied to regulatory deferral account balances. If the entity has not elected to apply IFRS 14, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity lost control of a subsidiary that had regulatory deferral account balances?",
+              "guidance": "Review transaction details and disclosures regarding subsidiaries in the financial statements. Loss of control is typically accompanied by derecognition of all assets and liabilities of the subsidiary, including any regulatory deferral account balances, as per IFRS 10. Check IFRS 10 guidance and the related notes.",
+              "yes_case": {
+                "question": "Has the entity disclosed the portion of gain or loss attributable to derecognizing regulatory deferral account balances in the former subsidiary?",
+                "guidance": "Examine the disclosures in the financial statements, particularly under the sections associated with IFRS 12.19 and IFRS 14, for any mention of regulatory deferral account balances. Ensure that the disclosure specifies the portion of the gain or loss linked to the derecognition of these balances when control was lost.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "642.1",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.36(a)",
+          "question": "Does the entity have a regulatory deferral account balance?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "When the entity concludes a regulatory deferral account balance is no longer fully recoverable or reversible, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Does the entity have a regulatory deferral account balance?",
+            "guidance": "Refer to the entity's financial statements, specifically the balance sheet and notes related to IFRS 14. Check whether the entity recognizes any regulatory deferral account balances as defined by IFRS 14. Regulatory deferral accounts are amounts permitted by a rate regulator to be deferred and recovered in future rates.",
+            "yes_case": {
+              "question": "Has the entity concluded that the regulatory deferral account balance is no longer fully recoverable or reversible?",
+              "guidance": "Review management’s assessment and disclosures regarding the recoverability or reversibility of the regulatory deferral account balance. Look for evidence in the notes to the financial statements or correspondence with the rate regulator about the status and recoverability of these balances.",
+              "yes_case": {
+                "question": "Has the entity disclosed the fact that the regulatory deferral account balance is no longer fully recoverable or reversible?",
+                "guidance": "Verify that the entity has explicitly disclosed this information in accordance with IFRS 14.36(a). Inspect the notes to the financial statements for any mention of regulatory deferral account balances and their recoverability, including any impacts on the financial position or performance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "642.2",
+          "section": "IFRS 14",
+          "reference": "IFRS 14.36(b)",
+          "question": "Does the entity recognize a regulatory deferral account balance in accordance with IFRS 14?",
+          "question_type": "Followup",
+          "source_question": "642.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "When the entity concludes a regulatory deferral account balance is no longer fully recoverable or reversible, does it disclose the reason and the amount by which the balance has been reduced?",
+          "decision_tree": {
+            "question": "Does the entity recognize a regulatory deferral account balance in accordance with IFRS 14?",
+            "guidance": "Verify the entity's financial statements for the presence of regulatory deferral account balances. These are balances that arise as a result of rate regulation rules and must be clearly labeled and recognized under IFRS 14. Check specific notes or sections where regulatory assets and liabilities are disclosed.",
+            "yes_case": {
+              "question": "Has the entity concluded that the regulatory deferral account balance is no longer fully recoverable or reversible?",
+              "guidance": "Assess whether the entity has determined that the balance will not be recovered or reversed based on regulatory rules, operational or financial considerations. Refer to the entity’s assessment or impairment review documentation as support.",
+              "yes_case": {
+                "question": "Has the entity disclosed the reason for the reduction and the amount by which the balance has been reduced?",
+                "guidance": "Examine the entity's financial statement disclosures, particularly the notes accompanying regulatory deferral account balances. Ensure that reasons for the reduction, such as regulatory changes or financial/operational considerations, and the exact amount are clearly documented.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

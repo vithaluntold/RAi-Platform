@@ -1,0 +1,877 @@
+{
+  "title": "IFRS 11 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 11",
+      "title": "Joint Arrangements",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 11.",
+      "items": [
+        {
+          "id": "201.1",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.7(a)",
+          "question": "Has the entity entered into any arrangements that involve joint control?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose information about significant judgements and assumptions it has made in determining that it has joint control of an arrangement?",
+          "decision_tree": {
+            "question": "Has the entity entered into any arrangements that involve joint control?",
+            "guidance": "Refer to the entity's agreements and financial information. Joint control is defined in IFRS 11.7 as the contractually agreed sharing of control of an arrangement, requiring unanimous consent for decisions about relevant activities. Verify this by reviewing contracts and governing documents.",
+            "yes_case": {
+              "question": "Has the entity made significant judgements and assumptions in determining joint control of the arrangement?",
+              "guidance": "Review the entity's analysis of joint control. Significant judgements may include assessments of shared power, unanimous decision-making requirements, and classification of the arrangement under IFRS 11. Focus on disclosures required by IFRS 12.7(a).",
+              "yes_case": {
+                "question": "Has the entity disclosed these significant judgements and assumptions as required by IFRS 12.7(a)?",
+                "guidance": "Inspect the financial statements, specifically the notes accompanying the financial statements. Ensure the disclosures include detailed information about the judgements and assumptions used in determining joint control, as per IFRS 12.7(a). Common pitfalls include overly generalized statements or omitting critical considerations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "201.2",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.7(b)",
+          "question": "Does the entity have a joint arrangement structured through a separate vehicle?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "201.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose information about significant judgements and assumptions it has made in determining the type of joint arrangement (i.e., joint operation or joint venture) when the arrangement has been structured through a separate vehicle?",
+          "decision_tree": {
+            "question": "Does the entity have a joint arrangement structured through a separate vehicle?",
+            "guidance": "Refer to the entity's agreements and disclosures regarding joint arrangements. A separate vehicle is typically a corporation, partnership, or other entity recognized as having separate legal personality. Verify the presence of such an arrangement in contracts or in the Statement of Financial Position.",
+            "yes_case": {
+              "question": "Has the entity determined the type of joint arrangement (i.e., joint operation or joint venture)?",
+              "guidance": "Review the entity's judgment documented in financial statements or accompanying notes. Check if the entity analyzed rights and obligations, considering IFRS 11 guidance and the legal structure of the joint arrangement.",
+              "yes_case": {
+                "question": "Does the entity disclose significant judgements and assumptions it has made in determining the type of joint arrangement?",
+                "guidance": "Examine the disclosure notes in the financial statements. Look for explicit descriptions of the criteria used and assumptions about rights, obligations, risks, and benefits per IFRS 12.7(b). Ensure the judgments align with the principles in IFRS 11.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "202",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.8",
+          "question": "Did the entity have an interest in a joint arrangement during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "201.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity include under those significant judgements and assumptions, those made when changes in facts and circumstances are such that the conclusion about whether it has joint control changes during the reporting period?",
+          "decision_tree": {
+            "question": "Did the entity have an interest in a joint arrangement during the reporting period?",
+            "guidance": "Review the entity's financial statements and disclosures. Check the note on joint arrangements or investments in joint ventures under IFRS 11. Look for evidence such as partnership agreements, pooling contracts, or significant shared decision-making between parties.",
+            "yes_case": {
+              "question": "Were there changes in facts and circumstances during the reporting period that might affect the conclusion about whether the entity has joint control?",
+              "guidance": "Examine contracts, board meeting minutes, or management discussions for events such as changes in shareholding structure, amendments to contractual agreements, or disputes between parties. Ensure alignment with IFRS 11 guidance on joint control determination.",
+              "yes_case": {
+                "question": "Did the entity disclose the significant judgements and assumptions made about joint control as required by IFRS 12.8?",
+                "guidance": "Review the entity's disclosure notes under IFRS 12. Verify the inclusion of significant judgements regarding joint control, especially those arising from changes in circumstances during the reporting period. Common omissions include failing to describe the rationale behind conclusions or the specific changes considered.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "203.1",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.20(a)",
+          "question": "Does the entity have interests in joint arrangements?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose information that enables users to evaluate the nature, extent and financial effects of its interests in joint arrangements, including the nature and effects of its contractual relationship with the other investors with joint control of joint arrangements?",
+          "decision_tree": {
+            "question": "Does the entity have interests in joint arrangements?",
+            "guidance": "Review the entity's agreements and IFRS 11 definitions of joint arrangements (joint ventures and joint operations). Check financial statement notes or disclosures referencing joint arrangements. Common pitfalls include misidentifying joint control due to informal arrangements or incorrectly classifying investments.",
+            "yes_case": {
+              "question": "Does the entity disclose the nature, extent, and financial effects of its interests in joint arrangements?",
+              "guidance": "Review disclosures in accordance with IFRS 12.20(a). Ensure the notes provide detailed information about the nature of the joint arrangement, the extent of the entity's involvement, and the financial impacts such as share of net assets, revenues, and liabilities. Avoid insufficient details or generalizations.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature and effects of its contractual relationship with other investors with joint control of joint arrangements?",
+                "guidance": "Verify if the disclosures include information on how decisions are made jointly with other investors and the impact on the financial statements. Consult IFRS 12.20 for acceptable disclosure practices. Check for omissions such as missing descriptions of joint decision-making processes.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "203.2",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.20(b)",
+          "question": "Does the entity have an interest in joint ventures?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "203.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose information that enables users to evaluate the nature of, and changes in, the risks associated with its interests in joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in joint ventures?",
+            "guidance": "Refer to the entity's balance sheet and accompanying notes. Interests in joint ventures are typically recognized as investments accounted for using the equity method under IFRS 11. Verify document sections outlining investments and joint arrangements.",
+            "yes_case": {
+              "question": "Has the entity identified material risks associated with its interests in joint ventures?",
+              "guidance": "Review the risk management disclosures in the financial statement notes, particularly those associated with joint ventures. Look for risks such as liquidity, credit, operational, or market risks. Ensure materiality thresholds are considered as per IFRS standards.",
+              "yes_case": {
+                "question": "Does the entity disclose sufficient information to evaluate the nature of, and changes in, these risks as required by IFRS 12.20(b)?",
+                "guidance": "Check the disclosures related to joint ventures in the financial statement notes. Evaluate whether the information provided under IFRS 12 includes details on risk exposure, changes in risk levels, and qualitative/quantitative risk analysis. Common pitfalls include omitting significant risk details or failing to update disclosures for recent changes.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "204.1",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(a)(i)",
+          "question": "Does the entity have any joint arrangements accounted for under IFRS 11?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For each joint arrangement that is material to the reporting entity, does the entity disclose the name of the joint arrangement?",
+          "decision_tree": {
+            "question": "Does the entity have any joint arrangements accounted for under IFRS 11?",
+            "guidance": "Review the entity's financial statements and accompanying notes for references to joint arrangements. Verify whether the entity is involved in any joint arrangements where control is shared per the definition in IFRS 11. Cross-check the agreements governing joint arrangements and contracts to confirm applicability.",
+            "yes_case": {
+              "question": "Are any of the joint arrangements material to the reporting entity?",
+              "guidance": "Assess materiality using IFRS standards. Check if the joint arrangement has a significant impact on the entity's financial results or position (based on total assets, liabilities, revenue, etc.). Refer to IFRS 12.7 and the Conceptual Framework for guidance on assessing materiality.",
+              "yes_case": {
+                "question": "Does the entity disclose the name of each material joint arrangement?",
+                "guidance": "Review the notes to the financial statements, particularly those related to joint arrangements. Ensure the names disclosed align with the agreements and legal documentation. Check IFRS 12.21(a)(i) for exact disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "204.2",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(a)(ii)",
+          "question": "Does the entity have any joint arrangements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "204.1",
+          "source_trigger": "Yes",
+          "original_question": "For each joint arrangement that is material to the reporting entity, does the entity disclose the nature of its relationship with the joint arrangement (for example, the nature of the activities and whether they are strategic to the entity)?",
+          "decision_tree": {
+            "question": "Does the entity have any joint arrangements?",
+            "guidance": "Review the agreement documents establishing joint arrangements and confirm their existence. Check if the entity has classified any arrangement as 'joint operations' or 'joint ventures' under IFRS 11. Cross-verify with relevant disclosures in the financial statements.",
+            "yes_case": {
+              "question": "Is the joint arrangement material to the reporting entity?",
+              "guidance": "Assess if the joint arrangement meets the definition of materiality under IAS 1 and IFRS 12. Materiality depends on the significance of the arrangement’s financial impact or strategic importance. Review quantitative thresholds and management's judgment documented in the financial statements and supporting evidence.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature of its relationship with the joint arrangement, including the nature of activities and whether they are strategic to the entity?",
+                "guidance": "Review the notes to the financial statements, specifically the disclosures under IFRS 12. Verify whether the disclosures include the nature of the activities conducted by the joint arrangement and a statement specifying their strategic importance to the entity, aligned with IFRS 12.21(a)(ii).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "204.3",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(a)(iii)",
+          "question": "Does the entity have joint arrangements that are material to its financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "204.1",
+          "source_trigger": "Yes",
+          "original_question": "For each joint arrangement that is material to the reporting entity, does the entity disclose the principal place of business (and country of incorporation, if different) of the joint arrangement?",
+          "decision_tree": {
+            "question": "Does the entity have joint arrangements that are material to its financial statements?",
+            "guidance": "Review the entity's financial statements and notes for any joint arrangements categorized under IFRS 11. Ensure the arrangements are assessed for materiality based on quantitative and qualitative factors, including their impact on the entity's financial position, performance, and disclosures.",
+            "yes_case": {
+              "question": "Does the entity disclose the principal place of business for each material joint arrangement?",
+              "guidance": "Verify the disclosures section of the financial statements or the notes accompanying the financial statements under IFRS 12. Look specifically for information on the principal place of business listed for each arrangement. Ensure the disclosures align with IFRS 12.21(a)(iii) requirements.",
+              "yes_case": {
+                "question": "If the country of incorporation is different from the principal place of business, does the entity disclose the country of incorporation?",
+                "guidance": "Check whether the financial statements or notes specify the country of incorporation explicitly when it differs from the principal place of business. This should be detailed alongside other information about the joint arrangement.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "204.4",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(a)(iv)",
+          "question": "Does the entity have joint arrangements that are material to the reporting entity?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "204.1",
+          "source_trigger": "Yes",
+          "original_question": "For each joint arrangement that is material to the reporting entity, does the entity disclose the proportion of ownership interest or participating share held by the entity and, if different, the proportion of voting rights held?",
+          "decision_tree": {
+            "question": "Does the entity have joint arrangements that are material to the reporting entity?",
+            "guidance": "Review the entity's agreements or contracts regarding joint arrangements as defined in IFRS 11. Confirm materiality by assessing quantitative and qualitative factors based on IAS 1. Review disclosures in prior financial statements and any supporting documentation such as the entity's judgment on materiality.",
+            "yes_case": {
+              "question": "Does the entity disclose the proportion of ownership interest or participating share held by the entity for each material joint arrangement?",
+              "guidance": "Examine the notes to the financial statements, specifically the section on interests in joint arrangements. Ensure proportion of ownership or participating share is clearly stated for each material joint arrangement, including percentages or detailed explanations.",
+              "yes_case": {
+                "question": "If applicable, does the entity disclose the proportion of voting rights held in the joint arrangement, where different from ownership interest?",
+                "guidance": "Compare ownership interest with voting rights disclosed in the notes. Confirm that voting rights are disclosed where they differ from ownership percentage, as required under IFRS 12.21(a)(iv).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "205",
+          "section": "IFRS 11",
+          "reference": "IAS 28.45C",
+          "question": "Does the entity have transactions involving the sale or contribution of assets between an investor and its associate or joint venture?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity applies the Amendments to IFRS 10 and IAS 28 – Sale or Contribution of Assets between an Investor and its Associate or Joint Venture issued in September 2014, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Does the entity have transactions involving the sale or contribution of assets between an investor and its associate or joint venture?",
+            "guidance": "Review the entity's financial records and agreements involving associates and joint ventures. Check for transactions where assets are transferred between the investor and the associate or joint venture under IFRS 11 regulations. Focus on the specific terms of these transfers.",
+            "yes_case": {
+              "question": "Has the entity applied the Amendments to IFRS 10 and IAS 28 – Sale or Contribution of Assets between an Investor and its Associate or Joint Venture issued in September 2014?",
+              "guidance": "Check the accounting policies note in the financial statements to confirm the application of these specific amendments. Verify that the amendments are mentioned explicitly and adopted, especially if transactions occurred after the effective date of September 2014.",
+              "yes_case": {
+                "question": "Does the entity disclose the fact that the Amendments to IFRS 10 and IAS 28 have been applied?",
+                "guidance": "Inspect the disclosures in the financial statements, particularly the 'Accounting Policies' and 'Notes to the Accounts'. Ensure the entity explicitly states that these amendments have been applied, as per IAS 28.45C requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "206.1",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(b)(i)",
+          "question": "Does the entity have investments in joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For each joint venture that is material to the reporting entity, does the entity disclose whether the investment in the joint venture is measured using the equity method or at fair value?",
+          "decision_tree": {
+            "question": "Does the entity have investments in joint ventures?",
+            "guidance": "Review the entity's financial statements, including the notes. Check whether joint ventures are mentioned as part of the entity's investments or business model. Verify using IFRS 11 definitions of joint ventures.",
+            "yes_case": {
+              "question": "Are any of the joint ventures material to the reporting entity?",
+              "guidance": "Assess materiality using IFRS guidelines (IAS 1.7, IFRS 12.5). Materiality generally depends on the size, nature, and significance of the joint venture relative to the reporting entity's financial position and performance.",
+              "yes_case": {
+                "question": "Does the entity disclose whether the investment in the joint venture is measured using the equity method or at fair value?",
+                "guidance": "Examine the financial statement disclosures, particularly under IFRS 12.21(b)(i). Verify that the choice of measurement (equity method or fair value) is explicitly stated for each material joint venture.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "206.2",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(b)(ii)",
+          "question": "Does the entity have joint ventures that are material to its financial statements?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "206.1",
+          "source_trigger": "Yes",
+          "original_question": "For each joint venture that is material to the reporting entity, does the entity disclose financial information including dividends received, summarised financial information (current assets, non-current assets, current liabilities, non-current liabilities, revenue, profit or loss from continuing operations, depreciation and amortisation, interest income, interest expense, income tax expense or income) and, if accounted for using the equity method, the fair value of its investment if there is a quoted market price?",
+          "decision_tree": {
+            "question": "Does the entity have joint ventures that are material to its financial statements?",
+            "guidance": "Review the entity's group structure and financial statements. Check IFRS 12.7 and IFRS 11 to determine if joint ventures are defined and classified as material. Materiality generally refers to whether the joint ventures influence the economic decisions of users of the financial statements.",
+            "yes_case": {
+              "question": "Does the entity account for its investment in the joint ventures using the equity method?",
+              "guidance": "Verify the accounting treatment of investments in joint ventures in the financial statements under IFRS 11. The equity method typically reflects the entity’s share of the investee’s net income or loss and adjustments for dividends received or other changes.",
+              "yes_case": {
+                "question": "Does the entity disclose the financial information required under IFRS 12.21(b)(ii) for each material joint venture?",
+                "guidance": "Check the financial statement notes for disclosures regarding material joint ventures. Verify that all required information is included: summarised financial information (current assets, non-current assets, current liabilities, non-current liabilities, revenue, profit or loss, depreciation, amortisation, interest income, interest expense, income tax expense), and dividends received. If the joint ventures have quoted market prices, ensure the fair value of the investment is disclosed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "207",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.B14",
+          "question": "Does the entity hold an interest in a joint venture?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "206.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the summarised financial information reflect the amounts included in the IFRS financial statements of the joint venture and not the entity's share of those amounts?",
+          "decision_tree": {
+            "question": "Does the entity hold an interest in a joint venture?",
+            "guidance": "Review the entity's investment disclosures in accordance with IFRS 11. Check the notes and sections describing joint arrangements to confirm if the entity has an interest classified as a 'joint venture'. Common pitfalls include confusing joint ventures with joint operations; ensure the classification aligns with IFRS 11 definitions.",
+            "yes_case": {
+              "question": "Has the entity prepared summarised financial information for the joint venture according to IFRS requirements?",
+              "guidance": "Verify the financial statement notes for any summarised financial information about joint ventures required under IFRS 12. Cross-check IFRS 12.B14 for specific requirements for disclosure of summarised financial information.",
+              "yes_case": {
+                "question": "Does the summarised financial information reflect the amounts included in the IFRS financial statements of the joint venture and not the entity's share of those amounts?",
+                "guidance": "Check the presentation in the financial statement notes for compliance with IFRS 12.B14. Ensure the amounts disclosed represent total amounts for the joint venture as reported in its own financial statements, rather than the entity's proportionate share. Pay attention to sub-totals and labels used to avoid misrepresentation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "208",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.B14",
+          "question": "Does the entity have an interest in a joint venture?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "206.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity accounts for its interest in a joint venture using the equity method, are the amounts included in the joint venture's IFRS financial statements adjusted to reflect fair value adjustments made at acquisition and differences in accounting policies?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in a joint venture?",
+            "guidance": "Review the entity's arrangements and agreements. Confirm the existence of joint control under IFRS 11 definitions. Look for contracts or agreements evidencing shared control over an arrangement.",
+            "yes_case": {
+              "question": "Does the entity account for its interest in the joint venture using the equity method?",
+              "guidance": "Inspect the entity's financial statements and disclosures under IFRS 11 and IAS 28. Verify that the interest in the joint venture is not measured at fair value, nor accounted for using other methods such as cost. Ensure the equity method is explicitly stated in notes or accounting policies.",
+              "yes_case": {
+                "question": "Are the amounts included in the joint venture's IFRS financial statements adjusted to reflect fair value adjustments made at acquisition and differences in accounting policies?",
+                "guidance": "Check the joint venture's summarized financial information in the entity's disclosures. Confirm any adjustments for fair value at acquisition, such as goodwill or identifiable assets. Ensure the joint venture's accounting policies align with those of the entity, or adjustments have been made where differences exist.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "209",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.B14",
+          "question": "Does the entity have an interest in a joint venture?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "206.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity provide a reconciliation of the summarised financial information presented to the carrying amount of its interest in the joint venture?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in a joint venture?",
+            "guidance": "To answer, review the entity's agreements/contracts and its financial statements to identify interests classified as joint ventures under IFRS 11. Check whether the arrangement meets the definition of joint control per IFRS 11.7-11.9. Be cautious not to confuse joint ventures with joint operations.",
+            "yes_case": {
+              "question": "Does the entity report summarised financial information for the joint venture in its financial statements?",
+              "guidance": "Review the financial statements for disclosure of summarised financial information related to joint ventures in accordance with IFRS 12.B12-B13. This includes key financial metrics such as total assets, liabilities, revenue, and profit/loss.",
+              "yes_case": {
+                "question": "Does the entity provide a reconciliation of the summarised financial information to the carrying amount of its interest in the joint venture?",
+                "guidance": "Check the disclosure notes in the financial statements for a reconciliation as required by IFRS 12.B14. The reconciliation should clearly follow the summarised financial amounts through adjustments to the carrying amount of the interest. Ensure all adjustments (e.g., elimination of unrealised profits) are properly disclosed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "210.1",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.B15(a)",
+          "question": "Does the entity have an interest in a joint venture?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity measures its interest in the joint venture at fair value, does it disclose the basis on which the summarised financial information has been prepared?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in a joint venture?",
+            "guidance": "Review IFRS 11 definitions to confirm whether the entity participates in joint control of a jointly managed arrangement. Check the entity's investments and agreements to identify any interest classified as a joint venture per IFRS 11.",
+            "yes_case": {
+              "question": "Is the entity measuring its interest in the joint venture at fair value?",
+              "guidance": "Check the accounting policy disclosures and the entity's financial statements. If the joint venture is measured at fair value, this should be disclosed under financial statement notes, particularly under investment or joint venture disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose the basis on which the summarised financial information has been prepared?",
+                "guidance": "Review financial statement notes related to joint ventures (required under IFRS 12.B15(a)). Ensure the basis for preparing summarised financial information, such as whether the financial information is from the joint venture's IFRS-compliant financial statements or adjusted to match the entity's reporting framework, is explicitly disclosed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "210.2",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.B15(b)",
+          "question": "Does the entity have an interest in a joint venture?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "210.1",
+          "source_trigger": "Yes",
+          "original_question": "If the joint venture does not prepare IFRS financial statements and preparation on that basis would be impracticable or cause undue cost, does the entity disclose the basis on which the summarised financial information has been prepared?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in a joint venture?",
+            "guidance": "Review the ownership structure and agreements in the financial statements and supporting documents. A joint venture involves shared control, as defined under IFRS 11. Verify the entity's classification of its investment in accordance with IFRS 11. If no interest is classified as a joint venture, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Does the joint venture prepare IFRS financial statements?",
+              "guidance": "Obtain the financial statements of the joint venture and check whether they are prepared in compliance with IFRS standards. Look for explicit mentions such as 'prepared in accordance with IFRS' in the auditor’s report or the accounting policy note.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Is preparation of IFRS financial statements by the joint venture impracticable or does it cause undue cost?",
+                "guidance": "Assess whether there are valid reasons for the impracticability or undue costs. Refer to IFRS 12.B15(b) for guidance on what constitutes undue cost or impracticability. Collect documentation detailing why the joint venture cannot prepare IFRS financial statements and validate whether the explanations meet the criteria outlined.",
+                "yes_case": {
+                  "question": "Does the entity disclose the basis on which the summarised financial information of the joint venture has been prepared?",
+                  "guidance": "Review the disclosures in the entity's notes to the financial statements. The basis of preparation should be clearly stated and adequately describe the accounting principles used to prepare the summarised financial information for the joint venture. Ensure the disclosure is included as required by IFRS 12.B15(b).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "211",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.B16",
+          "question": "Does the entity have interests in joint ventures accounted for using the equity method?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose, in aggregate, the carrying amount of its interests in all individually immaterial joint ventures accounted for using the equity method?",
+          "decision_tree": {
+            "question": "Does the entity have interests in joint ventures accounted for using the equity method?",
+            "guidance": "Check the financial statements, specifically the notes section discussing investments in joint ventures or associates. Confirm that the entity accounts for these investments under the equity method as per IAS 28.",
+            "yes_case": {
+              "question": "Are all joint ventures accounted for using the equity method individually immaterial?",
+              "guidance": "Review the notes for disclosures about joint ventures. Individually immaterial joint ventures will typically have low financial significance compared to other interests. Evaluate whether the entity categorizes all joint ventures as individually immaterial based on its reporting thresholds.",
+              "yes_case": {
+                "question": "Does the entity disclose, in aggregate, the carrying amount of its interests in all individually immaterial joint ventures accounted for using the equity method?",
+                "guidance": "Ensure the aggregate carrying amount is disclosed in the notes to the financial statements, as required by IFRS 12.B16. Check for appropriate aggregation and ensure this information is not omitted.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "212.1",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(c)(i)",
+          "question": "Does the entity have joint ventures accounted for under IFRS 11?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "211",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the aggregate share of profit or loss from continuing operations for all individually immaterial joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity have joint ventures accounted for under IFRS 11?",
+            "guidance": "Review the entity's financial statements, specifically the notes on interests in joint arrangements and accounting policies for IFRS 11. Look for references to joint ventures explicitly classified as such under IFRS 11.",
+            "yes_case": {
+              "question": "Are there any individually immaterial joint ventures identified by the entity?",
+              "guidance": "Review the notes to the financial statements. Check whether the entity distinguishes joint ventures that are considered individually immaterial based on their impact on the financial statements, specifically in terms of profit or loss and other disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate share of profit or loss from continuing operations for all individually immaterial joint ventures?",
+                "guidance": "Confirm that the financial statement notes include a disclosure that aggregates the profit or loss from continuing operations for all joint ventures classified as individually immaterial. This should be presented in accordance with IFRS 12.21(c)(i). Lack of disclosure or incomplete aggregation could indicate a compliance issue.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "212.2",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(c)(ii)",
+          "question": "Does the entity have any joint ventures?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "211",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the aggregate share of post-tax profit or loss from discontinued operations for all individually immaterial joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity have any joint ventures?",
+            "guidance": "Refer to the entity's financial statements, specifically the notes related to investments in joint ventures as per IFRS 11. Look for disclosures of joint arrangements classified as joint ventures. Verify this classification carefully by reviewing the joint arrangement agreements and their assessment under IFRS 11.",
+            "yes_case": {
+              "question": "Are any of the joint ventures classified as individually immaterial?",
+              "guidance": "Check the notes to the financial statements. Joint ventures are considered individually immaterial if they do not significantly affect the financial position or performance of the entity on their own. Confirm they are grouped as immaterial joint ventures.",
+              "yes_case": {
+                "question": "Do any of these immaterial joint ventures have post-tax profit or loss from discontinued operations?",
+                "guidance": "Review the notes to the financial statements for profit or loss statements related to immaterial joint ventures. Specifically, look for references to discontinued operations in accordance with IFRS 12.21(c)(ii).",
+                "yes_case": {
+                  "question": "Does the entity disclose the aggregate share of post-tax profit or loss from discontinued operations for all individually immaterial joint ventures?",
+                  "guidance": "Examine the segment reporting note and other applicable disclosures. Ensure aggregate post-tax profit or loss from discontinued operations for immaterial joint ventures is explicitly disclosed, as required by IFRS 12.21(c)(ii). Common pitfalls include providing inadequate aggregation or omitting disclosure entirely.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "212.3",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(c)(iii)",
+          "question": "Does the entity have joint ventures in its group structure?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "211",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the aggregate share of other comprehensive income for all individually immaterial joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity have joint ventures in its group structure?",
+            "guidance": "Review the entity's organizational structure and agreements for joint arrangements. Check the Consolidated Financial Statements and Notes, specifically under IFRS 11, to identify if joint ventures are included.",
+            "yes_case": {
+              "question": "Are there any joint ventures classified as individually immaterial?",
+              "guidance": "Evaluate the financial significance of joint ventures as disclosed in the Notes to the Financial Statements. IFRS 12 requires entities to identify joint ventures that are not individually material. Immaterial joint ventures are those that cannot influence the financial position or performance significantly when considered individually.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate share of other comprehensive income for all individually immaterial joint ventures?",
+                "guidance": "Verify the Notes to the Financial Statements, paying attention to disclosures about joint ventures under IFRS 12.21(c)(iii). Aggregate share of other comprehensive income should be presented for all immaterial joint ventures per the disclosure requirement. Make sure values are aggregated and disclosed correctly, avoiding omission or inconsistency.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "212.4",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.21(c)(iv)",
+          "question": "Does the entity hold interests in any joint ventures?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "211",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the aggregate share of total comprehensive income for all individually immaterial joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity hold interests in any joint ventures?",
+            "guidance": "Verify the existence of joint ventures by reviewing the entity’s financial statements and notes. Look for investments classified as joint ventures under IFRS 11. Pay attention to any mention of entities where the entity holds joint control and has a contractual agreement.",
+            "yes_case": {
+              "question": "Are all joint ventures individually immaterial in terms of their total comprehensive income?",
+              "guidance": "Assess the materiality of each joint venture's total comprehensive income. Consult IFRS 12.21(c)(iv) and materiality guidelines in IAS 1. Check if any single joint venture has substantial impact or significance to the entity's financial performance.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate share of total comprehensive income for all these individually immaterial joint ventures?",
+                "guidance": "Review the notes to the financial statements under the disclosures for joint ventures. Ensure the aggregated data is presented under IFRS 12.21(c)(iv), covering total comprehensive income collectively for individually immaterial joint ventures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "213.1",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.23(a)(i), IFRS 12.B18, IFRS 12.B19",
+          "question": "Does the entity have joint arrangements or interests in joint ventures as defined in IFRS 11?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose, separately from other commitments, unrecognised commitments to contribute funding or resources that may give rise to a future outflow of cash or other resources?",
+          "decision_tree": {
+            "question": "Does the entity have joint arrangements or interests in joint ventures as defined in IFRS 11?",
+            "guidance": "Review the entity’s financial statements and the nature of its arrangements with other parties. Check agreements and contracts to confirm whether the entity has joint control over the arrangements or joint ventures as defined under IFRS 11. Ensure proper distinction between joint operations and joint ventures.",
+            "yes_case": {
+              "question": "Does the entity have unrecognised commitments to contribute funding or resources to the joint arrangements or joint ventures?",
+              "guidance": "Refer to contractual agreements for joint arrangements or joint ventures. Check clauses that specify future obligations or commitments to contribute cash or other resources. Verify if these commitments are currently unrecognised in the financial statements.",
+              "yes_case": {
+                "question": "Does the entity separately disclose these unrecognised commitments to contribute funding or resources in its financial statements, as required by IFRS 12.23(a)(i)?",
+                "guidance": "Locate disclosures related to joint arrangements or joint ventures in the financial statements. Confirm if unrecognised commitments are disclosed separately from other types of commitments. Cross-reference with IFRS 12.23(a)(i), ensuring compliance with the requirement to separately disclose commitments.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "213.2",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.23(a)(ii), IFRS 12.B18, IFRS 12.B19",
+          "question": "Does the entity participate in any joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "213.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose, separately from other commitments, unrecognised commitments to acquire another party's ownership interest in a joint venture if a particular event occurs or does not occur in the future?",
+          "decision_tree": {
+            "question": "Does the entity participate in any joint ventures?",
+            "guidance": "Review the financial statements, including the notes section, and confirm through IFRS 11 disclosures whether joint ventures exist. Check for agreements, investments, or partnerships classified as joint ventures under IFRS 11 criteria. Common pitfall: Confusing joint ventures with associates.",
+            "yes_case": {
+              "question": "Has the entity entered into any agreements containing unrecognised commitments to acquire another party's ownership interest in a joint venture?",
+              "guidance": "Examine contractual agreements, contingent arrangements, and commitments disclosed in supporting documents or management reporting. Focus on commitments tied to specific future events or conditions. Pay special attention to terms related to acquisition of ownership interests in joint ventures. Avoid missing silent obligations that might not be explicitly disclosed.",
+              "yes_case": {
+                "question": "Has the entity disclosed these unrecognised commitments separately from other commitments in accordance with IFRS 12.23(a)(ii)?",
+                "guidance": "Look at the disclosures in the financial statements under IFRS 12. Focus on section 12.23(a)(ii), which mandates the separate disclosure of such commitments regarding joint ventures. Verify whether contingent arrangements or future requirements to acquire ownership interests are disclosed distinctly. Ensure sufficient detail is provided to align with IFRS 12's transparency goals.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "214",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.23(b)",
+          "question": "Does the entity have interests in joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose contingent liabilities incurred relating to its interests in joint ventures, including its share of contingent liabilities incurred jointly with other investors, separately from other contingent liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have interests in joint ventures?",
+            "guidance": "Refer to the financial statement notes and disclosures regarding investments in joint arrangements under IFRS 11. Check if the entity has classified any investment explicitly as a joint venture. Common identifiers include agreements specifying shared control and decisions requiring unanimous consent.",
+            "yes_case": {
+              "question": "Has the entity incurred contingent liabilities related to its interest in joint ventures, or does it have a share of contingent liabilities incurred jointly with other investors?",
+              "guidance": "Review the notes to the financial statements and other documentation related to joint venture arrangements. Examine contracts for provisions creating contingent liabilities. Contingent liabilities typically stem from joint guarantees, legal claims, or contractual obligations.",
+              "yes_case": {
+                "question": "Does the entity disclose these contingent liabilities separately from other contingent liabilities in line with IFRS 12.23(b)?",
+                "guidance": "Check the disclosures section of the financial statements. Ensure contingent liabilities related to joint ventures are distinguished from general contingent liabilities. They should be listed separately, with clear explanations of amounts and nature.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "215.1",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.22(a)",
+          "question": "Does the entity have joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the nature and extent of any significant restrictions on the ability of joint ventures to transfer funds to the entity as cash dividends or to repay loans or advances made by the entity?",
+          "decision_tree": {
+            "question": "Does the entity have joint ventures?",
+            "guidance": "Check the Statement of Financial Position and Notes to the Financial Statements to identify if the entity has investments in joint ventures as defined under IFRS 11. Confirm that these joint ventures meet the definition provided in IFRS 11.5.",
+            "yes_case": {
+              "question": "Are there any significant restrictions on the ability of joint ventures to transfer funds to the entity as cash dividends or to repay loans or advances?",
+              "guidance": "Review the agreement terms for each joint venture as well as disclosures in the Notes to the Financial Statements. Specifically, look for clauses that limit cash transfers, such as regulatory restrictions, contractual obligations, or other barriers. Beware of overlooking implicit restrictions caused by economic or operational conditions.",
+              "yes_case": {
+                "question": "Has the entity disclosed the nature and extent of these significant restrictions in accordance with IFRS 12.22(a)?",
+                "guidance": "Review the Notes to the Financial Statements, especially the section related to joint ventures. Ensure the disclosure specifies the nature of the restriction (e.g., regulatory, contractual), the extent of the restriction (quantitative or qualitative details), and its impact on the entity. Do not accept vague or incomplete descriptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "215.2",
+          "section": "IFRS 11",
+          "reference": "IFRS 12.22(b)",
+          "question": "Does the entity have an investment in a joint venture accounted for using the equity method?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "215.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose when the financial statements of a joint venture used in applying the equity method are as of a date or for a period different from that of the entity?",
+          "decision_tree": {
+            "question": "Does the entity have an investment in a joint venture accounted for using the equity method?",
+            "guidance": "Review the entity's financial statements, specifically the notes on investments and IFRS 11 compliance. Confirm whether there are investments classified as joint ventures and whether the equity method is used to account for them. Cross-check the classification of investments in joint ventures under IFRS 11.",
+            "yes_case": {
+              "question": "Are the financial statements of the joint venture prepared as of a date or for a period different from the date or period of the entity's financial statements?",
+              "guidance": "Examine the financial statements and supporting documentation of the joint venture. Compare the reporting periods and reporting dates of the joint venture's financial statements with the entity's financial statements. Pay attention to any explanations provided in the notes to the financial statements.",
+              "yes_case": {
+                "question": "Does the entity disclose this difference in reporting dates or periods in its financial statements as required by IFRS 12.22(b)?",
+                "guidance": "Check the entity's financial statement disclosures, particularly in the notes section addressing IFRS 12 compliance. Ensure the disclosure accurately highlights the difference in reporting periods or dates between the joint venture and the entity. Consult IFRS 12.22(b) for specific wording and disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "216",
+          "section": "IFRS 11",
+          "reference": "IFRS 11.24A, IFRS 3",
+          "question": "Has the entity obtained an interest in a joint operation during the reporting period?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When an entity obtains an interest in a joint operation in which the activity constitutes a business as defined in IFRS 3, does it disclose the information required by IFRS 3 and other IFRS standards related to business combinations?",
+          "decision_tree": {
+            "question": "Has the entity obtained an interest in a joint operation during the reporting period?",
+            "guidance": "Review the entity's transactions and agreements during the reporting period. Verify whether any interests in joint operations were obtained. This information may be found in acquisition documents, joint operation agreements, and transaction records.",
+            "yes_case": {
+              "question": "Does the activity of the joint operation constitute a business as defined in IFRS 3?",
+              "guidance": "Refer to the definition of a business in IFRS 3, which generally involves an integrated set of activities and assets capable of being conducted and managed for the purpose of providing a return. Check the nature of the joint operation's activities and assess whether they meet the definition of a business.",
+              "yes_case": {
+                "question": "Has the entity disclosed the required information under IFRS 3 and other related IFRS standards for business combinations?",
+                "guidance": "Review the financial statements and accompanying notes. Look for disclosures such as the fair value of acquired elements, the allocation of purchase price, and other details required under IFRS 3 and related standards like IFRS 12. Cross-reference these disclosures with the requirements outlined in IFRS 3 and the relevant sections of IFRS 11.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.1",
+          "section": "IFRS 11",
+          "reference": "IAS 27.17(a)",
+          "question": "Does the entity prepare separate financial statements as defined in IAS 27?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When a parent or investor with joint control or significant influence prepares separate financial statements, does the entity identify the financial statements prepared in accordance with IFRS 10, IFRS 11 or IAS 28 to which they relate?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements as defined in IAS 27?",
+            "guidance": "Review the entity's financial reporting structure to confirm whether it prepares separate financial statements. Separate financial statements are those presented by a parent, investor with joint control, or investor with significant influence, and are separate from the consolidated financial statements. Refer to IAS 27.3 for the definition and ensure the financial statements are not just additional reports.",
+            "yes_case": {
+              "question": "Do the separate financial statements explicitly identify the related financial statements prepared in accordance with IFRS 10, IFRS 11, or IAS 28?",
+              "guidance": "Examine the notes or disclosures in the separate financial statements to identify cross-references or statements linking them to financial statements prepared under IFRS 10 (Consolidated Financial Statements), IFRS 11 (Joint Arrangements), or IAS 28 (Investments in Associates and Joint Ventures). Ensure this identification is clear in accordance with IAS 27.17(a). Common pitfalls include vague references or missing disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.2",
+          "section": "IFRS 11",
+          "reference": "IAS 27.17(b)",
+          "question": "Does the entity prepare separate financial statements under IAS 27 instead of consolidated financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "246.1",
+          "source_trigger": "Yes",
+          "original_question": "When a parent or investor prepares separate financial statements, does the entity disclose that these statements are separate financial statements?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements under IAS 27 instead of consolidated financial statements?",
+            "guidance": "Review the financial statements and confirm whether the entity has issued separate financial statements as defined by IAS 27. Separate financial statements present investments in subsidiaries, joint ventures, or associates either at cost, in accordance with IFRS 9, or using the equity method, without consolidating the investees.",
+            "yes_case": {
+              "question": "Do the separate financial statements clearly disclose that they are separate financial statements in accordance with IAS 27?",
+              "guidance": "Check for explicit disclosure in the financial statements. This is usually included in the basis of preparation note or other significant disclosure notes. Failure to label them correctly may lead to misinterpretation of the financial statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.3",
+          "section": "IFRS 11",
+          "reference": "IAS 27.17(c)",
+          "question": "Does the entity prepare separate financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "246.1",
+          "source_trigger": "Yes",
+          "original_question": "When a parent or investor prepares separate financial statements, does the entity disclose a list of significant investments in subsidiaries, joint ventures and associates, including the name, principal place of business (and country of incorporation, if different) of each investee, and its proportion of ownership interest (and voting rights, if different) held in each?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements?",
+            "guidance": "Review the financial reporting structure and determine if the entity's financial statements are prepared as 'Separate Financial Statements' as defined in IAS 27. Separate financial statements are those presented by a parent or investor without combining subsidiaries, joint ventures, or associates. Check accounting policy disclosures to confirm the basis of financial statement preparation.",
+            "yes_case": {
+              "question": "Does the entity have significant investments in subsidiaries, joint ventures, or associates?",
+              "guidance": "Refer to the financial statements and supporting schedules. Identify whether the entity has any subsidiaries, joint ventures, or associates that qualify as 'significant' based on their financial impact or other relevance criteria outlined in IFRS 11 and IAS 27.",
+              "yes_case": {
+                "question": "Does the entity disclose the required list of significant investments, including the name, principal place of business, country of incorporation (if different), proportion of ownership interest, and voting rights (if different)?",
+                "guidance": "Review the notes to the financial statements, specifically disclosures related to investments. Look for a complete and clear list that includes all required details for each significant investee. Ensure compliance with IAS 27.17(c)'s disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.4",
+          "section": "IFRS 11",
+          "reference": "IAS 27.17(d)",
+          "question": "Is the entity preparing separate financial statements as defined under IAS 27?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "246.1",
+          "source_trigger": "Yes",
+          "original_question": "When a parent or investor prepares separate financial statements, does the entity disclose a description of the method used to account for the investments listed under IAS 27.17(c)?",
+          "decision_tree": {
+            "question": "Is the entity preparing separate financial statements as defined under IAS 27?",
+            "guidance": "Review the financial statements and confirm if they are labeled as 'Separate Financial Statements'. Separate financial statements refer to those prepared by a parent or investor where investments in subsidiaries, joint ventures, or associates are presented either at cost or fair value. Avoid confusing these with consolidated financial statements.",
+            "yes_case": {
+              "question": "Does the entity have investments listed under IAS 27.17(c) in its separate financial statements?",
+              "guidance": "Examine IAS 27.17(c). These investments can include subsidiaries, joint ventures, and associates. Verify whether such investments are presented in the entity’s separate financial statements either at cost or at fair value using IFRS 9. Common pitfalls include omitting minor investments or incorrectly classifying financial instruments.",
+              "yes_case": {
+                "question": "Does the entity disclose the method used to account for these investments in its separate financial statements?",
+                "guidance": "Check the notes to the financial statements. Look for a clear description specifying whether investments are measured at cost or fair value in accordance with IFRS 9. Ensure that this disclosure is explicitly linked to IAS 27.17(d) and is sufficiently detailed to avoid ambiguity.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "title": "Employee Benefits (IAS 19) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 19",
+      "title": "Employee Benefits",
+      "description": "Checklist for presentation and disclosure requirements under IAS 19.",
+      "items": [
+        {
+          "id": "255",
+          "section": "IAS 19",
+          "reference": "IAS 19.33(b)",
+          "question": "Does the entity participate in a multi-employer plan?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If a multi-employer plan is a defined benefit plan and the entity accounts for the plan as a defined benefit plan, does the entity make the disclosures in the \"Defined benefit plans\" section and in IAS 19.148(a)–(c)?",
+          "decision_tree": {
+            "question": "Does the entity participate in a multi-employer plan?",
+            "guidance": "Check the contractual agreements, employee benefits documentation, or HR policies for participation in a multi-employer plan. Multi-employer plans are arrangements where multiple employers contribute to a single pension or post-employment benefit plan. Ensure the plan qualifies as multi-employer as defined in IAS 19.",
+            "yes_case": {
+              "question": "Is the multi-employer plan classified as a defined benefit plan under IAS 19?",
+              "guidance": "Review the terms of the multi-employer plan. IAS 19 defines defined benefit plans as those where the entity's obligation is to provide specified benefits to employees, based on factors such as salary and years of service, regardless of plan assets. Check IAS 19.8 for definitions and ensure proper classification.",
+              "yes_case": {
+                "question": "Does the entity account for the multi-employer plan as a defined benefit plan?",
+                "guidance": "Review the accounting treatment of the plan in the financial statements. Confirm the presence of liabilities, assets, and associated costs related to defined benefits. Refer to IAS 19.29–33 for requirements on accounting for defined benefit plans.",
+                "yes_case": {
+                  "question": "Does the entity disclose the information required for defined benefit plans per IAS 19.148(a)–(c)?",
+                  "guidance": "Verify whether the entity discloses the following in alignment with IAS 19.148(a)–(c): (a) characteristics of the plan; (b) amounts included in the financial statements; and (c) risks associated with the plan. Ensure sufficient detail in the notes to the financial statements, including actuarial assumptions and funding arrangements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "256.1",
+          "section": "IAS 19",
+          "reference": "IAS 19.148(a)",
+          "question": "Does the entity participate in a multi-employer plan that qualifies as a defined benefit plan under IAS 19?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If sufficient information is not available to use defined benefit accounting for a multi-employer plan that is a defined benefit plan, does the entity disclose a description of the funding arrangements, including the method used to determine the entity's rate of contributions and any minimum funding requirements?",
+          "decision_tree": {
+            "question": "Does the entity participate in a multi-employer plan that qualifies as a defined benefit plan under IAS 19?",
+            "guidance": "Review the agreement or documentation of the employee benefit plan and confirm if it is a multi-employer plan classified as a defined benefit plan as per IAS 19 definitions. Consult IAS 19.7-19.8 for the definition of a multi-employer plan and IAS 19.8-19.19 for defined benefit plan conditions. Verify these details with HR or plan administrators if necessary.",
+            "yes_case": {
+              "question": "Is sufficient information available to apply defined benefit accounting for this multi-employer plan?",
+              "guidance": "Check whether the entity can reliably obtain the necessary information required to account for the plan using defined benefit accounting (e.g., plan assets, liabilities, contributions). Refer to IAS 19.8 for guidance. Typical difficulties include challenges with access to plan-level financial details.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Has the entity disclosed a description of the funding arrangements, including the method used to determine the entity's rate of contributions and any minimum funding requirements?",
+                "guidance": "Review the notes to the financial statements to ensure this disclosure is present. Specifically, confirm that the funding arrangement description includes details about determination of contribution rates and existence of any minimum funding requirements. Refer to IAS 19.148(a) for specific disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "257.1",
+          "section": "IAS 19",
+          "reference": "IAS 19.149(a)",
+          "question": "Does the entity participate in a defined benefit plan that shares risks between entities under common control?",
+          "question_type": "Followup",
+          "source_question": "256.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity participates in a defined benefit plan that shares risks between entities under common control, does the entity disclose the contractual agreement or stated policy for charging the net defined benefit cost (or the fact that there is no such policy)?",
+          "decision_tree": {
+            "question": "Does the entity participate in a defined benefit plan that shares risks between entities under common control?",
+            "guidance": "Review the entity's pension and benefits arrangements in accordance with IAS 19. Verify if the entity is part of a defined benefit plan where the obligations and risks are shared among entities under common control. Check contracts, policies, and disclosures in the financial statements (note disclosures under IAS 19).",
+            "yes_case": {
+              "question": "Does the entity disclose the contractual agreement or stated policy for charging the net defined benefit cost, or disclose the fact that there is no such policy?",
+              "guidance": "Examine the notes to the financial statements under IAS 19.149(a). Look for explicit references to the policy for allocating the net defined benefit cost among entities under common control, including whether such a policy exists or not. Ensure the disclosure is clear and complete.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "257.2",
+          "section": "IAS 19",
+          "reference": "IAS 19.149(b)",
+          "question": "Does the entity have a defined benefit plan or any employee benefit plans requiring contributions by the entity?",
+          "question_type": "Followup",
+          "source_question": "256.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the policy for determining the contribution to be paid by the entity?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan or any employee benefit plans requiring contributions by the entity?",
+            "guidance": "Check the financial statements, specifically the section on Post-Employment Benefits or Employee Benefits within IAS 19 disclosures. Look for indications that the entity sponsors a defined benefit plan or other contribution-based employee benefit plans. Common pitfalls include overlooking small plans or group plans.",
+            "yes_case": {
+              "question": "Does the entity disclose the policy for determining the contribution to be paid by the entity?",
+              "guidance": "Review the notes to the financial statements under the employee benefits section. The policy should clearly specify the methodology, such as fixed percentage of salary, actuarial determination, or any other basis as per IAS 19. Ensure the disclosure includes sufficient detail to comply with IAS 19.149(b). Common pitfalls include vague or incomplete disclosures that do not explain the basis for contributions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "257.3",
+          "section": "IAS 19",
+          "reference": "IAS 19.149(c)",
+          "question": "Does the entity have a defined benefit plan under IAS 19?",
+          "question_type": "Followup",
+          "context_required": "notes_only",
+          "source_question": "256.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity allocates the net defined benefit cost under IAS 19.41, does it disclose all the information about the plan as a whole required by IAS 19.135–147?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan under IAS 19?",
+            "guidance": "Review the entity's accounting policies and disclosures regarding employee benefits. Check if the entity mentions having a defined benefit plan in accordance with IAS 19. A defined benefit plan involves an obligation to provide benefits based on factors such as salary and tenure, rather than contributions alone.",
+            "yes_case": {
+              "question": "Does the entity allocate the net defined benefit cost under IAS 19.41?",
+              "guidance": "Review the financial statement notes concerning employee benefits. IAS 19.41 allows allocation of defined benefit costs for entities that split costs (e.g., between operating segments, reporting periods, or other classifications). Confirm if cost allocation is explicitly stated and applied.",
+              "yes_case": {
+                "question": "Does the entity disclose all the information about the plan as a whole required by IAS 19.135–147?",
+                "guidance": "Review the disclosures in the notes to the financial statements under the employee benefits section. Verify if the entity provides all required information, such as the nature of the defined benefit plan, actuarial assumptions, reconciliation of the opening and closing balances of plan assets and obligations, and sensitivity analysis as required by IAS 19.135–147.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "257.4",
+          "section": "IAS 19",
+          "reference": "IAS 19.149(d)",
+          "question": "Does the entity account only for the contribution payable under IAS 19.41?",
+          "question_type": "Followup",
+          "source_question": "256.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity accounts only for the contribution payable under IAS 19.41, does it disclose the information about the plan as a whole required by IAS 19.135–137, 139, 142–144 and 147(a)–(b)?",
+          "decision_tree": {
+            "question": "Does the entity account only for the contribution payable under IAS 19.41?",
+            "guidance": "Review the accounting treatment applied to employee benefit plans in the financial statements. Check if the entity recognizes only the contribution payable as specified under IAS 19.41. This usually applies to defined contribution plans where there is no further obligation on the entity after contributions are made.",
+            "yes_case": {
+              "question": "Does the entity disclose the information about the plan as a whole as required by IAS 19.135–137, 139, 142–144, and 147(a)–(b)?",
+              "guidance": "Verify the financial statements and disclosures related to employee benefit plans. Specifically, check if the required details are provided as per IAS 19. These include the nature of the plan, summary of significant assumptions, and an explanation of risks associated with the plan. Ensure that all referenced paragraphs (IAS 19.135–137, 139, 142–144, and 147(a)–(b)) have been addressed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "258",
+          "section": "IAS 19",
+          "reference": "IAS 19.53",
+          "question": "Does the entity have a defined contribution plan?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose the amount recognised as an expense for defined contribution plans?",
+          "decision_tree": {
+            "question": "Does the entity have a defined contribution plan?",
+            "guidance": "Check the employee benefit disclosures in the financial statements, specifically under IAS 19. Look for mentions of 'defined contribution plans' in the summary of pension or retirement benefits. If no such plans are mentioned, the disclosure requirement is not applicable.",
+            "yes_case": {
+              "question": "Has the entity recognised an expense for its defined contribution plans in the reporting period?",
+              "guidance": "Check the income statement or employee benefits expense note. Confirm whether an expense related to contributions to a defined contribution plan is reported. Ensure that the contributions relate to the reporting period and adhere to contractual obligations.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount recognised as an expense for defined contribution plans?",
+                "guidance": "Locate the relevant note in the financial statements regarding employee benefits or pension plans. Verify that the disclosure includes the total expense amount recognised during the reporting period. Avoid common pitfalls, such as omitting the quantified expense or failing to identify its nature.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "259",
+          "section": "IAS 19",
+          "reference": "IAS 19.54, IAS 24.17",
+          "question": "Does the entity have key management personnel?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose contributions to defined contribution plans for key management personnel, when required by IAS 24?",
+          "decision_tree": {
+            "question": "Does the entity have key management personnel?",
+            "guidance": "Review the entity's organizational structure and governance documents, such as board minutes or management contracts, to identify individuals classified as key management personnel as defined in IAS 24. Key management personnel typically include directors and officers who have authority and responsibility for planning, directing, and controlling the entity.",
+            "yes_case": {
+              "question": "Does the entity operate a defined contribution plan for its employees, including key management personnel?",
+              "guidance": "Check the employee benefit plans in place. Review employment contracts or HR policies to confirm if the entity provides a defined contribution plan for its employees and specifically for key management personnel.",
+              "yes_case": {
+                "question": "Has the entity disclosed the contributions to defined contribution plans for key management personnel as required by IAS 24?",
+                "guidance": "Review the financial statements and accompanying notes, specifically the related party disclosures. Contributions for key management personnel should be disclosed, considering the requirements of IAS 19 (employee benefits) and IAS 24 (related party disclosures). Ensure completeness and accuracy of disclosed amounts.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "260.1",
+          "section": "IAS 19",
+          "reference": "IAS 19.139(a)",
+          "question": "Does the entity have defined benefit plans?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose information about the characteristics of its defined benefit plans, including the nature of the benefits provided, the regulatory framework (such as minimum funding requirements and the asset ceiling) and the governance responsibilities (e.g., trustees or board members)?",
+          "decision_tree": {
+            "question": "Does the entity have defined benefit plans?",
+            "guidance": "Refer to the financial statements, specifically under the employee benefits section. Defined benefit plans provide specified retirement benefits based on factors like salary and years of service. If such plans are not mentioned, the item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity disclose the characteristics of its defined benefit plans?",
+              "guidance": "Check the disclosure notes in the financial statements. The characteristics should include the nature of the benefits provided (such as pension, retirement gratuity), the regulatory framework (e.g., minimum funding requirements and asset ceiling), and governance responsibilities (e.g., trustees or board members). Ensure these disclosures are present and adequately detailed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "260.2",
+          "section": "IAS 19",
+          "reference": "IAS 19.139(b)",
+          "question": "Does the entity have a defined benefit plan as part of its employee benefits?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose a description of the risks to which the plan exposes the entity, including any significant concentrations of risk?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan as part of its employee benefits?",
+            "guidance": "Review the entity's employee benefit disclosures or financial statement notes to determine if a defined benefit plan exists. Look for references to IAS 19 compliance and details outlining long-term liabilities for post-employment benefits, as opposed to defined contribution plans. Be cautious of misclassification.",
+            "yes_case": {
+              "question": "Has the entity disclosed a description of the risks to which the defined benefit plan exposes the entity?",
+              "guidance": "Review the financial statement notes where the defined benefit plan is disclosed. Specifically, look for any details outlining risks such as investment risks, interest rate risks, or longevity risks in compliance with IAS 19.139(b).",
+              "yes_case": {
+                "question": "Does the disclosure include details of any significant concentrations of risk?",
+                "guidance": "Check if the disclosure highlights concentrations of risk, such as heavy dependence on specific asset classes (e.g., equities, real estate), geographic areas, or specific plan designs that exacerbate liabilities. Ensure the risk description isn't generic or incomplete.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "260.3",
+          "section": "IAS 19",
+          "reference": "IAS 19.139(c)",
+          "question": "Did the entity have any plan amendments, curtailments, or settlements during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose any plan amendments, curtailments and settlements?",
+          "decision_tree": {
+            "question": "Did the entity have any plan amendments, curtailments, or settlements during the reporting period?",
+            "guidance": "Refer to the entity's records for defined benefit plans and employee benefits disclosures under IAS 19. Check if there were any amendments to the plan terms, significant reductions of benefits due to curtailment, or full/partial settlements of obligations. Review board minutes, HR records, or agreements for such events.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature and financial impact of these plan amendments, curtailments, or settlements?",
+              "guidance": "Examine the notes to the financial statements. Disclosures should specifically include descriptions of the nature of amendments, curtailments, or settlements, and their financial impacts on the defined benefit obligations as required by IAS 19.139(c). Ensure figures are reconciled with related changes in the financials.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "261.1",
+          "section": "IAS 19",
+          "reference": "IAS 19.140(a)",
+          "question": "Does the entity have a defined benefit plan?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "full",
+          "original_question": "Does the entity provide a reconciliation from the opening balance to the closing balance of the net defined benefit liability (asset), showing separately plan assets, the defined benefit obligation and the effect of the asset ceiling?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan?",
+            "guidance": "Check the entity's financial statements and notes under employee benefits (IAS 19). Defined benefit plans are characterized by obligations to provide agreed benefits, and the risks lie with the entity rather than the employee. Common pitfalls: Do not confuse with defined contribution plans, where risks lie with the employee.",
+            "yes_case": {
+              "question": "Is the net defined benefit liability (asset) reported in the financial statements?",
+              "guidance": "Examine the balance sheet and related disclosures. The net defined benefit liability or asset is calculated as the difference between the defined benefit obligation and the fair value of plan assets. Ensure it is recognized if applicable.",
+              "yes_case": {
+                "question": "Does the entity provide a reconciliation from the opening balance to the closing balance of the net defined benefit liability (asset), showing separately plan assets, the defined benefit obligation, and the effect of the asset ceiling?",
+                "guidance": "Review the notes to the financial statements (IAS 19.140(a)). The reconciliation should include separate details for plan assets, the defined benefit obligation, and the effect of the asset ceiling. Ensure the figures are consistent and match the reported closing balances.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "261.2",
+          "section": "IAS 19",
+          "reference": "IAS 19.140(b)",
+          "question": "Does the entity have any reimbursement rights in relation to employee benefits under IAS 19?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity provide a reconciliation from the opening balance to the closing balance of any reimbursement rights and a description of the relationship between those rights and the related obligations?",
+          "decision_tree": {
+            "question": "Does the entity have any reimbursement rights in relation to employee benefits under IAS 19?",
+            "guidance": "Examine the entity's Statement of Financial Position and supporting disclosures regarding employee benefits. Look for any recognized reimbursement rights that arise, for example, from insurance policies or similar arrangements covering employee benefit obligations. If no such rights are found, this item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity disclosed a reconciliation from the opening balance to the closing balance of reimbursement rights in accordance with IAS 19.140(b)?",
+              "guidance": "Review the annual financial statements, particularly the notes on employee benefits. Check for a detailed reconciliation showing movements in reimbursement rights, such as changes due to payments, adjustments, or revaluation. Ensure that this reconciliation connects to the amounts presented in the Statement of Financial Position.",
+              "yes_case": {
+                "question": "Has the entity described the relationship between the reimbursement rights and the related obligations as required by IAS 19.140(b)?",
+                "guidance": "Inspect the disclosure provided in the financial statements. There must be a clear explanation of how the reimbursement rights are linked to specific obligations, including how they interact and any limitations in recoverability. Ensure the description is complete and understandable.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "262.1",
+          "section": "IAS 19",
+          "reference": "IAS 19.141(a)",
+          "question": "Does the entity have defined benefit plans requiring reconciliations under IAS 19?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "original_question": "Does each reconciliation show the current service cost?",
+          "decision_tree": {
+            "question": "Does the entity have defined benefit plans requiring reconciliations under IAS 19?",
+            "guidance": "Review the financial reporting framework adopted by the entity. Refer to IAS 19. Paragraphs 141(a)-(f) detail disclosure requirements for defined benefit plans. Check whether these plans exist in the entity and require financial disclosures.",
+            "yes_case": {
+              "question": "Has the entity provided reconciliations of the defined benefit obligation and plan assets in its financial statements?",
+              "guidance": "Examine the financial statements and disclosures. Look for tables or statements reconciling the movements in the defined benefit obligation and fair value of plan assets. They are typically disclosed under the Employee Benefits or Defined Benefits sections.",
+              "yes_case": {
+                "question": "Does each reconciliation include disclosure of the current service cost?",
+                "guidance": "Review the reconciliation tables for the defined benefit obligation in the financial statements. Confirm that current service costs (representing additional obligations incurred due to employee service in the current reporting period) are specifically listed as required by IAS 19.141(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "262.2",
+          "section": "IAS 19",
+          "reference": "IAS 19.141(b)",
+          "question": "Does the entity have a defined benefit plan or other obligations under IAS 19?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does each reconciliation show interest income or expense?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan or other obligations under IAS 19?",
+            "guidance": "Review the entity’s financial statements, specifically the employee benefits section. Check whether the entity recognizes a defined benefit obligation or any obligations for post-employment benefits under IAS 19.",
+            "yes_case": {
+              "question": "Does the entity provide reconciliations as required under IAS 19.141(b)?",
+              "guidance": "Examine the disclosures in the financial statements related to employee benefits and post-employment benefits. Look for reconciliations of the defined benefit obligation and plan assets, ensuring they comply with the format specified in IAS 19.141(b).",
+              "yes_case": {
+                "question": "Do these reconciliations include interest income or expense as required by IAS 19.141(b)?",
+                "guidance": "Verify within the financial statements that interest income or expense on plan assets or liabilities is separately disclosed within the reconciliations, as mandated by IAS 19.141(b). Ensure accuracy in calculation and classification.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "262.3",
+          "section": "IAS 19",
+          "reference": "IAS 19.141(c)",
+          "question": "Does the entity have a defined benefit plan?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does each reconciliation show remeasurements of the net defined benefit liability (asset), including the return on plan assets (excluding amounts included elsewhere) and actuarial gains and losses from changes in financial assumptions?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan?",
+            "guidance": "Refer to the entity's financial statements, specifically the employee benefit disclosures. Check the relevant accounting policies and IAS 19 section to confirm whether the entity has recognized a defined benefit plan. Defined benefit plans typically involve obligations to provide pensions or other post-employment benefits based on agreed formulas.",
+            "yes_case": {
+              "question": "Does the entity prepare a reconciliation of the net defined benefit liability (asset)?",
+              "guidance": "Examine the employee benefits note in the financial statements and look for a detailed reconciliation of the net defined benefit liability (asset), typically required under IAS 19.141(a)-(c). Ensure it provides changes during the period such as contributions, benefits paid, actuarial adjustments, and interest costs.",
+              "yes_case": {
+                "question": "Does the reconciliation include remeasurements of the net defined benefit liability (asset), including the return on plan assets (excluding amounts included elsewhere) and actuarial gains and losses from changes in financial assumptions?",
+                "guidance": "Inspect the reconciliation's line items under IAS 19.141(c). Confirm that it shows remeasurements, which should include: 1) return on plan assets excluding components reported elsewhere, and 2) actuarial gains and losses from changes in financial assumptions. Check for consistency and completeness.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "262.4",
+          "section": "IAS 19",
+          "reference": "IAS 19.141(e)",
+          "question": "Does the entity prepare reconciliations as required under IAS 19 for employee benefits?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does each reconciliation show the effect of changes in foreign exchange rates?",
+          "decision_tree": {
+            "question": "Does the entity prepare reconciliations as required under IAS 19 for employee benefits?",
+            "guidance": "Review the financial statements and disclosures related to employee benefits, particularly the notes on defined benefit plans. Check if reconciliations are provided for related items such as the net defined benefit liability (or asset), plan assets, and past service cost, as required by IAS 19.",
+            "yes_case": {
+              "question": "Do the reconciliations show the effect of changes in foreign exchange rates as required by IAS 19.141(e)?",
+              "guidance": "Examine the reconciliations for employee benefit items disclosed under IAS 19. Ensure that the effect of foreign exchange rate changes is specifically identified and quantified within the reconciliations. Common omissions arise when there are foreign operations or multi-currency liabilities but no explicit disclosure of currency effects.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "262.5",
+          "section": "IAS 19",
+          "reference": "IAS 19.141(f)",
+          "question": "Does the entity have a defined benefit plan as per IAS 19?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does each reconciliation show contributions to the plan, separated by employer and plan participants?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan as per IAS 19?",
+            "guidance": "Review the entity’s financial statements and employee benefit disclosures to identify if a defined benefit plan is present. Check the notes in the employee benefits section and confirm against IAS 19 definitions.",
+            "yes_case": {
+              "question": "Does the entity provide reconciliations related to the defined benefit plan in its financial statements?",
+              "guidance": "Look for reconciliation schedules detailing movements in the plan’s assets and liabilities. Typically, these are found in the employee benefits note. Ensure all required components (e.g., net defined benefit liability/asset changes) are disclosed.",
+              "yes_case": {
+                "question": "Does each reconciliation show contributions to the plan separated by employer and plan participants?",
+                "guidance": "Review the reconciliation schedules specifically for contributions data. IAS 19.141(f) specifies that contributions should be broken down by source: employer contributions and plan participants' contributions. Ensure this separation is clearly defined.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "262.6",
+          "section": "IAS 19",
+          "reference": "IAS 19.141(g)",
+          "question": "Does the entity have a defined benefit plan covered under IAS 19?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does each reconciliation show payments from the plan, indicating amounts paid in respect of settlements?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan covered under IAS 19?",
+            "guidance": "Review the entity's financial statements and employee benefits disclosures to determine if a defined benefit plan exists. Typically, this is disclosed under note sections related to post-employment benefits as per IAS 19. Common pitfalls include confusing defined benefit plans with defined contribution plans; ensure they involve an obligation for future payments by the entity.",
+            "yes_case": {
+              "question": "Does the entity prepare reconciliations of the defined benefit plan according to IAS 19?",
+              "guidance": "Check the note disclosures on defined benefit plans in the financial statements. IAS 19 requires entities to reconcile components such as the benefit obligation, plan assets, and any plan amendments. Look for detailed explanations, tables, and movements in the relevant financial statement section.",
+              "yes_case": {
+                "question": "Does each reconciliation include payments from the plan, with explicit disclosure of amounts paid in respect of settlements as per IAS 19.141(g)?",
+                "guidance": "Verify the reconciliations presented in the financial statements or associated notes. Specifically, confirm whether payments made from the plan include separate disclosure of settlement amounts. Settlements refer to transactions eliminating substantially all further obligations for employees under the defined benefit plan and must be disclosed under IAS 19.141(g). Watch for missing disclosure or vague descriptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "262.7",
+          "section": "IAS 19",
+          "reference": "IAS 19.141(h)",
+          "question": "Has the entity engaged in any business combinations or disposals during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does each reconciliation show the effects of business combinations and disposals?",
+          "decision_tree": {
+            "question": "Has the entity engaged in any business combinations or disposals during the reporting period?",
+            "guidance": "Verify transactions or events in the reporting period by reviewing board minutes, contract agreements, and disclosures in the financial statements (e.g., Notes on Business Combinations and Disposals). Consult IAS 19 and IFRS 3 for definitions of business combinations and disposals to ensure accuracy. Common oversight: confusion between disposals and regular sales of assets.",
+            "yes_case": {
+              "question": "Does each reconciliation related to employee benefit obligations show the effects of the business combinations and disposals?",
+              "guidance": "Review reconciliations of employee benefit obligations presented in the financial statements. Locate sections covering changes resulting from business combinations and disposals under IAS 19.141(h). Ensure that the effects are specifically disclosed and quantified as part of the reconciliation process.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "263",
+          "section": "IAS 19",
+          "reference": "IAS 19.142",
+          "question": "Does the entity have defined benefit plans accounted for under IAS 19?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disaggregate the fair value of plan assets into classes that distinguish their nature and risks, subdividing each class into assets with quoted market prices in active markets and those without (e.g., investment funds, asset-backed securities, structured debt)?",
+          "decision_tree": {
+            "question": "Does the entity have defined benefit plans accounted for under IAS 19?",
+            "guidance": "Review the entity's accounting policies in the financial statements and disclosures to determine if defined benefit plans are present. Defined benefit plans are arrangements where the entity guarantees specific benefits to its employees post-retirement, and the accounting must follow IAS 19.",
+            "yes_case": {
+              "question": "Does the entity hold plan assets for the defined benefit plans?",
+              "guidance": "Examine the disclosures regarding the defined benefit plans and ascertain if plan assets are held to fund the benefits. Refer to IAS 19.57 for the definition of plan assets, which typically include investments like stocks, bonds, cash, or property.",
+              "yes_case": {
+                "question": "Does the entity disaggregate the fair value of plan assets into classes based on their nature and risks?",
+                "guidance": "Review the disclosures of plan assets in the financial statements, particularly under IAS 19.142. Check if the presentation is detailed enough to classify assets by nature and risks, such as equity investments, bonds, real estate, etc.",
+                "yes_case": {
+                  "question": "Does the entity further subdivide each class of plan assets into those with quoted market prices in active markets and those without?",
+                  "guidance": "Inspect the breakdown of each asset class in the related disclosures. Ensure the subdivision clearly separates assets with readily available quoted market prices (e.g., listed securities) from assets without such quotes (e.g., private equity, structured debt).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "264",
+          "section": "IAS 19",
+          "reference": "IAS 19.143",
+          "question": "Does the entity have a defined benefit plan with plan assets?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the fair value of its own transferable financial instruments held as plan assets and the fair value of plan assets that are property occupied or other assets used by the entity?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan with plan assets?",
+            "guidance": "Review the financial statements and footnotes related to employee benefits. Check for disclosures under IAS 19 specifically addressing defined benefit plans and whether the plan includes assets held for providing benefits.",
+            "yes_case": {
+              "question": "Are any of the plan assets transferable financial instruments issued by the entity or properties occupied/used by the entity?",
+              "guidance": "Examine the composition of plan assets disclosed in the financial statements or footnotes. Verify if any of the assets listed include financial instruments issued by the entity itself or assets such as offices, machinery, or other properties used for operational purposes.",
+              "yes_case": {
+                "question": "Does the entity disclose the fair value of these transferable financial instruments and/or the fair value of the plan assets that are occupied or used by the entity?",
+                "guidance": "Refer to IAS 19.143 and examine the specific note disclosures related to plan assets. Look for explicit disclosure of fair values for the identified instruments or properties occupied/used. Ensure the disclosure is clear and complies with IAS 19 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "265",
+          "section": "IAS 19",
+          "reference": "IAS 19.144",
+          "question": "Does the entity have a defined benefit plan obligation?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the significant actuarial assumptions used to determine the present value of the defined benefit obligation in absolute terms, and, if aggregated for multiple plans, present them as weighted averages or narrow ranges?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan obligation?",
+            "guidance": "Review the entity’s financial statements, specifically the section on employee benefits. Check the notes and disclosures for indications of defined benefit plans under IAS 19. Common signs include pension plans with benefits based on salary and years of service. If no defined benefit plans exist, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity disclosed actuarial assumptions used to determine the present value of the defined benefit obligation?",
+              "guidance": "Inspect the notes section of the financial statements discussing employee benefits. Look for statements on actuarial assumptions, such as discount rates, salary growth rates, or mortality rates. Absence of such information indicates non-compliance.",
+              "yes_case": {
+                "question": "Are the actuarial assumptions expressed in absolute terms and, if aggregated for multiple plans, presented as weighted averages or narrow ranges?",
+                "guidance": "Review the disclosures for each actuarial assumption. Verify that the assumptions are clearly presented in absolute terms, such as a specific percentage for discount rates or mortality rates. For entities with multiple plans, confirm aggregation methods align with IAS 19.144 by using weighted averages or providing narrow ranges. Missing or insufficient aggregation methods are typically non-compliant.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "266.1",
+          "section": "IAS 19",
+          "reference": "IAS 19.145(a)",
+          "question": "Does the entity have a defined benefit plan recognized as per IAS 19?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose a sensitivity analysis for each significant actuarial assumption, showing how the defined benefit obligation would have been affected by reasonably possible changes at the reporting date?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan recognized as per IAS 19?",
+            "guidance": "Examine the financial statements for the presence of a defined benefit plan under employee benefits. These include pension plans, post-employment medical benefits, or other long-term benefits. Refer to IAS 19 paragraphs 8-19 for defined benefit plan criteria.",
+            "yes_case": {
+              "question": "Has the entity disclosed actuarial assumptions used in the valuation of the defined benefit obligation?",
+              "guidance": "Review the notes to the financial statements, specifically the section on employee benefits or pension plans. Disclosure of actuarial assumptions such as discount rate, salary growth rate, and mortality rates is required under IAS 19.144.",
+              "yes_case": {
+                "question": "Has the entity disclosed a sensitivity analysis for each significant actuarial assumption at the reporting date, showing the impact of reasonably possible changes on the defined benefit obligation?",
+                "guidance": "Check the employee benefits disclosure for sensitivity analyses related to key actuarial assumptions. Sensitivity analysis should include how reasonable changes (e.g., a +/- percentage or specific change) affect the defined benefit obligation. Refer to IAS 19.145(a) for requirements. Ensure all significant assumptions are covered.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "266.2",
+          "section": "IAS 19",
+          "reference": "IAS 19.145(b)",
+          "question": "Does the entity have defined benefit plans that require sensitivity analyses disclosure under IAS 19?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the methods, assumptions and limitations used in preparing the required sensitivity analyses?",
+          "decision_tree": {
+            "question": "Does the entity have defined benefit plans that require sensitivity analyses disclosure under IAS 19?",
+            "guidance": "Review the entity's financial statements and assess if it has recognized defined benefit plans under IAS 19. Defined benefit plans are typically disclosed in the employee benefits section. Look for any mention of obligations to provide post-employment benefits such as pensions, retirement benefits, or similar. If no defined benefit plan exists, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity provided sensitivity analyses for its defined benefit plans, as required under IAS 19.145(b)?",
+              "guidance": "Verify the employee benefits disclosures in the financial statements. Check for sensitivity analysis of significant actuarial assumptions, such as discount rate, salary growth rate, or mortality rates. Ensure that any assumptions are varied reasonably to reflect possible changes. If sensitivity analyses are completely missing, this raises a compliance issue.",
+              "yes_case": {
+                "question": "Do the sensitivity analyses properly disclose the methods, assumptions, and limitations used in their preparation?",
+                "guidance": "Verify that the sensitivity analyses explicitly disclose the methods used (e.g., how changes in assumptions are applied), assumptions (e.g., percentage changes in discount rates), and limitations (e.g., whether correlations between assumptions are considered). This disclosure should be complete and transparent as per IAS 19.145(b).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "266.3",
+          "section": "IAS 19",
+          "reference": "IAS 19.145(c)",
+          "question": "Has the entity performed sensitivity analyses related to employee benefit obligations as required under IAS 19?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose changes from the previous period in the methods and assumptions used for sensitivity analyses and the reasons for those changes?",
+          "decision_tree": {
+            "question": "Has the entity performed sensitivity analyses related to employee benefit obligations as required under IAS 19?",
+            "guidance": "Review the financial statements and disclosures in accordance with IAS 19. Sensitivity analyses are typically performed on key assumptions such as discount rates, salary growth, mortality rates, and inflation. Check the notes accompanying the financial statements for references to sensitivity analyses.",
+            "yes_case": {
+              "question": "Did the entity make any changes to the methods or assumptions used for the sensitivity analyses compared to the previous period?",
+              "guidance": "Examine disclosures in the annual report or financial statements. Look for statements or notes highlighting changes in methods or assumptions compared to the prior period. Pay attention to sections discussing actuarial assumptions and calculations.",
+              "yes_case": {
+                "question": "Has the entity disclosed the reasons for changes in methods or assumptions used for the sensitivity analyses?",
+                "guidance": "IAS 19.145(c) requires disclosing reasons for changes in methods and assumptions used for sensitivity analyses. Check whether the entity has provided sufficient explanations about why changes were made. Avoid generic or unclear statements; explanations should be specific and detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "267",
+          "section": "IAS 19",
+          "reference": "IAS 19.146",
+          "question": "Does the entity have a defined benefit plan?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose any asset-liability matching strategies used by the plan or entity, such as annuities or longevity swaps, to manage risk?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan?",
+            "guidance": "Review the entity's financial statements, specifically the employee benefits section in accordance with IAS 19. Check if the entity has a defined benefit plan disclosed. Defined benefit plans provide employees with agreed benefits, typically based on factors such as salary or years of service.",
+            "yes_case": {
+              "question": "Does the entity disclose any asset-liability matching strategies used by the plan or entity?",
+              "guidance": "Inspect the management discussion and analysis (MD&A) and note disclosures related to the defined benefit plan, particularly under IAS 19.146. Asset-liability matching strategies include mechanisms such as annuities or longevity swaps that aim to mitigate pension risk. Verify specifics of the strategies in the disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "268",
+          "section": "IAS 19",
+          "reference": "IAS 19.147",
+          "question": "Does the entity have a defined benefit plan?",
+          "question_type": "Followup",
+          "source_question": "260.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the information required by IAS 19.147 to indicate the effect of the defined benefit plan on its future cash flows?",
+          "decision_tree": {
+            "question": "Does the entity have a defined benefit plan?",
+            "guidance": "Review the financial statements and accompanying notes, specifically under employee benefits. Check whether the entity has recognized a defined benefit plan under IAS 19, which involves obligations to provide post-employment benefits (e.g., pensions). If the entity only has defined contribution plans, this question is not applicable.",
+            "yes_case": {
+              "question": "Does the entity disclose information about the effect of the defined benefit plan on its future cash flows, as required by IAS 19.147?",
+              "guidance": "Refer to the disclosures in the notes to the financial statements. IAS 19.147 requires disclosure of expected contributions to the plan in the next annual reporting period and a description of the funding arrangements. Ensure the entity provides sufficient information about the nature and impact of the defined benefit plan on cash flows. Common pitfalls include omitting expected contributions or failing to describe funding arrangements in sufficient detail.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "269.1",
+          "section": "IAS 19",
+          "reference": "IAS 19.151(a), IAS 24",
+          "question": "Does the entity have post-employment benefit plans?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Where required by IAS 24, does the entity disclose related-party transactions with post-employment benefit plans?",
+          "decision_tree": {
+            "question": "Does the entity have post-employment benefit plans?",
+            "guidance": "Review the financial statements, particularly under IAS 19 disclosures, to identify if the entity provides post-employment benefit plans (e.g., pensions, retirement benefits). Check the notes to the financial statements or employee benefits section for confirmation.",
+            "yes_case": {
+              "question": "Has the entity engaged in transactions with post-employment benefit plans that qualify as related-party transactions under IAS 24?",
+              "guidance": "Identify any interactions or transactions between the entity and its post-employment benefit plans, such as contributions, reimbursements, or services provided, that fall under IAS 24's definition of related-party transactions. Confirm using the related-party disclosure section and cross-reference with IAS 24 definitions.",
+              "yes_case": {
+                "question": "Has the entity disclosed the related-party transactions with post-employment benefit plans as required by IAS 24?",
+                "guidance": "Examine the related-party notes or disclosures in the financial statements. Ensure that all transactions with post-employment benefit plans are disclosed, including the nature of the transactions, amounts involved, and any outstanding balances at reporting date.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "269.2",
+          "section": "IAS 19",
+          "reference": "IAS 19.151(b), IAS 24",
+          "question": "Does the entity have key management personnel?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Where required by IAS 24, does the entity disclose post-employment benefits for key management personnel?",
+          "decision_tree": {
+            "question": "Does the entity have key management personnel?",
+            "guidance": "Review the entity's organizational structure and governance documents. Key management personnel typically include directors and other executives with authority and responsibility for planning, directing, and controlling the entity's activities.",
+            "yes_case": {
+              "question": "Does the entity provide post-employment benefits to key management personnel?",
+              "guidance": "Refer to employment contracts or personnel records for key management individuals. Post-employment benefits include pension plans, retirement benefits, or other benefits payable after the individual retires or leaves the organization.",
+              "yes_case": {
+                "question": "Has the entity disclosed the post-employment benefits for key management personnel as required by IAS 24?",
+                "guidance": "Examine the entity’s financial statements and disclosures, particularly under the related-party transactions section. Ensure that post-employment benefits are disclosed in accordance with IAS 24.151, including descriptions of the benefits and amounts.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "270",
+          "section": "IAS 19",
+          "reference": "IAS 19.152, IAS 37.27–30, 86–88, 91–92",
+          "question": "Does the entity have post-employment benefit obligations?",
+          "question_type": null,
+          "source_question": null,
+          "context_required": "notes_only",
+          "source_trigger": null,
+          "original_question": "Where required by IAS 37, does the entity disclose contingent liabilities arising from post-employment benefit obligations?",
+          "decision_tree": {
+            "question": "Does the entity have post-employment benefit obligations?",
+            "guidance": "Review the entity's financial statements, specifically the notes related to employee benefits and IAS 19 compliance. Check for pension plans, other retirement benefits, or obligations for post-employment healthcare coverage.",
+            "yes_case": {
+              "question": "Do the post-employment benefit obligations include any contingent liabilities?",
+              "guidance": "Examine the assumptions, uncertainties, and conditions described in the notes to the financial statements regarding post-employment benefits. Refer to IAS 37 for the definition of contingent liabilities and whether a present obligation from past events exists but is not recognized due to uncertainty or lack of reliable measurement.",
+              "yes_case": {
+                "question": "Has the entity disclosed these contingent liabilities in accordance with IAS 37?",
+                "guidance": "Check the notes section of the financial statements for disclosures related to contingent liabilities. Ensure the disclosure includes the nature, financial effect, and uncertainties surrounding the contingent liabilities, as stipulated in IAS 37.86–88, 91–92.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

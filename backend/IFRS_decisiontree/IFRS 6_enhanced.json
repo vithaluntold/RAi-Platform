@@ -1,0 +1,310 @@
+{
+  "title": "IFRS 6 Flattened Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 6",
+      "title": "Exploration for and evaluation of mineral resources",
+      "description": "The objective of IFRS 6 Exploration for and Evaluation of Mineral Resources is to specify the financial reporting for the exploration for and evaluation of mineral resources.",
+      "items": [
+        {
+          "id": "IFRS6-1",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.15",
+          "question": "Does the entity hold exploration and evaluation assets?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity classify exploration and evaluation assets as tangible or intangible according to the nature of the assets acquired and apply the classification consistently?",
+          "decision_tree": {
+            "question": "Does the entity hold exploration and evaluation assets?",
+            "guidance": "Review the entity's financial statements and supporting documents (e.g., asset ledger, contracts, or purchase agreements) to identify whether exploration and evaluation assets are recognized. Exploration and evaluation assets typically arise in extractive industries and are governed by IFRS 6.",
+            "yes_case": {
+              "question": "Has the entity classified exploration and evaluation assets as tangible or intangible based on the assets' inherent nature?",
+              "guidance": "Examine the accounting policies and disclosures regarding exploration and evaluation assets. Verify whether the classification (tangible or intangible) aligns with the nature of each asset acquired (e.g., drilling equipment would be tangible, while mineral rights may be intangible). Ensure that this classification complies with paragraph 15 of IFRS 6.",
+              "yes_case": {
+                "question": "Has the entity applied the chosen classification consistently to similar exploration and evaluation assets?",
+                "guidance": "Compare the classification of various exploration and evaluation assets of the same nature in the financial statements. Inconsistencies in applying the classification could indicate non-compliance. Cross-check IFRS 6.15 for consistency requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-2",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.17",
+          "question": "Does the entity hold exploration and evaluation assets related to mineral resources?",
+          "question_type": "Followup",
+          "source_question": "IFRS6-1",
+          "source_trigger": "Yes",
+          "context_required": "full",
+          "original_question": "Does the entity stop classifying exploration and evaluation assets as such when the technical feasibility and commercial viability of extracting a mineral resource are demonstrable?",
+          "decision_tree": {
+            "question": "Does the entity hold exploration and evaluation assets related to mineral resources?",
+            "guidance": "Refer to the entity's financial statement disclosures, particularly the notes on exploration and evaluation assets (per IFRS 6). Ensure that these assets are related to mineral resources and are classified under exploration and evaluation in accordance with IFRS definitions.",
+            "yes_case": {
+              "question": "Has the entity demonstrated technical feasibility and commercial viability for extracting mineral resources?",
+              "guidance": "Review supporting documents such as feasibility studies, technical reports, and agreements that establish commercial prospects. Technical feasibility typically involves proving the extraction process is achievable, while commercial viability means the extraction is profitable given market conditions. Verify these conditions have been formally met based on evidence provided.",
+              "yes_case": {
+                "question": "Has the entity correctly discontinued classification of the assets as exploration and evaluation assets, as required under IFRS 6.17?",
+                "guidance": "Ensure these assets have been reclassified in the financial statements appropriately. IFRS 6 requires exploration and evaluation assets to be derecognized when technical feasibility and commercial viability are demonstrable. Check for supporting documentation and proper journal entries indicating reclassification.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-3",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.18; IAS 36.126",
+          "question": "Does the entity hold exploration and evaluation assets?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity present and disclose any impairment loss relating to exploration and evaluation assets in accordance with IAS 36?",
+          "decision_tree": {
+            "question": "Does the entity hold exploration and evaluation assets?",
+            "guidance": "Review the Statement of Financial Position and related notes to identify any line items indicating exploration and evaluation assets. Cross-check with the accounting policies section to confirm their classification under IFRS 6.",
+            "yes_case": {
+              "question": "Has the entity recognized any impairment losses relating to these exploration and evaluation assets?",
+              "guidance": "Check the financial statements and notes for any mention of impairment losses. Focus on disclosures specifically naming exploration and evaluation assets, and cross-reference with the impairment testing requirements under IAS 36.",
+              "yes_case": {
+                "question": "Does the entity disclose the impairment loss in accordance with IAS 36?",
+                "guidance": "Verify that disclosures meet IAS 36 requirements, including the amount of the impairment loss, assumptions used in impairment testing (e.g., cash flow projections, discount rates), and the CGU affected. Pay attention to whether the impairment explanation is clear and complete.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-4.1",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.23; IFRS 6.24",
+          "question": "Does the entity engage in exploration and evaluation activities?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose its accounting policies for exploration and evaluation expenditures, including the recognition of exploration and evaluation assets?",
+          "decision_tree": {
+            "question": "Does the entity engage in exploration and evaluation activities?",
+            "guidance": "Review the entity's operations and activities. Look for references to exploration and evaluation expenditures or assets in the financial statements, such as those related to mining, oil and gas, or other resource industries.",
+            "yes_case": {
+              "question": "Does the entity have exploration and evaluation expenditures recognized as assets in its financial statements?",
+              "guidance": "Verify whether the entity has recognized exploration and evaluation expenditures. Check the Statement of Financial Position and accompanying notes for exploration and evaluation assets. Review the details to determine if expenditures meet recognition criteria under IFRS 6.",
+              "yes_case": {
+                "question": "Does the entity disclose its accounting policies for exploration and evaluation expenditures, including the recognition of exploration and evaluation assets?",
+                "guidance": "Go to the accounting policies section of the financial statements and verify the explicit disclosure of recognition criteria, measurement basis, and classification of exploration and evaluation assets, as per IFRS 6.23 and IFRS 6.24.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-4.2",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.23; IFRS 6.24",
+          "question": "Does the entity engage in exploration for and evaluation of mineral resources?",
+          "question_type": "Followup",
+          "source_question": "IFRS6-4.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity disclose the amount of assets arising from the exploration for and evaluation of mineral resources?",
+          "decision_tree": {
+            "question": "Does the entity engage in exploration for and evaluation of mineral resources?",
+            "guidance": "Check the entity's business activities and financial statements for references to exploration and evaluation activities related to mineral resources. Review notes to the financial statements (typically under property, plant, and equipment or intangible assets) for descriptions of exploration projects.",
+            "yes_case": {
+              "question": "Has the entity recognized assets arising from exploration for and evaluation of mineral resources on its financial statements?",
+              "guidance": "Inspect the entity's financial statements for items labeled as 'exploration and evaluation assets' under IFRS 6 rules. Ensure that criteria for recognition under IFRS 6 (e.g., technical feasibility and intention to develop) are met.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of assets arising from the exploration for and evaluation of mineral resources?",
+                "guidance": "Verify the notes to the financial statements for clear and separate disclosure of exploration and evaluation assets as required under IFRS 6. Check for compliance with IFRS 6.23 and IFRS 6.24 regarding the level of detail needed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-4.3",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.23; IFRS 6.24",
+          "question": "Does the entity engage in the exploration and evaluation of mineral resources?",
+          "question_type": "Followup",
+          "source_question": "IFRS6-4.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity disclose the amount of liabilities arising from the exploration for and evaluation of mineral resources?",
+          "decision_tree": {
+            "question": "Does the entity engage in the exploration and evaluation of mineral resources?",
+            "guidance": "Review the entity's operations and financial statements, particularly sections related to mineral resources and exploration activities. Check for any references to IFRS 6 compliance. Look in the notes for specific mentions of exploration or evaluation activities.",
+            "yes_case": {
+              "question": "Has the entity recognized liabilities arising from exploration and evaluation activities in accordance with IFRS 6?",
+              "guidance": "Examine the liabilities section of the balance sheet and related notes. Confirm that liabilities specifically related to exploration and evaluation activities are reported. These liabilities typically arise from asset retirement obligations, contractual obligations, or similar costs.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of these liabilities in the financial statements?",
+                "guidance": "Validate the financial statements and accompanying notes for specific disclosure of liability amounts arising from exploration and evaluation activities. IFRS 6 requires entities to provide clear and sufficient disclosure of such liabilities to ensure transparency.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-4.4",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.23; IFRS 6.24",
+          "question": "Does the entity engage in exploration and evaluation activities related to mineral resources?",
+          "question_type": "Followup",
+          "source_question": "IFRS6-4.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity disclose the amount of income arising from the exploration for and evaluation of mineral resources?",
+          "decision_tree": {
+            "question": "Does the entity engage in exploration and evaluation activities related to mineral resources?",
+            "guidance": "Review the entity's operations and check whether there are any documented exploration for and evaluation of mineral resources in the financial reporting period. Refer to sections of the annual report or financial statements that describe the entity’s business activities.",
+            "yes_case": {
+              "question": "Has the entity generated income specifically linked to exploration and evaluation of mineral resources?",
+              "guidance": "Check the entity’s Statement of Comprehensive Income and supporting notes for any mention of income related to exploration and evaluation activities. Income can arise from test production, sales of exploration data, or similar arising activities.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of income arising from the exploration for and evaluation of mineral resources in its financial statements?",
+                "guidance": "Examine the notes to the financial statements or the specific disclosures pertaining to exploration and evaluation activities. Ensure IFRS 6.23 and IFRS 6.24 are followed, which require clarity on income amounts and their description.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-4.5",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.23; IFRS 6.24",
+          "question": "Is the entity engaged in exploration and evaluation activities for mineral resources?",
+          "question_type": "Followup",
+          "source_question": "IFRS6-4.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity disclose the amount of expense arising from the exploration for and evaluation of mineral resources?",
+          "decision_tree": {
+            "question": "Is the entity engaged in exploration and evaluation activities for mineral resources?",
+            "guidance": "Verify the entity's business activities and financial statements, specifically looking for disclosures under IFRS 6. Check whether the entity's operations involve the exploration and evaluation of mineral resources as defined in IFRS 6. Ensure this includes defined assets or expenditures for activities aimed at discovering and quantifying mineral deposits.",
+            "yes_case": {
+              "question": "Has the entity incurred expenses specifically related to exploration and evaluation activities during the reporting period?",
+              "guidance": "Review the entity’s income statement and supporting notes for any expenses categorized or referenced as 'exploration and evaluation' according to IFRS 6. Confirm these align with the definition provided in Paragraph 9 of IFRS 6. Be cautious about misclassification of similar expenditures.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of expense arising from the exploration for and evaluation of mineral resources?",
+                "guidance": "Check the financial statement notes and disclosures. Verify that the entity has disclosed the total expenses related to exploration and evaluation activities in accordance with IFRS 6.23. This may appear under dedicated notes on exploration activities or under broader expense categories. Ensure clarity and sufficient detail are provided.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-4.6",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.23; IFRS 6.24",
+          "question": "Has the entity engaged in exploration for and evaluation of mineral resources during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "IFRS6-4.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity disclose the operating cash flows arising from the exploration for and evaluation of mineral resources?",
+          "decision_tree": {
+            "question": "Has the entity engaged in exploration for and evaluation of mineral resources during the reporting period?",
+            "guidance": "Review the entity's operations and financial statements, specifically checking for any mentions of exploration and evaluation activities. Check disclosures or footnotes for references to IFRS 6 and activities involving mineral resources. If no such activities exist, the item is 'Not Applicable'.",
+            "yes_case": {
+              "question": "Have the operating cash flows related to exploration and evaluation activities been separately identified in the Statement of Cash Flows?",
+              "guidance": "Examine the Statement of Cash Flows and accompanying notes. Verify whether a discrete section or line item mentions operating cash flows from exploration and evaluation activities. Common pitfalls include aggregating these cash flows with other operating cash flows without specific identification.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Has the entity appropriately disclosed why operating cash flows related to exploration and evaluation activities are not separately identified?",
+                "guidance": "Review disclosures and footnotes in the financial statements for explanations. IFRS 6 requires specific disclosures if such activities occur but are not separately identified in the Statement of Cash Flows. Lack of disclosure violates compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-4.7",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.23; IFRS 6.24",
+          "question": "Does the entity engage in exploration for and evaluation of mineral resources?",
+          "question_type": "Followup",
+          "source_question": "IFRS6-4.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity disclose the investing cash flows arising from the exploration for and evaluation of mineral resources?",
+          "decision_tree": {
+            "question": "Does the entity engage in exploration for and evaluation of mineral resources?",
+            "guidance": "Check the entity's financial statements, particularly the notes related to exploration and evaluation activities. Confirm whether the entity has operations involving the exploration for and evaluation of mineral resources as defined in IFRS 6. Review contracts, licenses, and operational disclosures.",
+            "yes_case": {
+              "question": "Are investing cash flows arising from exploration and evaluation activities recognized in the financial statements?",
+              "guidance": "Examine the Statement of Cash Flows and its notes. Look specifically for cash flows classified as 'investing' related to exploration and evaluation activities (e.g., purchase of equipment, acquisition costs). Ensure these cash flows are explicitly identified.",
+              "yes_case": {
+                "question": "Does the entity disclose these investing cash flows separately in the financial statements?",
+                "guidance": "Verify that the Statement of Cash Flows or accompanying notes provide a clear breakdown of investing cash flows arising from exploration for and evaluation of mineral resources. Refer to IFRS 6.23 for detailed disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS6-5",
+          "section": "IFRS 6",
+          "reference": "IFRS 6.25",
+          "question": "Does the entity own exploration and evaluation assets?",
+          "question_type": "Followup",
+          "source_question": "IFRS6-1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity treat exploration and evaluation assets as a separate class of assets and make the disclosures required by either IAS 16 or IAS 38 consistently with how the assets are classified?",
+          "decision_tree": {
+            "question": "Does the entity own exploration and evaluation assets?",
+            "guidance": "Review the financial statements and supporting schedules for exploration and evaluation assets. These are typically found in entities operating in mining or oil and gas sectors. Check if such assets are recognized under IFRS 6.",
+            "yes_case": {
+              "question": "Does the entity classify exploration and evaluation assets as a separate class of assets?",
+              "guidance": "Review the financial statement notes and asset schedule to confirm if exploration and evaluation assets are grouped as a distinct asset class. Look for clear headings or separate line items for these assets.",
+              "yes_case": {
+                "question": "Are the disclosures for exploration and evaluation assets consistent with IAS 16 or IAS 38, based on how the assets are classified?",
+                "guidance": "Determine whether the entity applies IAS 16 (e.g., for tangible assets like drilling rigs) or IAS 38 (e.g., for intangible assets like geological rights). Check disclosures for measurement, depreciation/amortization policies, revaluation (if applicable), and impairment assessments.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

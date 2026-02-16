@@ -1,0 +1,832 @@
+{
+  "title": "IFRS_1 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS_1",
+      "title": "First-time adoption",
+      "description": "Checklist for first-time adoption of IFRS, including related disclosure requirements.",
+      "items": [
+        {
+          "id": "24",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.39AK",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "question": "Is the entity preparing financial statements for a period beginning before 1 January 2026?",
+          "context_required": "notes_only",
+          "original_question": "If an entity applies the Amendments to IFRS 1 in Annual Improvements to IFRS Accounting Standards – Volume 11, issued July 2024, in its financial statements for a period beginning before 1 January 2026, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Is the entity preparing financial statements for a period beginning before 1 January 2026?",
+            "guidance": "Review the reporting period start date in the financial statements. Confirm that this date precedes 1 January 2026. The reporting period start date is typically stated clearly in the introductory notes of the financial statements or the header section within the primary components.",
+            "yes_case": {
+              "question": "Has the entity applied the Amendments to IFRS 1 in Annual Improvements to IFRS Accounting Standards – Volume 11, issued July 2024?",
+              "guidance": "Check the accounting policies section or disclosures in the financial statements. Look specifically for any mention of the Amendments to IFRS 1 in relation to Volume 11, issued July 2024. Ensure consistency with other parts of the financial report to verify application of the amendments.",
+              "yes_case": {
+                "question": "Does the entity disclose the fact that it has early applied the Amendments to IFRS 1?",
+                "guidance": "Review the disclosure note in the financial statements. Confirm that it explicitly states that the entity has early applied the Amendments to IFRS 1 issued in July 2024. The disclosure may be located in a note discussing changes in accounting policies or standards adopted early.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "25",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.23",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "question": "Is the entity transitioning from previous GAAP to IFRS for the first time?",
+          "context_required": "notes_only",
+          "original_question": "Does the entity explain how the transition from previous GAAP to IFRS accounting standards affected its financial position, financial performance and cash flows?",
+          "decision_tree": {
+            "question": "Is the entity transitioning from previous GAAP to IFRS for the first time?",
+            "guidance": "Review the entity's financial reporting framework. Check legal filings, regulatory requirements, or the accounting policies section of the financial statements to confirm if this is the entity's first-time adoption of IFRS.",
+            "yes_case": {
+              "question": "Has the entity included disclosures about how the transition from previous GAAP to IFRS affected its financial position, financial performance, and cash flows?",
+              "guidance": "Review the entity’s first IFRS financial statements, specifically the notes section. Look for reconciliation disclosures as required by IFRS 1.23, including explanations of material differences between the previous GAAP figures and IFRS figures for the balance sheet, income statement, and cash flow statement.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "26.1",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.24(a)",
+          "question": "Is the entity preparing its first IFRS financial statements?",
+          "question_type": "Followup",
+          "source_question": "25",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Do the entity's first IFRS financial statements include reconciliations of its equity reported under previous GAAP to its equity under IFRS accounting standards (in sufficient detail to enable users to understand the material adjustments to the statement of financial position) for the date of transition to IFRS accounting standards?",
+          "decision_tree": {
+            "question": "Is the entity preparing its first IFRS financial statements?",
+            "guidance": "Determine whether the financial statements represent the entity's transition from a previous GAAP to IFRS standards. This is applicable only if it is the first time the entity is adopting IFRS. Cross-check disclosures in the accounting policies or the financial statement introduction for confirmation.",
+            "yes_case": {
+              "question": "Has the entity provided a reconciliation of its equity reported under previous GAAP to its equity under IFRS accounting standards for the date of transition?",
+              "guidance": "Verify the financial statements for a specific note or section that reconciles the equity balances between previous GAAP and IFRS. This reconciliation should cover all major adjustments and align with IFRS 1.24(a). Ensure sufficient detail is provided to enable users to understand the adjustments.",
+              "yes_case": {
+                "question": "Does the reconciliation provide sufficient detail to explain the material adjustments to the statement of financial position?",
+                "guidance": "Review the reconciliation and ensure it clearly identifies and quantifies the adjustments made to equity (e.g., changes in accounting policies, reclassification of items, measurement differences). Sufficient detail means that users should be able to discern the nature and impact of adjustments. Cross-check the notes to the financial statements to confirm alignment.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "26.2",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.24(a)",
+          "question": "Is the entity preparing its first IFRS financial statements?",
+          "question_type": "Followup",
+          "source_question": "25",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Do the entity's first IFRS financial statements include reconciliations of its equity reported under previous GAAP to its equity under IFRS accounting standards (in sufficient detail to enable users to understand the material adjustments to the statement of financial position) for the end of the latest period presented in the entity's most recent annual financial statements under previous GAAP?",
+          "decision_tree": {
+            "question": "Is the entity preparing its first IFRS financial statements?",
+            "guidance": "Validate whether the financial statements are prepared under IFRS for the first time. Check the financial statement title and accounting framework disclosed in the Basis of Preparation section of the notes. Confirm no prior statements have followed IFRS.",
+            "yes_case": {
+              "question": "Did the entity prepare annual financial statements under previous GAAP for the most recent reporting period before adopting IFRS?",
+              "guidance": "Review the entity’s most recent annual financial statements prior to IFRS adoption. Verify that these were prepared under a recognized previous GAAP framework (e.g., US GAAP, local GAAP). Reference the auditors' report or the accounting framework disclosed within the financial statements.",
+              "yes_case": {
+                "question": "Do the first IFRS financial statements include a reconciliation of equity reported under previous GAAP to equity under IFRS for the end of the latest period presented in the entity's most recent annual financial statements under previous GAAP?",
+                "guidance": "Examine the disclosures in the notes to the IFRS financial statements. Specifically, look for a reconciliation table showing equity under the previous GAAP versus equity under IFRS, with explanations for material adjustments. Ensure the reconciliation pertains to the end of the most recent reporting period under previous GAAP.",
+                "yes_case": {
+                  "question": "Does the reconciliation provide sufficient detail to enable users to understand material adjustments to the statement of financial position?",
+                  "guidance": "Check the reconciliation for clarity and detail. It should identify specific adjustments (e.g., fair value adjustments, classification changes) and explain their impact on equity components. Ensure all material adjustments are disclosed and align with IFRS requirements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "26.3",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.25",
+          "question": "Is the entity preparing its first financial statements under IFRS?",
+          "question_type": "Followup",
+          "source_question": "25",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Do the entity's first IFRS financial statements include a reconciliation of the total comprehensive income or profit or loss reported under previous GAAP for the latest period in the entity's most recent annual financial statements to its total comprehensive income under IFRS accounting standards for the same period (in sufficient detail to enable users to understand the material adjustments to the statement of comprehensive income)?",
+          "decision_tree": {
+            "question": "Is the entity preparing its first financial statements under IFRS?",
+            "guidance": "Review the entity's financial reporting history. Verify whether the entity has previously issued financial statements prepared under IFRS. Check historical records or prior financial statements to confirm this.",
+            "yes_case": {
+              "question": "Did the entity previously prepare financial statements under a different GAAP framework before transitioning to IFRS?",
+              "guidance": "Examine the entity's prior financial reporting framework to determine if the previous financial statements were prepared using a non-IFRS framework (e.g., local GAAP). Look at the basis of preparation note in prior financial statements.",
+              "yes_case": {
+                "question": "Do the entity's first IFRS financial statements include a reconciliation of total comprehensive income or profit or loss from its previous GAAP to IFRS for the latest period in its most recent annual financial statements?",
+                "guidance": "Review IFRS 1.25 for specific requirements about reconciliations. Verify that the entity provides sufficient detail in the reconciliation to enable users to understand material adjustments. This should include line items from the previous GAAP to total comprehensive income under IFRS accounting standards.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "27",
+          "section": "IFRS_1",
+          "reference": "IAS 1.24(c)",
+          "question": "Did the entity recognize or reverse any impairment losses for the first time in preparing its opening IFRS statement of financial position?",
+          "question_type": "Followup",
+          "source_question": "25",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity recognised or reversed any impairment losses for the first time in preparing its opening IFRS statement of financial position, do the financial statements include the disclosures that IAS 36 Impairment of Assets would have required if those impairments or reversals had been recognised in the period beginning with the date of transition to IFRS accounting standards?",
+          "decision_tree": {
+            "question": "Did the entity recognize or reverse any impairment losses for the first time in preparing its opening IFRS statement of financial position?",
+            "guidance": "Refer to the opening IFRS statement of financial position and compare it to the previous GAAP-based financial position. Look for any impairments or reversals explicitly recorded due to the transition to IFRS standards. Pay attention to adjustments related to IAS 36 compliance. Common pitfalls include overlooking impairment reversals or recognizing prior impairments that were not IFRS-compliant.",
+            "yes_case": {
+              "question": "Do the financial statements include the disclosures required by IAS 36 Impairment of Assets for recognized impairments or reversals?",
+              "guidance": "Carefully review IAS 36 disclosure requirements, specifically IAS 36 paragraphs 130-133. Validate whether the disclosures detail the nature of impairments or reversals, methods used to determine recoverable amount, and the assumptions applied. Cross-check disclosure notes and impairment testing documentation to ensure completeness and accuracy.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "28",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.26",
+          "question": "Is the entity applying IFRS for the first time?",
+          "question_type": "Followup",
+          "source_question": "26.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity is aware of errors under previous GAAP, do the reconciliations required by IFRS 1.24(a) and (b) distinguish between corrections of errors and changes in accounting policies?",
+          "decision_tree": {
+            "question": "Is the entity applying IFRS for the first time?",
+            "guidance": "Verify if the entity is transitioning from another GAAP to IFRS for the first time. Check the entity's financial reporting framework in prior periods to confirm whether IFRS has been used before or if it is newly adopted.",
+            "yes_case": {
+              "question": "Is the entity aware of errors under its previous GAAP?",
+              "guidance": "Review the entity’s prior financial statements prepared under the previous GAAP, focusing on identified corrections, auditor reports, or discussions with management indicating awareness of prior errors.",
+              "yes_case": {
+                "question": "Do the reconciliations required by IFRS 1.24(a) and (b) distinguish between corrections of errors and changes in accounting policies?",
+                "guidance": "Examine the reconciliations disclosed as per IFRS 1.24(a) and (b). Ensure the entity separately categorizes adjustments due to error corrections versus changes in accounting policies. Reconciliations typically cover equity at the transition date and comprehensive income in the latest reported period.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "29",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.25",
+          "question": "Did the entity present a statement of cash flows under its previous GAAP?",
+          "question_type": "Followup",
+          "source_question": "25",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity presented a statement of cash flows under its previous GAAP, does it explain the material adjustments to that statement of cash flows?",
+          "decision_tree": {
+            "question": "Did the entity present a statement of cash flows under its previous GAAP?",
+            "guidance": "Refer to the financial statements prepared under the previous GAAP. Verify whether a statement of cash flows was included as part of the prior reporting framework. Check prior annual reports or other regulatory filings for the presence of this statement.",
+            "yes_case": {
+              "question": "Has the entity explained material adjustments to the statement of cash flows under the transition to IFRS?",
+              "guidance": "Review IFRS 1.25 and the transition disclosures. Ensure the entity has detailed all material adjustments made to the previously presented statement of cash flows to comply with IFRS. Look for clear reconciliation schedules or narrative explanations within the disclosures accompanying the financial statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "30",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.28",
+          "question": "Does the entity present financial statements for previous periods?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity does not present financial statements for previous periods, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Does the entity present financial statements for previous periods?",
+            "guidance": "Check the financial statements. Look for comparative disclosures in the primary financial statements (e.g., Balance Sheet, Income Statement) or specified disclosures for the prior period. Previous periods typically include prior year information. Ensure there are no comparative figures missing.",
+            "yes_case": "COMPLIANT: N/A",
+            "no_case": {
+              "question": "Does the entity disclose the fact that it does not present financial statements for previous periods?",
+              "guidance": "Review the notes to the financial statements or other accompanying disclosures. The entity must explicitly state that no comparative information is presented and provide an explanation, if applicable. Ensure the disclosure is clear and compliant with IFRS 1.28.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            }
+          }
+        },
+        {
+          "id": "31.1",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.23A",
+          "question": "Has the entity applied IFRS accounting standards in a previous reporting period as described in IFRS 1.4A?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does an entity that has applied IFRS accounting standards in a previous period, as described in IFRS 1.4A, disclose the reason it stopped applying IFRS accounting standards?",
+          "decision_tree": {
+            "question": "Has the entity applied IFRS accounting standards in a previous reporting period as described in IFRS 1.4A?",
+            "guidance": "Review prior-period financial statements to determine if the entity applied IFRS standards. Check the first-time adoption details in IFRS 1.4A, which requires identifying entities that stopped applying IFRS after previously adopting it. Common pitfalls include misreading prior-period compliance or overlooking unique IFRS 1 disclosures.",
+            "yes_case": {
+              "question": "Did the entity stop applying IFRS accounting standards in the current reporting period?",
+              "guidance": "Identify whether the entity no longer uses IFRS standards for its financial reporting. Review the basis of preparation in the current financial statements and compare it with prior periods. Ensure that the change in reporting standards is clearly stated.",
+              "yes_case": {
+                "question": "Does the entity disclose the reason why it stopped applying IFRS accounting standards?",
+                "guidance": "Inspect the financial statement disclosures related to the basis of preparation. The disclosure should explicitly state the reason for discontinuing IFRS reporting, as outlined in IFRS 1.23A. Ensure the explanation is clear and sufficient to comply with the disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "31.2",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.23A",
+          "question": "Has the entity previously applied IFRS accounting standards, as described in IFRS 1.4A?",
+          "question_type": "Followup",
+          "source_question": "31.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does an entity that has applied IFRS accounting standards in a previous period, as described in IFRS 1.4A, disclose the reason it is resuming the application of IFRS accounting standards?",
+          "decision_tree": {
+            "question": "Has the entity previously applied IFRS accounting standards, as described in IFRS 1.4A?",
+            "guidance": "Review historical financial statements to confirm if IFRS standards were used in any prior period. Refer to IFRS 1.4A for the criteria of previous IFRS application, such as whether the entity presented financial statements in compliance with IFRS. Ensure proper documentation is available to support the conclusion.",
+            "yes_case": {
+              "question": "Is the entity resuming the application of IFRS accounting standards after having stopped applying them for some time?",
+              "guidance": "Check the current reporting framework and compare it with the previous reporting framework used in intervening periods. If the entity is resuming IFRS after a period of using another framework, this indicates a resumption.",
+              "yes_case": {
+                "question": "Does the entity disclose the reason for resuming the application of IFRS accounting standards?",
+                "guidance": "Review the entity's disclosures in the financial statements or related notes. Confirm whether a clear reason is provided for resuming IFRS application, as required by IFRS 1.23A. Common reasons include regulatory requirements or changes in ownership or management.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "32",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.23B",
+          "question": "Has the entity prepared its financial statements in accordance with IFRS 1?",
+          "question_type": "Followup",
+          "source_question": "31.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "When an entity, in accordance with IFRS 1.4A, does not elect to apply IFRS 1, does it explain the reasons for electing to apply IFRS accounting standards as if it had never stopped?",
+          "decision_tree": {
+            "question": "Has the entity prepared its financial statements in accordance with IFRS 1?",
+            "guidance": "Review the entity's financial statements and assess whether IFRS 1—First-time Adoption of International Financial Reporting Standards—has been applied. This is typically relevant for first-time adopters. Look for disclosures referencing IFRS 1, especially section IFRS 1.4A.",
+            "yes_case": "COMPLIANT: N/A",
+            "no_case": {
+              "question": "Has the entity chosen not to elect IFRS 1, yet decided to apply IFRS accounting standards as if it had never stopped applying them?",
+              "guidance": "Check the entity's basis of preparation section and accounting policies to determine if it uses IFRS accounting standards without formally electing IFRS 1. Specifically, confirm if this choice aligns with IFRS section 1.4A requirements.",
+              "yes_case": {
+                "question": "Does the entity explain the reasons for electing to apply IFRS accounting standards as if it had never stopped applying them?",
+                "guidance": "Review the notes to the financial statements and accounting policy disclosures. Look for an explicit explanation of why the entity has applied IFRS accounting standards without formally adopting IFRS 1. Ensure the reason aligns with the entity's transitional or strategic considerations and complies with IFRS 1.23B.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            }
+          }
+        },
+        {
+          "id": "33.1",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.29",
+          "question": "Has the entity designated a previously recognised financial asset as measured at fair value through profit or loss under IFRS 1.D19A?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity designates a previously recognised financial asset as a financial asset measured at fair value through profit or loss under IFRS 1.D19A, does it disclose the fair value of the financial asset so designated at the date of designation?",
+          "decision_tree": {
+            "question": "Has the entity designated a previously recognised financial asset as measured at fair value through profit or loss under IFRS 1.D19A?",
+            "guidance": "Review the financial statements and accounting policies. Specifically, check the IFRS 1 transition disclosures to determine if the entity has elected under IFRS 1.D19A to designate a previously recognised financial asset as measured at fair value through profit or loss. Look at transition adjustments, accounting policy documentation, and any notes on financial asset reclassifications.",
+            "yes_case": {
+              "question": "Does the entity disclose the fair value of the financial asset as of the date of designation?",
+              "guidance": "Review the transition disclosures and related notes in the financial statements. Verify if the fair value of the designated financial asset is disclosed explicitly as required under IFRS 1.29. Common pitfalls include reporting fair value at another date or failing to designate properly in the notes.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "33.2",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.29",
+          "question": "Has the entity applied IFRS 1 as part of its financial statement preparation?",
+          "question_type": "Followup",
+          "source_question": "33.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity designates a previously recognised financial asset under IFRS 1.D19A, does it disclose the classification and carrying amount in the previous financial statements?",
+          "decision_tree": {
+            "question": "Has the entity applied IFRS 1 as part of its financial statement preparation?",
+            "guidance": "Review the entity's financial statements and disclosures to determine if they are preparing financial statements in accordance with IFRS 1, which is relevant for first-time adopters of IFRS. Look for explicit references to IFRS 1 in the accounting policies or transition disclosures.",
+            "yes_case": {
+              "question": "Has the entity designated a previously recognized financial asset under IFRS 1.D19A?",
+              "guidance": "Review the IFRS 1 transition disclosures and reconciliation of previous GAAP to IFRS. IFRS 1.D19A permits the designation of certain financial assets for measurement at fair value through profit or loss, but only on the date of transition to IFRS. Check if the entity has utilized this option.",
+              "yes_case": {
+                "question": "Did the entity disclose the classification and carrying amount of the designated financial asset(s) in the previous financial statements?",
+                "guidance": "Review the IFRS 1-related disclosures and compare them against the previous GAAP financial statements. Ensure data on classification (e.g., loan, receivable, investment) and carrying amount (monetary value) under previous GAAP are appropriately disclosed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "34.1",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.29A",
+          "question": "Has the entity designated a previously recognised financial liability as a financial liability at fair value through profit or loss under IFRS 1.D19?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity designates a previously recognised financial liability as a financial liability at fair value through profit or loss under IFRS 1.D19, does it disclose the fair value of the financial liability so designated at the date of designation?",
+          "decision_tree": {
+            "question": "Has the entity designated a previously recognised financial liability as a financial liability at fair value through profit or loss under IFRS 1.D19?",
+            "guidance": "Review the entity's financial statements and transition disclosures under IFRS 1. Pay close attention to any references to financial liabilities that were reclassified or designated at fair value through profit or loss. Cross-check this information with IFRS 1.D19 requirements for the designation of such liabilities.",
+            "yes_case": {
+              "question": "Has the entity disclosed the fair value of the financial liability at the date of designation?",
+              "guidance": "Examine the disclosure notes in the financial statements, specifically the fair value measurement disclosures. Verify that the entity specifies the fair value of the liability as determined on the date it was designated under IFRS 1.D19. Common pitfalls include omitting disclosures or failing to provide the fair value as of the date of designation.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "34.2",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.29A",
+          "question": "Has the entity designated a previously recognized financial liability under IFRS 1.D19?",
+          "question_type": "Followup",
+          "source_question": "34.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity designates a previously recognised financial liability under IFRS 1.D19, does it disclose the classification and carrying amount in the previous financial statements?",
+          "decision_tree": {
+            "question": "Has the entity designated a previously recognized financial liability under IFRS 1.D19?",
+            "guidance": "Review the IFRS 1 Section D19 requirements. Check if any financial liability was designated for measurement at fair value through profit or loss upon first-time adoption of IFRS. Verify records of the entity's designation process during transition.",
+            "yes_case": {
+              "question": "Did the entity disclose the classification and carrying amount of the designated financial liability in its previous financial statements?",
+              "guidance": "Examine the previous financial statements of the entity for disclosures about the financial liability’s classification (e.g., amortized cost, fair value) and its carrying amount before being designated under IFRS 1.D19. Ensure all disclosures align with IFRS 1.29A.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "35.1",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.30(a)",
+          "question": "Does the entity prepare an opening IFRS statement of financial position during its transition to IFRS?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity uses fair value in its opening IFRS statement of financial position as deemed cost for an item of property, plant and equipment, investment property, intangible asset or right-of-use asset, does it disclose the aggregate of those fair values?",
+          "decision_tree": {
+            "question": "Does the entity prepare an opening IFRS statement of financial position during its transition to IFRS?",
+            "guidance": "Check whether the entity is transitioning to IFRS for the first time. Review the financial statements and confirm if an opening IFRS statement of financial position is required under IFRS 1.30(a). This statement is mandatory only for first-time adopters of IFRS. Ensure the entity is not already reporting under IFRS.",
+            "yes_case": {
+              "question": "Has the entity elected to use fair value as deemed cost for any items of property, plant and equipment, investment property, intangible assets, or right-of-use assets in its opening IFRS statement of financial position?",
+              "guidance": "Verify this election in the accounting policies disclosed by the entity. Review IFRS 1.30(a) and check each relevant asset type individually in the opening statement of financial position to see if fair value is used as deemed cost.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate of the fair values of these items in the opening IFRS statement of financial position?",
+                "guidance": "Review the entity's opening IFRS statement of financial position and the accompanying notes to ensure the aggregated fair values of the applicable assets are clearly disclosed. Cross-check against IFRS 1.30(a) requirements for disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "35.2",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.30(b)",
+          "question": "Does the entity use fair value as deemed cost in its opening IFRS statement of financial position under IFRS 1?",
+          "question_type": "Followup",
+          "source_question": "35.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity uses fair value as deemed cost in its opening IFRS statement of financial position, does it disclose the aggregate adjustment to the carrying amounts reported under previous GAAP?",
+          "decision_tree": {
+            "question": "Does the entity use fair value as deemed cost in its opening IFRS statement of financial position under IFRS 1?",
+            "guidance": "Review the entity's opening IFRS statement of financial position prepared in accordance with IFRS 1. Check whether fair value is applied as deemed cost for any classes of assets (e.g., property, plant, equipment, or investment properties). This should be explicitly disclosed or documented. Refer to IFRS 1.30(b).",
+            "yes_case": {
+              "question": "Has the entity disclosed the aggregate adjustment to the carrying amounts of those assets that were reported under previous GAAP?",
+              "guidance": "Verify that the disclosure includes a reconciliation or explanation showing the adjustments to the carrying amounts of affected assets based on prior GAAP versus the deemed cost under IFRS. Review notes accompanying the financial statements or required IFRS transition disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "36.1",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.31(a)",
+          "question": "Does the entity prepare separate financial statements under IFRS?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity uses deemed cost in its opening IFRS statement of financial position for investments in subsidiaries, joint ventures or associates in separate financial statements, does it disclose the aggregate deemed cost of those investments for which deemed cost is their previous GAAP amounts?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements under IFRS?",
+            "guidance": "Review the entity's financial reporting framework and confirm whether it prepares separate financial statements, distinct from consolidated financial statements, in accordance with IFRS. Separate financial statements include investments in subsidiaries, joint ventures, or associates accounted for at cost or under IAS 39/IFRS 9.",
+            "yes_case": {
+              "question": "Does the entity use deemed cost for investments in subsidiaries, joint ventures, or associates in its opening IFRS statement of financial position?",
+              "guidance": "Check the opening IFRS statement of financial position (specific to first-time adoption of IFRS) and verify whether the entity applies deemed cost for investments in subsidiaries, joint ventures, or associates, as allowed under IFRS 1.31.",
+              "yes_case": {
+                "question": "Is deemed cost determined using the entity's previous GAAP amounts for any of these investments?",
+                "guidance": "Inspect the notes to the financial statements concerning deemed cost for investments. Verify whether deemed cost is specifically based on previous GAAP amounts (instead of fair value or other valuation approaches).",
+                "yes_case": {
+                  "question": "Does the entity disclose the aggregate deemed cost of investments for which deemed cost is their previous GAAP amounts?",
+                  "guidance": "Confirm the presence of disclosure in the notes to the financial statements. Look for a clear statement or table showing the aggregate deemed cost of investments where deemed cost is based on previous GAAP amounts and ensure it aligns with IFRS 1.31(a) requirements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "36.2",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.31(b)",
+          "question": "Has the entity transitioned to IFRS and applied IFRS 1 for its financial statements?",
+          "question_type": "Followup",
+          "source_question": "36.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity uses deemed cost in its opening IFRS statement of financial position for such investments, does it disclose the aggregate deemed cost of those investments for which deemed cost is fair value?",
+          "decision_tree": {
+            "question": "Has the entity transitioned to IFRS and applied IFRS 1 for its financial statements?",
+            "guidance": "Verify if the entity is a first-time adopter of IFRS as per IFRS 1 requirements. Review the accounting policies and transitional provisions disclosed in the financial statements.",
+            "yes_case": {
+              "question": "Does the entity use deemed cost for its investments in the opening IFRS statement of financial position?",
+              "guidance": "Check the entity’s accounting policies to confirm if deemed cost was applied for any assets, specifically investments, in the transition to IFRS. Refer to IFRS 1.31 for details.",
+              "yes_case": {
+                "question": "Has the entity used fair value as deemed cost for any of those investments?",
+                "guidance": "Review the description of the deemed cost method applied to investments in the opening IFRS disclosures. Confirm if fair value is the basis for deemed cost as permitted by IFRS 1.31(b).",
+                "yes_case": {
+                  "question": "Does the entity disclose the aggregate deemed cost of investments for which deemed cost is fair value?",
+                  "guidance": "Verify the disclosures in the financial statements or notes. Specifically, check if the aggregate deemed cost of investments measured using fair value as deemed cost is presented clearly and in a manner consistent with IFRS 1.31(b).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: N/A"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "37.1",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.21(a)",
+          "question": "Is the entity preparing its first IFRS financial statements?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "In its first IFRS financial statements, does the entity present three statements of financial position (including opening IFRS statements at the date of transition)?",
+          "decision_tree": {
+            "question": "Is the entity preparing its first IFRS financial statements?",
+            "guidance": "Refer to the financial statement disclosures or audit documentation. For first-time adopters of IFRS, check if the entity is transitioning from another GAAP to IFRS for the first financial reporting period. Look for explicit mentions like 'first IFRS financial statements' or 'transition date'.",
+            "yes_case": {
+              "question": "Does the entity present three statements of financial position, including the opening IFRS statement at the date of transition?",
+              "guidance": "Review the financial statements and confirm that the entity presents: 1) the statement of financial position at the end of the current period, 2) the statement of financial position at the end of the comparative period, and 3) the opening IFRS statement of financial position at the date of transition as required by IFRS 1.21(a). Ensure that all three are clearly labeled and comply with IFRS nomenclature requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "37.2",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.21(b)",
+          "question": "Is the entity preparing its first IFRS financial statements?",
+          "question_type": "Followup",
+          "source_question": "37.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "In its first IFRS financial statements, does the entity present two statements of profit or loss and comprehensive income, either in a single statement or in two separate statements showing profit or loss and other comprehensive income?",
+          "decision_tree": {
+            "question": "Is the entity preparing its first IFRS financial statements?",
+            "guidance": "Check whether the entity has previously presented financial statements fully compliant with IFRS. Refer to prior year financial reports, if available, or confirm through management that these are the first IFRS-compliant financial statements being prepared.",
+            "yes_case": {
+              "question": "Does the entity include a statement (or two separate statements) of profit or loss and comprehensive income in its first IFRS financial statements?",
+              "guidance": "Review the financial statements to ensure there is either (1) a single statement combining profit or loss and other comprehensive income, or (2) two separate statements: (a) one for profit or loss, and (b) one for other comprehensive income as per IFRS 1.21(b). Ensure both are included with all required line items.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "37.3",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.21(c)",
+          "question": "Is the entity preparing its first IFRS financial statements?",
+          "question_type": "Followup",
+          "source_question": "37.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "In its first IFRS financial statements, does the entity present two statements of cash flows?",
+          "decision_tree": {
+            "question": "Is the entity preparing its first IFRS financial statements?",
+            "guidance": "Refer to the financial statement notes and other supporting documentation to verify if this is the entity's first time adopting IFRS. Check whether previous financial statements were prepared under another accounting framework, such as local GAAP or other standards.",
+            "yes_case": {
+              "question": "Does the entity present two statements of cash flows in its first IFRS financial statements?",
+              "guidance": "Review the financial statements, specifically the Statement of Cash Flows section. Ensure there are two statements presented: one for the current reporting period and one for the comparative prior period as required by IFRS 1.21(c). Verify alignment with IFRS guidance on minimum presentation requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "37.4",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.21(d)",
+          "question": "Is the entity presenting its first IFRS financial statements?",
+          "question_type": "Followup",
+          "source_question": "37.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "In its first IFRS financial statements, does the entity present two statements of changes in equity?",
+          "decision_tree": {
+            "question": "Is the entity presenting its first IFRS financial statements?",
+            "guidance": "Check whether the entity has transitioned to IFRS in the current reporting period. Refer to the accounting policies section and IFRS transition disclosures. If the entity already presented IFRS financial statements in the past, it would not be considered 'first IFRS financial statements.'",
+            "yes_case": {
+              "question": "Does the entity present two statements of changes in equity in its first IFRS financial statements?",
+              "guidance": "Review the financial statements section. Verify that two separate statements of changes in equity are provided: one for the comparative period and one for the current reporting period. Ensure each statement correctly shows the changes in equity components, as required by IFRS 1.21(d).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "37.5",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.21(e)",
+          "question": "Is the entity preparing its first IFRS financial statements?",
+          "question_type": "Followup",
+          "source_question": "37.1",
+          "source_trigger": "Yes",
+          "context_required": "full",
+          "original_question": "In its first IFRS financial statements, does the entity present related notes, including comparative information for all statements presented?",
+          "decision_tree": {
+            "question": "Is the entity preparing its first IFRS financial statements?",
+            "guidance": "Review the entity's current financial reporting framework. Check if the entity is transitioning from another GAAP to IFRS for the first time. Look for explicit statements in the accounting policies or introductory sections of the financial statements indicating first-time adoption of IFRS.",
+            "yes_case": {
+              "question": "Does the entity present comparative information for all statements in its first IFRS financial statements?",
+              "guidance": "Examine the financial statements, including the Statement of Financial Position, Statement of Profit or Loss and Other Comprehensive Income, Statement of Changes in Equity, and Statement of Cash Flows. Ensure that prior period figures (comparatives) are presented alongside current period figures for these statements.",
+              "yes_case": {
+                "question": "Are related notes presented for all statements in the first IFRS financial statements, including comparative information?",
+                "guidance": "Verify that the notes to the financial statements provide explanations, supporting details, and comparative information for all amounts and disclosures shown in the statements. Pay particular attention to mandatory disclosures in IFRS 1, ensuring they are included along with comparatives.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "38.1",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.22(a)",
+          "question": "Does the entity provide historical summaries or comparative information under previous GAAP in its financial statements?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For any historical summaries or comparative information under previous GAAP that do not comply with IFRS recognition and measurement, does the entity label that information prominently as not being prepared under IFRS accounting standards?",
+          "decision_tree": {
+            "question": "Does the entity provide historical summaries or comparative information under previous GAAP in its financial statements?",
+            "guidance": "Check the financial statements, specifically the comparative information provided by the entity. Look for disclosures related to prior periods or any historical summaries, and verify if these are based on previous GAAP rather than IFRS.",
+            "yes_case": {
+              "question": "Does the historical summaries or comparative information under previous GAAP comply with IFRS recognition and measurement?",
+              "guidance": "Review the recognition and measurement criteria in the comparative information or historical summaries. Cross-check with IFRS accounting standards for compliance. Common errors include differences in asset valuation, revenue recognition, or lease accounting.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Has the entity prominently labeled this information as not being prepared under IFRS accounting standards?",
+                "guidance": "Inspect the notes to the financial statements and accompanying disclosures. Look for explicit statements indicating that the comparative information or historical summaries are prepared under previous GAAP and do not comply with IFRS.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "38.2",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.22(b)",
+          "question": "Is the entity preparing its financial statements for the first time in accordance with IFRS ('first-time adopter')?",
+          "question_type": "Followup",
+          "source_question": "38.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For any such information, does the entity disclose the nature of the main adjustments that would make it comply with IFRS accounting standards, without needing to quantify them?",
+          "decision_tree": {
+            "question": "Is the entity preparing its financial statements for the first time in accordance with IFRS ('first-time adopter')?",
+            "guidance": "Refer to IFRS 1. Determine if the entity has transitioned to IFRS from another set of accounting standards (e.g., local GAAP). Check the introductory notes of the financial statements or confirm with senior accounting personnel.",
+            "yes_case": {
+              "question": "Has the entity provided reconciliations of its equity and profit or loss as per IFRS 1 requirements?",
+              "guidance": "Verify compliance with IFRS 1.21 and IFRS 1.22(a). Check the financial statement notes to confirm whether reconciliations between the previous accounting framework and IFRS are disclosed. Typical sections to check are 'Summary of Significant Accounting Policies' and 'Transition to IFRS'.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature of the main adjustments required to comply with IFRS accounting standards (without quantification)?",
+                "guidance": "Examine the financial statement notes related to the transition to IFRS, particularly disclosures highlighted under IFRS 1.22(b). Ensure the entity specifies the types of adjustments (e.g., reclassification, fair value measurement of assets, revenue recognition updates) but does not provide detailed quantifications unless required elsewhere.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "39",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.31A, IFRS 1.D8A(b)",
+          "question": "Does the entity have oil and gas assets?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity uses the exemption in IFRS 1.D8A(b) for oil and gas assets, does it disclose that fact and the basis on which carrying amounts determined under previous GAAP were allocated?",
+          "decision_tree": {
+            "question": "Does the entity have oil and gas assets?",
+            "guidance": "Review the entity's financial statements and supporting documentation to identify whether oil and gas assets are present. Common places to check include the Statement of Financial Position, notes to assets, or specific industry disclosures. Ensure assets classified as oil and gas comply with definitions under IFRS standards.",
+            "yes_case": {
+              "question": "Has the entity applied IFRS 1 to prepare its financial statements as part of transitioning from previous GAAP?",
+              "guidance": "Check whether the entity has adopted IFRS for its financial reporting and transitioned from a previous GAAP framework. Look for explicit statements in the accounting policies or notes to the financial statements indicating IFRS 1 application.",
+              "yes_case": {
+                "question": "Has the entity used the exemption in IFRS 1.D8A(b) for oil and gas assets?",
+                "guidance": "Review IFRS 1 transition disclosures in the notes to the financial statements. IFRS 1.D8A(b) allows entities transitioning to IFRS to carry forward historical carrying amounts under previous GAAP. Identify if the entity has disclosed the use of this exemption for oil and gas assets.",
+                "yes_case": {
+                  "question": "Does the entity disclose that it used the exemption and the basis on which carrying amounts determined under previous GAAP were allocated?",
+                  "guidance": "Inspect the entity's transition disclosures regarding oil and gas assets. Confirm they specifically state the use of IFRS 1.D8A(b) exemption and detail how carrying amounts were allocated under previous GAAP. Check for completeness and clarity of disclosures.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "40.1",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.31B(a)",
+          "question": "Does the entity hold items of property, plant, and equipment or intangible assets used in rate-regulated operations?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity holds items of property, plant and equipment or intangible assets used in rate-regulated operations and uses previous GAAP carrying amounts as deemed cost, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Does the entity hold items of property, plant, and equipment or intangible assets used in rate-regulated operations?",
+            "guidance": "Review the entity's asset listing in the financial statements and disclosures. Look specifically for assets identified as being used in rate-regulated operations, as defined under IFRS 14 and relevant operational notes. Cross-check past operational documents for clarity.",
+            "yes_case": {
+              "question": "Has the entity used previous GAAP carrying amounts as deemed cost for these assets during first-time adoption of IFRS?",
+              "guidance": "Review the entity’s IFRS transition documentation, specifically the IFRS 1 disclosures. Check if the carrying amounts under the previous GAAP have been transferred directly as deemed cost. Refer to IFRS 1.31B(a) for instructions.",
+              "yes_case": {
+                "question": "Has the entity disclosed the use of previous GAAP carrying amounts as deemed cost for these assets?",
+                "guidance": "Check the financial statement disclosures. Focus on the notes related to property, plant, and equipment, intangible assets, and first-time adoption of IFRS. Confirm explicit disclosure under IFRS 1.31B(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "40.2",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.31B(b)",
+          "question": "Does the entity apply IFRS 1, First-time Adoption of International Financial Reporting Standards?",
+          "question_type": "Followup",
+          "source_question": "40.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If an entity uses previous GAAP carrying amounts as deemed cost for such items, does it disclose the basis on which those carrying amounts were determined under previous GAAP?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 1, First-time Adoption of International Financial Reporting Standards?",
+            "guidance": "Check if the entity is transitioning to IFRS for the first time during the reporting period. Review the financial statement notes and accounting policies section for confirmation. IFRS 1 applies only to first-time adopters of IFRS.",
+            "yes_case": {
+              "question": "Does the entity use previous GAAP carrying amounts as deemed cost for specific items under IFRS 1?",
+              "guidance": "Refer to IFRS 1.31B(b) and identify if the entity has elected this exemption for certain items such as property, plant, equipment, or intangible assets. Verify election in accounting policy disclosures.",
+              "yes_case": {
+                "question": "Has the entity disclosed the basis on which those carrying amounts were determined under previous GAAP?",
+                "guidance": "Check the notes to the financial statements under disclosures related to IFRS 1 adoption. Confirm details about how previous GAAP carrying amounts were determined for the relevant items.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "41",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.31C",
+          "question": "Did the entity transition to IFRS and use IFRS 1 First-Time Adoption of International Financial Reporting Standards?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity measures assets and liabilities at fair value as deemed cost in its opening IFRS statement because of severe hyperinflation, does it disclose how and why it had, and then ceased to have, a functional currency subject to severe hyperinflation?",
+          "decision_tree": {
+            "question": "Did the entity transition to IFRS and use IFRS 1 First-Time Adoption of International Financial Reporting Standards?",
+            "guidance": "Check if the entity is transitioning to IFRS for the first time by referring to the accounting policies note and disclosures in the financial statements. IFRS 1 applies exclusively to first-time adoption scenarios.",
+            "yes_case": {
+              "question": "Did the entity measure assets and liabilities at fair value as deemed cost in its opening IFRS statement due to severe hyperinflation?",
+              "guidance": "Review the opening IFRS statement of financial position and accounting policies to confirm if assets and liabilities were measured at fair value as deemed cost. Severe hyperinflation is identified based on IAS 29 criteria.",
+              "yes_case": {
+                "question": "Does the entity disclose how and why it had, and then ceased to have, a functional currency subject to severe hyperinflation?",
+                "guidance": "Examine the financial statements, particularly the notes related to first-time adoption of IFRS. Ensure that the entity explains the circumstances leading to severe hyperinflation and how it determined that the functional currency ceased to be subject to severe hyperinflation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "42",
+          "section": "IFRS_1",
+          "reference": "IFRS 1.D34, IFRS 15.C6",
+          "question": "Does the entity apply the transition provisions outlined in IFRS 15.C5?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity applies the transition provisions in IFRS 15.C5, does it make the disclosures required by IFRS 15.C6?",
+          "decision_tree": {
+            "question": "Does the entity apply the transition provisions outlined in IFRS 15.C5?",
+            "guidance": "Review the transitional section of IFRS 15 (Appendix C, specifically paragraph C5). Check if the entity has opted to apply these provisions as part of its transition to IFRS 15. Look for supporting documentation such as transition memos or notes in the financial statements.",
+            "yes_case": {
+              "question": "Has the entity made all disclosures required by IFRS 15.C6?",
+              "guidance": "Review IFRS 15.C6 to confirm required disclosures. These include explaining the impact of applying the transitional provisions, describing the accounting policies used, and addressing any practical expedients applied during transition. Cross-reference with the financial statement notes and transition-related disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

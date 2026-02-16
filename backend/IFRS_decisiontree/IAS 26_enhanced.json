@@ -1,0 +1,987 @@
+{
+  "title": "Accounting and Reporting by Retirement Benefit Plans (IAS 26) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 26",
+      "title": "Financial Statements of Retirement Benefit Plans",
+      "description": "Checklist for presentation and disclosure requirements under IAS 26.",
+      "items": [
+        {
+          "id": "643.1",
+          "section": "IAS 26",
+          "reference": "IAS 26.34-35(a)",
+          "question": "Does the entity prepare financial statements for a retirement benefit plan?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Do the financial statements of the retirement benefit plan contain a statement of net assets available for benefits disclosing assets at the end of the period suitably classified?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a retirement benefit plan?",
+            "guidance": "Refer to the purpose and scope sections of the retirement benefit plan documentation. Verify if it is formally required to produce financial statements that follow IAS standards. Cross-check with governing regulations or contractual obligations.",
+            "yes_case": {
+              "question": "Do the financial statements include a statement of net assets available for benefits?",
+              "guidance": "Review the financial statements of the retirement benefit plan and ensure the 'Statement of Net Assets Available for Benefits' is presented as required by IAS 26.34-35. Look for headings explicitly mentioning 'Net Assets Available for Benefits'.",
+              "yes_case": {
+                "question": "Are the assets at the end of the period suitably classified within the statement of net assets available for benefits?",
+                "guidance": "Check that assets are classified appropriately by type (e.g., cash, investments, receivables). Consider the nature of assets and ensure classification promotes clear understanding and complies with IAS 26. Common errors include lack of detail or misclassification. Refer specifically to IAS 26.34-35(a) for acceptable classification examples.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "643.2",
+          "section": "IAS 26",
+          "reference": "IAS 26.34-35(a)",
+          "question": "Does the entity prepare financial statements for a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "643.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements of the retirement benefit plan contain a statement of net assets available for benefits disclosing the basis of valuation of assets?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a retirement benefit plan?",
+            "guidance": "Verify whether the entity is responsible for reporting a retirement benefit plan. Review organizational documents, contracts, and any regulatory requirements to confirm if such financial statements need to be prepared.",
+            "yes_case": {
+              "question": "Do the financial statements of the retirement benefit plan contain a statement of net assets available for benefits?",
+              "guidance": "Examine the financial statements of the retirement benefit plan. Confirm the presence of a separate statement explicitly labeled as 'Statement of Net Assets Available for Benefits'. Commonly found in the notes or standalone sections of the plan's financial reporting.",
+              "yes_case": {
+                "question": "Does the statement disclose the basis of valuation of assets?",
+                "guidance": "In the Statement of Net Assets or accompanying notes, ensure the valuation basis (e.g., fair value, amortized cost) of assets is explicitly disclosed. Watch for vague or incomplete disclosures that may be non-compliant with IAS 26.34-35(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "643.3",
+          "section": "IAS 26",
+          "reference": "IAS 26.34-35(a)",
+          "question": "Does the entity prepare financial statements for a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "643.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements of the retirement benefit plan contain a statement of net assets available for benefits disclosing details of any single investment exceeding either 5% of?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a retirement benefit plan?",
+            "guidance": "Refer to the entity’s activities and accounting framework. Determine if the entity operates a retirement benefit plan and if financial statements are prepared under IAS 26. Look for key documents such as the retirement plan agreement and the entity's accounting policies. Ensure you identify retirement benefit plan financial statements distinct from other financial reports.",
+            "yes_case": {
+              "question": "Do the financial statements include a statement of net assets available for benefits?",
+              "guidance": "Examine the financial statements of the retirement benefit plan. Ensure a specific statement of net assets available for benefits is presented. This statement typically includes investments, liabilities, and any other assets related to the plan.",
+              "yes_case": {
+                "question": "Does the statement of net assets available for benefits disclose details of any single investment exceeding 5% of total net assets?",
+                "guidance": "Focus on the statement of net assets available for benefits. Review individual investment amounts and compare them to the total net assets using calculations. Refer to IAS 26 paragraphs 34-35(a) for specific disclosure requirements. Common pitfalls include failing to calculate investments exceeding 5% accurately or omitting disclosures.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "644.1",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(a)",
+          "question": "Does the entity have a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the report of a retirement benefit plan disclose the names of the employers and the employee groups covered?",
+          "decision_tree": {
+            "question": "Does the entity have a retirement benefit plan?",
+            "guidance": "Check the entity's disclosures or other sections of the financial statements for any mention of a retirement benefit plan. Typically, this is found in the notes related to employee benefits or defined benefit obligations. Confirm whether the plan exists by reviewing all relevant contractual agreements or benefit summaries.",
+            "yes_case": {
+              "question": "Does the report of the retirement benefit plan reference employer names and employee groups covered?",
+              "guidance": "Review the specific report of the retirement benefit plan provided by the entity. Ensure that it explicitly states the names of employers participating in the plan and identifies the employee groups (e.g., executive employees, union employees, general employees) covered by the plan. Common pitfalls include insufficient detail or the absence of employer and employee information.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "644.2",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(b)",
+          "question": "Does the entity operate a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "644.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan disclose the number of participants receiving benefits?",
+          "decision_tree": {
+            "question": "Does the entity operate a retirement benefit plan?",
+            "guidance": "Verify the existence of a retirement benefit plan by examining the entity's financial statements and related disclosures. Specifically, check sections detailing long-term benefits or pension plans, and ensure these reference retirement plans as governed under IAS 26.",
+            "yes_case": {
+              "question": "Does the entity prepare a report for the retirement benefit plan as required under IAS 26?",
+              "guidance": "Review the entity's compliance with IAS 26 by checking whether a separate report for the retirement benefit plan is prepared and updated. This report should include disclosures related to participants, benefits, and financial performance of the plan.",
+              "yes_case": {
+                "question": "Does the report disclose the number of participants receiving benefits?",
+                "guidance": "Inspect the retirement benefit plan report for disclosure regarding participants. Specifically, check if the number of participants receiving benefits is explicitly included, as required under IAS 26.36(b). Pay attention to this section, ensuring clarity and sufficiency in the disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "644.3",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(c)",
+          "question": "Does the entity prepare a report for a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "644.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan disclose the number of other participants, classified as appropriate?",
+          "decision_tree": {
+            "question": "Does the entity prepare a report for a retirement benefit plan?",
+            "guidance": "Verify whether the entity manages a retirement benefit plan and prepares a formal report under IAS 26. Check relevant plan documentation and the entity’s financial reporting notes to confirm its applicability.",
+            "yes_case": {
+              "question": "Does the report include disclosures about the number of participants, classified appropriately?",
+              "guidance": "Examine the report prepared for the retirement benefit plan. Look specifically for a section disclosing the number of participants. Ensure the classification is appropriate, such as active members, retirees, or other participant categories as outlined in IAS 26.36(c). Common errors include missing classifications or not providing participant numbers.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "644.4",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(d)",
+          "question": "Does the entity manage a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "644.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan disclose the type of plan – defined contribution?",
+          "decision_tree": {
+            "question": "Does the entity manage a retirement benefit plan?",
+            "guidance": "Review the entity's financial statements and notes for references to retirement benefit plans. Look for sections describing employee benefit obligations, pension schemes, or similar arrangements. Ensure you validate the existence of a retirement benefit plan, as entities without such plans do not need to comply with IAS 26.",
+            "yes_case": {
+              "question": "Has the entity classified the retirement benefit plan?",
+              "guidance": "Check the disclosures in the notes to the financial statements under IAS 26. Look for explicit identification of the type of plan – defined contribution or defined benefit. Common pitfalls include failing to specify the plan type or misclassifying a plan.",
+              "yes_case": {
+                "question": "Does the report disclose the retirement benefit plan as a defined contribution plan?",
+                "guidance": "Examine the retirement benefit plan report for disclosures explicitly identifying it as a 'defined contribution' plan. Ensure the terminology is consistent with IAS 26 definitions, and verify that no contradictory information is provided.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "644.5",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(e)",
+          "question": "Does the entity have a retirement benefit plan covered under IAS 26?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "644.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan note whether participants contribute to the plan?",
+          "decision_tree": {
+            "question": "Does the entity have a retirement benefit plan covered under IAS 26?",
+            "guidance": "Review the entity's financial reports and disclosures. Look specifically for any mention of a retirement benefit plan, which involves providing benefits for employees after their employment. Common reporting sections include 'Employee Benefits' or 'Post-Employment Benefits'.",
+            "yes_case": {
+              "question": "Does the report of the retirement benefit plan include disclosures about participant contributions to the plan?",
+              "guidance": "Inspect the retirement benefit plan's report or disclosures. Specifically, check if it mentions whether participants contribute directly to the plan (e.g., via payroll deductions or voluntary contributions). Common pitfalls include overlooking small or irregular contributions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "644.6",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(f)",
+          "question": "Does the entity issue a report for its retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "644.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan describe the retirement benefits promised to participants?",
+          "decision_tree": {
+            "question": "Does the entity issue a report for its retirement benefit plan?",
+            "guidance": "Verify the existence of a report for the retirement benefit plan prepared by the entity. This could be an annual financial report or other documentation specifically designed to communicate information about the plan to stakeholders.",
+            "yes_case": {
+              "question": "Does the report describe the retirement benefits promised to participants?",
+              "guidance": "Check the report's content. Look for explicit descriptions of the retirement benefits promised, including who qualifies for the benefits, how the benefits are calculated, and any defined terms or conditions. This information is typically found in the notes or dedicated sections related to plan provisions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "644.7",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(g)",
+          "question": "Does the retirement benefit plan exist and is it reported in the financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "644.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan describe any plan termination terms?",
+          "decision_tree": {
+            "question": "Does the retirement benefit plan exist and is it reported in the financial statements?",
+            "guidance": "Check the financial statements or accompanying disclosures to confirm the existence of a retirement benefit plan. Look for sections where the plan's financials, contributions, or obligations are detailed. If no plan is mentioned, this item is not applicable.",
+            "yes_case": {
+              "question": "Is the retirement benefit plan described in the financial statements?",
+              "guidance": "Review the plan's reporting in the notes and disclosures. A sufficient description typically includes the type of plan, eligibility, funding arrangement, and key terms. Without a description, further compliance cannot be assessed.",
+              "yes_case": {
+                "question": "Does the report of the retirement benefit plan include any terms about plan termination?",
+                "guidance": "Check the disclosure sections for specific mentions of termination terms. These could include conditions for plan termination and associated implications for members, sponsors, or regulators. Ensure accuracy and completeness.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "644.8",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(h)",
+          "question": "Does the entity have a retirement benefit plan report for the period?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "644.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan describe changes in items (a)–(g) during the period covered by the report?",
+          "decision_tree": {
+            "question": "Does the entity have a retirement benefit plan report for the period?",
+            "guidance": "Verify whether the entity has prepared a report on its retirement benefit plan for the period. Check the documentation typically labeled 'Retirement Benefit Plan Report' or equivalent. Ensure the report relates to the current reporting period and not to prior or future periods.",
+            "yes_case": {
+              "question": "Does the report contain any information regarding items (a)–(g) as described in IAS 26.36?",
+              "guidance": "Review the report in detail. Items (a)–(g) include components such as contributions, benefits paid, administrative expenses, and other specified changes in the retirement plan's financials. Consult IAS 26.36(h) and ensure no section is overlooked.",
+              "yes_case": {
+                "question": "Does the report describe the changes in these items (a)–(g) during the reporting period?",
+                "guidance": "Identify whether the report clearly explains changes (e.g., increases or decreases) in the defined items during the reporting period. Look for numerical data and narrative explanations. Ensure that changes are correctly attributed to the current period.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "645",
+          "section": "IAS 26",
+          "reference": "IAS 26.32",
+          "question": "Does the entity hold plan investments?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If plan investments are held for which an estimate of fair value is not possible, does the entity disclose the reason it does not use fair value?",
+          "decision_tree": {
+            "question": "Does the entity hold plan investments?",
+            "guidance": "Review the financial statements, particularly those related to pension plans or other post-employment benefit plans. Check the detailed notes accompanying plan assets to confirm if any investments are held by the entity.",
+            "yes_case": {
+              "question": "Are there any plan investments for which an estimate of fair value is not possible?",
+              "guidance": "Examine the entity’s disclosure for plan investments in the financial statement notes. Attempt to identify whether fair value has been disclosed for all investments or if there are any for which the fair value is omitted due to estimation constraints.",
+              "yes_case": {
+                "question": "Has the entity disclosed the reason why fair value is not used for the investments?",
+                "guidance": "Search for specific disclosures in the notes explaining why the fair value of certain plan investments has not been estimated. This should provide clarity on the constraints or reasons preventing fair value estimation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "646.1",
+          "section": "IAS 26",
+          "reference": "IAS 26.16(a)",
+          "question": "Does the entity maintain a defined contribution plan?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Do the financial statements of a defined contribution plan contain the significant activities for the period and the effect of any changes relating to the plan, its membership and terms and conditions?",
+          "decision_tree": {
+            "question": "Does the entity maintain a defined contribution plan?",
+            "guidance": "Review the entity's human resources policies or related disclosures in the financial statements to confirm if a defined contribution plan is in place. Check for terms specifying contributions made by employers or employees, with no obligation for the entity to make further payments.",
+            "yes_case": {
+              "question": "Do the financial statements of the defined contribution plan include significant activities for the reporting period?",
+              "guidance": "Inspect the financial statements of the defined contribution plan. Verify if they detail significant activities such as contributions received, benefits paid, and changes in the fund during the reporting period.",
+              "yes_case": {
+                "question": "Do the financial statements disclose the effect of any changes relating to the plan, its membership, and terms and conditions?",
+                "guidance": "Ensure that the financial statements address any alterations in the plan structure, membership (e.g., number of members added or removed), or terms and conditions (e.g., change in contribution rates or benefit policies). These changes must be clearly disclosed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "646.2",
+          "section": "IAS 26",
+          "reference": "IAS 26.16(b)",
+          "question": "Does the entity prepare financial statements for a defined contribution plan?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "646.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements of a defined contribution plan contain statements reporting on the transactions and investment performance for the period and the financial position of the plan at the end of the period?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a defined contribution plan?",
+            "guidance": "Review the entity's financial reporting scope and determine if it includes a defined contribution plan. Defined contribution plans are retirement plans in which contributions are defined and benefits depend on investment returns. Check references to IAS 26 in the financial statements or relevant disclosures to identify the presence of such a plan.",
+            "yes_case": {
+              "question": "Do the financial statements of the defined contribution plan include statements reporting transactions and investment performance for the period?",
+              "guidance": "Examine the financial statements of the plan and verify that they provide separate reporting for transactions (e.g., contributions, withdrawals) and investment performance (e.g., returns, changes in value) over the reporting period. Review IAS 26.16(b) for specific disclosure requirements. Ensure there are no omissions.",
+              "yes_case": {
+                "question": "Do the financial statements of the defined contribution plan include statements of financial position at the end of the period?",
+                "guidance": "Review the financial statements of the plan for the statement of financial position (balance sheet) as required under IAS 26. Confirm that plan assets, liabilities, and net asset values are appropriately disclosed and presented as of the reporting date.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "646.3",
+          "section": "IAS 26",
+          "reference": "IAS 26.16(c)",
+          "question": "Do the financial statements pertain to a defined contribution plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "646.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements of a defined contribution plan contain a description of the investment policies?",
+          "decision_tree": {
+            "question": "Do the financial statements pertain to a defined contribution plan?",
+            "guidance": "Examine the nature of the plan reported in the financial statements. Defined contribution plans are those where contributions are fixed, and benefits depend on the plan's performance. Check the plan type explicitly disclosed in the notes to the financial statements, typically under 'Accounting Policies' or 'Plan Description'.",
+            "yes_case": {
+              "question": "Do the financial statements include a description of the investment policies of the defined contribution plan?",
+              "guidance": "Review the notes to the financial statements or accompanying disclosures. IAS 26.16(c) requires the disclosure of investment policies, including types of investments, risk management strategies, and allocation approaches, if applicable. Ensure the description is sufficient and relevant to users of the financial statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "647.1",
+          "section": "IAS 26",
+          "reference": "IAS 26.34-35(a)",
+          "question": "Do the financial statements relate to a retirement benefit plan?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Do the financial statements of the retirement benefit plan contain a statement of net assets available for benefits disclosing assets at the end of the period, the basis of valuation of assets, details of any single investment exceeding either 5% of the net assets available for benefits or 5% of any class or type of security, and details of any investment in the employer?",
+          "decision_tree": {
+            "question": "Do the financial statements relate to a retirement benefit plan?",
+            "guidance": "Check the reporting entity's financial statements to confirm whether they pertain to a retirement benefit plan. This can be verified by reviewing the nature and purpose of the financial statements as stated in the introductory or general information sections of the report.",
+            "yes_case": {
+              "question": "Do the financial statements include a statement of net assets available for benefits as required by IAS 26?",
+              "guidance": "Look at the financial statements of the retirement benefit plan to identify the presence of a specific 'Statement of Net Assets Available for Benefits'. Confirm that such a statement exists explicitly.",
+              "yes_case": {
+                "question": "Does the statement disclose the assets at the end of the period and their basis of valuation?",
+                "guidance": "Review the statement of net assets available for benefits for disclosures explicitly mentioning the valuation basis (e.g., fair value or another accepted basis) and an itemized presentation of assets held at the end of the period.",
+                "yes_case": {
+                  "question": "Does the statement provide details of any single investment exceeding either 5% of the net assets available for benefits or 5% of any class or type of security?",
+                  "guidance": "Analyze the notes to the financial statements or supporting disclosures for information about significant investments, specifically those breaching the 5% threshold in relation to net assets or asset classes/types.",
+                  "yes_case": {
+                    "question": "Does the statement disclose details of any investment in the employer?",
+                    "guidance": "Identify whether the financial statements or disclosures include any employer-related investment and ensure proper details are provided (e.g., type of investment, value). Verify compliance with IAS 26 requirements for transparency in employer investments.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "647.2",
+          "section": "IAS 26",
+          "reference": "IAS 26.34-35(f)",
+          "question": "Do the financial statements relate to a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "647.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements contain a description of the method used to calculate the actuarial present value of promised retirement benefits?",
+          "decision_tree": {
+            "question": "Do the financial statements relate to a retirement benefit plan?",
+            "guidance": "Review the entity's financial statements and determine if they pertain to a retirement benefit plan, such as defined contribution or defined benefit plans. Look specifically for references to IAS 26 as part of the reporting framework.",
+            "yes_case": {
+              "question": "Does the entity calculate the actuarial present value of promised retirement benefits for the retirement benefit plan?",
+              "guidance": "Refer to the disclosure notes and accounting policies in the financial statements to identify whether the entity calculates the actuarial present value of promised retirement benefits. Ensure the methodology is mentioned explicitly.",
+              "yes_case": {
+                "question": "Do the financial statements contain a description of the method used to calculate the actuarial present value of promised retirement benefits?",
+                "guidance": "Check the entity's financial statements, specifically the notes or disclosures related to the retirement benefit plan, for a clear description of the method used. This description should include whether the method complies with IAS 26.34-35(f), and you should verify that a sufficient level of detail is provided.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "647.3",
+          "section": "IAS 26",
+          "reference": "IAS 26.34-35(g)",
+          "question": "Does the entity operate a retirement benefit plan covered by IAS 26?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "647.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements contain the actuarial present value of promised retirement benefits, distinguishing between vested and non-vested benefits, based on benefits promised under the terms of the plan, service rendered to date, and using either current salary levels or projected salary levels?",
+          "decision_tree": {
+            "question": "Does the entity operate a retirement benefit plan covered by IAS 26?",
+            "guidance": "Check whether the entity administers a retirement benefit plan. Review relevant documents, such as retirement plan contracts, HR policies, or any plans disclosed in prior financial statements. Verify if IAS 26 applies based on the nature of the plan.",
+            "yes_case": {
+              "question": "Are the financial statements prepared for the retirement benefit plan?",
+              "guidance": "Determine whether the retirement plan has separate financial statements prepared under IAS 26. Verify that these statements are not consolidated with the sponsor entity’s financial statements and are specific to the retirement benefit plan.",
+              "yes_case": {
+                "question": "Do the financial statements disclose the actuarial present value of promised retirement benefits?",
+                "guidance": "Review the retirement plan’s financial statements for disclosures about the actuarial present value of promised benefits. Check the notes to the financial statements and sections addressing liabilities and retirement benefits. The disclosure should distinguish between vested and non-vested benefits.",
+                "yes_case": {
+                  "question": "Are the promised benefits calculated based on service rendered to date and either current or projected salary levels?",
+                  "guidance": "Confirm whether the actuarial calculations for the disclosed benefits consider the requirements of IAS 26.34-35(g). Verify that service rendered to date by employees is accounted for and ensure benefits are calculated using either current or projected salary levels, as permitted by IAS 26.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "647.4",
+          "section": "IAS 26",
+          "reference": "IAS 26.34-35(h)",
+          "question": "Does the entity prepare financial statements for a retirement benefit plan under IAS 26?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "647.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements contain a description of the plan and the effect of any changes in the plan during the period?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a retirement benefit plan under IAS 26?",
+            "guidance": "Verify whether the entity manages a retirement benefit plan. Check the nature of the entity's operations and the financial reporting framework applied. IAS 26 applies specifically to entities responsible for reporting on retirement benefit plans.",
+            "yes_case": {
+              "question": "Have there been any changes to the retirement benefit plan during the reporting period?",
+              "guidance": "Review documentation related to the retirement benefit plan, including amendments, board resolutions, or contractual adjustments made during the reporting period. Look for evidence of any changes in terms, benefits provided, or other material modifications.",
+              "yes_case": {
+                "question": "Do the financial statements contain both a description of the retirement benefit plan and the effect of changes made to the plan during the reporting period?",
+                "guidance": "Examine the notes to the financial statements and accompanying disclosures carefully. Verify that the financial statements include a clear description of the plan (e.g., structure, purpose, benefits) and detailed information about the impact of any changes. Cross-check with the requirements in IAS 26.34-35(h).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Do the financial statements contain a description of the retirement benefit plan?",
+                "guidance": "Review the notes to the financial statements and supplementary disclosures. Ensure the financial statements provide detailed information about the structure, purpose, and provisions of the retirement benefit plan, as required by IAS 26.34-35(h).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "648.1",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(a)",
+          "question": "Does the entity prepare a report for a retirement benefit plan in compliance with IAS 26?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the report of a retirement benefit plan disclose the names of the employers and the employee groups covered?",
+          "decision_tree": {
+            "question": "Does the entity prepare a report for a retirement benefit plan in compliance with IAS 26?",
+            "guidance": "Verify whether the entity is required to prepare a financial report for a retirement benefit plan. Check the entity's organizational documents or statutory obligations for retirement benefit plans under IAS 26. Ensure the entity operates such a plan and reports its financial position as per IAS 26 requirements.",
+            "yes_case": {
+              "question": "Does the report disclose the names of the employers and the employee groups covered by the retirement benefit plan?",
+              "guidance": "Examine the financial report of the retirement benefit plan. Locate the section where employer and employee group details are disclosed. Ensure it includes specific names and descriptions that clearly identify the covered groups and employers. Cross-check this against supporting records for completeness and accuracy. Common pitfalls include omitting entities or using vague descriptions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "648.2",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(b)",
+          "question": "Does the entity report on a retirement benefit plan in its financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "648.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan disclose the number of participants receiving benefits?",
+          "decision_tree": {
+            "question": "Does the entity report on a retirement benefit plan in its financial statements?",
+            "guidance": "Check the financial statements to see if a report for a retirement benefit plan exists. Look in the notes or a separate section specifically discussing such plans. Ensure this is a formal financial statement for a retirement benefit plan, not operational information or other non-financial disclosures.",
+            "yes_case": {
+              "question": "Does the report include disclosures about participants receiving benefits?",
+              "guidance": "Review the report of the retirement benefit plan under IAS 26.36(b. Confirm that the number of participants receiving benefits is specifically disclosed. Look for numeric information about participants in any relevant sections of the report. Ensure no omission of required disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "648.3",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(c)",
+          "question": "Does the entity prepare financial statements for a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "648.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan disclose the number of other participants, classified as appropriate?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a retirement benefit plan?",
+            "guidance": "Review the entity's financial reporting and confirm whether it includes financial statements specifically for a retirement benefit plan. Check for documentation or disclosures related to pension or retirement benefit obligations under IAS 26.",
+            "yes_case": {
+              "question": "Does the report of the retirement benefit plan classify participants appropriately?",
+              "guidance": "Examine the report for disclosures about the number of participants. Ensure participants are classified (e.g., active members, deferred members, pensioners) based on their type or status with sufficient detail as prescribed by IAS 26.36(c).",
+              "yes_case": {
+                "question": "Is the classification sufficiently detailed to be useful and in compliance with IAS 26.36(c)?",
+                "guidance": "Verify whether the classification provides clarity and is sufficient to meet the requirements of IAS 26.36(c). Common pitfalls include overly generic classifications (e.g., lumping all participants into one group). Refer to IAS 26.36(c) for acceptable classifications.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "648.4",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(d)",
+          "question": "Does the entity have a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "648.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan disclose the type of plan — defined benefit?",
+          "decision_tree": {
+            "question": "Does the entity have a retirement benefit plan?",
+            "guidance": "Review the financial statements, specifically the notes and disclosures related to employee benefits. Verify if the entity reports having a retirement benefit plan. If no mention of such a plan is found, the item is not applicable.",
+            "yes_case": {
+              "question": "Is the retirement benefit plan disclosed as a defined benefit plan?",
+              "guidance": "Check the notes to the financial statements and disclosures under IAS 26. The type of plan should be explicitly mentioned as 'defined benefit' or another type such as 'defined contribution'. If the type of plan is not stated clearly, further inquiry may be necessary.",
+              "yes_case": {
+                "question": "Does the report of the retirement benefit plan adequately disclose the type of plan as required under IAS 26.36(d)?",
+                "guidance": "IAS 26.36(d) requires specific disclosure of the type of plan. Ensure the entity states it clearly as 'defined benefit' and provides sufficient detail on its characteristics. Cross-check with the disclosure requirements outlined under IAS 26.36.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "648.5",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(e)",
+          "question": "Does the retirement benefit plan exist?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "648.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan note whether participants contribute to the plan?",
+          "decision_tree": {
+            "question": "Does the retirement benefit plan exist?",
+            "guidance": "Review the entity’s financial statements, specifically the notes and disclosures under IAS 26. Confirm if a retirement benefit plan is in place. If there is no retirement benefit plan, the checklist item is not applicable.",
+            "yes_case": {
+              "question": "Does the retirement benefit plan have participants?",
+              "guidance": "Verify the existence of participants in the retirement benefit plan through plan documentation, participant registers, or any other supporting records. Common pitfalls include assuming participant existence without documentation or referencing outdated participant data.",
+              "yes_case": {
+                "question": "Does the report of the retirement benefit plan note whether participants contribute to the plan?",
+                "guidance": "Examine the report of the retirement benefit plan under IAS 26.36(e). Look specifically for a statement about participant contributions—this should be disclosed explicitly and sufficiently detailed. Ensure that such details are part of the broader financial reporting context for the plan.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "648.6",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(f)",
+          "question": "Does the entity prepare financial reports for a retirement benefit plan?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "648.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan describe the retirement benefits promised to participants?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial reports for a retirement benefit plan?",
+            "guidance": "Verify whether the entity administers a retirement benefit plan and is required to issue financial reports in accordance with IAS 26. Retirement benefit plans include defined benefit or defined contribution schemes. Check internal documents or statutory requirements.",
+            "yes_case": {
+              "question": "Does the report of the retirement benefit plan describe the retirement benefits promised to participants?",
+              "guidance": "Review the report prepared for the retirement benefit plan. Ensure that it explicitly describes the nature, scope, and terms of the benefits promised to plan participants as outlined in IAS 26.36(f). Confirm that the description is clear and sufficiently detailed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "648.7",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(g)",
+          "question": "Does the retirement benefit plan's report exist?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "648.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan describe any plan termination terms?",
+          "decision_tree": {
+            "question": "Does the retirement benefit plan's report exist?",
+            "guidance": "Confirm the existence of the report. Check required documentation such as the annual financial report for the retirement benefit plan. Ensure it is complete and covers all necessary disclosures mandated by IAS 26.",
+            "yes_case": {
+              "question": "Does the plan provide details on termination terms in the report?",
+              "guidance": "Review the report for explicit descriptions of plan termination terms. Refer specifically to IAS 26.36(g), which requires disclosure of terms related to the termination of the plan, including conditions under which a plan may be terminated and the resulting impact on beneficiaries. Common pitfalls include vague or omitted information.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "648.8",
+          "section": "IAS 26",
+          "reference": "IAS 26.36(h)",
+          "question": "Does the entity prepare financial statements for a retirement benefit plan, as required by IAS 26?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "648.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the report of a retirement benefit plan describe changes in items (a)–(g) during the period covered by the report?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a retirement benefit plan, as required by IAS 26?",
+            "guidance": "Review the scope of IAS 26 in the financial statements. A retirement benefit plan refers to entities providing retirement benefits (e.g., pensions). Check whether the entity explicitly states or identifies its financial reporting as related to such a plan in accordance with IAS 26.",
+            "yes_case": {
+              "question": "Does the report include disclosures for items (a)–(g) as outlined in IAS 26.36?",
+              "guidance": "Refer to IAS 26.36 for the detailed list of items (a)–(g) that must be disclosed. Ensure the report covers changes in contributions, benefits paid, investments, actuarial present value of promised retirement benefits, and funding policies during the reporting period. Cross-check against the disclosures required in IAS 26.36.",
+              "yes_case": {
+                "question": "Does the report specifically describe the changes in these items during the period covered by the report?",
+                "guidance": "Analyze the report's narrative section or accompanying disclosures. Confirm that the changes in contributions, benefits paid, investments, actuarial values, and other required items are explained over the reporting period, rather than solely presented as static amounts.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "649",
+          "section": "IAS 26",
+          "reference": "IAS 26.17",
+          "question": "Has an actuarial valuation been prepared as of the date of the financial statements of the plan?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If an actuarial valuation is not prepared at the date of the financial statements of the plan, does the entity disclose the date of the valuation?",
+          "decision_tree": {
+            "question": "Has an actuarial valuation been prepared as of the date of the financial statements of the plan?",
+            "guidance": "Consult the actuarial report or related documents to determine if an actuarial valuation was conducted at the financial statement date. Ensure this information aligns with the entity’s pension or retirement plan reporting requirements. Confirm the valuation date as per IAS 26.17.",
+            "yes_case": "COMPLIANT: YES",
+            "no_case": {
+              "question": "Does the entity disclose the date of the most recent actuarial valuation?",
+              "guidance": "Check the notes to the financial statements for disclosure of the valuation date. Look specifically in the pension plan-related notes to ensure compliance with IAS 26.17 requirements. Common pitfalls include omitting the date or providing inconsistent information.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            }
+          }
+        },
+        {
+          "id": "650",
+          "section": "IAS 26",
+          "reference": "IAS 26.18",
+          "question": "Does the entity operate a retirement benefit plan covered under IAS 26, such as a defined benefit plan, which calculates the actuarial present value of promised retirement benefits?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the effects of any change in actuarial assumptions that had a significant effect on the actuarial present value of promised retirement benefits?",
+          "decision_tree": {
+            "question": "Does the entity operate a retirement benefit plan covered under IAS 26, such as a defined benefit plan, which calculates the actuarial present value of promised retirement benefits?",
+            "guidance": "Review the entity's financial statements and disclosures. Check for the presence of a retirement benefit plan covered under IAS 26, specifically those with defined benefit obligations. Look for terms like 'retirement benefit plan', 'defined benefit', or 'actuarial assumptions' in the related accounting policies and plan descriptions. If the entity operates only defined contribution plans, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Did the entity make any changes to its actuarial assumptions during the reporting period?",
+              "guidance": "Review the actuarial valuation report or other documentation supporting the calculation of retirement benefit obligations. Look for changes in assumptions such as discount rates, salary growth rates, or mortality rates. Cross-reference these changes with the notes to the financial statements under retirement benefit disclosures.",
+              "yes_case": {
+                "question": "Did the entity disclose the effects of these changes in actuarial assumptions on the actuarial present value of promised retirement benefits?",
+                "guidance": "Check the disclosure notes related to retirement benefits. IAS 26.18 requires entities to disclose the impact of any significant changes in actuarial assumptions. Ensure the entity provides sufficient detail on the nature of the changes and their effect on promised benefits. A lack of disclosure or insufficient detail would raise a compliance issue.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "651",
+          "section": "IAS 26",
+          "reference": "IAS 26.18",
+          "question": "Did the entity promise retirement benefits to employees?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "650",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the basis used — either current salary levels or projected salary levels — to calculate the actuarial present value of promised retirement benefits?",
+          "decision_tree": {
+            "question": "Did the entity promise retirement benefits to employees?",
+            "guidance": "Review employment agreements, post-employment benefit plans, or other relevant documents to verify if the entity has promised retirement benefits. Ensure to include both defined benefit and defined contribution plans. Exclude unrelated employee benefits.",
+            "yes_case": {
+              "question": "Does the entity calculate the actuarial present value of the promised retirement benefits?",
+              "guidance": "Check the entity’s financial statements and actuarial reports for the calculation of the present value of promised retirement benefits. Ensure these calculations align with IAS 26 requirements. If no calculation exists, the disclosure requirement is not applicable.",
+              "yes_case": {
+                "question": "Does the entity disclose the basis used — either current salary levels or projected salary levels — for the calculation?",
+                "guidance": "Review the notes to the financial statements, particularly the section on post-employment benefits. Verify that the disclosure specifies whether the calculation is based on current salary levels or projected salary levels. Common pitfalls include omitting this information or providing vague descriptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "652",
+          "section": "IAS 26",
+          "reference": "IAS 26.32",
+          "question": "Does the entity hold plan investments under IAS 26?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If plan investments are held for which an estimate of fair value is not possible, does the entity disclose the reason why fair value is not used?",
+          "decision_tree": {
+            "question": "Does the entity hold plan investments under IAS 26?",
+            "guidance": "Review the entity's financial statements and related notes for any reference to plan investments governed by IAS 26. Plan investments are typically associated with retirement benefit plans or similar schemes as defined in IAS 26. Confirm their existence in the notes or asset schedules.",
+            "yes_case": {
+              "question": "Are there any plan investments for which an estimate of fair value is not possible?",
+              "guidance": "Examine the notes related to plan investments. Look for any mention of difficulties in determining fair value, such as lack of active market data or valuation models. Cross-check with disclosures related to measurement bases.",
+              "yes_case": {
+                "question": "Does the entity disclose the reason why fair value is not used for such plan investments?",
+                "guidance": "Review the relevant disclosures in the financial statements. Under IAS 26.32, if fair value for plan investments cannot be determined, the entity must explicitly disclose why fair value is not used. Check whether the entity provides a clear and complete explanation for this.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "653.1",
+          "section": "IAS 26",
+          "reference": "IAS 26.17(a)",
+          "question": "Do the financial statements pertain to a defined benefit plan?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Do the financial statements of a defined benefit plan contain a statement that shows the net assets available for benefits?",
+          "decision_tree": {
+            "question": "Do the financial statements pertain to a defined benefit plan?",
+            "guidance": "Confirm whether the entity manages a defined benefit plan. Review IAS 26 and the financial statement notes to identify references to 'defined benefit plans'. Verify the plan type with the pension or retirement fund agreements or applicable employee benefits documentation.",
+            "yes_case": {
+              "question": "Do the financial statements include a statement showing the net assets available for benefits?",
+              "guidance": "Examine the financial statements of the defined benefit plan. Ensure that they include a statement explicitly labeled as 'Net Assets Available for Benefits', as required by IAS 26.17(a). Cross-check the presentation with IAS 26 guidance to ensure compliance.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "654",
+          "section": "IAS 26",
+          "reference": "IAS 26.19",
+          "question": "Does the entity prepare financial statements for a retirement benefit plan covered under IAS 26?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "653.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements explain the relationship between the actuarial present value of promised retirement benefits and the net assets available for benefits, and the policy for the funding of promised benefits?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a retirement benefit plan covered under IAS 26?",
+            "guidance": "Review the entity's financial reporting framework and operations. Determine if retirement benefit plan financial statements, as defined in IAS 26, are required. Look for documents such as the plan trust agreement or pension scheme regulations. If the financial statements are for general-purpose use and not specific to a retirement benefit plan, this item is not applicable.",
+            "yes_case": {
+              "question": "Do the financial statements include information regarding the actuarial present value of promised retirement benefits?",
+              "guidance": "Examine the financial statements, particularly the disclosures. IAS 26.19 requires entities to disclose the actuarial present value of promised retirement benefits. Check for notes or sections mentioning actuarial calculations or valuations prepared by actuaries.",
+              "yes_case": {
+                "question": "Do the financial statements explain the relationship between the actuarial present value of promised retirement benefits and the net assets available for benefits?",
+                "guidance": "Review disclosures in the financial statements or accompanying notes. Ensure the explanation provides clarity on how the net assets available for benefits correspond to or mismatch with the actuarial value of promised benefits. Verify that this explanation is comprehensive and consistent.",
+                "yes_case": {
+                  "question": "Do the financial statements disclose the policy for funding promised benefits?",
+                  "guidance": "Check the notes and accounting policies section for disclosures on funding policies. IAS 26.19 mandates statements to provide the funding strategy, such as contributions, funding sources, investment strategies, and actuarial assumptions. Ensure that the policy aligns with regulatory requirements and is adequately detailed for users of the financial statements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "655.1",
+          "section": "IAS 26",
+          "reference": "IAS 26.22(a)",
+          "question": "Does the entity operate a defined benefit plan?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Do the financial statements of a defined benefit plan contain the significant activities for the period and the effect of any changes relating to the plan, its membership and terms and conditions?",
+          "decision_tree": {
+            "question": "Does the entity operate a defined benefit plan?",
+            "guidance": "Review the entity's employee benefit arrangements disclosed in the financial statements and supporting documentation. Check for references to a defined benefit plan, which typically provides predetermined benefits to employees, such as pensions based on salary and years of service. Verify this using IAS 26 definitions for pension plans under paragraph 8.",
+            "yes_case": {
+              "question": "Have financial statements been prepared for the defined benefit plan?",
+              "guidance": "Ensure that financial statements specific to the defined benefit plan have been prepared, as required under IAS 26. Confirm that the entity includes a set of financial statements with a Statement of Net Assets, Statement of Changes in Net Assets, and relevant notes. Refer to IAS 26.7–10 for details on the required content.",
+              "yes_case": {
+                "question": "Do the financial statements contain disclosures about the significant activities during the period?",
+                "guidance": "Review the financial statements of the defined benefit plan, paying specific attention to the notes and narrative sections. Check if significant activities such as investments, payouts, or other major transactions during the reporting period are disclosed. Refer to IAS 26.22(a) for required disclosures.",
+                "yes_case": {
+                  "question": "Do the financial statements include the effects of changes relating to the plan, its membership, and the terms and conditions?",
+                  "guidance": "Examine whether the financial statements disclose the impact of any changes to the plan (e.g., adjustment of benefits, eligibility criteria), its membership (e.g., new participants or exits), and terms and conditions. These details are essential according to IAS 26.22(a).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "655.2",
+          "section": "IAS 26",
+          "reference": "IAS 26.22(b)",
+          "question": "Does the entity prepare financial statements for a defined benefit plan?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "655.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements of a defined benefit plan contain statements reporting on the transactions and investment performance for the period and the financial position of the plan at the end of the period?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a defined benefit plan?",
+            "guidance": "Review whether the entity is responsible for preparing financial statements under IAS 26. Check the reporting obligations outlined in the plan's governing documents or contractual agreements. Defined benefit plans typically involve a promise from the employer to provide specific retirement benefits, and financial statements must reflect transactions and positions related thereto.",
+            "yes_case": {
+              "question": "Do the financial statements of the defined benefit plan report transactions and investment performance for the period?",
+              "guidance": "Examine the financial statements of the plan. Ensure that they include details of transactions during the period, such as contributions received, benefits paid, investment income, and expenses incurred. Verify that investment performance metrics are presented accurately.",
+              "yes_case": {
+                "question": "Do the financial statements of the defined benefit plan report the financial position of the plan at the end of the period?",
+                "guidance": "Check if the Statement of Financial Position (or equivalent) provides a clear view of the plan's assets, liabilities, and net position at the end of the reporting period. Ensure that all relevant balances are included and appropriately classified.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "655.3",
+          "section": "IAS 26",
+          "reference": "IAS 26.22(c)",
+          "question": "Does the entity prepare financial statements for a defined benefit plan?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "655.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements of a defined benefit plan contain actuarial information either as part of the statements or by way of a separate report?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements for a defined benefit plan?",
+            "guidance": "Review the scope of the financial statements. Confirm whether they pertain to a defined benefit plan by checking for specific terms like 'defined benefit obligation' or 'actuarial liability' in the reporting entity's notes or description.",
+            "yes_case": {
+              "question": "Do the financial statements contain any actuarial information related to the defined benefit plan?",
+              "guidance": "Inspect the financial statements and notes for the presence of actuarial information, including the valuation of plan assets and liabilities, actuarial assumptions, or present value of defined benefit obligations.",
+              "yes_case": {
+                "question": "Is the actuarial information reported as part of the financial statements or by way of a separate report?",
+                "guidance": "Check if the actuarial information is either integrated within the financial statements (e.g., in notes for liabilities or reconciliation) or provided via a separate report as mentioned in IAS 26.22(c). Ensure that actuarial information is accessible to users of the financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "655.4",
+          "section": "IAS 26",
+          "reference": "IAS 26.22(d)",
+          "question": "Do the financial statements pertain to a defined benefit plan as outlined in IAS 26?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "655.1",
+          "source_trigger": "Yes",
+          "original_question": "Do the financial statements of a defined benefit plan contain a description of the investment policies?",
+          "decision_tree": {
+            "question": "Do the financial statements pertain to a defined benefit plan as outlined in IAS 26?",
+            "guidance": "Review the entity’s financial statements to identify whether they report on a defined benefit plan. Defined benefit plans typically promise specific benefits upon retirement, and IAS 26 applies to such plans. Check the notes or disclosures for references to pensions or post-employment benefit plans.",
+            "yes_case": {
+              "question": "Do the financial statements include disclosures required under IAS 26?",
+              "guidance": "Confirm that the financial statements include all relevant disclosures required for defined benefit plans under IAS 26, such as a description of benefits, actuarial assumptions, and investment policies. Refer to IAS 26 for a full list of disclosure requirements.",
+              "yes_case": {
+                "question": "Do the financial statements contain a description of the investment policies, as required by IAS 26.22(d)?",
+                "guidance": "Review the financial statement disclosures, particularly under the section discussing plan investments. Investment policies typically describe objectives (e.g., risk management, return goals), asset allocation, and constraints (e.g., specific industries excluded or ethical considerations). Ensure the description is clear and complete.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

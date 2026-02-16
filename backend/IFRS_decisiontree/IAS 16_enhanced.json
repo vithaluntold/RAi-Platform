@@ -1,0 +1,533 @@
+{
+  "title": "Property, Plant and Equipment (IAS 16) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 16",
+      "title": "Property, Plant and Equipment",
+      "description": "Checklist for presentation and disclosure requirements under IAS 16.",
+      "items": [
+        {
+          "id": "484",
+          "section": "IAS 16",
+          "reference": "IAS 16.42, IAS 12.65",
+          "question": "Has the entity performed a revaluation of property, plant, and equipment during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the effects of taxes on income, if any, resulting from the revaluation of property, plant and equipment in accordance with IAS 12?",
+          "decision_tree": {
+            "question": "Has the entity performed a revaluation of property, plant, and equipment during the reporting period?",
+            "guidance": "Review the notes to the financial statements and the accounting policies section for any mention of revaluation of property, plant, and equipment as per IAS 16. Specifically, check whether the entity has selected the revaluation model for measurement after recognition and performed a revaluation in the reporting period.",
+            "yes_case": {
+              "question": "Did the revaluation of property, plant, and equipment result in deferred taxes as per IAS 12?",
+              "guidance": "Review the income tax notes or the disclosures on deferred taxes in the financial statements. IAS 12 requires entities to recognize deferred tax liabilities or assets resulting from temporary differences created by the revaluation of property, plant, and equipment. Check for any tax impacts resulting from the revaluation.",
+              "yes_case": {
+                "question": "Does the entity disclose the effects of taxes on income resulting from the revaluation in accordance with IAS 12?",
+                "guidance": "Verify in the notes to the financial statements if the entity has disclosed the deferred tax implications of the revaluation, including the corresponding amounts and analysis, as required by IAS 12.65. Ensure the disclosures are clear, precise, and meet the requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "485.1",
+          "section": "IAS 16",
+          "reference": "IAS 16.73, IAS 16.75, IAS 16.31, IAS 16.39, IAS 36.126",
+          "question": "Does the entity have property, plant, and equipment (PPE) recognized in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For each class of property, plant and equipment, does the entity disclose the measurement bases used for determining the gross carrying amount?",
+          "decision_tree": {
+            "question": "Does the entity have property, plant, and equipment (PPE) recognized in its financial statements?",
+            "guidance": "Review the Statement of Financial Position (Balance Sheet) or relevant notes to check if PPE is listed as an asset. Refer to IAS 16.73 for guidance on types of assets included as PPE, such as land, buildings, machinery, etc.",
+            "yes_case": {
+              "question": "Does the entity disclose the measurement bases used for determining the gross carrying amount for each class of PPE?",
+              "guidance": "Examine the financial statement notes specific to PPE disclosures. Check if the entity has identified and disclosed whether the PPE is measured at cost or revaluation (per IAS 16.31 and IAS 16.39). Common disclosure locations include the PPE accounting policy section or separate tables or notes explaining valuation methods.",
+              "yes_case": {
+                "question": "Does the entity provide proper disclosures for depreciation methods, useful lives or depreciation rates, as required for PPE?",
+                "guidance": "Refer to IAS 16.73 and IAS 16.75. Ensure that depreciation methods (e.g., straight-line or reducing balance), useful lives, and rates for each class of PPE are clearly stated in the financial statement notes. Missing or unclear disclosure indicates non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "485.2",
+          "section": "IAS 16",
+          "reference": "IAS 16.73, IAS 16.75, IAS 16.31, IAS 16.39, IAS 36.126",
+          "question": "Does the entity have property, plant, and equipment recognized in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For each class of property, plant and equipment, does the entity disclose the depreciation methods used?",
+          "decision_tree": {
+            "question": "Does the entity have property, plant, and equipment recognized in its financial statements?",
+            "guidance": "Refer to the Statement of Financial Position and accounting policies note. Check if the entity has recognized any tangible assets as property, plant, and equipment under IAS 16. Verify relevant line items such as 'Property, Plant, and Equipment' or similar descriptions.",
+            "yes_case": {
+              "question": "Has the entity classified property, plant, and equipment into different classes (e.g., land, buildings, machinery, vehicles)?",
+              "guidance": "Review the accounting policies note and disclosures related to property, plant, and equipment. Check if the entity separates PPE into identifiable classes as required by IAS 16.73 for disclosure purposes.",
+              "yes_case": {
+                "question": "Does the entity disclose the depreciation methods used for each class of property, plant, and equipment?",
+                "guidance": "Refer to the notes accompanying the financial statements for IAS 16 disclosures. Ensure the depreciation methods (e.g., straight-line, declining balance) for each class (e.g., buildings, machinery) are explicitly disclosed as per IAS 16.73. Verify that each class listed has its associated depreciation method clearly explained. Common pitfalls: vague or incomplete descriptions, or omission of certain classes.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "485.3",
+          "section": "IAS 16",
+          "reference": "IAS 16.73, IAS 16.75, IAS 16.31, IAS 16.39, IAS 36.126",
+          "question": "Does the entity have property, plant, and equipment (PPE) recognized on its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For each class of property, plant and equipment, does the entity disclose the useful lives or the depreciation rates used?",
+          "decision_tree": {
+            "question": "Does the entity have property, plant, and equipment (PPE) recognized on its financial statements?",
+            "guidance": "Review the Statement of Financial Position and related disclosures to confirm whether the entity has property, plant, and equipment. Check for line items labeled as 'Property, Plant and Equipment' or similar terms under IAS 16. Also, review the notes for recognition criteria and classifications. If PPE is not recognized, this checklist item is 'Not Applicable'.",
+            "yes_case": {
+              "question": "Does the entity disclose the useful lives or depreciation rates used for each class of property, plant, and equipment?",
+              "guidance": "Review the notes to financial statements accompanying the PPE section, focusing on disclosures. Check for explicit mentions of useful lives (e.g., 'Buildings: 30-50 years', 'Machinery: 10 years') or depreciation rates (e.g., 'Equipment: 10% straight-line method'). Ensure the disclosure aligns with IAS 16.73 and IAS 16.75 requirements. Pay close attention to whether such information is missing or unclear.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Is the lack of disclosure due to immateriality or reliance on aggregation allowed under IAS 16?",
+                "guidance": "Review IAS 16.31 and IAS 16.39 for aggregation and immateriality provisions. Confirm if the entity explicitly states that disclosures are omitted due to immateriality and if the omission aligns with professional judgment or quantitative thresholds outlined in IAS 1. Consider if the aggregation of PPE classes still provides sufficient transparency.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "485.4",
+          "section": "IAS 16",
+          "reference": "IAS 16.73, IAS 16.75, IAS 16.31, IAS 16.39, IAS 36.126",
+          "question": "Does the entity have property, plant, and equipment (PPE) in its financial statements?",
+          "question_type": null,
+          "context_required": "full",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For each class of property, plant and equipment, does the entity disclose the gross carrying amount and the accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period?",
+          "decision_tree": {
+            "question": "Does the entity have property, plant, and equipment (PPE) in its financial statements?",
+            "guidance": "Review the Statement of Financial Position and the Notes to the Financial Statements to confirm whether the entity has recognized any property, plant, and equipment according to IAS 16. Check if this includes physical assets used in production, supply of goods or services, rental, or administrative purposes. If no PPE is recognized, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity disclose for each class of PPE the gross carrying amount and accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period?",
+              "guidance": "Check the Notes to the Financial Statements or supplemental disclosures. Ensure each class of PPE (e.g., machinery, buildings, vehicles) is presented separately. Confirm that disclosures show the gross carrying amount (original cost or valuation) and the accumulated depreciation and impairment losses both at the beginning and end of the reporting period.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the absence of these disclosures result from the omission of classes of PPE or the omission of required numerical details?",
+                "guidance": "Review whether the entity has failed to disclose all classes of PPE or simply missed providing numerical details about gross carrying amount, accumulated depreciation, and impairment losses. Omission of any detail would constitute non-compliance with IAS 16.73 and IAS 16.75.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "485.5",
+          "section": "IAS 16",
+          "reference": "IAS 16.73, IAS 16.75, IAS 16.31, IAS 16.39, IAS 36.126",
+          "question": "Does the entity have property, plant and equipment (PPE) recognized in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "For each class of property, plant and equipment, does the entity provide a reconciliation of the carrying amount at the beginning and end of the period showing additions; assets classified as held for sale or included in a disposal group classified as ‘held for sale’ in accordance with IFRS 5 and other disposals; acquisitions through business combinations; increases or decreases resulting from revaluations and impairment losses recognised or reversed in other comprehensive income under IAS 36 during the reporting period; impairment losses recognised in profit or loss during the period under IAS 36; impairment losses reversed in profit or loss during the period under IAS 36; depreciation (whether recognised in profit or loss or as part of the cost of other assets); the net exchange differences arising on translation of the financial statements from the functional currency into a different presentation currency, including the translation of a foreign operation; and other changes?",
+          "decision_tree": {
+            "question": "Does the entity have property, plant and equipment (PPE) recognized in its financial statements?",
+            "guidance": "Review the balance sheet and notes to the financial statements to confirm the existence of PPE. Check that assets meet the definition under IAS 16.6 and IAS 16.7 (i.e., tangible assets held for use in the production or supply of goods/services or for administrative purposes). If no PPE is recognized, the requirement is not applicable.",
+            "yes_case": {
+              "question": "Does the entity provide a reconciliation of the carrying amount of PPE at the beginning and end of the reporting period?",
+              "guidance": "Examine the notes to the financial statements for a detailed reconciliation as required by IAS 16.73. This includes showing changes such as additions, disposals, revaluations, impairments, depreciation, and currency translation adjustments. Common pitfalls include omitting disposals, revaluations, or exchange differences.",
+              "yes_case": {
+                "question": "Does the reconciliation include all required elements, such as additions, disposals, revaluations, impairments, depreciation, currency translation differences, and other relevant changes?",
+                "guidance": "Cross-reference the reconciliation details with IAS 16.73 and IAS 16.75 requirements. Ensure all significant changes are disclosed, including specific impairments under IAS 36. Any missing items will raise a compliance issue.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "486.1",
+          "section": "IAS 16",
+          "reference": "IAS 16.74, IAS 16.74A",
+          "question": "Does the entity hold property, plant, and equipment (PPE)?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the existence and amounts of restrictions on title, and property, plant and equipment pledged as security for liabilities?",
+          "decision_tree": {
+            "question": "Does the entity hold property, plant, and equipment (PPE)?",
+            "guidance": "Review the entity's Statement of Financial Position and accompanying notes. Verify if there are any items classified under Property, Plant, and Equipment as defined by IAS 16. Ensure you differentiate PPE from other asset categories such as intangible assets or investment properties.",
+            "yes_case": {
+              "question": "Are there any restrictions on title or any PPE pledged as security for liabilities?",
+              "guidance": "Examine loan agreements, contracts, or legal documents to identify if PPE is subject to restrictions (e.g., legal claims or encumbrances) or if PPE has been pledged as security. Furthermore, review disclosures under IAS 16 and confirm with management about any such restrictions or pledges.",
+              "yes_case": {
+                "question": "Does the entity disclose the existence and amounts of restrictions on title and PPE pledged as security, as required by IAS 16.74 and IAS 16.74A?",
+                "guidance": "Refer to the disclosures in the notes to the financial statements. Check if the entity explicitly states both the existence of restrictions and the specific amounts linked to restrictions or pledged PPE. Compare the disclosures against the requirements of IAS 16.74 and IAS 16.74A.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "486.2",
+          "section": "IAS 16",
+          "reference": "IAS 16.74, IAS 16.74A",
+          "question": "Does the entity have any items of property, plant, and equipment under construction during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of expenditures recognised in the carrying amount of an item of property, plant and equipment during its construction?",
+          "decision_tree": {
+            "question": "Does the entity have any items of property, plant, and equipment under construction during the reporting period?",
+            "guidance": "Review the financial statements, particularly the notes to property, plant, and equipment. Look for line items or disclosures indicating that the entity has construction-in-progress assets. Check for additions or expenditures specifically related to construction activities.",
+            "yes_case": {
+              "question": "Has the entity recognized expenditures incurred during the construction of the property, plant, and equipment in its carrying amount?",
+              "guidance": "Confirm that expenditures incurred (e.g., labor, materials, overheads, borrowing costs if applicable) are capitalized to the carrying amount of the asset under construction as per IAS 16 requirements. Review the entity's asset ledger or project accounting records for evidence.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of expenditures recognized in the carrying amount of the property, plant, and equipment during construction in the financial statements?",
+                "guidance": "Examine the financial statement notes for property, plant, and equipment. Verify disclosure of the amount of expenditures recognized, typically in construction-in-progress accounts or as part of detailed asset disclosures. Check IAS 16.74 and IAS 16.74A for specific requirements on disclosing expenditures related to construction.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "486.3",
+          "section": "IAS 16",
+          "reference": "IAS 16.74, IAS 16.74A",
+          "question": "Does the entity hold any contractual commitments for the acquisition of property, plant, and equipment?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of contractual commitments for the acquisition of property, plant and equipment?",
+          "decision_tree": {
+            "question": "Does the entity hold any contractual commitments for the acquisition of property, plant, and equipment?",
+            "guidance": "Review the entity's purchase agreements, procurement contracts, or other relevant legal documents to identify any existing obligations to acquire property, plant, and equipment. Check the accounting notes or schedules for hints of such transactions. If no agreements exist, select 'No'.",
+            "yes_case": {
+              "question": "Has the entity disclosed the amount of these contractual commitments for the acquisition of property, plant, and equipment in the financial statements?",
+              "guidance": "Review the notes to the financial statements, particularly the disclosure section related to IAS 16. Ensure that the amount of the commitments is clearly presented as per IAS 16.74 or IAS 16.74A. Look for specificity in figures and ensure the disclosure aligns with the entity’s contractual obligations.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "487.1",
+          "section": "IAS 16",
+          "reference": "IAS 16.74A",
+          "question": "Has the entity received compensation from third parties for items of property, plant, and equipment that were impaired, lost, or given up during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If not presented separately in the statement of comprehensive income, does the entity disclose the amount of compensation from third parties for items of property, plant and equipment that were impaired, lost or given up, included in profit or loss?",
+          "decision_tree": {
+            "question": "Has the entity received compensation from third parties for items of property, plant, and equipment that were impaired, lost, or given up during the reporting period?",
+            "guidance": "Check relevant financial records, agreements, or correspondence for evidence of compensation received from third parties. Verify whether such events occurred by reviewing impairment reports, asset disposal records, and incident reports for lost or damaged assets. Ensure documentation supports the occurrence of such compensation.",
+            "yes_case": {
+              "question": "Is the compensation amount presented separately in the statement of comprehensive income?",
+              "guidance": "Review the statement of comprehensive income. Check whether any item is labeled explicitly as compensation received for impaired, lost, or given-up property, plant, and equipment. Avoid misclassification with other income categories.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity disclose the compensation amount in the notes to the financial statements, specifying it is included in profit or loss?",
+                "guidance": "Examine the notes to the financial statements for disclosures related to property, plant, and equipment. Focus on sections detailing income or gains included in profit or loss. Ensure they mention compensation received for impaired, lost, or given-up assets.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "487.2",
+          "section": "IAS 16",
+          "reference": "IAS 16.74A",
+          "question": "Has the entity produced items that are not an output of its ordinary activities?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If not presented separately in the statement of comprehensive income, does the entity disclose the amounts of proceeds and costs included in profit or loss in accordance with paragraph 20A that relate to items produced that are not an output of the entity's ordinary activities, and which line item(s) include such proceeds and costs?",
+          "decision_tree": {
+            "question": "Has the entity produced items that are not an output of its ordinary activities?",
+            "guidance": "Review the entity's production operations and compare outputs against its description of ordinary activities in the financial statements or business model. Refer to operational reports or contracts for evidence of unusual production items.",
+            "yes_case": {
+              "question": "Were the related proceeds and costs included in profit or loss as part of the financial statements?",
+              "guidance": "Check the profit or loss statement for any mention of proceeds or costs related to the non-ordinary items. Look for specific disclosure in revenue, other income, or expense line items.",
+              "yes_case": {
+                "question": "Are the amounts of proceeds and costs related to items produced outside the entity’s ordinary activities disclosed in the notes if not presented separately in the statement of comprehensive income?",
+                "guidance": "Inspect the notes to the financial statements and the statement of comprehensive income. Verify whether the amounts pertaining to items produced outside ordinary activities are disclosed, as required by IAS 16.74A, and ensure clarity regarding which line items these amounts are included in.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "488.1",
+          "section": "IAS 16",
+          "reference": "IAS 16.77, IFRS 13.5-7",
+          "question": "Does the entity have items of property, plant, and equipment (PPE)?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If items of property, plant and equipment are stated at revalued amounts under the revaluation model, does the entity disclose the effective date of the revaluation?",
+          "decision_tree": {
+            "question": "Does the entity have items of property, plant, and equipment (PPE)?",
+            "guidance": "Check the Statement of Financial Position and accompanying notes to identify whether PPE is recognized as an asset. Common line items include buildings, machinery, or equipment. Ensure no omissions and confirm the existence of PPE.",
+            "yes_case": {
+              "question": "Are the items of PPE measured using the revaluation model under IAS 16?",
+              "guidance": "Review the accounting policy note disclosed in the financial statements. Check whether IAS 16's revaluation model is applied to measure PPE. Under this model, assets are carried at fair value on revaluation dates, adjusted for subsequent depreciation and impairment. Confirm if the entity explicitly states use of the revaluation model instead of the cost model.",
+              "yes_case": {
+                "question": "Does the entity disclose the effective date of the revaluation of PPE in the financial statements?",
+                "guidance": "Examine the notes to the financial statements related to PPE measurement and revaluation. Ensure that the effective date specified aligns with IAS 16.77. Avoid overlooking details or misinterpreting the fair value determination period (IFRS 13.5-7).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "488.2",
+          "section": "IAS 16",
+          "reference": "IAS 16.77, IFRS 13.5-7",
+          "question": "Does the entity have items of property, plant, and equipment measured under the revaluation model?",
+          "question_type": "Followup",
+          "source_question": "488.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If items of property, plant and equipment are stated at revalued amounts under the revaluation model, does the entity disclose whether an independent valuer was involved?",
+          "decision_tree": {
+            "question": "Does the entity have items of property, plant, and equipment measured under the revaluation model?",
+            "guidance": "Refer to the accounting policies disclosed in the financial statements, particularly in the PPE section, to determine if the revaluation model is applied (IAS 16.29). Ensure this is not confused with the cost model. Additionally, check IAS 16.31 for details on recognition and measurement.",
+            "yes_case": {
+              "question": "Are the revalued amounts determined with involvement from an independent valuer?",
+              "guidance": "Review the disclosures related to PPE revaluations. An independent valuer's involvement should be explicitly mentioned (IAS 16.77). Look for terms like 'external valuation' or 'independent valuer' within the notes to the financial statements or supporting documents. Verify that this is consistent with IFRS 13 definitions of fair value based on market participant assumptions.",
+              "yes_case": {
+                "question": "Does the entity disclose whether an independent valuer was involved in the revaluation in the financial statements?",
+                "guidance": "Ensure that the involvement of an independent valuer is explicitly disclosed in accordance with IAS 16.77. This should appear in the notes under PPE accounting policies or revaluation details. Beware of vague disclosures that merely describe the methodology without specifying independent involvement.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "488.3",
+          "section": "IAS 16",
+          "reference": "IAS 16.77, IFRS 13.5-7",
+          "question": "Does the entity use the revaluation model for items of property, plant, and equipment as permitted under IAS 16?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "488.1",
+          "source_trigger": "Yes",
+          "original_question": "If items of property, plant and equipment are stated at revalued amounts under the revaluation model, does the entity disclose the fair value measurement disclosures required by IFRS 13?",
+          "decision_tree": {
+            "question": "Does the entity use the revaluation model for items of property, plant, and equipment as permitted under IAS 16?",
+            "guidance": "Review the accounting policy disclosures in the financial statements and specifically check IAS 16 section 77. Confirm whether the entity has chosen the revaluation model for property, plant, and equipment. The revaluation model involves stating assets at revalued amounts rather than historical cost.",
+            "yes_case": {
+              "question": "Are the fair value measurements of the revalued items of property, plant, and equipment in accordance with IFRS 13?",
+              "guidance": "Check the fair value measurement disclosures in the notes to the financial statements against IFRS 13, sections 5-7. Ensure that disclosures include details about valuation techniques, significant inputs, and any hierarchy levels for fair value measurement. Pay particular attention to whether the level of detail is sufficient to meet IFRS 13 requirements.",
+              "yes_case": {
+                "question": "Does the entity disclose all required information on revalued property, plant, and equipment in accordance with IFRS 13?",
+                "guidance": "Verify that the entity has disclosed, as per IFRS 13, information such as the methods used for valuing assets, the key assumptions applied, and any potential sensitivities. The disclosures should provide transparency and comparability for users of the financial statements. Review the entity's consistency in applying IFRS 13 guidance through different periods.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "488.4",
+          "section": "IAS 16",
+          "reference": "IAS 16.77, IFRS 13.5-7",
+          "question": "Does the entity hold items of property, plant and equipment (PPE)?",
+          "question_type": "Followup",
+          "source_question": "488.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If items of property, plant and equipment are stated at revalued amounts under the revaluation model, does the entity disclose, for each revalued class of assets, the carrying amount that would have been recognised had the assets been carried under the cost model?",
+          "decision_tree": {
+            "question": "Does the entity hold items of property, plant and equipment (PPE)?",
+            "guidance": "Verify existence by reviewing the Statement of Financial Position and relevant notes to identify if PPE is recognized. Check IAS 16 definitions to ensure assets meet the criteria for PPE. Common pitfalls include mistakenly categorizing assets under other headings such as inventory or investment property.",
+            "yes_case": {
+              "question": "Does the entity apply the revaluation model for measuring PPE?",
+              "guidance": "Review the accounting policies disclosed in the financial statements. Check the notes to PPE to determine if the revaluation model is applied under IAS 16.31. The revaluation model measures assets at fair value less subsequent depreciation and impairment. Do not confuse this with the cost model.",
+              "yes_case": {
+                "question": "Does the entity disclose, for each revalued class of assets, the carrying amount that would have been recognised had the assets been measured under the cost model?",
+                "guidance": "Check IAS 16.77 for disclosure requirements. Review the notes accompanying PPE to identify whether the carrying amount under the cost model is disclosed for each revalued asset class. Ensure the disclosure is specific to each class and complies with IFRS 13 fair value guidelines.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "488.5",
+          "section": "IAS 16",
+          "reference": "IAS 16.77, IFRS 13.5-7",
+          "question": "Does the entity hold any items of property, plant, and equipment stated under the revaluation model?",
+          "question_type": "Followup",
+          "source_question": "488.1",
+          "source_trigger": "Yes",
+          "context_required": "full",
+          "original_question": "If items of property, plant and equipment are stated at revalued amounts under the revaluation model, does the entity disclose the revaluation surplus, indicating the change for the period and any restrictions on its distribution to shareholders?",
+          "decision_tree": {
+            "question": "Does the entity hold any items of property, plant, and equipment stated under the revaluation model?",
+            "guidance": "Review the accounting policies note in the financial statements or inquire with the entity's relevant personnel. Search for mentions of the 'revaluation model' under IAS 16. Check whether these items are measured using revalued amounts instead of cost model. Beware of documents where policies may be misclassified.",
+            "yes_case": {
+              "question": "Has the entity disclosed the revaluation surplus in the financial statements, including changes for the period and any restrictions on its distribution to shareholders?",
+              "guidance": "Examine the disclosures related to the revaluation surplus under IAS 16.77. Look in the equity section and notes to equity in the financial statements for details about the surplus. Ensure it specifies the changes for the reporting period and any restrictions explicitly. Verify the completeness and accuracy of the disclosure.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "489.1",
+          "section": "IAS 16",
+          "reference": "IAS 16.79",
+          "question": "Does the entity have any temporarily idle property, plant, and equipment as of the reporting date?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the carrying amount of temporarily idle property, plant and equipment?",
+          "decision_tree": {
+            "question": "Does the entity have any temporarily idle property, plant, and equipment as of the reporting date?",
+            "guidance": "Review the detailed asset records and management reports to determine if any property, plant, and equipment (PPE) are temporarily not in use. Check operational schedules, utilization data, and management comments in the internal reports. Ensure assets classified as idle are not permanently abandoned or disposed of.",
+            "yes_case": {
+              "question": "Is the carrying amount of the temporarily idle property, plant, and equipment disclosed in the financial statements?",
+              "guidance": "Examine the notes to the financial statements, particularly disclosures related to PPE. Look for explicit disclosure of the carrying amount of idle assets. Ensure compliance with IAS 16.79, which requires such information to be disclosed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "489.2",
+          "section": "IAS 16",
+          "reference": "IAS 16.79",
+          "question": "Does the entity have any fully depreciated property, plant, and equipment that is still in use?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the gross carrying amount of any fully depreciated property, plant and equipment that is still in use?",
+          "decision_tree": {
+            "question": "Does the entity have any fully depreciated property, plant, and equipment that is still in use?",
+            "guidance": "Verify the entity's fixed asset register and supporting schedules. Look for items with a net book value of zero but still being actively used in operations. Cross-check these details with the notes to the financial statements under property, plant, and equipment (PPE). Common errors include missing fully depreciated assets or failure to identify items still used.",
+            "yes_case": {
+              "question": "Has the entity disclosed the gross carrying amount of these fully depreciated property, plant, and equipment items in its financial statements?",
+              "guidance": "Inspect the notes to the financial statements. Locate the disclosures under IAS 16, focusing on the property, plant, and equipment section. The disclosure should specify the gross carrying amount of fully depreciated but still-in-use assets. Ensure compliance with IAS 16.79 requirements for transparency.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "489.3",
+          "section": "IAS 16",
+          "reference": "IAS 16.79",
+          "question": "Does the entity have property, plant, and equipment that has been retired from active use and not classified as held for sale?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the carrying amount of property, plant and equipment retired from active use and not classified as held for sale?",
+          "decision_tree": {
+            "question": "Does the entity have property, plant, and equipment that has been retired from active use and not classified as held for sale?",
+            "guidance": "Review the entity's fixed asset register or inquiry with management to identify assets that are retired from active use but not classified as held for sale under IFRS 5. Ensure these assets are not actively used in operations and that their classification as 'held for sale' is explicitly confirmed to avoid misinterpretation.",
+            "yes_case": {
+              "question": "Is the carrying amount of these retired property, plant, and equipment disclosed in the financial statements?",
+              "guidance": "Refer to the disclosures in the notes to the financial statements under IAS 16.79. Verify whether the carrying amount of such assets is explicitly disclosed, including sufficient explanation or justification.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "489.4",
+          "section": "IAS 16",
+          "reference": "IAS 16.79",
+          "question": "Does the entity recognize property, plant, and equipment (PPE) in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the cost model is used, does the entity disclose the fair value of property, plant and equipment if this is materially different from the carrying amount?",
+          "decision_tree": {
+            "question": "Does the entity recognize property, plant, and equipment (PPE) in its financial statements?",
+            "guidance": "Review the notes to the financial statements and the Statement of Financial Position to identify whether PPE is recognized. Look for items such as land, buildings, machinery, or other physical assets classified under IAS 16.",
+            "yes_case": {
+              "question": "Does the entity use the cost model to measure property, plant, and equipment?",
+              "guidance": "Check the accounting policy disclosures under IAS 16. Look specifically for the phrase 'cost model' in the PPE section. The cost model involves measurement at cost less accumulated depreciation and impairment losses.",
+              "yes_case": {
+                "question": "Is the fair value of property, plant, and equipment materially different from its carrying amount?",
+                "guidance": "Refer to valuation reports, market prices, or appraisals to determine the fair value of PPE. Compare this to the carrying amount reported in the financial statements. Consider 'materiality' as defined in IAS 1—does the difference influence the economic decision-making of users?",
+                "yes_case": {
+                  "question": "Does the entity disclose the fair value of property, plant, and equipment in its financial statements?",
+                  "guidance": "Examine the notes to the financial statements. Look for explicit disclosure of the fair value amounts for PPE, particularly if there is a material difference from the carrying amount as required by IAS 16.79.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "title": "Investments in Associates and Joint Ventures (IAS 28) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 28",
+      "title": "Investments in Associates and Joint Ventures",
+      "description": "Checklist for presentation and disclosure requirements under IAS 28.",
+      "items": [
+        {
+          "id": "58",
+          "section": "IAS 28",
+          "reference": "IAS 28.15",
+          "question": "Does the entity have investments in associates or joint ventures?",
+          "context_required": "financial_statements",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For investments in associates or joint ventures, or any retained interest in such investments, that are not classified as held for sale under IFRS 5, does the entity classify these as non-current assets accounted for using the equity method?",
+          "decision_tree": {
+            "question": "Does the entity have investments in associates or joint ventures?",
+            "guidance": "Examine the entity's financial statements and supporting documents to identify investments classified as associates or joint ventures under IAS 28.15. Check the ownership percentage (usually between 20% and 50%) and whether the entity has significant influence or joint control.",
+            "yes_case": {
+              "question": "Are the investments or any retained interest in such investments classified as 'held for sale' under IFRS 5?",
+              "guidance": "Review the classification of the investments in associates or joint ventures. Refer to IFRS 5 criteria for 'held for sale' classification, such as a management commitment to sell the asset and the likelihood of sale within 12 months.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Does the entity classify these investments or retained interest as non-current assets accounted for using the equity method?",
+                "guidance": "Verify that the investments in associates or joint ventures are classified as non-current and accounted for using the equity method per IAS 28. Refer to financial statement notes or disclosures about accounting policies related to these investments.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "205",
+          "section": "IAS 28",
+          "reference": "IAS 28.45C",
+          "question": "Does the entity have transactions involving the sale or contribution of assets to an associate or joint venture?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity applies Amendments to IFRS 10 and IAS 28 – Sale or Contribution of Assets between an Investor and its Associate or Joint Venture, issued in September 2014, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Does the entity have transactions involving the sale or contribution of assets to an associate or joint venture?",
+            "guidance": "Examine agreements and transaction documents to determine if the entity has sold or contributed substantial assets to an associate or joint venture during the reporting period. Specifically target transactions that involve related parties or investments accounted for under IAS 28.",
+            "yes_case": {
+              "question": "Does the entity apply the Amendments to IFRS 10 and IAS 28 – Sale or Contribution of Assets between an Investor and its Associate or Joint Venture, issued in September 2014?",
+              "guidance": "Review the accounting policies section in the financial statements. Check references to the amendments issued in September 2014. Confirm through management inquiry or board decision minutes if the amendments have been adopted.",
+              "yes_case": {
+                "question": "Does the entity disclose the application of the Amendments to IFRS 10 and IAS 28 in the financial statements?",
+                "guidance": "Inspect the disclosure notes within the financial statements, particularly sections that describe accounting policies, new standards adopted, or changes in accounting policies. Ensure the application of the amendments is clearly stated.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "217",
+          "section": "IAS 28",
+          "reference": "IAS 28.45C",
+          "question": "Does the entity have transactions involving the sale or contribution of assets between an investor and its associate or joint venture?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity applies Amendments to IFRS 10 and IAS 28 – Sale or Contribution of Assets between an Investor and its Associate or Joint Venture issued in September 2014, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Does the entity have transactions involving the sale or contribution of assets between an investor and its associate or joint venture?",
+            "guidance": "Review the entity’s financial statements and supporting documentation to identify transactions involving the sale or contribution of assets between the investor and its associate or joint venture. Check contracts, transaction ledgers, and any related party disclosures for such transactions.",
+            "yes_case": {
+              "question": "Does the entity apply Amendments to IFRS 10 and IAS 28 – Sale or Contribution of Assets between an Investor and its Associate or Joint Venture issued in September 2014?",
+              "guidance": "Verify whether the entity has chosen to apply these amendments in its accounting policies. Review the entity’s stated accounting policies under the ‘Investments in Associates and Joint Ventures’ section and confirm implementation. Note that full application of the amendments is optional depending on the entity’s policy, as the amendments’ effective date has been deferred indefinitely.",
+              "yes_case": {
+                "question": "Does the entity disclose the fact that it applies Amendments to IFRS 10 and IAS 28 issued in September 2014 as required by IAS 28.45C?",
+                "guidance": "Check the notes to the financial statements and specifically look under the accounting policies or significant judgments section. IAS 28.45C requires disclosure when these amendments are applied.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "title": "Financial Instruments: Recognition and Measurement (IAS 39) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 39",
+      "title": "Financial Instruments: Recognition and Measurement",
+      "description": "Checklist for presentation and disclosure requirements under IAS 39.",
+      "items": [
+        {
+          "id": "IAS39-1",
+          "section": "IAS 39",
+          "reference": "IAS 39.14",
+          "question": "Has the entity entered into any contractual provisions that may give rise to financial assets or financial liabilities?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity recognize financial assets and financial liabilities in its statement of financial position when it becomes a party to the contractual provisions of the instrument?",
+          "decision_tree": {
+            "question": "Has the entity entered into any contractual provisions that may give rise to financial assets or financial liabilities?",
+            "guidance": "Review the entity's contracts and agreements, such as loan agreements, investment contracts, or trade receivables/payables. Confirm whether the entity has any arrangements involving financial instruments as defined in IAS 39.14. Be cautious of off-balance sheet items or contingent liabilities.",
+            "yes_case": {
+              "question": "Has the entity appropriately recognized financial assets and financial liabilities in its statement of financial position upon entering the contractual provisions?",
+              "guidance": "Check the entity's financial position statement against IAS 39. Ensure financial assets (e.g., receivables, investments) and financial liabilities (e.g., borrowings, payables) are recognized when the entity becomes a party to the contractual provisions. Refer to IAS 39.14 for timing and conditions for recognition.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-2",
+          "section": "IAS 39",
+          "reference": "IAS 39.15-37",
+          "question": "Does the entity hold any financial assets as defined under IAS 39?",
+          "question_type": "Followup",
+          "source_question": "IAS39-1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity derecognize financial assets only when the contractual rights to cash flows expire or are transferred with substantially all risks and rewards?",
+          "decision_tree": {
+            "question": "Does the entity hold any financial assets as defined under IAS 39?",
+            "guidance": "Verify whether the entity reports any financial assets in its financial statements as defined under IAS 39. Review the Statement of Financial Position and relevant notes to identify assets such as cash, receivables, investments, or derivatives. Ensure these assets meet the IAS 39 definition of financial assets.",
+            "yes_case": {
+              "question": "Has the entity disposed of or transferred any financial assets during the reporting period?",
+              "guidance": "Examine transaction records, contracts, and disclosures related to disposals or transfers of financial assets during the reporting period. Review the notes to the financial statements and board approvals for any evidence of transferred rights.",
+              "yes_case": {
+                "question": "Did the entity transfer the contractual rights to receive cash flows from the financial assets or assume an obligation to pay those cash flows to another party (the pass-through condition)?",
+                "guidance": "Analyze the contract or transfer agreement of the disposed financial assets. Confirm if the entity transferred the contractual rights to cash flows or created a qualifying pass-through arrangement under IAS 39.",
+                "yes_case": {
+                  "question": "Did the entity retain substantially all the risks and rewards of ownership of the transferred financial assets?",
+                  "guidance": "Perform a risk and reward analysis. Assess factors such as credit risk, interest rate risk, and changes in value due to market risk. Review the transfer agreement for clauses that indicate control or risk retention.",
+                  "yes_case": {
+                    "question": "Does the entity appropriately continue to recognize the transferred financial assets on its Statement of Financial Position?",
+                    "guidance": "Verify that the retained risks and rewards are reflected by continuing to recognize the financial assets as required by IAS 39. Confirm the accounting treatment with disclosures in the financial statements.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": {
+                    "question": "Has the entity derecognized the financial assets while retaining insignificant risks and rewards of ownership?",
+                    "guidance": "Check if derecognition is applied and whether insignificant risks and rewards of ownership were retained. Ensure compliance with IAS 39.15 criteria for derecognition when substantially all risks and rewards are transferred.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  }
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-3",
+          "section": "IAS 39",
+          "reference": "IAS 39.20",
+          "question": "Has the entity made any transfers of financial assets during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "IAS39-2",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity apply the derecognition criteria to transfers that qualify for derecognition?",
+          "decision_tree": {
+            "question": "Has the entity made any transfers of financial assets during the reporting period?",
+            "guidance": "Review the entity's financial statements, particularly the notes to financial assets and disclosures on transfer activities. Transfers can include sales, assignments, or other methods of transferring control of financial assets. Ensure you are considering all types of financial asset transfers.",
+            "yes_case": {
+              "question": "Do the transfers qualify for derecognition based on the criteria in IAS 39.20?",
+              "guidance": "Refer to IAS 39.20 and evaluate if the transfer meets derecognition criteria. Determine if the entity has transferred substantially all risks and rewards of ownership or if control of the asset has passed to the transferee. Common pitfalls include misunderstanding continuing involvement or overestimating control retention.",
+              "yes_case": {
+                "question": "Has the entity applied the derecognition criteria correctly for transfers that qualify for derecognition?",
+                "guidance": "Assess the entity's application of IAS 39.20 criteria. Inspect the calculation of derecognized amounts and confirm these transfers are correctly derecognized from the statement of financial position. Ensure disclosures match derecognition outcomes as per IAS 39 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Has the entity retained significant risks and rewards or control over the transferred assets?",
+                "guidance": "Examine whether the entity retains control or substantially all risks and rewards associated with the transferred assets. This scenario typically requires the assets to remain recognized on the entity's statement of financial position under IAS 39.20. Look for agreements or clauses that establish retention of control.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-4",
+          "section": "IAS 39",
+          "reference": "IAS 39.39",
+          "question": "Does the entity have financial liabilities recorded in the financial statements?",
+          "question_type": "Followup",
+          "source_question": "IAS39-1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity derecognize financial liabilities only when obligations are discharged, cancelled or expire?",
+          "decision_tree": {
+            "question": "Does the entity have financial liabilities recorded in the financial statements?",
+            "guidance": "Review the entity's Statement of Financial Position for items classified under financial liabilities, such as borrowings, trade payables, or bonds. Check the entity’s accounting policies to verify recognition criteria align with IAS 39.",
+            "yes_case": {
+              "question": "Were any obligations associated with financial liabilities discharged, cancelled, or have they expired during the reporting period?",
+              "guidance": "Examine transactional records, contracts, settlement agreements, and legal documentation related to financial liabilities. Verify events such as repayment, cancellation agreements, or expiration terms. Common errors include overlooking partial settlements or incorrectly treating modifications as derecognition.",
+              "yes_case": {
+                "question": "Has the entity correctly derecognized financial liabilities only when the obligations were discharged, cancelled, or expired?",
+                "guidance": "Confirm that derecognition is consistent with IAS 39.39. Financial liabilities should only be removed from the Statement of Financial Position if the debtor has discharged the liability through payment, legal release, or contract expiration. Review journal entries and disclosures to ensure accuracy.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-5",
+          "section": "IAS 39",
+          "reference": "IAS 39.45-46",
+          "question": "Does the entity hold any financial assets as defined by IAS 39?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity classify financial assets into appropriate categories (held-to-maturity, loans and receivables, available-for-sale, fair value through profit or loss)?",
+          "decision_tree": {
+            "question": "Does the entity hold any financial assets as defined by IAS 39?",
+            "guidance": "Refer to the entity's statement of financial position and underlying records such as investment schedules or loan agreements to determine if there are any assets that qualify as financial assets under IAS 39. Financial assets include cash, equity instruments, debt instruments, and contractual rights to receive cash or another financial asset. Ensure you distinguish financial assets from non-financial assets.",
+            "yes_case": {
+              "question": "Has the entity classified its financial assets into one of the categories: held-to-maturity, loans and receivables, available-for-sale, or fair value through profit or loss?",
+              "guidance": "Check the accounting policies within the financial statements and review the account classifications for financial assets. Verify that the entity has appropriately categorized its financial assets in accordance with IAS 39.45-46. Be cautious of inconsistencies between the classification and the nature of the asset or its purpose.",
+              "yes_case": {
+                "question": "Is the classification of financial assets consistent with the entity's intent and ability regarding the asset (e.g., holding to maturity or trading)?",
+                "guidance": "Review documents such as board minutes, contracts, and management discussions to assess the entity's business model and intentions. Confirm that the classification reflects actual usage and complies with IAS 39.45-46 requirements.",
+                "yes_case": {
+                  "question": "Are disclosures regarding financial asset classifications adequately presented in the financial statements?",
+                  "guidance": "Ensure the financial statements disclose the criteria applied by the entity for categorizing financial assets, as well as the values assigned to each category. Verify consistency between the disclosed categories and the recorded amounts.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-6",
+          "section": "IAS 39",
+          "reference": "IAS 39.43",
+          "question": "Does the entity have financial assets recognized on its statement of financial position?",
+          "question_type": "Followup",
+          "source_question": "IAS39-5",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity measure financial assets at fair value on initial recognition plus transaction costs (except for FVTPL)?",
+          "decision_tree": {
+            "question": "Does the entity have financial assets recognized on its statement of financial position?",
+            "guidance": "Review the entity's statement of financial position and notes to financial statements. Look for categories such as loans and receivables, held-to-maturity investments, available-for-sale financial assets, or financial assets at fair value through profit or loss (FVTPL). Cross-check with IAS 39 definitions of financial assets (IAS 39.9).",
+            "yes_case": {
+              "question": "Were any of the financial assets measured at fair value upon initial recognition?",
+              "guidance": "Check initial recognition of financial assets in the accounting policy notes. If the financial assets are designated as FVTPL, they should be measured at fair value upon initial recognition without adding transaction costs. For other categories, transaction costs should generally be included, per IAS 39.43.",
+              "yes_case": {
+                "question": "Are all financial assets designated as FVTPL measured without incorporating transaction costs at initial recognition?",
+                "guidance": "Verify the measurement method disclosed in the financial statements for financial assets categorized as FVTPL. Ensure that transaction costs are excluded for assets designated as FVTPL, in compliance with IAS 39.43. Common pitfalls include incorrectly including transaction costs for FVTPL assets or inconsistencies between disclosures and accounting policies.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": {
+                  "question": "Did the entity fail to exclude transaction costs for FVTPL assets at initial recognition?",
+                  "guidance": "Review transaction costs included in the measurement of FVTPL assets. Compare the accounting treatment against IAS 39.43 requirements. A failure to exclude transaction costs for FVTPL assets indicates non-compliance.",
+                  "yes_case": "COMPLIANT: NO",
+                  "no_case": "COMPLIANT: YES"
+                }
+              },
+              "no_case": {
+                "question": "Are financial assets outside the FVTPL category measured at fair value plus transaction costs upon initial recognition?",
+                "guidance": "For financial assets NOT designated as FVTPL (e.g., loans and receivables, held-to-maturity investments), check if transaction costs were included in the initial measurement as required by IAS 39.43.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": {
+                  "question": "Did the entity fail to include transaction costs for financial assets outside the FVTPL category upon initial recognition?",
+                  "guidance": "Evaluate whether transaction costs were erroneously excluded for assets within loans and receivables, held-to-maturity investments, or available-for-sale categories during their initial recognition. This would indicate non-compliance with IAS 39.43.",
+                  "yes_case": "COMPLIANT: NO",
+                  "no_case": "COMPLIANT: YES"
+                }
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-7",
+          "section": "IAS 39",
+          "reference": "IAS 39.45-70",
+          "question": "Does the entity hold financial assets?",
+          "question_type": "Followup",
+          "source_question": "IAS39-5",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity apply appropriate subsequent measurement for each category of financial assets?",
+          "decision_tree": {
+            "question": "Does the entity hold financial assets?",
+            "guidance": "Review the financial statements, specifically the statement of financial position and related notes. Look for categories such as 'loans and receivables', 'held-to-maturity investments', 'financial assets at fair value through profit or loss', or 'available-for-sale financial assets'. Ensure that financial assets are mentioned explicitly and classified under IAS 39.",
+            "yes_case": {
+              "question": "Are the financial assets classified into recognized IAS 39 categories?",
+              "guidance": "Check the classification of financial assets. Ensure they are allocated into one of the IAS 39 categories: 'loans and receivables', 'held-to-maturity investments', 'financial assets at fair value through profit or loss', or 'available-for-sale financial assets'. Refer to IAS 39.45-46 for explicit definitions. Ensure that proper classification is evident in the notes and aligns with the nature of the instrument.",
+              "yes_case": {
+                "question": "Does the entity apply correct subsequent measurement rules for each financial asset category?",
+                "guidance": "Evaluate subsequent measurement according to IAS 39. After initial recognition, financial assets should be measured as follows: 'loans and receivables' and 'held-to-maturity investments' at amortized cost, 'financial assets at fair value through profit or loss' and 'available-for-sale financial assets' at fair value. Ensure amortized cost uses the effective interest rate method, and fair value changes are routed through profit or loss or other comprehensive income as required. Verify calculations and disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-8",
+          "section": "IAS 39",
+          "reference": "IAS 39.47",
+          "question": "Does the entity have financial liabilities included in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "IAS39-5",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity measure financial liabilities at amortized cost using the effective interest method (except for trading liabilities)?",
+          "decision_tree": {
+            "question": "Does the entity have financial liabilities included in its financial statements?",
+            "guidance": "Refer to the latest balance sheet or Statement of Financial Position. Financial liabilities typically include items such as loans, bonds, or other contractual obligations to pay cash. Ensure proper identification of financial liabilities under the definition provided by IAS 39. Common mistakes include misclassification of operational liabilities as financial liabilities.",
+            "yes_case": {
+              "question": "Are the financial liabilities trading liabilities?",
+              "guidance": "Examine the notes to the financial statements for the classification of financial liabilities as 'held for trading'. Trading liabilities are typically incurred for the purpose of selling or repurchasing in the near term or as part of a trading strategy.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Are the financial liabilities measured at amortized cost using the effective interest method?",
+                "guidance": "Review the accounting policy disclosures and calculations in the financial statements. Financial liabilities at amortized cost should show adjustments for premiums, discounts, and transaction costs using the effective interest rate (EIR) over their expected life. Avoid confusion: check consistency between policy disclosures and reported interest expense.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-9",
+          "section": "IAS 39",
+          "reference": "IAS 39.9-12",
+          "question": "Does the entity have any financial instruments that could be designated as at fair value through profit or loss?",
+          "question_type": "Followup",
+          "source_question": "IAS39-5",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity designate financial instruments as at fair value through profit or loss only when strict criteria are met?",
+          "decision_tree": {
+            "question": "Does the entity have any financial instruments that could be designated as at fair value through profit or loss?",
+            "guidance": "Review the entity’s Statement of Financial Position and any notes to the financial statements related to financial instruments. Look for instruments such as derivatives, equity investments, or other financial assets/liabilities that may have been designated as at fair value through profit or loss. Confirm that such designation is possible under IAS 39.",
+            "yes_case": {
+              "question": "Has the entity formally designated these financial instruments as at fair value through profit or loss?",
+              "guidance": "Check the financial statement disclosures or the accounting policies section to verify if the entity has elected this designation. Ensure that documentation of this designation is available in the entity’s records at initial recognition.",
+              "yes_case": {
+                "question": "Does the designation meet the strict criteria outlined in IAS 39.9-12?",
+                "guidance": "Review IAS 39.9-12 to ensure criteria are met. Specifically, verify that: (1) the designation is made on initial recognition; (2) it is done for specific financial assets or liabilities; and (3) the decision either reduces accounting mismatches, reflects a managed financial risk strategy, or is for financial instruments with embedded derivatives. Pay close attention to all disclosure requirements and ensure no criterion is overlooked.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-10",
+          "section": "IAS 39",
+          "reference": "IAS 39.58-62",
+          "question": "Does the entity hold financial assets within the scope of IAS 39?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity assess at each reporting date whether there is objective evidence of impairment for financial assets?",
+          "decision_tree": {
+            "question": "Does the entity hold financial assets within the scope of IAS 39?",
+            "guidance": "Review the entity's financial statements and determine if financial assets (e.g., loans, receivables, debt instruments, equity instruments) are recorded. Refer to IAS 39.8 for definitions and scope of financial assets. Exclude financial assets explicitly scoped out under IAS 39.2-7.",
+            "yes_case": {
+              "question": "Has the entity performed an assessment at the reporting date to identify objective evidence of impairment for these financial assets?",
+              "guidance": "For each financial asset type, check whether the entity has documented impairment reviews as required under IAS 39.58-62. Objective evidence includes data such as default, delinquency, significant financial difficulty of the issuer, or observable changes in value due to loss events.",
+              "yes_case": {
+                "question": "Is the impairment assessment adequately documented and aligned with IAS 39.58-62 requirements?",
+                "guidance": "Review the entity's records for evidence of impairment analysis. Ensure impairment criteria are consistent with IAS 39 requirements, considering qualitative and quantitative indicators. Verify supporting schedules and calculations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-11",
+          "section": "IAS 39",
+          "reference": "IAS 39.63-65",
+          "question": "Does the entity hold financial assets as defined in IAS 39?",
+          "question_type": "Followup",
+          "source_question": "IAS39-10",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity recognize impairment losses for financial assets when objective evidence of impairment exists?",
+          "decision_tree": {
+            "question": "Does the entity hold financial assets as defined in IAS 39?",
+            "guidance": "Refer to the Statement of Financial Position and review the notes to financial statements. Financial assets typically include cash, receivables, debt instruments, and equity investments. Ensure these are classified under IAS 39 (e.g., loans and receivables, held-to-maturity investments, or available-for-sale financial assets).",
+            "yes_case": {
+              "question": "Is there objective evidence of impairment for any of the financial assets held?",
+              "guidance": "Review the entity's financial assets for indicators of impairment as per IAS 39. Objective evidence includes events such as default, significant financial difficulty of the issuer, or adverse changes in credit quality. Utilize the criteria outlined in IAS 39.59-61.",
+              "yes_case": {
+                "question": "Has the entity recognized impairment losses for the financial assets where objective evidence of impairment exists?",
+                "guidance": "Verify whether impairment losses are recorded in the profit or loss as required by IAS 39.63-65. Check that losses are calculated using the present value of expected future cash flows discounted at the original effective interest rate for financial assets carried at amortized cost, or fair value for available-for-sale assets.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-12",
+          "section": "IAS 39",
+          "reference": "IAS 39.63",
+          "question": "Does the entity hold loans and receivables that are subject to impairment testing?",
+          "question_type": "Followup",
+          "source_question": "IAS39-11",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity measure impairment losses for loans and receivables as the difference between carrying amount and present value of estimated future cash flows?",
+          "decision_tree": {
+            "question": "Does the entity hold loans and receivables that are subject to impairment testing?",
+            "guidance": "Review the financial statements and verify if loans and receivables are recognized as financial assets under IAS 39. Check the balance sheet and notes for accounts receivable, loan assets, or similar categories. Ensure these are within the scope of IAS 39 and assess for impairment indicators (e.g., default, reduced cash flow expectations).",
+            "yes_case": {
+              "question": "Has the entity assessed impairment for the loans and receivables as per IAS 39?",
+              "guidance": "Examine the entity's impairment testing process for loans and receivables. Review documentation for impairment reviews, including evidence of reduced cash flow expectations and credit risk analysis, to ensure the process aligns with IAS 39 requirements.",
+              "yes_case": {
+                "question": "Did the entity measure impairment losses as the difference between the carrying amount and the present value of estimated future cash flows discounted at the asset's original effective interest rate?",
+                "guidance": "Verify that the impairment calculation considers future cash flow estimates discounted at the original effective interest rate. Inspect calculation sheets to confirm the use of correct methodology per IAS 39.63. Ensure consistent application and avoid using incorrect rates such as market rates or rates adjusted for risk.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-13",
+          "section": "IAS 39",
+          "reference": "IAS 39.65",
+          "question": "Does the entity hold available-for-sale debt instruments?",
+          "question_type": "Followup",
+          "source_question": "IAS39-11",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity reverse impairment losses for available-for-sale debt instruments when the fair value increases?",
+          "decision_tree": {
+            "question": "Does the entity hold available-for-sale debt instruments?",
+            "guidance": "Review the financial statements, specifically the notes related to financial assets. Check if any debt instruments are classified as available-for-sale in accordance with IAS 39. These assets should be recognized in the Statement of Financial Position under 'Available-for-Sale Financial Assets'. Ensure proper classification and exclude equity instruments or other financial asset categories.",
+            "yes_case": {
+              "question": "Has the fair value of any available-for-sale debt instrument increased after an impairment loss was previously recognized?",
+              "guidance": "Examine the historical impairment losses recorded for available-for-sale debt instruments. Cross-check with the current fair value of those instruments as disclosed in the notes or valuation reports. Look for any cases where the current fair value exceeds the impaired value. Be cautious about relying solely on market values without verifying the impairment history.",
+              "yes_case": {
+                "question": "Has the entity reversed impairment losses in the financial statements for available-for-sale debt instruments due to the fair value increase?",
+                "guidance": "Verify the Statement of Profit or Loss and Other Comprehensive Income for any adjustments to previously recognized impairment losses related to available-for-sale debt instruments. Ensure reversal amounts are correctly calculated and presented consistently with IAS 39.65. Non-reversal where required may indicate non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-14",
+          "section": "IAS 39",
+          "reference": "IAS 39.66",
+          "question": "Does the entity hold available-for-sale equity instruments?",
+          "question_type": "Followup",
+          "source_question": "IAS39-11",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity prohibit reversal of impairment losses for available-for-sale equity instruments?",
+          "decision_tree": {
+            "question": "Does the entity hold available-for-sale equity instruments?",
+            "guidance": "Examine the company's financial statements, particularly under 'Financial Assets'. Look for equity investments classified as available-for-sale under IAS 39. Ensure this classification is explicitly stated and avoid confusion with other categories such as 'held-for-trading' or 'loans and receivables'.",
+            "yes_case": {
+              "question": "Has the entity recognized any impairment losses for its available-for-sale equity instruments?",
+              "guidance": "Review the notes to the financial statements and impairment testing documentation. Specifically, check for disclosures of impairment losses under IAS 39.66. Look for significant declines in fair value below cost or other impairment indicators.",
+              "yes_case": {
+                "question": "Has the entity reversed any previously recognized impairment losses for these available-for-sale equity instruments?",
+                "guidance": "Review the accounting treatment for previously impaired available-for-sale equity instruments. IAS 39.66 explicitly prohibits reversal of impairment losses for equity investments classified as available-for-sale. Confirm whether any reversals have been recorded.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-15",
+          "section": "IAS 39",
+          "reference": "IAS 39.88",
+          "question": "Does the entity apply hedge accounting to any of its financial instruments?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity apply hedge accounting only when strict criteria are met, including formal documentation?",
+          "decision_tree": {
+            "question": "Does the entity apply hedge accounting to any of its financial instruments?",
+            "guidance": "Review the entity's accounting policies and financial statements, particularly in the notes to financial instruments. Check if hedge accounting is claimed for any financial instruments under the principles of IAS 39. Look for statements about hedging relationships (e.g., cash flow hedges, fair value hedges, or net investment hedges).",
+            "yes_case": {
+              "question": "Has the entity documented the hedging relationship, including the risk management objective and strategy, at inception?",
+              "guidance": "Verify the existence of formal documentation describing the hedged item, hedging instrument, and the risk being hedged. Review the documentation stored at inception to ensure it complies with IAS 39, paragraph 88(a). Common pitfalls include missing or incomplete documentation or documentation created after the hedge started.",
+              "yes_case": {
+                "question": "Does the entity assess hedge effectiveness both prospectively and retrospectively at regular intervals?",
+                "guidance": "Review whether the entity performs regular effectiveness assessments, as required by IAS 39 paragraphs 88(b) and 88(c). Effectiveness tests should show that the hedge is expected to be highly effective prospectively and has been effective retrospectively. Documentation should include quantitative measures (e.g., regression analysis, dollar offset method).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-16",
+          "section": "IAS 39",
+          "reference": "IAS 39.88",
+          "question": "Has the entity designated a hedging relationship under IAS 39?",
+          "question_type": "Followup",
+          "source_question": "IAS39-15",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity test hedge effectiveness at inception and on an ongoing basis?",
+          "decision_tree": {
+            "question": "Has the entity designated a hedging relationship under IAS 39?",
+            "guidance": "Review the entity's financial instruments and hedge accounting policy. Check the hedging documentation, including the designation of the hedging relationship and the risk management objective. Verify that the entity has specified the hedged item and the hedging instrument.",
+            "yes_case": {
+              "question": "Does the entity test hedge effectiveness both at inception and on an ongoing basis?",
+              "guidance": "Examine the entity's hedge effectiveness testing procedures. At inception, confirm whether the forecasted effectiveness of the hedge met the 80-125% range required under IAS 39. On an ongoing basis, check the periodic testing and documentation supporting consistent compliance with IAS 39.88 requirements. Pay special attention to the methodology used and ensure it aligns with the entity's accounting policy.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-17",
+          "section": "IAS 39",
+          "reference": "IAS 39.88",
+          "question": "Does the entity currently apply hedge accounting under IAS 39?",
+          "question_type": "Followup",
+          "source_question": "IAS39-15",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity discontinue hedge accounting when effectiveness criteria are no longer met?",
+          "decision_tree": {
+            "question": "Does the entity currently apply hedge accounting under IAS 39?",
+            "guidance": "Review the financial statements and accounting policies to confirm if the entity is using hedge accounting as per IAS 39. Check disclosures related to hedging instruments and hedged items. Common pitfalls include confusing hedge accounting under IFRS 9 or misidentifying hedging arrangements not formally designated.",
+            "yes_case": {
+              "question": "Are the effectiveness criteria for the hedging relationship still being met?",
+              "guidance": "Examine the entity's hedge documentation, including ongoing assessments of hedge effectiveness. Refer to IAS 39.88 to understand the specific effectiveness requirements (e.g., highly effective hedge with effectiveness within 80%-125% range). Ensure quantitative and qualitative effectiveness testing has been performed properly. Note any deviations.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Has the entity discontinued hedge accounting when the effectiveness criteria were no longer met?",
+                "guidance": "Verify whether the hedging relationship was formally discontinued after failing effectiveness tests. Check if the hedged item and hedging instrument are correctly accounted for without hedge accounting adjustment post-discontinuation. Review disclosures for any inconsistencies. Refer to IAS 39.88 for mandatory discontinuation requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-18",
+          "section": "IAS 39",
+          "reference": "IAS 39.89-94",
+          "question": "Does the entity have any fair value hedges in place?",
+          "question_type": "Followup",
+          "source_question": "IAS39-15",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity account for fair value hedges by recognizing hedge gains/losses in profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity have any fair value hedges in place?",
+            "guidance": "Review the entity’s financial statements and hedge documentation. Check if the entity formally designates any hedging relationships as fair value hedges (IAS 39.89). Confirm that such designation is documented and meets the hedge accounting criteria.",
+            "yes_case": {
+              "question": "Has the entity recognized both the fair value change of the hedging instrument and of the hedged item in profit or loss?",
+              "guidance": "Examine the profit or loss statement and underlying journal entries. Verify that for fair value hedges, IAS 39.89-94 requires the hedge gains and losses of the hedging instrument and hedged item to be recognized in profit or loss. Ensure the hedged item's fair value adjustment aligns with the hedged risk.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-19",
+          "section": "IAS 39",
+          "reference": "IAS 39.95-101",
+          "question": "Does the entity have any cash flow hedges?",
+          "question_type": "Followup",
+          "source_question": "IAS39-15",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity account for cash flow hedges by recognizing effective hedge gains/losses in other comprehensive income?",
+          "decision_tree": {
+            "question": "Does the entity have any cash flow hedges?",
+            "guidance": "Review the entity's derivative instruments and hedging activities. Ensure that IAS 39 definitions of cash flow hedges are met (refer to IAS 39.95-101). Look for contracts designated as hedging instruments to manage the variability in cash flows attributable to a specific risk.",
+            "yes_case": {
+              "question": "Has the entity formally designated and documented the hedging relationship, including the risk management objective and strategy for undertaking the hedge?",
+              "guidance": "Check the entity's documentation for compliance with IAS 39.88(a). Verify that the hedging relationship is properly documented at inception, including identification of the hedging instrument, the hedged item, the nature of the risk being hedged, and how hedge effectiveness will be assessed.",
+              "yes_case": {
+                "question": "Is the hedge considered effective in mitigating the risk of variability in cash flows attributable to the hedged risk?",
+                "guidance": "Evaluate the hedge effectiveness using tests outlined in IAS 39.88(b). Ensure that the changes in fair value of the hedging instrument and the hedged item are expected to offset within the range of 80-125%. Consider retrospective and prospective effectiveness testing.",
+                "yes_case": {
+                  "question": "Does the entity recognize effective gains and losses on the hedging instrument in other comprehensive income, and ineffective portions in profit or loss?",
+                  "guidance": "Review the financial statements, particularly Other Comprehensive Income (OCI) and Profit or Loss sections. Ensure that effective portions of hedge gains or losses are recorded under OCI as required by IAS 39.95-96, while any ineffective portions are immediately recognized in profit or loss.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-20",
+          "section": "IAS 39",
+          "reference": "IAS 39.102",
+          "question": "Does the entity have a net investment in a foreign operation?",
+          "question_type": "Followup",
+          "source_question": "IAS39-15",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity account for net investment hedges similar to cash flow hedges?",
+          "decision_tree": {
+            "question": "Does the entity have a net investment in a foreign operation?",
+            "guidance": "Refer to the consolidated financial statements and review whether the entity has a foreign operation. A foreign operation is defined under IAS 21 as an entity that undertakes its activities in a functional currency different from the parent's functional currency. Ensure that the net investment in the foreign operation is identified and measurable. Consult IAS 21.8 for definitions and illustrations.",
+            "yes_case": {
+              "question": "Does the entity hedge its net investment in the foreign operation?",
+              "guidance": "Check the documentation for the entity's hedging strategy in financial instruments or risk management notes. A net investment hedge typically uses derivatives or borrowings and must be documented as such in accordance with IAS 39. Test for explicit hedge designation as per IAS 39.88.",
+              "yes_case": {
+                "question": "Does the entity apply the accounting treatment for net investment hedges similar to that of cash flow hedges?",
+                "guidance": "Review the hedge accounting section in the notes to the financial statements. IAS 39.102 requires that the entity apply hedge accounting in a manner similar to cash flow hedges, where the effective portion of the hedge is recognized in other comprehensive income and the ineffective portion is recognized in profit or loss. Confirm alignment with IAS 39.102 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-21",
+          "section": "IAS 39",
+          "reference": "IAS 39.170",
+          "question": "Does the entity hold any financial instruments?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the significance of financial instruments for its financial position and performance?",
+          "decision_tree": {
+            "question": "Does the entity hold any financial instruments?",
+            "guidance": "Review the entity’s financial statements, particularly the statement of financial position and notes to the accounts. Examine assets like investments, receivables, or cash and liabilities such as loans or payables for evidence of financial instruments. Common pitfalls include misidentifying other assets/liabilities as financial instruments, or overlooking derivatives.",
+            "yes_case": {
+              "question": "Are disclosures about the significance of financial instruments included in the financial statements?",
+              "guidance": "Refer to the notes accompanying the financial statements. IAS 39.170 requires entities to disclose how financial instruments impact the financial position and performance. Verify that disclosures address factors such as risks, valuation methods, and relevant financial metrics. Common errors include insufficient detail or omitting required disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-22",
+          "section": "IAS 39",
+          "reference": "IAS 39.170",
+          "question": "Does the entity have financial instruments reported in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "IAS39-21",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose accounting policies for financial instruments including recognition and measurement policies?",
+          "decision_tree": {
+            "question": "Does the entity have financial instruments reported in its financial statements?",
+            "guidance": "Review the Statement of Financial Position (Balance Sheet) and related disclosures to identify any financial instruments such as cash, loans, receivables, payables, derivatives, or equity investments. Ensure you refer to the relevant sections that classify assets and liabilities as financial instruments under IAS 39.",
+            "yes_case": {
+              "question": "Has the entity disclosed its accounting policies for financial instruments in the notes to the financial statements?",
+              "guidance": "Check the notes to the financial statements for a specific section on accounting policies. Look for details on recognition, initial measurement, subsequent measurement, derecognition, and impairment relating to financial instruments. Ensure these disclosures are complete and specific to the entity's circumstances, as per IAS 39.170.",
+              "yes_case": {
+                "question": "Do the disclosed accounting policies adequately cover recognition and measurement in compliance with IAS 39?",
+                "guidance": "Verify that the disclosed accounting policies reflect the requirements of IAS 39 concerning recognition (e.g., initial recognition at fair value, including transaction costs) and measurement (e.g., amortized cost or fair value depending on the instrument's classification). Refer to IAS 39.43-47 for measurement guidance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-23",
+          "section": "IAS 39",
+          "reference": "IAS 39.170",
+          "question": "Does the entity apply hedge accounting as per IAS 39?",
+          "question_type": "Followup",
+          "source_question": "IAS39-21",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity provide disclosures about hedge accounting including hedge relationships and hedge effectiveness?",
+          "decision_tree": {
+            "question": "Does the entity apply hedge accounting as per IAS 39?",
+            "guidance": "Review the accounting policies section of the financial statements and inquire internally to confirm if hedge accounting is applied. Hedge accounting is optional under IAS 39, so ensure this method is explicitly stated. Consult IAS 39.88 for conditions required to start hedge accounting.",
+            "yes_case": {
+              "question": "Has the entity designated hedge relationships and documented them as required under IAS 39?",
+              "guidance": "Verify if hedge relationships are designated and documented formally at the inception of the hedge, including details of the hedged item, the hedging instrument, and the entity's risk management objectives. Refer to IAS 39.88 and IAS 39.9 for detailed requirements.",
+              "yes_case": {
+                "question": "Does the entity provide disclosures about the hedge relationships, hedge effectiveness, and the financial impacts as required in IAS 39.170?",
+                "guidance": "Check the notes to the financial statements for disclosure of hedge relationships, including the nature of the hedging instruments, how hedge effectiveness is measured, and the impact on the financial statements. Confirm that disclosures align with IAS 39.170 specifications.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-24",
+          "section": "IAS 39",
+          "reference": "IAS 39.170",
+          "question": "Does the entity hold any financial instruments as defined in IAS 39?",
+          "question_type": "Followup",
+          "source_question": "IAS39-21",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose fair value information for financial instruments?",
+          "decision_tree": {
+            "question": "Does the entity hold any financial instruments as defined in IAS 39?",
+            "guidance": "Review the entity's financial statements and accounting policies. Financial instruments include assets like loans, derivatives, equity investments, and liabilities such as borrowings or trade payables. Verify whether such items exist by examining relevant sections like the Statement of Financial Position, Note disclosures for financial instruments, and supporting ledgers.",
+            "yes_case": {
+              "question": "Does the entity provide fair value information for its financial instruments?",
+              "guidance": "Check the Note disclosures in the financial statements relating to financial instruments. Look for sections where fair values are disclosed, even for instruments measured at amortized cost. Ensure the disclosure aligns with IAS 39.170, including methods and assumptions used for fair value estimation, and ensure accuracy and completeness.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IAS39-25",
+          "section": "IAS 39",
+          "reference": "IAS 39.170",
+          "question": "Does the entity hold financial assets on its balance sheet?",
+          "question_type": "Followup",
+          "source_question": "IAS39-21",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose impairment losses and reversals for each class of financial asset?",
+          "decision_tree": {
+            "question": "Does the entity hold financial assets on its balance sheet?",
+            "guidance": "Examine the statement of financial position and related notes to determine if the entity recognizes any financial assets (e.g., loans, receivables, debt securities, equity instruments). Check asset classifications under IAS 39.",
+            "yes_case": {
+              "question": "Has the entity recognized impairment losses or reversals for any class of financial asset during the reporting period?",
+              "guidance": "Review the disclosures in the notes to financial statements, particularly under the section on financial instruments. Look for references to impairment losses or reversals affecting loans, receivables, or other financial assets. Ensure completeness by cross-referencing this with movements in allowance accounts or revaluation schedules.",
+              "yes_case": {
+                "question": "Does the entity disclose the impairment losses and reversals for each class of financial asset as required by IAS 39.170?",
+                "guidance": "Verify that the financial statement notes include disclosures for all relevant classes of financial assets (e.g., loans, receivables, available-for-sale investments) clearly identifying gross impairment losses and reversals. IAS 39.170 requires detailed disclosure for transparency.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

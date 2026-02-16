@@ -1,0 +1,543 @@
+{
+  "title": "Provisions, Contingent Liabilities and Contingent Assets (IAS 37) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 37",
+      "title": "Provisions, contingent liabilities and contingent assets",
+      "description": "Checklist for presentation and disclosure requirements under IAS 37.",
+      "items": [
+        {
+          "id": "490.1",
+          "section": "IAS 37",
+          "reference": "IAS 37.84(a)",
+          "question": "Does the entity recognize any provisions as defined under IAS 37?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For each class of provision, does the entity disclose the carrying amount at the beginning and end of the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity recognize any provisions as defined under IAS 37?",
+            "guidance": "Refer to IAS 37.10 for the definition of provisions, which are liabilities of uncertain timing or amount. Verify the existence of such liabilities in the financial statements, typically under liabilities or notes to accounts. Check against contracts, obligations, or contingent liabilities identified in the reporting period.",
+            "yes_case": {
+              "question": "Has the entity classified provisions into distinct classes based on their nature (e.g., legal claims, warranties, environmental obligations)?",
+              "guidance": "Check the notes to the financial statements for classification of provisions into appropriate categories. IAS 37 requires provisions to be classified into classes based on their nature for proper disclosure.",
+              "yes_case": {
+                "question": "Does the entity disclose the carrying amount of provisions at the beginning and end of the reporting period for each class?",
+                "guidance": "Review the notes to the financial statements, specifically the section related to provisions. Look for disclosures showing opening and closing balances for each class of provision. Ensure that these amounts are presented clearly and align with changes due to usage, accruals, or reversals.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "490.2",
+          "section": "IAS 37",
+          "reference": "IAS 37.84(b)",
+          "question": "Does the entity have any provisions recognized in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "490.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each class of provision, does the entity disclose additional provisions made in the reporting period, including increases to existing provisions?",
+          "decision_tree": {
+            "question": "Does the entity have any provisions recognized in its financial statements?",
+            "guidance": "Review the statement of financial position and accompanying notes. Look for provisions as defined in IAS 37.10: liabilities of uncertain timing or amount. Check the relevant disclosures under IAS 37 to confirm the existence of provisions.",
+            "yes_case": {
+              "question": "Does the entity classify the provisions into distinct classes (e.g., warranties, legal claims) as required by IAS 37?",
+              "guidance": "Refer to IAS 37.84(a). Ensure provisions are grouped by their nature to form distinct classes. Cross-check related details with prior periods for consistency.",
+              "yes_case": {
+                "question": "Does the entity disclose additional provisions made in the reporting period, including increases to existing provisions for each class?",
+                "guidance": "Review disclosures for compliance with IAS 37.84(b). Ensure that for each class of provision identified, the entity provides details of new provisions recognized and increases to previously recognized provisions. Common mistakes include omitting disclosures for smaller provision classes or aggregating unrelated items.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "490.3",
+          "section": "IAS 37",
+          "reference": "IAS 37.84(c)",
+          "question": "Does the entity recognize any provisions in its financial statements during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "490.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each class of provision, does the entity disclose amounts used (incurred and charged against the provision) during the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity recognize any provisions in its financial statements during the reporting period?",
+            "guidance": "Review the Statement of Financial Position and relevant notes to locate provisions. Provisions are liabilities of uncertain timing or amount, meeting IAS 37 recognition criteria. Common examples include legal claims, warranties, or restructuring costs. Ensure amounts labeled as provisions comply with IAS 37 definitions.",
+            "yes_case": {
+              "question": "Does the entity disclose amounts used (incurred and charged against the provision) for each class of provision during the reporting period?",
+              "guidance": "Check the notes to the financial statements under 'Provisions'. Per IAS 37.84(c), the entity must disclose specific movements in provisions, including amounts used. Verify that each class of provision (e.g., legal claims, warranties) includes the required breakdown of amounts utilized during the reporting period.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "490.4",
+          "section": "IAS 37",
+          "reference": "IAS 37.84(d)",
+          "question": "Does the entity have provisions recognized in its financial statements for the reporting period?",
+          "question_type": "Followup",
+          "source_question": "490.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each class of provision, does the entity disclose unused amounts reversed during the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have provisions recognized in its financial statements for the reporting period?",
+            "guidance": "Review the Statement of Financial Position and notes to the financial statements. Check for the presence of provisions as defined in IAS 37.10—the entity should recognize provisions only when there is a present obligation as a result of a past event, it is probable that an outflow of resources will be required to settle the obligation, and the amount can be reliably estimated.",
+            "yes_case": {
+              "question": "Were there any unused amounts of provisions reversed during the reporting period?",
+              "guidance": "Examine the movements in provisions disclosed in the notes to the financial statements. Look for reversals—these typically occur if the obligation no longer exists or is lower than previously estimated. Ensure review of all relevant provisions by class and check for adequate documentation of reversals.",
+              "yes_case": {
+                "question": "Does the entity disclose the unused amounts reversed for each class of provision during the reporting period?",
+                "guidance": "Review the notes to the financial statements, particularly the section on provisions (IAS 37.84). Check that unused reversal amounts are disclosed separately for each class of provision, and ensure sufficient detail is provided for users of the financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "490.5",
+          "section": "IAS 37",
+          "reference": "IAS 37.84(e)",
+          "question": "Does the entity recognize any provisions as defined under IAS 37?",
+          "question_type": "Followup",
+          "source_question": "490.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each class of provision, does the entity disclose the increase during the reporting period in the discounted amount arising from the passage of time and the effect of any change in the discount rate?",
+          "decision_tree": {
+            "question": "Does the entity recognize any provisions as defined under IAS 37?",
+            "guidance": "Review the entity's financial statements, particularly the balance sheet and related notes. Look for liabilities recognized as provisions, which are obligations arising from past events that are probable and can be reliably estimated. Ensure these meet the recognition criteria under IAS 37.14-15.",
+            "yes_case": {
+              "question": "For each class of provision, has the entity disclosed relevant details as required under IAS 37.84, including the increase in the discounted amount during the reporting period?",
+              "guidance": "Check the disclosures in the notes to the financial statements for each class of provision. Focus on IAS 37.84 requirements, including the movement in the discounted amount of provisions due to the passage of time and any changes in the discount rate. Ensure details are clearly presented and separated by provision class.",
+              "yes_case": {
+                "question": "Does the entity disclose the increase in the discounted amount arising from the passage of time and the effect of any change in the discount rate?",
+                "guidance": "Verify the notes to financial statements explicitly show adjustments to provisions due to: 1) the passage of time, resulting in an increase in the discounted amount; and 2) changes in the discount rate. These disclosures should be compliant with IAS 37.84(e), and calculations/amounts must be correctly detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "491.1",
+          "section": "IAS 37",
+          "reference": "IAS 37.85(a)",
+          "question": "Does the entity have provisions recognized as per IAS 37?",
+          "question_type": "Followup",
+          "source_question": "490.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each class of provision, does the entity disclose the nature of the obligation and the expected timing of any resulting outflows of economic benefits?",
+          "decision_tree": {
+            "question": "Does the entity have provisions recognized as per IAS 37?",
+            "guidance": "Review the financial statements, specifically the notes to the accounts and the Statement of Financial Position. Provisions are liabilities where the timing or amount of the obligation is uncertain. Check IAS 37.10 for the definition of provisions. Ensure judgments regarding recognition comply with the criteria in IAS 37.14.",
+            "yes_case": {
+              "question": "Has the entity classified provisions into separate classes based on the nature of obligations?",
+              "guidance": "Inspect the notes to the accounts for disclosure related to provisions. Each class should represent provisions with similar characteristics (e.g., warranty obligations, legal claims). Cross-reference with IAS 37.85(a) to ensure the classification is appropriate.",
+              "yes_case": {
+                "question": "For each class of provision, does the entity disclose the nature of the obligation and the expected timing of resulting outflows of economic benefits?",
+                "guidance": "Verify the disclosure in the notes to the accounts. Check if descriptive information about the nature of the obligation (e.g., legal claim, environmental liability) is included, along with details about when economic outflows are expected (e.g., over the next financial year or longer). Cross-check with IAS 37.85(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "491.2",
+          "section": "IAS 37",
+          "reference": "IAS 37.85(b)",
+          "question": "Does the entity recognize any provisions as defined by IAS 37?",
+          "question_type": "Followup",
+          "source_question": "490.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each class of provision, does the entity disclose the uncertainties about the amount or timing of those outflows?",
+          "decision_tree": {
+            "question": "Does the entity recognize any provisions as defined by IAS 37?",
+            "guidance": "Refer to the Statement of Financial Position and supporting notes. According to IAS 37.10, provisions are liabilities of uncertain timing or amount. Confirm that the entity has recognized provisions by assessing transactions or events that result in obligations meeting the criteria of IAS 37. Avoid confusing provisions with other liabilities like accruals or contingent liabilities.",
+            "yes_case": {
+              "question": "Has the entity classified provisions into separate classes or categories in its financial statements?",
+              "guidance": "Check the notes to the financial statements. According to IAS 37.85(a), provisions should be presented by class (e.g., restructuring provision, environmental cleanup provision). Verify whether the entity categorizes provisions appropriately. If no classes are indicated, classification might be absent.",
+              "yes_case": {
+                "question": "Does the entity disclose uncertainties about the amount or timing of outflows for each class of provision?",
+                "guidance": "Review the notes accompanying the provisions in the financial statements. IAS 37.85(b) requires entities to explain key assumptions or risks regarding the uncertainties in timing or amount of outflows associated with the provisions. Common pitfalls include generic or incomplete disclosures that fail to specify nature and extent of uncertainties.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "491.3",
+          "section": "IAS 37",
+          "reference": "IAS 37.85(c)",
+          "question": "Does the entity recognize any provisions as defined by IAS 37?",
+          "question_type": "Followup",
+          "source_question": "490.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each class of provision, does the entity disclose, if necessary to provide adequate information, the major assumptions made concerning future events?",
+          "decision_tree": {
+            "question": "Does the entity recognize any provisions as defined by IAS 37?",
+            "guidance": "Review the financial statements, particularly the notes section related to liabilities. Provisions are liabilities of uncertain timing or amount. Ensure the entity has defined obligations that fit IAS 37's criteria, such as legal or constructive obligations resulting from past events.",
+            "yes_case": {
+              "question": "Has the entity disclosed information about each class of provision?",
+              "guidance": "Check the notes accompanying the financial statements. Each class of provision should be disclosed individually, including their nature, amounts, and relevant details. Confirm whether the disclosures group provisions into clear, identifiable classes.",
+              "yes_case": {
+                "question": "Are major assumptions about future events disclosed, if they are necessary to provide adequate information about the provision?",
+                "guidance": "Verify whether the disclosure includes detailed assumptions about future events that impact the measurement of provisions. For instance, assumptions about future costs or outcomes of legal disputes should be included when relevant. Beware of generic statements or insufficiently detailed disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "491.4",
+          "section": "IAS 37",
+          "reference": "IAS 37.85(d)",
+          "question": "Does the entity have any provisions recognized in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "490.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each class of provision, does the entity disclose the amount of any expected reimbursement, stating the amount of any asset recognised for that expected reimbursement?",
+          "decision_tree": {
+            "question": "Does the entity have any provisions recognized in its financial statements?",
+            "guidance": "Review the Statement of Financial Position and supporting notes under IAS 37. A provision is a liability of uncertain timing or amount, such as warranty obligations, legal disputes, or environmental obligations. Ensure provisions are recognized when the entity has a present obligation, there is a probable outflow of resources, and the amount can be reliably estimated.",
+            "yes_case": {
+              "question": "Does the entity expect to receive any reimbursement related to these provisions?",
+              "guidance": "Check the supporting notes for provisions (IAS 37 disclosures). A reimbursement is expected if, for example, there is an insurance contract or a legal agreement indemnifying the entity for part or all of the liability. Cross-reference with contractual terms or agreements.",
+              "yes_case": {
+                "question": "Has the entity recognized an asset for the expected reimbursement?",
+                "guidance": "Examine the notes to the financial statements, specifically under the provisions section. An asset for the reimbursement should be recognized only when it is virtually certain that the reimbursement will be received (IAS 37.53).",
+                "yes_case": {
+                  "question": "Does the entity disclose the amount of the expected reimbursement and state the amount of the asset recognized?",
+                  "guidance": "Verify whether the notes to the financial statements include details of the expected reimbursement amount and explicitly state the value of any recognized asset. The disclosure is mandatory under IAS 37.85(d).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "492.1",
+          "section": "IAS 37",
+          "reference": "IAS 37.86(a)",
+          "question": "Does the entity have any contingent liabilities at the end of the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Unless the possibility of any outflow in settlement is remote, does the entity disclose the nature of each contingent liability at the end of the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have any contingent liabilities at the end of the reporting period?",
+            "guidance": "Review the entity's accounting records, contracts, legal correspondences, and other documentation to identify potential obligations that may arise due to past events but whose settlement depends on uncertain future events. Refer to IAS 37 definitions of contingent liabilities (IAS 37.10). Be cautious of incorrectly omitting potential liabilities due to incomplete review.",
+            "yes_case": {
+              "question": "Is the possibility of an outflow in settlement of the contingent liability remote?",
+              "guidance": "Evaluate the likelihood of the contingent liability resulting in outflows based on expert opinions, historical data, and any legal or contractual conditions. 'Remote' implies a negligible probability, as defined in IAS 37.28.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Has the entity disclosed the nature of each contingent liability in its financial statements at the end of the reporting period?",
+                "guidance": "Check the Notes to the Financial Statements to verify if the entity has described the nature of the contingent liability, including sufficient detail to enable users to understand the circumstances. Pay special attention to disclosures under IAS 37.86(a), ensuring clarity and completeness.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "492.2",
+          "section": "IAS 37",
+          "reference": "IAS 37.86(b)",
+          "question": "Does the entity have any contingent liabilities as defined under IAS 37?",
+          "question_type": "Followup",
+          "source_question": "492.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose an estimate of the financial effect of each contingent liability, measured in accordance with IAS 37.36–52?",
+          "decision_tree": {
+            "question": "Does the entity have any contingent liabilities as defined under IAS 37?",
+            "guidance": "Review the entity's contracts, legal disputes, guarantees, and other obligations. A contingent liability arises when there is a possible obligation depending on future events or a present obligation not recognized due to uncertainty or inability to reliably measure it (see IAS 37.10–15). Ensure that contingent liabilities are not confused with provisions, which are recognized liabilities.",
+            "yes_case": {
+              "question": "Can the financial effect of each contingent liability be reliably estimated?",
+              "guidance": "Refer to IAS 37.36–52 for measurement guidance. Ensure all relevant factors, such as probabilities of outflows, possible outcomes, and any uncertainties, have been considered. Verify the entity's estimation methodology and assumptions are reasonable and comply with these standards.",
+              "yes_case": {
+                "question": "Does the entity disclose the estimated financial effect of each contingent liability in its financial statements?",
+                "guidance": "Check the notes to the financial statements for disclosures regarding contingent liabilities. IAS 37.86(b) requires entities to provide estimates of the financial effect, including any details on how these estimates were derived and their associated uncertainties. This is a mandatory disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "492.3",
+          "section": "IAS 37",
+          "reference": "IAS 37.86(c)",
+          "question": "Does the entity have any contingent liabilities as defined under IAS 37?",
+          "question_type": "Followup",
+          "source_question": "492.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the uncertainties relating to the amount or timing of any outflow for each contingent liability?",
+          "decision_tree": {
+            "question": "Does the entity have any contingent liabilities as defined under IAS 37?",
+            "guidance": "Review the entity's financial statements and supporting notes. Contingent liabilities are possible obligations that arise from past events but depend on uncertain future events outside the entity's control. Look for references to potential legal claims, guarantees, or contingent obligations mentioned in Section IAS 37.10 and IAS 37.12.",
+            "yes_case": {
+              "question": "Has the entity disclosed the uncertainties relating to the amount or timing of any outflow associated with each contingent liability?",
+              "guidance": "Check the notes to the financial statements. Per IAS 37.86(c), disclosures should include details about uncertainties such as factors affecting timing or amount, conditions that may trigger outflows, and management's judgment. Ensure the disclosure is sufficiently clear and detailed to inform users of the financial statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "492.4",
+          "section": "IAS 37",
+          "reference": "IAS 37.86(d)",
+          "question": "Does the entity have any contingent liabilities?",
+          "question_type": "Followup",
+          "source_question": "492.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the possibility of any reimbursement for each contingent liability?",
+          "decision_tree": {
+            "question": "Does the entity have any contingent liabilities?",
+            "guidance": "Refer to the financial statements and underlying records. Contingent liabilities are possible obligations arising from past events whose existence will only be confirmed by uncertain future events not under the entity's control. Review IAS 37.10–37.12 for the definition and examples.",
+            "yes_case": {
+              "question": "Is there a possibility of reimbursement associated with any of the contingent liabilities?",
+              "guidance": "Examine the contracts, agreements, or legal documents related to the contingent liabilities. Consider if third parties (e.g., insurers or subcontractors) are obligated to reimburse the entity, either partially or fully, in case the liability materializes. Refer to IAS 37.86(d) for the specific disclosure requirement.",
+              "yes_case": {
+                "question": "Does the entity disclose the possibility of reimbursement for each contingent liability in the financial statements?",
+                "guidance": "Check whether the financial statements explicitly mention the possibility of reimbursements for each contingent liability, as required under IAS 37.86(d). Ensure the disclosure is clear, complete, and aligned with IAS 37 requirements. Common pitfalls include failing to mention the reimbursement or generalizing disclosures without specificity.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "492.5",
+          "section": "IAS 37",
+          "reference": "IAS 37.86(e)",
+          "question": "Does the entity have provisions, contingent liabilities, or contingent assets subject to IAS 37 disclosure requirements?",
+          "question_type": "Followup",
+          "source_question": "492.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity does not disclose information in (a)–(d), does it disclose the fact that it is not practicable to do so?",
+          "decision_tree": {
+            "question": "Does the entity have provisions, contingent liabilities, or contingent assets subject to IAS 37 disclosure requirements?",
+            "guidance": "Review the financial statements and notes to verify if the entity reports any provisions, contingent liabilities, or contingent assets. Reference IAS 37.14-37.86 to identify specific conditions under which these items should be disclosed.",
+            "yes_case": {
+              "question": "Has the entity disclosed the required information as outlined in IAS 37.86 (a)–(d) for provisions, contingent liabilities, or contingent assets?",
+              "guidance": "Check the notes to the financial statements to ensure disclosure of the expected timing, amount, uncertainties, and assumptions underlying provisions, contingent liabilities, or assets. Refer specifically to IAS 37.86(a)–(d). Ensure all required elements are addressed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity disclose the fact that it is not practicable to provide the required information in IAS 37.86(a)–(d)?",
+                "guidance": "Review the notes to the financial statements. If the entity claims it cannot disclose information under IAS 37.86(a)-(d), verify that it explicitly states why disclosing such information is impracticable.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "493",
+          "section": "IAS 37",
+          "reference": "IAS 37.88",
+          "question": "Does the entity have a provision and a contingent liability arising from the same circumstances?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If a provision and a contingent liability arise from the same circumstances, does the entity disclose the information required by IAS 37.84–86 in a way that shows the link between the provision and the contingent liability?",
+          "decision_tree": {
+            "question": "Does the entity have a provision and a contingent liability arising from the same circumstances?",
+            "guidance": "Review the entity's financial statements and supporting schedules of provisions and contingent liabilities. Cross-reference IAS 37 definitions in paragraphs 10–12 to confirm if both terms apply to the same underlying event or circumstances. Common examples include legal disputes or warranties. If neither a provision nor a contingent liability exists, this item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity disclosed the information required by IAS 37.84–86 for both the provision and the contingent liability?",
+              "guidance": "Examine the notes to the financial statements. IAS 37.84–86 requires disclosure of the nature of the obligation, expected timing, uncertainties, and possible reimbursements (if applicable). Ensure these disclosures are complete for both the provision and contingent liability. Beware of omitting key data, such as uncertainties in measurement or timing.",
+              "yes_case": {
+                "question": "Does the disclosure clearly show the link between the provision and the contingent liability?",
+                "guidance": "Review the wording and structure of disclosures for both items. IAS 37.88 mandates that the connection between the provision and contingent liability must be articulated clearly so users can understand their interdependence. Check for inconsistencies, vague language, or missing links in the explanation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "494.1",
+          "section": "IAS 37",
+          "reference": "IAS 37.89(a)",
+          "question": "Does the entity have any contingent assets at the end of the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an inflow of economic benefits is probable, does the entity disclose the nature of each contingent asset at the end of the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have any contingent assets at the end of the reporting period?",
+            "guidance": "Review the notes to the financial statements and inquire about potential contingent assets. Contingent assets arise from unplanned or unexpected events that may give rise to future inflows of economic benefits based on uncertain conditions. Consult management and legal correspondence for evidence of such items.",
+            "yes_case": {
+              "question": "Is the inflow of economic benefits related to the contingent asset classified as probable?",
+              "guidance": "Refer to IAS 37 paragraphs 10 and 35 for the probability threshold. 'Probable' means more likely than not (greater than 50% likelihood). Consult management estimates and evidence, such as contracts or legal opinions, supporting this probability.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature of each contingent asset in its financial statements?",
+                "guidance": "Review IAS 37.89(a). Confirm that the entity describes the nature of each contingent asset (e.g., legal cases, insurance claims) in the notes to its financial statements. Ensure the disclosure is specific, avoids generalizations, and provides sufficient detail for understanding its potential impact.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "494.2",
+          "section": "IAS 37",
+          "reference": "IAS 37.89(b)",
+          "question": "Does the entity have one or more contingent assets as defined by IAS 37.10?",
+          "question_type": "Followup",
+          "source_question": "494.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose an estimate of the financial effect of each contingent asset, measured in accordance with IAS 37.36–52?",
+          "decision_tree": {
+            "question": "Does the entity have one or more contingent assets as defined by IAS 37.10?",
+            "guidance": "Contingent assets are possible assets that arise from past events but are dependent on uncertain future events not fully under the entity's control. Refer to contract terms, legal claims, or guarantee arrangements disclosed in management discussions or legal correspondences. Avoid confusion with contingent liabilities; focus solely on potential gains.",
+            "yes_case": {
+              "question": "Has the contingent asset met the recognition criteria of IAS 37, meaning it is virtually certain to result in an inflow of economic benefits?",
+              "guidance": "Review IAS 37.35–37. Recognize only if inflow of economic benefits is virtually certain. Check contracts, legal rulings, or other decisive evidence. Do not include assets based on uncertain or remote conditions.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Has the entity disclosed an estimate of the financial effect of the contingent asset, measured according to IAS 37.36–52?",
+                "guidance": "Review the financial statements and accompanying notes. Ensure the entity has disclosed a reliable estimate based on available information, aligning with IAS 37 guidance on measurement (e.g., best estimate or judgment of the financial effect). Ensure instructed measurement principles are applied to ensure compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "494.3",
+          "section": "IAS 37",
+          "reference": "IAS 37.89(c)",
+          "question": "Has the entity disclosed information as required by IAS 37.89(a) and IAS 37.89(b)?",
+          "question_type": "Followup",
+          "source_question": "494.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity does not disclose information in (a) and (b), does it disclose the fact that it is not practicable to do so?",
+          "decision_tree": {
+            "question": "Has the entity disclosed information as required by IAS 37.89(a) and IAS 37.89(b)?",
+            "guidance": "Review the financial statements, specifically the Notes on provisions, contingent liabilities, and contingent assets. IAS 37.89(a) requires a description and financial estimate of provisions, and IAS 37.89(b) requires disclosure of uncertainties and future impacts. Ensure both are included and comply with IAS 37 disclosure requirements.",
+            "yes_case": "COMPLIANT: YES",
+            "no_case": {
+              "question": "Has the entity disclosed the fact that it is not practicable to provide the information required by IAS 37.89(a) and IAS 37.89(b)?",
+              "guidance": "Check the entity's Notes in the financial statements. Specifically, search for explicit statements indicating that disclosing the required information is not practicable, as per IAS 37 guidance. Ensure the term 'not practicable' aligns with difficulties such as availability of reliable data or high costs of gathering such data.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            }
+          }
+        },
+        {
+          "id": "495.1",
+          "section": "IAS 37",
+          "reference": "IAS 37.92(a)",
+          "question": "Is the entity involved in a dispute or legal case?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "In extremely rare cases where disclosures would prejudice the entity's position in a dispute, does the entity disclose the general nature of the dispute?",
+          "decision_tree": {
+            "question": "Is the entity involved in a dispute or legal case?",
+            "guidance": "Review legal documents, correspondence, and contingent liability disclosures for the presence of any disputes or legal cases. Common pitfalls include overlooking disputes that are disclosed in a broader context or hidden within notes.",
+            "yes_case": {
+              "question": "Is the entity aware that disclosing detailed information about the dispute could prejudice its position in the dispute?",
+              "guidance": "Assess legal advice and management's judgment documented in the financial reporting process. Ensure this consideration is clearly documented and justified.",
+              "yes_case": {
+                "question": "Has the entity disclosed the general nature of the dispute while withholding prejudicial details?",
+                "guidance": "Verify the entity's financial statement notes. They should include a disclosure of the general nature of the dispute, as required by IAS 37.92(a). Look for textual descriptions that outline the dispute in a general manner, without compromising the entity's strategic or legal position.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "495.2",
+          "section": "IAS 37",
+          "reference": "IAS 37.92(b)",
+          "question": "Does the entity have provisions, contingent liabilities, or contingent assets addressed under IAS 37?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the fact that the required information is not disclosed and the reason why?",
+          "decision_tree": {
+            "question": "Does the entity have provisions, contingent liabilities, or contingent assets addressed under IAS 37?",
+            "guidance": "Refer to the financial statements, specifically the notes section dealing with provisions, contingent liabilities, and contingent assets. Check if such items are recognized or disclosed as required by IAS 37.",
+            "yes_case": {
+              "question": "Is the information required by IAS 37 concerning the provision, contingent liability, or contingent asset not disclosed?",
+              "guidance": "Review the notes to financial statements to identify if required disclosures under IAS 37 (e.g., nature of the obligation, financial effect, uncertainties) are missing but intentionally omitted.",
+              "yes_case": {
+                "question": "Does the entity disclose the fact that the information is not disclosed and explain the reason why?",
+                "guidance": "Check the notes to financial statements for specific statements explaining why certain information is omitted (e.g., prejudicial information or legal restrictions). This is required by IAS 37.92(b).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

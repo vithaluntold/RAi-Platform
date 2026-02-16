@@ -1,0 +1,155 @@
+{
+  "title": "Events After The Reporting Period (IAS 10) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 10",
+      "title": "Events After The Reporting Period",
+      "description": "Checklist for disclosure requirements under IAS 10 Events After The Reporting Period.",
+      "items": [
+        {
+          "id": "23.1",
+          "section": "IAS 10",
+          "reference": "IAS 10.17(a)",
+          "question": "Has the entity completed the financial statements for the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the date when the financial statements were authorised for issue?",
+          "decision_tree": {
+            "question": "Has the entity completed the financial statements for the reporting period?",
+            "guidance": "Verify whether the financial statements have been prepared and finalized for the reporting period under review. Check the entity's internal records and governance process for financial statement preparation. Ensure that draft or incomplete statements are not considered as 'completed financial statements'.",
+            "yes_case": {
+              "question": "Has the entity authorised the financial statements for issue?",
+              "guidance": "Check board minutes, resolutions, or official documents indicating the date of authorization. Authorization typically involves the board or the relevant governing body formally approving the financial statements for release.",
+              "yes_case": {
+                "question": "Does the entity disclose the date when the financial statements were authorised for issue?",
+                "guidance": "Locate the disclosures in the notes of the financial statements. The date of authorization should be clearly stated, often in the 'Basis of Preparation' or a similar section. Ensure the disclosure matches the documented authorization date and avoid relying solely on verbal confirmation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "23.2",
+          "section": "IAS 10",
+          "reference": "IAS 10.17(b)",
+          "question": "Were the financial statements authorised for issue?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose who authorised the financial statements?",
+          "decision_tree": {
+            "question": "Were the financial statements authorised for issue?",
+            "guidance": "Check the finalised version of the financial statements and accompanying notes. Look for a statement indicating the financial statements have been officially authorised for issue by the board of directors or appropriate governing body.",
+            "yes_case": {
+              "question": "Does the entity disclose who authorised the financial statements for issue?",
+              "guidance": "Review the notes to the financial statements, particularly in the introductory or concluding sections. Ensure the disclosure specifies the person(s) or governing body (e.g., board of directors) that authorised the issuance of the financial statements. Common pitfalls include omitting this information or providing vague descriptions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "23.3",
+          "section": "IAS 10",
+          "reference": "IAS 10.17(c)",
+          "question": "Do the entity’s financial statements include information regarding the power of the entity's owners or others to amend the financial statements after issuance?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the fact that the entity's owners or others have the power to amend the financial statements after issue, if applicable?",
+          "decision_tree": {
+            "question": "Do the entity’s financial statements include information regarding the power of the entity's owners or others to amend the financial statements after issuance?",
+            "guidance": "Check the accompanying notes or disclosures in the financial statements, especially for any mention of post-issuance amendments or changes allowed by the entity's legal structure or governance. Look into governance documents and shareholder agreements if applicable.",
+            "yes_case": {
+              "question": "Has the entity disclosed the fact that its owners or others have the power to amend the financial statements after issue?",
+              "guidance": "Review the disclosures in the financial statements for any explicit statement about the ability of owners or other parties to make amendments post-issuance. Pay attention to IAS 10.17(c), which requires disclosure of such powers.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "276",
+          "section": "IAS 10",
+          "reference": "IAS 10.19",
+          "question": "Was any information received by the entity after the reporting period that relates to conditions existing at the end of the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Do the disclosures in the financial statements reflect information received after the reporting period that relates to conditions that existed at the end of the reporting period?",
+          "decision_tree": {
+            "question": "Was any information received by the entity after the reporting period that relates to conditions existing at the end of the reporting period?",
+            "guidance": "Review events occurring between the reporting date and the date when the financial statements were authorized for issue. Focus on events providing evidence of conditions that existed at the reporting period’s end (e.g., settlement of a court case confirming liabilities, evidence of impairment of assets). Refer to IAS 10.9 for guidance on conditions existing at the reporting period.",
+            "yes_case": {
+              "question": "Has the entity appropriately disclosed this information in the financial statements?",
+              "guidance": "Check the financial statement disclosures, specifically in the notes. Ensure post-reporting period information reflecting conditions at the reporting date is disclosed, including its nature, financial impact, and any adjustments made. Refer to IAS 10.19 for disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "277.1",
+          "section": "IAS 10",
+          "reference": "IAS 10.22(a)",
+          "question": "Did a material non-adjusting event occur after the reporting period?",
+          "question_type": "Source",
+          "context_required": "notes_only",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the nature of each material non-adjusting event after the reporting period?",
+          "decision_tree": {
+            "question": "Did a material non-adjusting event occur after the reporting period?",
+            "guidance": "Review post-reporting period transactions and events within the financial statement disclosures. Material non-adjusting events are those that occur after the reporting period but do not impact figures recognized in the current reporting period. Refer to IAS 10.3 and IAS 10.10 for definitions and examples of non-adjusting events.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of each identified material non-adjusting event as required by IAS 10.22(a)?",
+              "guidance": "Examine the 'Events After the Reporting Period' section of the notes in the financial statements to verify that the nature of each material non-adjusting event has been disclosed. Ensure it provides sufficient detail to meet the understanding requirement outlined in IAS 1.125.",
+              "yes_case": {
+                "question": "Does the disclosure distinguish each non-adjusting event clearly and provide all relevant details?",
+                "guidance": "Details must include sufficient information about the event's nature to help users understand its implications. Common examples include the announcement of new capital expenditures, a major business combination, or significant litigation outcomes. Refer to IAS 10.21 for further examples if unsure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "277.2",
+          "section": "IAS 10",
+          "reference": "IAS 10.22(b)",
+          "question": "Have there been any material non-adjusting events after the reporting period?",
+          "question_type": "Followup",
+          "context_required": "notes_only",
+          "source_question": "277.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose an estimate of the financial effect of each material non-adjusting event after the reporting period, or state that such an estimate cannot be made?",
+          "decision_tree": {
+            "question": "Have there been any material non-adjusting events after the reporting period?",
+            "guidance": "Review the entity's financial statement notes and management disclosures for references to events occurring after the reporting date. Non-adjusting events are defined in IAS 10.3 as those that provide evidence of conditions that arose after the reporting period. Common examples include major transactions, natural disasters, or significant legal developments. Verify the assessment of materiality based on the entity's criteria.",
+            "yes_case": {
+              "question": "Has the entity disclosed either an estimate of the financial effect of each material non-adjusting event or stated that such an estimate cannot be made?",
+              "guidance": "Check the financial statement disclosures, particularly the section related to events after the reporting period. IAS 10.22(b) requires entities to either disclose a reasonable estimate of the financial impact or explicitly state that obtaining such an estimate is impracticable. Ensure disclosures are clear and specific to individual material events.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

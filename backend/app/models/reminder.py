@@ -3,7 +3,7 @@ import enum
 from datetime import datetime
 from sqlalchemy import Column, String, Boolean, DateTime, Enum, Text, ForeignKey, Integer
 from sqlalchemy.dialects.postgresql import UUID
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, backref
 from app.db.session import Base
 
 
@@ -83,4 +83,4 @@ class Reminder(Base):
     created_by = Column(UUID(as_uuid=True), ForeignKey("users.id"), nullable=True)
 
     # Relationships
-    user = relationship("User", foreign_keys=[user_id], backref="reminders", lazy="joined")
+    user = relationship("User", foreign_keys=[user_id], backref=backref("reminders", passive_deletes=True), lazy="joined")

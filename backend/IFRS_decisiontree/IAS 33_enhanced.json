@@ -1,0 +1,550 @@
+{
+  "title": "Earnings per Share (IAS 33) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 33",
+      "title": "Earnings per Share",
+      "description": "Checklist for presentation and disclosure requirements under IAS 33.",
+      "items": [
+        {
+          "id": "87",
+          "section": "IAS 33",
+          "reference": "IAS 33.4",
+          "question": "Does the entity prepare both consolidated financial statements and separate financial statements under IFRS 10 and IAS 27?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity presents both consolidated financial statements and separate financial statements prepared under IFRS 10 and IAS 27, does it present the disclosures required by IAS 33 only on the basis of the consolidated information?",
+          "decision_tree": {
+            "question": "Does the entity prepare both consolidated financial statements and separate financial statements under IFRS 10 and IAS 27?",
+            "guidance": "Examine the financial statement package. Consolidated financial statements combine the financial information of the parent and its subsidiaries, while separate financial statements reflect only the parent’s own financial position. Check the accounting policies section or document titles to confirm if both types are prepared.",
+            "yes_case": {
+              "question": "Are the disclosures required by IAS 33 presented based on consolidated financial information?",
+              "guidance": "Review the disclosures related to earnings per share (EPS) in the financial statements. IAS 33 requires EPS disclosures to be presented based on consolidated information when both types of financial statements are prepared. Ensure the calculations and supporting data specifically reference consolidated figures and not the parent entity's separate financial data.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "88",
+          "section": "IAS 33",
+          "reference": "IAS 33.4",
+          "question": "Does the entity choose to disclose earnings per share (EPS) based on its separate financial statements?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "87",
+          "source_trigger": "Yes",
+          "original_question": "If the entity chooses to disclose earnings per share based on its separate financial statements, does it present such earnings per share only in the statement of comprehensive income and not in the consolidated financial statements?",
+          "decision_tree": {
+            "question": "Does the entity choose to disclose earnings per share (EPS) based on its separate financial statements?",
+            "guidance": "Verify if the entity discloses EPS based on its separate financial statements. Check the notes to the financial statements or disclosure practices referenced in IAS 33. If EPS disclosures are not found for separate financial statements, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Are the earnings per share (EPS) based on the separate financial statements presented only in the statement of comprehensive income and excluded from the consolidated financial statements?",
+              "guidance": "Review the entity's statement of comprehensive income within the separate financial statements. Ensure EPS is disclosed only there and verify that no EPS figures appear in the consolidated financial statements, as per IAS 33.4.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "89",
+          "section": "IAS 33",
+          "reference": "IAS 33.64",
+          "question": "Did the entity have an increase or decrease in the number of ordinary or potential ordinary shares outstanding as a result of a capitalisation, bonus issue, share split or reverse share split?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the number of ordinary or potential ordinary shares outstanding increases or decreases as a result of a capitalisation, bonus issue, share split or reverse share split (even if these changes occur after the reporting period but before the financial statements are authorised for issue), and therefore the calculation of basic and diluted earnings per share for all periods presented has been adjusted retrospectively, does the entity disclose that per-share calculations reflect such changes?",
+          "decision_tree": {
+            "question": "Did the entity have an increase or decrease in the number of ordinary or potential ordinary shares outstanding as a result of a capitalisation, bonus issue, share split or reverse share split?",
+            "guidance": "Review the entity's equity records and board meeting minutes for events such as capitalisation, bonus issue, share split, or reverse share split during the reporting period and up to the date the financial statements were authorised for issue. Check the number of ordinary/potential ordinary shares outstanding to confirm any changes.",
+            "yes_case": {
+              "question": "Did these changes occur either during the reporting period or after the reporting period but before the financial statements were authorised for issue?",
+              "guidance": "Verify the timeline of the changes by cross-referencing the date of occurrence of the event and the financial statement authorisation date recorded in official governance documents.",
+              "yes_case": {
+                "question": "Has the entity retrospectively adjusted the calculation of basic and diluted earnings per share (EPS) for all periods presented to reflect the changes?",
+                "guidance": "Review the earnings per share figures in the financial statements for prior periods. Confirm that they reflect adjustments based on the new share amounts post-change. Retrospective adjustments should align with IAS 33.28-34 principles.",
+                "yes_case": {
+                  "question": "Does the entity disclose that the per-share calculations reflect such changes?",
+                  "guidance": "Inspect the financial statements and notes for explicit disclosure stating that the EPS calculations for all periods presented have been adjusted retrospectively as a result of the share changes. Include specific documentation from IAS 33.64.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "90.1",
+          "section": "IAS 33",
+          "reference": "IAS 33.66(a)",
+          "question": "Does the entity have profit or loss from continuing operations attributable to ordinary equity holders of the parent entity?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity present basic and diluted earnings per share for profit or loss from continuing operations attributable to the ordinary equity holders of the parent entity?",
+          "decision_tree": {
+            "question": "Does the entity have profit or loss from continuing operations attributable to ordinary equity holders of the parent entity?",
+            "guidance": "Review the Statement of Profit or Loss and Other Comprehensive Income and related notes. Locate any section reporting profits or losses from continuing operations that are attributable to the ordinary equity holders of the parent entity. Ensure you distinguish continuing operations from discontinued operations and consider attribution to ordinary equity holders only.",
+            "yes_case": {
+              "question": "Does the entity issue ordinary shares and is required to calculate earnings per share under IAS 33?",
+              "guidance": "Review the equity section of the Statement of Financial Position and confirm the existence of ordinary shares. Consult IAS 33.2 to confirm if the entity falls under the scope, which generally applies to entities whose ordinary shares are publicly traded or are in the process of issuing such shares.",
+              "yes_case": {
+                "question": "Does the entity present basic and diluted earnings per share for profit or loss from continuing operations in its financial statements?",
+                "guidance": "Examine the Statement of Profit or Loss and Other Comprehensive Income and footnotes. Look for clearly presented basic and diluted EPS figures for the continuing operations attributable to the ordinary equity holders of the parent entity. Ensure calculations follow IAS 33 guidance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "90.2",
+          "section": "IAS 33",
+          "reference": "IAS 33.66(b)",
+          "question": "Does the entity have ordinary shares that belong to more than one class, with differing rights to share in profit or loss?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "90.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity present basic and diluted earnings per share for profit or loss attributable to the ordinary equity holders of the parent entity for each class of ordinary shares that has a different right to share in profit?",
+          "decision_tree": {
+            "question": "Does the entity have ordinary shares that belong to more than one class, with differing rights to share in profit or loss?",
+            "guidance": "Review the entity's equity structure in the financial statements or the notes on issued share capital. Check whether there are multiple classes of ordinary shares and confirm if they have differing rights to profit or loss distribution.",
+            "yes_case": {
+              "question": "Does the entity present basic and diluted earnings per share separately for each class of ordinary shares with different rights to share in profit or loss in the financial statements?",
+              "guidance": "Examine the Statement of Profit or Loss and Other Comprehensive Income. Verify that earnings per share (both basic and diluted) are calculated and disclosed separately for each class of ordinary shares with different profit-sharing rights, as required by IAS 33.66(b).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "91",
+          "section": "IAS 33",
+          "reference": "IAS 33.67A",
+          "question": "Does the entity present a separate statement of profit or loss as described in IAS 1.10A or IFRS 18 (early adoption)?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "90.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity presents a separate statement of profit or loss as described in IAS 1.10A (or, if early adopting IFRS 18, a separate profit or loss statement), does it disclose basic and diluted earnings per share only in that separate statement?",
+          "decision_tree": {
+            "question": "Does the entity present a separate statement of profit or loss as described in IAS 1.10A or IFRS 18 (early adoption)?",
+            "guidance": "Review the financial statements prepared by the entity. Check if there is a separate statement titled 'Statement of Profit or Loss' or 'Profit or Loss Statement' in addition to the 'Statement of Comprehensive Income'. If IFRS 18 has been early adopted, confirm whether it includes such a separate statement.",
+            "yes_case": {
+              "question": "Does the entity disclose basic and diluted earnings per share (EPS) only in that separate profit or loss statement?",
+              "guidance": "Review the separate statement of profit or loss and verify whether the entity has disclosed basic and diluted EPS figures there. Ensure no duplicated disclosures in other statements, such as the Statement of Comprehensive Income. Cross-check with IAS 33.67A for compliance requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "92",
+          "section": "IAS 33",
+          "reference": "IAS 33.66",
+          "question": "Does the entity issue shares or instruments that could result in diluted shares?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "90.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity present basic and diluted earnings per share with equal prominence for all periods presented?",
+          "decision_tree": {
+            "question": "Does the entity issue shares or instruments that could result in diluted shares?",
+            "guidance": "Review the financial statements and identify if the entity has ordinary shares and/or potential ordinary shares (e.g., options, warrants, convertible instruments). Check the Statement of Financial Position and relevant notes for share-related details.",
+            "yes_case": {
+              "question": "Does the entity disclose basic and diluted earnings per share for all periods presented?",
+              "guidance": "Examine the Statement of Profit or Loss and Other Comprehensive Income and associated notes. Confirm whether both basic and diluted earnings per share are disclosed for each period presented, as required by IAS 33.66.",
+              "yes_case": {
+                "question": "Are basic and diluted earnings per share presented with equal prominence for all periods presented?",
+                "guidance": "Review how basic and diluted earnings per share are visually and prominently displayed in the financial statements. Equal prominence means neither is emphasized more than the other, and both are presented clearly, typically in the same section of the Statement of Profit or Loss and Other Comprehensive Income.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "93",
+          "section": "IAS 33",
+          "reference": "IAS 33.68",
+          "question": "Does the entity report a discontinued operation?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity reports a discontinued operation, does it disclose basic and diluted earnings per share for the discontinued operation in the statement of comprehensive income or in the notes?",
+          "decision_tree": {
+            "question": "Does the entity report a discontinued operation?",
+            "guidance": "Review the financial statements and the notes to the accounts for disclosures related to discontinued operations. Check if the entity has classified any operation as discontinued for the reporting period, in accordance with IFRS 5. Discontinued operations are typically a major part of the entity that has been disposed of or is classified as held for sale. Confirm the classification based on the criteria in IFRS 5.",
+            "yes_case": {
+              "question": "Has the entity disclosed basic and diluted earnings per share for the discontinued operation in the statement of comprehensive income or in the notes?",
+              "guidance": "Inspect the Statement of Comprehensive Income and notes to the accounts for EPS disclosures. Verify that basic and diluted EPS for discontinued operations are either included within the statement or explained in the notes specifically for the discontinued operation. Ensure compliance with the requirements in IAS 33.68 and cross-reference both with the numbers reported in the EPS section of the financials to confirm accuracy.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "94",
+          "section": "IAS 33",
+          "reference": "IAS 33.68A",
+          "question": "Does the entity have a discontinued operation during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "93",
+          "source_trigger": "Yes",
+          "original_question": "If the entity presents a separate profit or loss statement, does it present basic and diluted earnings per share for the discontinued operation in that statement or in the notes?",
+          "decision_tree": {
+            "question": "Does the entity have a discontinued operation during the reporting period?",
+            "guidance": "Review the financial statements and management disclosures to determine whether a discontinued operation has occurred during the reporting period. Discontinued operations typically involve the disposal of a significant component of the entity’s business, as defined under IFRS 5. Ensure proper classification of such operations in the financial statements.",
+            "yes_case": {
+              "question": "Does the entity present a separate profit or loss statement?",
+              "guidance": "Examine whether the entity has elected to present a separate profit or loss statement, instead of combining it with other comprehensive income. This separate statement should distinctly outline profit or loss items for the reporting period.",
+              "yes_case": {
+                "question": "Does the entity present basic and diluted earnings per share (EPS) for the discontinued operation in the separate profit or loss statement or in the notes?",
+                "guidance": "Check the separate profit or loss statement to confirm whether basic and diluted EPS for the discontinued operation are clearly presented. Alternatively, review the accompanying notes for explicit disclosures of EPS for the discontinued operation, which is mandatory per IAS 33.68A.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Does the entity disclose basic and diluted earnings per share for the discontinued operation in the notes to the financial statements?",
+                "guidance": "If the entity does not present a separate profit or loss statement, review the notes to the financial statements to confirm that basic and diluted EPS for the discontinued operation are properly disclosed, as per IAS 33.68A requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "95",
+          "section": "IAS 33",
+          "reference": "IAS 33.69",
+          "question": "Does the entity have ordinary shares or potential ordinary shares issued?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "90.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity present basic and diluted earnings per share even if the amounts are negative (i.e., a loss per share)?",
+          "decision_tree": {
+            "question": "Does the entity have ordinary shares or potential ordinary shares issued?",
+            "guidance": "Verify the entity's equity section in the Statement of Financial Position. Ordinary shares are typically listed explicitly under equity. Potential ordinary shares include instruments convertible into ordinary shares or options. Ensure inclusivity of all instruments by reviewing the notes to financial statements under share capital disclosures.",
+            "yes_case": {
+              "question": "Has the entity calculated basic and diluted earnings per share (EPS)?",
+              "guidance": "Review the entity's financial statements, specifically under the income statement or accompanying notes. Basic EPS is the profit attributable to ordinary equity holders divided by the weighted average number of ordinary shares outstanding during the period. Diluted EPS accounts for the potential dilution from convertible instruments and options. Ensure calculations include periods of both positive earnings and losses.",
+              "yes_case": {
+                "question": "Has the entity presented basic and diluted earnings per share, even if the amounts are negative (i.e., a loss per share)?",
+                "guidance": "Review the financial statement section that presents earnings per share. Refer to IAS 33, paragraph 69 for compliance requirements. Negative EPS should still be disclosed explicitly for both basic and diluted calculations. Ensure the entity has not omitted disclosure assuming irrelevance due to loss figures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "96.1",
+          "section": "IAS 33",
+          "reference": "IAS 33.70(a)",
+          "question": "Did the entity issue shares or other instruments that are included in earnings per share calculations during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the amounts used as the numerators in calculating basic and diluted earnings per share and reconcile those amounts to profit or loss attributable to the parent entity for the period (including the effect of each class of instrument that affects earnings per share)?",
+          "decision_tree": {
+            "question": "Did the entity issue shares or other instruments that are included in earnings per share calculations during the reporting period?",
+            "guidance": "Review the entity's capital structure in the Statement of Financial Position and relevant notes. Check for the presence of shares, share options, convertible instruments, or other dilutive securities. Refer to IAS 33 for definitions of instruments included in basic and diluted EPS calculations.",
+            "yes_case": {
+              "question": "Are earnings per share (EPS) applicable to the entity, based on its financial statements and the presence of ordinary shares?",
+              "guidance": "Verify if EPS is reported in the financial statements or explicitly required due to public obligations or applicable entity type. Review notes to the accounts for any mention of basic or diluted EPS calculations.",
+              "yes_case": {
+                "question": "Does the entity disclose the amounts used as the numerators in calculating basic and diluted EPS as required by IAS 33.70(a)?",
+                "guidance": "Check the financial statement notes for sections detailing EPS. Ensure amounts are reconciled to profit or loss attributable to the parent, and the effect of each class of instrument that affects EPS is disclosed. Review IAS 33.70(a) for compliance details to avoid overlooking adjustments for dilutive instruments.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "96.2",
+          "section": "IAS 33",
+          "reference": "IAS 33.70(b)",
+          "question": "Has the entity issued ordinary shares or instruments that could affect earnings per share (EPS)?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "96.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the weighted average number of ordinary shares used as the denominators in calculating basic and diluted earnings per share and reconcile those denominators to each other (including the effect of each class of instrument that affects earnings per share)?",
+          "decision_tree": {
+            "question": "Has the entity issued ordinary shares or instruments that could affect earnings per share (EPS)?",
+            "guidance": "Review the entity's financial statements and share capital records to identify issued ordinary shares and any dilutive instruments such as share options, convertible debts, or warrants. Ensure that you also consider any contingently issuable shares. Refer to IAS 33.10 for definitions and scope.",
+            "yes_case": {
+              "question": "Does the entity calculate basic and diluted EPS as part of its financial statements?",
+              "guidance": "Check the 'Earnings Per Share' section of the financial statements. The calculation of both basic and diluted EPS is mandatory under IAS 33 if the entity has issued ordinary shares or potential ordinary shares as defined in IAS 33.4.",
+              "yes_case": {
+                "question": "Does the entity disclose the weighted average number of ordinary shares used as denominators in EPS calculation and reconcile basic and diluted EPS denominators according to IAS 33.70(b)?",
+                "guidance": "Verify disclosures in the notes accompanying the financial statements. Ensure the entity provides the weighted average number of shares used for calculating basic EPS and separately for diluted EPS, along with reconciliation showing adjustments due to potential ordinary shares affecting diluted EPS. Confirm that all classes of dilutive instruments are included.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "97",
+          "section": "IAS 33",
+          "reference": "IAS 33.72",
+          "question": "Does the entity have financial instruments or other contracts that generate potential ordinary shares?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the terms and conditions of financial instruments and other contracts generating potential ordinary shares that affect earnings per share, if not already required by other standards (e.g., IFRS 7)?",
+          "decision_tree": {
+            "question": "Does the entity have financial instruments or other contracts that generate potential ordinary shares?",
+            "guidance": "Review the entity’s financial statements, specifically equity instruments, convertible bonds, options, or other equity-linked instruments that could potentially lead to new ordinary shares being issued. Check contract terms and accounting policies for any indications of such instruments.",
+            "yes_case": {
+              "question": "Have the terms and conditions of these financial instruments or contracts been disclosed in the financial statements?",
+              "guidance": "Inspect accompanying notes to the financial statements and disclosures under IAS 33 and IFRS 7. Verify whether conditions like strike price, expiry dates, or conversion rates that affect earnings per share are disclosed. Ensure these disclosures are distinct and not merely implied under other standards.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Are these disclosures required by another standard, such as IFRS 7?",
+                "guidance": "Inspect if disclosure requirements for financial instruments under IFRS 7 or other applicable standards cover all terms and conditions affecting potential ordinary shares, including risk and fair value details.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "98.1",
+          "section": "IAS 33",
+          "reference": "IAS 33.73(a)",
+          "question": "Has the entity disclosed amounts per share based on a reported component of the statement of comprehensive income other than one required by IAS 33?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity discloses, in addition to basic and diluted earnings per share, amounts per share based on a reported component of the statement of comprehensive income other than one required by IAS 33, does it disclose basic and diluted amounts per share for that component with equal prominence and present them in the notes?",
+          "decision_tree": {
+            "question": "Has the entity disclosed amounts per share based on a reported component of the statement of comprehensive income other than one required by IAS 33?",
+            "guidance": "Review the statement of comprehensive income and accompanying notes. Check if the entity has voluntarily disclosed amounts per share for components not explicitly required by IAS 33, such as items of other comprehensive income. Common pitfalls include misinterpretations of voluntary disclosures or failure to link disclosures explicitly to specific components.",
+            "yes_case": {
+              "question": "Does the entity present basic and diluted amounts per share for that component with equal prominence?",
+              "guidance": "Examine the notes to the financial statements and ensure that both basic and diluted amounts per share for the voluntarily disclosed component are presented. Confirm that these disclosures are given equal prominence and clarity as required by IAS 33.73.",
+              "yes_case": {
+                "question": "Are these amounts per share presented within the notes to the financial statements?",
+                "guidance": "Confirm that these disclosures are included in the notes to the financial statements, as opposed to other sections such as the management commentary or elsewhere in the annual report. IAS 33 requires that these disclosures be in the notes to facilitate proper interpretation in the context of the financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "98.2",
+          "section": "IAS 33",
+          "reference": "IAS 33.73(b)",
+          "question": "Has the entity presented additional per-share amounts in its financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "98.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the basis on which the numerator(s) is (are) determined for those additional per-share amounts, including whether amounts are before tax or after tax?",
+          "decision_tree": {
+            "question": "Has the entity presented additional per-share amounts in its financial statements?",
+            "guidance": "Review the financial statements, particularly sections discussing Earnings Per Share (EPS). Look for any disclosed additional per-share amounts that go beyond basic and diluted EPS figures. Common pitfalls include overlooking per-share measures in footnotes or supplements.",
+            "yes_case": {
+              "question": "Does the entity disclose the basis on which the numerator(s) for these additional per-share amounts is determined?",
+              "guidance": "Ensure that the financial statement notes explain how the numerator(s) is calculated for each additional per-share amount. Verify whether the disclosure specifies whether the amounts are calculated before or after tax. This information is typically found in the notes accompanying the EPS calculation.",
+              "yes_case": {
+                "question": "Does the disclosure specify whether the amounts are calculated before tax or after tax?",
+                "guidance": "Check the footnotes on EPS in the financial statements for clear mention of whether the numerator(s) is computed on a pre-tax or post-tax basis. Confirm that the entity has clearly labeled this information to avoid ambiguity.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "99",
+          "section": "IAS 33",
+          "reference": "IAS 33.73",
+          "question": "Does the entity disclose additional amounts per share using a component that is not reported as a line item in the statement of comprehensive income?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "98.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity discloses additional amounts per share using a component not reported as a line item in the statement of comprehensive income, does it reconcile that component to a line item that is reported?",
+          "decision_tree": {
+            "question": "Does the entity disclose additional amounts per share using a component that is not reported as a line item in the statement of comprehensive income?",
+            "guidance": "Examine the entity's financial statements for disclosures of any additional earnings per share (EPS) amounts. These amounts should be calculated based on components not presented as line items in the statement of comprehensive income. Look for any specific EPS figures listed outside the context of basic or diluted EPS based on reported line items. Ensure all component sources are valid and detailed.",
+            "yes_case": {
+              "question": "Does the entity reconcile the component used in the additional per share amounts to a line item that is reported in the statement of comprehensive income?",
+              "guidance": "Review the supporting notes to the financial statements. There should be a clear reconciliation between the disclosed component and a corresponding line item in the statement of comprehensive income or other areas of the financial statements. Check for explicit linkage to reported figures, ensuring compliance with IAS 33.73.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "100",
+          "section": "IAS 33",
+          "reference": "IAS 33.73A",
+          "question": "Does the entity disclose additional amounts per share using a reported item of profit or loss other than one required by IAS 33?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "98.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity discloses additional amounts per share using a reported item of profit or loss other than one required by IAS 33, does it provide the disclosures in IAS 33.73 for those additional amounts per share?",
+          "decision_tree": {
+            "question": "Does the entity disclose additional amounts per share using a reported item of profit or loss other than one required by IAS 33?",
+            "guidance": "Review the financial statements and disclosures for additional amounts per share, such as 'Adjusted EPS' or other EPS metrics. Compare these disclosures with IAS 33's required EPS amounts, noting any deviations. Check if these metrics are based on items of profit or loss not mandated by IAS 33.",
+            "yes_case": {
+              "question": "Does the entity provide the required disclosures according to IAS 33.73 for those additional amounts per share?",
+              "guidance": "Refer to IAS 33.73. Verify that for each additional per-share amount, the entity discloses (1) the basis on which the additional amount is calculated, (2) whether it is based on profit or loss attributable to equity holders of the parent, and (3) the adjustments made to calculate the additional amount. Ensure transparency and no misleading information.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "101.1",
+          "section": "IAS 33",
+          "reference": "IAS 33.73C(a)",
+          "question": "Does the entity disclose additional per-share amounts using a performance measure as the numerator different from that required by IAS 33 paragraphs 12–18 and 33–35?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity discloses additional per-share amounts using a performance measure as the numerator different from that required by IAS 33 paragraphs 12–18 and 33–35, does it disclose those additional basic and diluted amounts per share with equal prominence in the notes?",
+          "decision_tree": {
+            "question": "Does the entity disclose additional per-share amounts using a performance measure as the numerator different from that required by IAS 33 paragraphs 12–18 and 33–35?",
+            "guidance": "Review the notes to the financial statements and determine if the entity has presented additional basic and diluted per-share amounts based on a performance measure not defined in IAS 33 paragraphs 12–18 and 33–35. Such measures might exclude or adjust items like one-time expenses or revenues. Ensure the determination is based on a detailed review of the financial note disclosures.",
+            "yes_case": {
+              "question": "Are the additional basic and diluted per-share amounts disclosed with equal prominence as the amounts required by IAS 33?",
+              "guidance": "Check the notes or financial statement presentation where additional per-share amounts are disclosed. Confirm that these are displayed alongside the mandatory IAS 33-compliant amounts without undue emphasis or overshadowing. Refer to IAS 33.73C(a) for guidance on 'equal prominence' in disclosure.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "101.2",
+          "section": "IAS 33",
+          "reference": "IAS 33.73C(b)",
+          "question": "Does the entity disclose management-defined performance measures related to earnings per share calculations?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "101.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the information required by IFRS 18 paragraphs 121–125 for the numerators that are management-defined performance measures?",
+          "decision_tree": {
+            "question": "Does the entity disclose management-defined performance measures related to earnings per share calculations?",
+            "guidance": "Inspect the financial statements, particularly the notes section addressing performance measures. Look for any mention of non-standard or management-defined metrics related to earnings per share. Ensure these metrics are distinct from IFRS-defined measures like Basic EPS or Diluted EPS.",
+            "yes_case": {
+              "question": "Has the entity disclosed the specific information required by IFRS 18 paragraphs 121–125 for these management-defined performance measures?",
+              "guidance": "Review the financial statement notes and cross-check the disclosures against IFRS 18 paragraphs 121–125. Ensure the entity discusses the nature, reason, and calculation methodology for these measures. Common pitfalls include omitting critical assumptions or failing to reconcile these measures to IFRS-defined metrics.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "629",
+          "section": "IAS 33",
+          "reference": "IFRS 14.26",
+          "question": "Does the entity present earnings per share in accordance with IAS 33?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When an entity presents earnings per share in accordance with IAS 33, does it present additional basic and diluted earnings per share calculated using the IAS 33 earnings amounts but excluding movements in regulatory deferral account balances?",
+          "decision_tree": {
+            "question": "Does the entity present earnings per share in accordance with IAS 33?",
+            "guidance": "Review the financial statements and confirm if the entity has disclosed basic and diluted earnings per share figures as required by IAS 33. Look for them in the Statement of Profit or Loss or notes to the financial statements. Ensure the entity uses IAS 33-defined earnings amounts for the calculation. If no such disclosure exists, the entity does not apply IAS 33.",
+            "yes_case": {
+              "question": "Does the entity have movements in regulatory deferral account balances?",
+              "guidance": "Examine the financial statements for the presence of regulatory deferral account balances under IFRS 14. These may be disclosed separately on the balance sheet or in accompanying notes. Look for their movements during the reporting period.",
+              "yes_case": {
+                "question": "Does the entity present additional basic and diluted earnings per share calculated using IAS 33 earnings amounts but excluding movements in regulatory deferral account balances?",
+                "guidance": "Check the financial statements or notes to confirm that the entity has disclosed an additional basic and diluted earnings per share figure which excludes the impact of regulatory deferral account balances. This is typically presented alongside the standard EPS figures as per IAS 33.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "630",
+          "section": "IAS 33",
+          "reference": "IFRS 14.B14",
+          "question": "Is the entity applying IFRS 14 Regulatory Deferral Accounts?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "629",
+          "source_trigger": "Yes",
+          "original_question": "For each earnings per share amount presented in accordance with IAS 33, does an entity applying IFRS 14 present additional basic and diluted earnings per share calculated in the same way but excluding net movements in regulatory deferral account balances, and present them with equal prominence to the IAS 33 earnings per share for all periods presented?",
+          "decision_tree": {
+            "question": "Is the entity applying IFRS 14 Regulatory Deferral Accounts?",
+            "guidance": "Review the accounting policies note in the financial statements or the basis of preparation section to confirm whether IFRS 14 is being applied. If no reference to IFRS 14 is found, the entity is not applying this standard. Ensure that regulatory deferral accounts are explicitly mentioned.",
+            "yes_case": {
+              "question": "Does the entity present earnings per share amounts in accordance with IAS 33?",
+              "guidance": "Check the Statement of Profit or Loss and the accompanying notes for earnings per share (EPS) amounts calculated in line with IAS 33. Verify that EPS for basic and diluted earnings per share is reported correctly for all periods presented.",
+              "yes_case": {
+                "question": "Does the entity present additional basic and diluted earnings per share amounts excluding net movements in regulatory deferral account balances, calculated the same way as IAS 33 EPS?",
+                "guidance": "Review the notes accompanying the EPS amounts in the financial statements. Confirm that additional EPS figures, excluding net movements in regulatory deferral accounts, are calculated using IAS 33 principles. Verify the exclusion of such regulatory account movements specifically.",
+                "yes_case": {
+                  "question": "Are the additional earnings per share amounts presented with equal prominence to IAS 33 EPS for all periods presented?",
+                  "guidance": "Check the format and layout of the earnings per share disclosures in the financial statements. Ensure that additional EPS figures excluding regulatory deferral account movements are presented in a comparable and equally prominent manner alongside IAS 33 EPS for every disclosed period.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

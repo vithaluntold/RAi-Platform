@@ -1,0 +1,655 @@
+{
+  "title": "IFRS 15 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 15",
+      "title": "Revenue from Contracts with Customers",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 15.",
+      "items": [
+        {
+          "id": "509",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.105",
+          "question": "Does the entity have any unconditional rights to consideration arising from contracts with customers?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present any unconditional rights to consideration separately from contract assets as a receivable?",
+          "decision_tree": {
+            "question": "Does the entity have any unconditional rights to consideration arising from contracts with customers?",
+            "guidance": "Review the entity's financial statements, focusing on contracts with customers as defined under IFRS 15. Check for receivables or trade receivables that represent unconditional rights to consideration (i.e., where only the passage of time is required for payment to become due). If no such rights exist, this item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity present unconditional rights to consideration separately from contract assets as a receivable?",
+              "guidance": "Examine the Statement of Financial Position and notes to the financial statements. Confirm that the entity has categorized unconditional rights to consideration as 'receivables' and distinct from 'contract assets'. Unconditional rights are due regardless of further performance obligations. Contract assets, by contrast, depend on performance before payment.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "510",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.108",
+          "question": "Does the entity have a receivable arising from a contract with a customer that is initially recognized?",
+          "question_type": "Followup",
+          "source_question": "509",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Upon initial recognition of a receivable from a contract with a customer, does the entity present any difference between the measurement of the receivable in accordance with IFRS 9 and the corresponding amount of revenue as an expense (for example, as an impairment loss)?",
+          "decision_tree": {
+            "question": "Does the entity have a receivable arising from a contract with a customer that is initially recognized?",
+            "guidance": "Review the entity's financial statements, specifically accounts receivable in connection with revenue recognition. Confirm that the receivable is generated from a contract with a customer as defined under IFRS 15 and has been recognized in accordance with IFRS 9.",
+            "yes_case": {
+              "question": "Does the entity measure the receivable in accordance with IFRS 9 upon initial recognition of the contract?",
+              "guidance": "Check the measurement basis of the receivable in the financial statements. Verify if it aligns with IFRS 9 requirements, which includes measurement at amortized cost or fair value through profit or loss, depending on the business model and cash flow characteristics.",
+              "yes_case": {
+                "question": "Does the entity present any difference between the measurement of the receivable under IFRS 9 and the corresponding amount of revenue as an expense, such as an impairment loss?",
+                "guidance": "Inspect the Statement of Comprehensive Income and relevant notes to verify if the difference resulting from initial measurement of the receivable versus recognized revenue is appropriately presented as an expense, such as an impairment loss, per IFRS 15.108.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "511",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.107",
+          "question": "Does the entity have contracts with customers involving performance obligations where goods or services are transferred before the customer pays or payment is due?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "If the entity performs by transferring goods or services to a customer before the customer pays consideration or before payment is due, does the entity present the contract as a contract asset, excluding any amounts presented as a receivable?",
+          "decision_tree": {
+            "question": "Does the entity have contracts with customers involving performance obligations where goods or services are transferred before the customer pays or payment is due?",
+            "guidance": "Review customer contracts and related accounting records. Look for performance obligations where goods or services are delivered but consideration has not yet been paid or is not yet due. Verify this information in the contract terms and related revenue recognition documentation.",
+            "yes_case": {
+              "question": "Does the entity exclude amounts that are classified as receivables from its contract asset presentation in accordance with IFRS 15.107?",
+              "guidance": "Check the financial statement presentation of contract assets. Ensure that amounts which meet the definition of receivables (i.e., unconditional rights to consideration) are separately presented and not included in contract assets.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "512",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.106",
+          "question": "Does the entity have customers who pay consideration, or does the entity have a right to an amount of consideration that is unconditional (i.e., a receivable) before the transfer of goods or services?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "If a customer pays consideration, or the entity has a right to an amount of consideration that is unconditional (i.e., a receivable), before the entity transfers a good or service to the customer, does the entity present the contract as a contract liability when the payment is made or the payment is due (whichever is earlier)?",
+          "decision_tree": {
+            "question": "Does the entity have customers who pay consideration, or does the entity have a right to an amount of consideration that is unconditional (i.e., a receivable) before the transfer of goods or services?",
+            "guidance": "Check customer transactions and contracts outlined in IFRS 15 Revenue from Contracts with Customers, especially sections describing consideration and performance obligations. Look for instances where payments are made or unconditional receivables exist before goods or services are transferred. Review invoices, contracts, and payment schedules for evidence.",
+            "yes_case": {
+              "question": "Does the entity present the contract as a contract liability when the payment is made or payment is due (whichever is earlier)?",
+              "guidance": "Review the financial statements, particularly the liabilities section. Ensure that any advance payments or unconditional receivables related to performance obligations yet to be satisfied are presented as a contract liability in accordance with IFRS 15.106.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "513",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.109",
+          "question": "Does the entity have a contract asset recognized under IFRS 15?",
+          "question_type": "Followup",
+          "source_question": "511",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity uses an alternative description for a contract asset, does the entity provide sufficient information for a user of the financial statements to distinguish between receivables and contract assets?",
+          "decision_tree": {
+            "question": "Does the entity have a contract asset recognized under IFRS 15?",
+            "guidance": "Review the entity's financial statements and disclosures related to revenue recognition. Contract assets are defined in IFRS 15 as the entity's right to consideration for goods or services transferred to a customer, conditional on something other than the passage of time.",
+            "yes_case": {
+              "question": "Does the entity describe the contract asset using an alternative term or label instead of 'contract asset'?",
+              "guidance": "Check the notes to the financial statements or financial statement line items for any alternative terminology being used. Common alternative terms might include 'unbilled revenue' or 'accrued contract income'. Ensure that IFRS 15.109 does not restrict the use of alternative labels but requires clarity for users.",
+              "yes_case": {
+                "question": "Does the entity provide sufficient information to distinguish between contract assets and receivables to satisfy IFRS 15.109?",
+                "guidance": "Evaluate the disclosures for the alternative label. Verify if the financial statements provide clear definitions, explanations, or reconciliation that distinguishes contract assets (conditional consideration) from receivables (unconditional consideration). Ensure this includes both qualitative and quantitative comparisons.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "514",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.65",
+          "question": "Does the entity derive revenue from contracts with customers?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present the effects of financing (interest revenue or interest expense) separately from revenue from contracts with customers in the statement of comprehensive income?",
+          "decision_tree": {
+            "question": "Does the entity derive revenue from contracts with customers?",
+            "guidance": "Review the entity's Statement of Comprehensive Income and accompanying notes to determine if it reports revenue under IFRS 15, which relates to revenue from contracts with customers. Check if contracts are within the IFRS 15 scope and exclude other types of revenues, such as interest or dividend income governed by other standards.",
+            "yes_case": {
+              "question": "Does the entity recognize financing effects, such as interest revenue or interest expense, related to these contracts?",
+              "guidance": "Examine the notes to the financial statements, particularly those covering revenue recognition policies and financing arrangements. Look for disclosures or line items indicating interest revenue or interest expense that arises independently of revenue from contracts with customers.",
+              "yes_case": {
+                "question": "Are the effects of financing (interest revenue or interest expense) presented separately from revenue from contracts with customers in the statement of comprehensive income?",
+                "guidance": "Inspect the Statement of Comprehensive Income. Verify that financing effects, such as interest revenue or expense, are distinctly categorized under finance income or finance costs, and not included within the revenue from contracts with customers. Cross-check with IFRS 15.65 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "515",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.B25",
+          "question": "Does the entity have a refund liability due to product returns from customers?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present the asset for its right to recover products from a customer on settling a refund liability separately from the refund liability?",
+          "decision_tree": {
+            "question": "Does the entity have a refund liability due to product returns from customers?",
+            "guidance": "Review the entity's sales transactions and customer agreements to determine if they include clauses allowing customers to return products. Check revenue recognition processes to identify if refund liabilities are recognized. Refer to IFRS 15 paragraphs 51-53 for clarification on refund liabilities.",
+            "yes_case": {
+              "question": "Does the entity recognize an asset for its right to recover products from customers when settling the refund liability?",
+              "guidance": "Verify if the entity has recognized an asset for its right to recover products from customers as per IFRS 15.B25. This should be reflected in the financial statements and applicable notes. Ensure the asset value is measured based on the original cost of the products and matches the policy outlined in IFRS 15.",
+              "yes_case": {
+                "question": "Is the asset for the right to recover products presented separately from the refund liability?",
+                "guidance": "Check the financial statements, particularly the balance sheet, to confirm if the asset for product recovery is presented separately from the refund liability. Refer to IFRS 15.B25 for requirements of separate presentation. Ensure clear labeling and avoid aggregation of the asset and liability.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "516",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.110",
+          "question": "Does the entity have revenue from contracts with customers that fall under IFRS 15?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "To achieve the disclosure objective stated in IFRS 15.110, does the entity disclose qualitative and quantitative information about all of the following?",
+          "decision_tree": {
+            "question": "Does the entity have revenue from contracts with customers that fall under IFRS 15?",
+            "guidance": "Review the entity's financial statements and agreements to identify revenue streams. IFRS 15 applies to contracts with customers for goods, services, or specific arrangements like licensing. Exclude revenue streams governed by other standards, such as leases (IFRS 16) or insurance contracts (IFRS 17). Common pitfalls include mistakenly including non-customer revenue into IFRS 15 scope.",
+            "yes_case": {
+              "question": "Does the entity disclose qualitative and quantitative information to meet the disclosure objective stated in IFRS 15.110?",
+              "guidance": "Review the entity's notes to the financial statements, specifically disclosures relating to revenue recognition under IFRS 15. Confirm qualitative information like the nature of goods/services, key contractual terms, performance obligations, and quantitative details, such as disaggregation of revenue, opening and closing contract balances, and significant judgments affecting the recognition.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the lack of disclosure make it impossible to understand the nature, timing, and uncertainty of revenue and cash flows from contracts with customers?",
+                "guidance": "Evaluate the impact of missing disclosures in relation to IFRS 15.110 requirements. Consider whether users of financial statements can reasonably infer key information about revenue streams and performance obligations without these disclosures. Common pitfalls include insufficient granularity and lack of explanation for complex revenue arrangements.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "517",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.113",
+          "question": "Does the entity generate revenue from contracts with customers during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose all of the following amounts for the reporting period unless those amounts are presented separately in the statement of comprehensive income in accordance with other standards?",
+          "decision_tree": {
+            "question": "Does the entity generate revenue from contracts with customers during the reporting period?",
+            "guidance": "Examine the revenue recognition policies disclosed in the financial statements and ensure they align with IFRS 15. Review the entity’s statement of comprehensive income, looking for revenue line items. Refer to contract notes or revenue recognition schedules if necessary.",
+            "yes_case": {
+              "question": "Does the entity disclose all required amounts that relate to revenue as per IFRS 15.113?",
+              "guidance": "Verify the financial statements and the accompanying notes for disclosures specified in IFRS 15.113. Required amounts include revenue recognized from contracts with customers, impairment losses on receivables or contract assets, and other specified items. Ensure that these amounts are disclosed unless they are presented elsewhere, such as in the statement of comprehensive income, per IFRS standards.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "518",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.114",
+          "question": "Does the entity have revenue recognized from contracts with customers?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disaggregate revenue recognised from contracts with customers into categories that depict how the nature, amount, timing and uncertainty of revenue and cash flows are affected by economic factors?",
+          "decision_tree": {
+            "question": "Does the entity have revenue recognized from contracts with customers?",
+            "guidance": "Review the Statement of Comprehensive Income and the revenue notes in the financial statements. Look for any amounts labeled as 'Revenue' or similar that are derived from contracts with customers as defined in IFRS 15. Refer to the entity’s sales agreements for confirmation.",
+            "yes_case": {
+              "question": "Is the revenue disaggregated into categories that depict how the nature, amount, timing, and uncertainty of revenue and cash flows are affected by economic factors?",
+              "guidance": "Examine the revenue disclosure notes. Look for disaggregation of revenue into appropriate categories such as type of goods or services, geographical region, market segment, or contract types. Check IFRS 15.114 for guidance on relevant categories and ensure the breakdown provides meaningful information about the economic drivers affecting revenue.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "519",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.115",
+          "question": "Does the entity apply IFRS 8 regarding operating segments?",
+          "question_type": "Followup",
+          "source_question": "518",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity applies IFRS 8, does the entity disclose sufficient information to enable users of financial statements to understand the relationship between the disclosure of disaggregated revenue (in accordance with IFRS 15.114) and revenue information that is disclosed for each reportable segment?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 8 regarding operating segments?",
+            "guidance": "Check the financial statements for disclosures under IFRS 8, which outlines requirements for reporting segment-level information based on internal management reporting. Confirm whether the entity has identified operating segments and disclosed information accordingly.",
+            "yes_case": {
+              "question": "Has the entity disaggregated revenue disclosures in accordance with IFRS 15.114?",
+              "guidance": "Review the revenue disclosures. IFRS 15.114 requires entities to disaggregate revenue into categories reflecting patterns of revenue recognition (e.g., product or service lines, geographical regions, or contract types). Ensure these categories align with the entity's business model.",
+              "yes_case": {
+                "question": "Do the disclosures clearly explain the relationship between disaggregated revenue under IFRS 15.114 and revenue disclosed for each reportable segment under IFRS 8?",
+                "guidance": "Examine the entity's disclosures for explanations or reconciliations between the categories of disaggregated revenue (IFRS 15.114) and segment-based revenue reporting (IFRS 8). Look for clarity and sufficiency of information to enable users to understand this relationship.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "520",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.116",
+          "question": "Does the entity recognize revenue from contracts with customers?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose all of the following?",
+          "decision_tree": {
+            "question": "Does the entity recognize revenue from contracts with customers?",
+            "guidance": "Review the entity’s Statement of Profit or Loss and relevant notes in the financial statements to identify if any revenue from contracts with customers is reported. Refer to IFRS 15.3 for scope exclusions (e.g., leases under IFRS 16, financial instruments under IFRS 9).",
+            "yes_case": {
+              "question": "Has the entity provided disclosures required under IFRS 15.116?",
+              "guidance": "Check the financial statement footnotes for disclosures required under IFRS 15.116. This includes: (a) revenue recognized from contracts with customers disaggregated into categories; (b) information about contract balances (e.g., opening/closing balances of accounts such as trade receivables, contract assets, and contract liabilities); (c) performance obligations, including timing of satisfaction and significant payment terms; (d) transaction price allocated to remaining performance obligations; and (e) significant judgments in applying IFRS 15. Cross-reference these points with the related revenue policies and ensure each is adequately explained.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "521.1",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.117",
+          "question": "Does the entity have contracts with customers that involve performance obligations?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity explain how the timing of satisfaction of its performance obligations relates to the typical timing of payment?",
+          "decision_tree": {
+            "question": "Does the entity have contracts with customers that involve performance obligations?",
+            "guidance": "Review customer contracts for the reporting period to determine if the entity has identified performance obligations under IFRS 15.117. Look for explicit or implicit obligations in the contract terms to transfer goods, services, or other deliverables to customers. Ensure proper consideration of criteria for revenue recognition under IFRS 15.",
+            "yes_case": {
+              "question": "Has the entity disclosed information explaining the typical timing of payment in relation to the timing of satisfaction of its performance obligations?",
+              "guidance": "Examine the entity's financial statement disclosures, particularly under Note(s) related to revenue recognition or IFRS 15 compliance. Verify if the disclosed information is clear and includes examples or patterns of payment timing relative to performance satisfaction (e.g., upfront payments, payment upon delivery, installment payments). Ensure disclosures align with specified requirements from IFRS 15.117.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "521.2",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.117",
+          "question": "Does the entity have contracts with customers where the timing of satisfaction and payment differ?",
+          "question_type": "Followup",
+          "source_question": "521.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity explain the effect that the timing of satisfaction and timing of payment have on the contract asset and contract liability balances?",
+          "decision_tree": {
+            "question": "Does the entity have contracts with customers where the timing of satisfaction and payment differ?",
+            "guidance": "Review the entity's revenue recognition policies disclosed in the notes to the financial statements. Look for instances where performance obligations are satisfied but payment is not yet received, or payment is made before performance obligations are satisfied (as per IFRS 15). Common indicators include references to contract assets or contract liabilities.",
+            "yes_case": {
+              "question": "Does the entity disclose its contract asset and contract liability balances in the financial statements?",
+              "guidance": "Check the Statement of Financial Position and related notes. Contract assets arise when performance obligations are satisfied but amounts are yet to be billed. Contract liabilities arise when payments are received before performance obligations are fulfilled. Ensure these balances are explicitly presented or explained.",
+              "yes_case": {
+                "question": "Does the entity explain the effect of the timing of satisfaction and timing of payment on contract asset and contract liability balances?",
+                "guidance": "Review the notes to the financial statements. Look for explicit disclosure regarding how the timing mismatch affects the movement in contract asset and contract liability balances. The explanation should address factors such as deferred revenue, advances, and unbilled receivables.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "522",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.118",
+          "question": "Does the entity have contract assets or contract liabilities recorded in its financial statements for the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity provide an explanation (with both qualitative and quantitative information) of the significant changes in the contract asset and contract liability balances during the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have contract assets or contract liabilities recorded in its financial statements for the reporting period?",
+            "guidance": "Review the entity's Statement of Financial Position and accompanying notes to determine if contract assets or contract liabilities are recognized. Check for the presence of balances reported under IFRS 15. Confirm that these are properly categorized as contract assets or contract liabilities, and not other types of receivables or liabilities.",
+            "yes_case": {
+              "question": "Were there significant changes in the contract asset or contract liability balances during the reporting period?",
+              "guidance": "Review the movements in the contract asset and contract liability accounts between the opening and closing balances. Significant changes might include new contracts, changes due to performance obligations, revisions or contract modifications, or settlements during the period. Common pitfalls include missing adjustments related to revenue recognition or errors in journal entries. Pay special attention to the reconciliation disclosed in the financial notes.",
+              "yes_case": {
+                "question": "Does the entity provide both qualitative and quantitative explanations of the significant changes in the contract asset and contract liability balances during the reporting period?",
+                "guidance": "Refer to IFRS 15.118. Check the disclosures in the notes to the financial statements for explanations about the nature of changes (qualitative) and numerical reconciliations (quantitative) in line with performance obligations, changes in estimates, or other events. Ensure all required details per IFRS 15 are adequately disclosed. Be alert for missing reconciliation tables, insufficient descriptions, or misaligned narrative.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "523",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.119",
+          "question": "Does the entity have contracts with customers that include performance obligations?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose information about its performance obligations in contracts with customers, including a description of all of the following?",
+          "decision_tree": {
+            "question": "Does the entity have contracts with customers that include performance obligations?",
+            "guidance": "Review customer contracts identified in the entity's revenue streams for the reporting period. Check whether revenue is derived from enforceable contracts that specify performance obligations as per IFRS 15.119. Ensure to eliminate isolated transactions without enforceable contracts.",
+            "yes_case": {
+              "question": "Are the performance obligations in the contracts clearly identifiable and distinct, as defined by IFRS 15.27-30?",
+              "guidance": "Examine contracts to ensure that goods, services, or bundles of goods and services are capable of being distinct and can be separately identified from other obligations in the contract. Pay close attention to combined or inseparable goods/services.",
+              "yes_case": {
+                "question": "Does the entity disclose information about its performance obligations as required by IFRS 15.119?",
+                "guidance": "Check the financial statement notes for disclosures of the following: (1) A description of the performance obligations, including when the entity typically satisfies them; (2) The significant payment terms, including any variable consideration; (3) Any obligations for returns, refunds, and warranties; (4) The nature of goods or services promised to customers. Ensure all elements are addressed in the disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "524",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.120",
+          "question": "Does the entity have contracts with customers that include remaining performance obligations at the reporting date?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose all of the following information about its remaining performance obligations?",
+          "decision_tree": {
+            "question": "Does the entity have contracts with customers that include remaining performance obligations at the reporting date?",
+            "guidance": "Review the contracts with customers presented in the entity's financial statements. Remaining performance obligations are promised goods or services yet to be transferred to the customer. These include obligations under contracts that are either wholly or partially unsatisfied as per the reporting date. Refer to IFRS 15 paragraphs 119-120 for more context.",
+            "yes_case": {
+              "question": "Has the entity disclosed all necessary information about its remaining performance obligations in accordance with IFRS 15.120?",
+              "guidance": "Confirm whether the entity discloses information such as the nature of its remaining performance obligations, the amount or timing of revenue recognition expected from them, and a breakdown by time periods where applicable. Review disclosures, particularly in the notes to the financial statements. Refer to IFRS 15.120 for the requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "525",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.122",
+          "question": "Is the entity applying the practical expedient in IFRS 15.121?",
+          "question_type": "Followup",
+          "source_question": "524",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity explain qualitatively whether it is applying the practical expedient in IFRS 15.121 and whether any consideration is excluded from the transaction price and therefore excluded from the information disclosed under IFRS 15.120?",
+          "decision_tree": {
+            "question": "Is the entity applying the practical expedient in IFRS 15.121?",
+            "guidance": "Review the entity's contracts with customers and disclosures in the financial statements. IFRS 15.121 allows entities to exclude consideration arising from sales-based or usage-based royalties when recognizing revenue for a license. Check whether this expedient is explicitly mentioned in the entity's accounting policies or notes.",
+            "yes_case": {
+              "question": "Does the entity disclose qualitatively whether it is applying the practical expedient in IFRS 15.121?",
+              "guidance": "Check the disclosure notes in the financial statements, particularly those related to revenue recognition policies and IFRS 15. Confirm that the entity provides a clear qualitative explanation of whether this expedient is applied.",
+              "yes_case": {
+                "question": "Does the entity disclose whether any consideration is excluded from the transaction price due to the practical expedient, and thus excluded from the information required by IFRS 15.120?",
+                "guidance": "Examine the disclosure notes under IFRS 15 requirements. Verify whether the entity explicitly states if consideration is excluded from the transaction price and reconciles this exclusion clearly in line with IFRS 15.120.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "526",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.123",
+          "question": "Does the entity have revenue from contracts with customers that fall under IFRS 15?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the judgements, and changes in those judgements, made in applying IFRS 15 that significantly affect the determination of the amount and timing of revenue from contracts with customers?",
+          "decision_tree": {
+            "question": "Does the entity have revenue from contracts with customers that fall under IFRS 15?",
+            "guidance": "Review the financial statements, specifically the revenue recognition policies and contracts with customers section. Ensure revenue is related to contracts within the scope of IFRS 15 as opposed to other standards (e.g., IFRS 16 for leases). Common errors include misclassifying contracts or failing to identify revenue streams.",
+            "yes_case": {
+              "question": "Has the entity made significant judgements in applying IFRS 15 related to the amount and timing of revenue recognition?",
+              "guidance": "Check the entity’s revenue recognition processes, including identifying performance obligations, determining transaction prices, and allocating transaction prices to performance obligations. Examine disclosures in the notes to financial statements and assess whether judgements significantly impact these processes. Common errors include missing disclosures about complex contracts or variable considerations.",
+              "yes_case": {
+                "question": "Has the entity disclosed these significant judgements and any changes to them in the financial statements as required by IFRS 15.123?",
+                "guidance": "Inspect the notes to financial statements for disclosures related to judgements in applying IFRS 15, especially changes to judgements that affect revenue determination. Verify if disclosures include specific references to performance obligations, transaction prices, and timing of revenue recognition. Uncommon or missing changes to complex judgement areas might indicate a compliance issue.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "527",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.124",
+          "question": "Does the entity have performance obligations that it satisfies over time?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For performance obligations that the entity satisfies over time, does the entity disclose both of the following?",
+          "decision_tree": {
+            "question": "Does the entity have performance obligations that it satisfies over time?",
+            "guidance": "Review the entity's contracts with customers and the revenue recognition policies in note disclosures. Performance obligations satisfied over time typically involve activities where the customer simultaneously receives and consumes the benefits as the entity performs, or control transfers over time. Refer to IFRS 15.35 for criteria to determine satisfaction over time.",
+            "yes_case": {
+              "question": "Does the entity disclose both (a) the nature of its performance obligations satisfied over time and (b) the methods used to recognize revenue for those obligations?",
+              "guidance": "Examine the entity's financial statement disclosures, specifically the revenue recognition section. Ensure details are explicitly provided about the types of obligations satisfied over time and methods used (e.g., output or input methods). Reference IFRS 15.124 for specific disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "528",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.125",
+          "question": "Does the entity have performance obligations satisfied at a point in time?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For performance obligations satisfied at a point in time, does the entity disclose the significant judgements made in evaluating when a customer obtains control of promised goods or services?",
+          "decision_tree": {
+            "question": "Does the entity have performance obligations satisfied at a point in time?",
+            "guidance": "Refer to the entity's revenue recognition policy disclosed in the financial statements and check against IFRS 15. Recognize whether the entity transfers control of goods or services at a specific time rather than over time.",
+            "yes_case": {
+              "question": "Has the entity disclosed significant judgements made in evaluating when a customer obtains control of promised goods or services?",
+              "guidance": "Review the disclosures in the notes to the financial statements related to revenue recognition. Look for a specific discussion or explanation regarding the judgements applied to determine when control is transferred, as stipulated in IFRS 15.125. Ensure the disclosures are specific, not generic, and that they address the key criteria assessed (e.g., transfer of legal title, physical possession, risks and rewards of ownership, and acceptance by the customer).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "529",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.126",
+          "question": "Does the entity have revenue contracts subject to IFRS 15?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose information about the methods, inputs and assumptions used for all of the following?",
+          "decision_tree": {
+            "question": "Does the entity have revenue contracts subject to IFRS 15?",
+            "guidance": "Refer to the entity's revenue recognition policies in the financial statements or accounting records. Check if the entity applies IFRS 15 for revenue contracts, which includes contracts with customers.",
+            "yes_case": {
+              "question": "Do the revenue contracts require disclosure of methods, inputs, and assumptions related to performance obligations, transaction price allocation, and variable considerations?",
+              "guidance": "Review IFRS 15.126 and the entity's financial disclosures. Assess whether the recognition of revenue involves significant judgments, such as determining performance obligations or estimating transaction prices. If no such complexities exist, disclosures may be minimal.",
+              "yes_case": {
+                "question": "Does the entity adequately disclose information about the methods, inputs, and assumptions used as required by IFRS 15.126?",
+                "guidance": "Examine the Notes to the Financial Statements. Verify if the disclosures clearly describe the methods (e.g., how transaction prices are determined), inputs (e.g., estimated costs, timing of revenue recognition), and assumptions (e.g., judgments about expected variable consideration or performance obligations). Ensure completeness and clarity.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "530",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.127",
+          "question": "Does the entity recognize revenue under IFRS 15?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity describe both of the following?",
+          "decision_tree": {
+            "question": "Does the entity recognize revenue under IFRS 15?",
+            "guidance": "Refer to the financial statements and accounting policies note. Identify if the entity applies IFRS 15 for revenue recognition. IFRS 15 is typically used for contracts with customers for the sale of goods or services. Common pitfalls include assuming IFRS 15 applies even when revenue is derived from sources outside its scope (e.g., leases under IFRS 16).",
+            "yes_case": {
+              "question": "Does the entity provide a description of its performance obligations in contracts with customers?",
+              "guidance": "Review the notes to the financial statements (specific disclosures under IFRS 15). Look for a clear description of the goods or services promised in the contract and the consideration expected in return. Ensure completeness and consistency with the nature of the entity's business operations.",
+              "yes_case": {
+                "question": "Does the entity explain when its performance obligations are satisfied over time or at a point in time?",
+                "guidance": "Verify if the financial statement disclosures specify how the entity determines when control of the promised goods or services transfers to the customer. This should include whether obligations are satisfied over time (e.g., construction contracts) or at a point in time (e.g., retail sales). Ensure the explanation aligns with the recognition criteria laid out in IFRS 15.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "531",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.128",
+          "question": "Does the entity have contracts with customers that are recognized as revenue under IFRS 15?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose all of the following?",
+          "decision_tree": {
+            "question": "Does the entity have contracts with customers that are recognized as revenue under IFRS 15?",
+            "guidance": "Review the entity's revenue recognition policies in the financial statements and confirm that revenue is recognized in accordance with IFRS 15. Focus on whether the entity has contracts with customers as defined in IFRS 15. Check materiality and ensure transactions fit the scope of IFRS 15.",
+            "yes_case": {
+              "question": "Has the entity disclosed all required information as outlined in IFRS 15.128?",
+              "guidance": "Refer to IFRS 15.128 and verify the disclosures in the financial statements. Required information includes: (1) disaggregation of revenue, (2) the opening and closing balances of contract assets and liabilities, (3) information about performance obligations, and (4) significant judgments made in applying IFRS 15. Assess whether these disclosures are complete and sufficiently detailed to meet user needs.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the omission of any required disclosure potentially lead to a material misstatement or a lack of compliance with IFRS 15?",
+                "guidance": "Evaluate the impact of the missing disclosures on the financial statements. Consider whether the omission affects users' understanding of revenue recognition, performance obligations, or contract balances. If the omission is material or significantly limits compliance, it is a compliance issue.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "532",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.129",
+          "question": "Has the entity elected to use the practical expedient in IFRS 15.63 regarding the existence of a significant financing component?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity elects to use the practical expedient in IFRS 15.63 regarding the existence of a significant financing component, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Has the entity elected to use the practical expedient in IFRS 15.63 regarding the existence of a significant financing component?",
+            "guidance": "Review the contract terms for revenue recognition and payment timing. The practical expedient allows entities to disregard a significant financing component if the period between payment and performance obligation completion is one year or less. Check if this election is mentioned in accounting policies or visible in revenue-related disclosures.",
+            "yes_case": {
+              "question": "Has the entity disclosed its use of the practical expedient in accordance with IFRS 15.129?",
+              "guidance": "Examine the financial statement disclosures, particularly the revenue recognition policy and notes explaining accounting judgments and estimates. Ensure the entity explicitly states that it has elected to use the practical expedient.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "533",
+          "section": "IFRS 15",
+          "reference": "IFRS 15.129",
+          "question": "Has the entity elected to use the practical expedient in IFRS 15.94 regarding the incremental costs of obtaining a contract?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity elects to use the practical expedient in IFRS 15.94 regarding the incremental costs of obtaining a contract, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Has the entity elected to use the practical expedient in IFRS 15.94 regarding the incremental costs of obtaining a contract?",
+            "guidance": "Verify whether the entity applied the practical expedient stated in IFRS 15.94. This expedient allows entities to expense the incremental costs of obtaining a contract if the amortization period is one year or less. Review the contract costs section in financial statements and accounting policy disclosures for any indication of this election.",
+            "yes_case": {
+              "question": "Has the entity disclosed the fact that it has elected to use the practical expedient in accordance with IFRS 15.129?",
+              "guidance": "Check the entity's accounting policy disclosures or Notes to the Financial Statements to confirm they specify that the practical expedient under IFRS 15.94 has been applied. Ensure that this disclosure is clear and unambiguous as required by IFRS 15.129.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

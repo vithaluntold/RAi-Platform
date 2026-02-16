@@ -1,0 +1,263 @@
+{
+  "title": "IFRS 4 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 4",
+      "title": "Insurance Contracts",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 4.",
+      "items": [
+        {
+          "id": "4.1",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.36(a)",
+          "question": "Does the entity hold insurance contracts or related assets and liabilities?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed its accounting policies for insurance contracts and related assets, liabilities, income and expense?",
+          "decision_tree": {
+            "question": "Does the entity hold insurance contracts or related assets and liabilities?",
+            "guidance": "Check the entity's financial statements, specifically the statement of financial position and accompanying notes, to identify whether any insurance contracts or related assets and liabilities are recognized. Common examples include premiums receivable, insurance liabilities, or policyholder benefits payable.",
+            "yes_case": {
+              "question": "Has the entity disclosed its accounting policies for insurance contracts and related assets, liabilities, income, and expense?",
+              "guidance": "Verify the notes to the financial statements. Look for a clear description of accounting policies specifically related to insurance contracts, including methods for recognition, measurement, and presentation. Ensure disclosures align with IFRS 4.36(a). Pay attention to whether policies for premiums, claims liabilities, and reinsurance are addressed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "4.2",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.36(b)",
+          "question": "Does the entity have any insurance contracts?",
+          "question_type": "Followup",
+          "source_question": "4.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the recognised assets, liabilities, income and expense arising from insurance contracts?",
+          "decision_tree": {
+            "question": "Does the entity have any insurance contracts?",
+            "guidance": "Review the entity's business activities and financial records (e.g., the trial balance or contracts section) to determine if insurance contracts exist. If no insurance contracts exist, this item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity recognised assets, liabilities, income, or expense arising from these insurance contracts?",
+              "guidance": "Verify the financial statements and supporting schedules, particularly the balance sheet and income statement, to identify any recognised amounts related to assets, liabilities, income, or expenses from insurance contracts. Consider IFRS 4 guidance on recognition criteria.",
+              "yes_case": {
+                "question": "Has the entity disclosed these recognised assets, liabilities, income, and expense arising from insurance contracts?",
+                "guidance": "Review the notes to the financial statements and disclosures in accordance with IFRS 4.36(b). Ensure that each recognised item related to insurance contracts is properly disclosed, including their nature, amounts, and characteristics. Cross-check against the disclosure requirements listed in IFRS 4.36(b to ensure compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "4.3",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.36(c)",
+          "question": "Is the entity a cedant that purchases reinsurance?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity is a cedant, has it disclosed gains and losses recognised on buying reinsurance?",
+          "decision_tree": {
+            "question": "Is the entity a cedant that purchases reinsurance?",
+            "guidance": "Review the entity's insurance contracts and reinsurance agreements detailed in its financial records. A 'cedant' is an entity that transfers risk by buying reinsurance from another party. Look for explicit contract terms stating that risk was ceded. Verify this through the entity's insurance revenue and expense accounts.",
+            "yes_case": {
+              "question": "Has the entity disclosed gains and losses recognized on buying reinsurance?",
+              "guidance": "Examine the disclosures in the financial statements, specifically in the notes related to insurance contracts or reinsurance transactions. Gains and losses are usually visible in the reconciliation of insurance liabilities or income statement notes related to insurance operations. Ensure the entity provides sufficient detail per IFRS 4.36(c), such as the amounts, nature, and impact of these gains/losses.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "4.4",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.36(d)",
+          "question": "Does the entity issue insurance contracts or have insurance liabilities recognized in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "4.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the process used to determine the assumptions that have the greatest effect on the measurement of recognised amounts?",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts or have insurance liabilities recognized in its financial statements?",
+            "guidance": "Review the entity’s activities and financial statements, specifically the Statement of Financial Position and relevant notes, to confirm the presence of insurance contracts or insurance liabilities as defined by IFRS 4. Refer to IFRS 4 Appendix A for the definition of insurance contracts. If no insurance contracts or liabilities are present, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Are there recognised amounts associated with insurance contracts or liabilities in the financial statements?",
+              "guidance": "Look for premiums received, claims, or technical reserves in the financial statements, specifically the balance sheet and income statement disclosures. If no recognised amounts related to insurance contracts or liabilities are reported, this checklist item is not applicable.",
+              "yes_case": {
+                "question": "Has the entity disclosed the process used to determine the assumptions that have the greatest effect on the measurement of recognized amounts?",
+                "guidance": "Review the notes to the financial statements, particularly the section related to insurance contracts or liabilities. Verify if the entity has described how they determined the assumptions affecting the valuation of these amounts (e.g., mortality rates, discount rates, lapse rates). Ensure the explanation includes sufficient detail for readers to understand the estimation process and its implications.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "4.5",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.37(a)",
+          "question": "Does the entity have insurance contracts?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed information about the nature and extent of risks arising from insurance contracts?",
+          "decision_tree": {
+            "question": "Does the entity have insurance contracts?",
+            "guidance": "Review the entity's financial statements and underlying agreements to identify whether insurance contracts exist. Common examples include life insurance policies, motor vehicle insurance, or any other contracts accounted for under IFRS 4. Ensure the contracts meet IFRS 4's definition of insurance contracts in paragraph 2.",
+            "yes_case": {
+              "question": "Has the entity disclosed information about the nature and extent of risks arising from these insurance contracts?",
+              "guidance": "Examine the disclosures in the notes to the financial statements. Specifically check for risk-related information such as sensitivity analysis, risk concentrations, claims development, or other required disclosures as per IFRS 4 paragraph 37(a). Ensure disclosures are clear, sufficient, and adhere to IFRS 4 requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "4.6",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.37(b)",
+          "question": "Does the entity hold insurance contracts within the scope of IFRS 4?",
+          "question_type": "Followup",
+          "source_question": "4.5",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed information about risk management objectives and policies for mitigating risks arising from insurance contracts?",
+          "decision_tree": {
+            "question": "Does the entity hold insurance contracts within the scope of IFRS 4?",
+            "guidance": "Review the entity's financial statements, specifically the notes and disclosures related to insurance activities. Verify whether the entity has insurance contracts as defined in IFRS 4, Paragraph 2. Ensure these are contracts where significant insurance risk is transferred.",
+            "yes_case": {
+              "question": "Has the entity disclosed information about its risk management objectives and policies for mitigating risks arising from insurance contracts?",
+              "guidance": "Check the notes to the financial statements. IFRS 4.37(b) requires entities to include disclosures about their risk management objectives and policies, including how they mitigate risks associated with insurance contracts. Ensure comprehensive information is provided about the processes and strategies used.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "4.7",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.37(c)",
+          "question": "Does the entity have insurance contracts?",
+          "question_type": "Followup",
+          "source_question": "4.5",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed information about the terms and conditions of insurance contracts that have a material effect on the amount, timing and uncertainty of future cash flows?",
+          "decision_tree": {
+            "question": "Does the entity have insurance contracts?",
+            "guidance": "Review the entity's financial statements and accounting policies to identify whether it has entered into any insurance contracts as defined under IFRS 4. Check sections of the notes to the accounts where insurance contracts might be disclosed. Ensure that reinsurance contracts are also considered.",
+            "yes_case": {
+              "question": "Do the insurance contracts have a material effect on the amount, timing, and uncertainty of the entity’s future cash flows?",
+              "guidance": "Examine the terms and conditions of the insurance contracts. Look for significant impacts on cash flows, including payout terms, premiums, and risks covered. Consult management for materiality thresholds, and refer to the IFRS Conceptual Framework for guidance on materiality. If no guidance exists, assess materiality based on the entity’s size and industry practices.",
+              "yes_case": {
+                "question": "Has the entity disclosed information about the terms and conditions of these insurance contracts?",
+                "guidance": "Inspect the financial statement disclosures, particularly in the notes section, for a description of the terms and conditions of the insurance contracts. The disclosure should include details that help users understand the nature and impact of these contracts on cash flows, such as coverage periods, premium structures, and conditions triggering payouts.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "4.8",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.38",
+          "question": "Does the entity have insurance contracts that are accounted for under IFRS 4?",
+          "question_type": "Followup",
+          "source_question": "4.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed information to identify and explain the amounts in its financial statements arising from insurance contracts?",
+          "decision_tree": {
+            "question": "Does the entity have insurance contracts that are accounted for under IFRS 4?",
+            "guidance": "Review the notes to the financial statements, and assess whether the entity has insurance contracts within the scope of IFRS 4. Verify that the contracts meet the definitions provided in IFRS 4.2 and IFRS 4 Appendix A. If no insurance contracts exist, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity disclosed information sufficient to identify amounts in the financial statements arising from insurance contracts?",
+              "guidance": "Examine the disclosures provided in the financial statements, particularly in the notes section. Information must include significant accounting policies, assumptions, and explanations for recognizing revenues, expenses, assets, and liabilities from insurance contracts as outlined in IFRS 4.38.",
+              "yes_case": {
+                "question": "Has the entity explained these amounts (from insurance contracts) clearly, in accordance with IFRS 4?",
+                "guidance": "Assess the clarity and comprehensiveness of the explanations provided for amounts recognized and reported from insurance contracts. Ensure alignment with IFRS 4.38 requirements, including key accounting estimates and judgments.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "4.9",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.39(a)(i)",
+          "question": "Does the entity issue insurance contracts?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed its accounting policies for insurance contracts and related assets, liabilities, income and expense, including how it determines the carrying amount of financial assets and insurance liabilities?",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts?",
+            "guidance": "Review the entity's operations, products, and services to verify if it issues contracts with significant insurance risk as defined in IFRS 4.39(a)(i). Check the financial statement notes for references to insurance contracts and related items.",
+            "yes_case": {
+              "question": "Has the entity disclosed its accounting policies for insurance contracts and related assets, liabilities, income, and expenses?",
+              "guidance": "Check the accounting policy section of the financial statements. Ensure that policies are disclosed for determining the carrying amounts of financial assets and insurance liabilities. Pay attention to descriptions related to recognition, measurement, and updates in these policies, if any.",
+              "yes_case": {
+                "question": "Do the disclosed accounting policies include how the entity determines the carrying amount of financial assets and insurance liabilities?",
+                "guidance": "Focus on the specific disclosure of methodology for determining carrying amounts (e.g., amortized cost, fair value, etc.). Ensure the methods are consistent with IFRS 4 and clearly explained in the financial statement notes.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "4.10",
+          "section": "IFRS_4",
+          "reference": "IFRS 4.39(a)(ii)",
+          "question": "Does the entity carry insurance contracts that require measurement under IFRS 4?",
+          "question_type": "Followup",
+          "source_question": "4.9",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed how the assumptions used in the measurement relate to observable market prices or rates?",
+          "decision_tree": {
+            "question": "Does the entity carry insurance contracts that require measurement under IFRS 4?",
+            "guidance": "Review the entity's financial statements to identify any insurance contracts. Check the accounting policies note and confirm whether they are accounted for under IFRS 4. Ensure the contracts meet IFRS 4.39(a)(ii) criteria for measurement assumptions.",
+            "yes_case": {
+              "question": "Has the entity disclosed the assumptions used in the measurement of insurance contracts in accordance with IFRS 4?",
+              "guidance": "Examine the financial statement disclosures, especially in the notes on insurance contracts. Look for clear documentation of the assumptions used for measurement, as required by IFRS 4.39(a)(ii). Common pitfalls include vague or missing descriptions of assumptions.",
+              "yes_case": {
+                "question": "Do the disclosed assumptions relate to observable market prices or rates?",
+                "guidance": "Ensure the disclosed assumptions clearly connect to observable market inputs, such as interest rates, inflation, or other relevant indices. Cross-reference with market data where available. Avoid accepting assumptions that are purely speculative or unsupported.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

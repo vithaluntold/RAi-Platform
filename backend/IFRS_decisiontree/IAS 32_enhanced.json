@@ -1,0 +1,62 @@
+{
+  "title": "Financial Instruments: Presentation (IAS 32) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 32",
+      "title": "Financial Instruments: Presentation",
+      "description": "Checklist for presentation and disclosure requirements under IAS 32.",
+      "items": [
+        {
+          "id": "136",
+          "section": "IAS 32",
+          "reference": "IAS 32.39, IAS 1.109",
+          "question": "Did the entity incur transaction costs that were accounted for as a deduction from equity during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity separately disclose the amount of transaction costs accounted for as a deduction from equity in the reporting period in the statement of changes in equity?",
+          "decision_tree": {
+            "question": "Did the entity incur transaction costs that were accounted for as a deduction from equity during the reporting period?",
+            "guidance": "Review the entity's financial statements, especially the statement of changes in equity and supporting notes. Transaction costs deducted from equity typically relate to equity transactions such as issuing shares. Verify the entity had such transactions recorded in the current reporting period to proceed.",
+            "yes_case": {
+              "question": "Are the transaction costs separately disclosed in the statement of changes in equity for the reporting period?",
+              "guidance": "Check the statement of changes in equity and the related notes to ensure the amount of transaction costs deducted from equity is explicitly stated. Common pitfalls include lumping transaction costs with other equity movements without separate disclosure.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "137",
+          "section": "IAS 32",
+          "reference": "IAS 32.39, IAS 12.81",
+          "question": "Has the entity incurred transaction costs that are accounted for as a deduction from equity?",
+          "context_required": "financial_statements",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity include the amount of income taxes associated with transaction costs accounted for as a deduction from equity in the aggregate amount of current and deferred tax credited or charged directly to equity?",
+          "decision_tree": {
+            "question": "Has the entity incurred transaction costs that are accounted for as a deduction from equity?",
+            "guidance": "Review the equity section of the financial statements and any related disclosures. Look for examples such as costs associated with issuing shares or other equity instruments. These costs must be directly attributable to the issuance of equity instruments.",
+            "yes_case": {
+              "question": "Are there associated income taxes (current or deferred) related to these transaction costs?",
+              "guidance": "Examine tax-related disclosures, including deferred and current tax computation details. Check whether income taxes have been explicitly recognized for these transaction costs deducted from equity. Ensure alignment with IAS 12 requirements for income tax treatment.",
+              "yes_case": {
+                "question": "Are these income taxes included in the aggregate amount credited or charged directly to equity?",
+                "guidance": "Inspect the financial statements and notes. Verify whether the entity has clearly included the related current and deferred taxes in the equity section and disclosed this in accordance with IAS 32.39 and IAS 12.81.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

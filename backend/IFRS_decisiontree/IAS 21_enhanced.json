@@ -1,0 +1,648 @@
+{
+  "title": "The Effects of Changes in Foreign Exchange Rates (IAS 21) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 21",
+      "title": "The Effects of Changes in Foreign Exchange Rates",
+      "description": "Checklist for presentation and disclosure requirements under IAS 21.",
+      "items": [
+        {
+          "id": "384.1",
+          "section": "IAS 21",
+          "reference": "IAS 21.52(a)",
+          "question": "Has the entity recognized any exchange differences in profit or loss during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose the amount of exchange differences recognised in profit or loss except for those arising on financial instruments measured at fair value through profit or loss?",
+          "decision_tree": {
+            "question": "Has the entity recognized any exchange differences in profit or loss during the reporting period?",
+            "guidance": "Review the Statement of Profit or Loss and Other Comprehensive Income for any line items or notes disclosing exchange differences. Check all relevant accounts, such as foreign currency transactions, revaluation of foreign currency monetary items, or consolidated foreign operations. Exclude financial instruments measured at fair value through profit or loss, as these are not applicable.",
+            "yes_case": {
+              "question": "Has the entity excluded exchange differences arising from financial instruments measured at fair value through profit or loss in its disclosure?",
+              "guidance": "Confirm that any exchange differences recognized in profit or loss do not include those arising from financial instruments measured at fair value through profit or loss (e.g., derivatives or equity investments classified as FVPL). Review the IFRS 9 disclosures for financial instruments for clarity and verify proper categorization.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of exchange differences recognized in profit or loss, as required by IAS 21.52(a)?",
+                "guidance": "Check the notes to the financial statements for disclosures specifying the amounts of exchange differences recognized in profit or loss. Ensure the disclosure clearly segregates amounts arising from foreign currency transactions from other exchange differences.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "384.2",
+          "section": "IAS 21",
+          "reference": "IAS 21.52(b)",
+          "question": "Does the entity report foreign currency translation adjustments or exchange differences in other comprehensive income?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose net exchange differences recognised in other comprehensive income, accumulated in a separate component of equity, and a reconciliation of the amount of such exchange differences at the beginning and end of the period?",
+          "decision_tree": {
+            "question": "Does the entity report foreign currency translation adjustments or exchange differences in other comprehensive income?",
+            "guidance": "Review the Statement of Other Comprehensive Income for any line items related to foreign currency translation adjustments or exchange differences. Look for references to IAS 21 disclosures and any mention of exchange differences accumulated in equity. Check currency translations of foreign operations in consolidated financial statements.",
+            "yes_case": {
+              "question": "Has the entity accumulated exchange differences in a separate component of equity, such as exchange reserve or other equity reserves?",
+              "guidance": "Review the statement of changes in equity or relevant notes to identify whether exchange differences have been correctly allocated to a separate component within equity in accordance with IAS 21.52(b). Confirm that the amount aligns with the reconciliation provided in the financial statements.",
+              "yes_case": {
+                "question": "Does the entity disclose a reconciliation of the accumulated exchange differences at the beginning and end of the period, highlighting movements?",
+                "guidance": "Check the financial statement notes. The reconciliation should show opening balance, addition or reduction due to changes in net exchange differences, and closing balance in accordance with IAS 21.52(b). Verify accuracy with supporting calculations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Does the entity fail to accumulate exchange differences in a separate component of equity despite recognising them in OCI?",
+                "guidance": "Review IAS 21.52(b) and ensure compliance. If exchange differences are reflected in OCI but not separately recorded in equity, this indicates a compliance issue.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: YES"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "385.1",
+          "section": "IAS 21",
+          "reference": "IAS 21.53(a)",
+          "question": "Is the presentation currency different from the functional currency?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the presentation currency is different from the functional currency, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Is the presentation currency different from the functional currency?",
+            "guidance": "Review the financial statements and accompanying notes. Check the presentation currency stated on the face of the financial statements (e.g., 'All amounts are presented in [currency]'). Compare this to the functional currency, which is determined based on IAS 21. The functional currency is the currency of the primary economic environment in which the entity operates. Ensure accurate identification to avoid misinterpretation.",
+            "yes_case": {
+              "question": "Does the entity disclose the fact that the presentation currency is different from the functional currency?",
+              "guidance": "Inspect the notes to the financial statements for specific disclosures about the presentation and functional currency difference. This disclosure is typically stated explicitly under the accounting policies or currency-related notes. Ensure the statement clearly mentions that the presentation currency differs from the functional currency.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "385.2",
+          "section": "IAS 21",
+          "reference": "IAS 21.53(b)",
+          "question": "Has the entity prepared financial statements?",
+          "question_type": "Followup",
+          "source_question": "385.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the functional currency?",
+          "decision_tree": {
+            "question": "Has the entity prepared financial statements?",
+            "guidance": "Verify whether the entity prepares external financial statements in accordance with IFRS standards. Check the presence of a Statement of Financial Position, Statement of Profit or Loss, and other elements that constitute complete financial statements per IAS 1.",
+            "yes_case": {
+              "question": "Has the entity determined its functional currency?",
+              "guidance": "Review the entity's financial statements for a declared functional currency. IAS 21 specifies that the functional currency is the currency of the primary economic environment in which the entity operates. Look for details in the accounting policies note or introductory sections of the financial statements.",
+              "yes_case": {
+                "question": "Does the entity disclose the functional currency within its financial statements as required by IAS 21.53(b)?",
+                "guidance": "Examine the disclosures in the financial statements, particularly under accounting policies or notes outlining the basis of preparation. Ensure the functional currency is prominently disclosed, consistent with IAS 21.53(b). Common pitfalls include omitting the disclosure or using ambiguous language.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "385.3",
+          "section": "IAS 21",
+          "reference": "IAS 21.53(c)",
+          "question": "Does the entity’s financial statements use a presentation currency different from the functional currency?",
+          "question_type": "Followup",
+          "context_required": "notes_only",
+          "source_question": "385.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the reason for using a different presentation currency?",
+          "decision_tree": {
+            "question": "Does the entity’s financial statements use a presentation currency different from the functional currency?",
+            "guidance": "Review the financial statements, specifically the currency used for presenting financial information. Compare this with the currency described as the functional currency in the notes to the financial statements (IAS 21.8-10).",
+            "yes_case": {
+              "question": "Has the entity disclosed the reason for using a presentation currency different from the functional currency in the notes to the financial statements?",
+              "guidance": "Check the notes section under 'Currency Information' or similar disclosures. Ensure the entity provides a clear explanation of the rationale for using a different presentation currency, as required by IAS 21.53(c). Common pitfalls include vague, incomplete, or missing explanations.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "386.1",
+          "section": "IAS 21",
+          "reference": "IAS 21.54(a)",
+          "question": "Has there been a change in the functional currency of the reporting entity or a significant foreign operation during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If there is a change in the functional currency of the reporting entity or a significant foreign operation, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Has there been a change in the functional currency of the reporting entity or a significant foreign operation during the reporting period?",
+            "guidance": "Review the entity's financial statements and supporting documentation. Check for any notes in the management reports or disclosures indicating a change in functional currency. A functional currency change could be driven by substantial shifts in economic conditions or the primary currency influencing the entity's operations. Verify against IAS 21.9-10 for identifying functional currency.",
+            "yes_case": {
+              "question": "Has the entity disclosed the fact of the change in functional currency within its financial statements?",
+              "guidance": "Examine the financial statement disclosures, particularly the notes section. The disclosure should explicitly mention the change in functional currency, the reason for the change, and its impact, in accordance with IAS 21.54(a). Pay attention to compliance with disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "386.2",
+          "section": "IAS 21",
+          "reference": "IAS 21.54(b)",
+          "question": "Has the entity changed its functional currency during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "386.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the reason for the change in functional currency?",
+          "decision_tree": {
+            "question": "Has the entity changed its functional currency during the reporting period?",
+            "guidance": "Review the financial statements, particularly the Notes to the Accounts, and check whether there is any mention of a change in the functional currency. Look for terms such as 'functional currency', 'currency change', or 'currency re-assessment'. Cross-verify with IAS 21. Paragraphs 9-11 provide guidance on determining functional currency. Be cautious of incomplete disclosures.",
+            "yes_case": {
+              "question": "Has the entity provided a disclosure of the reason for the change in functional currency?",
+              "guidance": "Examine the Notes to the Accounts or specific disclosure sections related to IAS 21 compliance. The disclosure should explain in clear terms why the change has occurred—this typically includes a description of significant events or changes in circumstances that lead to the reassessment of functional currency, such as shifts in the entity’s primary economic environment.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "387",
+          "section": "IAS 21",
+          "reference": "IAS 21.55, IAS 21.39, IAS 21.42",
+          "question": "Does the entity present its financial statements in a currency different from its functional currency?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity presents its financial statements in a currency different from its functional currency, does it describe them as complying with IFRS only if they comply with all applicable requirements, including the translation method in IAS 21.39 and IAS 21.42?",
+          "decision_tree": {
+            "question": "Does the entity present its financial statements in a currency different from its functional currency?",
+            "guidance": "Review the financial statements, specifically the primary currency used for presentation purposes (e.g., the currency displayed in the statement of financial position or income statement headers). Compare this to the functional currency determined based on IAS 21.9-12 (e.g., currency of primary economic environment).",
+            "yes_case": {
+              "question": "Does the entity describe its financial statements as complying with IFRS?",
+              "guidance": "Check the accounting policies note or the basis of preparation section in the financial statements to confirm if the entity explicitly states compliance with IFRS.",
+              "yes_case": {
+                "question": "Does the entity comply with all applicable requirements for translation, including the method prescribed in IAS 21.39 and IAS 21.42?",
+                "guidance": "Verify that the entity has applied the translation method correctly as per IAS 21.39 (translate assets and liabilities at closing rate, income and expenses at rates on the transaction date or average rate, etc.) and IAS 21.42 (recognize exchange differences in other comprehensive income). Check for any deviations or omitted disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "388.1",
+          "section": "IAS 21",
+          "reference": "IAS 21.55(a)",
+          "question": "Is supplementary financial information presented in a currency different from the functional or presentation currency?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "When presenting supplementary information in a currency different from functional or presentation currency, does the entity disclose that the information is supplementary?",
+          "decision_tree": {
+            "question": "Is supplementary financial information presented in a currency different from the functional or presentation currency?",
+            "guidance": "Examine the financial statements and check if any supplementary information (e.g., additional schedules, unaudited figures) is provided in a currency that differs from the functional currency or the primary presentation currency. Ensure this analysis includes all disclosures or schedules beyond the main financial statements.",
+            "yes_case": {
+              "question": "Has the entity disclosed that the supplementary financial information is supplementary?",
+              "guidance": "Review the notes to the financial statements or the supplementary schedules. Ensure the entity explicitly mentions that the additional information presented in the alternative currency is supplementary and does not form part of the audited financial statements. Look for clear wording to avoid misleading users.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "388.2",
+          "section": "IAS 21",
+          "reference": "IAS 21.55(b)",
+          "question": "Does the entity provide supplementary information in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the currency in which the supplementary information is displayed?",
+          "decision_tree": {
+            "question": "Does the entity provide supplementary information in its financial statements?",
+            "guidance": "Review the financial statements and accompanying notes for any supplementary information presented or disclosed. Supplementary information refers to additional data provided voluntarily or to meet specific requirements, beyond the standard financial statement disclosures.",
+            "yes_case": {
+              "question": "Is the supplementary information displayed in a currency other than the entity's functional currency?",
+              "guidance": "Check the currency used for supplementary information. Compare it with the entity's functional currency as defined in IAS 21. Look for explicit indications in the notes or descriptions accompanying the supplementary information.",
+              "yes_case": {
+                "question": "Does the entity disclose the currency in which the supplementary information is displayed?",
+                "guidance": "Confirm that the financial statements or notes explicitly state the currency of the supplementary information. Common disclosure locations include notes accompanying the supplementary information or a dedicated section detailing the basis of preparation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "388.3",
+          "section": "IAS 21",
+          "reference": "IAS 21.57(c)",
+          "question": "Does the entity provide supplementary information using a currency other than the functional currency?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the functional currency and the method of translation used for the supplementary information?",
+          "decision_tree": {
+            "question": "Does the entity provide supplementary information using a currency other than the functional currency?",
+            "guidance": "Review the financial statements and supplementary information provided by the entity. Check if any section of the financial statements or accompanying notes uses a currency other than the functional currency for supplementary disclosure. Ensure clarity by referencing IAS 21 Guidance on foreign currency disclosures.",
+            "yes_case": {
+              "question": "Does the entity disclose its functional currency in the financial statements?",
+              "guidance": "Review the disclosures in the financial statements, especially in the accounting policies section. The functional currency must be explicitly mentioned as per IAS 21. Paragraph 57(c). Ensure the entity uses the correct terminology and avoid confusion with presentation currency.",
+              "yes_case": {
+                "question": "Does the entity disclose the method of translation used for supplementary information provided in a currency other than the functional currency?",
+                "guidance": "Check the accompanying notes or supplementary information to identify if the entity describes how amounts were translated into the supplementary currency. Look for disclosures regarding exchange rates, assumptions, and the translation methodology, which IAS 21 encourages for transparency.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "389.1",
+          "section": "IAS 21",
+          "reference": "IAS 21.57A(a)",
+          "question": "Does the entity have a currency that is not exchangeable?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "When estimating a spot exchange rate because a currency is not exchangeable, does the entity disclose the nature and financial effects of the currency not being exchangeable?",
+          "decision_tree": {
+            "question": "Does the entity have a currency that is not exchangeable?",
+            "guidance": "Review the entity's transactions and financial statements for indications that it holds or transacts in currencies which cannot be exchanged for another currency. This often arises due to government-imposed restrictions or lack of an active foreign exchange market.",
+            "yes_case": {
+              "question": "Has the entity estimated a spot exchange rate for the non-exchangeable currency as required under IAS 21.57A?",
+              "guidance": "Examine the entity's financial statements and underlying records to confirm that it has determined an appropriate spot exchange rate based on IAS 21 guidance. Ensure this rate is calculated using observable inputs, such as official exchange rates from countries with similar financial conditions.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature and financial effects of the currency not being exchangeable?",
+                "guidance": "Check the financial statement disclosures, particularly the notes on foreign exchange and currency translation. Ensure that the entity provides sufficient details regarding how and why the currency is not exchangeable, as well as the financial impacts on its operations and financial position.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "389.2",
+          "section": "IAS 21",
+          "reference": "IAS 21.57A(b)",
+          "question": "Does the entity conduct transactions or hold balances denominated in foreign currencies?",
+          "question_type": "Followup",
+          "source_question": "389.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the spot exchange rate(s) used?",
+          "decision_tree": {
+            "question": "Does the entity conduct transactions or hold balances denominated in foreign currencies?",
+            "guidance": "Check the entity's trial balance, general ledger, or transaction logs for evidence of foreign currency transactions or balances. Common indicators include accounts labeled in terms of a foreign currency (e.g., USD, EUR) or notes describing foreign currency activities. If no foreign currency is present, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Do the financial statements include disclosures related to foreign currency transactions or balances?",
+              "guidance": "Review the notes to the financial statements, specifically those referencing foreign currency items (e.g., foreign currency translation, exchange rate gains/losses, or accounts payable/receivable in foreign currencies). If no related disclosures are found, the checklist item may be non-compliant.",
+              "yes_case": {
+                "question": "Does the entity disclose the spot exchange rate(s) used for foreign currency translation?",
+                "guidance": "Inspect the notes to the financial statements under the section detailing foreign currency translation. Confirm that the notes specify the spot exchange rate (e.g., at the transaction date or reporting date) used for converting foreign currency amounts into the functional currency. Lack of this information constitutes non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "389.3",
+          "section": "IAS 21",
+          "reference": "IAS 21.57A(c)",
+          "question": "Does the entity have foreign currency transactions or balances that require estimation (e.g., exchange rates applied)?",
+          "question_type": "Followup",
+          "source_question": "389.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the estimation process?",
+          "decision_tree": {
+            "question": "Does the entity have foreign currency transactions or balances that require estimation (e.g., exchange rates applied)?",
+            "guidance": "Review the entity's financial statements and accounting policies. Check for references to foreign currency conversions, exchange rate application, or areas impacted by IAS 21 (e.g., foreign operations, currency translation adjustments). Common pitfalls include missing documentation of foreign currency activities or overlooking immaterial transactions.",
+            "yes_case": {
+              "question": "Has the entity made significant estimates related to foreign currency exchange rates or translations?",
+              "guidance": "Examine management's discussion and notes to the financial statements, especially areas requiring judgment or estimation. Look for disclosures on exchange rates and any significant assumptions applied. Focus on materiality thresholds and changes in estimates over reporting periods.",
+              "yes_case": {
+                "question": "Does the entity disclose the estimation process used for foreign currency conversions as required under IAS 21.57A(c)?",
+                "guidance": "Check the notes to the financial statements for explicit disclosure of the methods or processes used to estimate exchange rates. Ensure that the disclosure explains the rationale, key assumptions, and how the entity derived the exchange rates applied.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "389.4",
+          "section": "IAS 21",
+          "reference": "IAS 21.57A(d)",
+          "question": "Is the entity involved in transactions or operations with a currency that is not exchangeable into another currency?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "389.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the risks to which it is exposed because of the currency not being exchangeable into the other currency?",
+          "decision_tree": {
+            "question": "Is the entity involved in transactions or operations with a currency that is not exchangeable into another currency?",
+            "guidance": "Check the entity's financial records, transaction details, and disclosures to identify if it is exposed to situations where a currency cannot be exchanged into another currency (e.g., due to government regulations, economic sanctions, or currency controls). Look for specific indications in geographical areas or business units operating in restrictive environments. This information may be found in the notes to the financial statements or risk disclosures.",
+            "yes_case": {
+              "question": "Does the entity disclose the risks it is exposed to due to the currency not being exchangeable into the other currency?",
+              "guidance": "Verify that the entity has disclosed the risks associated with the non-exchangeable currency, including potential impacts on operations, cash flows, and financial position. This information is typically found in the risk management section or currency risk notes of the financial statement disclosures. Ensure the description is clear, specific, and relevant.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "390.1",
+          "section": "IAS 21",
+          "reference": "IAS 21.A19(a)",
+          "question": "Does the entity have monetary items or balances denominated in a currency that is not exchangeable due to restrictions?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "389.1",
+          "source_trigger": "Yes",
+          "original_question": "When applying IAS 21.57A, does the entity disclose the currency and describe the restrictions that make it not exchangeable?",
+          "decision_tree": {
+            "question": "Does the entity have monetary items or balances denominated in a currency that is not exchangeable due to restrictions?",
+            "guidance": "Examine the entity's trial balance, contracts, and disclosures. Look for monetary items (e.g., cash, receivables, payables) in a currency with restrictions making it non-exchangeable. Check applicable jurisdictional laws or currency regulations for such restrictions.",
+            "yes_case": {
+              "question": "Has the entity applied IAS 21.57A to account for the non-exchangeable currency appropriately?",
+              "guidance": "Review the financial statements for compliance with IAS 21.57A. Specifically, check if the entity has accounted for items denominated in this currency as per the standard, which may include alternative exchange rates or estimated realizable values.",
+              "yes_case": {
+                "question": "Does the entity disclose the currency and describe the restrictions that make it non-exchangeable in the financial statements?",
+                "guidance": "Examine the entity's notes to the financial statements. Verify if the disclosure explicitly identifies the non-exchangeable currency and provides a description of the restrictions causing this situation. Ensure the disclosure is sufficiently detailed to meet the requirements of IAS 21.A19(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "390.2",
+          "section": "IAS 21",
+          "reference": "IAS 21.A19(b)",
+          "question": "Do the entity’s financial statements include foreign currency transactions?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "389.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose a description of affected transactions?",
+          "decision_tree": {
+            "question": "Do the entity’s financial statements include foreign currency transactions?",
+            "guidance": "Review the entity’s financial statements, specifically items such as revenue, expenses, assets, liabilities, or equity accounts denominated in foreign currencies. Refer to IAS 21.2 for the definition of foreign currency transactions and ensure all relevant accounts are identified. Verify supporting documentation for foreign currency transactions (e.g., invoices, contracts).",
+            "yes_case": {
+              "question": "Has the entity disclosed a description of the foreign currency transactions affected?",
+              "guidance": "Inspect the financial statements, particularly the notes to the accounts or disclosures related to foreign currency risks and transactions. Ensure compliance with IAS 21.A19(b), which requires a qualitative description of the transactions (e.g., nature, currency involved, and conditions). Common pitfalls to watch for include incomplete descriptions or disclosures that lack sufficient detail to comply with the standard.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "390.3",
+          "section": "IAS 21",
+          "reference": "IAS 21.A19(c)",
+          "question": "Does the entity have assets or liabilities affected by changes in foreign exchange rates?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "389.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the carrying amount of affected assets and liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have assets or liabilities affected by changes in foreign exchange rates?",
+            "guidance": "Review the Statement of Financial Position and related notes. Look for assets and liabilities denominated in foreign currencies or subject to foreign exchange rate fluctuations (e.g., foreign loans, trade payables, receivables, or investments in foreign operations). Verify if any balances are exposed to exchange rate variations.",
+            "yes_case": {
+              "question": "Has the entity recognized these affected assets or liabilities in its financial statements?",
+              "guidance": "Check the financial statements to ensure the affected assets and liabilities are recognized. For example, examine line items such as 'Foreign Trade Receivables', 'Foreign Trade Payables', or 'Foreign Debt Instruments' on the Statement of Financial Position. Exposure to foreign exchange changes without recognition would indicate non-compliance.",
+              "yes_case": {
+                "question": "Does the entity disclose the carrying amount of these affected assets and liabilities?",
+                "guidance": "Review the financial statement disclosures, particularly in the Notes section. Ensure that the carrying amounts of all relevant affected assets and liabilities are disclosed as required by IAS 21.A19(c). This includes clarity on the denominations, foreign exchange rates used, and classes of items exposed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "390.4",
+          "section": "IAS 21",
+          "reference": "IAS 21.A19(d)",
+          "question": "Does the entity have foreign currency transactions or balances?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "389.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the spot exchange rates used and whether they are observable without adjustment or estimated using another technique?",
+          "decision_tree": {
+            "question": "Does the entity have foreign currency transactions or balances?",
+            "guidance": "Refer to the entity's general ledger, trial balance, or financial statement notes to determine if there are any transactions, assets, or liabilities denominated in foreign currency. Common examples include foreign sales, purchases, loans, or investments. Be cautious not to overlook immaterial amounts.",
+            "yes_case": {
+              "question": "Has the entity used spot exchange rates for translating foreign currency transactions or balances?",
+              "guidance": "Review the financial statements and accounting policies to identify the exchange rates applied. Spot exchange rates are the rates applicable at the date of the transaction or reporting. Validate this against IAS 21 requirements.",
+              "yes_case": {
+                "question": "Does the entity disclose the spot exchange rates used and whether they are observable without adjustment or estimated using another technique?",
+                "guidance": "Check the financial statement notes or disclosures section for the information on how exchange rates used for translation are determined. Ensure the disclosure includes both the rates used and whether the rates are observable from market sources or estimated. Cross-check this with the IAS 21.A19(d) requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "390.5",
+          "section": "IAS 21",
+          "reference": "IAS 21.A19(e)",
+          "question": "Has the entity used estimation techniques in applying IAS 21, The Effects of Changes in Foreign Exchange Rates?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "389.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity describe any estimation technique used, and provide qualitative and quantitative information about inputs and assumptions?",
+          "decision_tree": {
+            "question": "Has the entity used estimation techniques in applying IAS 21, The Effects of Changes in Foreign Exchange Rates?",
+            "guidance": "Review the financial statements and notes to determine if the entity applied any estimation techniques for foreign currency translation or valuation. Common examples include estimated exchange rates for unquoted currencies or inflation-adjusted conversion rates. Check IAS 21 requirements and the entity's accounting policies section.",
+            "yes_case": {
+              "question": "Has the entity disclosed the estimation techniques used in compliance with IAS 21.A19(e)?",
+              "guidance": "Verify the notes to the financial statements. Look for a specific description of methods, assumptions, and processes involved in the estimation techniques. Ensure qualitative and quantitative inputs are clearly explained, including key assumptions.",
+              "yes_case": {
+                "question": "Has the entity provided qualitative and quantitative information about inputs and assumptions used in the estimation techniques?",
+                "guidance": "Examine the disclosures for detailed information regarding the estimation inputs (e.g., exchange rates, inflation data). Ensure the disclosures are both qualitative (e.g., narrative explanations) and quantitative (e.g., numerical data on inputs or sensitivities). Confirm compliance with IAS 21.A19(e).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "390.6",
+          "section": "IAS 21",
+          "reference": "IAS 21.A19(f)",
+          "question": "Does the entity have assets and liabilities exposed to foreign exchange risk?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "389.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose qualitative information about each type of risk and the nature and carrying amount of assets and liabilities exposed?",
+          "decision_tree": {
+            "question": "Does the entity have assets and liabilities exposed to foreign exchange risk?",
+            "guidance": "Review the Statement of Financial Position and supporting notes to identify assets and liabilities denominated in foreign currencies, as well as items impacted by changes in foreign exchange rates. Common examples are foreign currency loans, accounts receivable/payable in foreign denominations, or foreign investments. Confirm exposures by reviewing transaction details and contracts.",
+            "yes_case": {
+              "question": "Does the entity disclose qualitative information about each type of foreign exchange risk it is exposed to?",
+              "guidance": "Check the disclosures in the financial statements, specifically in the risk management section. This typically provides qualitative descriptions of the nature of risks related to foreign exchange exposure, such as operational or transactional risks. Verify that descriptions are accurate, complete, and cover all significant foreign exchange risks.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature and carrying amounts of assets and liabilities exposed to foreign exchange risk?",
+                "guidance": "Review the notes to the financial statements for disclosures specifying the nature of foreign currency-denominated assets and liabilities, as well as their carrying amounts. Ensure the disclosures include aggregate details or break them down by currency or type, as required by IAS 21.A19(f). Look for consistency between disclosed amounts and those presented in the Statement of Financial Position.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "391.1",
+          "section": "IAS 21",
+          "reference": "IAS 21.A20(a)",
+          "question": "Does the entity have a foreign operation whose functional currency is not exchangeable?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When a foreign operation's functional currency is not exchangeable, does the entity disclose the name of the foreign operation, its form (subsidiary, joint venture, etc.) and its principal place of business?",
+          "decision_tree": {
+            "question": "Does the entity have a foreign operation whose functional currency is not exchangeable?",
+            "guidance": "Review the entity's financial statements and identify any foreign operations. Check whether the functional currency of any foreign operation is restricted from being exchanged into other currencies as per local laws or regulations. Refer to the notes accompanying the financial statements for information on currency restrictions.",
+            "yes_case": {
+              "question": "Has the entity disclosed the name of the foreign operation, its form (subsidiary, joint venture, etc.), and its principal place of business?",
+              "guidance": "Examine the notes to the financial statements related to foreign currency exchange and functional currency. Look for specific disclosure detailing the foreign operation's name, organizational form (e.g., subsidiary or joint venture), and principal place of business, as required by IAS 21.A20(a). Ensure that the disclosure is clear and complete.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "391.2",
+          "section": "IAS 21",
+          "reference": "IAS 21.A20(b)",
+          "question": "Does the entity have a foreign operation?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "391.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose summarised financial information about that foreign operation?",
+          "decision_tree": {
+            "question": "Does the entity have a foreign operation?",
+            "guidance": "Determine if the entity has operations outside its functional currency environment. Review the entity's organizational structure, its financial statements, and disclosures for references to foreign subsidiaries, branches, or investments. Ensure to check for intercompany transactions indicating foreign activities.",
+            "yes_case": {
+              "question": "Is summarised financial information about the foreign operation required to be disclosed under IAS 21?",
+              "guidance": "Review IAS 21. Paragraph A20(b) states that summarised financial information must be disclosed when the foreign operation is significant to the entity's financial position and performance. Verify whether the foreign operation represents a material component of the financial statements or has significant risk exposure.",
+              "yes_case": {
+                "question": "Has the entity disclosed summarised financial information about the foreign operation?",
+                "guidance": "Check the notes to the financial statements. Look for details such as the foreign operation's revenue, profit, assets, liabilities, and other relevant financial data. Ensure that disclosures are adequately detailed and informative as required by IAS 21.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "391.3",
+          "section": "IAS 21",
+          "reference": "IAS 21.A20(c)",
+          "question": "Does the entity have any foreign operations?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "391.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the nature and terms of any contractual arrangements that could require financial support to that foreign operation, including events or circumstances that could expose the entity to a loss?",
+          "decision_tree": {
+            "question": "Does the entity have any foreign operations?",
+            "guidance": "Check the financial statements and supporting documentation for references to subsidiaries, associates, joint ventures, or branches operating outside the entity's functional currency area. Common indicators include disclosures on foreign exchange risks or non-local currencies.",
+            "yes_case": {
+              "question": "Are there contractual arrangements in place that could require financial support for the foreign operation?",
+              "guidance": "Review agreements, joint venture contracts, loan agreements, or other legal documents pertaining to the foreign operation. Look for clauses related to guarantees, financial commitments, or funding requirements.",
+              "yes_case": {
+                "question": "Are the nature and terms of these contractual arrangements disclosed in the financial statements?",
+                "guidance": "Check the notes specifically for disclosures concerning foreign operations and examine whether they describe the nature of the financial support, key terms, and potential loss exposures tied to these arrangements. Ensure compliance with IAS 21.A20(c) requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "392",
+          "section": "IAS 21",
+          "reference": "IAS 21.60L",
+          "question": "Has the entity applied Amendments to IAS 21 – Lack of Exchangeability in its financial statements for a period beginning before 1 January 2025?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity applies Amendments to IAS 21 – Lack of Exchangeability, issued August 2023, in financial statements for a period beginning before 1 January 2025, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Has the entity applied Amendments to IAS 21 – Lack of Exchangeability in its financial statements for a period beginning before 1 January 2025?",
+            "guidance": "Check the financial statements, particularly the notes section and accounting policies disclosure. Look for explicit mention of Amendments to IAS 21 – Lack of Exchangeability and verify the reporting period start date. Common pitfalls include overlooking retrospective application or misidentifying amendments applied to future periods.",
+            "yes_case": {
+              "question": "Does the entity disclose the fact that it applied Amendments to IAS 21 – Lack of Exchangeability for a period beginning before 1 January 2025?",
+              "guidance": "Review the disclosure notes for confirmation of this specific statement. The disclosure might be found in the accounting policy section or footnotes explaining standards adopted early. Ensure the disclosure explicitly mentions both the amendment name and early application period.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

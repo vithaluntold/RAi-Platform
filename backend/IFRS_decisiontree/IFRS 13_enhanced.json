@@ -1,0 +1,771 @@
+{
+  "title": "IFRS 13 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 13",
+      "title": "Fair value measurement",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 13.",
+      "items": [
+        {
+          "id": "278.1",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.91(a)",
+          "question": "Does the entity measure any assets or liabilities at fair value on a recurring or non-recurring basis after initial recognition?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For assets and liabilities that are measured at fair value on a recurring or non-recurring basis after initial recognition, does the entity disclose the valuation techniques and inputs used to develop those measurements?",
+          "decision_tree": {
+            "question": "Does the entity measure any assets or liabilities at fair value on a recurring or non-recurring basis after initial recognition?",
+            "guidance": "Review the financial statements, particularly the measurement policies in the notes and disclosures. Recurring fair value measurements typically occur at the end of each reporting period (e.g., investment properties), while non-recurring measurements are triggered by specific events (e.g., asset impairments). Check IFRS 13 application sections for relevant measurement guidance.",
+            "yes_case": {
+              "question": "Does the entity disclose the valuation techniques and inputs used to develop those fair value measurements?",
+              "guidance": "Examine the notes to the financial statements where fair value disclosures are made. Look for descriptions of valuation techniques (e.g., market or income approach) and inputs (e.g., Level 1: quoted prices; Level 2: observable inputs; Level 3: unobservable inputs). Ensure that the disclosures align with IFRS 13.91(a) requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "278.2",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.91(b)",
+          "question": "Does the entity have recurring fair value measurements that use significant unobservable inputs (Level 3)?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "278.1",
+          "source_trigger": "Yes",
+          "original_question": "For recurring fair value measurements using significant unobservable inputs (Level 3), does the entity disclose the effect of those measurements on profit or loss or other comprehensive income for the period?",
+          "decision_tree": {
+            "question": "Does the entity have recurring fair value measurements that use significant unobservable inputs (Level 3)?",
+            "guidance": "Review the financial statements, particularly the notes on fair value measurements and accounting policies. Look for recurring (non-one-time) measurements classified as Level 3 under the fair value hierarchy, which involve significant unobservable inputs.",
+            "yes_case": {
+              "question": "Does the entity disclose the effect of these Level 3 fair value measurements on profit or loss or other comprehensive income (OCI) for the period?",
+              "guidance": "Verify the disclosures in the notes to the financial statements. Specifically, confirm whether the impact of Level 3 fair value measurements on profit or loss or OCI is reported. Check for completeness and clarity. Refer to IFRS 13.91(b) for explicit requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "279",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.92",
+          "question": "Has the entity applied IFRS 13 Fair Value Measurement for any assets, liabilities, or equity instruments measured at fair value?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "278.1",
+          "source_trigger": "Yes",
+          "original_question": "If the disclosures provided in accordance with IFRS 13 and other IFRS accounting standards are insufficient to meet the objectives in IFRS 13.91, does the entity disclose additional information to meet those objectives?",
+          "decision_tree": {
+            "question": "Has the entity applied IFRS 13 Fair Value Measurement for any assets, liabilities, or equity instruments measured at fair value?",
+            "guidance": "Review the entity's financial statements to identify items measured at fair value. Check disclosures in the notes regarding measurement basis and reference to IFRS 13. Common examples include financial instruments, investment properties, and certain biological assets.",
+            "yes_case": {
+              "question": "Do the disclosures provided by the entity comply with IFRS 13.91, meeting the objective of helping users of financial statements understand all relevant aspects of fair value measurement?",
+              "guidance": "Refer to IFRS 13.91 for the disclosure objectives, which require providing information that helps users assess fair value measurement methods, inputs, and the impact of fair value measurements. Analyze whether disclosures are sufficient in detail, transparent, and consistent with IFRS 13 requirements.",
+              "yes_case": {
+                "question": "If the disclosures provided are insufficient, has the entity disclosed additional information to meet the objectives of IFRS 13.91?",
+                "guidance": "Check whether the entity has included supplementary disclosures anywhere in the financial statements or notes, especially if required details are lacking in standard disclosure sections (e.g., sensitivity analysis, valuation techniques, level hierarchy). Refer to IFRS 13.92 for this obligation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "280",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.95, IFRS 13.93(c)",
+          "question": "Does the entity apply IFRS 13 for fair value measurement and disclosures?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose its policy for determining when transfers between levels of the fair value hierarchy are deemed to have occurred?",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 13 for fair value measurement and disclosures?",
+            "guidance": "Check the accounting policies in the financial statements to determine if IFRS 13 is applicable. IFRS 13 applies to fair value measurements required or permitted by other IFRS Standards. Do not assume applicability unless explicitly stated. Common examples include assets or liabilities measured at fair value, such as investment properties or financial instruments. Review specific note disclosures about fair value measurement.",
+            "yes_case": {
+              "question": "Does the entity use a fair value hierarchy to categorize assets and liabilities into Levels 1, 2, or 3 as defined in IFRS 13?",
+              "guidance": "Examine the fair value measurement notes. Determine if the entity categorizes assets and liabilities based on observable inputs (Levels 1, 2) or unobservable inputs (Level 3). These categorizations should be disclosed in the same section.",
+              "yes_case": {
+                "question": "Does the entity make transfers between levels of the fair value hierarchy during the reporting period?",
+                "guidance": "Check for disclosures indicating transfers of assets or liabilities between Levels 1, 2, or 3 of the fair value hierarchy. Look for supporting notes that discuss changes in the valuation inputs (observable vs unobservable) during the reporting period.",
+                "yes_case": {
+                  "question": "Does the entity disclose its policy for determining when transfers between levels of the hierarchy are deemed to have occurred?",
+                  "guidance": "Refer to IFRS 13.95 and IFRS 13.93(c) for specific requirements. Verify if the entity’s financial statement disclosures include the timing of recognizing transfers, e.g., based on the date of the event or change in circumstances triggering the transfer.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "281",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.96, IFRS 13.48, IFRS 13.51",
+          "question": "Has the entity made an accounting policy decision to use the exception in IFRS 13.48 concerning bid-ask spread adjustments?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If an entity makes an accounting policy decision to use the exception in IFRS 13.48, does the entity disclose that policy, including its policy for allocating bid-ask spread adjustments and credit adjustments?",
+          "decision_tree": {
+            "question": "Has the entity made an accounting policy decision to use the exception in IFRS 13.48 concerning bid-ask spread adjustments?",
+            "guidance": "Review the entity's financial statement disclosures and relevant accounting policy documents. Look for any mention of the IFRS 13.48 exception, which allows entities to use mid-market pricing or other pricing conventions when determining fair value within a bid-ask spread. Common pitfalls include ignoring explicit disclosure requirements or using the exception without formal documentation.",
+            "yes_case": {
+              "question": "Has the entity disclosed this accounting policy decision in its financial statements as required by IFRS 13.96?",
+              "guidance": "Verify that the financial statement notes disclose the use of the exception in IFRS 13.48. Specifically, look for details about the policy decision and explanations regarding how bid-ask spread adjustments and credit adjustments are allocated. This disclosure is typically presented in the notes regarding fair value measurement policies. Be aware of financial statements missing specific language or providing insufficiently detailed disclosures.",
+              "yes_case": {
+                "question": "Does the disclosure adequately include the policy for allocating bid-ask spread adjustments and credit adjustments as per IFRS 13.96?",
+                "guidance": "Confirm that the disclosure includes specific details about how bid-ask adjustments and credit risk adjustments are allocated when applying the exception mentioned in IFRS 13.48. Review the notes for precision and clarity, ensuring compliance with IFRS 13.96.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "282.1",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.94(a)",
+          "question": "Does the entity have assets or liabilities within the scope of IFRS 13 (Fair Value Measurement)?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity classify assets and liabilities under the scope of IFRS 13 based on the nature, characteristics and risks of the asset or liability?",
+          "decision_tree": {
+            "question": "Does the entity have assets or liabilities within the scope of IFRS 13 (Fair Value Measurement)?",
+            "guidance": "Review the financial statements and identify items measured or disclosed at fair value, such as investment properties, financial instruments, or biological assets. Check the scope exclusions in IFRS 13 (e.g., share-based payment transactions or leasing transactions within IFRS 16). Ensure the entity has considered all relevant fair value items.",
+            "yes_case": {
+              "question": "Are the entity's assets and liabilities classified based on their nature, characteristics, and risks, as required by IFRS 13.94(a)?",
+              "guidance": "Examine the disclosures accompanying fair value measurements in the financial statements. Confirm that assets and liabilities are grouped or disclosed to reflect their nature (e.g., property vs. intangible), characteristics (e.g., liquidity or duration), and risks (e.g., market risk or credit risk). Ensure that these classifications facilitate users’ understanding of fair value measurements and are consistent across similar items.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "282.2",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.94(b)",
+          "question": "Does the entity have assets or liabilities measured or disclosed at fair value during the reporting period as per IFRS 13?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "282.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity classify assets and liabilities under the scope of IFRS 13 based on the level of the fair value hierarchy within which the fair value measurement is categorised?",
+          "decision_tree": {
+            "question": "Does the entity have assets or liabilities measured or disclosed at fair value during the reporting period as per IFRS 13?",
+            "guidance": "Review the entity's financial statements, including the notes to the accounts. Look for items measured at fair value, such as financial instruments, investment properties, or biological assets. Reference IFRS 13.5 for the scope of assets and liabilities that fall under fair value measurement. If no such assets or liabilities exist, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Are the fair value measurements of these assets or liabilities categorized within the fair value hierarchy levels (Level 1, Level 2, or Level 3) as required by IFRS 13?",
+              "guidance": "Refer to IFRS 13.94(b) for guidance on classifying fair value measurements based on the source of valuation inputs. Validate that the measurements are categorized into Level 1 (quoted prices in active markets), Level 2 (observable inputs other than quoted prices), or Level 3 (unobservable inputs). Ensure the entity has provided sufficient inputs to support its classification.",
+              "yes_case": {
+                "question": "Has the entity disclosed the information for the assets and liabilities categorized within each level of the fair value hierarchy as required by IFRS 13.94(b)?",
+                "guidance": "Check the notes to the financial statements for disclosures that include a breakdown of fair value measurements within each level of the hierarchy, the description of valuation techniques used, and key inputs. Ensure these disclosures align with IFRS 13.94(b) requirements. Common omissions include failure to disclose the quantitative information about significant unobservable inputs for Level 3 measurements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "283",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.94",
+          "question": "Does the entity hold assets or liabilities that fall under the scope of IFRS 13 (Fair Value Measurement)?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "282.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity provide sufficient information to permit reconciliation between the classes of assets and liabilities and the line items presented in the statement of financial position?",
+          "decision_tree": {
+            "question": "Does the entity hold assets or liabilities that fall under the scope of IFRS 13 (Fair Value Measurement)?",
+            "guidance": "Review the entity's financial statement, particularly the statement of financial position and related notes. Look for items measured at fair value, such as financial instruments, investment property, or biological assets. Ensure compliance with IFRS 13.5 on fair value scope. Be cautious of misclassified measurements not within IFRS 13 scope.",
+            "yes_case": {
+              "question": "Are the classes of assets and liabilities clearly identified in the financial statements and accompanying notes?",
+              "guidance": "Examine the disclosure notes and statement of financial position to ensure the entity provides detailed classification of assets and liabilities measured at fair value. Verify compliance with IFRS 13.94(a), which emphasizes clear identification of classes based on similar characteristics.",
+              "yes_case": {
+                "question": "Does the entity provide sufficient information to reconcile these classes to the line items presented in the statement of financial position?",
+                "guidance": "Verify if the entity provides detailed quantitative or qualitative reconciliation information aligning IFRS 13 classes of assets/liabilities to the statement of financial position items. Check for proper inclusion of all required line items (IFRS 13.94(b)). Be attentive to missing cross-references, unclear descriptions, or aggregation errors.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "284",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.99",
+          "question": "Does the entity have items measured at fair value in its financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity present the quantitative disclosures required by IFRS 13 in tabular format, unless another format is more appropriate?",
+          "decision_tree": {
+            "question": "Does the entity have items measured at fair value in its financial statements?",
+            "guidance": "Review the statement of financial position and accompanying notes to identify if any assets or liabilities are measured at fair value as per IFRS 13. Check the accounting policies to confirm if fair value measurement is applied under IFRS 13.",
+            "yes_case": {
+              "question": "Does the entity disclose information about those fair value measurements in its financial statements, as required by IFRS 13?",
+              "guidance": "Refer to IFRS 13 paragraphs 91 to 99. Ensure all required disclosures are provided, including but not limited to the level of the fair value hierarchy, valuation techniques, and inputs used.",
+              "yes_case": {
+                "question": "Are the quantitative disclosures presented in tabular format unless another format is more appropriate?",
+                "guidance": "Review the financial statements' notes and confirm whether all quantitative disclosures (e.g., fair value hierarchy levels and valuation techniques) are presented in a tabular format. Determine if another format is justified based on the nature of the information and its presentation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "285",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.98",
+          "question": "Does the entity have a liability measured at fair value and issued with an inseparable third-party credit enhancement?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For a liability measured at fair value and issued with an inseparable third-party credit enhancement, does the entity disclose the existence of that credit enhancement and whether it is reflected in the fair value measurement?",
+          "decision_tree": {
+            "question": "Does the entity have a liability measured at fair value and issued with an inseparable third-party credit enhancement?",
+            "guidance": "Refer to the financial statements and note disclosures. Check the liability section for items measured at fair value. Review transaction documentation to identify if the liability was issued with an inseparable third-party credit enhancement, such as a guarantee or credit support directly tied to the liability. Be cautious to distinguish this from separable credit enhancements.",
+            "yes_case": {
+              "question": "Does the entity disclose the existence of the inseparable third-party credit enhancement?",
+              "guidance": "Examine the note disclosures for the liability measured at fair value. Specifically, check whether the credit enhancement is explicitly mentioned as being inseparable and tied to the fair value measurement.",
+              "yes_case": {
+                "question": "Does the entity disclose whether the credit enhancement is reflected in the fair value measurement?",
+                "guidance": "Review the note disclosures further. Verify that the entity has explicitly stated whether the inseparable third-party credit enhancement has been included in determining the liability's fair value. Look for clarity and specificity in the language used.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "286.1",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.97",
+          "question": "Does the entity have assets or liabilities for which fair value is disclosed but are not measured at fair value in the statement of financial position?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For assets and liabilities not measured at fair value in the statement of financial position but for which fair value is disclosed, does the entity disclose the level of the fair value hierarchy within which the fair value measurement(s) are categorised in their entirety?",
+          "decision_tree": {
+            "question": "Does the entity have assets or liabilities for which fair value is disclosed but are not measured at fair value in the statement of financial position?",
+            "guidance": "Review the financial statements and accompanying notes. Look for disclosures about fair value for items that are NOT recognized at fair value on the statement of financial position (e.g., property, plant, and equipment measured at cost but disclosed at fair value). Confirm the disclosure requirements under IFRS 13.97.",
+            "yes_case": {
+              "question": "Does the entity disclose the level of the fair value hierarchy in which the disclosed fair value measurements are categorized?",
+              "guidance": "Verify the notes to the financial statements referencing IFRS 13.97. The hierarchy level must be explicitly stated (Level 1, Level 2, or Level 3). Ensure the disclosure aligns entirely with IFRS 13. Avoid common pitfalls such as omission of the hierarchy level or discrepancies in categorization for similar assets/liabilities.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "286.2",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(b), IFRS 13.93(d)",
+          "question": "Does the entity perform fair value measurements for assets or liabilities categorized within Levels 2 or 3 of the hierarchy?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "286.1",
+          "source_trigger": "Yes",
+          "original_question": "For fair value measurements categorised within Levels 2 and 3 of the hierarchy, does the entity disclose a description of the valuation technique(s) and inputs used, and if there has been a change in valuation technique, the change and the reason(s) for making it?",
+          "decision_tree": {
+            "question": "Does the entity perform fair value measurements for assets or liabilities categorized within Levels 2 or 3 of the hierarchy?",
+            "guidance": "Review the financial statements and accompanying notes. Check for disclosures about fair value measurements and the categorization within Levels 2 (inputs are observable but not quoted prices) or Level 3 (unobservable inputs). Cross-check this against the entity's asset and liability list measured at fair value, as well as the fair value hierarchy disclosures required by IFRS 13.86-90.",
+            "yes_case": {
+              "question": "Does the entity disclose the valuation technique(s) and inputs used for these Level 2 and 3 fair value measurements?",
+              "guidance": "Refer to IFRS 13.93(b). Review the fair value measurement note to confirm that the valuation technique(s) (e.g., discounted cash flow, market approach) and the key inputs (e.g., market data, unobservable data) are disclosed for Level 2 and Level 3 measurements.",
+              "yes_case": {
+                "question": "Has there been a change in the valuation technique(s) during the reporting period?",
+                "guidance": "Examine the current and prior reporting year's disclosures on fair value measurement techniques. Look for explicit mentions of changes in techniques (e.g., shift from discounted cash flow to market approach) and ensure valid reasons for such changes are provided as per IFRS 13.93(d).",
+                "yes_case": {
+                  "question": "Does the entity disclose the change in valuation technique(s) and the reason(s) for making the change?",
+                  "guidance": "Ensure the reasons for the change are disclosed in accordance with IFRS 13.93(d). Reasons should describe why the new technique provides more reliable or relevant fair value measurements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "286.3",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(i)",
+          "question": "Does the entity hold any non-financial assets?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the highest and best use of a non-financial asset differs from its current use, does the entity disclose that fact and explain why the asset is being used in a manner that differs from its highest and best use?",
+          "decision_tree": {
+            "question": "Does the entity hold any non-financial assets?",
+            "guidance": "Review the statement of financial position and identify non-financial assets such as land, buildings, equipment, or intangible assets related to operations. Non-financial assets exclude financial instruments like cash or receivables.",
+            "yes_case": {
+              "question": "Is the highest and best use of the non-financial asset different from its current use?",
+              "guidance": "Assess whether the asset’s highest and best use, as determined under IFRS 13, differs from how the entity is currently using it. Refer to market conditions, operational plans, or third-party valuations. Common pitfalls include overlooking external factors or ignoring alternative uses.",
+              "yes_case": {
+                "question": "Does the entity disclose the fact that the asset is being used in a manner that differs from its highest and best use and explain why?",
+                "guidance": "Review the notes to the financial statements. Ensure there is a clear disclosure mentioning the non-financial asset with its highest and best use differing from current use, along with an explanation for that use. Check that the disclosure aligns with IFRS 13.93(i). Avoid vague or incomplete disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.1",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(a)",
+          "question": "Does the entity have any assets or liabilities measured at fair value on a recurring basis?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For each class of assets and liabilities measured at fair value on a recurring basis, does the entity disclose the fair value measurement at the end of the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have any assets or liabilities measured at fair value on a recurring basis?",
+            "guidance": "Review the entity's financial statements, particularly the notes on fair value accounting policies and disclosures. Verify if any assets or liabilities are recognized as measured at fair value on a recurring basis according to IFRS 13. Examples might include investment property, financial instruments, or biological assets. If no such assets or liabilities exist, the item is 'Not Applicable'.",
+            "yes_case": {
+              "question": "Does the entity disclose the fair value measurement of these assets and liabilities at the end of the reporting period?",
+              "guidance": "Refer to IFRS 13.93(a). Review the financial statement disclosures, especially the note on fair value measurements. Ensure the entity has disclosed the fair value of each class of assets and liabilities measured at fair value on a recurring basis, as per the reporting date. Pay attention to sufficient granularity to ensure compliance with class-level disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.2",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(b)",
+          "question": "Does the entity measure any assets or liabilities at fair value on a recurring basis?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "287.1",
+          "source_trigger": "Yes",
+          "original_question": "For each class of assets and liabilities measured at fair value on a recurring basis, does the entity disclose the level of the fair value hierarchy (Level 1, 2 or 3) within which the measurements are categorised in their entirety?",
+          "decision_tree": {
+            "question": "Does the entity measure any assets or liabilities at fair value on a recurring basis?",
+            "guidance": "Check the financial statements and notes, particularly those related to fair value measurement. Review IFRS 13 disclosure notes to identify assets and liabilities consistently measured at fair value, such as investment properties or financial instruments. Ensure the term 'recurring basis' is clearly understood as measurement at fair value at the end of each reporting period.",
+            "yes_case": {
+              "question": "Does the entity disclose the fair value measurement hierarchy level (Level 1, 2, or 3) for each class of assets and liabilities measured at fair value?",
+              "guidance": "Refer to IFRS 13.93(b). Inspect the notes accompanying the financial statements and locate disclosure of fair value hierarchy levels for all recurring fair value measurements. Verify whether levels are properly categorized according to IFRS 13 guidelines: Level 1 is quoted prices in active markets, Level 2 is observable inputs other than those in Level 1, and Level 3 is unobservable inputs.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.3",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(c)",
+          "question": "Does the entity hold any assets or liabilities measured at fair value as of the end of the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "287.2",
+          "source_trigger": "Yes",
+          "original_question": "For assets and liabilities held at the end of the reporting period, does the entity disclose the amount of any transfers between Level 1 and Level 2, separately disclosing transfers into each level from transfers out of each level, and the reasons for those transfers?",
+          "decision_tree": {
+            "question": "Does the entity hold any assets or liabilities measured at fair value as of the end of the reporting period?",
+            "guidance": "Check the entity's financial statements, specifically the notes relating to fair value measurement. Look for references to assets and liabilities measured at fair value under IFRS 13, typically disclosed in the fair value hierarchy table or related note disclosures.",
+            "yes_case": {
+              "question": "Are there any transfers between Level 1 and Level 2 in the fair value hierarchy during the reporting period?",
+              "guidance": "Review the fair value measurement disclosure notes in the financial statements. Look for instances where items initially categorized under Level 1 have been reclassified to Level 2, or vice versa. Common reasons may include changes in market activity or input availability.",
+              "yes_case": {
+                "question": "Does the entity disclose separately transfers into Level 1 and Level 2, transfers out of Level 1 and Level 2, and the reasons for those transfers?",
+                "guidance": "Verify disclosure notes in the fair value measurement section of the financial statements. Ensure that transfers are broken down by their direction (into/out of Level 1 and Level 2) and the reasons provided align with IFRS 13.93(c), such as changes in the observability of inputs or valuation techniques.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.4",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(d)",
+          "question": "Does the entity have fair value measurements categorized within Level 2 or Level 3 of the fair value hierarchy?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "287.2",
+          "source_trigger": "Yes",
+          "original_question": "For fair value measurements categorised within Level 2 and 3, does the entity disclose a description of the valuation technique(s) and inputs used, any change in technique and the reasons, and for Level 3, quantitative information about the significant unobservable inputs used?",
+          "decision_tree": {
+            "question": "Does the entity have fair value measurements categorized within Level 2 or Level 3 of the fair value hierarchy?",
+            "guidance": "Examine the financial statements and disclosures for references to fair value measurements. Check the notes to the accounts and any quantitative disclosures aligning with IFRS 13. Check the category assigned to fair value items as Level 2 or Level 3 in the hierarchy.",
+            "yes_case": {
+              "question": "Does the entity disclose the valuation technique(s) and inputs used for the Level 2 or Level 3 fair value measurements?",
+              "guidance": "Review the notes to the financial statements under fair value disclosures. Verify whether the techniques (e.g., discounted cash flow, market approach) and inputs (e.g., interest rates, market comparables) for Level 2 or Level 3 measurements are described explicitly.",
+              "yes_case": {
+                "question": "For Level 3 fair value measurements, does the entity disclose quantitative information about the significant unobservable inputs used?",
+                "guidance": "Check for detailed numerical disclosures about significant unobservable inputs in the notes to the financial statements. Common inputs include growth rates, discount rates, or other assumptions. Ensure the disclosures are detailed and provide enough information for users to understand the measurement.",
+                "yes_case": {
+                  "question": "Does the entity disclose any changes in valuation technique(s) and the reasons for such changes for Level 2 and Level 3 measurements?",
+                  "guidance": "Review whether any changes to valuation techniques (e.g., from discounted cash flow to market approach) are disclosed in the notes. Ensure that the reasons behind such changes are clearly explained.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.5",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(e)",
+          "question": "Does the entity have fair value measurements categorised within Level 3 of the fair value hierarchy?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "287.4",
+          "source_trigger": "Yes",
+          "original_question": "For fair value measurements categorised within Level 3, does the entity provide a reconciliation from opening to closing balances, separately disclosing changes attributable to: total gains or losses recognised in profit or loss and the line item(s) in which they are recognised; total gains or losses recognised in other comprehensive income and the line item(s) in which they are recognised; purchases, sales, issues and other settlements; and transfers into or out of Level 3 and the reasons for those transfers?",
+          "decision_tree": {
+            "question": "Does the entity have fair value measurements categorised within Level 3 of the fair value hierarchy?",
+            "guidance": "Review the financial statements, specifically the disclosures required under IFRS 13. Determine if the entity has assets or liabilities measured at fair value and categorised within Level 3. Level 3 measurements involve significant unobservable inputs. Common items include certain investments, derivatives, and complex assets/liabilities.",
+            "yes_case": {
+              "question": "Does the entity provide a reconciliation between the opening and closing balances for Level 3 fair value measurements?",
+              "guidance": "Examine the notes to the financial statements where Level 3 fair value measurements are disclosed. Look for a detailed reconciliation showing changes like total gains or losses recognised in profit or loss, gains or losses in other comprehensive income (OCI), purchases, sales, issues, and other settlements, as well as transfers into or out of Level 3.",
+              "yes_case": {
+                "question": "Does the reconciliation separately disclose the changes for each required category (e.g., total gains or losses recognised in profit or loss, total gains or losses recognised in OCI, purchases, sales, issues, settlements, transfers, and related reasons)?",
+                "guidance": "Verify that each category mentioned in IFRS 13.93(e) is disclosed in the reconciliation. Cross-check against the line items in the financial statements where these changes are recognised. Ensure reasons for transfers (into or out of Level 3) are explained. Confirm the presentation is clear and detailed enough to comply with IFRS 13.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.6",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(f)",
+          "question": "Did the entity recognize any gains or losses under IFRS 13.93(e)(i) during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "287.5",
+          "source_trigger": "Yes",
+          "original_question": "For total gains and losses recognised during the period in profit or loss under IFRS 13.93(e)(i), does the entity disclose the amount attributable to the change in unrealised gains or losses relating to those assets and liabilities held at period end and the line item(s) in which those unrealised gains or losses are recognised?",
+          "decision_tree": {
+            "question": "Did the entity recognize any gains or losses under IFRS 13.93(e)(i) during the reporting period?",
+            "guidance": "Review the financial statements, specifically the notes related to assets and liabilities measured at fair value. Ensure gains and losses have been recognized according to IFRS 13.93(e)(i), which concerns fair value changes reflected in profit or loss.",
+            "yes_case": {
+              "question": "Do the recognized gains or losses under IFRS 13.93(e)(i include unrealized gains or losses attributable to assets and liabilities held at the reporting period end?",
+              "guidance": "Refer to the Statement of Financial Position and accompanying notes. Determine whether there are any assets or liabilities measured at fair value that remain held at the reporting date, with unrealized gains or losses included in profit or loss.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount attributable to the change in unrealized gains or losses for these assets and liabilities held at the period end?",
+                "guidance": "Check the disclosure notes in the financial statements for a clear and separate presentation of unrealized gains or losses related to assets and liabilities held at the reporting date. Verify the accuracy and completeness of these disclosures.",
+                "yes_case": {
+                  "question": "Does the disclosure specify the line item(s) in profit or loss where these unrealized gains or losses are recognized?",
+                  "guidance": "Ensure the disclosure identifies the specific line item(s) within profit or loss where the unrealized gains or losses have been recognized during the period (e.g., 'Fair Value Adjustments').",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.7",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(g)",
+          "question": "Does the entity perform fair value measurements categorized within Level 3 of the fair value hierarchy?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "287.4",
+          "source_trigger": "Yes",
+          "original_question": "For fair value measurements categorised within Level 3, does the entity disclose a description of the valuation processes used, including how it decides its valuation policies and procedures and analyses changes period to period?",
+          "decision_tree": {
+            "question": "Does the entity perform fair value measurements categorized within Level 3 of the fair value hierarchy?",
+            "guidance": "Refer to the financial statements and disclosures related to IFRS 13. Look for assets or liabilities measured at fair value and confirm if they fall under Level 3. Level 3 includes inputs that are unobservable and require significant judgment or estimation. Review the fair value hierarchy classification table typically provided in the fair value note.",
+            "yes_case": {
+              "question": "Has the entity disclosed a description of the valuation processes used for Level 3 fair value measurements?",
+              "guidance": "Check the notes to the financial statements associated with fair value measurements (usually under IFRS 13 disclosures). Look for a description of the processes used to develop Level 3 valuations, including how valuation policies and procedures are determined and how changes are analyzed period to period. Ensure these disclosures are clear, complete, and aligned with IFRS 13.93(g).",
+              "yes_case": {
+                "question": "Does the description include how the entity decides its valuation policies and procedures and how it analyzes changes in fair value measurements from period to period?",
+                "guidance": "Review the qualitative and quantitative details provided in the fair value disclosures. Verify that the entity has explicitly included information on policy decisions for valuation methods and procedures, as well as a thorough analysis of changes in valuations over reporting periods. Such disclosures are required by IFRS 13.93(g).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.8",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(h)",
+          "question": "Does the entity have fair value measurements categorized within Level 3 of the fair value hierarchy?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "287.4",
+          "source_trigger": "Yes",
+          "original_question": "For fair value measurements categorised within Level 3, does the entity disclose a narrative description of the sensitivity if a change in an unobservable input might result in a significantly higher or lower fair value measurement, and if there are interrelationships between significant unobservable inputs and other inputs, a narrative description of those interrelationships and how they might magnify or mitigate the effect of changes?",
+          "decision_tree": {
+            "question": "Does the entity have fair value measurements categorized within Level 3 of the fair value hierarchy?",
+            "guidance": "Refer to the financial statements and accompanying notes. Look for disclosures about fair value measurements. Verify if any items (e.g., assets, liabilities) are reported under Level 3, which requires significant unobservable inputs for fair value determination. Common pitfalls include misclassification of fair value levels or missing documentation for unobservable inputs.",
+            "yes_case": {
+              "question": "Does the entity disclose a narrative description of the sensitivity if a change in an unobservable input might result in a significantly higher or lower fair value measurement?",
+              "guidance": "Review the notes to the financial statements, particularly the sections describing Level 3 fair value measurements. Look for a narrative explanation of how significant unobservable inputs impact fair value and assess whether sensitivity analysis has been adequately described. Ensure the entity explains the impact of changes in these inputs, pointing out areas where sensitivity might lead to variance.",
+              "yes_case": {
+                "question": "If there are interrelationships between significant unobservable inputs and other inputs, does the entity provide a narrative description of those interrelationships and how they might magnify or mitigate the effect of changes?",
+                "guidance": "Examine the same disclosures. Confirm whether the entity identifies and explains interrelationships between unobservable inputs and other inputs. Assess whether the explanation sufficiently clarifies how such interrelationships influence fair value measurements, either magnifying or mitigating effects of changes. Look for completeness and logical consistency.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.9",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(h)",
+          "question": "Does the entity hold any financial assets or liabilities classified as Level 3 under the fair value hierarchy?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "287.8",
+          "source_trigger": "Yes",
+          "original_question": "For financial assets and liabilities measured at fair value in Level 3, if changing one or more unobservable inputs to reflect reasonably possible alternative assumptions would change fair value significantly, does the entity disclose that fact, the effect of those changes and how the effect was calculated?",
+          "decision_tree": {
+            "question": "Does the entity hold any financial assets or liabilities classified as Level 3 under the fair value hierarchy?",
+            "guidance": "Refer to the financial statements and disclosures related to IFRS 13, specifically the fair value hierarchy section. Level 3 classification includes items whose fair values are based on significant unobservable inputs. Ensure classification is correct.",
+            "yes_case": {
+              "question": "Are these Level 3 financial assets or liabilities measured at fair value on the reporting date?",
+              "guidance": "Review the relevant sections of the financial statements. Check if the financial assets and liabilities classified as Level 3 are measured at fair value in line with IFRS 13 requirements. Look for fair value measurement disclosures.",
+              "yes_case": {
+                "question": "Could changing one or more unobservable inputs to reasonably possible alternative assumptions significantly affect the fair value measurement?",
+                "guidance": "Verify whether the entity has performed sensitivity analyses or assessments that indicate that reasonably possible changes in unobservable inputs could lead to significant variance in fair value. Refer to valuation techniques and sensitivity disclosures in the notes accompanying the financial statements.",
+                "yes_case": {
+                  "question": "Does the entity disclose the fact that changes in unobservable inputs could significantly affect fair value, the effect of those changes, and how the effect was calculated?",
+                  "guidance": "Inspect financial statement disclosures, including notes and sensitivity analyses, to confirm the entity disclosed: 1) the key fact that unobservable input changes could significantly affect fair value; 2) the quantified impact of such changes; and 3) a description of the methodology used to calculate the impact.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "287.10",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(i)",
+          "question": "Does the entity own or control any non-financial assets?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "286.3",
+          "source_trigger": "Yes",
+          "original_question": "If the highest and best use of a non-financial asset differs from its current use, does the entity disclose that fact and the reason for using the asset in a manner that differs from its highest and best use?",
+          "decision_tree": {
+            "question": "Does the entity own or control any non-financial assets?",
+            "guidance": "Review the Statement of Financial Position and notes to the financial statements to identify non-financial assets such as property, plant, equipment, intangible assets, or investment property. Cross-check corresponding sections in IFRS to confirm classification as non-financial assets.",
+            "yes_case": {
+              "question": "Is the highest and best use of any of these non-financial assets different from their current use?",
+              "guidance": "Evaluate the fair value measurement of the non-financial asset under IFRS 13.89 to determine its highest and best use. Check whether this differs from the asset's current use. Refer to relevant valuation reports or management discussion of asset utilization for clarification. Pay close attention to unique circumstances, such as legal or physical constraints that might influence asset usage.",
+              "yes_case": {
+                "question": "Has the entity disclosed the fact and provided a reason for using the asset in a manner that differs from its highest and best use?",
+                "guidance": "Review the notes to the financial statements under IFRS 13 disclosures (IFRS 13.93(i)). Confirm whether the disclosure explicitly states the difference in use and provides a rationale for the discrepancy, as required by the standard.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "288.1",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(a)",
+          "question": "Does the entity have any assets or liabilities measured at fair value on a non-recurring basis at the end of the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For each class of assets and liabilities measured at fair value on a non-recurring basis, does the entity disclose the fair value measurement at the end of the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have any assets or liabilities measured at fair value on a non-recurring basis at the end of the reporting period?",
+            "guidance": "Review the financial statements and supporting notes for any instances of assets or liabilities that are measured at fair value on a non-recurring basis, such as impairments or disposals. Check the reporting period's accounting treatment under the requirements of IFRS 13. Look for explicit mentions of non-recurring fair value measurements.",
+            "yes_case": {
+              "question": "Does the entity disclose the fair value measurement for each applicable class of non-recurring fair value assets and liabilities at the end of the reporting period?",
+              "guidance": "Examine the notes to the financial statements for disclosures related to IFRS 13.93(a). Specifically, verify if each class of asset or liability measured at fair value on a non-recurring basis is disclosed with its fair value measurement. Ensure that these disclosures are made even if the measurement occurred only once during the reporting period.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "288.2",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(b)",
+          "question": "Does the entity have assets or liabilities measured at fair value on a non-recurring basis?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "288.1",
+          "source_trigger": "Yes",
+          "original_question": "For assets and liabilities measured at fair value on a non-recurring basis, does the entity disclose the reasons for the fair value measurement?",
+          "decision_tree": {
+            "question": "Does the entity have assets or liabilities measured at fair value on a non-recurring basis?",
+            "guidance": "Review the financial statements and the notes to the accounts, particularly any mention of assets or liabilities measured at fair value due to specific events (e.g., impairment testing or disposal). Non-recurring basis means the item is not measured at fair value consistently, but only due to a particular circumstance. Common examples include impaired assets or liabilities under certain conditions.",
+            "yes_case": {
+              "question": "Does the entity disclose the reasons for measuring the assets or liabilities at fair value on a non-recurring basis?",
+              "guidance": "Review the disclosures accompanying the financial statements, especially the notes related to fair value measurements. The reasons disclosed should explain why the fair value measurement was necessary (e.g., due to impairment or a one-time adjustment). Ensure the reasons are clear and explicitly stated.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "288.3",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(c)",
+          "question": "Does the entity have any assets or liabilities measured at fair value on a non-recurring basis?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "288.1",
+          "source_trigger": "Yes",
+          "original_question": "For assets and liabilities measured at fair value on a non-recurring basis, does the entity disclose the level of the fair value hierarchy within which the fair value measurements are categorised?",
+          "decision_tree": {
+            "question": "Does the entity have any assets or liabilities measured at fair value on a non-recurring basis?",
+            "guidance": "Examine the financial statements and footnotes for references to items measured at fair value on a non-recurring basis. These typically arise due to specific events, such as impairments or revaluations triggered by a one-time occurrence (e.g., discontinued operations). Cross-reference with the notes to ensure clarity and completeness.",
+            "yes_case": {
+              "question": "Are the fair value measurements classified into a level of the fair value hierarchy (Level 1, Level 2, or Level 3) in the entity's disclosures?",
+              "guidance": "Refer to IFRS 13.93(c). Check the disclosures for categorisation within the fair value hierarchy. This information should be disclosed explicitly in the notes to the financial statements. Ensure that Levels 1, 2, or 3 are specified based on the input data used in measurement.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "288.4",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(d)",
+          "question": "Does the entity have any fair value measurements categorized within Level 2 or Level 3 on a non-recurring basis?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "288.3",
+          "source_trigger": "Yes",
+          "original_question": "For fair value measurements categorised within Level 2 and 3 on a non-recurring basis, does the entity disclose a description of the valuation technique(s) and inputs used, any change in technique and the reasons, and for Level 3, quantitative information about the significant unobservable inputs used?",
+          "decision_tree": {
+            "question": "Does the entity have any fair value measurements categorized within Level 2 or Level 3 on a non-recurring basis?",
+            "guidance": "Review the financial statements, specifically disclosures related to fair value measurement. Look at the notes under IFRS 13 to identify if there are any Level 2 (observable inputs) or Level 3 (unobservable inputs) fair value measurements that occur on a non-recurring basis. Check transactions or events such as impairments or changes in valuation arising from specific occurrences. Be cautious not to confuse recurring fair value measurements with non-recurring ones.",
+            "yes_case": {
+              "question": "For such Level 2 and Level 3 fair value measurements, does the entity provide all required disclosures, including valuation technique(s), inputs used, changes in technique and reasons, and quantitative information for Level 3 unobservable inputs?",
+              "guidance": "Refer to IFRS 13.93(d). Ensure the following are disclosed: 1. The valuation techniques used to determine fair values. 2. Inputs used, particularly significant unobservable inputs for Level 3 measurements. 3. Any changes in valuation techniques and reasons for such changes. The disclosures should be clear, detailed, and sufficiently informative to allow users to understand the assumptions behind the fair value measurement.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "288.5",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(e)",
+          "question": "Does the entity have fair value measurements categorized within Level 3 on a non-recurring basis?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "288.3",
+          "source_trigger": "Yes",
+          "original_question": "For fair value measurements categorised within Level 3 on a non-recurring basis, does the entity disclose a description of the valuation processes used?",
+          "decision_tree": {
+            "question": "Does the entity have fair value measurements categorized within Level 3 on a non-recurring basis?",
+            "guidance": "Review the financial statements, particularly the notes related to fair value measurements and IFRS 13 disclosures. Identify if any items are categorized within Level 3 (unobservable inputs) and are measured at fair value on a non-recurring basis. Common examples include impairments or certain asset revaluations. Ensure you verify the classification and frequency of measurement.",
+            "yes_case": {
+              "question": "Has the entity disclosed a description of the valuation processes used for these Level 3 fair value measurements?",
+              "guidance": "Examine the disclosure notes in compliance with IFRS 13.93(e). Look for a detailed explanation of the valuation approach, including the steps taken, internal controls, and involvement of external valuation specialists if applicable. Ensure the description is clear and sufficient for users to understand the process. Cross-reference these disclosures with the valuation report, if available.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "288.6",
+          "section": "IFRS 13",
+          "reference": "IFRS 13.93(f)",
+          "question": "Does the entity have any assets or liabilities measured at fair value on a non-recurring basis?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "288.1",
+          "source_trigger": "Yes",
+          "original_question": "For assets and liabilities measured at fair value on a non-recurring basis, if the highest and best use of a non-financial asset differs from its current use, does the entity disclose that fact and explain why the asset is being used in a manner that differs from its highest and best use?",
+          "decision_tree": {
+            "question": "Does the entity have any assets or liabilities measured at fair value on a non-recurring basis?",
+            "guidance": "Review the notes to the financial statements and the accounting policy disclosures for indications that any assets or liabilities are measured at fair value on a non-recurring basis. Check specific examples such as impaired assets, inventory under IAS 2 measured at net realizable value, or assets held for sale under IFRS 5.",
+            "yes_case": {
+              "question": "Are there any non-financial assets measured at fair value on a non-recurring basis?",
+              "guidance": "Identify whether any of the assets measured at fair value on a non-recurring basis are non-financial assets. Review the detailed disclosures and the entity’s fair value measurement framework to confirm the classification of these assets.",
+              "yes_case": {
+                "question": "Does the highest and best use of any non-financial asset differ from its current use?",
+                "guidance": "Examine disclosures related to non-financial assets to determine if management has assessed that the highest and best use of the asset, per IFRS 13.27-28, differs from its current use. This requires considering the asset's potential use by market participants.",
+                "yes_case": {
+                  "question": "Does the entity disclose the fact and explain why the asset is being used in a manner that differs from its highest and best use?",
+                  "guidance": "Check the disclosures in the financial statements, especially the notes on fair value measurement. Ensure the entity explicitly mentions: (1) the difference between current use and highest and best use, and (2) the rationale for using the asset in the current manner per IFRS 13.93(f).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

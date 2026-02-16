@@ -1,0 +1,1089 @@
+{
+  "title": "Impairment of Assets (IAS 36) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 36",
+      "title": "Impairment of Assets",
+      "description": "Checklist for presentation and disclosure requirements under IAS 36.",
+      "items": [
+        {
+          "id": "400.1",
+          "section": "IAS 36",
+          "reference": "IAS 36.126(a)",
+          "question": "Has the entity recognized any impairment losses during the reporting period?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the amount of impairment losses recognised in profit or loss during the period and the line item(s) of the statement of comprehensive income in which those impairment losses are included?",
+          "decision_tree": {
+            "question": "Has the entity recognized any impairment losses during the reporting period?",
+            "guidance": "Review the financial statements for the reporting period, specifically the Statement of Comprehensive Income and the notes to the accounts. Look for any mention of impairment losses on assets. Common areas to check include Property, Plant, and Equipment (IAS 16), Goodwill (IAS 36), and Financial Instruments (IFRS 9).",
+            "yes_case": {
+              "question": "Has the entity disclosed the amount of impairment losses recognized in profit or loss during the period?",
+              "guidance": "Review the notes to the financial statements or any relevant sections where impairment losses are mentioned. Confirm that the amount of impairment loss is clearly disclosed for the reporting period.",
+              "yes_case": {
+                "question": "Has the entity disclosed the specific line item(s) in the statement of comprehensive income where those impairment losses are included?",
+                "guidance": "Examine the Statement of Comprehensive Income to ensure the entity specifies which line items include the impairment loss (e.g., 'Other expenses' or 'Cost of sales'). The disclosure should allow users to understand the impact of the impairment loss on the entity’s financial performance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "400.2",
+          "section": "IAS 36",
+          "reference": "IAS 36.126(b)",
+          "question": "Has the entity reversed any impairment losses during the reporting period?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the amount of reversals of impairment losses recognised in profit or loss during the period and the line item(s) in which those reversals are included?",
+          "decision_tree": {
+            "question": "Has the entity reversed any impairment losses during the reporting period?",
+            "guidance": "Review the detailed notes to the financial statements, particularly impairment disclosures under IAS 36. Check whether any previously recorded impairment losses have been reversed based on updated recoverable amounts. Ensure you examine all asset classes covered under IAS 36, such as property, plant and equipment, intangible assets, or goodwill.",
+            "yes_case": {
+              "question": "Has the entity included the reversal of impairment losses in profit or loss during the period?",
+              "guidance": "Verify whether the reversal of impairment losses has been appropriately accounted for within the profit or loss statement. Check if the reversal aligns with IAS 36 requirements and arises due to increases in recoverable amounts. Review the journal entries and related financial statement items.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of reversals of impairment losses and the specific line item(s) in profit or loss where those reversals are included?",
+                "guidance": "Examine the financial statement note disclosures and ensure that the amount of the reversal and the associated line item(s) in profit or loss are clearly specified and comply with IAS 36.126(b). Common pitfalls include omitting disclosure or grouping reversals without sufficient detail.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "400.3",
+          "section": "IAS 36",
+          "reference": "IAS 36.126(c)",
+          "question": "Does the entity have revalued assets reported in its financial statements under IAS 36?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the amount of impairment losses on revalued assets recognised in other comprehensive income during the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have revalued assets reported in its financial statements under IAS 36?",
+            "guidance": "Review the entity's balance sheet and notes to the financial statements to identify any assets measured using the revaluation model per IAS 36. Pay attention to property, plant, and equipment, intangible assets, and other items where fair value measurement is allowed and applied. Examine sections referencing IAS 16 or IAS 38, which often link to the revaluation model.",
+            "yes_case": {
+              "question": "Have any impairment losses been recognised on the revalued assets during the reporting period?",
+              "guidance": "Review the Statement of Profit or Loss, Statement of Other Comprehensive Income, and related notes to determine if any impairment losses were recognised for the revalued assets. Cross-check the asset notes for indications of degradation, fair value adjustments, or other factors leading to impairment.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of impairment losses on revalued assets in 'Other Comprehensive Income' during the reporting period?",
+                "guidance": "Refer to the disclosure notes accompanying the Statement of Other Comprehensive Income per IAS 36.126(c). Ensure the amount of impairment losses is clearly stated and attributed to specific revalued assets. Look for accurate descriptions and figures associated with the impairment.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "400.4",
+          "section": "IAS 36",
+          "reference": "IAS 36.126(d)",
+          "question": "Did the entity recognise any reversals of impairment losses on revalued assets during the reporting period?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the amount of reversals of impairment losses on revalued assets recognised in other comprehensive income during the reporting period?",
+          "decision_tree": {
+            "question": "Did the entity recognise any reversals of impairment losses on revalued assets during the reporting period?",
+            "guidance": "Review the entity’s financial statements, particularly the notes related to IAS 36 (Impairment of Assets). Look for instances where impairment losses previously recognised were reversed during the reporting period. Common sources include revalued property, plant, equipment or intangible assets. Ensure you check for disclosures under the Other Comprehensive Income (OCI) section.",
+            "yes_case": {
+              "question": "Were the reversals of impairment losses recognised in other comprehensive income during the reporting period?",
+              "guidance": "Verify whether the reversals of impairment losses on revalued assets were explicitly recognised in the Other Comprehensive Income (OCI) section, as opposed to Profit or Loss. Review both the Statement of Comprehensive Income and relevant supporting notes.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of reversals of impairment losses recognised in other comprehensive income during the reporting period?",
+                "guidance": "Check for a specific disclosure of the reversal amounts in the financial statements or accompanying notes under IAS 36.126(d). The disclosure should include the total reversal amount for revalued assets recognised in OCI, typically segmented by asset class (if applicable). Ensure the disclosure is clear, accurate, and comprehensive.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "401.1",
+          "section": "IAS 36",
+          "reference": "IAS 36.129(a)",
+          "question": "Does the entity prepare segment information under IFRS 8 Operating Segments?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity reports segment information under IFRS 8 Operating Segments, does it disclose the amount of impairment losses recognised in profit or loss and in other comprehensive income during the reporting period for each reportable segment?",
+          "decision_tree": {
+            "question": "Does the entity prepare segment information under IFRS 8 Operating Segments?",
+            "guidance": "Check the notes and disclosures section of the financial statements for the presence of segment reporting under IFRS 8. Look for disclosures that list reportable segments and their respective revenues, profits, assets, and liabilities. If segment reporting is not provided, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity recognized any impairment losses in profit or loss or other comprehensive income during the reporting period?",
+              "guidance": "Review the Statement of Profit or Loss and Other Comprehensive Income and the corresponding notes on impairment losses. Look for items labeled 'impairment losses' or similar terms in connection with assets such as goodwill, intangible assets, or property, plant, and equipment under IAS 36.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of impairment losses recognized in profit or loss and in other comprehensive income for each reportable segment?",
+                "guidance": "Check the segment note in the financial statements. Ensure that the amount of impairment losses is disclosed for each reportable segment as required under IAS 36.129(a). Verify that disclosures align with the accounting policies for segment reporting and impairment loss recognition.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "401.2",
+          "section": "IAS 36",
+          "reference": "IAS 36.129(b)",
+          "question": "Does the entity report segment information in accordance with IFRS 8 Operating Segments?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "401.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity reports segment information, does it disclose the amount of reversals of impairment losses recognised in profit or loss and in other comprehensive income during the reporting period for each reportable segment?",
+          "decision_tree": {
+            "question": "Does the entity report segment information in accordance with IFRS 8 Operating Segments?",
+            "guidance": "Refer to the financial statements and check whether the entity discloses segment information. This is usually found in the notes or specific section labeled 'Operating Segments'. Confirm the entity provides disaggregated financial data by segments as required by IFRS 8.",
+            "yes_case": {
+              "question": "Has the entity recognized reversals of impairment losses during the reporting period?",
+              "guidance": "Review the entity’s income statement and notes to the financial statements for any mention of reversals of impairment losses. Check sections discussing impairment testing or recoverable amount calculations related to IAS 36.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of reversals of impairment losses recognized in profit or loss and in other comprehensive income separately for each reportable segment?",
+                "guidance": "Refer to the notes on segments and impairment under IAS 36. Confirm that the disclosures include the exact amounts of reversals on a per-segment basis, categorized into profit or loss and other comprehensive income, as per paragraph IAS 36.129(b).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.1",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(a)",
+          "question": "Has the entity recognised or reversed an impairment loss for an individual asset or cash-generating unit during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "If an impairment loss or reversal for an individual asset or cash-generating unit is recognised or reversed during the period, does the entity disclose the events and circumstances that led to that recognition or reversal?",
+          "decision_tree": {
+            "question": "Has the entity recognised or reversed an impairment loss for an individual asset or cash-generating unit during the reporting period?",
+            "guidance": "Review the financial statements, particularly those sections explaining asset impairments or reversals (e.g., notes to the financial statements). Locate any disclosures or calculations concerning IAS 36. Check for impairment testing outcomes and note whether impairment losses or reversals have been recorded.",
+            "yes_case": {
+              "question": "Has the entity disclosed the events and circumstances that led to the recognition or reversal of the impairment?",
+              "guidance": "Refer to IAS 36.130(a). Review the disclosure notes under the impairment section. Check whether the entity has provided specific details explaining the reasons (e.g., changes in market conditions, operational performance) for the impairment loss or reversal.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.2",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(b)",
+          "question": "Has the entity recognized or reversed any impairment losses during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the amount of the impairment loss recognised or reversed?",
+          "decision_tree": {
+            "question": "Has the entity recognized or reversed any impairment losses during the reporting period?",
+            "guidance": "Review the financial statements, particularly the notes related to IAS 36. Check the line items for impairment losses recognized or reversed. Common areas include assets such as goodwill, intangible assets, or tangible fixed assets. Verify with journal entries, management documentation, or impairment testing assessments.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of the impairment loss recognized or reversed for each individual asset or cash-generating unit, as required by IAS 36.130(b)?",
+              "guidance": "Examine the disclosures in the notes to the financial statements. Confirm whether the amount of impairment losses recognized or reversed is specified for each individual asset or cash-generating unit. IAS 36.130(b) requires disclosure at this granular level. Ensure all relevant assets are covered and no general groupings are used.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.3",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(c)(i)",
+          "question": "Does the entity hold individual assets within the scope of IAS 36 requiring impairment testing?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "For an individual asset, does the entity disclose the nature of the asset?",
+          "decision_tree": {
+            "question": "Does the entity hold individual assets within the scope of IAS 36 requiring impairment testing?",
+            "guidance": "Review the financial statements and supporting fixed asset schedules to identify if the entity holds any individual assets subject to IAS 36. Ensure these assets are not grouped under cash-generating units but reported individually. Check sections where impairment testing is disclosed or performed.",
+            "yes_case": {
+              "question": "Has the entity included these individual assets in the scope of its impairment disclosures?",
+              "guidance": "Refer to IAS 36.130. Confirm that the entity has assessed impairment and disclosed relevant information for these assets, as required by the standard. Specifically look for disclosure around the nature of each asset, impairment methodology, and supporting calculations.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature of each individual asset?",
+                "guidance": "Check IAS 36.130(c)(i). The disclosure should describe the specific type, purpose, or category of each asset. Ensure this disclosure is clear, consistent, and detailed enough to provide users with sufficient understanding.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.4",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(c)(ii)",
+          "question": "Does the entity prepare and disclose segment information in accordance with IFRS 8 Operating Segments?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity reports segment information, does it disclose the reportable segment to which the impaired or reversed asset belongs?",
+          "decision_tree": {
+            "question": "Does the entity prepare and disclose segment information in accordance with IFRS 8 Operating Segments?",
+            "guidance": "Check if the entity provides financial information segmented by business activities or geographical areas in its financial statements. Review the segment reporting disclosure section in the notes to the financial statements. Ensure compliance with IFRS 8 Operating Segments.",
+            "yes_case": {
+              "question": "Has the entity recognized an impairment or reversal of impairment for any asset during the reporting period?",
+              "guidance": "Review the notes to the financial statements, particularly disclosures related to IAS 36 Impairment of Assets. Look for any mention of impairments or reversals in the reporting period.",
+              "yes_case": {
+                "question": "Does the entity disclose the reportable segment to which the impaired or reversed asset belongs?",
+                "guidance": "Verify if the disclosure includes the specific segment (as defined by IFRS 8 Operating Segments) where the impaired or reversed asset is categorized. This information should be present in the notes accompanying the financial statements under segment reporting or impairment disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.5",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(d)(i)",
+          "question": "Does the entity have cash-generating units identified under IAS 36?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "For a cash-generating unit, does the entity provide a description of that unit (such as product line, plant, business operation, geographical area or reportable segment)?",
+          "decision_tree": {
+            "question": "Does the entity have cash-generating units identified under IAS 36?",
+            "guidance": "Review the financial statements and management documentation to confirm whether the entity has identified cash-generating units (CGUs). A CGU is the smallest identifiable group of assets generating cash inflows largely independent of other assets or groups of assets (IAS 36.6). Examples can include product lines, plants, business operations, geographical areas, or reportable segments. If no CGUs are identified, this question is not applicable.",
+            "yes_case": {
+              "question": "Has the entity disclosed a description of each cash-generating unit (e.g., product line, plant, business operation, geographical area, or reportable segment)?",
+              "guidance": "Check the notes to the financial statements for disclosures on cash-generating units. Review IAS 36.130(d)(i) for guidance on acceptable descriptions of CGUs. Ensure the disclosures include sufficient detail to understand the nature of each CGU without excessive information. Common pitfalls include vague or overly broad descriptions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.6",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(d)(ii)",
+          "question": "Has the entity recognized or reversed any impairment losses during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the amount of the impairment loss recognised or reversed by class of assets and, if applicable, by reportable segment?",
+          "decision_tree": {
+            "question": "Has the entity recognized or reversed any impairment losses during the reporting period?",
+            "guidance": "Review the financial statements, specifically the notes related to IAS 36 compliance, and the statement of profit or loss and other comprehensive income. Look for entries under impairment loss or reversal of impairment loss. Common pitfalls include overlooking small adjustments that qualify as impairment reversals or failures to connect impairment disclosures with reportable segments.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of the impairment loss recognized or reversed by class of assets?",
+              "guidance": "Verify the notes to the financial statements for disclosures under IAS 36.130(d), ensuring that each class of assets impacted by impairment losses or reversals is explicitly detailed. Classes may include property, plant and equipment, goodwill, intangibles, etc. Ensure the information is specific and complete for all impacted classes.",
+              "yes_case": {
+                "question": "If applicable, does the entity disclose the amount of the impairment loss recognized or reversed by reportable segment?",
+                "guidance": "Cross-check disclosures related to impairment losses or reversals with the entity’s reportable segments as identified under IFRS 8. Confirm that impairment details are provided for each applicable segment if impairment relates to a segment’s assets. Note that reportable segments are operational divisions that are disclosed separately based on IFRS 8 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.7",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(d)(iii)",
+          "question": "Has the entity changed the way assets are aggregated for identifying the cash-generating unit (CGU) since the previous estimate?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "If the way assets are aggregated for identifying the cash-generating unit has changed since the previous estimate, does the entity describe the current and former aggregation and explain the reasons for the change?",
+          "decision_tree": {
+            "question": "Has the entity changed the way assets are aggregated for identifying the cash-generating unit (CGU) since the previous estimate?",
+            "guidance": "Review the entity's impairment testing documentation and management's determination of CGUs. Compare how assets were grouped in the previous reporting period with the current aggregation. Look for changes due to operational restructures, business reorganizations, or significant asset acquisitions/disposals.",
+            "yes_case": {
+              "question": "Does the entity describe both the current and former aggregation methods for identifying the CGU?",
+              "guidance": "Check the notes to the financial statements, especially the disclosure related to impairment testing under IAS 36. Ensure descriptions are provided for both the prior and current aggregation methods, specifying their composition and key differences.",
+              "yes_case": {
+                "question": "Does the entity explain the reasons for the change in aggregation methods?",
+                "guidance": "Assess whether the disclosure provides a clear explanation for the change in aggregation, referencing operational or structural factors driving the decision. This explanation should be logical, detailed, and compliant with IAS 36.130(d)(iii).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.8",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(e)",
+          "question": "Has the entity identified an asset or cash-generating unit (CGU) for impairment testing?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the recoverable amount of the asset or cash-generating unit and whether it is fair value less costs of disposal or value in use?",
+          "decision_tree": {
+            "question": "Has the entity identified an asset or cash-generating unit (CGU) for impairment testing?",
+            "guidance": "Review the notes to the financial statements and IAS 36 disclosures. Check whether the entity has assets or CGUs subject to impairment testing. Look at prior periods for indications of impairment assessments and ensure no assumptions are missed.",
+            "yes_case": {
+              "question": "Has the entity performed impairment testing during the reporting period?",
+              "guidance": "Check whether the entity has assessed the recoverable amount of assets or CGUs due to triggering events like market decline or asset underperformance. Ensure testing was conducted when required per IAS 36.9.",
+              "yes_case": {
+                "question": "Does the entity disclose the recoverable amount of the asset or CGU, specifying whether it is fair value less costs of disposal or value in use?",
+                "guidance": "Review the disclosures required by IAS 36.130(e) in the financial statements. Ensure the recoverable amount is clearly stated and that the method used (fair value less costs of disposal or value in use) is appropriately identified. Verify that supporting details align with calculations and assumptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.9",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(f)(i)",
+          "question": "Does the entity use recoverable amount measured as fair value less costs of disposal for any of its assets or cash-generating units?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "If the recoverable amount is fair value less costs of disposal, does the entity disclose the level of the fair value hierarchy within which that measurement is categorised?",
+          "decision_tree": {
+            "question": "Does the entity use recoverable amount measured as fair value less costs of disposal for any of its assets or cash-generating units?",
+            "guidance": "Review the impairment testing documentation and disclosures for the entity. Look for instances where the recoverable amount is determined based on fair value less costs of disposal, rather than value in use. Ensure reference to IAS 36.18-19 to confirm the basis of measurement.",
+            "yes_case": {
+              "question": "Has the entity determined the fair value measurement in accordance with IFRS 13 (Fair Value Measurement)?",
+              "guidance": "Verify if fair value determination was made using IFRS 13 guidelines, including hierarchy categorization (e.g., Level 1, Level 2, Level 3 input). Examine valuation reports or methodologies for compliance. Common errors include incorrect classification within the hierarchy or incomplete application of IFRS 13 principles.",
+              "yes_case": {
+                "question": "Does the entity disclose the level of the fair value hierarchy within which the measurement is categorized?",
+                "guidance": "Review financial disclosures, especially notes related to impairment testing and fair value measurements. The entity must explicitly state whether the measurement falls under Level 1, Level 2, or Level 3 of the IFRS 13 fair value hierarchy. Ensure compliance with IAS 36.130(f)(i).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.10",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(f)(ii)",
+          "question": "Does the entity have fair value measurements categorized within Level 2 or Level 3 of the fair value hierarchy?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "For fair value measurements categorised within Level 2 or 3, does the entity describe the valuation technique(s) used and any changes in technique with reasons?",
+          "decision_tree": {
+            "question": "Does the entity have fair value measurements categorized within Level 2 or Level 3 of the fair value hierarchy?",
+            "guidance": "Review the financial statements, particularly disclosures related to fair value measurements (typically under Notes or IFRS 13 disclosures). Level 2 measurements rely on observable inputs other than quoted prices, while Level 3 measurements rely on unobservable inputs. Ensure the existence and classification of such measurements.",
+            "yes_case": {
+              "question": "Has the entity disclosed the valuation technique(s) used for Level 2 or Level 3 fair value measurements?",
+              "guidance": "Examine Notes to the financial statements under the fair value measurement section. Look for a description of the valuation techniques applied (e.g., market comparison, income approach, etc.), as required under IAS 36.130(f)(ii). Ensure the techniques align with observable or unobservable inputs used.",
+              "yes_case": {
+                "question": "Has the entity disclosed any changes in valuation techniques for Level 2 or Level 3 measurements, along with the reasons for such changes?",
+                "guidance": "Review disclosures in the financial statements related to changes in valuation techniques. Verify that changes are clearly described and reasons (e.g., new information, better valuation methods) are provided. Inadequate explanations may indicate non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.11",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(f)(iii)",
+          "question": "Does the financial statement include any fair value measurements categorized within Level 2 or Level 3 of the fair value hierarchy?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "For fair value measurements within Level 2 or 3, does the entity disclose each key assumption and the discount rate(s) used?",
+          "decision_tree": {
+            "question": "Does the financial statement include any fair value measurements categorized within Level 2 or Level 3 of the fair value hierarchy?",
+            "guidance": "Review IFRS 13 Fair Value Hierarchy and financial statements disclosures. Check if items measured at fair value are classified as Level 2 or Level 3. These levels typically involve observable or unobservable inputs (e.g., market assumptions or valuation models). Common examples include investment properties, biological assets, or complex financial instruments.",
+            "yes_case": {
+              "question": "Are the key assumptions and discount rate(s) disclosed for Level 2 or Level 3 fair value measurements?",
+              "guidance": "Examine the notes to the financial statements where fair value measurements are disclosed, typically under IAS 36 impairment disclosures or IFRS 13 fair value notes. Look for explanations about valuation techniques, significant assumptions used (e.g., growth rates, risk factors), and any discount rates applied. Ensure disclosures are specific and sufficiently detailed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "402.12",
+          "section": "IAS 36",
+          "reference": "IAS 36.130(g)",
+          "question": "Does the entity measure the recoverable amount of an asset or CGU using value in use?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "400.1",
+          "source_trigger": "Yes",
+          "original_question": "If the recoverable amount is value in use, does the entity disclose the discount rate(s) used in the current and previous estimates?",
+          "decision_tree": {
+            "question": "Does the entity measure the recoverable amount of an asset or CGU using value in use?",
+            "guidance": "Review the impairment testing process detailed in the entity's financial statements and notes. Verify whether the recoverable amount is calculated based on the value in use rather than fair value less costs of disposal. Check IAS 36, Section 130 for the definition of value in use.",
+            "yes_case": {
+              "question": "Does the entity disclose the discount rate(s) used to calculate value in use for the current and previous estimates?",
+              "guidance": "Examine the disclosures related to impairment testing, typically found in the notes to the financial statements. Look for specific references to discount rates used, including comparative data from prior periods. Ensure compliance with IAS 36.130(g), and confirm that disclosures are clear and sufficiently detailed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "403.1",
+          "section": "IAS 36",
+          "reference": "IAS 36.131(a)",
+          "question": "Has the entity recognized any impairment losses or reversals of impairment losses during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For the aggregate impairment losses and reversals for which no individual disclosures under IAS 36.130 are provided, does the entity disclose the main classes of assets affected by impairment losses and the main classes affected by reversals?",
+          "decision_tree": {
+            "question": "Has the entity recognized any impairment losses or reversals of impairment losses during the reporting period?",
+            "guidance": "Review the Statement of Comprehensive Income and accompanying notes to identify whether impairment losses or reversals are recorded. Look at disclosures under IAS 36. Review sections of the valuation and impairment testing for key asset classes such as goodwill, intangible assets, and PPE.",
+            "yes_case": {
+              "question": "Has the entity provided individual disclosures for each impairment loss or reversal under IAS 36.130?",
+              "guidance": "Examine the notes to the financial statements for disclosure information related to IAS 36.130—these disclosures include the events causing impairment or reversal, amounts, and asset-specific details. If individual disclosures for impairment or reversal events exist, they may supersede aggregate reporting.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Does the entity disclose the main classes of assets affected by impairment losses and the main classes affected by reversals, as required by IAS 36.131(a)?",
+                "guidance": "Check the aggregated impairment loss and reversal disclosures in the notes to financial statements. Ensure the entity has clearly identified the main classes of assets impacted. For example, distinguish between goodwill, intangible assets, and equipment.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "403.2",
+          "section": "IAS 36",
+          "reference": "IAS 36.131(b)",
+          "question": "Has the entity recognized any impairment losses or reversals during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the main events and circumstances that led to recognition of those impairment losses and reversals?",
+          "decision_tree": {
+            "question": "Has the entity recognized any impairment losses or reversals during the reporting period?",
+            "guidance": "Review the entity's Statement of Financial Position and Notes to the Financial Statements. Look for any adjustments related to IAS 36 under assets such as goodwill, intangible assets, PPE, or other assets susceptible to impairment or reversal.",
+            "yes_case": {
+              "question": "Has the entity disclosed the main events and circumstances leading to the recognition of impairment losses and reversals?",
+              "guidance": "Check the Notes to the Financial Statements for disclosures under IAS 36.131(b). Ensure the disclosure specifies the nature of the events and the reasoning behind the decision. Common pitfalls include insufficient detail or vague justification.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.1",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(a)",
+          "question": "Does the entity have any cash-generating units (CGUs) with significant goodwill or indefinite-life intangibles recognized in its financial statements?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For each cash-generating unit with significant goodwill or indefinite-life intangibles, does the entity disclose the carrying amount of goodwill allocated to that unit?",
+          "decision_tree": {
+            "question": "Does the entity have any cash-generating units (CGUs) with significant goodwill or indefinite-life intangibles recognized in its financial statements?",
+            "guidance": "Review the entity's statement of financial position and supporting notes to identify if goodwill and/or indefinite-life intangible assets are recognized. Look for specific mentions of cash-generating units (IAS 36.5 defines a CGU as the smallest identifiable group of assets generating cash inflows independent of other assets). Ensure amounts are classified appropriately under goodwill or intangible assets with indefinite lives.",
+            "yes_case": {
+              "question": "Has the entity allocated the carrying amount of goodwill to specific cash-generating units (CGUs)?",
+              "guidance": "Examine whether the carrying amount of goodwill is allocated to individual CGUs as required by IAS 36.80. Review the notes to financial statements and verify that the allocation is clearly documented and consistent with the management's segmentation of CGUs.",
+              "yes_case": {
+                "question": "Has the entity disclosed the carrying amount of goodwill allocated to each cash-generating unit with significant goodwill or indefinite-life intangibles?",
+                "guidance": "Review IAS 36.134(a) to ensure compliance. Check the notes to financial statements for explicit disclosure of the carrying amounts. Cross-reference with other disclosures in the financial statements to confirm accuracy and completeness. Ensure that the disclosure is specific, clear, and properly categorized.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.2",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(b)",
+          "question": "Does the entity possess intangible assets with indefinite useful lives?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the carrying amount of intangible assets with indefinite useful lives allocated to that unit?",
+          "decision_tree": {
+            "question": "Does the entity possess intangible assets with indefinite useful lives?",
+            "guidance": "Review the entity's financial statements, particularly the notes on intangible assets, and IAS 36 compliance. Look for assets classified as intangible with unspecified or indefinite useful lives (e.g., trademarks, brands). Ensure this classification aligns with factual evidence and documentation.",
+            "yes_case": {
+              "question": "Are these intangible assets allocated to a specific cash-generating unit (CGU)?",
+              "guidance": "Review the allocation procedures under IAS 36, as entities must assign assets to CGUs based on the unit's use and benefit from the asset. Check supporting documents such as allocation worksheets, management determinations, and IAS 36 paragraph 134 for proper assignment.",
+              "yes_case": {
+                "question": "Does the entity disclose the carrying amount of the intangible assets with indefinite useful lives allocated to that unit?",
+                "guidance": "Inspect the financial statement disclosures, specifically the notes related to IAS 36. Ensure the carrying amount connected to the CGU is explicitly disclosed and aligns with IAS 36.134(b). If omitted, it may result in non-compliance with IFRS disclosure standards.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.3",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(c)",
+          "question": "Does the entity have a cash-generating unit or individual asset for which an impairment test has been conducted?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the basis on which the unit's recoverable amount has been determined (value in use or fair value less costs of disposal)?",
+          "decision_tree": {
+            "question": "Does the entity have a cash-generating unit or individual asset for which an impairment test has been conducted?",
+            "guidance": "Review the entity's financial statements and impairment testing records under IAS 36. Impairment tests are conducted when there is an indication of impairment or during annual testing for goodwill, intangible assets, or indefinite life assets. Check whether any cash-generating units (CGUs) or individual assets are subject to impairment testing.",
+            "yes_case": {
+              "question": "Has the entity disclosed the recoverable amount of the cash-generating unit or individual asset tested for impairment?",
+              "guidance": "In the financial statements, locate disclosures related to IAS 36, particularly under impairment testing. Ensure the recoverable amount is specified for any CGU or asset tested for impairment.",
+              "yes_case": {
+                "question": "Does the disclosure specify the basis used to determine the recoverable amount (value in use or fair value less costs of disposal)?",
+                "guidance": "Verify that the financial statement includes explicit wording for the basis of recoverable amount determination per IAS 36.134(c). This could be either 'value in use' determined using discounted cash flows, or 'fair value less costs of disposal' based on market comparison. Ensure the stated method aligns with the supporting calculations and rationale.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.4",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(d)(i)",
+          "question": "Has the entity determined the recoverable amount of an asset or a cash-generating unit (CGU)?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the recoverable amount is value in use, does the entity disclose each key assumption used in cash flow projections?",
+          "decision_tree": {
+            "question": "Has the entity determined the recoverable amount of an asset or a cash-generating unit (CGU)?",
+            "guidance": "Check the IAS 36 disclosure requirements and review the entity's financial statements, specifically notes pertaining to impairment testing. Ensure the entity has calculated recoverable amounts when impairment indicators exist. Recoverable amount can be determined as either value in use or fair value less costs of disposal. Ensure impairment testing is correctly documented.",
+            "yes_case": {
+              "question": "Is the recoverable amount determined using value in use rather than fair value less costs of disposal?",
+              "guidance": "Review IAS 36 definitions and the impairment test methodology disclosed. Value in use considers cash flow projections and discounting future cash flows to present value. Check impairment testing documentation or note disclosures for references to 'value in use'.",
+              "yes_case": {
+                "question": "Does the entity disclose each key assumption used in the cash flow projections for determining value in use?",
+                "guidance": "Examine note disclosures in financial statements related to impairment testing. Key assumptions should include discount rates, growth rates, and other factors significant to estimating future cash inflows/outflows. Ensure all assumptions are specific, relevant, and appropriately justified. Refer to IAS 36.134(d)(i) for detailed guidance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.5",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(d)(ii)",
+          "question": "Does the entity prepare financial statements that involve impairment testing under IAS 36?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity describe management's approach to determining the values assigned to each key assumption, including consistency with past experience or external sources?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements that involve impairment testing under IAS 36?",
+            "guidance": "Review the financial statements and check if the entity has assets subject to impairment testing, such as goodwill, intangible assets, or property, plant, and equipment. Look for related notes or a mention of IAS 36 compliance in disclosures.",
+            "yes_case": {
+              "question": "Does the entity disclose key assumptions used in estimating recoverable amounts for impairment testing?",
+              "guidance": "Examine the impairment note disclosures. Key assumptions might relate to discount rates, growth rates, or expected future cash flows. These should be explicitly applicable to impairment testing as part of IAS 36. Ensure all values that influence the recoverable amount are disclosed.",
+              "yes_case": {
+                "question": "Does the entity describe management's approach to determining values for each key assumption, including whether these align with past experience or external sources?",
+                "guidance": "Ensure the disclosure describes the methodology for deriving key assumptions, such as referencing historical data or using market-based inputs. Check for statements on consistency over time and external validation, e.g., using market studies or independent appraisers.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.6",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(d)(iii)",
+          "question": "Does the entity perform impairment testing on its non-financial assets (e.g., goodwill, property, plant, and equipment, intangible assets)?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the discount rate(s) applied to the cash flow projections?",
+          "decision_tree": {
+            "question": "Does the entity perform impairment testing on its non-financial assets (e.g., goodwill, property, plant, and equipment, intangible assets)?",
+            "guidance": "Examine whether the entity carries any non-financial assets that are subject to impairment testing under IAS 36. Review the disclosures about impairment testing in the financial statements, particularly note details for possible impairment triggers as per IAS 36.9.",
+            "yes_case": {
+              "question": "Does the entity use discounted cash flow projections in its impairment testing calculations?",
+              "guidance": "Check whether the entity uses a cash flow projection methodology that involves discounting future cash flows to determine recoverable amounts (value in use). This should be consistent with IAS 36.30-36, focusing on the techniques and key assumptions.",
+              "yes_case": {
+                "question": "Does the entity disclose the discount rate(s) applied to the cash flow projections in line with IAS 36.134(d)(iii)?",
+                "guidance": "Review the financial statement notes related to impairment testing, specifically under IAS 36.134. Verify whether the disclosed information includes the discount rate(s) applied, considering that this is a mandatory disclosure under IAS 36.134(d)(iii). Ensure rates are clearly stated and sufficiently detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.7",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(e)(i)",
+          "question": "Has the entity determined the recoverable amount of any asset or cash-generating unit using 'fair value less costs of disposal'?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the recoverable amount is fair value less costs of disposal, does the entity disclose the valuation technique(s) used?",
+          "decision_tree": {
+            "question": "Has the entity determined the recoverable amount of any asset or cash-generating unit using 'fair value less costs of disposal'?",
+            "guidance": "Review the entity's impairment testing documentation and disclosures in the financial statements (IAS 36 Section 134). Identify whether the recoverable amount was calculated based on fair value less costs of disposal. Check impairment calculations, valuation reports, or third-party appraisals if available.",
+            "yes_case": {
+              "question": "Has the entity disclosed the valuation technique(s) used to measure fair value less costs of disposal?",
+              "guidance": "Review the financial statement disclosures related to impairment (IAS 36.134(e)(i)). Ensure that the valuation techniques, such as discounted cash flow models or market comparison techniques, are clearly stated. Check for completeness and compliance with IAS 36 requirements. Common mistake: Lack of detail on how fair value was calculated.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.8",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(e)(ii)",
+          "question": "Does the entity have assets, or groups of assets, for which recoverable amount is determined in accordance with IAS 36?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If fair value less costs of disposal is not based on a quoted price, does the entity disclose each key assumption to which the recoverable amount is most sensitive?",
+          "decision_tree": {
+            "question": "Does the entity have assets, or groups of assets, for which recoverable amount is determined in accordance with IAS 36?",
+            "guidance": "Review the financial statements and impairment analysis documents. Check if the entity has tested any assets or cash-generating units (CGUs) for impairment, as required under IAS 36. Recoverable amount is determined as the higher of fair value less costs of disposal and value in use.",
+            "yes_case": {
+              "question": "Is the recoverable amount of any asset or CGU determined based on fair value less costs of disposal?",
+              "guidance": "Verify impairment testing documentation. Confirm if fair value less costs of disposal, rather than value in use, has been used as the basis for determining the recoverable amount.",
+              "yes_case": {
+                "question": "Is the fair value less costs of disposal of the asset or CGU not based on a quoted price in an active market?",
+                "guidance": "Review valuation reports and impairment model inputs. If the fair value is derived from valuation techniques (e.g., discounted cash flows or market-based assumptions) instead of directly using a quoted price in an active market, answer 'YES'.",
+                "yes_case": {
+                  "question": "Does the entity disclose each key assumption to which the recoverable amount is most sensitive?",
+                  "guidance": "Check the impairment disclosures in the notes to the financial statements. IAS 36.134(e)(ii) requires the disclosure of key assumptions that significantly affect the recoverable amount, such as discount rates, growth rates, or expected future cash flows. Ensure that these assumptions are clearly identified and justified.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.9",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(e)(iii)",
+          "question": "Does the entity have key assumptions related to the impairment testing of non-current assets?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity describe management's approach to determining the values assigned to those key assumptions?",
+          "decision_tree": {
+            "question": "Does the entity have key assumptions related to the impairment testing of non-current assets?",
+            "guidance": "Review the disclosures related to IAS 36. Look for references to impairment testing and confirm whether key assumptions are described for determining recoverable amounts. Key assumptions typically include discount rates, growth rates, or future cash flow projections. If no impairment testing is performed or no key assumptions are mentioned, this question is 'NO'.",
+            "yes_case": {
+              "question": "Are key assumptions used by management material to the impairment testing outcomes?",
+              "guidance": "Determine whether the assumptions significantly impact the recoverable amount calculations. For example, small changes in discount rates or projections should be assessed regarding materiality. Use sensitivity analysis where applicable to gauge materiality.",
+              "yes_case": {
+                "question": "Does the entity describe management's approach to determining the values assigned to those key assumptions?",
+                "guidance": "Check the notes to the financial statements. Verify whether the entity explains how key assumptions were determined, including any methodologies, sources of information, or criteria used by management. The description should be clear and sufficiently detailed to allow users to understand the basis of the impairment calculations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.10",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(e)(iv)",
+          "question": "Does the entity perform asset impairment tests that require fair value measurements?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the fair value hierarchy level within which the fair value measurement is categorised?",
+          "decision_tree": {
+            "question": "Does the entity perform asset impairment tests that require fair value measurements?",
+            "guidance": "Review the entity's impairment testing procedures and documentation under IAS 36. Specifically, determine if any assets or cash-generating units (CGUs) are measured at fair value less costs of disposal for impairment testing purposes. Refer to IAS 36, paragraph 130 for identification of such scenarios. Ensure specific assets or CGUs under review align with criteria defined in IAS 36.",
+            "yes_case": {
+              "question": "Has the entity measured fair value using observable or unobservable inputs based on IFRS 13?",
+              "guidance": "Review the valuation techniques used in measuring fair value for the impaired assets or CGUs. IFRS 13 outlines the hierarchy levels: Level 1 (quoted prices in active markets), Level 2 (observable inputs other than quoted prices), and Level 3 (unobservable inputs). Check if the fair value measurements align with these levels and if appropriate disclosure of the hierarchy is necessary.",
+              "yes_case": {
+                "question": "Does the entity disclose the fair value hierarchy level within which the fair value measurement is categorized?",
+                "guidance": "Review the financial statement notes related to impairment and fair value disclosures. Ensure the level of the fair value hierarchy (Level 1, Level 2, or Level 3) is clearly stated for each item measured at fair value. Verify consistency with IFRS 13 requirements and trace disclosures back to the fair value measurement documentation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.11",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(e)(v)",
+          "question": "Has the entity changed its valuation technique for determining recoverable amount under IAS 36?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If there has been a change in valuation technique, does the entity disclose the change and the reasons for it?",
+          "decision_tree": {
+            "question": "Has the entity changed its valuation technique for determining recoverable amount under IAS 36?",
+            "guidance": "Review the most recent valuation technique used for calculating recoverable amount of assets (e.g., fair value less costs of disposal, value in use) and compare it to prior reporting periods. Look for any documented changes in the methodology used in the valuation process. Cross-check board decisions, valuation reports, and accounting policies.",
+            "yes_case": {
+              "question": "Has the entity provided a disclosure regarding the change in valuation technique and the reasons for the change?",
+              "guidance": "Review the financial statement disclosures, particularly notes related to IFRS-compliant asset impairment valuation. Verify disclosures explicitly state the nature of the change and the rationale, as required by IAS 36.134(e)(v). Avoid assuming compliance from partial or vague disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.12",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(f)(i)",
+          "question": "Does the entity measure fair value less costs of disposal using discounted cash flow projections?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If fair value less costs of disposal is measured using discounted cash flow projections, does the entity disclose the period over which cash flows are projected?",
+          "decision_tree": {
+            "question": "Does the entity measure fair value less costs of disposal using discounted cash flow projections?",
+            "guidance": "Review the valuation techniques applied for estimating fair value less costs of disposal in impairment testing under IAS 36. Check the documentation used for impairment testing, particularly the use of discounted cash flow projections in accordance with IAS 36. Consider whether any alternative valuation methods were used instead.",
+            "yes_case": {
+              "question": "Has the entity disclosed the period over which cash flows are projected in relation to fair value measurement?",
+              "guidance": "Review the Notes to the Financial Statements and disclosures related to impairment testing. Specifically, look for information on the timeframe (e.g., multi-year or specific number of years) over which the projected cash flows were used for calculating fair value in compliance with IAS 36.134(f)(i). Ensure that the disclosure is clear and aligns with the methodology used.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.13",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(f)(ii)",
+          "question": "Does the entity prepare impairment projections based on cash flow forecasts or key assumptions?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the value assigned to the key assumption in those projections?",
+          "decision_tree": {
+            "question": "Does the entity prepare impairment projections based on cash flow forecasts or key assumptions?",
+            "guidance": "Review IAS 36, particularly the requirements for impairment testing and disclosures. Check if the entity identifies cash-generating units (CGUs) that depend on future projections of cash flows or assumptions. Ensure the necessity of such projections is documented in impairment testing.",
+            "yes_case": {
+              "question": "Are key assumptions identified and explicitly used in these projections relating to cash flow forecasts?",
+              "guidance": "Check the impairment testing documentation to confirm whether specific key assumptions, such as growth rates, discount rates, or expected market conditions, are used in the entity’s cash flow assumptions supporting recoverable amounts.",
+              "yes_case": {
+                "question": "Does the entity disclose the value assigned to each key assumption in the impairment projections?",
+                "guidance": "Inspect the financial statement disclosures, particularly under IAS 36. Check Note disclosures for information on each key assumption (e.g., quantification of growth rate, discount rate, etc.). Ensure values are specific, transparent, and meet IAS 36.134(f)(ii) requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "404.14",
+          "section": "IAS 36",
+          "reference": "IAS 36.134(f)(iii)",
+          "question": "Does the entity have assets or cash-generating units (CGUs) that are tested for impairment under IAS 36?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the amount by which the key assumption must change, after considering any consequential effects, for the recoverable amount to equal the carrying amount?",
+          "decision_tree": {
+            "question": "Does the entity have assets or cash-generating units (CGUs) that are tested for impairment under IAS 36?",
+            "guidance": "Check the entity's financial statements and impairment testing records to confirm if impairment testing was conducted for assets or CGUs. Refer to IAS 36.134 for indicators of impairment and relevant disclosures. If no impairment testing is performed, this item is not applicable.",
+            "yes_case": {
+              "question": "Has the entity determined the recoverable amount for any asset or CGU using key assumptions based on future cash flows or fair value measurement?",
+              "guidance": "Review the impairment testing calculations and supporting documentation to identify if key assumptions related to cash flow projections or fair value were used for determining recoverable amounts. Ensure these assumptions align with IAS 36.130.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount by which the key assumption must change, after considering any consequential effects, for the recoverable amount to equal the carrying amount?",
+                "guidance": "Refer to IAS 36.134(f)(iii). Check the notes to the financial statements for disclosure of sensitivity analysis related to key assumptions. Ensure the disclosure specifies the amount of change in assumptions necessary for the recoverable amount to equal the carrying amount.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "405.1",
+          "section": "IAS 36",
+          "reference": "IAS 36.135(a)",
+          "question": "Does the entity have goodwill or indefinite-life intangible assets?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If goodwill or indefinite-life intangibles are allocated across multiple units and allocations to each are not individually significant, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Does the entity have goodwill or indefinite-life intangible assets?",
+            "guidance": "Refer to the Statement of Financial Position and relevant notes under IAS 36. Determine if goodwill or intangible assets with indefinite useful lives are recorded. Ensure this is verified against prior period disclosures for consistency.",
+            "yes_case": {
+              "question": "Are the goodwill or indefinite-life intangible assets allocated across multiple cash-generating units (CGUs)?",
+              "guidance": "Check the entity's allocation methodology for goodwill and indefinite-life intangible assets. Review IAS 36 implementation in the notes to financial statements and confirm allocation across CGUs.",
+              "yes_case": {
+                "question": "Is the allocation to each cash-generating unit individually significant?",
+                "guidance": "Assess the allocations provided in the financial statement disclosures. Compare the individual allocation amounts to materiality thresholds discussed with management or audit parameters. Significant allocations are typically those that could influence economic decisions of users.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": {
+                  "question": "Does the entity disclose that the allocations to each cash-generating unit are not individually significant?",
+                  "guidance": "Review the entity’s disclosure notes accompanying IAS 36. Check for a specific statement clarifying that the allocations to each CGU are not individually significant, in line with the requirements of IAS 36.135(a). Lack of such disclosure represents a compliance issue.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                }
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "405.2",
+          "section": "IAS 36",
+          "reference": "IAS 36.135(b)",
+          "question": "Does the entity have goodwill or indefinite-life intangible assets recognized in the financial statements?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the aggregate carrying amount of goodwill or indefinite-life intangibles allocated to those units?",
+          "decision_tree": {
+            "question": "Does the entity have goodwill or indefinite-life intangible assets recognized in the financial statements?",
+            "guidance": "Review the Statement of Financial Position and related notes to determine if goodwill or indefinite-life intangible assets are listed. These items are typically disclosed under 'Intangible Assets' or 'Non-current Assets'. Verify their recognition based on IAS 36 and IAS 38 criteria.",
+            "yes_case": {
+              "question": "Is the goodwill or indefinite-life intangible asset allocated to one or more cash-generating units (CGUs)?",
+              "guidance": "Check the notes to the financial statements for disclosures regarding the allocation of goodwill or indefinite-life intangibles. Allocation often occurs during impairment testing as per IAS 36. Ensure the allocation process aligns with IAS 36.80-87.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate carrying amount of goodwill or indefinite-life intangible assets allocated to those cash-generating units?",
+                "guidance": "Review the notes to the financial statements where IAS 36.135 requires disclosure of the aggregate carrying amount of goodwill or indefinite-life intangible assets for each unit (or group of units). Ensure this is clearly disclosed without aggregation that obscures details.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "406.1",
+          "section": "IAS 36",
+          "reference": "IAS 36.135(a)",
+          "question": "Does the entity have multiple cash-generating units (CGUs) with recoverable amounts determined based on the same key assumptions?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If recoverable amounts of multiple units are based on the same key assumptions and their aggregate carrying amount is significant, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Does the entity have multiple cash-generating units (CGUs) with recoverable amounts determined based on the same key assumptions?",
+            "guidance": "Review the entity’s impairment testing documentation and IAS 36 disclosures. Identify if multiple CGUs have recoverable amounts determined based on identical key assumptions (e.g., growth rates, discount rates). This information typically resides in the notes to the financial statements under the section describing impairment testing.",
+            "yes_case": {
+              "question": "Is the aggregate carrying amount of these CGUs significant in the context of the entity's total carrying amount of assets?",
+              "guidance": "Compare the combined carrying amount of the CGUs to the total carrying amount of the entity’s assets in the financial statements. 'Significant' should be evaluated based on materiality thresholds defined in IAS 1 and the entity’s materiality policy.",
+              "yes_case": {
+                "question": "Does the entity disclose that the recoverable amounts of these CGUs are based on the same key assumptions and indicate the aggregate carrying amount?",
+                "guidance": "In the notes to the financial statements, check for explicit disclosure about the use of identical key assumptions for these CGUs and the corresponding aggregated carrying amounts. The disclosure should comply with IAS 36.135(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "406.2",
+          "section": "IAS 36",
+          "reference": "IAS 36.135(b)",
+          "question": "Does the entity have goodwill recognized in its financial statements?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the aggregate carrying amount of goodwill allocated to those units?",
+          "decision_tree": {
+            "question": "Does the entity have goodwill recognized in its financial statements?",
+            "guidance": "Review the Statement of Financial Position and accompanying notes to determine if goodwill is recognized as an asset. Cross-verify with acquisition-related disclosures under IFRS 3 to confirm the existence of goodwill.",
+            "yes_case": {
+              "question": "Has the goodwill been allocated to cash-generating units (CGUs) as required by IAS 36?",
+              "guidance": "Examine the entity’s disclosures related to impairment testing of goodwill in the notes to the financial statements. Goodwill must be allocated to CGUs or groups of CGUs at the lowest level at which it is monitored for internal management purposes.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate carrying amount of goodwill allocated to those units, as required by IAS 36.135(b)?",
+                "guidance": "Review the notes to the financial statements under the section addressing goodwill. Ensure the disclosure includes the total carrying amount of goodwill allocated to CGUs or groups of CGUs. Check for completeness and clarity in accordance with IAS 36.135(b).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Does the entity explain why goodwill has not been allocated to CGUs?",
+                "guidance": "IAS 36 requires that goodwill is generally allocated to CGUs for impairment testing. If no allocation is presented, verify whether the entity provides a reasonable explanation supported by a specific exemption or justified rationale.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "406.3",
+          "section": "IAS 36",
+          "reference": "IAS 36.135(c)",
+          "question": "Does the entity have intangible assets with indefinite useful lives?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the aggregate carrying amount of intangible assets with indefinite useful lives allocated to those units?",
+          "decision_tree": {
+            "question": "Does the entity have intangible assets with indefinite useful lives?",
+            "guidance": "Review the Statement of Financial Position and accompanying notes. Look for any intangible assets reported as having indefinite useful lives. Check IAS 36 definitions to confirm they meet the criteria for 'indefinite useful lives' (e.g., the asset does not have foreseeable limits to the period over which it will generate cash inflows). Ensure that the classification is substantiated with proper documentation and reasoning, avoiding confusion with assets that have finite useful lives.",
+            "yes_case": {
+              "question": "Are these intangible assets allocated to specific cash-generating units (CGUs)?",
+              "guidance": "Refer to the notes on impairment testing in the financial statements and IAS 36. Confirm that the entity has identified CGUs and allocated the intangible assets with indefinite useful lives to those units. Common pitfalls include failing to allocate assets properly or inconsistencies in the allocation process.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate carrying amount of intangible assets with indefinite useful lives allocated to those units?",
+                "guidance": "Review the Statement of Financial Position and accompanying notes. Verify the disclosure of the aggregate carrying amount. IAS 36.135(c) specifies this as a requirement when intangible assets with indefinite useful lives are allocated to CGUs. Ensure that the disclosure is clear, complete, and presented in accordance with IAS 36.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "406.4",
+          "section": "IAS 36",
+          "reference": "IAS 36.135(d)",
+          "question": "Does the entity allocate goodwill to cash-generating units (CGUs)?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity describe the key assumption(s) common to those units?",
+          "decision_tree": {
+            "question": "Does the entity allocate goodwill to cash-generating units (CGUs)?",
+            "guidance": "Refer to the entity's financial statements. Check the notes to the accounts, specifically related to goodwill and impairment testing under IAS 36. Goodwill must be allocated to CGUs for impairment testing purposes as per IAS 36.80.",
+            "yes_case": {
+              "question": "Does the entity perform annual impairment tests or impairment tests triggered by events for cash-generating units containing goodwill?",
+              "guidance": "Check the entity's impairment testing documentation and disclosures under IAS 36. Check if goodwill is tested for impairment at least annually or more frequently if impairment indicators exist, in line with IAS 36.90.",
+              "yes_case": {
+                "question": "Does the entity disclose key assumptions common to those cash-generating units during impairment testing?",
+                "guidance": "Examine the notes to financial statements and disclosures related to impairment testing. The entity must describe significant assumptions (e.g., discount rates, growth rates) used in impairment tests for CGUs containing goodwill as per IAS 36.135(d). Ensure these assumptions are specific, clear, and consistent with industry benchmarks.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "406.5",
+          "section": "IAS 36",
+          "reference": "IAS 36.135(e)",
+          "question": "Does the entity recognize any assets that are subject to impairment testing under IAS 36?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity describe management's approach to determining the values assigned to the key assumption(s), including consistency with past experience or external sources and any consequential effects for the recoverable amounts to equal carrying amounts?",
+          "decision_tree": {
+            "question": "Does the entity recognize any assets that are subject to impairment testing under IAS 36?",
+            "guidance": "Review the Statement of Financial Position and related notes. Look for assets such as goodwill, intangible assets, property, plant, and equipment, or other assets where IAS 36 applies. Ensure to identify whether these assets are tested for impairment.",
+            "yes_case": {
+              "question": "Has the entity performed an impairment test during the reporting period for any of these assets?",
+              "guidance": "Refer to the documentation supporting impairment testing, including calculations for recoverable amounts. IAS 36 requires impairment testing if there are indications of impairment or for assets like goodwill and indefinite-lived intangibles at least annually.",
+              "yes_case": {
+                "question": "Has the entity provided disclosures about management's approach to determining values for key assumptions used in the impairment test?",
+                "guidance": "Review the financial statement disclosures, specifically on impairment testing, and ensure that the entity explains how they determine the values for assumptions. This includes consistency with past experience, external sources, and any contribution to recoverable amounts equaling carrying amounts.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

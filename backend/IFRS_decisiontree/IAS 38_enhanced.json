@@ -1,0 +1,582 @@
+{
+  "title": "Intangible Assets (IAS 38) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 38",
+      "title": "Intangible assets",
+      "description": "Checklist for presentation and disclosure requirements under IAS 38.",
+      "items": [
+        {
+          "id": "418.1",
+          "section": "IAS 38",
+          "reference": "IAS 38.118(a)",
+          "question": "Does the entity have intangible assets reported in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose whether the useful lives are indefinite or finite and, if finite, the useful lives or the amortisation rates used?",
+          "decision_tree": {
+            "question": "Does the entity have intangible assets reported in its financial statements?",
+            "guidance": "Review the Statement of Financial Position and relevant notes to verify the existence of intangible assets. Intangible assets commonly include patents, trademarks, goodwill, software, and other items defined in IAS 38. Ensure these are recognized as per the criteria in IAS 38.18.",
+            "yes_case": {
+              "question": "Has the entity determined whether the useful lives of these intangible assets are finite or indefinite?",
+              "guidance": "Check the accounting policies or disclosures in the notes to the financial statements where the entity specifies if intangible assets have finite or indefinite useful lives. Ensure determination is made in accordance with IAS 38.88-91.",
+              "yes_case": {
+                "question": "If the useful lives are finite, does the entity disclose the useful lives or amortisation rates used?",
+                "guidance": "Verify disclosures in the financial statement notes. IAS 38.118(a) requires entities to disclose either the useful lives or the amortisation rates applied for finite-lived intangible assets. Look for omissions or inadequate detail, which would constitute non-compliance.",
+                "yes_case": {
+                  "question": "If the useful lives are indefinite, does the entity disclose that determination appropriately?",
+                  "guidance": "Check the disclosures related to intangible assets with indefinite useful lives in the notes to the financial statements. IAS 38.122 requires that indefinite useful lives are disclosed along with the justification that supports the assessment. Common errors include failing to explain the indefinite determination.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "418.2",
+          "section": "IAS 38",
+          "reference": "IAS 38.118(b)",
+          "question": "Does the entity have intangible assets with finite useful lives?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amortisation methods used for intangible assets with finite useful lives?",
+          "decision_tree": {
+            "question": "Does the entity have intangible assets with finite useful lives?",
+            "guidance": "Review the entity's Statement of Financial Position and accompanying notes. Look for disclosures under 'Intangible Assets' in accordance with IAS 38. Ensure that the useful life section distinguishes between finite and indefinite useful lives. Common pitfalls include misclassifications or omissions.",
+            "yes_case": {
+              "question": "Has the entity disclosed the amortisation methods used for these intangible assets?",
+              "guidance": "Examine the notes to the financial statements. Identify the amortisation methods applied (e.g., straight-line method, reducing balance method) to intangible assets with finite useful lives. Verify whether these methods are clearly described and aligned with IAS 38.118(b). Ensure that the methods are appropriate considering the asset's usage patterns.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "418.3",
+          "section": "IAS 38",
+          "reference": "IAS 38.118(c)(i)",
+          "question": "Does the entity have intangible assets classified as held for sale or included in a disposal group under IFRS 5?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the gross carrying amount and the accumulated amortisation (aggregated with accumulated impairment losses) of assets classified as held for sale or included in a disposal group classified as held for sale under IFRS 5 and other disposals?",
+          "decision_tree": {
+            "question": "Does the entity have intangible assets classified as held for sale or included in a disposal group under IFRS 5?",
+            "guidance": "Review the financial statements and notes to identify whether any intangible assets are classified as held for sale or are part of a disposal group under IFRS 5. Check for references to assets planned for disposal in the near term. Consult management disclosures or documentation regarding disposals.",
+            "yes_case": {
+              "question": "Are the gross carrying amount and accumulated amortisation (aggregated with accumulated impairment losses) of these intangible assets properly disclosed?",
+              "guidance": "Examine the notes to the financial statements and the relevant disclosure sections for intangible assets. Ensure the disclosure includes both the gross carrying amount and the accumulated amortisation (which should also include any impairment losses). Review IAS 38.118(c)(i) and IFRS 5 disclosure requirements for guidance.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "418.4",
+          "section": "IAS 38",
+          "reference": "IAS 38.118(c)(ii)",
+          "question": "Has the entity performed any revaluations or recognized/reversed impairment losses related to intangible assets during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose increases or decreases during the reporting period resulting from revaluations under IAS 38.75, IAS 38.85 and IAS 38.86, and from impairment losses recognised or reversed in other comprehensive income under IAS 36, if any?",
+          "decision_tree": {
+            "question": "Has the entity performed any revaluations or recognized/reversed impairment losses related to intangible assets during the reporting period?",
+            "guidance": "Review the financial statements and the notes for any mention of revaluations under IAS 38.75, IAS 38.85, and IAS 38.86 or impairment losses recognized/reversed under IAS 36. Focus on the sections addressing intangible assets, specifically any schedules detailing changes in asset values.",
+            "yes_case": {
+              "question": "Did the entity present the effects of these revaluations or impairment losses in other comprehensive income as required?",
+              "guidance": "Verify the Statement of Comprehensive Income and accompanying notes to confirm whether the revaluations and impairment losses (if any) were appropriately disclosed in accordance with IAS 38 and IAS 36. Ensure that increases or decreases are correctly categorized.",
+              "yes_case": {
+                "question": "Does the entity disclose the increases or decreases in the intangible asset value in the notes to the financial statements?",
+                "guidance": "Examine the note disclosures accompanying the financial statements for details related to intangible assets. Specific areas to check include reconciliation schedules showing opening balances, changes during the period (e.g., increases from revaluations or decreases from impairment losses), and closing balances for intangible assets.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "418.5",
+          "section": "IAS 38",
+          "reference": "IAS 38.118(c)(iii)",
+          "question": "Did the entity recognize any impairment losses related to intangible assets during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose impairment losses recognised in profit or loss during the reporting period under IAS 36, if any?",
+          "decision_tree": {
+            "question": "Did the entity recognize any impairment losses related to intangible assets during the reporting period?",
+            "guidance": "Review the financial statements and notes, specifically focusing on the Statement of Profit or Loss and the disclosures related to IAS 36. Look for entries regarding impairment losses for intangible assets. Common pitfalls include overlooking non-financial asset impairments and misclassification of expenses—ensure these losses are properly categorized.",
+            "yes_case": {
+              "question": "Are the recognized impairment losses disclosed according to the requirements of IAS 38.118(c)(iii)?",
+              "guidance": "Verify that the disclosures include the nature and amount of impairment losses, clearly stated as required by IAS 38.118(c)(iii). Cross-check the notes to financial statements for accuracy and completeness, ensuring compliance with IAS 36 disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "418.6",
+          "section": "IAS 38",
+          "reference": "IAS 38.118(c)(iv)",
+          "question": "Has the entity reversed any impairment losses during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose impairment losses reversed in profit or loss during the reporting period under IAS 36, if any?",
+          "decision_tree": {
+            "question": "Has the entity reversed any impairment losses during the reporting period?",
+            "guidance": "Review the financial statements, specifically the Statement of Profit or Loss and relevant notes. Check for any instances where previously recognized impairment losses on assets were reversed, as per IAS 36.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of impairment losses reversed in profit or loss during the reporting period, as required under IAS 38.118(c)(iv)?",
+              "guidance": "Examine the disclosures provided in the notes to the financial statements. Ensure the reversed impairment amounts are clearly stated and attributed to the appropriate line items within profit or loss.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "418.7",
+          "section": "IAS 38",
+          "reference": "IAS 38.118(c)(v)",
+          "question": "Does the entity have intangible assets that are amortised?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose any amortisation recognised during the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have intangible assets that are amortised?",
+            "guidance": "Review the Statement of Financial Position and Notes to the Financial Statements. Look specifically for intangible assets (IAS 38) that are subject to amortisation, such as patents, copyrights, or licences. Ensure these assets are recognised and check their classification. Intangible assets with indefinite useful lives are not amortised, so exclude these.",
+            "yes_case": {
+              "question": "Does the entity recognise any amortisation expenses for intangible assets during the reporting period?",
+              "guidance": "Examine the income statement and related notes for entries under 'amortisation expense.' This will typically be disclosed either as a separate line item or within operating expenses. Cross-check with the Notes to the Financial Statements to confirm the source of amortisation is intangible assets.",
+              "yes_case": {
+                "question": "Does the entity disclose the amortisation recognised during the reporting period as required by IAS 38.118(c)(v)?",
+                "guidance": "Verify that the disclosure meets IAS 38 requirements. The disclosure must include the amortisation amount for each class of intangible asset either in the notes or on the face of the financial statements. Ensure accuracy and compliance with the required format and detail.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "418.8",
+          "section": "IAS 38",
+          "reference": "IAS 38.118(c)(vi)",
+          "question": "Does the entity prepare financial statements that involve translation into a presentation currency or have foreign operations?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose net exchange differences arising on the translation of the financial statements into the presentation currency, and on the translation of a foreign operation into the presentation currency of the reporting entity?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements that involve translation into a presentation currency or have foreign operations?",
+            "guidance": "Verify whether the entity operates in more than one currency or has foreign operations as defined in IAS 21. Inspect the financial statements for references to currency translation or disclosures related to foreign subsidiaries. If foreign currency transactions are not relevant, this question is likely not applicable.",
+            "yes_case": {
+              "question": "Do the financial statements disclose exchange differences arising from the translation of the financial statements into the presentation currency?",
+              "guidance": "Review the notes to the financial statements, particularly the section on foreign currency translation or IAS 38 disclosures. Ensure that any net exchange differences from translation into the presentation currency are explicitly disclosed.",
+              "yes_case": {
+                "question": "Do the financial statements disclose exchange differences arising from the translation of a foreign operation into the presentation currency of the reporting entity?",
+                "guidance": "Inspect disclosures relating to foreign operations and their currency translation. This typically involves subsidiaries or branches located in a different currency jurisdiction. Verify that net exchange differences from translation are presented according to IAS 38.118(c)(vi).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "418.9",
+          "section": "IAS 38",
+          "reference": "IAS 38.118(c)(vii)",
+          "question": "Does the entity recognize intangible assets on the Statement of Financial Position?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose other changes in the carrying amount during the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity recognize intangible assets on the Statement of Financial Position?",
+            "guidance": "Review the most recent Statement of Financial Position (Balance Sheet). Look for any entries under 'Intangible assets' or similar. Validate this against supporting documentation, such as asset schedules or non-current asset notes.",
+            "yes_case": {
+              "question": "Were there changes in the carrying amount of intangible assets during the reporting period?",
+              "guidance": "Check whether any of the recognized intangible assets experienced changes in value. This may include additions, disposals, impairments, revaluations, or amortization during the reporting period. Review the notes to the financial statements and the general ledger entries for intangible assets.",
+              "yes_case": {
+                "question": "Has the entity disclosed other changes in the carrying amount of intangible assets during the reporting period, as required by IAS 38.118(c)(vii)?",
+                "guidance": "Ensure the financial statement notes include detailed disclosure for other changes in the carrying amount, beyond standard transactions like additions or amortization. IAS 38.118(c)(vii) mandates transparency of all adjustments during the reporting period.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "419.1",
+          "section": "IAS 38",
+          "reference": "IAS 38.122(a)",
+          "question": "Does the entity have any intangible assets assessed as having an indefinite useful life?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For an intangible asset assessed as having an indefinite useful life, does the entity disclose the carrying amount of that asset and reasons supporting the assessment of an indefinite useful life?",
+          "decision_tree": {
+            "question": "Does the entity have any intangible assets assessed as having an indefinite useful life?",
+            "guidance": "Review the entity's statement of financial position and notes to the financial statements. Check for intangible assets classified as having an indefinite useful life. This information should be disclosed under IAS 38. If no such assets are listed, then this item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity disclose the carrying amount of each intangible asset with an indefinite useful life?",
+              "guidance": "Refer to the notes to the financial statements and ensure the carrying amounts for all intangible assets assessed as having an indefinite useful life are disclosed separately. Verify this in accordance with IAS 38.122(a). Omissions of this information are considered non-compliance.",
+              "yes_case": {
+                "question": "Does the entity disclose the reasons supporting the assessment of an indefinite useful life for each intangible asset?",
+                "guidance": "Check the notes to the financial statements where the reasons should be detailed. IAS 38 requires entities to provide specific and adequate information demonstrating why the useful life of the asset is considered indefinite. Common reasons include legal or economic factors, absence of obsolescence risk, etc.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "419.2",
+          "section": "IAS 38",
+          "reference": "IAS 38.122(b)",
+          "question": "Does the entity have intangible assets with an indefinite useful life?",
+          "question_type": "Followup",
+          "source_question": "419.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "In giving the reasons for an indefinite useful life, does the entity disclose the factor(s) that play a significant role in determining that the asset has an indefinite useful life?",
+          "decision_tree": {
+            "question": "Does the entity have intangible assets with an indefinite useful life?",
+            "guidance": "Review the entity's financial statements, specifically the notes related to intangible assets. Look for any mention of assets categorized as having an indefinite useful life based on IAS 38. Often, these are assets such as trademarks or brand names. If no such assets are reported, the disclosure requirements are not applicable.",
+            "yes_case": {
+              "question": "Has the entity disclosed the reasons supporting the determination that the intangible asset has an indefinite useful life?",
+              "guidance": "Check the notes to the financial statements under the section discussing intangible assets. IAS 38.122(b) requires disclosure of the specific factors supporting the indefinite useful life classification, such as legal, regulatory, contractual provisions or the nature of the asset. Ensure the reasons are sufficiently detailed and relevant.",
+              "yes_case": {
+                "question": "Do the disclosed factors sufficiently explain the significant role they play in determining the indefinite useful life?",
+                "guidance": "Evaluate whether the disclosed factors are clear, specific, and directly linked to the indefinite useful life determination. For example, if the asset has legal protections, ensure the entity has explained how those protections contribute to the indefinite life of the asset. Generic or unclear explanations may indicate non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "419.3",
+          "section": "IAS 38",
+          "reference": "IAS 38.122(c)",
+          "question": "Does the entity have any individual intangible asset that is material to its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For any individual intangible asset that is material to the entity's financial statements, does the entity disclose a description of that intangible asset, its carrying amount, and its remaining amortisation period?",
+          "decision_tree": {
+            "question": "Does the entity have any individual intangible asset that is material to its financial statements?",
+            "guidance": "Review the financial statements and supporting documentation to identify intangible assets. Check whether any individual intangible asset is material by comparing its carrying amount to total assets or other relevant benchmarks. Refer to IAS 1 for materiality guidance. Common pitfalls: Ensure you assess individual assets, not aggregated amounts.",
+            "yes_case": {
+              "question": "Does the entity disclose for the material individual intangible asset: a description, its carrying amount, and its remaining amortisation period?",
+              "guidance": "Examine the notes to the financial statements section related to intangible assets. Confirm whether the entity has explicitly disclosed (1) a description of the asset (e.g., patents, trademarks), (2) its carrying amount, and (3) its remaining amortisation period. Verify compliance with IAS 38.122(c). Common pitfalls: Missing one of the three required elements or ambiguous descriptions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "419.4",
+          "section": "IAS 38",
+          "reference": "IAS 38.122(d)",
+          "question": "Does the entity have intangible assets acquired by way of a government grant?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For intangible assets acquired by way of a government grant and initially recognised at fair value, does the entity disclose the fair value initially recognised for these assets, their carrying amount, and whether they are measured after recognition under the cost model or the revaluation model?",
+          "decision_tree": {
+            "question": "Does the entity have intangible assets acquired by way of a government grant?",
+            "guidance": "Review the entity's Statement of Financial Position and supporting notes to identify intangible assets acquired through government grants. Look for specific disclosures about government grants related to intangible assets under IAS 38. Common documentation includes grant agreements, asset recognition records, and fair value calculation at initial recognition.",
+            "yes_case": {
+              "question": "Were these intangible assets initially recognised at fair value?",
+              "guidance": "Review the initial recognition accounting entries for these intangible assets. Check if fair value was assigned as per IAS 38. Common pitfalls include mistakenly using historical cost instead of fair value, or incomplete documentation of fair value assumptions. Ensure fair value determination aligns with IAS 38.43.",
+              "yes_case": {
+                "question": "Does the entity disclose the fair value initially recognised, the carrying amount, and the measurement model (cost or revaluation) in the financial statements?",
+                "guidance": "Examine the notes to the financial statements. Verify that disclosures include: (1) the fair value at initial recognition of these intangible assets; (2) the current carrying amount; and (3) whether the assets are measured subsequently under the cost model (IAS 38.74) or the revaluation model (IAS 38.75). Ensure the disclosed measurement basis aligns with actual accounting treatment. Pay attention to inconsistencies or omissions in the disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "419.5",
+          "section": "IAS 38",
+          "reference": "IAS 38.122(e)",
+          "question": "Does the entity have any intangible assets?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the existence and carrying amounts of intangible assets whose title is restricted and the carrying amounts of intangible assets pledged as security for liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have any intangible assets?",
+            "guidance": "Refer to the Statement of Financial Position and notes to the financial statements. Intangible assets are identifiable non-monetary assets without physical substance, such as patents, trademarks, or software. Ensure the entity recognizes any intangible assets in accordance with IAS 38.",
+            "yes_case": {
+              "question": "Does the entity have any intangible assets whose title is restricted or pledged as security for liabilities?",
+              "guidance": "Review the notes accompanying the financial statements (usually under Intangible Assets disclosures or Security for Liabilities section). Confirm if the entity has indicated any restrictions on ownership of intangible assets or if any were pledged as collateral for liabilities. Cross-reference loan agreements, legal contracts, or asset schedules if necessary.",
+              "yes_case": {
+                "question": "Does the entity disclose the existence and carrying amounts of such restricted or pledged intangible assets?",
+                "guidance": "Check the disclosures in the notes to the financial statements for compliance with IAS 38.122(e). Confirm that the carrying amounts of the restricted intangible assets and those pledged as security are disclosed separately and clearly identified. Ensure the disclosure is sufficiently detailed to meet the standard without being excessive.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "419.6",
+          "section": "IAS 38",
+          "reference": "IAS 38.122(f)",
+          "question": "Does the entity have any contractual commitments for the acquisition of intangible assets?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of contractual commitments for the acquisition of intangible assets?",
+          "decision_tree": {
+            "question": "Does the entity have any contractual commitments for the acquisition of intangible assets?",
+            "guidance": "Review all contractual agreements, procurement documents, or acquisition plans involving intangible assets. Look for explicit commitments such as signed contracts, purchase agreements, or legally enforceable obligations under IAS 38. Ensure these commitments are related to intangible assets, not other types of assets. Cross-check the entity’s acquisition strategy documents for references.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of these contractual commitments for intangible assets in accordance with IAS 38.122(f)?",
+              "guidance": "Locate this disclosure in the notes to the financial statements. The disclosure should specifically mention the amount of the commitments and be clear, complete, and labeled appropriately under the section discussing intangible assets. Verify that amounts are accurately calculated and that all relevant contractual commitments are included.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "420.1",
+          "section": "IAS 38",
+          "reference": "IAS 38.124(a)(i)",
+          "question": "Does the entity account for any intangible assets at revalued amounts under IAS 38?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity accounts for intangible assets at revalued amounts, does it disclose, by class of intangible assets, the effective date of the revaluation and the carrying amount of revalued intangible assets?",
+          "decision_tree": {
+            "question": "Does the entity account for any intangible assets at revalued amounts under IAS 38?",
+            "guidance": "Review the entity's accounting policy for intangible assets and its financial statement notes under IAS 38. Verify whether the revaluation model is used instead of the cost model. Check for references to fair value adjustments or revaluation gains/losses.",
+            "yes_case": {
+              "question": "Does the entity disclose the effective date of the revaluation for each class of revalued intangible assets?",
+              "guidance": "Review the notes to the financial statements and disclosures related to intangible assets. Confirm that the effective revaluation date is clearly stated for each class of intangible assets, as required by IAS 38.124(a)(i).",
+              "yes_case": {
+                "question": "Does the entity disclose the carrying amount of revalued intangible assets for each class?",
+                "guidance": "Examine the financial statement notes pertaining to intangible assets. Ensure the carrying amounts of revalued intangible assets are disclosed for each class, as required by IAS 38.124(a)(i). Pay attention to accuracy and completeness.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "420.2",
+          "section": "IAS 38",
+          "reference": "IAS 38.124(a)(ii)",
+          "question": "Does the entity account for any intangible assets at revalued amounts?",
+          "question_type": "Followup",
+          "source_question": "420.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity accounts for intangible assets at revalued amounts, does it disclose, by class, the carrying amount that would have been recognised had the revalued class of intangible assets been measured after recognition using the cost model in IAS 38.74?",
+          "decision_tree": {
+            "question": "Does the entity account for any intangible assets at revalued amounts?",
+            "guidance": "Review the entity's financial statements and the accounting policy disclosures in the notes section. Specifically, check the disclosure of intangible assets under IAS 38 to determine whether any are measured at revalued amounts instead of the cost model. Common pitfalls include misinterpreting fair value measurement as revaluation under IAS 38.",
+            "yes_case": {
+              "question": "Has the entity disclosed, by class of intangible assets, the carrying amount that would have been recognised had the revalued class been measured using the cost model?",
+              "guidance": "Review the notes to the financial statements and disclosures for intangible assets. Specifically, check for a comparison disclosure required under IAS 38.124(a)(ii). Ensure that the disclosure includes both the revalued carrying amounts and the hypothetical carrying amounts under the cost model, organized by class of intangible assets. Common omission errors include missing the required comparison by class or presenting aggregated figures instead.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "420.3",
+          "section": "IAS 38",
+          "reference": "IAS 38.124(b)",
+          "question": "Has the entity revalued any intangible assets during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "420.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of the revaluation surplus that relates to intangible assets at the beginning and end of the reporting period, indicating the changes during the period and any restrictions on distribution to shareholders?",
+          "decision_tree": {
+            "question": "Has the entity revalued any intangible assets during the reporting period?",
+            "guidance": "Review the financial statements, particularly the disclosures and notes related to intangible assets under IAS 38. Look for any mention of revaluation applied to intangible assets. Ensure that the revaluation complies with the requirements of IAS 38 (e.g., recognition at revalued amounts, based on active market data).",
+            "yes_case": {
+              "question": "Does the entity present a revaluation surplus related to intangible assets in equity or the notes to the financial statements?",
+              "guidance": "Check the equity section of the statement of financial position and any disclosures in the notes. Identify whether a revaluation surplus account exists that is specifically linked to intangible assets.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of the revaluation surplus at the beginning and end of the reporting period, including changes during the period and any restrictions on distribution to shareholders?",
+                "guidance": "Verify whether the financial statements or accompanying notes provide all required information per IAS 38.124(b): (1) the opening and closing balances of the revaluation surplus, (2) changes during the reporting period, and (3) any restrictions on distributing the surplus to shareholders.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "420.4",
+          "section": "IAS 38",
+          "reference": "IAS 38.124(c)",
+          "question": "Does the entity have intangible assets measured at revalued amounts?",
+          "question_type": "Followup",
+          "source_question": "420.1",
+          "source_trigger": "Yes",
+          "context_required": "full",
+          "original_question": "Does the entity disclose the fair value measurement disclosures required by IFRS 13 for intangible assets measured at revalued amounts?",
+          "decision_tree": {
+            "question": "Does the entity have intangible assets measured at revalued amounts?",
+            "guidance": "Review the financial statements, specifically the section on intangible assets as per IAS 38. Check if the entity uses the revaluation model allowed by IAS 38 to measure intangible assets. This involves reassessing the assets' carrying amount based on fair value. If the cost model is used, skip this item.",
+            "yes_case": {
+              "question": "Has the fair value of the intangible assets been determined using IFRS 13 guidelines?",
+              "guidance": "Verify if IFRS 13 rules were followed in determining fair value. Check for references to the valuation hierarchy (Levels 1, 2, or 3 inputs) and methods used such as market comparison or discounted cash flows in disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose all fair value measurement disclosures required by IFRS 13?",
+                "guidance": "Review the notes to financial statements and disclosures related to fair value. IFRS 13 requires details such as valuation techniques, inputs used, assumptions about market participants, and sensitivity analysis for Level 3 inputs.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "421",
+          "section": "IAS 38",
+          "reference": "IAS 38.126",
+          "question": "Has the entity incurred any research and development expenditure during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the aggregate amount of research and development expenditure recognised as an expense during the reporting period?",
+          "decision_tree": {
+            "question": "Has the entity incurred any research and development expenditure during the reporting period?",
+            "guidance": "Review the entity's Statement of Profit or Loss and related accounting records to identify whether any expenses have been classified as research and development. Ensure that all costs related to R&D activities as per IAS 38 definitions are included. Look for specific allocations in the notes to the financial statements or relevant schedules.",
+            "yes_case": {
+              "question": "Has the entity recognised research and development expenditure as an expense during the reporting period?",
+              "guidance": "Verify whether the research and development costs have been correctly expensed in accordance with IAS 38. Ensure that development expenditures capitalized as intangible assets are correctly excluded from the disclosed amount, as only expensed amounts should be reported.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate amount of research and development expenditure recognised as an expense during the reporting period?",
+                "guidance": "Check the financial statement notes and disclosures for a specific section addressing research and development expenditure. This disclosure should explicitly state the aggregate amount and align with the documented expenses on the Statement of Profit or Loss.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "422.1",
+          "section": "IAS 38",
+          "reference": "IAS 38.128(a)",
+          "question": "Does the entity have fully amortised intangible assets?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose any fully amortised intangible asset that is still in use?",
+          "decision_tree": {
+            "question": "Does the entity have fully amortised intangible assets?",
+            "guidance": "Review the entity's intangible assets register and supporting schedules provided under IAS 38. Check if any intangible assets have reached the end of their amortisation period but remain in use. Fully amortised assets typically have a carrying amount of zero and an amortisation schedule that has completed across the asset's useful life.",
+            "yes_case": {
+              "question": "Is the entity still using any of the fully amortised intangible assets?",
+              "guidance": "Review operational records, usage logs, or management disclosures to determine if the intangible asset is still contributing to the entity's operations despite being fully amortised. Verify physical use, contracts, or performance reports as evidence.",
+              "yes_case": {
+                "question": "Does the entity disclose that fully amortised intangible assets are still in use in accordance with IAS 38.128(a)?",
+                "guidance": "Refer to IAS 38.128(a), which requires disclosure of any fully amortised intangible assets that are still in use. Check for specific mention in the notes to the financial statements under the intangible assets section. Ensure the disclosures include relevant details such as the nature of the intangible asset.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "422.2",
+          "section": "IAS 38",
+          "reference": "IAS 38.128(b)",
+          "question": "Does the entity control significant intangible assets that are not recognized as assets on its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose significant intangible assets controlled by the entity but not recognised as assets because they do not meet IAS 38's recognition criteria or were acquired or generated before the version of IAS 38 issued in 1998 was effective?",
+          "decision_tree": {
+            "question": "Does the entity control significant intangible assets that are not recognized as assets on its financial statements?",
+            "guidance": "Review the entity's Statement of Financial Position and accompanying notes. Determine if there are intangible assets under the entity's control that are not recognized (such as internally generated goodwill, customer lists, or certain intellectual properties). Refer to IAS 38.10-12 for the recognition criteria of intangible assets.",
+            "yes_case": {
+              "question": "Are these intangible assets unrecognized because they fail to meet IAS 38's recognition criteria?",
+              "guidance": "Analyze the reasons for non-recognition of the intangible assets. Review IAS 38.18-23 for guidance on recognition criteria, which include identifiability, control, and future economic benefits.",
+              "yes_case": {
+                "question": "Did these assets either fail the recognition criteria OR were acquired/generated before IAS 38's version issued in 1998 became effective?",
+                "guidance": "Evaluate whether the assets were excluded due to non-compliance with recognition criteria post IAS 38 or if they were acquired/generated prior to January 1, 1999, when revised IAS 38 recognition rules came into effect. Document justification carefully as per IAS 38.128(b).",
+                "yes_case": {
+                  "question": "Does the entity disclose the existence and nature of these significant controlled intangible assets in the financial statement notes?",
+                  "guidance": "Review the financial statement disclosures, specifically the notes to the financials. Confirm if the entity provides clear descriptions of such intangible assets, including their nature, significance, and reasons for non-recognition, as per IAS 38.128(b).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

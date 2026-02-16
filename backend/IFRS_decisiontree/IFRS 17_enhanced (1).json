@@ -1,0 +1,1682 @@
+{
+  "title": "International GAAP® Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 17",
+      "title": "Insurance Contracts",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 17.",
+      "items": [
+        {
+          "id": "561",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.C27, IFRS 17.C25",
+          "question": "Has the entity presented unadjusted comparative information and disclosures for earlier periods under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity presents unadjusted comparative information and disclosures for any earlier periods, does it a. Clearly identify the information that has not been adjusted b. Disclose that it has been prepared on a different basis c. Explain that basis",
+          "decision_tree": {
+            "question": "Has the entity presented unadjusted comparative information and disclosures for earlier periods under IFRS 17?",
+            "guidance": "Review the financial statements, specifically the comparative year column in primary financial statements and related disclosures in the notes. Look for any indication that earlier period information has not been adjusted to comply with IFRS 17. For example, check if changes in accounting policies or transition notes outline unadjusted comparative amounts.",
+            "yes_case": {
+              "question": "Does the entity clearly identify the information that has not been adjusted for earlier periods?",
+              "guidance": "Verify that unadjusted comparative information is explicitly labeled in the primary financial statements or disclosed in the notes. Common pitfalls include failing to distinguish adjusted from unadjusted amounts or inadequate labeling of comparative information.",
+              "yes_case": {
+                "question": "Does the entity disclose that the unadjusted comparative information has been prepared on a different basis?",
+                "guidance": "Check the notes to the financial statements for disclosures explicitly stating that the unadjusted comparative information is prepared under a different basis (e.g., previous accounting standards). The entity should avoid leaving this unstated.",
+                "yes_case": {
+                  "question": "Does the entity explain the basis on which the unadjusted comparative information was prepared?",
+                  "guidance": "Confirm the explanation of the basis in the financial statement notes. This includes specifying the accounting standards or policies applied in earlier periods. Beware of vague disclosures that do not sufficiently describe the prior basis.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "562",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.C28",
+          "question": "Has the entity adopted IFRS 17 for its annual reporting period?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "An entity need not disclose previously unpublished information about claims development that occurred earlier than five years before the end of the annual reporting period in which it first applies IFRS 17. However, if an entity does not disclose that information, does it disclose that fact",
+          "decision_tree": {
+            "question": "Has the entity adopted IFRS 17 for its annual reporting period?",
+            "guidance": "Check the entity's financial statements and accounting policies to confirm whether IFRS 17 is applied. Review the 'Significant Accounting Policies' section and verify references to IFRS 17 implementation.",
+            "yes_case": {
+              "question": "Did the entity choose not to disclose previously unpublished information about claims development that occurred earlier than five years before the end of the annual reporting period in which IFRS 17 was first applied?",
+              "guidance": "Analyze disclosure notes related to insurance contracts and claims development information. Specifically, check if the entity has omitted details from periods earlier than five years prior to IFRS 17 adoption.",
+              "yes_case": {
+                "question": "Did the entity disclose the fact that it has not provided the previously unpublished claims development information?",
+                "guidance": "Carefully examine the financial statement disclosures. Look for explicit mention of the decision not to provide pre-adoption claims development information. This should be clearly stated in the notes accompanying the financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "563",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.C28E, IFRS 17.C28A",
+          "question": "Has the entity applied paragraphs C28B-C28D of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity applies paragraphs C28B-C28D, does it disclose qualitative information that enables users of financial statements to understand: a. The extent to which the classification overlay has been applied (for example, whether it has been applied to all financial assets derecognised in the comparative period) b. Whether and to what extent the impairment requirements in Section 5.5 of IFRS 9 have been applied (see paragraph C28C)",
+          "decision_tree": {
+            "question": "Has the entity applied paragraphs C28B-C28D of IFRS 17?",
+            "guidance": "Review the entity's financial reporting policies and notes to the financial statements. Paragraphs C28B-C28D discuss the classification overlay approach for financial assets derecognised in comparative periods during IFRS 17 adoption. Check if the entity has explicitly stated the application of these paragraphs in its policies or disclosures.",
+            "yes_case": {
+              "question": "Does the entity disclose qualitative information to enable users of financial statements to understand the extent of the classification overlay applied?",
+              "guidance": "Review the notes to the financial statements, specifically disclosures related to the classification overlay approach. Confirm if the entity discloses information such as whether the classification overlay has been applied to all financial assets derecognised in the comparative period.",
+              "yes_case": {
+                "question": "Does the entity disclose whether and to what extent impairment requirements in Section 5.5 of IFRS 9 have been applied, as per paragraph C28C?",
+                "guidance": "Examine the disclosures regarding impairment requirements under IFRS 9. Confirm that the entity provides sufficient information to communicate whether, and to what extent, these requirements were applied to the financial assets in the comparative period.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "564",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.C32, IFRS 9.4.1.5",
+          "question": "Does the entity apply IFRS 17.C29 in its financial statements?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "When an entity applies IFRS 17.C29 (see above), does it disclose in that annual reporting period for those financial assets by class: a. If paragraph C29(a) applies — its basis for determining eligible financial assets b. If any of paragraphs C29(a)–C29(e) apply: ► The measurement category and carrying amount of the affected financial assets determined immediately before the date of initial application of IFRS 17 ► The new measurement category and carrying amount of the affected financial assets determined after applying paragraph C29 c. If paragraph C29(b) applies — the carrying amount of financial assets in the statement of financial position that were previously designated as measured at fair value through profit or loss applying IFRS 9.4.1.5 that are no longer so designated",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 17.C29 in its financial statements?",
+            "guidance": "Review the entity's accounting policies and disclosures in the annual financial statements. Specifically, check if the entity applies IFRS 17.C29 for financial assets when transitioning to IFRS 17. This section addresses modifications to the measurement categories and carrying amounts of financial assets during initial application of IFRS 17.",
+            "yes_case": {
+              "question": "Does the entity disclose the basis for determining eligible financial assets if IFRS 17.C29(a) applies?",
+              "guidance": "Review the disclosures regarding financial assets in the entity's annual financial statements. Paragraph C29(a) requires disclosure of the basis for determining eligible financial assets during transition. Common pitfalls include vague or incomplete disclosure of the criteria used.",
+              "yes_case": {
+                "question": "Does the entity disclose the measurement category and carrying amount of affected financial assets before and after the application of IFRS 17.C29(a)–C29(e)?",
+                "guidance": "Verify that the disclosures include the measurement category (e.g., amortized cost, fair value through profit or loss) and the carrying amounts immediately before and after initial application of IFRS 17.C29(a)–C29(e). Ensure these are presented by financial asset class and are consistent with IFRS 17.C32 requirements.",
+                "yes_case": {
+                  "question": "If IFRS 17.C29(b) applies, is the carrying amount disclosed for financial assets that were previously designated as measured at FVTPL (applying IFRS 9.4.1.5) but are no longer designated as such?",
+                  "guidance": "Check that the financial statement notes disclose the carrying amounts of financial assets previously measured at fair value through profit or loss (FVTPL) under IFRS 9.4.1.5 but that, under IFRS 17.C29(b), are no longer designated as such. Review the fair value adjustments in IFRS 17 transition disclosures.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "565",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.C33, IFRS 9.4.1.5, IFRS 9.4.1.2(a), IFRS 9.4.1.2A(a)",
+          "question": "Did the entity apply IFRS 17 paragraph C29 during the annual reporting period?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "When an entity applies IFRS 17.C29, does it disclose in that annual reporting period, qualitative information that would enable users of financial statements to understand: a. How it applied paragraph C29 to financial assets the classification of which has changed on initially applying IFRS 17 b. The reasons for any designation or de-designation of financial assets as measured at fair value through profit or loss when applying IFRS 9.4.1.5 c. Why the entity came to any different conclusions in the new assessment applying IFRS 9.4.1.2(a) or IFRS 9.4.1.2A(a)",
+          "decision_tree": {
+            "question": "Did the entity apply IFRS 17 paragraph C29 during the annual reporting period?",
+            "guidance": "Check the accounting policies and notes in the annual financial report to confirm if the entity applied IFRS 17.C29, which concerns the reclassification of financial assets upon transitioning to IFRS 17. Look carefully for any disclosures regarding reclassifications under IFRS 17.",
+            "yes_case": {
+              "question": "Did the entity reclassify financial assets due to the initial application of IFRS 17?",
+              "guidance": "Review the entity’s disclosures related to financial assets in the transition to IFRS 17. Specifically, check if there is any mention of reclassified financial assets as a result of applying IFRS 17. Look at the notes accompanying Statement of Financial Position and any relevant transition disclosures.",
+              "yes_case": {
+                "question": "Did the entity disclose qualitative information enabling users to understand the application of IFRS 17.C29 to financial assets reclassified?",
+                "guidance": "Review the financial statement notes for qualitative disclosures. Ensure the entity has provided sufficient explanations regarding: a) how it applied IFRS 17.C29, b) reasons for designation/dedication of financial assets at fair value through profit or loss under IFRS 9.4.1.5, and c) discussions of new assessments under IFRS 9.4.1.2(a) or IFRS 9.4.1.2A(a). Lack of these details can lead to non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "566",
+          "section": "IFRS 17",
+          "reference": "IFRS 9.7.2.42",
+          "question": "Did the entity transition to IFRS 17 in the reporting period under review?",
+          "question_type": "Independent",
+          "source_question": null,
+          "context_required": "notes_only",
+          "source_trigger": null,
+          "original_question": "In the reporting period that includes the date of initial application of these amendments, does the entity disclose the following information as at the transition date for each class of financial assets and financial liabilities that was affected by the transition to IFRS 17: d. The reasons for any designation or de-designation of financial liabilities as measured at fair value through profit or loss",
+          "decision_tree": {
+            "question": "Did the entity transition to IFRS 17 in the reporting period under review?",
+            "guidance": "Review the financial reporting standards applied in the current reporting period, as disclosed in the financial statements. Check the section discussing changes in accounting policies or standards. Look for references to IFRS 17 amendments and confirm whether they have been applied for the first time during this period.",
+            "yes_case": {
+              "question": "Were any financial assets or financial liabilities affected by the transition to IFRS 17?",
+              "guidance": "Examine the disclosures provided in the financial statements, particularly those concerning financial instruments. Look for evidence of reclassification, designation, or de-designation of financial assets or liabilities as measured at fair value through profit or loss (FVTPL) during the transition to IFRS 17.",
+              "yes_case": {
+                "question": "Has the entity disclosed the reasons for any designation or de-designation of financial liabilities as measured at fair value through profit or loss?",
+                "guidance": "Review the notes to the financial statements that detail the entity's transition to IFRS 17. Ensure the reasons for changes in designation or de-designation of financial liabilities measured at FVTPL are clearly explained, as required by IFRS 9.7.2.42.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "567",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.114, IFRS 17.C6–C19A, IFRS 17.C20–C24B, IFRS 17.101(c), IFRS 17.103(a)",
+          "question": "Did the entity have insurance contracts that existed at the transition date under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "context_required": "notes_only",
+          "source_trigger": null,
+          "original_question": "To enable users of financial statements to identify the effect of groups of insurance contracts measured at the transition date applying either the modified retrospective approach (see IFRS 17.C6–C19A) or the fair value approach (see IFRS 17.C20–C24B) on the contractual service margin and insurance revenue in subsequent periods, does the entity disclose the reconciliation of the contractual service margin applying IFRS 17.101(c), and the amount of insurance revenue applying IFRS 17.103(a), separately for: a. Insurance contracts that existed at the transition date to which the entity has applied the modified retrospective approach b. Insurance contracts that existed at the transition date to which the entity has applied the fair value approach c. All other insurance contracts",
+          "decision_tree": {
+            "question": "Did the entity have insurance contracts that existed at the transition date under IFRS 17?",
+            "guidance": "Review the entity's transitional documentation and financial statements to confirm whether the entity had any insurance contracts in force as of the transition date as defined in IFRS 17. Check implementation evidence, including contracts and actuarial reports targeting the transition date. Verify this information against IFRS 17.C1.",
+            "yes_case": {
+              "question": "Did the entity apply either the modified retrospective approach (IFRS 17.C6–C19A) or the fair value approach (IFRS 17.C20–C24B) to measure groups of insurance contracts at the transition date?",
+              "guidance": "Assess the methodology applied by the entity at the transition date by reviewing transition disclosures in the financial statements. Ensure that the entity's approach aligns with the criteria defined in IFRS 17.C6–C19A for the modified retrospective approach or IFRS 17.C20–C24B for the fair value approach.",
+              "yes_case": {
+                "question": "Does the entity disclose the reconciliation of the contractual service margin applying IFRS 17.101(c) and the amount of insurance revenue applying IFRS 17.103(a) separately for each category of insurance contracts?",
+                "guidance": "Examine the disclosure notes in the financial statements and the reconciliation tables provided. Verify whether the entity has separated the information for: (a) insurance contracts measured using the modified retrospective approach, (b) those using the fair value approach, and (c) all other insurance contracts. Compare the disclosures to the requirements outlined in IFRS 17.101(c) and IFRS 17.103(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "568",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.115, IFRS 17.114(a), IFRS 17.114(b)",
+          "question": "Does the entity apply IFRS 17 and disclose information under IFRS 17.114(a) or IFRS 17.114(b)?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For all periods in which disclosures are made applying IFRS 17.114(a) or 114(b), to enable users of financial statements to understand the nature and significance of the methods used and judgements applied in determining the transition amounts, does the entity explain how it determined the measurement of insurance contracts at the transition date",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 17 and disclose information under IFRS 17.114(a) or IFRS 17.114(b)?",
+            "guidance": "Check whether the entity applies IFRS 17 for their insurance contracts. Review the notes to the financial statements and confirm if disclosures required under IFRS 17.114(a) or IFRS 17.114(b) are included. IFRS 17.114(a) requires disclosure of qualitative and quantitative information about the methods and judgements, whereas IFRS 17.114(b) focuses on the nature and significance of methods used at transition. Ensure that these disclosures are explicitly referenced.",
+            "yes_case": {
+              "question": "Has the entity disclosed sufficient information about the measurement of insurance contracts at the transition date to enable users of financial statements to understand the nature and significance of the methods used and judgements applied?",
+              "guidance": "Review the disclosures accompanying the financial statements related to the transition amounts under IFRS 17. Confirm that the disclosures include explanations about the determination of measurement at transition date, including methods used and any significant judgements applied. Pay close attention to consistency with IFRS 17.115 and ensure that the disclosures are clear and comprehensive.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "569",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.116, IFRS 17.C18(b), IFRS 17.C19(b), IFRS 17.C24(b), IFRS 17.C24(c)",
+          "question": "Has the entity chosen to disaggregate insurance finance income or expenses between profit or loss and other comprehensive income?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "An entity that chooses to disaggregate insurance finance income or expenses between profit or loss and other comprehensive income applies IFRS 17.C18(b), C19(b), C24(b) and C24(c) to determine the cumulative difference between the insurance finance income or expenses that would have been recognised in profit or loss and the total insurance finance income or expenses at the transition date for the groups of insurance contracts to which the disaggregation applies. For all periods in which the amounts determined, when applying these paragraphs, exist, does the entity disclose a reconciliation from the opening to the closing balance of the cumulative amounts included in other comprehensive income for financial assets measured at fair value through other comprehensive income related to the groups of insurance contracts",
+          "decision_tree": {
+            "question": "Has the entity chosen to disaggregate insurance finance income or expenses between profit or loss and other comprehensive income?",
+            "guidance": "Review the financial statements and accounting policy disclosures regarding insurance finance income or expenses. Check if the entity explicitly states its choice to disaggregate these amounts and apply IFRS 17.C18(b), C19(b), C24(b), and C24(c) as applicable.",
+            "yes_case": {
+              "question": "At the transition date, did the entity determine the cumulative difference between the insurance finance income or expenses that would have been recognised in profit or loss and the total insurance finance income or expenses as per IFRS 17.C18(b), C19(b), C24(b), and C24(c)?",
+              "guidance": "Review transition disclosures and calculations in accordance with IFRS 17 guidelines. Ensure the entity has appropriately applied paragraphs C18(b), C19(b), C24(b), and C24(c) to calculate the cumulative difference for relevant groups of insurance contracts.",
+              "yes_case": {
+                "question": "During the reporting period, do amounts determined under IFRS 17.C18(b), C19(b), C24(b), and C24(c) exist for the groups of insurance contracts?",
+                "guidance": "Check if there are amounts determined under the specified IFRS 17 paragraphs during the reporting period for the groups of insurance contracts. These amounts would typically be disclosed in the reconciliation.",
+                "yes_case": {
+                  "question": "Did the entity disclose a reconciliation from the opening to the closing balance of the cumulative amounts included in other comprehensive income for financial assets measured at fair value through other comprehensive income, related to the groups of insurance contracts?",
+                  "guidance": "Verify in the notes to the financial statements whether the entity provides a reconciliation showing the opening and closing balances of the cumulative amounts in OCI for financial assets measured at FVOCI. Compare the disclosure to the requirements in IFRS 17.116.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "570",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.78, IFRS 17.79",
+          "question": "Does the entity have insurance contracts issued or reinsurance contracts held?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present separately in the statement of financial position the carrying amount of portfolios of: a. Insurance contracts issued that are assets b. Insurance contracts issued that are liabilities c. Reinsurance contracts held that are assets d. Reinsurance contracts held that are liabilities",
+          "decision_tree": {
+            "question": "Does the entity have insurance contracts issued or reinsurance contracts held?",
+            "guidance": "Check whether the entity is engaged in insurance or reinsurance activities. Review the business model and the financial statements, in particular the notes on significant accounting policies, Statement of Financial Position, and disclosures relating to IFRS 17.",
+            "yes_case": {
+              "question": "Are the carrying amounts of portfolios for the following contracts presented separately in the Statement of Financial Position: a. Insurance contracts issued that are assets, b. Insurance contracts issued that are liabilities, c. Reinsurance contracts held that are assets, d. Reinsurance contracts held that are liabilities?",
+              "guidance": "Review the Statement of Financial Position and relevant notes. Each portfolio type must be clearly separated as per IFRS 17.78 and IFRS 17.79. Ensure there is no aggregation of assets and liabilities for these portfolios. Confirm the presentation is distinct and complies with the standard's requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "571",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.80, IFRS 17.41-42",
+          "question": "Does the entity issue insurance contracts covered by IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Applying IFRS 17.41-42, does the entity disaggregate the amounts recognised in the statement(s) of profit or loss and other comprehensive income (hereafter referred to as the statement(s) of financial performance in this section) into: a. An insurance service result (see IFRS 17.83–86), comprising insurance revenue and insurance service expenses And b. Insurance finance income or expenses (see IFRS 17.87–92)",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts covered by IFRS 17?",
+            "guidance": "Review the entity's business model and financial statements to confirm if it issues insurance contracts as defined under IFRS 17. An insurance contract contains significant insurance risk or includes service components as discussed in IFRS 17 Appendix A. Common pitfalls include misclassifying contracts or failing to identify contracts with significant insurance risk.",
+            "yes_case": {
+              "question": "Does the entity recognise amounts related to insurance contracts in the statement(s) of financial performance (profit or loss and other comprehensive income)?",
+              "guidance": "Review the most recent statement(s) of financial performance. Identify any amounts related to insurance contracts, such as insurance revenue, insurance service expenses, and insurance finance income or expenses. Ensure you check for omission of relevant items or incorrect classification.",
+              "yes_case": {
+                "question": "Does the entity disaggregate recognised amounts into: a. Insurance service result (comprising insurance revenue and insurance service expenses, as per IFRS 17.83-86) and b. Insurance finance income or expenses (as per IFRS 17.87-92)?",
+                "guidance": "Check whether the statement(s) of financial performance clearly separate the amounts into the insurance service result and insurance finance income or expenses. Refer to paragraph 83-92 of IFRS 17 for guidance on how these amounts should be disaggregated and presented. Verify accurate classification and compliance with IFRS 17.41-42.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "572",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.82",
+          "question": "Does the entity hold reinsurance contracts as part of its insurance operations?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present income or expenses from reinsurance contracts held separately from the expenses or income from insurance contracts issued",
+          "decision_tree": {
+            "question": "Does the entity hold reinsurance contracts as part of its insurance operations?",
+            "guidance": "Review the entity's insurance contract portfolio and supporting documentation such as contracts and notes to financial statements. Check for the existence of reinsurance contracts held (i.e., where the entity cedes risks to other insurers). Avoid assumptions; confirm existence explicitly.",
+            "yes_case": {
+              "question": "Does the entity issue insurance contracts to policyholders in addition to holding reinsurance contracts?",
+              "guidance": "Examine the entity's list of liabilities and revenue streams in the financial statements. Look for issued insurance contracts or references to revenue from premiums received.",
+              "yes_case": {
+                "question": "Does the entity separately present income or expenses from reinsurance contracts held from expenses or income of insurance contracts issued in its financial statements?",
+                "guidance": "Review the Statement of Comprehensive Income and accompanying notes. Confirm that income and expenses from reinsurance contracts held are tabulated distinctly from income/expenses relating to insurance contracts issued, per IFRS 17.82. Look for proper headings, grouping, and detailed breakdowns.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "573",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.83",
+          "question": "Does the entity issue groups of insurance contracts?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present in profit or loss insurance revenue arising from the groups of insurance contracts issued",
+          "decision_tree": {
+            "question": "Does the entity issue groups of insurance contracts?",
+            "guidance": "Review the entity's financial statements and associated disclosures for evidence of groups of insurance contracts issued. Refer to the notes detailing contract liabilities in accordance with IFRS 17. Check whether the entity operates in the insurance industry. If there are no groups of insurance contracts issued, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Are the insurance contracts recognized as part of the group's insurance revenue in profit or loss?",
+              "guidance": "Check the Statement of Profit or Loss to verify if insurance revenue is reported. Refer to IFRS 17.83 to ensure that revenue arising from the groups of insurance contracts issued is appropriately presented under ‘insurance revenue’. Confirm there is no misclassification or omission.",
+              "yes_case": {
+                "question": "Is the presentation of insurance revenue consistent with IFRS 17 requirements, showing revenue net of any investment components and separate from insurance finance income or expenses?",
+                "guidance": "Inspect the profit or loss statement and related disclosures to confirm compliance with IFRS 17.83. Ensure that investment components are excluded from insurance revenue and verify whether insurance revenue is distinct from finance income or expenses. Avoid common errors such as combining these elements under a single revenue line.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "574",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.84, IFRS 17.103(b)",
+          "question": "Does the entity issue insurance contracts that fall within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present in profit or loss insurance service expenses arising from a group of insurance contracts issued, comprising incurred claims (excluding repayments of investment components), other incurred insurance service expenses and other amounts as described in IFRS 17.103(b)",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts that fall within the scope of IFRS 17?",
+            "guidance": "Review the entity's portfolio of contracts and assess whether it includes insurance contracts as defined in IFRS 17 Appendix A. An insurance contract transfers significant insurance risk and meets the criteria outlined in the standard. Common pitfalls include misclassification of contracts or overlooking long-duration contracts.",
+            "yes_case": {
+              "question": "Does the entity present insurance service expenses from a group of insurance contracts in profit or loss?",
+              "guidance": "Review the Statement of Profit or Loss and accompanying disclosures. Verify that insurance service expenses are segregated and reported as a distinct line item. Check the reporting format against IFRS 17.84.",
+              "yes_case": {
+                "question": "Do the insurance service expenses presented comprise incurred claims (excluding repayments of investment components), other incurred insurance service expenses, and other amounts as described in IFRS 17.103(b)?",
+                "guidance": "Cross-reference the presented insurance service expenses in profit or loss with the requirements of IFRS 17.103(b). Confirm that incurred claims exclude repayments of investment components, and the amounts are accurately categorized and disclosed. Pay attention to the distinction between insurance service expenses and investment components. Ensure detailed review of line items to avoid misclassification.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "575",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.85, IFRS 17.83",
+          "question": "Does the entity issue insurance contracts covered by IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Insurance revenue and insurance service expenses presented in profit or loss must exclude any investment components. Does the entity avoid presenting premium information in profit or loss if that information is inconsistent with IFRS 17.83",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts covered by IFRS 17?",
+            "guidance": "Review the entity's insurance contracts and financial statements. Confirm whether the contracts meet the definition of insurance contracts as per IFRS 17.3, which includes contracts where an entity accepts significant insurance risk. If no contracts meet this definition, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity present insurance revenue and insurance service expenses in profit or loss?",
+              "guidance": "Examine the profit or loss statement and related disclosures. Verify if insurance revenue and insurance service expenses are distinctly presented, as required by IFRS 17.85.",
+              "yes_case": {
+                "question": "Do the presented insurance revenue and insurance service expenses exclude investment components?",
+                "guidance": "Confirm whether the entity excludes investment components from insurance revenue and service expenses. Refer to IFRS 17.85, ensuring that amounts related solely to the transfer of insurance risk are presented. Check underlying calculations and disclosures for transparency.",
+                "yes_case": {
+                  "question": "Does the entity avoid presenting premium information in profit or loss that is inconsistent with IFRS 17.83?",
+                  "guidance": "Review the premium information presented in profit or loss. Ensure that the entity avoids presenting gross premium amounts or premium information inconsistent with IFRS 17.83. Premiums should reflect the expected pattern of transfer of services under the contract and should not distort the financial position.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "576",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.86",
+          "question": "Does the entity hold reinsurance contracts as defined under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "If an entity presents separately the amounts recovered from the reinsurer and an allocation of the premiums paid, does it: a. Treat reinsurance cash flows that are contingent on claims on the underlying contracts as part of the claims that are expected to be reimbursed under the reinsurance contract held b. Treat amounts from the reinsurer that it expects to receive that are not contingent on claims of the underlying contracts (for example, some types of ceding commissions) as a reduction in the premiums to be paid to the reinsurer c. Treat amounts recognised relating to the recovery of losses applying IFRS 17.66(c)(i)‒(ii) and 66A‒66B as amounts recovered from the reinsurer d. Avoid presenting the allocation of premiums paid as a reduction in revenue",
+          "decision_tree": {
+            "question": "Does the entity hold reinsurance contracts as defined under IFRS 17?",
+            "guidance": "Verify the existence of reinsurance contracts held by the entity as outlined in IFRS 17. Refer to the contract agreements and confirm that they meet the definition in IFRS 17.2(a) as contracts whereby one entity (reinsurer) compensates another entity (policyholder) for financial loss related to events covered by insurance contracts issued by the policyholder.",
+            "yes_case": {
+              "question": "Does the entity present separately the amounts recovered from the reinsurer and an allocation of premiums paid?",
+              "guidance": "Review the financial statements, specifically the Statement of Comprehensive Income or relevant disclosures, to ensure the entity presents separately amounts recovered from the reinsurer and allocations of premiums paid as required under IFRS 17. Verify if these components are clearly stated.",
+              "yes_case": {
+                "question": "Does the entity treat reinsurance cash flows contingent on claims on underlying contracts as part of the claims expected to be reimbursed under the reinsurance contract held?",
+                "guidance": "Refer to the breakdown of reinsurance cash flows in the financial records and disclosures. Test whether reinsurance cash flows contingent on claims are treated as part of the claims reimbursed under the reinsurance contract held (per IFRS 17.86(a)).",
+                "yes_case": {
+                  "question": "Does the entity treat amounts from the reinsurer expected to be received that are not contingent on claims (e.g., ceding commissions) as a reduction in premiums paid to the reinsurer?",
+                  "guidance": "Check if amounts such as ceding commissions, when not contingent on claims of the underlying contracts, are properly treated as a reduction in premiums reported to the reinsurer (per IFRS 17.86(b)).",
+                  "yes_case": {
+                    "question": "Are amounts recognized relating to the recovery of losses (per IFRS 17.66(c)(i)-(ii), 66A, and 66B) correctly treated as amounts recovered from the reinsurer?",
+                    "guidance": "Ensure that loss recoveries under the specified IFRS 17 paragraphs are presented appropriately as amounts recovered from the reinsurer. Validate this by examining how loss recoveries are allocated in financial disclosures.",
+                    "yes_case": {
+                      "question": "Does the entity avoid presenting the allocation of premiums paid as a reduction in revenue?",
+                      "guidance": "Confirm from the presentation of revenue in the financial statements that the allocation of premiums paid is not incorrectly presented as a reduction in revenue (per IFRS 17.86(d)).",
+                      "yes_case": "COMPLIANT: YES",
+                      "no_case": "COMPLIANT: NO"
+                    },
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "577",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.93, IFRS 17.97–116, IFRS 17.117–120, IFRS 17.121–132",
+          "question": "Does the entity have contracts that fall within the scope of IFRS 17?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "To achieve the disclosure objective described in IFRS 17.93, does the entity disclose qualitative and quantitative information about: a. The amounts recognised in its financial statements for contracts within the scope of IFRS 17 (see IFRS 17.97– 116) b. The significant judgements, and changes in those judgements, made when applying IFRS 17 (see IFRS 17.117–120) c. The nature and extent of the risks from contracts within the scope of IFRS 17 (see IFRS 17.121–132)",
+          "decision_tree": {
+            "question": "Does the entity have contracts that fall within the scope of IFRS 17?",
+            "guidance": "Review contractual agreements and assess whether they are insurance contracts or investment contracts with discretionary participation features, as defined by IFRS 17. Refer to IFRS 17.3–8 for definitions and scope exclusions. Check if there are any contracts clearly outside the scope, such as warranties issued directly by manufacturers.",
+            "yes_case": {
+              "question": "Are amounts related to the contracts within the scope of IFRS 17 recognized in the entity's financial statements?",
+              "guidance": "Inspect the entity's financial statements for amounts attributable to insurance or investment contracts covered by IFRS 17. Verify whether recognition criteria in IFRS 17.32–33 were met, such as whether insurance liabilities or assets are reported.",
+              "yes_case": {
+                "question": "Does the entity disclose qualitative and quantitative information about the amounts recognized in its financial statements for contracts within the scope of IFRS 17?",
+                "guidance": "Examine the disclosure notes in the financial statements. Information should encompass explanations about the amounts recognized (IFRS 17.97–116) and comply with requirements such as reconciliations, measurement methods, and other disclosures mandated in this section.",
+                "yes_case": {
+                  "question": "Does the entity disclose information about the significant judgements made, and changes in those judgements, when applying IFRS 17?",
+                  "guidance": "Evaluate whether the entity provides disclosures about significant judgements, including those related to assumptions, estimates, and transitions (IFRS 17.117–120). This includes metrics like risk adjustment and discount rates, as well as changes in previous judgements.",
+                  "yes_case": {
+                    "question": "Does the entity disclose information about the nature and extent of risks from contracts within the scope of IFRS 17?",
+                    "guidance": "Confirm that disclosures address risks such as insurance and market risks as required by IFRS 17.121–132. Review sections discussing sensitivity analyses, risk concentrations, and mitigation activities.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "578",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.94, IFRS 17.97–132, IFRS 17.93",
+          "question": "Has the entity disclosed information under IFRS 17.97–132 in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "577",
+          "source_trigger": "Yes",
+          "context_required": "full",
+          "original_question": "An entity must consider the level of detail necessary to satisfy the disclosure objective and how much emphasis to place on each of the various requirements. If the disclosures provided, applying IFRS 17.97–132, are not enough to meet the objective in IFRS 17.93, does an entity disclose additional information necessary to meet that objective",
+          "decision_tree": {
+            "question": "Has the entity disclosed information under IFRS 17.97–132 in its financial statements?",
+            "guidance": "Examine the financial statements, particularly the notes. Look for disclosures specifically outlined in IFRS 17.97–132, such as the nature and amount of insurance contract liabilities, the impact of transfers of reinsurance contracts held, and reconciliations of relevant balances. Ensure that these disclosures exist and are properly detailed.",
+            "yes_case": {
+              "question": "Do the disclosures under IFRS 17.97–132 meet the disclosure objective set out in IFRS 17.93?",
+              "guidance": "Review the objective outlined in IFRS 17.93, which requires information to provide users with a basis to assess the effect of insurance contracts on the entity’s financial position, financial performance, and cash flows. Evaluate if the disclosures are sufficiently detailed, clear, and emphasize the relevant requirements.",
+              "yes_case": {
+                "question": "Has the entity considered providing additional information if necessary to fully meet the disclosure objective in IFRS 17.93?",
+                "guidance": "Verify whether the entity evaluated the adequacy of its disclosures and considered adding supplemental information (e.g., additional tables, qualitative explanations, or segmental details) to fully meet IFRS 17.93 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": {
+              "question": "Is the non-disclosure of information under IFRS 17.97–132 due to the entity's judgment that such disclosure is immaterial?",
+              "guidance": "Check whether the entity has documented its reasoning for deeming certain IFRS 17.97–132 disclosures immaterial. Verify this against the requirements for materiality under IAS 1.31–32 and IFRS 17 guidelines regarding materiality.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            }
+          }
+        },
+        {
+          "id": "579",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.97, IFRS 17.53, IFRS 17.69, IFRS 17.56, IFRS 17.57(b), IFRS 17.59(b), IFRS 17.59(a)",
+          "question": "Does the entity use the premium allocation approach to measure insurance contracts under IFRS 17?",
+          "question_type": "Followup",
+          "source_question": "577",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If an entity uses the premium allocation approach, does it also disclose: a. Which of the criteria in IFRS 17.53 and IFRS 17.69 it has satisfied b. Whether it makes an adjustment for the time value of money and the effect of financial risk applying IFRS 17.56, 57(b) and 59(b) c. The method it has chosen to recognise insurance acquisition cash flows applying IFRS 17.59(a)",
+          "decision_tree": {
+            "question": "Does the entity use the premium allocation approach to measure insurance contracts under IFRS 17?",
+            "guidance": "Review the entity's accounting policy elections and description of insurance contracts under IFRS 17. Pay specific attention to whether the entity applies the premium allocation approach, as per IFRS 17.53 and IFRS 17.69, typically for contracts with a coverage period of one year or less. Ensure consistency with references noted in financial statements.",
+            "yes_case": {
+              "question": "Has the entity disclosed which criteria in IFRS 17.53 and IFRS 17.69 it has satisfied to apply the premium allocation approach?",
+              "guidance": "Verify the disclosure in the financial statements—look for explicit reference to the applicable criteria such as the contract's short coverage period or lack of significant variability in future cash flows.",
+              "yes_case": {
+                "question": "Has the entity disclosed whether it makes an adjustment for the time value of money and the effect of financial risk, as required by IFRS 17.56, 17.57(b), and 17.59(b)?",
+                "guidance": "Check disclosures for indications that adjustments are made for time value of money or financial risk where applicable. These provisions typically apply to contracts with expected cash flows outside a one-year period.",
+                "yes_case": {
+                  "question": "Has the entity disclosed the method it has chosen to recognize insurance acquisition cash flows, applying IFRS 17.59(a)?",
+                  "guidance": "Review the financial statements. Ensure the entity specifies the method for recognizing acquisition cash flows, such as amortization or immediate recognition, as required by IFRS 17.59(a).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "580",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.98, IFRS 17.100–109",
+          "question": "Does the entity have contracts within the scope of IFRS 17?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose reconciliations that show how the net carrying amounts of contracts within the scope of IFRS 17 changed during the period because of cash flows and income and expenses recognised in the statement(s) of financial performance, separately for insurance contracts issued and reinsurance contracts held",
+          "decision_tree": {
+            "question": "Does the entity have contracts within the scope of IFRS 17?",
+            "guidance": "Review the entity's operations and identify whether it issues insurance contracts or holds reinsurance contracts. Refer to the contractual definitions and scope in IFRS 17.2–IFRS 17.7. Ensure exclusions like warranties for products or financial guarantees are considered.",
+            "yes_case": {
+              "question": "Does the entity disclose reconciliations showing changes in net carrying amounts of insurance contracts issued and reinsurance contracts held during the period?",
+              "guidance": "Examine the notes to the financial statements and disclosures section. Verify whether reconciliations are provided showing the movement in net carrying amounts, separately for insurance contracts issued and reinsurance contracts held, as required by IFRS 17.98 and sections IFRS 17.100–109.",
+              "yes_case": {
+                "question": "Are the changes in net carrying amounts clearly attributed to cash flows and income and expenses recognised in the statement(s) of financial performance?",
+                "guidance": "Review the reconciliation disclosures to confirm the entity has segregated changes arising from cash flows (e.g., premium receipts, claim payments) and separately disclosed income and expenses (e.g., interest expense, risk adjustments). Ensure compliance with IFRS 17.100–107.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "581",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.99, IFRS 17.100–105B, IFRS 17.78",
+          "question": "Does the entity have insurance contracts within the scope of IFRS 17?",
+          "question_type": "Followup",
+          "source_question": "580",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "An entity shall provide enough information in the reconciliations to enable users of financial statements to identify changes from cash flows and amounts that are recognised in the statement(s) of financial performance. To comply with this requirement, does it: a. Disclose, in a table, the reconciliations set out in IFRS 17.100–105B b. For each reconciliation, present the net carrying amounts at the beginning and at the end of the period, disaggregated into a total for portfolios of contracts that are assets and a total for portfolios of contracts that are liabilities, that equal the amounts presented in the statement of financial position applying IFRS 17.78",
+          "decision_tree": {
+            "question": "Does the entity have insurance contracts within the scope of IFRS 17?",
+            "guidance": "Review the entity's financial statements and analyze its business operations to confirm the presence of insurance contracts. Check the entity's accounting policies section for references to IFRS 17 and examine the classification of income and expenses. If the entity does not issue insurance contracts, this checklist item is 'Not Applicable'.",
+            "yes_case": {
+              "question": "Does the entity include reconciliations as set out in IFRS 17.100–105B in its financial statements?",
+              "guidance": "Examine the disclosures in the financial statements, focusing on the note disclosures regarding insurance contracts. Look for tables or narratives specifying reconciliations, as required by IFRS 17.100–105B. Ensure all required reconciliations are presented to provide transparency on the changes in cash flows and amounts recognized in the performance statements.",
+              "yes_case": {
+                "question": "Do the reconciliations include net carrying amounts at the beginning and end of the period, disaggregated into portfolios of contracts that are assets and portfolios of contracts that are liabilities, equal to the amounts presented in the statement of financial position under IFRS 17.78?",
+                "guidance": "Verify that the reconciliation tables or accompanying disclosures present the required net carrying amounts at the start and end of the reporting period. Ensure the information includes disaggregation into portfolios that align with the asset and liability classifications as shown in the financial position statement, and that the totals reconcile to the amounts under IFRS 17.78.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "582",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.100, IFRS 17.47–52, IFRS 17.57–58, IFRS 17.53–59, IFRS 17.69–70A",
+          "question": "Does the entity issue insurance contracts under IFRS 17?",
+          "question_type": "Followup",
+          "source_question": "580",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose reconciliations from the opening to the closing balances separately for each of: a. The net liabilities (or assets) for the remaining coverage component, excluding any loss component b. Any loss component (see IFRS 17.47–52 and 57–58) c. The liabilities for incurred claims d. For insurance contracts to which the premium allocation approach described in IFRS 17.53–59 or 69–70A has been applied, does the entity disclose reconciliations from the opening to the closing balances separately for each of: ► The estimates of the present value of the future cash flows ► The risk adjustment for non-financial risk",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts under IFRS 17?",
+            "guidance": "Review the entity’s activities and determine whether it undertakes insurance contracts as defined in IFRS 17. Check the entity's scope of business operations. Insurance contracts include those where the issuer accepts significant insurance risk by agreeing to compensate the policyholder if a specified uncertain future event adversely affects the latter. See IFRS 17.3 for the definition and scope of insurance contracts.",
+            "yes_case": {
+              "question": "Has the entity applied the premium allocation approach (PAA) to any of its insurance contracts as described in IFRS 17.53–59 or IFRS 17.69–70A?",
+              "guidance": "Review the accounting policies and disclosures of the entity to identify whether the premium allocation approach has been applied. The PAA is typically used for simpler insurance contracts with a coverage period of one year or less or where the approach yields results materially similar to the general IFRS 17 model. Check management policy documents and contract classifications.",
+              "yes_case": {
+                "question": "Does the entity disclose reconciliations from opening to closing balances separately for each required element under IFRS 17?",
+                "guidance": "Review the disclosures within the financial statements focusing on the notes related to insurance contracts. Confirm whether reconciliations are presented for: (a) the net liabilities (or assets) for the remaining coverage component, excluding any loss component; (b) any loss component (per IFRS 17.47–52, 57–58); (c) the liabilities for incurred claims; (d) for insurance contracts under PAA, the estimates of the present value of future cash flows and the risk adjustment for non-financial risk. Ensure all components are disclosed separately and in alignment with IFRS 17.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Does the entity disclose reconciliations from opening to closing balances separately for required elements of insurance contracts not under the premium allocation approach?",
+                "guidance": "Review disclosures within the financial statements focusing on insurance contract notes where the general measurement model of IFRS 17 is applied. Confirm that reconciliations are presented for: (a) the net liabilities (or assets) for the remaining coverage component, excluding any loss component; (b) any loss component (see IFRS 17.47–52, 57–58); (c) the liabilities for incurred claims. Ensure the reconciliations comply with IFRS 17 disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "583",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.101, IFRS 17.53–59, IFRS 17.69–70A",
+          "question": "Has the entity issued insurance contracts within the scope of IFRS 17?",
+          "question_type": "Followup",
+          "source_question": "580",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For insurance contracts other than those to which the premium allocation approach described in IFRS 17.53–59 or 69–70A has been applied, does the entity also disclose reconciliations from the opening to the closing balances separately for each of: a. The estimates of the present value of the future cash flows b. The risk adjustment for non-financial risk c. The contractual service margin",
+          "decision_tree": {
+            "question": "Has the entity issued insurance contracts within the scope of IFRS 17?",
+            "guidance": "Review the financial statements and disclosures to determine if the entity reports any insurance contracts. Check the nature of the contracts offered by the entity and verify their classification under IFRS 17. Ensure no other IFRS standards, such as IFRS 9 or IFRS 4, apply to these contracts. Refer to IFRS 17 paragraphs 3–8 for guidance on the scope of IFRS 17.",
+            "yes_case": {
+              "question": "Has the entity applied the premium allocation approach as described in IFRS 17.53–59 or IFRS 17.69–70A for these insurance contracts?",
+              "guidance": "Review the accounting policies and notes to the financial statements. The premium allocation approach is typically applied to contracts where the coverage period is one year or less, or where fulfilling the contract does not require significant judgment or variability in cash flows. Refer to IFRS 17 for criteria and determination.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Does the entity disclose reconciliations from the opening to the closing balances separately for each of the following: a. The estimates of the present value of the future cash flows b. The risk adjustment for non-financial risk c. The contractual service margin?",
+                "guidance": "Examine the disclosure notes regarding insurance contracts. Look for separate reconciliation schedules that include the opening and closing balances for: (a) the present value of future cash flows, (b) the risk adjustment for non-financial risk, and (c) the contractual service margin. Ensure the information reconciles with amounts in the financial statements and is compliant with IFRS 17.101.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "584",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.103, IFRS 17.100, IFRS 17.101",
+          "question": "Does the entity issue insurance contracts as defined under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity separately disclose in the reconciliations required in IFRS 17.100 each of the following amounts related to services, if applicable: a. Insurance revenue b. Insurance service expenses, showing separately: ...",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts as defined under IFRS 17?",
+            "guidance": "Check the entity's operations and revenue streams by reviewing the financial statements (particularly Note disclosures). Confirm if the entity undertakes activities related to insurance contracts. Refer to IFRS 17 Appendix A for the definition of insurance contracts.",
+            "yes_case": {
+              "question": "Has the entity provided reconciliations of the contract balances that are required under IFRS 17.100?",
+              "guidance": "Examine the financial statements, specifically the note disclosures or sections related to insurance contracts. Verify if the entity has included reconciliations of contract assets, liabilities, and changes in building block components per IFRS 17. Review the relevant sections required by IFRS 17.100.",
+              "yes_case": {
+                "question": "Does the reconciliation separately disclose amounts related to services, including insurance revenue and insurance service expenses?",
+                "guidance": "In the reconciliations required under IFRS 17.100, confirm compliance with IFRS 17.103. Ensure that insurance revenue and insurance service expenses are disclosed separately. For insurance service expenses, verify that subcategories, such as the losses on contracts and expenses allocated to the loss component, are identifiable as per IFRS 17.101.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "585",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.104, IFRS 17.101, IFRS 17.B96–B118, IFRS 17.B97(b), IFRS 17.B113(a)",
+          "question": "Does the entity issue insurance contracts within the scope of IFRS 17?",
+          "question_type": "Followup",
+          "source_question": "580",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity separately disclose in the reconciliations required in IFRS 17.101 each of the following amounts related to insurance services, if applicable: a. Changes that relate to future service, applying IFRS 17. B96–B118, showing separately: ► Changes in estimates that adjust the contractual service margin ► Changes in estimates that do not adjust the contractual service margin, i.e., losses on groups of onerous contracts and reversals of such losses b. Changes in the risk adjustment for non-financial risk, showing separately: ► Amounts that relate to future service ► Amounts that relate to past service c. Changes that relate to past service, i.e., changes in fulfilment cash flows relating to incurred claims (see IFRS 17.B97(b) and B113(a))",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts within the scope of IFRS 17?",
+            "guidance": "Review the entity's operations and contract classifications. Refer to IFRS 17.3–7 for guidance on whether contracts qualify as insurance contracts under this standard. Common pitfalls include incorrect classification of investment contracts or service contracts as insurance contracts.",
+            "yes_case": {
+              "question": "Has the entity prepared reconciliations as required by IFRS 17.101 in its financial statements?",
+              "guidance": "Examine the financial statements and the notes to the accounts. Confirm whether reconciliations include analysis of insurance services for groups of contracts, as specified in IFRS 17.101. These reconciliations typically show movements in contractual service margin, risk adjustment, and fulfilment cash flows.",
+              "yes_case": {
+                "question": "Do the reconciliations separately disclose changes in estimates related to future service, as outlined in IFRS 17.B96–B118?",
+                "guidance": "Verify that changes in estimates affecting the contractual service margin are separately disclosed from those that lead to losses or reversals on onerous contracts. Check for proper identification of adjustments as per IFRS 17.B96–B118.",
+                "yes_case": {
+                  "question": "Do the reconciliations separately disclose changes in the risk adjustment for non-financial risk related to future and past service, as required by IFRS 17.B96–B118?",
+                  "guidance": "Identify in the reconciliations whether amounts related to future service are distinct from those related to past service adjustments in the risk adjustment for non-financial risk. Ensure disclosures align with IFRS 17.B97(b).",
+                  "yes_case": {
+                    "question": "Do the reconciliations separately disclose changes related to past service, including fulfilment cash flows for incurred claims as per IFRS 17.B97(b) and IFRS 17.B113(a)?",
+                    "guidance": "Examine whether changes related to past service are disclosed separately for incurred claims fulfilment cash flows. Pay attention to the breakdown and disclosure of cash flows related to past events.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "586",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.105, IFRS 17.100–101",
+          "question": "Does the entity apply IFRS 17 to its insurance contracts?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "To complete the reconciliations in IFRS 17.100–101, does the entity also disclose separately each of the following amounts not related to services provided in the period, if applicable: a. Cash flows in the period, including: ► Premiums received for insurance contracts issued (or paid for reinsurance contracts held) ...",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 17 to its insurance contracts?",
+            "guidance": "Review whether the entity issues insurance contracts or holds reinsurance contracts. Check the financial statements and accounting policies to confirm that IFRS 17 is applicable to its financial reporting.",
+            "yes_case": {
+              "question": "Do the reconciliations required by IFRS 17.100–101 exist in the entity's financial statements?",
+              "guidance": "Verify the reporting under IFRS 17.100–101, focusing on the reconciliations for insurance contracts issued and reinsurance contracts held. Check the disclosures and presentation in the financial statements for reconciliation tables.",
+              "yes_case": {
+                "question": "Does the entity disclose separately the cash flows in the period for premiums received for insurance contracts issued (or paid for reinsurance contracts held)?",
+                "guidance": "Inspect the reconciliation tables disclosed per IFRS 17.100–101. Locate the specific section detailing cash flows: premiums received for issued insurance contracts and payments for reinsurance contracts held. Cross-check that these cash flows are disclosed separately where applicable.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "587",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.105A, IFRS 17.28B, IFRS 17.98",
+          "question": "Does the entity recognize assets for insurance acquisition cash flows applying IFRS 17.28B?",
+          "question_type": "Independent",
+          "context_required": "notes_only",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does an entity disclose a reconciliation from the opening to the closing balance of assets for insurance acquisition cash flows recognised applying IFRS 17.28B, and does the entity aggregate information for the reconciliation at a level that is consistent with that for the reconciliation of insurance contracts, applying IFRS 17.98",
+          "decision_tree": {
+            "question": "Does the entity recognize assets for insurance acquisition cash flows applying IFRS 17.28B?",
+            "guidance": "Review the financial statements and accounting policies to determine whether the entity has recognized assets for insurance acquisition cash flows as specified in IFRS 17.28B. Check for descriptions of such assets in Note disclosures or the Statement of Financial Position.",
+            "yes_case": {
+              "question": "Does the entity provide a reconciliation from the opening to the closing balance of these assets for insurance acquisition cash flows?",
+              "guidance": "Verify disclosures in the financial statements under IFRS 17.105A. Look for a detailed reconciliation showing changes between the opening and closing balances, including additions, adjustments, and derecognitions. Ensure this reconciliation specifically covers assets for insurance acquisition cash flows.",
+              "yes_case": {
+                "question": "Is the information for the reconciliation aggregated at a level consistent with the reconciliation of insurance contracts as required by IFRS 17.98?",
+                "guidance": "Review the aggregation level used in the reconciliation of insurance acquisition cash flow assets. Ensure it matches the aggregation level used for the reconciliation of insurance contract liabilities under IFRS 17.98 (e.g., grouped by portfolio or similar criteria). Avoid aggregating unrelated items that distort the clarity of disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "588",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.105B, IFRS 17.28E–28F",
+          "question": "Has the entity issued contracts within the scope of IFRS 17 (Insurance Contracts)?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does an entity separately disclose in the reconciliation required by IFRS 17.105A any impairment losses and reversals of impairment losses recognised applying IFRS 17.28E–28F",
+          "decision_tree": {
+            "question": "Has the entity issued contracts within the scope of IFRS 17 (Insurance Contracts)?",
+            "guidance": "Review the entity's operations and determine if it issues insurance contracts that fall under the scope of IFRS 17. Refer to the definitions provided in IFRS 17 Appendix A for what constitutes an insurance contract.",
+            "yes_case": {
+              "question": "Has the entity recognised impairment losses or reversals of impairment losses on assets applying IFRS 17.28E–28F?",
+              "guidance": "Review disclosures and accounting records for impairment testing of assets in line with IFRS 17.28E–28F. Check if there is evidence of impairment losses or reversals during the reporting period.",
+              "yes_case": {
+                "question": "Does the entity separately disclose impairment losses and reversals of impairment losses in the reconciliation required by IFRS 17.105A?",
+                "guidance": "Examine the entity's reconciliation of the insurance contract liability in accordance with IFRS 17.105A. Ensure impairment losses and reversals of impairment losses are clearly disclosed as separate line items in the reconciliation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "589",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.106, IFRS 17.53–59, IFRS 17.B124, IFRS 17.B124(a), IFRS 17.B124(b), IFRS 17.B124(c), IFRS 17.B124(d), IFRS 17.B125",
+          "question": "Are there insurance contracts issued by the entity that are subject to IFRS 17 but not applying the premium allocation approach?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For insurance contracts issued other than those to which the premium allocation approach described in IFRS 17.53–59 has been applied, does the entity disclose an analysis of the insurance revenue recognised in the period comprising: a. The amounts relating to the changes in the liability for remaining coverage as specified in IFRS 17.B124, separately disclosing: ► The insurance service expenses incurred during the period as specified in IFRS 17.B124(a) ► The change in the risk adjustment for non-financial risk, as specified in IFRS 17.B124(b) ► The amount of the contractual service margin recognised in profit or loss because of the transfer of services in the period, as specified in IFRS 17.B124(c) ► Other amounts, if any, for example, experience adjustments for premium receipts other than those that relate to future service as specified in IFRS 17.B124(d) b. The allocation of the portion of the premiums that relate to the recovery of insurance acquisition cash flows (see IFRS 17.B125)",
+          "decision_tree": {
+            "question": "Are there insurance contracts issued by the entity that are subject to IFRS 17 but not applying the premium allocation approach?",
+            "guidance": "Check the entity's financial statements and contract details to identify insurance contracts issued. Review IFRS 17.53–59 to confirm if the premium allocation approach applies to any contracts. Verify that the entity has clearly classified contracts during recognition.",
+            "yes_case": {
+              "question": "Does the entity disclose an analysis of the insurance revenue recognised during the period as required by IFRS 17.106 and IFRS 17.B124?",
+              "guidance": "Review the disclosures in the financial statements, specifically related to insurance revenue. Confirm that the analysis includes: (a) Changes in the liability for remaining coverage (IFRS 17.B124), and separately discloses: - Insurance service expenses incurred (IFRS 17.B124(a)), - Changes in the risk adjustment for non-financial risk (IFRS 17.B124(b)), - Contractual service margin recognised in profit or loss due to the transfer of services in the period (IFRS 17.B124(c)), and - Other amounts, such as experience adjustments for premiums (IFRS 17.B124(d)); (b) Allocation of premiums relating to recovery of insurance acquisition cash flows (IFRS 17.B125).",
+              "yes_case": {
+                "question": "Are all required components of the analysis disclosed in sufficient detail as specified in IFRS 17.B124(a–d) and IFRS 17.B125?",
+                "guidance": "Ensure the disclosures provide clear and detailed breakdowns for each specified component. Double-check consistency with definitions and terms described in IFRS 17.B124(a–d) and IFRS 17.B125, avoiding ambiguous or incomplete explanations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "590",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.107, IFRS 17.53–59, IFRS 17.69–70A",
+          "question": "Does the entity issue insurance contracts or hold reinsurance contracts?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For insurance contracts other than those to which the premium allocation approach described in IFRS 17.53–59 or 69–70A has been applied, does the entity disclose the effect on the statement of financial position separately for insurance contracts issued and reinsurance contracts held that are initially recognised in the period, showing their effect at initial recognition on: a. The estimates of the present value of future cash outflows, showing separately the amount of the insurance acquisition cash flows b. The estimates of the present value of future cash inflows c. The risk adjustment for non-financial risk d. The contractual service margin",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts or hold reinsurance contracts?",
+            "guidance": "Review the entity's business operations and assess whether it enters into insurance contracts issued or reinsurance contracts held. Verify this information in the relevant agreements, policies, or disclosures in the financial statements.",
+            "yes_case": {
+              "question": "Has the entity applied the premium allocation approach to these contracts, as described in IFRS 17.53–59 or IFRS 17.69–70A?",
+              "guidance": "Check whether the entity uses the premium allocation approach, which is typically applied to contracts with short coverage periods or where it provides a simplification for measurement purposes. Review the accounting policies and disclosures related to IFRS 17.53–59 or IFRS 17.69–70A.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Does the entity disclose, for insurance contracts issued and reinsurance contracts held initially recognised during the period, their effect at initial recognition on: a) The estimates of the present value of future cash outflows (separately showing insurance acquisition cash flows); b) The estimates of the present value of future cash inflows; c) The risk adjustment for non-financial risk; and d) The contractual service margin?",
+                "guidance": "Review the disclosures in the financial statements, typically under the Notes section for insurance contracts. Ensure the disclosures provide separate effects for issued insurance contracts and held reinsurance contracts, detailing the items listed (a to d). Pay attention to completeness and accuracy.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "591",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.108",
+          "question": "Does the entity issue insurance contracts?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "In the disclosures required by IFRS 17.107 above, does the entity separately disclose amounts resulting from: a. Contracts acquired from other entities in transfers of insurance contracts or business combinations b. Groups of contracts that are onerous",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts?",
+            "guidance": "Check the entity’s business model and the Statement of Financial Position for the presence of insurance contract liabilities or assets. IFRS 17 applies only to entities that issue insurance contracts. Refer to IFRS 17.2 for the definition of insurance contracts.",
+            "yes_case": {
+              "question": "Does the entity acquire insurance contracts from other entities through transfers or business combinations?",
+              "guidance": "Review the transactions during the reporting period, especially those involving acquisitions of groups of contracts or entire businesses that include insurance contracts. Refer to IFRS 3 for business combinations and IFRS 17.108(a) for disclosure requirements associated with acquired contracts.",
+              "yes_case": {
+                "question": "Does the entity separately disclose amounts resulting from contracts acquired from other entities in transfers or business combinations, as required by IFRS 17.108(a)?",
+                "guidance": "Inspect the disclosures in the entity's financial statements, specifically those related to groups of insurance contracts. Ensure that the amounts arising from acquired contracts are separately identifiable and clearly explained.",
+                "yes_case": {
+                  "question": "Does the entity issue groups of insurance contracts that are onerous?",
+                  "guidance": "Review the financial statements and accounting policies for references to onerous contract groups under IFRS 17. Refer to IFRS 17.47 for the definition of a group of onerous contracts, recognizing the need for these disclosures.",
+                  "yes_case": {
+                    "question": "Does the entity separately disclose amounts resulting from groups of contracts that are onerous, as required by IFRS 17.108(b)?",
+                    "guidance": "Examine the financial statement disclosures; ensure amounts related to onerous groups are clearly segregated and detailed in line with IFRS 17.108(b). Pay attention to both quantitative and qualitative disclosures.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": "COMPLIANT: YES"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Does the entity issue groups of insurance contracts that are onerous?",
+                "guidance": "Review the financial statements and accounting policies for references to onerous contract groups under IFRS 17. Refer to IFRS 17.47 for the definition of a group of onerous contracts, recognizing the need for these disclosures.",
+                "yes_case": {
+                  "question": "Does the entity separately disclose amounts resulting from groups of contracts that are onerous, as required by IFRS 17.108(b)?",
+                  "guidance": "Examine the financial statement disclosures; ensure amounts related to onerous groups are clearly segregated and detailed in line with IFRS 17.108(b). Pay attention to both quantitative and qualitative disclosures.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "592",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.109, IFRS 17.53–59, IFRS 17.69–70A",
+          "question": "Did the entity issue insurance contracts or hold reinsurance contracts during the reporting period?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For insurance contracts other than those to which the premium allocation approach described in IFRS 17.53–59 or 69–70A has been applied, does the entity disclose when it expects to recognise the contractual service margin remaining at the end of the reporting period in profit or loss, separately for insurance contracts issued and reinsurance contracts held, quantitatively, in appropriate time bands",
+          "decision_tree": {
+            "question": "Did the entity issue insurance contracts or hold reinsurance contracts during the reporting period?",
+            "guidance": "Check the financial statements and accounting policies documentation. Look at the notes disclosing information about insurance contracts issued and reinsurance contracts held. Ensure clarity on whether insurance contracts exist in the reporting entity.",
+            "yes_case": {
+              "question": "Are the insurance contracts or reinsurance contracts subject to the premium allocation approach (PAA) as described in IFRS 17.53–59 or IFRS 17.69–70A?",
+              "guidance": "Examine the detailed accounting policies for insurance contracts and reinsurance contracts used by the entity. Review if PAA was applied based on the eligibility criteria outlined in IFRS 17.53–59 or IFRS 17.69–70A. PAA is typically applied for contracts with durations of one year or less, unless otherwise stated.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Does the entity disclose when it expects to recognise the contractual service margin remaining at the end of the reporting period in profit or loss, quantitatively, in appropriate time bands?",
+                "guidance": "Review the financial statement disclosures related to insurance contracts issued and reinsurance contracts held. Look specifically for a breakdown of the expected recognition of the contractual service margin, with quantitative disclosure in time bands as per IFRS 17.109. Common pitfalls include a lack of breakdown or vague qualitative disclosures that do not meet IFRS 17 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "593",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.109A, IFRS 17.28C",
+          "question": "Does the entity have insurance acquisition cash flows that are recognized as an asset under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does an entity disclose quantitatively, in appropriate time bands, when it expects to derecognise an asset for insurance acquisition cash flows applying IFRS 17.28C",
+          "decision_tree": {
+            "question": "Does the entity have insurance acquisition cash flows that are recognized as an asset under IFRS 17?",
+            "guidance": "Review the entity's financial statements, particularly the disclosures related to insurance contracts under IFRS 17. Check whether insurance acquisition cash flows are recognized as an asset in accordance with IFRS 17.28A. Look for transactions with costs directly attributable to obtaining insurance contracts that qualify as an asset.",
+            "yes_case": {
+              "question": "Has the entity applied IFRS 17.28C to determine when it expects to derecognize the insurance acquisition cash flow asset?",
+              "guidance": "Review disclosure notes in the financial statements to confirm compliance with IFRS 17.28C. Ensure the entity has outlined its expectations for derecognition, including an explanation of the time bands.",
+              "yes_case": {
+                "question": "Does the entity disclose quantitative information in appropriate time bands related to derecognition of the insurance acquisition cash flow asset, in compliance with IFRS 17.109A?",
+                "guidance": "Examine the disclosures under IFRS 17.109A. Check if the entity's disclosure includes numerical data categorized in time bands that reflect when the derecognition of the asset will occur. Verify that disclosures are sufficiently detailed to provide clarity and comply with IFRS 17 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "594",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.110",
+          "question": "Does the entity issue insurance contracts as defined under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity: a. Disclose and explain the total amount of insurance finance income or expenses in the reporting period b. Explain the relationship between insurance finance income or expenses and the investment return on its assets, to enable users of its financial statements to evaluate the sources of finance income or expenses recognised in profit or loss and other comprehensive income",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts as defined under IFRS 17?",
+            "guidance": "Review the nature of the entity's business activities and the contract documentation to identify if the entity has insurance contracts that meet the definition in IFRS 17. Insurance contracts are those which transfer significant insurance risk and provide compensation to the policyholder in the event of an insured event.",
+            "yes_case": {
+              "question": "Does the entity recognize insurance finance income or expenses arising from insurance contracts on its financial statements for the reporting period?",
+              "guidance": "Check the Statement of Comprehensive Income, notes to the financial statements, and supporting schedules. Review whether the entity has reported any finance income or expenses related to its insurance contracts as required under IFRS 17.",
+              "yes_case": {
+                "question": "Does the entity disclose the total amount of insurance finance income or expenses for the reporting period?",
+                "guidance": "Examine the notes to the financial statements, particularly those addressing insurance contracts and financial performance. Ensure the entity has clearly disclosed the total finance income or expenses derived from these contracts, including separate disclosure for amounts in profit or loss and other comprehensive income if applicable.",
+                "yes_case": {
+                  "question": "Does the entity explain the relationship between insurance finance income or expenses and the investment return on its assets?",
+                  "guidance": "Evaluate whether the financial statement notes provide sufficient explanation of how insurance finance income or expenses relate to the investment return on assets. This explanation should enable users to understand the sources of finance income or expenses recognized in profit or loss and other comprehensive income.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "595",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.111",
+          "question": "Does the entity have insurance contracts that meet the definition of contracts with direct participation features under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For contracts with direct participation features, does the entity: a. Describe the composition of the underlying items b. Disclose their fair value",
+          "decision_tree": {
+            "question": "Does the entity have insurance contracts that meet the definition of contracts with direct participation features under IFRS 17?",
+            "guidance": "Review the entity's insurance contract portfolio and compare contract types to the definition provided in IFRS 17 Appendix A and IFRS 17.B101–B109. Contracts with direct participation features typically involve contracts where the policyholders share in a clearly identified pool of underlying items. Confirm that the contracts satisfy the criteria specified.",
+            "yes_case": {
+              "question": "Has the entity described the composition of the underlying items related to the contracts with direct participation features?",
+              "guidance": "Check the entity's financial statements or disclosures. The composition of the underlying items should be described in sufficient detail to provide a clear understanding of the nature of these items (e.g., types of assets, liabilities, or other resources). Ensure this description is accessible and appears in the notes or as part of the relevant disclosure section.",
+              "yes_case": {
+                "question": "Has the entity disclosed the fair value of the underlying items?",
+                "guidance": "Verify whether the fair value of the underlying items is disclosed in the financial statements or accompanying notes. This disclosure must align with fair value measurement principles as prescribed by IFRS 13. Ensure the fair value is presented in a clear and accurate manner.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "596",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.112, IFRS 17.B115",
+          "question": "Does the entity have contracts with direct participation features as defined under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For contracts with direct participation features, if an entity chooses not to adjust the contractual service margin for some changes in the fulfilment cash flows, applying IFRS 17.B115, does it disclose the effect of that choice on the adjustment to the contractual service margin in the current period",
+          "decision_tree": {
+            "question": "Does the entity have contracts with direct participation features as defined under IFRS 17?",
+            "guidance": "Review the entity's insurance contracts and identify if any meet the definition of direct participation features under IFRS 17. Direct participation contracts are defined in IFRS 17.B101 and include contracts where the policyholder participates in a share of the returns of underlying items. Verify the definition against the documentation provided by the entity and identify such contracts.",
+            "yes_case": {
+              "question": "Has the entity chosen not to adjust the contractual service margin for some changes in fulfilment cash flows, as permitted by IFRS 17.B115?",
+              "guidance": "Check the entity's accounting policy elections and disclosures related to IFRS 17.B115. Specifically, determine if the entity opts for this choice not to adjust the contractual service margin for certain changes in fulfilment cash flows. Refer to IFRS 17.B115 for the requirements and policy options.",
+              "yes_case": {
+                "question": "Does the entity disclose the effect of this choice (not adjusting the contractual service margin for some changes in fulfilment cash flows) on the adjustment to the contractual service margin in the current period?",
+                "guidance": "Review the entity's financial statements or disclosure notes for compliance with IFRS 17.112. Look specifically for disclosures that explain how this choice impacts the adjustments to the contractual service margin for the current reporting period. Ensure transparency and sufficient information for users of financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "597",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.113, IFRS 17.B135",
+          "question": "Does the entity issue insurance contracts with direct participation features?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For contracts with direct participation features, if an entity changes the basis of disaggregation of insurance finance income or expenses between profit or loss and other comprehensive income, applying IFRS 17.B135, does it disclose, in the period when the change in approach occurred: a. The reason why the entity was required to change the basis of disaggregation b. The amount of any adjustment for each financial statement line item affected c. The carrying amount of the group of insurance contracts to which the change applied at the date of the change",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts with direct participation features?",
+            "guidance": "Review the entity’s insurance contracts portfolio to identify if there are any contracts that fall under IFRS 17's definition of direct participation features. These contracts allow policyholders to share in the performance of a specified pool of assets. Refer to IFRS 17.113 and IFRS 17 Appendix B (specifically IFRS 17.B101–B113) to confirm their classification.",
+            "yes_case": {
+              "question": "Has the entity changed the basis of disaggregation of insurance finance income or expenses between profit or loss and other comprehensive income during the reporting period?",
+              "guidance": "Check the entity’s financial statements and disclosures for evidence of a change in approach, as described in IFRS 17.B135. Look for terms like 'change in disaggregation' in discussions of insurance finance income or expenses across profit and loss and OCI.",
+              "yes_case": {
+                "question": "Does the entity disclose, in the period when the change occurred, the reason for the change in basis of disaggregation, as required by IFRS 17.B135?",
+                "guidance": "Verify the entity explains why it was required to change this basis of disaggregation. Look for detailed disclosures in the financial statements explaining the rationale. Ensure it complies with IFRS 17.B135.",
+                "yes_case": {
+                  "question": "Does the entity disclose the amount of any adjustment for each financial statement line item affected by the change?",
+                  "guidance": "Review the financial statements for a clear breakdown of adjustments affecting individual line items, such as insurance finance income or expenses. Cross-reference these disclosures against IFRS 17.B135 requirements.",
+                  "yes_case": {
+                    "question": "Does the entity disclose the carrying amount of the group of insurance contracts to which the change applied at the date of the change?",
+                    "guidance": "Locate the carrying amounts for the affected group of insurance contracts at the date of change within the disclosures. Ensure the information is presented in accordance with IFRS 17.B135.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "598",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.117",
+          "question": "Does the entity apply IFRS 17 for insurance contracts?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the significant judgements and changes in judgements made in applying IFRS 17",
+          "decision_tree": {
+            "question": "Does the entity apply IFRS 17 for insurance contracts?",
+            "guidance": "Check the financial statements to confirm whether the entity has insurance contracts accounted for under IFRS 17. Look for references to IFRS 17 in the accounting policies section or related disclosures.",
+            "yes_case": {
+              "question": "Has the entity disclosed significant judgements made in applying IFRS 17?",
+              "guidance": "Review the notes to the financial statements. Specifically, check for disclosures related to IFRS 17 compliance. Significant judgements may include decisions about measurement, assumptions in estimating cash flows, or determination of coverage units.",
+              "yes_case": {
+                "question": "Has the entity disclosed changes in the significant judgements made in applying IFRS 17?",
+                "guidance": "Review the notes for disclosures specifically addressing any updates or revisions to previously made judgements under IFRS 17. Ensure the changes are clearly explained and the impact on the financial statements is transparent.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "599",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.117, IFRS 17.B98, IFRS 17.B119–B119B",
+          "question": "Has the entity issued insurance contracts that are within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Specifically, does the entity disclose the inputs, assumptions and estimation techniques used, including: a. The methods used to measure insurance contracts within the scope of IFRS 17 and the processes for estimating the inputs to those methods ► Unless impracticable, does the entity also provide quantitative information about those inputs b. Any changes in the methods and processes for estimating inputs used to measure contracts, including: ► The reason for each change ► The type of contracts affected c. To the extent not covered in IFRS 17.117(a) above, the approach used: ► To distinguish changes in estimates of future cash flows arising from the exercise of discretion from other changes in estimates of future cash flows for contracts without direct participation features (see IFRS 17.B98) ► To determine the risk adjustment for non-financial risk, including whether changes in the risk adjustment for non-financial risk are disaggregated into an insurance service component and an insurance finance component ► To determine discount rates ► To determine investment components ► To determine the relative weighting of the benefits provided by insurance coverage and investment-return service or by insurance coverage and investment-related service (see IFRS 17.B119–B119B)",
+          "decision_tree": {
+            "question": "Has the entity issued insurance contracts that are within the scope of IFRS 17?",
+            "guidance": "Review the financial statements and documentation of the entity's business activities. Specifically, confirm whether the entity has insurance contracts as defined under IFRS 17. Reference IFRS 17.3–7 for definitions and scope exemptions, such as fixed-fee service contracts or warranties issued directly by manufacturers.",
+            "yes_case": {
+              "question": "Has the entity disclosed the methods used to measure insurance contracts and the processes for estimating inputs to those methods, including quantitative information on inputs unless impracticable?",
+              "guidance": "Examine the financial statement disclosures, focusing on the notes related to insurance contract liabilities or assets. Look for detailed descriptions of measurement methods and processes that include numerical data where possible. Cross-reference with IFRS 17.117(a) for disclosure requirements. Ensure impracticability is clearly justified if quantitative information is omitted.",
+              "yes_case": {
+                "question": "Has the entity disclosed any changes in the methods or processes for estimating inputs used to measure insurance contracts?",
+                "guidance": "Review prior year's disclosures and compare them with the current year's disclosures on measurement methods and processes. Confirm that the entity has explained each change, the reasons for the change, and the types of contracts affected as required by IFRS 17.117(b).",
+                "yes_case": {
+                  "question": "To the extent not covered in IFRS 17.117(a), has the entity disclosed the approach used for: distinguishing changes in estimates of future cash flows, determining risk adjustment for non-financial risk, discount rates, investment components, and relative weighting of benefits for contract services?",
+                  "guidance": "Check the notes to the financial statements for specific disclosure of approaches related to estimates, adjustments, and components as outlined in IFRS 17.B98 and IFRS 17.B119–B119B. Ensure sufficient detail is provided to comply with these IFRS 17 requirements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "600",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.118, IFRS 17.88(b), IFRS 17.89(b)",
+          "question": "Does the entity have insurance contracts within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity chooses to disaggregate insurance finance income or expenses into amounts presented in profit or loss and amounts presented in other comprehensive income, applying IFRS 17.88(b) or 89(b), does it disclose an explanation of the methods used to determine the insurance finance income or expenses recognised in profit or loss",
+          "decision_tree": {
+            "question": "Does the entity have insurance contracts within the scope of IFRS 17?",
+            "guidance": "Check the entity's financial records and disclosures to confirm whether it holds insurance contracts as defined under IFRS 17. Review policy documentation and note any reference to insurance contract accounting standards.",
+            "yes_case": {
+              "question": "Has the entity elected the accounting policy option to disaggregate insurance finance income or expenses into profit or loss and other comprehensive income?",
+              "guidance": "Review the entity's accounting policies disclosed in the financial statements. Specifically, check whether the policy election related to IFRS 17.88(b) or IFRS 17.89(b) is mentioned and applied.",
+              "yes_case": {
+                "question": "Does the entity disclose an explanation of the methods used to determine the insurance finance income or expenses recognised in profit or loss?",
+                "guidance": "Review the entity's disclosure notes pertaining to insurance contracts. Look specifically for the explanation of the methods used to attribute amounts into profit or loss versus OCI, as required by IFRS 17.118. Ensure the disclosure is clear and sufficiently detailed to understand the rationale behind the choices made.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "601",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.119",
+          "question": "Does the entity issue insurance contracts within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the confidence level used to determine the risk adjustment for non-financial risk",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts within the scope of IFRS 17?",
+            "guidance": "Review the entity's operations and financial statements to identify if it issues insurance contracts covered under IFRS 17 (e.g., life insurance, non-life insurance, or reinsurance contracts). Look for references to 'insurance liabilities' or 'insurance revenue' in the financial statements. If the entity is not issuing such contracts, IFRS 17 is likely not applicable.",
+            "yes_case": {
+              "question": "Has the entity determined a risk adjustment for non-financial risk in its measurement of insurance contract liabilities?",
+              "guidance": "Consult the entity’s actuarial reports or accounting policies related to insurance contract liabilities. The risk adjustment for non-financial risk reflects uncertainties in cash flows arising from insurance contracts. If no risk adjustment is determined, consider that the disclosure requirement does not apply.",
+              "yes_case": {
+                "question": "Does the entity disclose the confidence level used to determine the risk adjustment for non-financial risk?",
+                "guidance": "Review the entity’s financial statement disclosures regarding insurance contracts. Specifically, check the notes related to insurance contract liabilities. The confidence level must clearly explain the method used to quantify the risk adjustment. Ensure the disclosure is both present and sufficiently detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "602",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.119",
+          "question": "Does the entity issue insurance contracts within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity uses a technique other than the confidence level technique for determining the risk adjustment for non-financial risk, does it disclose the technique used and the confidence level corresponding to the results of that technique",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts within the scope of IFRS 17?",
+            "guidance": "Refer to the entity’s statement of financial position and revenue recognition practices to identify if insurance contracts are issued as defined under IFRS 17. Review IFRS 17 Appendix A for the definition of an insurance contract. Common pitfalls include confusing service contracts or investment contracts with insurance contracts.",
+            "yes_case": {
+              "question": "Does the entity calculate a risk adjustment for non-financial risk as required by IFRS 17?",
+              "guidance": "Verify whether the financial statements disclose a risk adjustment for non-financial risk related to insurance contracts. This adjustment reflects the compensation the entity requires for bearing uncertainty about cash flows. Review IFRS 17.37 for the requirements on measuring the risk adjustment.",
+              "yes_case": {
+                "question": "Does the entity use a technique other than the confidence level technique for determining the risk adjustment for non-financial risk?",
+                "guidance": "Determine the method used for calculating the risk adjustment from the entity's supporting documentation and disclosures. A technique may be explicitly stated as not using the confidence level technique or may be distinguishable based on the methodology outlined. Confirm the calculation method corresponds to one other than confidence level.",
+                "yes_case": {
+                  "question": "Does the entity disclose the technique used and the corresponding confidence level for results of that technique?",
+                  "guidance": "Check the disclosures in the notes to the financial statements. IFRS 17.119 requires entities to disclose both the technique used and the equivalent confidence level. Ensure the explanation of the confidence level corresponds clearly to the disclosed technique. Ensure the disclosure is presented clearly and sufficiently detailed to allow users to understand the risk adjustment methodology.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "603",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.120, IFRS 17.36",
+          "question": "Does the entity have insurance contracts covered under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the yield curve (or range of yield curves) used to discount cash flows that do not vary based on the returns on underlying items when applying IFRS 17.36",
+          "decision_tree": {
+            "question": "Does the entity have insurance contracts covered under IFRS 17?",
+            "guidance": "Refer to the financial statements and check whether the entity issues insurance contracts as defined under IFRS 17. Verify compliance using the contract definitions in IFRS 17.3 and IFRS 17 Appendix A. Ensure assumptions are linked to specific contracts and avoid confusion with other financial instruments.",
+            "yes_case": {
+              "question": "Do the insurance contracts include cash flows that do not vary based on the returns on underlying items?",
+              "guidance": "Inspect the terms of the insurance contracts and check if cash flows are fixed or do not depend on changes in underlying variables (e.g., investment returns or index performance). Documentation of cash flow assumptions should be reviewed to confirm this condition.",
+              "yes_case": {
+                "question": "Does the entity disclose the yield curve (or range of yield curves) used to discount these cash flows in accordance with IFRS 17.36?",
+                "guidance": "Review the entity's financial statement disclosures, particularly those related to IFRS 17. Verify that the yield curve or range of yield curves is disclosed in the notes or summary of accounting policies. Ensure disclosures are clear and sufficiently detailed. Common pitfalls include failing to disclose yield curves or providing insufficient details.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "604",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.120",
+          "question": "Does the entity issue insurance contracts?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "When an entity provides the disclosure of the yield curve (or range of yield curves) in aggregate for a number of groups of insurance contracts, does it provide such disclosures in the form of weighted averages, or relatively narrow ranges",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts?",
+            "guidance": "Review the business activities and financial statements of the entity. Check the notes to the financial statements for references to IFRS 17 (Insurance Contracts) and verify that the entity has recognized insurance contracts within its scope.",
+            "yes_case": {
+              "question": "Does the entity disclose yield curves (or range of yield curves) for insurance contracts in aggregate for a number of groups of contracts?",
+              "guidance": "Examine the disclosures related to IFRS 17 in the financial statements. Specifically, look for mention of yield curves or ranges of yield curves provided in aggregate across groups of insurance contracts. This information is typically included in the notes to the financial statements under insurance contract liabilities or measurement assumptions.",
+              "yes_case": {
+                "question": "Does the disclosure provide yield curves in the form of weighted averages or relatively narrow ranges?",
+                "guidance": "Review the presentation of yield curves within the IFRS 17 disclosures. Weighted averages represent an overall weighted approach to the yield, while relatively narrow ranges indicate a limited range of possible yields. Ensure compliance with IFRS 17.120, which requires clear disclosure of these details.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "605",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.121, IFRS 17.122–132",
+          "question": "Does the entity have any contracts within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose information that enables users of its financial statements to evaluate the nature, amount, timing and uncertainty of future cash flows that arise from contracts within the scope of IFRS 17",
+          "decision_tree": {
+            "question": "Does the entity have any contracts within the scope of IFRS 17?",
+            "guidance": "Review the contracts issued by the entity. Contracts within the scope of IFRS 17 typically include insurance contracts, reinsurance contracts held, and investment contracts with discretionary participation features. Refer to IFRS 17.2–7 for detailed scope guidance.",
+            "yes_case": {
+              "question": "Does the entity disclose information that enables users of its financial statements to evaluate the nature, amount, timing, and uncertainty of future cash flows arising from these contracts?",
+              "guidance": "Review the financial statements, particularly the notes to the accounts. Ensure information is provided on risks, economic uncertainties, and expected cash flows related to IFRS 17 contracts as required by IFRS 17.121 and IFRS 17.122–132. Pay attention to completeness, clarity, and relevance of the disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "606",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.123",
+          "question": "Does the entity have exposure to risk related to insurance contracts at the end of the reporting period?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the information disclosed about an entity's exposure to risk at the end of the reporting period is not representative of its exposure to risk during the period, does it disclose: a. That fact b. The reason why the period-end exposure is not representative c. Further information that is representative of its risk exposure during the period",
+          "decision_tree": {
+            "question": "Does the entity have exposure to risk related to insurance contracts at the end of the reporting period?",
+            "guidance": "Review the entity's insurance contracts and their financial statements. Check disclosures in accordance with IFRS 17. Ensure you examine sections discussing risk exposure like market risk, credit risk, and insurance risk. Consider discussions in management commentary or notes to financial statements.",
+            "yes_case": {
+              "question": "Is the entity's risk exposure at the end of the reporting period representative of its exposure to risk during the entire reporting period?",
+              "guidance": "Compare the risk exposure data across key points during the reporting period (e.g., quarterly data) versus period-end data. Consult operational risk reports and any internal or external documentation explaining fluctuations in risk.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Has the entity disclosed: a. That the period-end exposure is not representative during the period, b. The reason why it’s not representative, and c. Further information that is representative?",
+                "guidance": "Review the financial notes and disclosures related to risk exposure in relation to IFRS 17.123. Ensure all three disclosure elements listed above are explicitly addressed with adequate details. Common pitfalls include omitting the reason for non-representativeness or failing to provide representative data for the period.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "607",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.124",
+          "question": "Does the entity have contracts that fall within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For each type of risk arising from contracts within the scope of IFRS 17, does the entity disclose: a. The exposures to risks and how they arise b. The entity's objectives, policies and processes for managing the risks and the methods used to measure the risks c. Any changes in (a) or (b) from the previous period",
+          "decision_tree": {
+            "question": "Does the entity have contracts that fall within the scope of IFRS 17?",
+            "guidance": "Review the entity's financial statements to identify contracts that meet the definition of insurance contracts under IFRS 17. These are contracts where the entity accepts significant insurance risk from another party. Check IFRS 17.3-7 for the scope exclusions (e.g., warranties under IFRS 15, certain financial guarantee contracts under IFRS 9).",
+            "yes_case": {
+              "question": "For each type of risk arising from these contracts, does the entity disclose the exposures to risks and how they arise, as required by IFRS 17.124(a)?",
+              "guidance": "Review the notes to the financial statements or risk disclosures. The entity should identify key risks (e.g., insurance risk, credit risk) arising from its insurance contracts and provide a narrative explaining how these risks originate. Ensure that the information is detailed and entity-specific.",
+              "yes_case": {
+                "question": "For each type of risk, does the entity disclose its objectives, policies, and processes for managing the risks, as well as the methods used to measure the risks, as required by IFRS 17.124(b)?",
+                "guidance": "Review risk management disclosures in the financial statements. Verify that the entity describes its approach to managing identified risks (e.g., reinsurance strategies, sensitivity analysis, use of risk models) and includes methods of quantifying them. Ensure this information aligns with the accounting data and is not generic.",
+                "yes_case": {
+                  "question": "Has the entity disclosed any changes in the exposures, objectives, or risk management processes compared to the prior period, as required by IFRS 17.124(c)?",
+                  "guidance": "Compare the current period disclosures to those of the prior period. Ensure that any changes (e.g., new reinsurance arrangements, adjustments to measurement methods) are clearly explained and provide sufficient detail to understand their impact.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "608",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.125, IFRS 17.127–132, IFRS 17.125(a)",
+          "question": "Does the entity have contracts within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For each type of risk arising from contracts within the scope of IFRS 17, does the entity disclose: a. Summary quantitative information about its exposure to that risk at the end of the reporting period. This disclosure shall be based on the information provided internally to the entity's key management personnel b. The disclosures required by IFRS 17.127–132, to the extent they are not provided when applying IFRS 17.125(a) above",
+          "decision_tree": {
+            "question": "Does the entity have contracts within the scope of IFRS 17?",
+            "guidance": "Review the entity's insurance contracts, reinsurance contracts held, and investment contracts with discretionary participation features to determine if they fall within the scope of IFRS 17. Refer to IFRS 17.3–8 for scope criteria. Exclude items explicitly scoped out under IFRS 17 (e.g., warranties, fixed-fee service contracts).",
+            "yes_case": {
+              "question": "Does the entity internally provide key management personnel with summary quantitative information about the risks arising from these contracts?",
+              "guidance": "Review internal management reports and documentation presented to key management personnel for details on risk exposure and quantitative data. Ensure this aligns with IFRS 17.125(a). Common pitfalls include omitting specific types of risk or failing to distinguish between risk categories (e.g., insurance risk, market risk).",
+              "yes_case": {
+                "question": "Does the entity disclose the required quantitative information about risk exposure at the end of the reporting period?",
+                "guidance": "Confirm that the financial statements disclose summary quantitative information regarding risk exposure based on internal reporting to management, as mandated by IFRS 17.125(a). Check if this information is clear, appropriately detailed, and corresponds with internal reporting. Omission or discrepancies raise compliance issues.",
+                "yes_case": {
+                  "question": "Does the entity provide all disclosures required by IFRS 17.127–132 to the extent they are not duplicated by IFRS 17.125(a)?",
+                  "guidance": "Verify that disclosures such as risk concentration, sensitivity analysis, claims development, credit risk exposure, and any other requirements under IFRS 17.127–132 are included in the financial statements. If IFRS 17.125(a) already addresses any of these requirements, duplication is not necessary. Ensure completeness and accuracy.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "609",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.126",
+          "question": "Does the entity issue insurance contracts that are subject to regulatory frameworks?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose information about the effect of the regulatory frameworks in which it operates, for example, minimum capital requirements or required interest-rate guarantees",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts that are subject to regulatory frameworks?",
+            "guidance": "Review the entity’s business activities and examine if it issues insurance contracts as defined under IFRS 17. Verify if these contracts are subject to local regulatory frameworks, such as minimum capital requirements or interest-rate guarantees. Check regulatory filings or compliance documents for confirmation.",
+            "yes_case": {
+              "question": "Has the entity disclosed information about the impact of these regulatory frameworks on its financial statements?",
+              "guidance": "Review the entity’s financial statements, particularly the notes accompanying the financial statements. Look for disclosures related to how regulatory frameworks like capital requirements or interest-rate guarantees affect the entity's financial position and performance. Confirm compliance with IFRS 17.126.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "610",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.126, IFRS 17.20",
+          "question": "Does the entity issue insurance contracts?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity applies IFRS 17.20 in determining the groups of insurance contracts to which it applies the recognition and measurement requirements of IFRS 17, does it disclose that fact",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts?",
+            "guidance": "Review the nature of the entity's business. Refer to its product offerings, revenue streams, and any applicable legal definitions under IFRS 17 to confirm whether the entity issues insurance contracts. Common pitfalls include misunderstanding revenue sources—ensure you identify contractual obligations that meet the definition of an insurance contract per IFRS 17 Appendix A.",
+            "yes_case": {
+              "question": "Does the entity apply IFRS 17.20 to determine the groups of insurance contracts for recognition and measurement?",
+              "guidance": "Examine the entity's accounting policy documentation and its application of IFRS 17.20. Section IFRS 17.20 specifies criteria for grouping insurance contracts based on expected profitability, contract inception dates, and other characteristics. Validate with internal documentation or external disclosures outlining this approach.",
+              "yes_case": {
+                "question": "Does the entity disclose the use of IFRS 17.20 for grouping insurance contracts in its financial statements?",
+                "guidance": "Check the financial statement notes or disclosures related to IFRS 17 accounting policies. Specifically, verify whether the entity explicitly states the application of IFRS 17.20 for grouping insurance contracts. Cross-reference with IFRS 17.126, which requires such disclosure when applicable.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "611",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.127",
+          "question": "Does the entity have contracts within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose information about concentrations of risk arising from contracts within the scope of IFRS 17, including: a. A description of how the entity determines the concentrations b. A description of the shared characteristic that identifies each concentration (for example, the type of insured event, industry, geographical area, or currency)",
+          "decision_tree": {
+            "question": "Does the entity have contracts within the scope of IFRS 17?",
+            "guidance": "Review the entity’s accounting policy for insurance contracts or similar obligations to determine if it applies IFRS 17. Confirm that the contracts fit the definition of insurance contracts as outlined in IFRS 17.2–17.6, such as contracts where the entity accepts significant insurance risk from the policyholder.",
+            "yes_case": {
+              "question": "Has the entity analyzed risk concentrations arising from the contracts within the scope of IFRS 17?",
+              "guidance": "Check documentation such as risk management policies, internal analyses, or disclosures to verify the entity has assessed risk concentrations. Look for explanations of shared characteristics identifying the concentrations, such as types of insured events, geographic regions, industries, or currencies.",
+              "yes_case": {
+                "question": "Does the entity disclose the required information about concentrations of risk, including how concentrations are determined and their shared characteristics?",
+                "guidance": "Examine the notes to the financial statements for disclosures on risk concentrations. Ensure these include descriptions of how concentrations are determined and the shared characteristics identifying each concentration (e.g., type of insured event, geography, industry). Cross-check against IFRS 17.127 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "612",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.128",
+          "question": "Does the entity have contracts within the scope of IFRS 17 (Insurance Contracts)?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "An entity shall disclose information about sensitivities to changes in risk variable arising from contracts within the scope of IFRS 17. To comply with this requirement, does it disclose: a. A sensitivity analysis that shows how profit or loss and equity would have been affected by changes in risk variable that were reasonably possible at the end of the reporting period: ► The methods and assumptions used in preparing the sensitivity analysis ► The reasons for such changes",
+          "decision_tree": {
+            "question": "Does the entity have contracts within the scope of IFRS 17 (Insurance Contracts)?",
+            "guidance": "Review the entity’s operations and financial statements to identify contracts that meet the definition of insurance contracts under IFRS 17. Refer to IFRS 17 Appendix A for the definition and review the details in paragraphs IFRS 17.2–IFRS 17.8 for scope exceptions. Ensure all relevant contracts are identified accurately.",
+            "yes_case": {
+              "question": "Does the entity disclose a sensitivity analysis showing how profit or loss and equity would be affected by reasonably possible changes in risk variables at the end of the reporting period?",
+              "guidance": "Inspect the entity's financial statement disclosures, particularly the notes section related to IFRS 17 compliance or risk management. Ensure the sensitivity analysis is clear, includes profit or loss and equity impacts, and focuses on reasonably possible changes in risk variables such as interest rates, mortality rates, etc., as outlined in IFRS 17.128.",
+              "yes_case": {
+                "question": "Does the sensitivity analysis include the methods and assumptions used in preparing the analysis?",
+                "guidance": "Verify the disclosed sensitivity analysis provides sufficient detail about the methods and key assumptions used to derive the impacts. Cross-check the descriptions with IFRS 17.128 requirements to confirm adequacy and relevance.",
+                "yes_case": {
+                  "question": "Does the disclosure explain the reasons for the changes to profit or loss and equity arising from the risk variable changes?",
+                  "guidance": "Ensure the disclosure specifies the reasons behind the changes (e.g., the nature of risks, economic factors affecting the sensitivity). Confirm alignment with IFRS 17.128 requirements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "613",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.129, IFRS 17.128(a)",
+          "question": "Does the entity prepare a sensitivity analysis showing how amounts differ from those specified in IFRS 17.128(a) based on changes in risk variables?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity prepares a sensitivity analysis that shows how amounts different from those specified in IFRS 17.128(a) are affected by changes in risk variable and uses that sensitivity analysis to manage risks arising from contracts within the scope of IFRS 17, in place of the analysis specified in IFRS 17.128(a), does it also disclose: a. An explanation of both the method used in preparing such a sensitivity analysis and the main parameters and assumptions underlying the information provided b. An explanation of the objective of the method used and any limitations that may result in the information provided",
+          "decision_tree": {
+            "question": "Does the entity prepare a sensitivity analysis showing how amounts differ from those specified in IFRS 17.128(a) based on changes in risk variables?",
+            "guidance": "Review the entity's disclosures related to contracts within the scope of IFRS 17. Look for any sensitivity analyses presented in the notes to the financial statements. Verify if the sensitivity analysis deviates from the requirements specified in IFRS 17.128(a) and evaluates how changes in risk variables impact amounts.",
+            "yes_case": {
+              "question": "Does the entity use the sensitivity analysis to actively manage risks arising from insurance contracts within the scope of IFRS 17?",
+              "guidance": "Evaluate the entity's risk management disclosures or policies regarding insurance contracts. Check whether the alternative sensitivity analysis is integrated into the entity’s risk management practices and supports decision-making for those contracts.",
+              "yes_case": {
+                "question": "Does the entity disclose an explanation of the method used in preparing the sensitivity analysis, including the main parameters and assumptions underlying the information provided?",
+                "guidance": "Verify the sensitivity analysis-related disclosures in the notes to the financial statements. Check if the method preparation and parameters/assumptions are clearly explained, providing sufficient detail for stakeholders to understand the analysis.",
+                "yes_case": {
+                  "question": "Does the entity also disclose an explanation of the objective of the method used and any limitations that may affect the information provided?",
+                  "guidance": "Review the sensitivity analysis disclosures for explanations regarding the purpose of the selected method and any recognized limitations regarding the presented information (e.g., accuracy, scope limitations). Ensure completeness and clarity.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "614",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.130",
+          "question": "Does the entity issue insurance contracts within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose actual claims compared with previous estimates of the undiscounted amount of the claims (i.e., claims development)",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts within the scope of IFRS 17?",
+            "guidance": "Review the entity's operations and financial statements to confirm whether it issues insurance contracts as defined in IFRS 17 Appendix A ('A contract under which one party accepts significant insurance risk from another party'). Check contract classifications and confirm inclusion under IFRS 17.",
+            "yes_case": {
+              "question": "Does the entity provide reconciliations and disclosures required by IFRS 17, specifically claims development information?",
+              "guidance": "Review the entity's financial disclosures in the notes to the financial statements. For IFRS 17.130, confirm if the entity provides detailed comparisons of actual claims against previous estimates (undiscounted claims development data over time). Cross-check data in relevant insurance liability schedules.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "615",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.130, IFRS 17.100(c)",
+          "question": "Does the entity issue insurance contracts under IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity reconcile the disclosure about claims development with the aggregate carrying amount of the groups of insurance contracts, which the entity discloses applying IFRS 17.100(c)",
+          "decision_tree": {
+            "question": "Does the entity issue insurance contracts under IFRS 17?",
+            "guidance": "Verify if the entity has issued insurance contracts that fall under the scope of IFRS 17. Refer to the entity's policy on scope determination for IFRS 17. Check contract documentation to confirm they meet the definition of insurance contracts per IFRS 17 Appendix A. Common pitfall: Ensure subscription contracts or service agreements are not mistakenly classified as insurance contracts.",
+            "yes_case": {
+              "question": "Does the entity provide disclosures about claims development as required by IFRS 17.130?",
+              "guidance": "Review the financial statements and accompanying Notes to verify if the entity discloses a reconciliation of claims development tables as per IFRS 17.130. This includes showing the development of claims incurred either gross or net since the origin, segmented by year of claims occurrence. Ensure disclosures are sufficiently detailed.",
+              "yes_case": {
+                "question": "Does the entity reconcile the claims development disclosure with the aggregate carrying amount of the groups of insurance contracts as required by IFRS 17.100(c)?",
+                "guidance": "Inspect the reconciliation between claims development disclosures and the aggregate carrying value of insurance contract groups in the financial statement Notes. Ensure consistency and traceability between these items. Cross-reference these disclosures with the policies on aggregation and measurement of insurance contracts under IFRS 17.100(c). Verify there are no omissions or inconsistencies.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "616",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.131",
+          "question": "Does the entity have contracts within the scope of IFRS 17?",
+          "question_type": "Independent",
+          "source_question": null,
+          "context_required": "notes_only",
+          "source_trigger": null,
+          "original_question": "For credit risk that arises from contracts within the scope of IFRS 17, does the entity disclose: a. The amount that best represents its maximum exposure to credit risk at the end of the reporting period, separately for insurance contracts issued and reinsurance contracts held b. Information about the credit quality of reinsurance contracts held that are assets",
+          "decision_tree": {
+            "question": "Does the entity have contracts within the scope of IFRS 17?",
+            "guidance": "Review the nature of the contracts held by the entity. IFRS 17 applies to insurance contracts issued, reinsurance contracts held, and investment contracts with discretionary participation features. Verify this in the entity's financial statements and accounting policy disclosures.",
+            "yes_case": {
+              "question": "Does the entity have credit risk associated with insurance contracts issued or reinsurance contracts held?",
+              "guidance": "Examine the financial instruments and associated risks disclosed in the notes to the financial statements. Look for references to credit risk exposure related to these contracts, including concentrations of risk and risk management strategies.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount that best represents its maximum exposure to credit risk at the end of the reporting period, separately for insurance contracts issued and reinsurance contracts held?",
+                "guidance": "Verify the entity's disclosures in the notes to the financial statements under IFRS 17.131(a). The disclosure should explicitly separate amounts related to insurance contracts issued and reinsurance contracts held. Common pitfalls include missing separations or ambiguous phrasing.",
+                "yes_case": {
+                  "question": "Does the entity disclose information about the credit quality of reinsurance contracts held that are assets?",
+                  "guidance": "Review IFRS 17.131(b). Ensure the disclosure provides adequate information on the credit quality, such as ratings or other credit-quality indicators. The credit quality should be clearly defined and accessible in the disclosures.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "617",
+          "section": "IFRS 17",
+          "reference": "IFRS 17.132, IFRS 17.55–59, IFRS 17.69-70A",
+          "question": "Do contracts within the scope of IFRS 17 exist for the entity?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For liquidity risk arising from contracts within the scope of IFRS 17, does the entity disclose: a. A description of how it manages the liquidity risk b. Separate maturity analyses for portfolios of insurance contracts issued that are liabilities and portfolios of reinsurance contracts held that are liabilities that show, as a minimum, net cash flows of the portfolios for each of the first five years after the reporting date and, in aggregate, beyond the first five years An entity is not required to include in these analyses liabilities for remaining coverage measured applying IFRS 17.55–59 and 69-70A. The analyses may take the form of: a. An analysis, by estimated timing, of the remaining contractual undiscounted net cash flows Or b. An analysis, by estimated timing, of the estimates of the present value of the future cash flows c. The amounts that are payable on demand, explaining the relationship between such amounts and the carrying amount of the related portfolios of contracts, if not disclosed applying IFRS 17.132(b)",
+          "decision_tree": {
+            "question": "Do contracts within the scope of IFRS 17 exist for the entity?",
+            "guidance": "Review the entity's business activities and contracts. Check the accounting policies and notes for any insurance contracts issued or reinsurance contracts held that fall under IFRS 17. Reference IFRS 17.3–7 for scope details. Ensure no relevant contract has been missed.",
+            "yes_case": {
+              "question": "Does the entity face liquidity risk arising from these contracts?",
+              "guidance": "Identify financial disclosures and risk management reports for indications of liquidity risk related to insurance and reinsurance contracts. Look for references to maturity analyses or cash flow challenges associated with these portfolios. Cross-check IFRS 7 and IFRS 17 requirements to confirm liquidity risk is addressed.",
+              "yes_case": {
+                "question": "Does the entity disclose: a description of how it manages the liquidity risk?",
+                "guidance": "Review risk management practices described in the financial statements or notes. Check whether liquidity risk mitigation strategies (e.g., diversification, matching liabilities with assets, or monitoring cash flows) are adequately outlined, as required by IFRS 17.132.",
+                "yes_case": {
+                  "question": "Does the entity disclose separate maturity analyses for portfolios of insurance contracts issued and reinsurance contracts held that are liabilities?",
+                  "guidance": "Examine maturity analyses presented in the financial notes. Ensure separate analyses are provided for insurance contracts issued and reinsurance contracts held as liabilities, showing at least net cash flows for the first five years and beyond. Confirm they exclude liabilities for remaining coverage measured under IFRS 17.55–59 and 69–70A.",
+                  "yes_case": {
+                    "question": "Does the maturity analysis take one of the following forms: (a) contractual undiscounted net cash flows or (b) present value of estimated future cash flows?",
+                    "guidance": "Review the format of the maturity analysis presented. Ensure it complies with one of the prescribed formats in IFRS 17—either undiscounted net cash flows by estimated timing or present value estimates of future cash flows.",
+                    "yes_case": {
+                      "question": "Does the entity disclose amounts payable on demand, including an explanation of the relationship between such amounts and the carrying amount of the related portfolios of contracts?",
+                      "guidance": "Locate additional disclosures for amounts payable on demand. Verify whether the relationship between payable-on-demand amounts and the related portfolios' carrying amounts is explained, if not already disclosed under IFRS 17.132(b).",
+                      "yes_case": "COMPLIANT: YES",
+                      "no_case": "COMPLIANT: NO"
+                    },
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "title": "Income Taxes (IAS 12) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 12",
+      "title": "Income Taxes",
+      "description": "Checklist for presentation and disclosure requirements under IAS 12.",
+      "items": [
+        {
+          "id": "407.1",
+          "section": "IAS 12",
+          "reference": "IAS 12.79(a)",
+          "question": "Does the entity recognize any current tax expense (or income) in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose separately the current tax expense (income)?",
+          "decision_tree": {
+            "question": "Does the entity recognize any current tax expense (or income) in its financial statements?",
+            "guidance": "Review the Statement of Comprehensive Income and the notes to the financial statements. Check if any current tax expense or income is reported (typically under 'Tax Expense' or similar heading). If no current tax expense or income is recorded, consider the entity's operations for taxable activities and verify with tax filings.",
+            "yes_case": {
+              "question": "Does the entity disclose the current tax expense (or income) separately in the financial statements?",
+              "guidance": "Check the notes to the financial statements under the 'Taxation' section or equivalent, ensuring the current tax expense (or income) is disclosed distinctly from deferred tax components. Confirm alignment with IAS 12.79(a), which requires separate disclosure of current tax.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "407.2",
+          "section": "IAS 12",
+          "reference": "IAS 12.79(b)",
+          "question": "Has the entity recognised any adjustments to current tax for prior periods during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose any adjustments recognised in the period for current tax of prior periods?",
+          "decision_tree": {
+            "question": "Has the entity recognised any adjustments to current tax for prior periods during the reporting period?",
+            "guidance": "Review the tax expense/recovery section in the Statement of Comprehensive Income and related notes. Look for explicit mentions of adjustments to current tax from prior periods. Cross-check the history of tax reporting to determine whether such adjustments were necessary.",
+            "yes_case": {
+              "question": "Has the entity disclosed these adjustments in accordance with IAS 12.79(b)?",
+              "guidance": "Check the tax-related notes in the financial statements. Specifically, confirm whether adjustments to current tax for prior periods are explicitly detailed, including their nature, amount, and reason for the adjustment. Ensure compliance with IAS 12 disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "407.3",
+          "section": "IAS 12",
+          "reference": "IAS 12.79(c)",
+          "question": "Does the entity have deferred tax assets or liabilities arising from temporary differences?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose the deferred tax expense (income) relating to the origination and reversal of temporary differences?",
+          "decision_tree": {
+            "question": "Does the entity have deferred tax assets or liabilities arising from temporary differences?",
+            "guidance": "Review the Statement of Financial Position and the tax notes in the financial statements. Check if deferred tax assets or liabilities are recognized due to temporary differences between the carrying amounts of assets/liabilities and their tax bases as per IAS 12. Make sure the entity has calculated deferred taxes based on enacted or substantively enacted tax rates.",
+            "yes_case": {
+              "question": "Does the entity disclose deferred tax expense or income relating to the origination and reversal of temporary differences?",
+              "guidance": "Review the tax disclosure and income tax expense notes in the financial statements. Locate the components of deferred tax expense or income—these should clearly include details of temporary differences as required by IAS 12.79(c). Common pitfalls include failing to separate deferred tax from current tax or omitting the detailed explanation of its origin.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "407.4",
+          "section": "IAS 12",
+          "reference": "IAS 12.80",
+          "question": "Did the entity experience changes in tax rates or the imposition of new taxes during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose the deferred tax expense (income) relating to changes in tax rates or the imposition of new taxes?",
+          "decision_tree": {
+            "question": "Did the entity experience changes in tax rates or the imposition of new taxes during the reporting period?",
+            "guidance": "Review relevant tax legislation enacted during the reporting period that impacts the entity. Check minutes from management meetings, tax consultant reports, and legal updates for any reference to changes in tax rates or new taxes applicable to the entity’s operations.",
+            "yes_case": {
+              "question": "Does the entity have deferred tax assets or liabilities affected by these changes in tax rates or new taxes?",
+              "guidance": "Review the deferred tax calculations in the entity's financial statements. Specifically, check the notes on deferred tax assets and liabilities and determine whether their carrying balances are influenced by the tax rate change or new taxes.",
+              "yes_case": {
+                "question": "Has the entity disclosed the deferred tax expense (income) relating to the changes in tax rates or the imposition of new taxes as required by IAS 12.80?",
+                "guidance": "Carefully examine the notes to the financial statements under the tax expense or income section. Verify that the disclosure includes the impact of changes in tax rates or new taxes on deferred tax assets and liabilities. Common pitfalls include omitting the impact on deferred tax from changes or presenting insufficient explanation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "407.5",
+          "section": "IAS 12",
+          "reference": "IAS 12.79(e)",
+          "question": "Has the entity recognized any benefit arising from previously unrecognized tax losses, tax credits, or temporary differences of a prior period to reduce current tax expense?",
+          "question_type": null,
+          "context_required": "notes_only",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the benefit arising from a previously unrecognised tax loss, tax credit or temporary difference of a prior period that is used to reduce current tax expense?",
+          "decision_tree": {
+            "question": "Has the entity recognized any benefit arising from previously unrecognized tax losses, tax credits, or temporary differences of a prior period to reduce current tax expense?",
+            "guidance": "Review the tax calculations and disclosures in the financial statements, specifically in the notes related to income taxes as per IAS 12. Check for adjustments relating to prior periods that decrease the current tax expense. Common pitfalls include misclassification of adjustments or omitting disclosures.",
+            "yes_case": {
+              "question": "Has the entity disclosed the benefit arising from these adjustments in accordance with IAS 12.79(e)?",
+              "guidance": "Inspect the income tax disclosure section. Verify that the entity has clearly disclosed the nature of the benefit, including that it relates to prior-period items and reduces current tax expense. Ensure the details align with IAS 12.79(e) and are sufficiently understandable and complete.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "408.1",
+          "section": "IAS 12",
+          "reference": "IAS 12.81(a)",
+          "question": "Has the entity recognized any items that are charged or credited directly to equity?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose the aggregate current and deferred tax relating to items that are charged or credited directly to equity (IAS 12.62A)?",
+          "decision_tree": {
+            "question": "Has the entity recognized any items that are charged or credited directly to equity?",
+            "guidance": "Review the Statement of Changes in Equity and related notes to identify any transactions that bypass the income statement and impact equity directly. Common examples include revaluation of assets, actuarial gains or losses on defined benefit plans, or changes in accounting policies. Verify disclosures made in accordance with IAS 1.",
+            "yes_case": {
+              "question": "Does the entity have any current or deferred tax amounts arising from these items charged or credited directly to equity?",
+              "guidance": "Examine tax computations and reconciliations. Identify if tax effects have been recognized on items directly impacting equity. Review adjustments explicitly linked to deferred or current tax in the financial statements.",
+              "yes_case": {
+                "question": "Has the entity disclosed the aggregate current and deferred tax amounts related to items charged or credited directly to equity?",
+                "guidance": "Review the notes to the financial statements and confirm whether disclosures include both the total current and deferred tax amounts related to equity-impacting transactions. Ensure that this complies with IAS 12.81(a). Common errors include omitting one of these components or providing insufficient detail.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "408.2",
+          "section": "IAS 12",
+          "reference": "IAS 12.81(b)",
+          "question": "Does the entity include components of other comprehensive income in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose the amount of income tax relating to each component of other comprehensive income (IAS 12.62 and IAS 1)?",
+          "decision_tree": {
+            "question": "Does the entity include components of other comprehensive income in its financial statements?",
+            "guidance": "Review the Statement of Comprehensive Income or related disclosures. Components of other comprehensive income could include items such as revaluation surpluses, actuarial gains and losses, gains/losses on cash flow hedges, or foreign exchange differences. Ensure the entity reports 'other comprehensive income' separately from 'profit or loss'.",
+            "yes_case": {
+              "question": "Are the income taxes related to these components calculated and available?",
+              "guidance": "Check the underlying computations or supporting schedules regarding each component of other comprehensive income. Verify whether income tax effects for each component have been calculated accurately in accordance with IAS 12. For temporary differences, assess deferred tax asset/liability recognition.",
+              "yes_case": {
+                "question": "Does the entity disclose the income tax amount separately for each component of other comprehensive income?",
+                "guidance": "Refer to IAS 12.81(b) and IAS 1. Present the income tax effect on each component clearly in the notes to the financial statements or within the Statement of Comprehensive Income. Avoid aggregating or omitting any component-specific tax amounts. Common pitfalls involve omitting disclosure due to materiality assumptions without justification.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "408.3",
+          "section": "IAS 12",
+          "reference": "IAS 12.81(c)(i)",
+          "question": "Does the entity recognize a tax expense (or income) in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose a numerical reconciliation between tax expense (income) and accounting profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity recognize a tax expense (or income) in its financial statements?",
+            "guidance": "Examine the financial statements, particularly the Statement of Profit or Loss and the tax note. Verify if tax expense (or income) is reported. Common elements include current tax and deferred tax balances.",
+            "yes_case": {
+              "question": "Does the entity prepare a numerical reconciliation between tax expense (income) and accounting profit or loss?",
+              "guidance": "Review the tax note in the entity’s financial statements. The reconciliation typically includes adjustments such as the effects of tax rates, tax-exempt income, and non-deductible expenses. Ensure that the reconciliation includes both numerical values and meaningful descriptions, in line with IAS 12.81(c)(i).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "408.4",
+          "section": "IAS 12",
+          "reference": "IAS 12.81(c)(ii)",
+          "question": "Does the entity have any income tax expenses or benefits presented in the financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount (tax rate) explaining the differences?",
+          "decision_tree": {
+            "question": "Does the entity have any income tax expenses or benefits presented in the financial statements?",
+            "guidance": "Review the income statement and supporting notes for line items related to income tax expenses or benefits. These may be labeled as 'Income Tax Expense', 'Deferred Tax Expense', or similar. If no such expense or benefit exists, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Are there significant differences between the tax expense/benefit and the amount calculated using the applicable statutory tax rate?",
+              "guidance": "Compare the reported income tax expense or benefit with the theoretical amount calculated by applying the statutory corporate tax rate (from tax law) to the entity's pre-tax accounting profit. Significant differences might arise from adjustments like tax-exempt income, non-deductible expenses, or deferred tax items.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount (tax rate) explaining the differences between the reported income tax expense/benefit and the theoretical tax amount?",
+                "guidance": "Check the Notes section specifically related to income tax. IAS 12.81(c)(ii) requires the disclosure of a numerical reconciliation explaining the differences (e.g., effective tax rate computation) between the statutory tax rate and the reported tax expense/benefit. Ensure the reconciliation is detailed and numeric in content.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "408.5",
+          "section": "IAS 12",
+          "reference": "IAS 12.81(c)(iii)",
+          "question": "Does the entity have unused tax losses or unused tax credits?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the expiry date, if any, of unused tax losses or credits?",
+          "decision_tree": {
+            "question": "Does the entity have unused tax losses or unused tax credits?",
+            "guidance": "Review the entity's tax documentation and financial statements. Check specifically for any line items or notes indicating unused tax losses or credits. Note that unused tax losses or credits are typically reported under deferred tax assets or liabilities in accordance with IAS 12.",
+            "yes_case": {
+              "question": "Do the tax losses or credits have an expiry date?",
+              "guidance": "Refer to the tax regulations in the jurisdiction in which the entity operates, as tax losses or credits may expire after a specific period. Cross-check tax documentation or schedules prepared by the entity to confirm whether an expiry date exists.",
+              "yes_case": {
+                "question": "Has the entity disclosed the expiry date of the unused tax losses or credits?",
+                "guidance": "Review the notes to the financial statements, especially in sections discussing deferred tax assets and liabilities. IAS 12.81(c)(iii) specifically requires this disclosure if an expiry date exists. Ensure the disclosure is clear and provides the relevant dates.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "408.6",
+          "section": "IAS 12",
+          "reference": "IAS 12.81(f)",
+          "question": "Does the entity have investments in subsidiaries, branches, associates, or interests in joint arrangements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the aggregate amount of temporary differences associated with investments in subsidiaries, branches and associates and interests in joint arrangements, for which deferred tax liabilities have not been recognised?",
+          "decision_tree": {
+            "question": "Does the entity have investments in subsidiaries, branches, associates, or interests in joint arrangements?",
+            "guidance": "Review the entity’s consolidated financial statements, particularly the notes and disclosures related to investments in subsidiaries, branches, associates, and joint arrangements. Check IFRS-compliant definitions in IAS 12 and confirm these relationships exist.",
+            "yes_case": {
+              "question": "Are there any temporary differences associated with these investments?",
+              "guidance": "Identify temporary differences arising from investments by reviewing the tax treatment of these arrangements in the entity’s tax computation/system. Temporary differences typically arise when the book value and tax base differ due to undistributed profits or other timing differences.",
+              "yes_case": {
+                "question": "Have deferred tax liabilities been recognized for these temporary differences?",
+                "guidance": "Review the entity’s deferred tax calculations and disclosures. If deferred tax liabilities are recognized, check the relevant line item in the statement of financial position. Refer to IAS 12.39 for recognition criteria of deferred tax liabilities in such cases.",
+                "yes_case": "COMPLIANT: N/A",
+                "no_case": {
+                  "question": "Has the entity disclosed the aggregate amount of these unrecognized deferred tax liabilities as required by IAS 12.81(f)?",
+                  "guidance": "Confirm disclosure in the notes to financial statements. IAS 12.81(f) requires entities to disclose the aggregate amount of temporary differences for which deferred tax liabilities have not been recognized. Common pitfalls include omission of disclosures for material temporary differences or insufficient aggregation.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                }
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "409.1",
+          "section": "IAS 12",
+          "reference": "IAS 12.67",
+          "question": "Did the entity undertake a business combination during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If a business combination causes a change in the amount recognised for a pre-acquisition deferred tax asset, does the entity disclose the amount of that change?",
+          "decision_tree": {
+            "question": "Did the entity undertake a business combination during the reporting period?",
+            "guidance": "Review the entity's financial records, specifically acquisition agreements, disclosures in the notes to the financial statements, and the section detailing business combinations. Confirm the presence of a business combination event that occurred during the reporting period.",
+            "yes_case": {
+              "question": "Was there a pre-acquisition deferred tax asset impacted by the business combination?",
+              "guidance": "Examine the deferred tax balances prior to the business combination and compare them to deferred tax balances post-combination. Focus on changes that relate to the recognition, remeasurement, or derecognition of deferred tax assets.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of the change in the deferred tax asset caused by the business combination?",
+                "guidance": "Refer to the notes accompanying the financial statements where disclosures about business combinations are presented. Specifically, check whether the entity disclosed the impact of the business combination on pre-acquisition deferred tax assets in compliance with IAS 12.67.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "409.2",
+          "section": "IAS 12",
+          "reference": "IAS 12.68",
+          "question": "Has the entity acquired deferred tax benefits as part of a business combination?",
+          "question_type": "Followup",
+          "source_question": "409.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If deferred tax benefits acquired in a business combination are not recognised at the acquisition date but are recognised after, does the entity disclose the event or change in circumstances that caused those benefits to be recognised?",
+          "decision_tree": {
+            "question": "Has the entity acquired deferred tax benefits as part of a business combination?",
+            "guidance": "Review the purchase agreement and supporting documentation for the business combination. Check whether deferred tax benefits exist and were identifiable at the acquisition date under IAS 12.68. Common pitfalls include overlooking deferred tax benefits due to incorrect allocation or lack of review of tax-related assets and liabilities.",
+            "yes_case": {
+              "question": "Were the deferred tax benefits initially not recognised at the acquisition date?",
+              "guidance": "Verify the accounting treatment at the acquisition date. Check the initial fair value adjustments and deferred tax recognition in the acquisition journal entries and disclosures as per IAS 12. Review why these benefits were excluded (e.g., lack of certainty about realisation).",
+              "yes_case": {
+                "question": "Were the deferred tax benefits subsequently recognised due to a change in circumstances or new events?",
+                "guidance": "Inspect subsequent accounting periods and supporting documents to identify if there were events or changes (e.g., improved profitability, change in tax laws, or new evidence of recoverability) that triggered the recognition of previously unrecognised deferred tax benefits. Be careful to distinguish between ordinary adjustments and these specific changes.",
+                "yes_case": {
+                  "question": "Has the entity disclosed the event or change in circumstances that caused the deferred tax benefits to be recognised?",
+                  "guidance": "Review the notes to the financial statements. The disclosure should explain the nature of the event or change and provide sufficient details to enable users to understand the reasons for the recognition. Ensure compliance with IAS 12.81(a). Watch for overly vague or missing explanations.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "410.1",
+          "section": "IAS 12",
+          "reference": "IAS 12.82(a)",
+          "question": "Does the entity have a deferred tax asset recorded in the financial statements?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If utilisation of a deferred tax asset depends on future taxable profits and the entity has suffered a loss in the relevant jurisdiction, does the entity disclose the amount of the deferred tax asset?",
+          "decision_tree": {
+            "question": "Does the entity have a deferred tax asset recorded in the financial statements?",
+            "guidance": "Review the entity's financial statements, specifically the balance sheet and tax-related notes. Look for any reported deferred tax assets under non-current assets. Ensure this is clearly labeled, as it might be grouped with other assets.",
+            "yes_case": {
+              "question": "Does utilisation of the deferred tax asset depend on future taxable profits?",
+              "guidance": "Check the financial notes related to deferred tax assets. If the recoverability of the asset relies on taxable profits in future periods, this condition is met. Confirm this by reviewing management's assumptions and forecasts.",
+              "yes_case": {
+                "question": "Has the entity suffered a loss in the relevant jurisdiction where the taxable profits are expected to arise?",
+                "guidance": "Review the financial statements and tax-related notes. Examine the jurisdiction-wise profit and loss data, which may be disclosed in the tax note or segment reporting. Ensure the loss is current or recent, as older losses may not affect the evaluation of future taxable profits.",
+                "yes_case": {
+                  "question": "Does the entity disclose the amount of the deferred tax asset in the financial statements?",
+                  "guidance": "Verify the disclosure section in the financial statements, particularly the tax-related notes. Look for a detailed explanation of the deferred tax asset, including amounts and recovery assumptions. Ensure compliance with IAS 12.82(a).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "410.2",
+          "section": "IAS 12",
+          "reference": "IAS 12.82(b)",
+          "question": "Does the entity recognize deferred tax assets in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "410.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of the evidence supporting recognition of the deferred tax asset?",
+          "decision_tree": {
+            "question": "Does the entity recognize deferred tax assets in its financial statements?",
+            "guidance": "Review the Statement of Financial Position and notes to the financial statements. Look for deferred tax assets under non-current assets. A deferred tax asset arises due to temporary differences, carryforward of unused tax losses, or unused tax credits. Ensure recognition criteria under IAS 12.82(b) are met.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the evidence supporting the recognition of the deferred tax asset?",
+              "guidance": "Refer to IAS 12.82(b). Check the notes to the financial statements for disclosure explaining the basis for recognizing the deferred tax asset, including projections of future taxable profits or other support for recoverability. Be cautious of generic or insufficient explanations.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "411.1",
+          "section": "IAS 12",
+          "reference": "IAS 12.82A",
+          "question": "Has the entity declared or proposed dividends during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "In the circumstances in IAS 12.52A, does the entity disclose the nature of the potential income tax consequences resulting from the payment of dividends to its shareholders, including key features of the tax system and factors affecting the amount?",
+          "decision_tree": {
+            "question": "Has the entity declared or proposed dividends during the reporting period?",
+            "guidance": "Review the entity's statement of changes in equity and disclosure notes for declared or proposed dividends. Check board minutes for dividend declarations and shareholder meeting documents for approvals. Ensure you don't overlook dividends declared but unpaid at the reporting date.",
+            "yes_case": {
+              "question": "Are there potential income tax consequences for shareholders arising from the payment of these dividends?",
+              "guidance": "Refer to IAS 12.52A and assess if the local tax system imposes any tax liability on shareholders receiving the dividends. Check laws, regulations, and any specific agreements that impact tax treatment of dividend payments in the jurisdictions relevant to the entity's shareholders.",
+              "yes_case": {
+                "question": "Has the entity disclosed the nature of these potential income tax consequences, including key features of the tax system and factors affecting the amount?",
+                "guidance": "Examine the notes to the financial statements and disclosures related to dividends. Look specifically for details on how the tax system impacts shareholders, such as differences in tax rates, withholding taxes, exemptions, or credits. Ensure they include a clear explanation of factors affecting the amount.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "411.2",
+          "section": "IAS 12",
+          "reference": "IAS 12.82A",
+          "question": "Does the entity have potential income tax consequences arising from revaluation or other temporary differences?",
+          "question_type": "Followup",
+          "source_question": "411.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amounts of the potential income tax consequences that are practicably determinable?",
+          "decision_tree": {
+            "question": "Does the entity have potential income tax consequences arising from revaluation or other temporary differences?",
+            "guidance": "Review the financial statements, particularly the tax notes and revaluation sections. Examine whether there are temporary differences (e.g., between tax bases and accounting values) and if any revaluations or transactions have triggered potential income tax consequences. Cross-check with IAS 12. Check for common pitfalls like overlooking deferred taxes related to revaluations.",
+            "yes_case": {
+              "question": "Are the potential income tax consequences practicably determinable by the entity?",
+              "guidance": "Determine if the entity can reliably calculate the income tax impact based on available data. This involves assessing documentation such as tax bases, rates, and temporary differences deriving from accounting entries. Beware of situations where relevant information is missing or highly uncertain.",
+              "yes_case": {
+                "question": "Does the entity disclose the amounts of these practicably determinable potential income tax consequences in its financial statements?",
+                "guidance": "Review the disclosure notes in the financial statements. Ensure that amounts associated with potential income tax consequences are clearly presented as required by IAS 12.82A. Look for proper formatting, detailed descriptions, and linkage to relevant transactions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "411.3",
+          "section": "IAS 12",
+          "reference": "IAS 12.87A",
+          "question": "Are there any potential income tax consequences arising from the entity’s transactions or circumstances?",
+          "question_type": "Followup",
+          "source_question": "411.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose whether there are any potential income tax consequences that are not practicably determinable?",
+          "decision_tree": {
+            "question": "Are there any potential income tax consequences arising from the entity’s transactions or circumstances?",
+            "guidance": "Review the entity’s transactions and circumstances described in the financial statements (including tax-related footnotes). Look for situations where tax consequences may arise, but the entity cannot practicably determine the impact (e.g., ongoing disputes, contingent liabilities, or uncertain tax positions). Collaborate with the tax department where needed.",
+            "yes_case": {
+              "question": "Has the entity disclosed that the potential income tax consequences are not practicably determinable?",
+              "guidance": "Examine the income tax disclosures (IAS 12-compliant section in the financial statements). If potential tax consequences exist but their impact cannot be determined, ensure the entity explicitly mentions this, as required by IAS 12.87A. Avoid overlooking vague or incomplete disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "412",
+          "section": "IAS 12",
+          "reference": "IAS 12.87A",
+          "question": "Does the parent entity prepare separate financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Do the parent's separate financial statements, if any, disclose the potential income tax consequences relating to the parent's retained earnings?",
+          "decision_tree": {
+            "question": "Does the parent entity prepare separate financial statements?",
+            "guidance": "Check if the parent entity has chosen to prepare separate financial statements, as defined under IAS 27. Separate financial statements are those presented by a parent, in addition to consolidated financial statements, where investments in subsidiaries are accounted for at cost or in accordance with IAS 39 or IFRS 9.",
+            "yes_case": {
+              "question": "Do the separate financial statements include retained earnings for the parent entity?",
+              "guidance": "Verify the equity section of the parent's separate financial statements. Retained earnings should be presented under equity in the Statement of Financial Position.",
+              "yes_case": {
+                "question": "Do the separate financial statements disclose the potential income tax consequences of the parent's retained earnings?",
+                "guidance": "Review disclosures in the notes to the financial statements, specifically around income taxes. IAS 12.87A requires disclosure of potential tax consequences, such as withholding taxes, due to the retained earnings. Ensure the disclosure addresses the implications clearly and comprehensively.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "413",
+          "section": "IAS 12",
+          "reference": "IAS 12.88, IAS 37.86",
+          "question": "Does the entity have tax-related contingent liabilities or contingent assets?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose any tax-related contingent liabilities and contingent assets in accordance with IAS 37?",
+          "decision_tree": {
+            "question": "Does the entity have tax-related contingent liabilities or contingent assets?",
+            "guidance": "Review the financial statements, legal claims, and correspondence with tax authorities for indications of uncertain tax positions. Check supporting schedules and notes to see if contingent liabilities or contingent assets related to taxes are mentioned.",
+            "yes_case": {
+              "question": "Has the entity assessed and disclosed the tax-related contingent liabilities and contingent assets appropriately as per IAS 37?",
+              "guidance": "Verify that the disclosures meet the requirements of IAS 37. Ensure the entity explains the nature of the contingency, potential financial effect, uncertainties surrounding the timing or amount, and any insurance or guarantees that may exist.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "414",
+          "section": "IAS 12",
+          "reference": "IAS 12.88A",
+          "question": "Has the entity applied the exception to recognising and disclosing information about deferred tax assets and liabilities related to Pillar Two income taxes?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose that it has applied the exception to recognising and disclosing information about deferred tax assets and liabilities related to Pillar Two income taxes?",
+          "decision_tree": {
+            "question": "Has the entity applied the exception to recognising and disclosing information about deferred tax assets and liabilities related to Pillar Two income taxes?",
+            "guidance": "Review the entity's accounting policies and notes to the financial statements, specifically disclosures related to deferred tax under IAS 12.88A. Look for explicit mention of the exception being applied to Pillar Two income taxes, which addresses OECD BEPS initiatives. Common pitfalls include omitting disclosures entirely or misinterpreting the scope of Pillar Two rules.",
+            "yes_case": {
+              "question": "Has the entity disclosed that it has applied the exception to recognising and disclosing deferred tax information related to Pillar Two income taxes?",
+              "guidance": "Check the financial statement notes to confirm whether the entity has indicated that the exception has been applied (either explicitly or implicitly). This disclosure is a requirement under IAS 12. Failure to include this constitutes a compliance issue.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "415",
+          "section": "IAS 12",
+          "reference": "IAS 12.88B",
+          "question": "Does the entity have Pillar Two income taxes applicable to its operations?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity separately disclose its current tax expense (income) related to Pillar Two income taxes?",
+          "decision_tree": {
+            "question": "Does the entity have Pillar Two income taxes applicable to its operations?",
+            "guidance": "Review the entity's tax policy and computations for adherence to international tax regulations, specifically those related to Global Anti-Base Erosion (GloBE) rules under OECD guidelines, which introduce Pillar Two income taxes. If Pillar Two is not applicable to the entity, this item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity calculate and recognize current tax expense (income) related to Pillar Two income taxes in its financial statements?",
+              "guidance": "Review the entity's income tax calculations, particularly under IAS 12, to determine if current tax expenses (or income) related to Pillar Two taxes have been recognized. Check the tax expense computation and supporting schedules for evidence of calculated amounts attributable to Pillar Two.",
+              "yes_case": {
+                "question": "Does the entity separately disclose its current tax expense (income) related to Pillar Two income taxes in the financial statements?",
+                "guidance": "Inspect the income tax note or related disclosures within the financial statements. Confirm whether the current tax expense or income attributable to Pillar Two rules has been explicitly and separately disclosed as per IAS 12.88B. Look for clear headings or line items denoting Pillar Two tax treatment and avoid missing such disclosures in aggregated tax figures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "416",
+          "section": "IAS 12",
+          "reference": "IAS 12.88C",
+          "question": "Has Pillar Two legislation been enacted or substantively enacted in the entity's jurisdiction?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "In periods in which Pillar Two legislation is enacted or substantively enacted but not yet in effect, does the entity disclose known or reasonably estimable information that helps users understand its exposure to Pillar Two income taxes arising from that legislation?",
+          "decision_tree": {
+            "question": "Has Pillar Two legislation been enacted or substantively enacted in the entity's jurisdiction?",
+            "guidance": "Check government publications, tax authority announcements, and legislative documents for confirmation of enactment or substantive enactment of Pillar Two legislation. Substantive enactment occurs when the legislative process is sufficiently advanced, e.g., passed by the parliament or signed into law.",
+            "yes_case": {
+              "question": "Is the Pillar Two legislation not yet in effect?",
+              "guidance": "Refer to the enacted or substantively enacted legislation to confirm the effective date. The legislation is 'not yet in effect' if the effective date is in the future and no provisions are currently operational.",
+              "yes_case": {
+                "question": "Has the entity disclosed known or reasonably estimable information to help users understand its exposure to Pillar Two income taxes?",
+                "guidance": "Review disclosures in the financial statements, especially in notes concerning income taxes or IAS 12 compliance. Check for descriptions of exposures, estimations, or known amounts based on enacted legislation. Ensure disclosures are understandable and relevant to users of financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "417",
+          "section": "IAS 12",
+          "reference": "IAS 12.88D",
+          "question": "Is the entity required to apply IAS 12, Income Taxes, to its financial reporting?",
+          "question_type": null,
+          "context_required": "notes_only",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "To the extent information required by paragraph 88C is not known or reasonably estimable, does the entity disclose a statement to that effect and information about its progress in assessing its exposure?",
+          "decision_tree": {
+            "question": "Is the entity required to apply IAS 12, Income Taxes, to its financial reporting?",
+            "guidance": "Verify if the entity is preparing financial statements in accordance with IFRS. Specifically, check whether Income Taxes and deferred tax liabilities or assets are recognized as per IAS 12. Review the financial statement notes or accounting policies section.",
+            "yes_case": {
+              "question": "Does the entity have temporary differences, unused tax losses, or unused tax credits that give rise to deferred tax assets or liabilities?",
+              "guidance": "Review the entity’s tax computation and deferred tax workings. Temporary differences arise when there is a difference between the carrying amount of an asset or liability and its tax base. Ensure unused tax losses or credits are detailed in the accounting records.",
+              "yes_case": {
+                "question": "Is the entity required to disclose information under paragraph 88C of IAS 12 (related to potential impacts of changes in tax law)?",
+                "guidance": "Review whether there has been a change in tax law or tax rates that could significantly affect deferred tax balances or the recoverability of tax assets. Look for explanations in the tax disclosures section of financial statements or entity's policy notes regarding tax impacts.",
+                "yes_case": {
+                  "question": "Is the information required by paragraph 88C known or reasonably estimable?",
+                  "guidance": "Determine whether the entity has assessed the impact of tax law changes and documented reasonably estimable figures regarding deferred tax impacts. Check correspondence with tax advisors or internal tax assessments.",
+                  "yes_case": {
+                    "question": "Did the entity disclose the required information as per IAS 12.88C?",
+                    "guidance": "Review the tax disclosures in the financial statements. The disclosure should include the effects of tax law changes on deferred tax assets, liabilities, and any recoverability assessments.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": {
+                    "question": "Did the entity disclose a statement that the information is not known or reasonably estimable, along with progress in assessing the exposure?",
+                    "guidance": "Ensure the financial statements contain a clear disclosure indicating that the required information is not yet available, along with updates on the assessment process. This statement must be transparent and specific.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  }
+                },
+                "no_case": "COMPLIANT: N/A"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Government Grants (IAS 20) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 20",
+      "title": "Government Grants",
+      "description": "Checklist for presentation and disclosure requirements under IAS 20.",
+      "items": [
+        {
+          "id": "396.1",
+          "section": "IAS 20",
+          "reference": "IAS 20.39(a)",
+          "question": "Has the entity received any government grants during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the accounting policy for government grants?",
+          "decision_tree": {
+            "question": "Has the entity received any government grants during the reporting period?",
+            "guidance": "Review the entity's financial records, including income statements, supporting documentation, and related disclosures, to determine whether government grants were received. Look for specific references to financial assistance, funding, or other monetary benefits from government entities.",
+            "yes_case": {
+              "question": "Are government grants recognized in the entity's financial statements?",
+              "guidance": "Verify whether the government grants meet the recognition criteria defined in IAS 20. Refer to IAS 20.7-8 for guidance on recognizing government grants, which include reasonable assurance that the entity will comply with conditions and the grants will be received.",
+              "yes_case": {
+                "question": "Has the entity disclosed the accounting policy for government grants in the financial statements?",
+                "guidance": "Inspect the notes to the financial statements and accounting policies section. Ensure that the accounting policy aligns with IAS 20.39(a), detailing the basis of recognition, measurement, and presentation of government grants. Look for terms such as 'deferred income,' 'income recognition,' or 'netting off against related expenses.'",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "396.2",
+          "section": "IAS 20",
+          "reference": "IAS 20.39(b)",
+          "question": "Did the entity receive or benefit from any government grants during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the methods of presentation of government grants in the financial statements?",
+          "decision_tree": {
+            "question": "Did the entity receive or benefit from any government grants during the reporting period?",
+            "guidance": "Check the Statement of Financial Position, Statement of Profit or Loss, and Notes to the Financial Statements for references to government grants, subsidies, or similar forms of benefit provided by a government. Look for specific disclosures under IAS 20 or references to government assistance programs. Verify transactions or events involving government grants using supporting documents such as contracts or grant award letters.",
+            "yes_case": {
+              "question": "Has the entity recognized the government grants in the financial statements in accordance with IAS 20?",
+              "guidance": "Review the accounting policies and disclosures in the Notes to the Financial Statements to confirm compliance with IAS 20. Ensure that grants are recognized when there is reasonable assurance that the entity will comply with the conditions attached to the grants and that the grants will be received. Common pitfalls include recognizing grants before satisfying conditions or failing to update disclosures for the reporting period.",
+              "yes_case": {
+                "question": "Does the entity disclose the methods of presentation used for the government grants in the financial statements?",
+                "guidance": "Review the Notes to the Financial Statements, specifically the section related to government grants. IAS 20 allows different methods of presentation, such as recognizing grants as income or deducting from related expenses/assets. Confirm the entity explains which method has been applied, and verify consistency with the requirements of IAS 20. Pay attention to any vagueness or lack of details.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "396.3",
+          "section": "IAS 20",
+          "reference": "IAS 20.39(c)",
+          "question": "Has the entity received government grants during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose the nature and extent of government grants recognised in the financial statements?",
+          "decision_tree": {
+            "question": "Has the entity received government grants during the reporting period?",
+            "guidance": "Review the general ledger, financial notes, and relevant supporting documentation to confirm whether any funds, assets, or assistance have been received from the government. Note that government grants include monetary assistance, subsidies, and other forms of aid provided by a government entity. Ensure wording in the financial statements correlates directly to a grant, and avoid misinterpreting other income sources.",
+            "yes_case": {
+              "question": "Has the entity recognised the government grants in the financial statements in accordance with IAS 20?",
+              "guidance": "Confirm that the grants have been correctly accounted for based on IAS 20 requirements. This includes verifying whether the grants are recognised systematically and rationally over periods in which the related costs are incurred, or income is earned. Check supporting schedules and journal entries for compliance with recognition criteria.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature and extent of government grants recognised in the financial statements?",
+                "guidance": "Review the entity’s annotation in the disclosure notes. This should include a description of the grant (e.g., funding purpose, terms, and key conditions) and the financial impact (e.g., amounts recognised). Common errors include omitting material grants or failing to explain their nature adequately.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "396.4",
+          "section": "IAS 20",
+          "reference": "IAS 20.39(d)",
+          "question": "Has the entity received any form of government assistance during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity provide an indication of other forms of government assistance from which it has directly benefited?",
+          "decision_tree": {
+            "question": "Has the entity received any form of government assistance during the reporting period?",
+            "guidance": "Review government-related transactions and agreements in the entity's financial records and disclosures. Look for grants, subsidies, tax reliefs, or other forms of assistance. Ensure these transactions are documented as government assistance explicitly.",
+            "yes_case": {
+              "question": "Is the entity required to disclose other forms of government assistance based on IAS 20 guidelines?",
+              "guidance": "Check IAS 20, specifically paragraph 39(d). Determine if the assistance directly benefited the entity and falls under disclosure requirements. Common pitfalls include overlooking indirect assistance or misinterpreting the 'direct benefit' condition.",
+              "yes_case": {
+                "question": "Does the entity sufficiently disclose an indication of other forms of government assistance from which it has directly benefited?",
+                "guidance": "Review the financial statements, particularly the notes section. Ensure that government assistance disclosures include all relevant details like type of assistance, its economic impact, and whether the entity directly benefited.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "396.5",
+          "section": "IAS 20",
+          "reference": "IAS 20.39(e)",
+          "question": "Has the entity recognized any government assistance in its financial statements?",
+          "question_type": null,
+          "context_required": "notes_only",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose any unfulfilled conditions and other contingencies attaching to government assistance that has been recognised?",
+          "decision_tree": {
+            "question": "Has the entity recognized any government assistance in its financial statements?",
+            "guidance": "Review the financial statements, particularly the income statement and notes disclosures, for any mention of government assistance provided (e.g., grants, subsidies). Cross-check with IAS 20. Ensure the recognition of such assistance complies with IAS 20 requirements.",
+            "yes_case": {
+              "question": "Are there any unfulfilled conditions or contingencies attached to the recognized government assistance?",
+              "guidance": "Examine agreements, contracts, or terms of the government assistance provided. Check if the assistance is contingent upon future compliance or performance conditions that the entity has not yet met.",
+              "yes_case": {
+                "question": "Has the entity disclosed all unfulfilled conditions and other contingencies attaching to the government assistance?",
+                "guidance": "Review the financial statement notes under IAS 20.39(e) to ensure unfulfilled conditions and contingencies are disclosed. Verify disclosures against the terms of the government assistance agreements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

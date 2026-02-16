@@ -1,5 +1,8 @@
 // Types module - centralized TypeScript interfaces
 
+// Re-export compliance types
+export * from './compliance';
+
 // User-related types
 export interface User {
   id: string;

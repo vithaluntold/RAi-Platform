@@ -32,6 +32,8 @@ export const API_ENDPOINTS = {
   // Users
   USERS: "/api/v1/users",
   USER: (id: string) => `/api/v1/users/${id}`,
+  USER_ONBOARD: "/api/v1/users/onboard",
+  USER_ONBOARD_BULK: "/api/v1/users/onboard/bulk",
 
   // Documents
   DOCUMENTS: "/api/v1/documents",
@@ -76,6 +78,34 @@ export const API_ENDPOINTS = {
   ASSIGNMENT_TASK_AGENT: (ataId: string) => `/api/v1/agents/assignment-task-agents/${ataId}`,
   AGENT_EXECUTE: (ataId: string) => `/api/v1/agents/assignment-task-agents/${ataId}/execute`,
   AGENT_EXECUTIONS: (ataId: string) => `/api/v1/agents/assignment-task-agents/${ataId}/executions`,
+
+  // Compliance
+  COMPLIANCE_SESSIONS: "/api/v1/compliance/sessions",
+  COMPLIANCE_SESSION: (id: string) => `/api/v1/compliance/sessions/${id}`,
+  COMPLIANCE_SESSION_UPLOAD: (id: string) => `/api/v1/compliance/sessions/${id}/upload`,
+  COMPLIANCE_SESSION_MESSAGES: (id: string) => `/api/v1/compliance/sessions/${id}/messages`,
+  COMPLIANCE_SESSION_EXTRACT_METADATA: (id: string) => `/api/v1/compliance/sessions/${id}/extract-metadata`,
+  COMPLIANCE_SESSION_SUGGEST_STANDARDS: (id: string) => `/api/v1/compliance/sessions/${id}/suggest-standards`,
+  COMPLIANCE_SESSION_ANALYZE: (id: string) => `/api/v1/compliance/sessions/${id}/analyze`,
+  COMPLIANCE_SESSION_ANALYZE_STREAM: (id: string) => `/api/v1/compliance/sessions/${id}/analyze-stream`,
+  COMPLIANCE_SESSION_RESULTS: (id: string) => `/api/v1/compliance/sessions/${id}/results`,
+  COMPLIANCE_SESSION_REANALYZE: (id: string) => `/api/v1/compliance/sessions/${id}/re-analyze`,
+  COMPLIANCE_SESSION_OVERRIDE: (id: string) => `/api/v1/compliance/sessions/${id}/override`,
+  COMPLIANCE_SESSION_CHUNKS: (id: string) => `/api/v1/compliance/sessions/${id}/chunks`,
+  COMPLIANCE_SESSION_CHUNKS_REVALIDATE: (id: string) => `/api/v1/compliance/sessions/${id}/chunks/revalidate`,
+  COMPLIANCE_SESSION_VALIDATE_FINANCIALS: (id: string) => `/api/v1/compliance/sessions/${id}/validate-financials`,
+  COMPLIANCE_SESSION_FILTER_QUESTIONS: (id: string) => `/api/v1/compliance/sessions/${id}/filter-questions`,
+  COMPLIANCE_SESSION_CONVERSATIONS: (id: string) => `/api/v1/compliance/sessions/${id}/conversations`,
+  COMPLIANCE_SESSION_CONVERSATION_MESSAGES: (id: string, convId: string) => `/api/v1/compliance/sessions/${id}/conversations/${convId}/messages`,
+  COMPLIANCE_SESSION_CONVERSATION_SEND: (id: string, convId: string) => `/api/v1/compliance/sessions/${id}/conversations/${convId}/send`,
+  COMPLIANCE_SESSION_SAVED_RESULTS: (id: string) => `/api/v1/compliance/sessions/${id}/saved-results`,
+  COMPLIANCE_SESSION_SAVE_RESULTS: (id: string) => `/api/v1/compliance/sessions/${id}/save-results`,
+  COMPLIANCE_SESSION_JOB_STATUS: (id: string) => `/api/v1/compliance/sessions/${id}/job-status`,
+  COMPLIANCE_STANDARDS: "/api/v1/compliance/standards",
+  COMPLIANCE_STANDARD: (key: string) => `/api/v1/compliance/standards/${key}`,
+  COMPLIANCE_STANDARDS_SEARCH: "/api/v1/compliance/standards-search",
+  COMPLIANCE_STANDARDS_RELOAD: "/api/v1/compliance/standards/reload",
+  COMPLIANCE_HEALTH: "/api/v1/compliance/health",
 
   // Dashboard
   DASHBOARD_ANALYTICS: "/api/v1/dashboard/analytics",

@@ -1,0 +1,1265 @@
+{
+  "title": "IFRS 8 Flattened Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 8",
+      "title": "Operating segments",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 8.",
+      "items": [
+        {
+          "id": "IFRS8-467.1",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.20, IFRS 8.21, IFRS 8.22",
+          "question": "Does the entity prepare segment reporting under IFRS 8?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose general information as described in IFRS 8.22 for each period for which a statement of comprehensive income is presented?",
+          "decision_tree": {
+            "question": "Does the entity prepare segment reporting under IFRS 8?",
+            "guidance": "Review the financial statements and accompanying notes to determine if the entity reports operating segments in accordance with IFRS 8. Entities are required to apply IFRS 8 if their equity or debt instruments are publicly traded, or they are in the process of obtaining approval for public trading. Review the entity’s regulatory filings and financial reporting framework for compliance.",
+            "yes_case": {
+              "question": "Does the entity include a statement of comprehensive income for each reported period in the financial statements?",
+              "guidance": "Verify that the statement of comprehensive income is presented for each reporting period as per IAS 1 requirements. This document outlines the entity's financial performance and serves as the foundation for segment disclosures. Ensure the statement is not omitted or improperly prepared.",
+              "yes_case": {
+                "question": "Does the entity disclose general segment information as required by IFRS 8.22?",
+                "guidance": "Check the notes to the financial statements for disclosures relating to operating segments. General information includes segment identification methods and factors used in determining reportable segments. Confirm that the disclosures align with IFRS 8.22, and ensure all reportable segments are clearly distinguished and justified.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-467.2",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.20, IFRS 8.21, IFRS 8.23–27",
+          "question": "Does the entity have reportable operating segments as defined under IFRS 8?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "IFRS8-467.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose reported segment profit or loss (including specified revenues and expenses), segment assets, segment liabilities and the basis of measurement for each period for which a statement of comprehensive income is presented?",
+          "decision_tree": {
+            "question": "Does the entity have reportable operating segments as defined under IFRS 8?",
+            "guidance": "Refer to IFRS 8.5–8.10 to determine if the entity's operations are divided into business segments. Check the management's internal reporting and the Chief Operating Decision Maker's (CODM) view of segments. Ensure that segments generate revenue and incur expenses.",
+            "yes_case": {
+              "question": "Does the entity disclose segment profit or loss, segment assets, and segment liabilities for each reportable segment?",
+              "guidance": "Examine the financial statements and accompanying notes. Ensure disclosures include segment revenue, segment expenses, segment profit or loss, assets, and liabilities as required under IFRS 8.23–25. Look for the segmental breakdown and ensure that each segment's figures are clearly presented.",
+              "yes_case": {
+                "question": "Does the entity disclose the basis of measurement for reported segment information, including any accounting policies applied for each period presented?",
+                "guidance": "Review disclosures for explanations about how segment profit or loss, assets, and liabilities are measured. Ensure significant accounting policies and methods used for segment reporting (such as allocation bases) are disclosed in accordance with IFRS 8.27.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-467.3",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.20, IFRS 8.21, IFRS 8.28",
+          "question": "Does the entity have reportable operating segments as defined by IFRS 8?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "IFRS8-467.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity provide reconciliations of total segment revenues, profit or loss, assets, liabilities and other material segment items to the corresponding entity amounts for each period presented?",
+          "decision_tree": {
+            "question": "Does the entity have reportable operating segments as defined by IFRS 8?",
+            "guidance": "Review IFRS 8.5-8.10 to determine the definition of operating segments. Check management reports and internal documents to see if the entity's business activities are divided based on revenue-generating and decision-making components. Look for segments regularly reviewed by the chief operating decision maker (CODM).",
+            "yes_case": {
+              "question": "Has the entity disclosed segment information for each reportable operating segment?",
+              "guidance": "Refer to IFRS 8.20. Verify that information is presented for revenue, profit/loss, assets, liabilities, and other key indicators related to the segments. Cross-check these disclosures in the notes to the financial statements. Ensure segments meet the criteria for disclosure under IFRS 8.13-15.",
+              "yes_case": {
+                "question": "Has the entity provided reconciliations of total segment revenues, profit or loss, assets, liabilities, and other material segment items to the corresponding entity amounts for each period presented?",
+                "guidance": "Refer to IFRS 8.20 and IFRS 8.21. Ensure segment totals are reconciled with the entity’s consolidated amounts in the financial statements. Reconciliations should be detailed for each material item and clearly linked to entity-level amounts. Common pitfalls include omitting liabilities or other segment items.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-468",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.21, IFRS 8.29–30",
+          "question": "Does the entity prepare its financial statements in accordance with IFRS 8 Operating Segments?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For each date that a statement of financial position is presented, does the entity reconcile the amounts in that statement to the amounts for reportable segments (restating prior periods as required)?",
+          "decision_tree": {
+            "question": "Does the entity prepare its financial statements in accordance with IFRS 8 Operating Segments?",
+            "guidance": "Check the general-purpose financial statements and confirm if IFRS 8 is applicable. IFRS 8 applies if the entity discloses operating segments and reports segment information based on internal management reports reviewed by the chief operating decision maker (CODM). Refer to IFRS 8.10 for details on applicability.",
+            "yes_case": {
+              "question": "Does the entity disclose segment information for reportable segments, including reconciliation of segment amounts to amounts in the statement of financial position?",
+              "guidance": "Examine the notes to the financial statements. Ensure segment totals are reconciled to the amounts reported in the statement of financial position. Refer to IFRS 8.21 for identification of reportable segments and IFRS 8.29–30 for requirements on reconciliations. Check if adjustments, eliminations, and prior periods (if restated) are correctly disclosed.",
+              "yes_case": {
+                "question": "Are prior periods restated as required in the reconciliation if changes in measurement methods or definitions of segments have occurred?",
+                "guidance": "Cross-verify reconciliations for prior periods if restatement is necessary due to changes in internal management reports. Review IFRS 8.28–30 for requirements on restating prior periods when methods or segment definitions change.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-469.1",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.22(a)",
+          "question": "Does the entity operate in multiple business segments?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "IFRS8-467.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the factors used to identify its reportable segments, including the basis of organisation and any segment aggregation?",
+          "decision_tree": {
+            "question": "Does the entity operate in multiple business segments?",
+            "guidance": "Review the entity's structure and reporting practices. Check the management approach described in IFRS 8.10, which requires segments to be based on internal reports reviewed by the chief operating decision maker. Ensure you have access to internal management reporting documentation.",
+            "yes_case": {
+              "question": "Has the entity defined and identified its reportable segments as per IFRS 8.5 and IFRS 8.7?",
+              "guidance": "Confirm that reportable segments have been identified based on quantitative thresholds and aggregation criteria outlined in IFRS 8.13-8.14. Ensure calculations and aggregation rationale are documented.",
+              "yes_case": {
+                "question": "Does the entity disclose the factors used to identify its reportable segments, including the basis of organisation and any segment aggregation?",
+                "guidance": "Review the entity’s financial statement notes. Look for disclosures describing the basis of organisation (e.g., geography, product lines, etc.) and any grouping of segments that has been performed per IFRS 8.22(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-469.2",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.22(b)",
+          "question": "Does the entity operate more than one business segment or geographical segment?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "IFRS8-467.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the judgements made by management in applying the aggregation criteria, including a description of aggregated segments and assessed economic indicators?",
+          "decision_tree": {
+            "question": "Does the entity operate more than one business segment or geographical segment?",
+            "guidance": "Review the entity's operational and financial reporting structure. Analyze management's segment definitions in accordance with IFRS 8.5, which defines an operating segment as a component of an entity that earns revenues and incurs expenses and is regularly reviewed by the chief operating decision maker (CODM). Segments based solely on internal management reporting should also be assessed.",
+            "yes_case": {
+              "question": "Does the entity aggregate two or more segments for reporting purposes?",
+              "guidance": "Check if the entity combines segments in the financial statements, as allowed by IFRS 8.12, based on aggregation criteria such as similar economic characteristics. Review supporting documentation and disclosures in the entity's financial statements and operating segment notes.",
+              "yes_case": {
+                "question": "Does the entity disclose the judgements made by management in applying the aggregation criteria?",
+                "guidance": "Review the segment disclosures in the financial statements. Specifically, check for a clear explanation of management's judgements in applying IFRS 8.22(b), such as descriptions of aggregated segments, similarities between segments, and assessed economic indicators (e.g., margins, growth rates). Ensure completeness and clarity of disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-469.3",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.22(c)",
+          "question": "Does the entity have reportable segments as defined in IFRS 8?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "IFRS8-467.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the types of products and services from which each reportable segment derives its revenues?",
+          "decision_tree": {
+            "question": "Does the entity have reportable segments as defined in IFRS 8?",
+            "guidance": "Review the entity's financial statements and operating structure. Refer to IFRS 8.5-8 for the definition of reportable segments. Reportable segments are operating segments that meet quantitative thresholds outlined in IFRS 8.13 or are considered material based on management's judgment.",
+            "yes_case": {
+              "question": "Has the entity disclosed the types of products and services from which each reportable segment derives its revenues?",
+              "guidance": "Check the disclosures in the entity's financial statements, specifically in the notes section. Look for descriptions of revenue sources as per IFRS 8.22(c). Ensure there is sufficient detail to understand revenue generation by segment, but avoid unnecessary granularity.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-470",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity have reportable segments as defined under IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose a measure of profit or loss for each reportable segment?",
+          "decision_tree": {
+            "question": "Does the entity have reportable segments as defined under IFRS 8?",
+            "guidance": "Review the entity's business activities and analyze the operating results. A reportable segment is a component of the entity that engages in business activities from which it earns revenues and incurs expenses, and its performance is regularly reviewed by the entity's chief operating decision maker to allocate resources and assess performance. Refer to IFRS 8.5–8 for detailed criteria.",
+            "yes_case": {
+              "question": "Has the entity disclosed a measure of profit or loss for each reportable segment in its financial statements?",
+              "guidance": "Examine the segment disclosure in the notes to the financial statements. Under IFRS 8.23, the entity must disclose a measure of profit or loss for each reportable segment, along with a description of the basis of measurement and any significant changes in measurement basis. Ensure this information is clearly presented and aligns with internal reporting used by the chief operating decision maker (CODM).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-471",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity have reportable segments as defined in IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose a measure of total assets and liabilities for each reportable segment when such amounts are regularly provided to the chief operating decision maker?",
+          "decision_tree": {
+            "question": "Does the entity have reportable segments as defined in IFRS 8?",
+            "guidance": "Review the entity's operating structure and financial statement disclosures. Refer to IFRS 8.5-12 to determine whether the entity's operations are divided into segments that meet the definition of reportable segments based on the 'management perspective' and quantitative thresholds. Common pitfalls include misidentifying segments or exceeding aggregation limits.",
+            "yes_case": {
+              "question": "Are total assets and liabilities regularly reported to the chief operating decision maker for each reportable segment?",
+              "guidance": "Examine internal management reports and communication to the chief operating decision maker (CODM). According to IFRS 8.23, total assets and liabilities must be disclosed only if such information is regularly provided to the CODM for decision-making purposes. Beware of assuming this disclosure requirement without verifying the regularity of provision.",
+              "yes_case": {
+                "question": "Does the entity disclose a measure of total assets and liabilities for each reportable segment in accordance with IFRS 8.23?",
+                "guidance": "Review the segment reporting disclosures in the notes to the financial statements. Confirm that total assets and liabilities are disclosed for each reportable segment, providing a clear link to the CODM's internal reporting. Ensure accuracy and compliance with IFRS 8 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-472.1",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity have reportable segments as defined by IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-470",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose revenues from external customers for each reportable segment when included in the reviewed measure of segment profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity have reportable segments as defined by IFRS 8?",
+            "guidance": "Refer to the financial statements and management's internal reporting. Reportable segments are operating segments that meet quantitative thresholds defined in IFRS 8.13-15. Confirm that the entity has identified any operating segments that qualify as reportable segments.",
+            "yes_case": {
+              "question": "Does the entity disclose revenues from external customers for each reportable segment?",
+              "guidance": "Review the segment reporting note in the financial statements. Check if revenues from external customers associated with each reportable segment are disclosed. Refer specifically to IFRS 8.23 for required disclosure guidelines.",
+              "yes_case": {
+                "question": "Are these disclosed revenues included in the reviewed measure of segment profit or loss used by the chief operating decision maker (CODM)?",
+                "guidance": "Verify that the disclosed revenues are consistent with the measure of segment profit or loss reviewed by the CODM as per the requirements outlined in IFRS 8. Review supporting documentation and segment reporting data thoroughly.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-472.2",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity have operating segments as defined by IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-470",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose revenues from transactions with other operating segments of the same entity for each reportable segment when included in the reviewed measure?",
+          "decision_tree": {
+            "question": "Does the entity have operating segments as defined by IFRS 8?",
+            "guidance": "Review the entity's operating structure and financial management using IFRS 8.2–8.5. Operating segments are components of an entity regularly reviewed by the chief operating decision maker to allocate resources and assess performance. Check whether segment information is included in internal reports.",
+            "yes_case": {
+              "question": "Are there transactions between operating segments of the entity?",
+              "guidance": "Review internal reporting and transaction records between the operating segments. Look for inter-segment sales, transfers, or any other transactions listed in the financial reports. Focus specifically on the segment's reviewed performance measures.",
+              "yes_case": {
+                "question": "Are revenues from transactions between operating segments included in the reviewed measure for each reportable segment?",
+                "guidance": "Verify segment disclosures in the financial statements and ensure that inter-segment revenues are included in the reviewed measures as required by IFRS 8.23. Confirm whether the reviewed measure matches the disclosures provided by the entity.",
+                "yes_case": {
+                  "question": "Has the entity disclosed revenues from transactions with other operating segments for each reportable segment as required by IFRS 8.23?",
+                  "guidance": "Check the segment disclosures in the notes to the financial statements. Ensure revenues from inter-segment transactions are clearly stated for each reportable segment where such transactions exist. The disclosure should align with the reviewed measures.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-472.3",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity have reportable operating segments?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-470",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose interest revenue for each reportable segment when included in the reviewed measure?",
+          "decision_tree": {
+            "question": "Does the entity have reportable operating segments?",
+            "guidance": "Review the management approach used to identify operating segments under IFRS 8. Check if the entity identifies operating segments based on internal reporting provided to the chief operating decision maker (CODM). Refer to IFRS 8.5-10 for guidance on determining reportable segments.",
+            "yes_case": {
+              "question": "Does the reviewed measure used for reporting operating segment information include interest revenue?",
+              "guidance": "Examine the financial information and internal reports reviewed by the CODM. Check whether interest revenue is part of the measures used to assess segment performance, as per IFRS 8.23. Ensure the documentation supports whether interest revenue is included or excluded.",
+              "yes_case": {
+                "question": "Does the entity disclose interest revenue for each reportable segment in the financial statements?",
+                "guidance": "Check the segment reporting note in the financial statements. The disclosures should explicitly include interest revenue for each reportable segment where it is part of the reviewed measure, as required by IFRS 8.23. Ensure the disclosures are clear and complete.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-472.4",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity operate with reportable segments according to IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-470",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose interest expense for each reportable segment when included in the reviewed measure?",
+          "decision_tree": {
+            "question": "Does the entity operate with reportable segments according to IFRS 8?",
+            "guidance": "Refer to the entity's financial statements and operational structure. Review IFRS 8.5-12 for criteria defining reportable segments, such as operating segments that earn revenue and incur expenses, whose results are reviewed by the chief operating decision maker. Verify segment information provided in the financial statements.",
+            "yes_case": {
+              "question": "Is interest expense included in the reviewed measure of profit or loss for any reportable segment?",
+              "guidance": "Review IFRS 8.23 and examine the segment reporting note in the financial statements. Specifically, check if interest expense is a component of the metric used to measure profit or loss for any segment as reviewed by the chief operating decision maker.",
+              "yes_case": {
+                "question": "Does the entity disclose interest expense for each reportable segment where it is included in the reviewed measure?",
+                "guidance": "Review the segment reporting note under IFRS 8 in the financial statements. Ensure interest expense is disclosed separately for each reportable segment where included in the profit or loss measure. Verify completeness and accuracy of the disclosed amounts, and check for consistency with the financial statement line items.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-472.5",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity have reportable segments as per IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-470",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose depreciation and amortisation for each reportable segment when included in the reviewed measure?",
+          "decision_tree": {
+            "question": "Does the entity have reportable segments as per IFRS 8?",
+            "guidance": "Refer to IFRS 8 requirements for identifying reportable segments. Check the entity's operating segments, which are components regularly reviewed by the chief operating decision maker, and confirm whether they meet the quantitative thresholds described in IFRS 8.13.",
+            "yes_case": {
+              "question": "Is depreciation and amortisation included in the reviewed measure for any reportable segment?",
+              "guidance": "Examine the financial information provided internally to the chief operating decision maker. Confirm whether amounts related to depreciation and amortisation are part of the measures reviewed for decision-making purposes (e.g., segment profit or segment expense measures).",
+              "yes_case": {
+                "question": "Has the entity disclosed depreciation and amortisation for each reportable segment where it is included in the reviewed measure?",
+                "guidance": "Review the segment disclosures in the financial statements, specifically the notes. Confirm that depreciation and amortisation amounts are disclosed for each reportable segment where these are part of the reviewed measure. Cross-check accuracy with the general ledger or internal reporting.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-472.6",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity operate with reportable segments under IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-470",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose material items of income and expense (per IAS 1.97) for each reportable segment when included in the reviewed measure?",
+          "decision_tree": {
+            "question": "Does the entity operate with reportable segments under IFRS 8?",
+            "guidance": "Review the financial statements and related disclosures to confirm if the entity has reportable segments. These are operating segments that meet the quantitative thresholds in IFRS 8.13 and are reported separately in financial statements. Ensure the determination of reportable segments aligns with the entity's internal reporting structure, as disclosed in IFRS 8.",
+            "yes_case": {
+              "question": "Does the entity include material items of income and expense in the reviewed measure for each reportable segment, as defined in IAS 1.97?",
+              "guidance": "Examine the segment disclosures to identify whether material income and expense items (e.g., impairment losses, restructuring costs) are included in the reviewed measure. IAS 1.97 requires these material items to be disclosed separately to ensure they are not aggregated with less significant amounts. Verify the consistency with the definition of materiality in IAS 1.31.",
+              "yes_case": {
+                "question": "Does the entity disclose these material items of income and expense for each reportable segment in its financial statements?",
+                "guidance": "Review the notes accompanying the financial statements. Check whether material items included in the reviewed measure for each reportable segment are separately disclosed. IFRS 8.23 requires these disclosures to be sufficiently detailed for users to understand the financial impact of these items on individual segments.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-472.7",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity have associates or joint ventures accounted for using the equity method?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-470",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose its interest in the profit or loss of associates and joint ventures accounted for by the equity method for each reportable segment when included in the reviewed measure?",
+          "decision_tree": {
+            "question": "Does the entity have associates or joint ventures accounted for using the equity method?",
+            "guidance": "Check the entity's financial statements, specifically the notes on investments in associates and joint ventures, for any indication that such investments are accounted for under the equity method as per IAS 28.",
+            "yes_case": {
+              "question": "Does the entity prepare and disclose reportable segments as required under IFRS 8?",
+              "guidance": "Review the segment information in the financial statements. Verify that the entity identifies operating segments based on internal reporting, and that it aggregates segments only if allowed per IFRS 8. Ensure that at least one segment is disclosed.",
+              "yes_case": {
+                "question": "Is the interest in the profit or loss of associates and joint ventures correctly included in the reviewed measure for each reportable segment disclosed?",
+                "guidance": "Examine the segment disclosures. Verify that any interest in the profit or loss of associates and joint ventures (using the equity method) is separately disclosed for each reportable segment where applicable, as part of the reviewed measure (e.g., segment profit). Ensure this aligns with IFRS 8 paragraph 23.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-472.8",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity have reportable segments as defined by IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-470",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose income tax expense or income for each reportable segment when included in the reviewed measure?",
+          "decision_tree": {
+            "question": "Does the entity have reportable segments as defined by IFRS 8?",
+            "guidance": "Review the entity's segment disclosures in the financial statements. A reportable segment is defined under IFRS 8 based on thresholds such as revenue, profit/loss, or assets exceeding 10% of the combined totals for all segments. Refer to IFRS 8.13 for guidance on reportable segment criteria.",
+            "yes_case": {
+              "question": "Does the entity disclose a reviewed measure of profit or loss for each reportable segment?",
+              "guidance": "Verify the segment information disclosed in the financial statements or accompanying notes. A 'reviewed measure' means it is reviewed by the entity's chief operating decision maker (CODM). Check IFRS 8.23 for further clarification.",
+              "yes_case": {
+                "question": "Is income tax expense or income included in the reviewed measure of profit or loss for any reportable segment?",
+                "guidance": "Refer to IFRS 8.23, and examine the components of the reviewed measure of profit or loss disclosed for each segment. If income tax is included in the measure, it must be disclosed accordingly.",
+                "yes_case": {
+                  "question": "Does the entity disclose income tax expense or income for each reportable segment as required?",
+                  "guidance": "Check the notes accompanying the segment disclosures. Income tax expense or income must be clearly disclosed for each reportable segment where it is included in the reviewed measure of profit or loss. Ensure disclosures are complete and comply with IFRS 8.23.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: N/A"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-472.9",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.23",
+          "question": "Does the entity prepare segment reporting based on IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-470",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose material non-cash items other than depreciation and amortisation for each reportable segment when included in the reviewed measure?",
+          "decision_tree": {
+            "question": "Does the entity prepare segment reporting based on IFRS 8?",
+            "guidance": "Check if the entity has operating segments that meet the definition outlined in IFRS 8.2. Review the financial statements and management reports to determine if the entity presents information about different operating segments. If the entity does not present segment reporting, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity disclose a reviewed measure of profit or loss for each reportable segment as required by IFRS 8.23?",
+              "guidance": "Review the segment reporting note in the financial statements. Ensure that for each operating segment identified, a reviewed measure of profit or loss is disclosed as required by IFRS 8.23. Check if the measure is reviewed by the chief operating decision maker (CODM), such as the CEO or management team.",
+              "yes_case": {
+                "question": "Does the entity disclose material non-cash items other than depreciation and amortisation for each reportable segment, if included in the reviewed measure of profit or loss?",
+                "guidance": "Review the segment reporting disclosures. Check for material non-cash items such as share-based payments, provisions, impairments, etc., which were included in the segment's reviewed measure of profit or loss. Ensure the disclosure is detailed enough to provide relevant information to users of financial statements. Beware of missing items or insufficient detail.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-473.1",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.24(a)",
+          "question": "Does the entity have reportable segments under IFRS 8?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-471",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the amount of its investment in associates and joint ventures accounted for by the equity method for each reportable segment when included in the reviewed measure of segment assets?",
+          "decision_tree": {
+            "question": "Does the entity have reportable segments under IFRS 8?",
+            "guidance": "Review the financial statements and the management's assessment of operating segments. Verify whether the entity reports separately identifiable segments and if these meet the definition of reportable segments as per IFRS 8, typically based on the criteria of revenue, profit, or asset thresholds.",
+            "yes_case": {
+              "question": "Does the entity account for investments in associates and joint ventures using the equity method?",
+              "guidance": "Check the accounting policies section of the financial statements. Verify whether investments in associates and joint ventures are accounted for using the equity method as prescribed by IAS 28.",
+              "yes_case": {
+                "question": "Are investments in associates and joint ventures included in the reviewed measure of segment assets?",
+                "guidance": "Identify if the information used by the chief operating decision maker (CODM) for reviewing performance and making decisions about resource allocation includes investments in associates and joint ventures. Refer to IFRS 8.23 for guidance on the reviewed measure of segment assets.",
+                "yes_case": {
+                  "question": "Does the entity disclose the amount of its investment in associates and joint ventures accounted for by the equity method for each reportable segment?",
+                  "guidance": "Examine the segment disclosure note within the financial statements. Verify whether the entity has disclosed the total amount of investments in associates and joint ventures accounted for by the equity method for each individual reportable segment.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: N/A"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-473.2",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.24(b)",
+          "question": "Does the entity have non-current assets (other than financial instruments, deferred tax assets, post-employment benefit assets, and insurance rights)?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-471",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose additions to non-current assets (other than financial instruments, deferred tax assets, post-employment benefit assets and insurance rights) for each reportable segment when included in the reviewed measure of segment assets?",
+          "decision_tree": {
+            "question": "Does the entity have non-current assets (other than financial instruments, deferred tax assets, post-employment benefit assets, and insurance rights)?",
+            "guidance": "Refer to the entity's statement of financial position and review the asset classifications. Exclude financial instruments, deferred tax assets, post-employment benefit assets, and insurance rights as defined in IFRS. Focus on other non-current assets like tangible and intangible assets.",
+            "yes_case": {
+              "question": "Are additions to these non-current assets included in the reviewed measure of segment assets for reportable segments?",
+              "guidance": "Check the entity's segment reporting as required by IFRS 8. Review the measure of segment assets assessed by management and confirm whether any additions to non-current assets are included in this measure.",
+              "yes_case": {
+                "question": "Does the entity disclose these additions to non-current assets for each reportable segment as required by IFRS 8.24(b)?",
+                "guidance": "Verify the segment reporting note in the financial statements. Ensure that the additions are disclosed separately for each reportable segment in accordance with IFRS 8.24(b). Disclosures should be clear, complete, and align with the reviewed measure of segment assets.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-474",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.25",
+          "question": "Does the entity disclose operating segments in accordance with IFRS 8?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Are the amounts in each segment item reported the same as those reported to the chief operating decision maker for allocating resources and assessing performance?",
+          "decision_tree": {
+            "question": "Does the entity disclose operating segments in accordance with IFRS 8?",
+            "guidance": "Review the entity's financial statements for disclosure of operating segments. Operating segments are required if the entity's operations are organized in such a way that results can be reviewed regularly by the chief operating decision maker (CODM). Check if the entity identifies operating segments based on internal management reports. Reference IFRS 8.5-8 for segment identification criteria.",
+            "yes_case": {
+              "question": "Are the amounts in each segment item reported the same as those reported to the chief operating decision maker for allocating resources and assessing performance?",
+              "guidance": "Verify that the amounts disclosed for each segment align with those used internally by the CODM. The reported figures should not be adjusted arbitrarily or differ materially from what the CODM uses in decision-making processes. Cross-check reports provided to the CODM and ensure they match the disclosed figures in the financial statements as per IFRS 8.25.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-475",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.26",
+          "question": "Does the entity fall under the scope of IFRS 8 Operating Segments?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the chief operating decision maker uses only one measure for profit or loss, assets or liabilities, is segment information reported at those measures?",
+          "decision_tree": {
+            "question": "Does the entity fall under the scope of IFRS 8 Operating Segments?",
+            "guidance": "Determine whether the entity is required to report operating segment information under IFRS 8. This typically applies to entities whose equity or debt securities are publicly traded or that file financial statements with a securities commission for the purpose of issuing securities. Review the entity’s regulatory filing requirements and public trading status.",
+            "yes_case": {
+              "question": "Does the chief operating decision maker (CODM) use only one measure for profit or loss, assets, or liabilities when assessing operating segments?",
+              "guidance": "Identify the measures used by the CODM as specified in internal reports or operational reviews. CODM is usually an individual or group responsible for allocating resources and assessing segment performance. Check management reports and meeting minutes for details.",
+              "yes_case": {
+                "question": "Is segment information reported using those measures for profit or loss, assets, or liabilities?",
+                "guidance": "Verify consistency between the internal reporting measures used by the CODM and the segment data disclosed in the financial statements under IFRS 8. Examine the segment reporting note and ensure disclosed measures match the internal reports.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-476.1",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.27(a)",
+          "question": "Does the entity have reportable segments defined under IFRS 8?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "IFRS8-467.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the basis of accounting for any transactions between reportable segments?",
+          "decision_tree": {
+            "question": "Does the entity have reportable segments defined under IFRS 8?",
+            "guidance": "Review the entity's financial statements and segment reporting note. Check if the entity meets the criteria for operating segment reporting under IFRS 8, paragraphs 5-10. Look for disclosure of operating segments driven by internal reporting to the chief operating decision-maker (CODM). Ensure that one or more reportable segments have been identified.",
+            "yes_case": {
+              "question": "Do transactions occur between these reportable segments?",
+              "guidance": "Examine the financial statements and the segment reporting note for references to segment-to-segment transactions. Review internal reporting and segment disclosures for any financial interactions, such as revenue transfers, cost allocations, or inter-segment pricing arrangements.",
+              "yes_case": {
+                "question": "Does the entity disclose the basis of accounting for transactions between reportable segments?",
+                "guidance": "Check the segment reporting note in the financial statements under IFRS 8.27(a). Verify if the entity provides explicit disclosure detailing how inter-segment transactions are accounted for, including methods of pricing or allocation used. Confirm the disclosures are consistent with IFRS requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-476.2",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.27(b)",
+          "question": "Does the entity have operating segments as defined by IFRS 8?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "IFRS8-467.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the nature of any differences between segment profit or loss measures and the entity's profit or loss before tax and discontinued operations?",
+          "decision_tree": {
+            "question": "Does the entity have operating segments as defined by IFRS 8?",
+            "guidance": "Refer to IFRS 8.5-10 for the definition of operating segments. Check the financial statements and entity organization charts to confirm the existence of reportable segments based on the management's internal reporting structure. Ensure the entity applies the 'management approach' to identify operating segments.",
+            "yes_case": {
+              "question": "Does the entity disclose segment profit or loss measures in the financial statements?",
+              "guidance": "Review the entity's segment disclosures, typically in the notes to the financial statements. Segment profit or loss measures should be explicitly identified and disclosed per IFRS 8.23-24.",
+              "yes_case": {
+                "question": "Are there any differences between segment profit or loss measures and the entity's profit or loss before tax and discontinued operations?",
+                "guidance": "Compare the segment profit or loss measures (as disclosed) with the entity-wide profit or loss before tax and discontinued operations. Differences often arise due to inter-segment eliminations, adjustments, or measurement principles. Investigate disclosures and ensure clarity on all reconciling items per IFRS 8.28.",
+                "yes_case": {
+                  "question": "Does the entity disclose the nature of these differences between segment profit or loss measures and the entity's profit or loss before tax and discontinued operations?",
+                  "guidance": "Review the disclosure notes. IFRS 8.27(b) requires an explanation of the nature of any differences in measurement or calculation methodologies accompanied by reconciliation. Ensure this disclosure is detailed and consistent with the segment reporting policy.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-476.3",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.27(c)",
+          "question": "Does the entity have operating segments as defined in IFRS 8?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "IFRS8-467.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the nature of any differences between segment assets and the entity's assets?",
+          "decision_tree": {
+            "question": "Does the entity have operating segments as defined in IFRS 8?",
+            "guidance": "Refer to IFRS 8.5-10 to determine if the entity has components that engage in business activities from which it may earn revenue and incur expenses, whose operating results are regularly reviewed by the entity's chief operating decision maker, and for which discrete financial information is available. Cross-check organizational structure and reporting documents.",
+            "yes_case": {
+              "question": "Does the entity present segment information in its financial statements?",
+              "guidance": "Review the financial statements (specifically, the notes to the accounts) for disclosure of segment information as required by IFRS 8. Ensure operating segments are identified, and segment reporting is included.",
+              "yes_case": {
+                "question": "Do segment assets differ from the entity's total assets?",
+                "guidance": "Compare the disclosed segment assets with the total entity assets reported in the statement of financial position. If there is no reconciliation or segment assets are not disclosed, the assets are presumed to differ.",
+                "yes_case": {
+                  "question": "Does the entity disclose the nature of any differences between segment assets and the entity's total assets?",
+                  "guidance": "Check the notes to the accounts or the segment reporting section of the financial statements for explanations of any differences in the definition, measurement, or scope of segment assets versus entity assets. Ensure disclosures meet the requirements of IFRS 8.27(c).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-476.4",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.27(d)",
+          "question": "Does the entity prepare segment reporting in accordance with IFRS 8?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "IFRS8-467.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the nature of any differences between segment liabilities and the entity's liabilities?",
+          "decision_tree": {
+            "question": "Does the entity prepare segment reporting in accordance with IFRS 8?",
+            "guidance": "Check whether the entity provides segment reporting in its financial statements. Review IFRS 8 requirements in the financial statements, particularly focusing on Note disclosures specific to operating segments. Segment reporting is required if the entity operates multiple reportable segments that meet the quantitative thresholds defined in IFRS 8.13.",
+            "yes_case": {
+              "question": "Does the entity disclose segment liabilities for each reportable segment?",
+              "guidance": "Examine the financial statement notes for disclosures under IFRS 8. Ensure that liabilities are reported for each segment if management uses this information internally to allocate resources or assess segment performance per IFRS 8.23.",
+              "yes_case": {
+                "question": "Is the nature of any differences between segment liabilities and the entity’s total liabilities properly disclosed?",
+                "guidance": "Verify that the entity reconciles the total liabilities of all segments to the entity’s total liabilities. The nature of such differences should be clearly explained (e.g., corporate liabilities not allocated to segments). Refer to IFRS 8.27(d) for disclosure specifics.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-477.1",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.28(a)",
+          "question": "Does the entity have reportable operating segments as defined in IFRS 8?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "IFRS8-468",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity reconcile total reportable segments' revenues to the entity's revenue?",
+          "decision_tree": {
+            "question": "Does the entity have reportable operating segments as defined in IFRS 8?",
+            "guidance": "Check the financial statements and management's assessment under IFRS 8. An operating segment is reportable if it exceeds quantitative thresholds such as revenue, profit, or asset percentages outlined in IFRS 8.13. Ensure that the segment has been identified appropriately in the disclosures.",
+            "yes_case": {
+              "question": "Are revenues disclosed separately for the reportable operating segments in the financial statements?",
+              "guidance": "Review the segment reporting notes. IFRS 8 requires entities to disclose revenues for reportable segments defined by management. Ensure the segment notes include breakdowns and context on how these revenues are attributed.",
+              "yes_case": {
+                "question": "Does the entity reconcile total reportable segments' revenues to the entity's total revenue?",
+                "guidance": "Compare the reconciliation provided in the segment disclosures to the total entity revenue. Ensure that all adjustments (e.g., intersegment eliminations) are clearly documented. Refer specifically to IFRS 8.28(a) for the reconciliation requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-477.2",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.28(b)",
+          "question": "Does the entity operate reportable segments as defined under IFRS 8?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "IFRS8-468",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity reconcile total reportable segments' measures of profit or loss to the entity's profit or loss before tax and discontinued operations?",
+          "decision_tree": {
+            "question": "Does the entity operate reportable segments as defined under IFRS 8?",
+            "guidance": "Check the entity’s operational structure and financial reporting. A reportable segment is defined as a component of the entity that engages in business activities, earns revenue, and incurs expenses, and its operating results are regularly reviewed by the chief operating decision maker (CODM). Refer to the financial statements, specifically segment disclosures and notes to accounts in line with IFRS 8.5–8.10.",
+            "yes_case": {
+              "question": "Does the entity present measures of profit or loss for its reportable segments in the financial statements?",
+              "guidance": "Review the segment disclosures in the financial statements under IFRS 8 requirements. Ensure that specific measures of profit or loss reported for each segment are clearly presented. The segment reports should align with the CODM's internal evaluation of performance and allocation of resources. Common pitfalls include incomplete metric reporting or mismatched data compared to the CODM’s evaluations.",
+              "yes_case": {
+                "question": "Does the entity reconcile the total reportable segments' measures of profit or loss to the entity's profit or loss before tax and discontinued operations?",
+                "guidance": "Verify that a reconciliation is provided in the financial statements, as required by IFRS 8.28(b). The reconciliation should detail how segment-level profit or loss aggregates align with the entity-wide profit or loss figures before tax and discontinued operations. Ensure that the adjustments made, if any, are sufficiently explained and supported by the notes to the accounts. Pay attention to common errors such as lack of reconciliation or insufficient explanatory notes.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-477.3",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.28(c)",
+          "question": "Does the entity report segment assets in accordance with IFRS 8?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "IFRS8-468",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity reconcile total reportable segments' assets to the entity's assets when segment assets are reported?",
+          "decision_tree": {
+            "question": "Does the entity report segment assets in accordance with IFRS 8?",
+            "guidance": "Review the entity's financial statements and accompanying notes. Check if segment assets are disclosed under the operating segment information, as required by IFRS 8. Look specifically for any mention of segment assets in the disclosure, as entities are only required to disclose segment assets if they are regularly provided to the chief operating decision maker.",
+            "yes_case": {
+              "question": "Has the entity reconciled total reportable segments' assets to the entity's assets in its financial statements?",
+              "guidance": "Review the disclosures related to operating segments in the notes to the financial statements. Look for a clear reconciliation that adjusts the total of reportable segment assets to match the total assets reported in the balance sheet. Ensure the amounts match and are properly explained.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-477.4",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.28(d)",
+          "question": "Does the entity report segment liabilities in accordance with IFRS 8?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "IFRS8-468",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity reconcile total reportable segments' liabilities to the entity's liabilities when segment liabilities are reported?",
+          "decision_tree": {
+            "question": "Does the entity report segment liabilities in accordance with IFRS 8?",
+            "guidance": "Check the financial statements and segment reporting disclosures for information about segment liabilities. If segment liabilities are not disclosed at all, this checklist item is not applicable. Ensure to verify compliance with IFRS 8 requirements for segment reporting.",
+            "yes_case": {
+              "question": "Are segment liabilities included in reportable segment disclosures?",
+              "guidance": "Review the segment reporting note in the disclosures and confirm whether segment liabilities are presented for each reportable segment. Segment liabilities are not required by IFRS 8, but if disclosed, they must be reconciled according to IFRS 8.28(d).",
+              "yes_case": {
+                "question": "Has the entity reconciled total reportable segments' liabilities to the entity's total liabilities?",
+                "guidance": "Examine the segment reconciliation disclosures. Ensure that the total reported segment liabilities align with the entity’s total liabilities, as required by IFRS 8.28(d). Look out for explanatory notes or additional adjustments provided.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-477.5",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.28(e)",
+          "question": "Does the entity prepare segment reporting in accordance with IFRS 8?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "IFRS8-468",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity reconcile total reportable segments' amounts for every other material item to the corresponding entity amounts?",
+          "decision_tree": {
+            "question": "Does the entity prepare segment reporting in accordance with IFRS 8?",
+            "guidance": "Check whether the entity has operating segments as defined in IFRS 8. An operating segment is a reportable component of the entity whose financial information is regularly reviewed by the entity's chief operating decision maker (CODM) for resource allocation and performance assessment. Review the organizational structure and management reports to verify this.",
+            "yes_case": {
+              "question": "Are total reportable segments’ amounts disclosed for each material item as required by IFRS 8.28?",
+              "guidance": "Verify that financial data for reportable segments includes required material items in the segment disclosure. Material items may include revenues, results, assets, liabilities, or other measures specified in the standard. Check compliance against IFRS 8.23-28.",
+              "yes_case": {
+                "question": "Is there a reconciliation between total reportable segments’ material items and the entity's consolidated amounts as required by IFRS 8.28(e)?",
+                "guidance": "Inspect the segment reporting note in the financial statements. Confirm that any discrepancies between segment totals and consolidated financial totals are reconciled, with adjustments clearly explained. Follow IFRS 8.28(e) for detailed guidance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-478",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.28",
+          "question": "Does the entity have operating segments reported under IFRS 8?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "IFRS8-468",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity separately identify and describe all material reconciling items?",
+          "decision_tree": {
+            "question": "Does the entity have operating segments reported under IFRS 8?",
+            "guidance": "Review the financial statements and management disclosures. Determine if the entity applies IFRS 8 for segment reporting. Check if it provides information about operating segments in accordance with IFRS 8 Section 28.",
+            "yes_case": {
+              "question": "Are there any material reconciling items between the total of segment revenues/expenses and the overall revenues/expenses reported in the financial statements?",
+              "guidance": "Compare the totals of segment disclosures (e.g., revenues and expenses) with the values reported in the financial statements. Identify any material differences or reconciling items.",
+              "yes_case": {
+                "question": "Does the entity separately identify and describe each material reconciling item in the financial statements or notes?",
+                "guidance": "Review the financial statement notes or disclosures. Ensure that IFRS 8.28 is applied by specifying and explaining any material reconciling items between segment results and computed totals in the main financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-479",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.29",
+          "question": "Has the entity changed its internal organisation, causing reportable segment composition to change?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity changes its internal organisation causing reportable segment composition to change, has comparative information been restated for earlier periods when available and not excessive in cost?",
+          "decision_tree": {
+            "question": "Has the entity changed its internal organisation, causing reportable segment composition to change?",
+            "guidance": "Check internal organisational structure-related documents, such as board minutes, organisational charts, and management reports for the current period. Confirm whether such changes have implications for the definition of reportable segments under IFRS 8. Pay particular attention to changes in segment alignment to internal reporting provided to the chief operating decision maker.",
+            "yes_case": {
+              "question": "Is comparative information for earlier periods available?",
+              "guidance": "Review prior period financial statements and internal management reports to determine if data on the old segment composition is accessible. Verify completeness and consistency of historical segment data.",
+              "yes_case": {
+                "question": "Would restating comparative information for earlier periods result in excessive cost?",
+                "guidance": "Assess the effort and resources needed to restate comparative information by consulting management estimates, cost-benefit analyses, and documentation of practicality. Excessive cost typically indicates significant difficulty in retrieval or recalculation due to lost data, overly fragmented records, or unsupported legacy systems.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": {
+                  "question": "Has the entity restated comparative information for earlier periods?",
+                  "guidance": "Review current financial statements, segment disclosures, and accompanying notes. Ensure that comparative information reflects the revised segment structure in compliance with IFRS 8.29.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                }
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-480",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.30",
+          "question": "Has the entity undergone a change in its organization structure, affecting its segment reporting?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity does not restate prior period segment information after a change in organisation, does it disclose current period information on both the old and new basis when necessary and practicable?",
+          "decision_tree": {
+            "question": "Has the entity undergone a change in its organization structure, affecting its segment reporting?",
+            "guidance": "Review the entity's internal organization structure and segment reporting process. Check for any announcements or internal documentation regarding restructuring or changes to how segments are defined in the current financial year. Focus on IFRS 8.30 for guidance.",
+            "yes_case": {
+              "question": "Did the entity restate the prior period segment information due to the organizational change?",
+              "guidance": "Examine financial statements to see if prior period segment information has been adjusted to reflect the new organizational structure. Check the Notes to the Accounts for disclosures explicitly mentioning restatement of prior period data.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Is it necessary and practicable for the entity to disclose current period information on both the old and new basis?",
+                "guidance": "Assess whether dual disclosure is essential for understanding the financial impact of the organizational change. Review IFRS 8.30 to determine if such dual reporting improves comparability and clarity. Consider external factors, including the complexity of segment data and availability of historical information.",
+                "yes_case": {
+                  "question": "Does the entity disclose current period information on both the old and new basis of segment reporting?",
+                  "guidance": "Review the financial statements for dual presentation of segment reporting aligned with both the old organizational structure and the new structure. Ensure disclosures adhere to IFRS 8.30 for completeness and clarity.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-481",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.32",
+          "question": "Does the entity have multiple products or services (or groups of similar products and services) that generate revenue from external customers?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity report revenues from external customers for each product or service (or group of similar products and services) unless information is unavailable and cost to develop it would be excessive?",
+          "decision_tree": {
+            "question": "Does the entity have multiple products or services (or groups of similar products and services) that generate revenue from external customers?",
+            "guidance": "Review the entity's business model and revenue streams in the financial statements, particularly the Statement of Profit or Loss and accompanying notes. Verify if there are distinct products or services reported as generating external revenues. Look for segment disclosures or revenue breakdowns by business activity.",
+            "yes_case": {
+              "question": "Is the information regarding revenues from external customers by product or service (or group of similar products and services) available or reasonably estimable?",
+              "guidance": "Check whether the entity has systems or processes in place to capture revenue at the level of products, services, or similar groups. Refer to the accounting system, segment reporting, and internal management reporting for relevant information.",
+              "yes_case": {
+                "question": "Has the entity disclosed revenues from external customers for each product/service or group in the financial statements, pursuant to IFRS 8.32?",
+                "guidance": "Review notes accompanying the financial statements, particularly segment reporting disclosures under IFRS 8. Ensure revenues are disclosed separately for each product, service, or relevant group as required. Confirm granularity of disclosures aligns with the principle of usefulness.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Would the cost to develop the required information for segment disclosure be excessive?",
+                "guidance": "Evaluate the feasibility of obtaining the necessary data, including costs associated with system modifications, manual collection, or estimation methods. Excessive cost should be justified with reasonable evidence.",
+                "yes_case": "COMPLIANT: N/A",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-482.1",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.33(a)",
+          "question": "Does the entity operate in multiple geographical areas?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity report revenues from external customers attributed to its country of domicile?",
+          "decision_tree": {
+            "question": "Does the entity operate in multiple geographical areas?",
+            "guidance": "Review the entity's operational structure and business model, including segment reporting disclosures and management reports. Look for activities spanning different countries or regions. Geographic operations may already be discussed in financial statement notes under IFRS 8 Segment Reporting.",
+            "yes_case": {
+              "question": "Does the entity generate revenue from external customers in its country of domicile?",
+              "guidance": "Analyze revenue breakdowns provided in IFRS 8-based segment reporting. Inspect disclosures or management reports that attribute revenue to specific geographic segments, especially the country of domicile. Revenue must originate directly from transactions with external customers within the domicile country. Beware of misclassification when revenues are artificially allocated.",
+              "yes_case": {
+                "question": "Is revenue data from external customers attributed to the country of domicile reported in the financial statements?",
+                "guidance": "Ensure the financial statements include a clear disclosure of external customer revenues attributed to the domicile country under the segment reporting note. Cross-verify against IFRS 8.33(a) for completeness and consistency. Exclusion or aggregation errors are common compliance issues.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-482.2",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.33(a)",
+          "question": "Does the entity have revenues from external customers attributed to countries other than its domestic country?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity report revenues from external customers attributed to all foreign countries in total?",
+          "decision_tree": {
+            "question": "Does the entity have revenues from external customers attributed to countries other than its domestic country?",
+            "guidance": "Review the entity's segment reporting notes and geographical disclosures. Check if external revenues are derived from sources in foreign countries. Look for line items or notes specifying revenue segmentation by geographical location, including domestic and foreign revenues. Common pitfall: Confusing domestic revenues with foreign revenues.",
+            "yes_case": {
+              "question": "Does the entity report the total revenues from external customers attributed to all foreign countries in the financial statements?",
+              "guidance": "Verify disclosure within the segment reporting notes, specifically under IFRS 8.33(a). Look for a clear breakdown outlining total foreign revenues separately from domestic revenues. Common mistake: Omission of total foreign revenue or incorrect classification with no supporting documentation.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-482.3",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.33(a)",
+          "question": "Does the entity operate in more than one geographical region?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity report revenues from external customers attributed to an individual foreign country if material?",
+          "decision_tree": {
+            "question": "Does the entity operate in more than one geographical region?",
+            "guidance": "Refer to the entity's operational structure and geographical segmentation as defined in Note 1 or the accounting policy section of the financial statements. Verify whether operations span across multiple countries or regions.",
+            "yes_case": {
+              "question": "Do revenues from external customers attributable to any individual foreign country exceed materiality thresholds defined by the entity?",
+              "guidance": "Review the entity’s materiality policy documented as part of its accounting policies. Evaluate customer revenues geographically in the segment disclosures as per IFRS 8.33(a). A foreign country is any country outside the entity’s home country.",
+              "yes_case": {
+                "question": "Has the entity disclosed revenues from external customers for each individual material foreign country?",
+                "guidance": "Verify disclosures in the segment reporting note of the financial statements. Check if revenues for individual foreign countries considered material are presented as required under IFRS 8.33(a). Common pitfalls include aggregating foreign country revenues without identifying individual countries.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-482.4",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.33(a)",
+          "question": "Does the entity operate in multiple geographical locations and generate revenues from external customers in different countries?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the basis for attributing revenues from external customers to individual countries?",
+          "decision_tree": {
+            "question": "Does the entity operate in multiple geographical locations and generate revenues from external customers in different countries?",
+            "guidance": "Review the entity's operational structure and geographical spread as described in the segment reporting disclosures and management commentary. Look for specific indications of revenue being earned in more than one country. Common pitfalls include assuming a concentration of operations without verifying documented evidence.",
+            "yes_case": {
+              "question": "Are revenues from external customers attributed to individual countries in the segment reporting disclosures?",
+              "guidance": "Examine IFRS 8 disclosures in the financial statements, specifically the section on geographical information. Confirm that the revenues are broken down by country. Ensure that all relevant countries are covered and totals reconcile to the overall external revenue figure.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Has the entity disclosed an alternative basis for attributing revenues from external customers to countries, if exact country-specific segmentation is not feasible?",
+                "guidance": "If detailed country revenue data is unavailable, IFRS 8.33(a) permits disclosure of an alternative basis for geographic segmentation. Confirm if reasons for attributing revenues differently are adequately explained. Cross-reference the financial statement notes for consistency.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-482.5",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.33(b)",
+          "question": "Does the entity have non-current assets located in its country of domicile?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity report non-current assets (other than financial instruments, deferred tax assets, post-employment benefit assets and insurance rights) located in its country of domicile?",
+          "decision_tree": {
+            "question": "Does the entity have non-current assets located in its country of domicile?",
+            "guidance": "Review the entity's asset register, geographical breakdown of non-current assets, and financial statement disclosures under IFRS 8. Check whether any non-current assets (excluding financial instruments, deferred tax assets, post-employment benefit assets, and insurance rights) are reported as located within the country of domicile. Ensure exclusions are correctly applied.",
+            "yes_case": {
+              "question": "Does the entity classify the non-current assets appropriately, excluding financial instruments, deferred tax assets, post-employment benefit assets, and insurance rights?",
+              "guidance": "Verify that the entity's classification complies with the exclusions listed in IFRS 8.33(b). Review the relevant notes to the financial statements to ensure there is no incorrect inclusion of excluded asset types.",
+              "yes_case": {
+                "question": "Are the non-current assets located in the country of domicile reported in accordance with the disclosure requirements of IFRS 8?",
+                "guidance": "Refer to IFRS 8.33(b) to ensure the entity has disclosed the geographical location of the non-current assets properly. Check that disclosures include clear identification of the country of domicile and are consistent with financial statement presentation requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-482.6",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.33(b)",
+          "question": "Does the entity operate in foreign countries?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity report those non-current assets located in all foreign countries in total?",
+          "decision_tree": {
+            "question": "Does the entity operate in foreign countries?",
+            "guidance": "Review the notes to the financial statements and operational details in the management report to determine if the entity carries out operations in foreign countries. Verify whether the entity's business operations involve any physical presence or significant activities outside the entity's home country.",
+            "yes_case": {
+              "question": "Does the entity own or control non-current assets located in foreign countries?",
+              "guidance": "Inspect the Statement of Financial Position and related notes to identify non-current assets, such as property, plant, equipment, intangible assets, and investment properties. Confirm their physical location or jurisdictional control in foreign countries.",
+              "yes_case": {
+                "question": "Does the entity report the total amount of non-current assets located in all foreign countries, as required by IFRS 8.33(b)?",
+                "guidance": "Review the segment reporting disclosure in the financial statements. Ensure the total amount of non-current assets located in all foreign countries is aggregated and reported, excluding financial instruments, deferred tax assets, post-employment benefit assets, and rights arising under insurance contracts as per IFRS 8.33(b). Check for sufficient transparency and compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-482.7",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.33(b)",
+          "question": "Does the entity own or control non-current assets located in any individual foreign country?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity report those non-current assets located in an individual foreign country if material?",
+          "decision_tree": {
+            "question": "Does the entity own or control non-current assets located in any individual foreign country?",
+            "guidance": "Review the entity's Statement of Financial Position and supporting documents, such as fixed asset schedules or lease agreements. Look for non-current assets, including property, plant and equipment, intangible assets, and investment properties, located in foreign countries. Ensure that these assets are identifiable as per IFRS definitions.",
+            "yes_case": {
+              "question": "Are the non-current assets located in any individual foreign country material in amount?",
+              "guidance": "Assess materiality using the entity's threshold defined in its accounting policy. Refer to IFRS 8.33(b) for details on presentation requirements. Ensure materiality refers to the significance of the assets for decision-making by users of the financial statements. Use numerical benchmarks or qualitative factors to determine if they are material.",
+              "yes_case": {
+                "question": "Does the entity report those material non-current assets located in an individual foreign country as required by IFRS 8.33(b)?",
+                "guidance": "Check the operating segments disclosures. Verify that the entity provides specific information about non-current assets located in each material foreign country. Ensure that these disclosures are presented separately from other regions and include sufficient details as outlined in the standard.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-482.8",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.33(c)",
+          "question": "Is the entity required to report segment information under IFRS 8?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If necessary information is unavailable and cost to develop it is excessive, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Is the entity required to report segment information under IFRS 8?",
+            "guidance": "Check whether the entity operates multiple distinct and reportable segments that qualify under IFRS 8. Segment reporting is mandatory for entities whose equity or debt securities are publicly traded, or those filing financial statements with securities regulators. Refer to IFRS 8.2–8.5 for definitions of reportable segments and applicability criteria.",
+            "yes_case": {
+              "question": "Is necessary information for segment reporting unavailable to the entity?",
+              "guidance": "Review internal reports prepared regularly for the chief operating decision maker (CODM). If the reports lack significant financial and non-financial information about operating segments, necessary information may be considered unavailable.",
+              "yes_case": {
+                "question": "Would the cost to develop the necessary segment information be excessive?",
+                "guidance": "Assess whether the entity has explicitly identified that the costs of obtaining or preparing segment data exceeds the benefits of doing so. Review internal cost-benefit analyses or other management assessments.",
+                "yes_case": {
+                  "question": "Has the entity disclosed the fact that necessary information is unavailable and the cost to develop it is excessive?",
+                  "guidance": "Inspect the financial statement notes related to segment reporting (specifically around IFRS 8 compliance). Ensure the disclosure explains why the required segment information is unavailable and specifies that cost constraints prevented its development.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-483.1",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.34(a)",
+          "question": "Do revenues from a single external customer amount to 10% or more of the entity's total revenues?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If revenues from a single external customer amount to 10% or more of total revenues, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Do revenues from a single external customer amount to 10% or more of the entity's total revenues?",
+            "guidance": "Review the entity's revenue records and identify all external customers. Calculate the percentage contribution of each customer's revenue to total revenues. Refer to the general ledger and external revenue reports. Ensure calculations factor in all relevant revenue streams and exclude intercompany revenues.",
+            "yes_case": {
+              "question": "Does the entity disclose the fact that revenues from an individual external customer amount to 10% or more of total revenues, as required by IFRS 8.34(a)?",
+              "guidance": "Review the notes to the financial statements for disclosures regarding significant external customers. Ensure the entity complies with IFRS 8.34(a) by identifying significant customers and disclosing the fact without necessarily naming the customers. Examine specific sections of the financial statement notes dealing with revenues for this disclosure.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-483.2",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.34(b)",
+          "question": "Does the entity have any single customer that contributes 10% or more of its total revenue?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "IFRS8-483.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the revenues from each such customer?",
+          "decision_tree": {
+            "question": "Does the entity have any single customer that contributes 10% or more of its total revenue?",
+            "guidance": "Review the revenue breakdown in the financial statements. Calculate the contribution of each customer to the entity’s total revenue. Focus on customers with a contribution of 10% or more of total revenue. Refer to IFRS 8.34 for thresholds and requirements.",
+            "yes_case": {
+              "question": "Does the entity disclose the revenues from each such customer in accordance with IFRS 8.34(b)?",
+              "guidance": "Check the disclosures in the financial statements, specifically under the segment reporting notes or any applicable sections. Ensure the entity lists revenues attributable to each customer exceeding the 10% threshold and provides adequate description. Refer to IFRS 8.34(b) for specific disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS8-483.3",
+          "section": "IFRS 8",
+          "reference": "IFRS 8.34(c)",
+          "question": "Does the entity have operating segments that report revenues in accordance with IFRS 8?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "IFRS8-483.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the identity of the segment or segments reporting those revenues?",
+          "decision_tree": {
+            "question": "Does the entity have operating segments that report revenues in accordance with IFRS 8?",
+            "guidance": "Review the financial statements and operational structure of the entity. Look for disclosure of operating segments as defined by IFRS 8. Operating segments generate revenue and are regularly reviewed by the entity's chief operating decision maker. Refer to IFRS 8 paragraphs 5-10 for definitions and criteria. Ensure you exclude corporate-level activities unless they qualify as a segment.",
+            "yes_case": {
+              "question": "Do the disclosed revenues relate to specific identified segments?",
+              "guidance": "Examine the segment note in the financial statements. Check whether revenues disclosed can be traced to named operating segments. Ensure these are clearly identified and not aggregated without explanation. Be cautious of vague or missing labeling of segments.",
+              "yes_case": {
+                "question": "Does the entity disclose the identity of each segment reporting those revenues?",
+                "guidance": "Review the segmentation note, specifically for compliance with IFRS 8.34(c). This disclosure is typically found in the 'Operating Segments' note. Ensure that segment names or identifiers align with the revenues reported and are sufficiently descriptive to comply with IFRS standards.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

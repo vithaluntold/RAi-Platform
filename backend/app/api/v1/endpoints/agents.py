@@ -1,6 +1,12 @@
 """
 Agent API Endpoints
-Routes for managing agents, template-level configs, assignment-level assignments, and executions
+Routes for managing agents, template-level configs, assignment-level assignments, and executions.
+
+Provider abstraction:
+  Agents carry a provider_type (external / on_prem / hybrid) and a backend_provider
+  key ("azure", "llmlite", "ollama", etc.) plus a free-form backend_config JSON.
+  This lets the same API handle cloud-hosted Azure agents today and on-prem LLMLite
+  models in the future — callers only change the config payload, not the endpoint.
 """
 from fastapi import APIRouter, Depends, Query, HTTPException
 from sqlalchemy.orm import Session
@@ -40,11 +46,19 @@ def create_agent(
 def list_agents(
     agent_type: str = Query(None),
     status: str = Query(None),
+    provider_type: str = Query(None, description="Filter by provider type: external, on_prem, hybrid"),
+    backend_provider: str = Query(None, description="Filter by backend provider key: azure, llmlite, etc."),
     db: Session = Depends(get_db),
     current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
     """List all agents with optional filters"""
-    return AgentService.list_agents(db, agent_type=agent_type, status=status)
+    return AgentService.list_agents(
+        db,
+        agent_type=agent_type,
+        status=status,
+        provider_type=provider_type,
+        backend_provider=backend_provider,
+    )
 
 
 @router.get("/{agent_id}", response_model=AgentResponse)
@@ -85,6 +99,73 @@ def delete_agent(
     """Soft-delete an agent (marks inactive)"""
     if not AgentService.delete_agent(db, agent_id):
         raise HTTPException(status_code=404, detail="Agent not found")
+
+
+@router.post("/{agent_id}/validate-config")
+def validate_agent_config(
+    agent_id: UUID,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(require_roles(UserRole.ADMIN)),
+):
+    """
+    Validate an agent's backend_config against its provider type.
+    Returns a report of which config sections are present/missing.
+    Useful for verifying connectivity before activating an agent.
+    """
+    from app.schemas.agent import (
+        ProviderConfigAzure, ProviderConfigLLMLite, ProviderConfigHybrid,
+    )
+
+    agent = AgentService.get_agent(db, agent_id)
+    if not agent:
+        raise HTTPException(status_code=404, detail="Agent not found")
+
+    config = agent.backend_config or {}
+    provider = agent.backend_provider
+    provider_type_val = (
+        agent.provider_type.value
+        if hasattr(agent.provider_type, "value")
+        else str(agent.provider_type)
+    )
+    errors = []
+    warnings = []
+
+    if provider_type_val == "external" and provider == "azure":
+        try:
+            parsed = ProviderConfigAzure(**config)
+            if not parsed.llm_endpoints:
+                warnings.append("No llm_endpoints configured — agent cannot run analysis")
+            if not parsed.document_intelligence:
+                warnings.append("No document_intelligence — PDF extraction unavailable")
+            if not parsed.search:
+                warnings.append("No search config — semantic search unavailable")
+        except Exception as e:
+            errors.append(f"Azure config validation failed: {str(e)}")
+
+    elif provider_type_val == "on_prem" and provider == "llmlite":
+        try:
+            parsed = ProviderConfigLLMLite(**config)
+            if not parsed.base_url:
+                errors.append("base_url is required for LLMLite provider")
+            if not parsed.model_id:
+                errors.append("model_id is required for LLMLite provider")
+        except Exception as e:
+            errors.append(f"LLMLite config validation failed: {str(e)}")
+
+    elif provider_type_val == "hybrid":
+        try:
+            ProviderConfigHybrid(**config)
+        except Exception as e:
+            errors.append(f"Hybrid config validation failed: {str(e)}")
+
+    return {
+        "agent_id": str(agent.id),
+        "provider_type": provider_type_val,
+        "backend_provider": provider,
+        "valid": len(errors) == 0,
+        "errors": errors,
+        "warnings": warnings,
+    }
 
 
 # ─── Workflow Task Agent (Template Level) ──────────────────────────────────
@@ -239,14 +320,72 @@ def execute_agent(
     db: Session = Depends(get_db),
     current_user: User = Depends(require_roles(UserRole.ADMIN, UserRole.MANAGER)),
 ):
-    """Trigger an agent execution on an assignment task"""
+    """
+    Trigger an agent execution on an assignment task.
+
+    For COMPLIANCE_ANALYSIS agents, this actually runs the compliance pipeline
+    if input_data contains a session_id.
+    """
     try:
         execution = AgentExecutionService.create_execution(
             db, ata_id, current_user.id, payload.input_data
         )
+
+        # Check if this is a compliance analysis agent — run it
+        agent = db.query(Agent).filter(Agent.id == execution.agent_id).first()
+        if agent and agent.agent_type and agent.agent_type.value == "compliance_analysis":
+            _run_compliance_execution(db, execution, agent)
+
         return execution
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
+
+
+def _run_compliance_execution(db, execution, agent):
+    """
+    Execute a compliance analysis agent.
+
+    Reads session_id from execution.input_data and runs the full pipeline.
+    Updates execution status to COMPLETED or FAILED.
+    """
+    import logging
+    from app.services.compliance.compliance_orchestrator import ComplianceOrchestrator
+
+    logger = logging.getLogger(__name__)
+    session_id = (execution.input_data or {}).get("session_id")
+    if not session_id:
+        AgentExecutionService.fail_execution(
+            db, execution.id,
+            error_message="input_data.session_id is required for compliance analysis",
+        )
+        return
+
+    # Mark as running
+    AgentExecutionService.start_execution(db, execution.id)
+
+    try:
+        if agent.backend_config:
+            orchestrator = ComplianceOrchestrator.from_agent_config(agent.backend_config)
+        else:
+            from app.core.config import settings
+            orchestrator = ComplianceOrchestrator.from_settings(settings)
+
+        result = orchestrator.run(db, session_id)
+
+        AgentExecutionService.complete_execution(
+            db, execution.id, output_data=result,
+        )
+        logger.info(
+            "Compliance execution %s completed: score=%s%%",
+            execution.id, result.get("compliance_score"),
+        )
+    except Exception as e:
+        logger.error("Compliance execution %s failed: %s", execution.id, e)
+        AgentExecutionService.fail_execution(
+            db, execution.id,
+            error_message=str(e),
+            error_details={"type": type(e).__name__},
+        )
 
 
 @router.get(

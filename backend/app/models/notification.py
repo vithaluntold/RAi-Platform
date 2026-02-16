@@ -3,7 +3,7 @@ import enum
 from datetime import datetime
 from sqlalchemy import Column, String, Boolean, DateTime, Enum, Text, ForeignKey
 from sqlalchemy.dialects.postgresql import UUID
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, backref
 from app.db.session import Base
 
 
@@ -31,7 +31,7 @@ class Notification(Base):
 
     created_at = Column(DateTime, default=datetime.utcnow)
 
-    user = relationship("User", backref="notifications", lazy="joined")
+    user = relationship("User", backref=backref("notifications", passive_deletes=True), lazy="joined")
 
 
 class NotificationSetting(Base):
@@ -61,4 +61,4 @@ class UserNotificationPreference(Base):
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     updated_by = Column(UUID(as_uuid=True), ForeignKey("users.id"), nullable=True)
 
-    user = relationship("User", foreign_keys=[user_id], backref="notification_preference", uselist=False)
+    user = relationship("User", foreign_keys=[user_id], backref=backref("notification_preference", uselist=False, passive_deletes=True))

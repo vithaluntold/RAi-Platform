@@ -1,0 +1,1093 @@
+{
+  "title": "International GAAP® Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 7",
+      "title": "Statement of Cash Flows",
+      "description": "Checklist for presentation and disclosure requirements under IAS 7.",
+      "items": [
+        {
+          "id": "106",
+          "section": "IAS 7",
+          "reference": "IAS 7.65",
+          "question": "Has the entity applied the Amendments to IAS 7 in Annual Improvements to IFRS Accounting Standards – Volume 11, issued July 2024?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity applies the Amendments to IAS 7 in Annual Improvements to IFRS Accounting Standards – Volume 11, issued July 2024, in its financial statements for a period beginning before 1 January 2026, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Has the entity applied the Amendments to IAS 7 in Annual Improvements to IFRS Accounting Standards – Volume 11, issued July 2024?",
+            "guidance": "Review the significant accounting policies note for disclosures regarding the adoption of new or amended IFRS Accounting Standards. Specifically, look for any mention of 'Annual Improvements to IFRS Accounting Standards – Volume 11' or specific amendments to IAS 7, and the date of application. If the financial statements explicitly state that these amendments have not yet been applied, or if there is no mention of their application, the answer is 'No'.",
+            "yes_case": {
+              "question": "Does the financial reporting period for which these amendments were applied begin before 1 January 2026?",
+              "guidance": "Identify the start date of the current financial reporting period. This date is typically found on the face of the financial statements (e.g., 'For the year ended...') or in the notes to the financial statements. Compare this start date to 1 January 2026.",
+              "yes_case": {
+                "question": "Has the entity disclosed that it applied the Amendments to IAS 7 in Annual Improvements to IFRS Accounting Standards – Volume 11 (issued July 2024) in a period beginning before 1 January 2026?",
+                "guidance": "Review the notes to the financial statements, particularly the section on new accounting standards adopted or changes in accounting policies. Look for an explicit statement acknowledging the early application of these specific amendments for a period commencing before their mandatory effective date.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "107",
+          "section": "IAS 7",
+          "reference": "IAS 7.10, IAS 7.6, IAS 7.14-17",
+          "question": "Does the entity present a Statement of Cash Flows as part of its complete set of financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Are the cash flows during the period classified by operating, investing and financing activities?",
+          "decision_tree": {
+            "question": "Does the entity present a Statement of Cash Flows as part of its complete set of financial statements?",
+            "guidance": "Review the entity's primary financial statements (Statement of Financial Position, Statement of Profit or Loss and Other Comprehensive Income, Statement of Changes in Equity, and Statement of Cash Flows). IAS 1.10(d) requires a Statement of Cash Flows. If the entity is exempt from preparing a Statement of Cash Flows (e.g., under specific consolidation exemptions), this checklist item might be 'Not Applicable'. However, for most entities preparing full IFRS financial statements, it is a mandatory statement.",
+            "yes_case": {
+              "question": "Are all cash flows during the period clearly classified into operating, investing, and financing activities within the Statement of Cash Flows?",
+              "guidance": "Examine the Statement of Cash Flows. Verify that all cash inflows and outflows are segregated and presented under distinct headings for 'Cash Flows from Operating Activities', 'Cash Flows from Investing Activities', and 'Cash Flows from Financing Activities' as required by IAS 7.10. Ensure no significant cash flows are unclassified or incorrectly categorized (refer to IAS 7.6 and IAS 7.14-17 for definitions and examples of each activity type).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "108",
+          "section": "IAS 7",
+          "reference": "IAS 7.33A",
+          "question": "Did the entity pay any dividends during the period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity classify dividends paid as cash flows from financing activities?",
+          "decision_tree": {
+            "question": "Did the entity pay any dividends during the period?",
+            "guidance": "Review the Statement of Changes in Equity for dividend declarations and payments. Also check the Statement of Cash Flows for any dividend payments listed. Refer to the notes to the financial statements for further details on dividend policies and payments.",
+            "yes_case": {
+              "question": "Does the entity classify dividends paid as cash flows from financing activities in the Statement of Cash Flows?",
+              "guidance": "Locate the 'Financing Activities' section within the Statement of Cash Flows. Verify that any cash outflows related to dividend payments are reported under this section, in accordance with IAS 7.33A. Be careful not to confuse dividends paid with interest paid, which may be classified differently.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "109.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.34A(a), IAS 7.34D(a)",
+          "question": "Did the entity pay any interest during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity classify interest paid (as described in IAS 7.32) as cash flows from financing activities?",
+          "decision_tree": {
+            "question": "Did the entity pay any interest during the reporting period?",
+            "guidance": "Review the Statement of Cash Flows, Income Statement, and related notes. Identify any line items for 'interest expense' or 'finance costs'. Confirm actual payments by examining bank statements or payment registers. If interest expense is recognized but no cash outflow occurred (e.g., accrued but not paid), answer 'No'.",
+            "yes_case": {
+              "question": "Does the entity classify the interest paid as cash flows from financing activities?",
+              "guidance": "Locate 'interest paid' within the Statement of Cash Flows. Confirm its classification under 'Cash Flows from Financing Activities'. Refer to IAS 7.34A(a) which states that for entities other than financial institutions, interest paid may be classified as operating or financing activities.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "109.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.34A(b), IAS 7.34D(b)",
+          "question": "Did the entity receive any interest or dividends during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity classify interest and dividends received as cash flows from investing activities?",
+          "decision_tree": {
+            "question": "Did the entity receive any interest or dividends during the reporting period?",
+            "guidance": "Review the entity's Income Statement and Statement of Cash Flows. Look for line items such as 'Interest income', 'Dividend income', 'Interest received', or 'Dividends received'. If the entity has no such receipts, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity classify interest and dividends received as cash flows from investing activities in the Statement of Cash Flows?",
+              "guidance": "Examine the 'Cash flows from investing activities' section of the Statement of Cash Flows. Confirm if cash inflows from interest and dividends are explicitly presented within this section. Refer to IAS 7.34A(b) and IAS 7.34D(b) for context on permissible classifications.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity classify interest and dividends received as cash flows from operating activities in the Statement of Cash Flows?",
+                "guidance": "If not classified as investing, verify if these cash inflows are presented within the 'Cash flows from operating activities' section. IAS 7.34A(b) permits classification as either operating or investing cash flows. For financial institutions, operating classification is typical.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "110",
+          "section": "IAS 7",
+          "reference": "IAS 7.34B, IAS 7.34C",
+          "question": "Is the entity an investment entity as defined in IFRS 10, and is it required to apply the exception to consolidation for all its subsidiaries in accordance with IFRS 10?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does such an entity classify the total of each of these cash flows in a single category in the statement of cash flows (that is, either as operating, investing or financing activities), associated with the categories of the statement of profit or loss?",
+          "decision_tree": {
+            "question": "Is the entity an investment entity as defined in IFRS 10, and is it required to apply the exception to consolidation for all its subsidiaries in accordance with IFRS 10?",
+            "guidance": "Refer to IFRS 10 Consolidated Financial Statements, paragraphs 27-33, for the definition of an investment entity and its accounting policy for subsidiaries. Verify if the entity meets these specific criteria.",
+            "yes_case": {
+              "question": "Did the investment entity have cash flows from changes in interests in a subsidiary or other equity investment (per IAS 7.34B) or from the disposal of such an interest (per IAS 7.34C) that were *not* classified as investing activities?",
+              "guidance": "Review the Statement of Cash Flows and related notes. Identify any cash flows related to changes in or disposals of interests in subsidiaries or other equity investments. Specifically identify those cash flows that were *not* classified within investing activities.",
+              "yes_case": {
+                "question": "Does the entity classify the total of these specific cash flows (i.e., those identified in the previous step, which were not investing activities) as *operating activities* in the statement of cash flows?",
+                "guidance": "According to IAS 7.34B and IAS 7.34C, such cash flows *shall* be classified as operating activities. Verify that the total amount of these cash flows is presented within the operating activities section of the Statement of Cash Flows.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "111.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.18(a)",
+          "question": "Does the entity report cash flows from operating activities using the direct method?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity report cash flows from operating activities using the direct method, disclosing major classes of gross cash receipts and gross cash payments (this method is encouraged)?",
+          "decision_tree": {
+            "question": "Does the entity report cash flows from operating activities using the direct method?",
+            "guidance": "Review the Statement of Cash Flows. The direct method presents major classes of gross cash receipts and gross cash payments (e.g., cash received from customers, cash paid to suppliers). In contrast, the indirect method typically begins with profit or loss and adjusts for non-cash items and changes in working capital.",
+            "yes_case": {
+              "question": "Does the entity disclose major classes of gross cash receipts and gross cash payments when using the direct method?",
+              "guidance": "Examine the operating activities section of the Statement of Cash Flows. Verify that significant categories of cash inflows (e.g., from customers, royalties, fees, commissions, other revenue) and cash outflows (e.g., to suppliers, for employees, for operating expenses) are presented separately and on a gross basis, as required by IAS 7.18(a).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "111.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.18(b)",
+          "question": "Does the entity prepare a Statement of Cash Flows and present its operating activities using the indirect method?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity report cash flows from operating activities using the indirect method, in which the entity adjusts profit or loss (or operating profit or loss, if the entity early adopts IFRS 18) for cash flows from operating activities for which the associated income or expenses are not classified in the operating category of the statement of profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity prepare a Statement of Cash Flows and present its operating activities using the indirect method?",
+            "guidance": "Review the entity's Statement of Cash Flows. The indirect method typically begins with 'Profit or Loss' (or 'Operating Profit or Loss' if IFRS 18 is early adopted) and then adjusts for non-cash items and changes in working capital. The direct method lists major classes of gross cash receipts and payments.",
+            "yes_case": {
+              "question": "Are there any cash flows classified as operating activities in the Statement of Cash Flows for which the associated income or expense is *not* classified within the operating category of the Statement of Profit or Loss?",
+              "guidance": "Carefully compare the classification of specific income and expense items in the Statement of Profit or Loss with the classification of their related cash flows in the Statement of Cash Flows. Look for situations where a cash flow is clearly operating, but its corresponding income or expense in the Statement of Profit or Loss is presented outside of 'operating profit or loss' (e.g., in finance costs, other comprehensive income, or non-operating gains/losses).",
+              "yes_case": {
+                "question": "Does the entity correctly adjust profit or loss (or operating profit or loss, if IFRS 18 is early adopted) for these identified cash flows from operating activities?",
+                "guidance": "Examine the reconciliation from profit or loss to net cash from operating activities within the Statement of Cash Flows. Verify that specific adjustments are made for the cash flows identified in the previous step, ensuring these are properly accounted for in the indirect method reconciliation to arrive at net cash from operating activities. Ensure these adjustments are distinct and appropriate.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "112",
+          "section": "IAS 7",
+          "reference": "IAS 7.21",
+          "question": "Did the entity have any cash flows arising from investing or financing activities during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity report major classes of gross cash receipts and gross cash payments arising from investing and financing activities separately, except as described in IAS 7.22 below?",
+          "decision_tree": {
+            "question": "Did the entity have any cash flows arising from investing or financing activities during the reporting period?",
+            "guidance": "Refer to the entity's Statement of Cash Flows. Specifically examine the 'Cash flows from investing activities' and 'Cash flows from financing activities' sections to identify if any amounts are presented.",
+            "yes_case": {
+              "question": "Does the entity apply the netting exceptions permitted by IAS 7.22 for any of its investing or financing cash flows?",
+              "guidance": "Review IAS 7.22, which allows specific cash flows to be reported on a net basis: (a) cash flows on behalf of customers or (b) cash flows for items with quick turnover, large amounts, and short maturities (e.g., purchase/sale of investments, short-term borrowings). Identify any investing or financing cash flows that are presented net and assess if they fall strictly within these criteria. If all investing and financing cash flows are reported gross, answer 'No'.",
+              "yes_case": {
+                "question": "Are only those specific investing or financing cash flows that strictly meet the criteria of IAS 7.22 reported on a net basis, with all other applicable investing and financing cash flows reported as major classes of gross receipts and gross payments?",
+                "guidance": "For each instance where investing or financing cash flows are reported on a net basis, rigorously verify that the specific activity fully aligns with the conditions set out in IAS 7.22. Ensure that any investing or financing cash flows that do NOT meet these strict criteria are presented separately as major classes of gross cash receipts and gross cash payments, as required by IAS 7.21.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Does the entity report major classes of gross cash receipts and gross cash payments arising from *all* its investing and financing activities separately in the Statement of Cash Flows?",
+                "guidance": "As IAS 7.22 exceptions are not being applied (or are deemed not applicable), examine the investing and financing sections of the Statement of Cash Flows. Verify that all cash inflows (receipts) and cash outflows (payments) are reported as distinct, gross amounts for each major class of activity (e.g., 'Proceeds from sale of property, plant, and equipment' and 'Payments to acquire property, plant, and equipment' should be shown separately, not as a single net figure).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "113.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.22(a), IAS 7.24(a)",
+          "question": "Does the entity have cash receipts and payments where the cash flows reflect the activities of a customer rather than the entity's own operations?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Are cash receipts and payments on behalf of customers, if the cash flows reflect the activities of the customer rather than those of the entity, reported on a net basis?",
+          "decision_tree": {
+            "question": "Does the entity have cash receipts and payments where the cash flows reflect the activities of a customer rather than the entity's own operations?",
+            "guidance": "Review the nature of cash flows. This condition typically applies when the entity acts as an agent, broker, or intermediary, handling funds on behalf of a third party (the customer). Examples include collecting rents for an owner, receiving and paying funds in an agency arrangement, or holding funds in trust. Consult relevant contracts and general ledger accounts for 'funds held on behalf of others' or 'pass-through' accounts.",
+            "yes_case": {
+              "question": "Are these specific cash receipts and payments (on behalf of customers) reported on a net basis in the Statement of Cash Flows?",
+              "guidance": "Refer to IAS 7.22(a) and IAS 7.24(a). For cash flows where the entity is acting on behalf of customers (e.g., an agent), only the net cash flow (e.g., the net change in funds held) should be presented, not the gross receipts and gross payments. Examine the Statement of Cash Flows for such items and confirm net presentation.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "113.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.22(b), IAS 7.24(b)",
+          "question": "Does the entity have cash receipts and payments for items characterized by quick turnover, large amounts, and short maturities?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Are cash receipts and payments for items in which the turnover is quick, the amounts are large and the maturities are short reported on a net basis?",
+          "decision_tree": {
+            "question": "Does the entity have cash receipts and payments for items characterized by quick turnover, large amounts, and short maturities?",
+            "guidance": "Review the entity's cash flow activities and supporting documentation (e.g., bank statements, treasury reports, short-term investment portfolios, accounts payable/receivable ledgers). Look for activities such as purchases and sales of short-term investments, customer refunds, or other transactions where cash is received and paid out rapidly for substantial sums over brief periods. Examples include highly liquid money market instruments or frequent settlement of customer accounts, but exclude cash advances and loans made to customers, and the acquisition and disposal of interests in joint ventures and subsidiaries.",
+            "yes_case": {
+              "question": "Are these cash receipts and payments reported on a net basis in the Statement of Cash Flows, as permitted/required by IAS 7.22(b) and IAS 7.24(b)?",
+              "guidance": "Refer to the Statement of Cash Flows. Specifically examine the operating, investing, and financing sections for presentation of transactions identified in the previous step. IAS 7.22(b) and IAS 7.24(b) permit or require net reporting for such items. Look for single net figures rather than separate gross cash inflows and outflows for these specific types of transactions. Do not confuse this with net reporting of cash flows arising from customer advances, loans, or the acquisition/disposal of interests in subsidiaries/joint ventures, which have different rules.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "114",
+          "section": "IAS 7",
+          "reference": "IAS 7.45",
+          "question": "Does the entity disclose a reconciliation of cash and cash equivalents between the statement of financial position and the statement of cash flows, showing the components of cash and cash equivalents?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the components of cash and cash equivalents?",
+          "decision_tree": {
+            "question": "Does the entity disclose a reconciliation of cash and cash equivalents between the statement of financial position and the statement of cash flows, showing the components of cash and cash equivalents?",
+            "guidance": "Review the notes to the financial statements, specifically the note relating to 'Cash and Cash Equivalents'. Look for a breakdown of these components (e.g., cash on hand, bank balances, short-term highly liquid investments) and a reconciliation if there are differences in classification between the balance sheet and the cash flow statement. Ensure all items included in cash and cash equivalents on the Statement of Cash Flows are consistent with their presentation in the Statement of Financial Position.",
+            "yes_case": "COMPLIANT: YES",
+            "no_case": "COMPLIANT: NO"
+          }
+        },
+        {
+          "id": "115",
+          "section": "IAS 7",
+          "reference": "IAS 7.46",
+          "question": "Does the entity disclose its policy for determining the composition of cash and cash equivalents?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the policy for determining the composition of cash and cash equivalents?",
+          "decision_tree": {
+            "question": "Does the entity disclose its policy for determining the composition of cash and cash equivalents?",
+            "guidance": "Review the significant accounting policies section in the notes to the financial statements. Look for a specific policy related to 'Cash and Cash Equivalents' that explains what items are included in this category for the purpose of the Statement of Cash Flows. This might include criteria for highly liquid investments (e.g., maturity period of three months or less from acquisition date). IAS 7.7 and IAS 7.46 provide context for this disclosure.",
+            "yes_case": "COMPLIANT: YES",
+            "no_case": "COMPLIANT: NO"
+          }
+        },
+        {
+          "id": "116",
+          "section": "IAS 7",
+          "reference": "IAS 7.45",
+          "question": "Does the entity reconcile the amounts of cash and cash equivalents presented in the Statement of Cash Flows with the equivalent items in the Statement of Financial Position?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity reconcile the amounts of cash and cash equivalents in the statement of cash flows with the equivalent items in the statement of financial position?",
+          "decision_tree": {
+            "question": "Does the entity reconcile the amounts of cash and cash equivalents presented in the Statement of Cash Flows with the equivalent items in the Statement of Financial Position?",
+            "guidance": "Review the notes to the financial statements for a specific reconciliation statement or note. Alternatively, verify if the closing balance of cash and cash equivalents in the Statement of Cash Flows directly matches the corresponding line item in the Statement of Financial Position as of the reporting date. Pay attention to the definition of cash and cash equivalents used consistently across both statements.",
+            "yes_case": "COMPLIANT: YES",
+            "no_case": "COMPLIANT: NO"
+          }
+        },
+        {
+          "id": "117",
+          "section": "IAS 7",
+          "reference": "IAS 7.39",
+          "question": "Did the entity obtain control of any subsidiaries or other businesses during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Have the aggregate cash flows arising from obtaining control of subsidiaries or other businesses been presented separately and classified as investing activities in the statement of cash flows?",
+          "decision_tree": {
+            "question": "Did the entity obtain control of any subsidiaries or other businesses during the reporting period?",
+            "guidance": "Review the notes to the financial statements, particularly those related to business combinations or acquisitions. Examine the statement of changes in equity, board minutes, or relevant legal documents for evidence of new acquisitions or mergers that resulted in the entity obtaining control of another business.",
+            "yes_case": {
+              "question": "Have the aggregate cash flows arising from obtaining control of subsidiaries or other businesses been presented separately and classified as investing activities in the statement of cash flows, as required by IAS 7.39?",
+              "guidance": "Locate the 'Investing Activities' section in the Statement of Cash Flows. Verify that there is a distinct line item (e.g., 'Cash flows from acquisition of subsidiary' or similar) that clearly reports the *aggregate* cash flows related to obtaining control. Ensure this amount is not netted with other activities or included in a general 'other investing activities' line if it represents the obtaining of control of a business.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "118.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.40(a), IAS 7.42A(a)",
+          "question": "Did the entity obtain control of any subsidiaries or other businesses during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "117",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the total consideration paid or received for obtaining control of subsidiaries or other businesses during the reporting period?",
+          "decision_tree": {
+            "question": "Did the entity obtain control of any subsidiaries or other businesses during the reporting period?",
+            "guidance": "Review the 'Notes to the Financial Statements', specifically sections related to 'Business Combinations' or 'Consolidation'. Check for any acquisitions of control during the reporting period. Also, consult board minutes and management reports for significant investment decisions.",
+            "yes_case": {
+              "question": "Does the entity disclose the total consideration paid or received for obtaining control of these subsidiaries or other businesses during the reporting period?",
+              "guidance": "Refer to the 'Notes to the Financial Statements', typically under the 'Business Combinations' section. Look for a clear disclosure detailing the total consideration exchanged for the acquisition of control. This should include all forms of consideration, such as cash, equity instruments, and contingent consideration, and be presented in aggregate for each significant acquisition or grouped for individually immaterial acquisitions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "118.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.40(b), IAS 7.42A(b)",
+          "question": "Did the entity make any acquisitions of assets or liabilities during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "117",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the portion of the consideration consisting of cash and cash equivalents?",
+          "decision_tree": {
+            "question": "Did the entity make any acquisitions of assets or liabilities during the reporting period?",
+            "guidance": "Review the financial statements, particularly notes related to business combinations (IFRS 3), acquisitions of property, plant and equipment, intangible assets, or other significant assets and liabilities. Look for transactions where the entity acquired control of another entity, or purchased individual assets/assumed liabilities.",
+            "yes_case": {
+              "question": "Does the entity disclose the portion of the consideration for these acquisitions consisting of cash and cash equivalents?",
+              "guidance": "Refer to the notes accompanying the financial statements. Specifically, locate disclosures related to the acquisitions identified in the previous step. Verify that for each acquisition, the amount of cash and cash equivalents paid as part of the total consideration is separately disclosed, in accordance with IAS 7.42A(b).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "118.3",
+          "section": "IAS 7",
+          "reference": "IAS 7.40(c), IAS 7.42A(c)",
+          "question": "Did the entity obtain control over any subsidiaries or other businesses during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "117",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of cash and cash equivalents in the subsidiaries or other businesses over which control is obtained?",
+          "decision_tree": {
+            "question": "Did the entity obtain control over any subsidiaries or other businesses during the reporting period?",
+            "guidance": "Review the notes to the financial statements, particularly those related to business combinations (e.g., under IFRS 3) and changes in the group structure or scope of consolidation. Identify any new subsidiaries or businesses acquired where control was obtained.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of cash and cash equivalents in the subsidiaries or other businesses over which control was obtained?",
+              "guidance": "Refer to the notes to the financial statements, specifically the disclosures related to business combinations (IFRS 3) and the Statement of Cash Flows (IAS 7). Look for a specific disclosure of the cash and cash equivalents balances of newly acquired entities at the date control was obtained. This is typically presented as part of the cash flow reconciliation for acquisitions or within a detailed business combination note.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "118.4",
+          "section": "IAS 7",
+          "reference": "IAS 7.40(d), IAS 7.42A(d)",
+          "question": "Did the entity obtain control over any subsidiary or business during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "117",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of the assets and liabilities other than cash or cash equivalents in the subsidiaries or businesses over which control is obtained, summarised by each major category?",
+          "decision_tree": {
+            "question": "Did the entity obtain control over any subsidiary or business during the reporting period?",
+            "guidance": "Review the notes to the financial statements, specifically sections related to business combinations (IFRS 3) or the formation/acquisition of new subsidiaries. Look for events where the entity gained control, not just joint ventures or associates. Check the statement of changes in equity for any new consolidations.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of assets and liabilities (other than cash or cash equivalents) of these newly controlled subsidiaries or businesses, summarised by each major category?",
+              "guidance": "Examine the disclosures related to business combinations or acquisitions (typically under IFRS 3 and IAS 7). Ensure that a breakdown of the fair values of assets acquired and liabilities assumed is provided. Specifically, check that cash and cash equivalents are either explicitly excluded from this specific disclosure or separately presented, and that major categories of assets (e.g., property, plant & equipment; intangible assets; trade receivables) and liabilities (e.g., trade payables; provisions; deferred revenue) are individually identified and quantified.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "119",
+          "section": "IAS 7",
+          "reference": "IAS 7.39",
+          "question": "Did the entity lose control of any subsidiaries or other businesses during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Have the aggregate cash flows arising from losing control of subsidiaries or other businesses been presented separately and classified as investing activities in the statement of cash flows?",
+          "decision_tree": {
+            "question": "Did the entity lose control of any subsidiaries or other businesses during the reporting period?",
+            "guidance": "Review the notes to the financial statements, specifically disclosures related to disposals of subsidiaries, business segments, or changes in ownership structure. Also, check management's discussion and analysis or significant events for information on divestitures or significant asset sales.",
+            "yes_case": {
+              "question": "Are the aggregate cash flows arising from losing control of subsidiaries or other businesses presented separately in the statement of cash flows?",
+              "guidance": "Refer to IAS 7.39. Locate the Statement of Cash Flows. Identify the investing activities section. Look for a distinct line item or an aggregated amount that specifically represents cash flows from the loss of control of subsidiaries or other businesses. This amount should not be combined with other broad categories of cash flows if it is material.",
+              "yes_case": {
+                "question": "Are these separately presented cash flows correctly classified as investing activities?",
+                "guidance": "According to IAS 7.39, cash flows from losing control of subsidiaries or other businesses must be classified as investing activities. Verify that the identified separate line item is positioned within the 'Cash Flows from Investing Activities' section of the Statement of Cash Flows, and not within operating or financing activities.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "120.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.40(a), IAS 7.40A(a)",
+          "question": "Did the entity lose control of any subsidiaries or other businesses during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "119",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the total consideration paid or received for losing control of subsidiaries or other businesses during the reporting period?",
+          "decision_tree": {
+            "question": "Did the entity lose control of any subsidiaries or other businesses during the reporting period?",
+            "guidance": "Review the entity's consolidated financial statements, specifically the notes related to disposals of subsidiaries, discontinued operations, or significant changes in group structure. Also, examine the Statement of Cash Flows for any cash flows related to disposals of businesses.",
+            "yes_case": {
+              "question": "Does the entity disclose the total consideration paid or received for losing control of these subsidiaries or other businesses, as required by IAS 7.40(a) and IAS 7.40A(a)?",
+              "guidance": "Locate the notes to the financial statements related to disposals of subsidiaries or other businesses. Verify that the total consideration exchanged for losing control (i.e., cash received, non-cash assets, or liabilities transferred) is clearly and separately disclosed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "120.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.40(b), IAS 7.40A(b)",
+          "question": "Did the entity acquire or dispose of any subsidiaries or other business units during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "119",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the portion of the consideration consisting of cash and cash equivalents?",
+          "decision_tree": {
+            "question": "Did the entity acquire or dispose of any subsidiaries or other business units during the reporting period?",
+            "guidance": "Review the notes to the financial statements, particularly sections discussing business combinations (e.g., IFRS 3 disclosures) or disposals of operations (e.g., IFRS 5 disclosures). Look for any transactions that resulted in gaining or losing control over another entity or a distinct business unit.",
+            "yes_case": {
+              "question": "Does the entity disclose the portion of the consideration for these acquisitions or disposals that consisted of cash and cash equivalents?",
+              "guidance": "Examine the notes to the financial statements related to business combinations and/or disposals of subsidiaries/business units. Specifically, look for a breakdown of the total consideration paid or received, clearly identifying the amount attributable to cash and cash equivalents. Refer to IAS 7.40(b) for acquisitions and IAS 7.40A(b) for disposals.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "120.3",
+          "section": "IAS 7",
+          "reference": "IAS 7.40(c), IAS 7.40A(c)",
+          "question": "Did the entity lose control over any subsidiary or other business during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "119",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of cash and cash equivalents in the subsidiaries or other businesses over which control is lost?",
+          "decision_tree": {
+            "question": "Did the entity lose control over any subsidiary or other business during the reporting period?",
+            "guidance": "Review the consolidated financial statements and accompanying notes for any disposals of subsidiaries, deconsolidation events, or other transactions resulting in a loss of control as defined by IFRS 10. Common indicators include notes on discontinued operations, business combinations (specifically disposals), or changes in ownership interests that lead to a loss of control.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of cash and cash equivalents in the subsidiaries or other businesses over which control was lost?",
+              "guidance": "Examine the notes to the statement of cash flows or other relevant financial statement notes (e.g., related to business disposals or discontinued operations). Specifically look for a disclosure that quantifies the 'cash and cash equivalents in subsidiaries or other businesses over which control is lost' as required by IAS 7.40(c) and IAS 7.40A(c).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "120.4",
+          "section": "IAS 7",
+          "reference": "IAS 7.40(d), IAS 7.40A(d)",
+          "question": "Did the entity lose control over any subsidiaries or businesses during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "119",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of the assets and liabilities other than cash or cash equivalents in the subsidiaries or businesses over which control is lost, summarised by each major category?",
+          "decision_tree": {
+            "question": "Did the entity lose control over any subsidiaries or businesses during the reporting period?",
+            "guidance": "Review the entity's significant events for the period, paying close attention to disposals of subsidiaries, sales of business units, or other transactions that resulted in a loss of control as defined by IFRS 10. Check the notes to the financial statements, particularly sections relating to 'Changes in Consolidation Scope', 'Discontinued Operations', or 'Business Combinations' for any indication of a loss of control.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of assets and liabilities (excluding cash or cash equivalents) in the subsidiaries or businesses over which control was lost, summarised by each major category?",
+              "guidance": "Locate the specific disclosure in the notes to the financial statements. This information is typically presented in a note detailing the loss of control or the disposal of a subsidiary/business. Ensure that the disclosure explicitly lists the major categories of assets and liabilities (e.g., property, plant and equipment; intangible assets; trade receivables; trade payables; provisions) and their respective amounts, excluding cash and cash equivalents. Cross-reference with the details of the disposed entity's balance sheet at the date of loss of control.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "121",
+          "section": "IAS 7",
+          "reference": "IAS 7.28",
+          "question": "Does the entity hold cash or cash equivalents in a foreign currency, or have balances due in a foreign currency?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity separately present the effect of exchange rate changes on cash and cash equivalents held or due in a foreign currency in the statement of cash flows in order to reconcile cash and cash equivalents at the beginning and the end of the period?",
+          "decision_tree": {
+            "question": "Does the entity hold cash or cash equivalents in a foreign currency, or have balances due in a foreign currency?",
+            "guidance": "Review the entity's cash and bank balances. Identify any accounts denominated in currencies other than the functional currency. Also, assess any short-term, highly liquid investments (cash equivalents) that are denominated in a foreign currency and meet the criteria of IAS 7 for cash equivalents (readily convertible to known amounts of cash and subject to an insignificant risk of changes in value).",
+            "yes_case": {
+              "question": "Were there any exchange rate changes between the entity's functional currency and the foreign currencies in which its cash and cash equivalents are held or due during the reporting period?",
+              "guidance": "Compare the spot exchange rates at the beginning and end of the reporting period for the relevant foreign currencies. Even small fluctuations in exchange rates would create an effect. If the entity did not hold foreign currency cash and cash equivalents for the entire period, or if exchange rates were perfectly stable, the answer might be 'No'.",
+              "yes_case": {
+                "question": "Does the entity separately present the effect of exchange rate changes on cash and cash equivalents held or due in a foreign currency in the statement of cash flows, in order to reconcile the beginning and end period balances?",
+                "guidance": "Examine the Statement of Cash Flows. Look for a distinct line item, typically presented between the net increase/decrease in cash and cash equivalents and the opening cash balance (or within the reconciliation section), explicitly titled 'Effect of exchange rate changes on cash and cash equivalents' or a similar clear description. This amount should be presented separately, not subsumed within operating, investing, or financing activities. Refer to IAS 7.28.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "122.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.31(a)",
+          "question": "Did the entity receive any cash inflow from interest during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity separately disclose the cash inflow from interest?",
+          "decision_tree": {
+            "question": "Did the entity receive any cash inflow from interest during the reporting period?",
+            "guidance": "Examine the entity's income statement for interest income. Corroborate this with general ledger accounts related to interest revenue, bank statements showing interest received, and investment portfolio documentation. Focus on actual cash received, not just accrued interest.",
+            "yes_case": {
+              "question": "Does the entity separately disclose this cash inflow from interest in its statement of cash flows, as required by IAS 7.31(a)?",
+              "guidance": "Review the Statement of Cash Flows. Look for a distinct line item such as 'Interest Received' or 'Cash from Interest' within the operating, investing, or financing activities sections. It should not be aggregated with other dissimilar cash flows.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "122.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.31(b)",
+          "question": "Did the entity incur any cash outflow from interest during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity separately disclose the cash outflow from interest?",
+          "decision_tree": {
+            "question": "Did the entity incur any cash outflow from interest during the reporting period?",
+            "guidance": "Review the Statement of Cash Flows and related notes to determine if any cash payments were made for interest (e.g., interest on borrowings, finance leases).",
+            "yes_case": {
+              "question": "Does the entity separately disclose the cash outflow from interest in the Statement of Cash Flows or the notes to the financial statements?",
+              "guidance": "Review the Statement of Cash Flows for a distinct line item reporting 'Cash outflow from interest' or similar. If not found in the primary statement, check the notes to the financial statements for a disaggregation of cash flows that explicitly identifies and separates interest payments.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "122.3",
+          "section": "IAS 7",
+          "reference": "IAS 7.31(c)",
+          "question": "Did the entity receive any cash inflow from dividends during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity separately disclose the cash inflow from dividends?",
+          "decision_tree": {
+            "question": "Did the entity receive any cash inflow from dividends during the reporting period?",
+            "guidance": "Review the entity's bank statements, investment income records, and general ledger accounts related to dividends received from equity investments. Look for transactions clearly identified as dividend receipts.",
+            "yes_case": {
+              "question": "Does the entity separately disclose the cash inflow from dividends in its statement of cash flows or notes to the financial statements, as required by IAS 7.31(c)?",
+              "guidance": "Examine the Statement of Cash Flows. Specifically look at the cash flows from operating, investing, and financing activities. If not directly in the Statement of Cash Flows, check the accompanying notes to the financial statements for detailed disclosures of cash flow components. Ensure the disclosure is distinct and identifiable.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "122.4",
+          "section": "IAS 7",
+          "reference": "IAS 7.31(d)",
+          "question": "Did the entity pay any dividends during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity separately disclose the cash outflow from dividends?",
+          "decision_tree": {
+            "question": "Did the entity pay any dividends during the reporting period?",
+            "guidance": "Review the Statement of Cash Flows, Statement of Changes in Equity, and any board resolutions or dividend declarations to identify if any dividends (to equity holders or others) were paid in cash. Note that this applies to cash outflows only, not just dividend declarations.",
+            "yes_case": {
+              "question": "Does the entity separately disclose the cash outflow from dividends in the statement of cash flows or in the accompanying notes?",
+              "guidance": "According to IAS 7.31(d), cash flows from dividends paid should be disclosed separately. Identify where in the financial statements (typically within financing activities in the statement of cash flows, or explicitly in the notes) this cash outflow is presented. Ensure it is not commingled with other cash flows.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "123",
+          "section": "IAS 7",
+          "reference": "IAS 7.35, IAS 7.36",
+          "question": "Did the entity have any cash flows related to taxes on income during the period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Cash flows arising from taxes on income must be separately disclosed and must be classified as cash flows from operating activities unless they can be specifically identified with financing and investing activities. If the entity allocates tax cash flows to more than one class of activity, does the entity disclose the total amount of taxes paid?",
+          "decision_tree": {
+            "question": "Did the entity have any cash flows related to taxes on income during the period?",
+            "guidance": "Review the Statement of Cash Flows for any cash receipts or payments for income taxes. Also, cross-reference with the income statement's tax expense for the period to confirm the likelihood of related cash flows.",
+            "yes_case": {
+              "question": "Are cash flows arising from taxes on income separately disclosed in the statement of cash flows?",
+              "guidance": "Refer to IAS 7.35. Identify the specific line item(s) in the Statement of Cash Flows pertaining to taxes on income. It must be a distinct, stand-alone disclosure (e.g., 'Cash paid for income taxes'), not embedded within other cash flow categories without specific identification.",
+              "yes_case": {
+                "question": "Are these separately disclosed income tax cash flows classified correctly, specifically as operating activities unless clearly identifiable with investing or financing activities?",
+                "guidance": "Refer to IAS 7.35. For each separately disclosed tax cash flow item, verify its classification within the operating, investing, or financing sections. Classification as an investing or financing activity requires clear and specific identification (e.g., tax directly related to an acquisition of a non-current asset or disposal of a subsidiary). Otherwise, the default and expected classification is operating.",
+                "yes_case": {
+                  "question": "Has the entity allocated cash flows from taxes on income to more than one class of activity (operating, investing, or financing)?",
+                  "guidance": "Examine the entire Statement of Cash Flows. If you find income tax-related cash flows presented in *multiple* categories (e.g., 'Cash paid for income taxes' in operating, and 'Tax payments related to asset disposal' in investing), then the answer is YES. If all tax cash flows are grouped under a single activity class, the answer is NO.",
+                  "yes_case": {
+                    "question": "Does the entity disclose the total amount of taxes paid when cash flows from taxes on income are allocated to more than one class of activity?",
+                    "guidance": "Refer to IAS 7.36. If tax cash flows are allocated across multiple activities, this standard requires the disclosure of the total amount of taxes paid. Look in the notes to the financial statements or within the Statement of Cash Flows itself for this aggregate disclosure.",
+                    "yes_case": "COMPLIANT: YES",
+                    "no_case": "COMPLIANT: NO"
+                  },
+                  "no_case": "COMPLIANT: YES"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "124.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.43(a)",
+          "question": "Did the entity engage in any investing or financing transactions during the period that did not require the use of cash or cash equivalents?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Are investing and financing transactions that do not require the use of cash or cash equivalents excluded from the statement of cash flows?",
+          "decision_tree": {
+            "question": "Did the entity engage in any investing or financing transactions during the period that did not require the use of cash or cash equivalents?",
+            "guidance": "Review the financial statements, especially the notes, for disclosures of significant non-cash investing and financing activities (e.g., conversion of debt to equity, acquisition of assets by assuming liabilities, exchange of non-cash assets, non-cash government grants). Analyze changes in relevant balance sheet accounts to identify potential non-cash movements (e.g., increase in Property, Plant & Equipment without a corresponding cash outflow or financing inflow).",
+            "yes_case": {
+              "question": "Are these non-cash investing and financing transactions excluded from the entity's statement of cash flows?",
+              "guidance": "Examine the Statement of Cash Flows to confirm that these specific non-cash transactions are not presented within the operating, investing, or financing sections. IAS 7.43 requires that such transactions be disclosed elsewhere in the financial statements in a way that provides all relevant information about these investing and financing activities.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "124.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.43(b)",
+          "question": "Did the entity engage in any investing or financing transactions during the reporting period that did not require the use of cash or cash equivalents?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Are investing and financing transactions that do not require the use of cash or cash equivalents disclosed elsewhere in the financial statements in a way that provides all the relevant information about these investing and financing activities?",
+          "decision_tree": {
+            "question": "Did the entity engage in any investing or financing transactions during the reporting period that did not require the use of cash or cash equivalents?",
+            "guidance": "Review the general ledger for significant transactions, particularly those involving asset acquisitions, disposals, debt, or equity, that might have been settled without cash. Examples include acquiring assets by assuming liabilities, converting debt to equity, share-for-share exchanges, or non-cash government grants. Also, check board minutes and significant contracts.",
+            "yes_case": {
+              "question": "Are these non-cash investing and financing transactions disclosed elsewhere in the financial statements?",
+              "guidance": "Refer to the notes to the financial statements. IAS 7.43(b) requires these disclosures to be made 'elsewhere in the financial statements' as they are not reflected in the Statement of Cash Flows.",
+              "yes_case": {
+                "question": "Does the disclosure provide all the relevant information about these non-cash investing and financing activities?",
+                "guidance": "Evaluate the completeness and clarity of the disclosure. Ensure it describes the nature of the transaction, the amounts involved, and its impact on the entity's financial position and future cash flows, in accordance with the intent of IAS 7.43(b).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "125.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.48(a)",
+          "question": "Does the entity hold any significant cash and cash equivalent balances that are not available for use by the group?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of significant cash and cash equivalent balances held that are not available for use by the group?",
+          "decision_tree": {
+            "question": "Does the entity hold any significant cash and cash equivalent balances that are not available for use by the group?",
+            "guidance": "Review bank statements, loan agreements, regulatory filings, and internal treasury reports to identify any cash and cash equivalent balances that are legally or contractually restricted. Examples include cash pledged as collateral, balances in foreign jurisdictions with exchange controls, minimum balance requirements, or cash held by consolidated subsidiaries that cannot be freely transferred to the parent.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of these significant cash and cash equivalent balances held that are not available for use by the group?",
+              "guidance": "Review the notes to the financial statements, particularly the notes relating to cash and cash equivalents, liquidity, or financial instruments. Ensure the specific amount of these restricted balances is clearly disclosed as required by IAS 7.48(a).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "125.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.48(b)",
+          "question": "Does the entity have any significant cash and cash equivalent balances that are not available for use by the group?",
+          "question_type": "Followup",
+          "source_question": "125.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity provide a commentary by management regarding significant cash and cash equivalent balances held that are not available for use by the group?",
+          "decision_tree": {
+            "question": "Does the entity have any significant cash and cash equivalent balances that are not available for use by the group?",
+            "guidance": "Review the notes to the financial statements, bank agreements, loan covenants, and any other relevant contractual arrangements. 'Not available for use' typically refers to cash that is legally restricted, held in escrow, or designated for specific purposes that prevent its immediate use by the broader group. Assess if the amount is 'significant' in the context of the entity's overall financial position.",
+            "yes_case": {
+              "question": "Does the entity provide a commentary by management regarding these significant cash and cash equivalent balances that are not available for use by the group?",
+              "guidance": "Examine the notes to the financial statements, particularly those related to cash and cash equivalents, or the management discussion and analysis (MD&A). The commentary should explain the nature and amount of the restrictions, and why these balances are not available for group use, as required by IAS 7.48(b).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "126",
+          "section": "IAS 7",
+          "reference": "IAS 7.50",
+          "question": "Does the entity have any undrawn borrowing facilities available?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of undrawn borrowing facilities that may be available in the future for operating activities and settling capital commitments, and indicate any restrictions on the use of these facilities?",
+          "decision_tree": {
+            "question": "Does the entity have any undrawn borrowing facilities available?",
+            "guidance": "Examine the entity's financing agreements, credit lines, and bank confirmations for the reporting period. Look for any agreements that provide for funds that the entity has not yet drawn down. These are often detailed in notes related to liquidity management or financial instruments.",
+            "yes_case": {
+              "question": "Does the entity disclose the amount of these undrawn borrowing facilities and specify that they may be available for operating activities and/or settling capital commitments?",
+              "guidance": "Review the notes to the financial statements, particularly those related to liquidity risk, financial instruments, or capital management. Ensure that the disclosed amount aligns with the actual available undrawn facilities and that their potential uses (operating activities, capital commitments) are clearly stated.",
+              "yes_case": {
+                "question": "Does the entity also disclose any restrictions on the use of these undrawn facilities?",
+                "guidance": "Within the same notes (liquidity risk, financial instruments, or capital management), look for any covenants, conditions, or other limitations that might restrict when or how the entity can draw upon these facilities. Examples include debt covenants, specific purpose clauses, or minimum financial ratios.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "127.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.44A(a), IAS 7.44B(a)",
+          "question": "Does the entity have liabilities arising from financing activities (e.g., borrowings, lease liabilities, other financial liabilities classified as financing)?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose changes from financing cash flows affecting liabilities arising from financing activities?",
+          "decision_tree": {
+            "question": "Does the entity have liabilities arising from financing activities (e.g., borrowings, lease liabilities, other financial liabilities classified as financing)?",
+            "guidance": "Review the Statement of Financial Position (Balance Sheet) and the notes to the financial statements for items such as bank loans, bonds payable, lease liabilities (under IFRS 16), and other financing arrangements. If the entity has no such liabilities, this disclosure requirement is not relevant.",
+            "yes_case": {
+              "question": "Does the entity disclose a reconciliation or a table showing all changes in liabilities arising from financing activities, distinguishing between changes from financing cash flows and other changes?",
+              "guidance": "Refer to the notes to the financial statements, specifically looking for a 'Reconciliation of Liabilities Arising from Financing Activities' or a similar note as per IAS 7.44A and IAS 7.44B. This disclosure should show the opening balance, cash flows from financing activities, non-cash changes (e.g., new leases, foreign exchange differences, fair value adjustments), and the closing balance for these liabilities. Ensure that the effect of financing cash flows is clearly identifiable.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "127.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.44A(b), IAS 7.44B(b)",
+          "question": "Did the entity obtain or lose control of any subsidiaries or other businesses during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose changes arising from obtaining or losing control of subsidiaries or other businesses affecting liabilities arising from financing activities?",
+          "decision_tree": {
+            "question": "Did the entity obtain or lose control of any subsidiaries or other businesses during the reporting period?",
+            "guidance": "Review the consolidated financial statements, specifically the notes related to business combinations (IFRS 3) or disposals of operations. Look for significant events like acquisitions, mergers, or sales of subsidiaries.",
+            "yes_case": {
+              "question": "Did these changes (from obtaining or losing control) affect liabilities arising from financing activities?",
+              "guidance": "Examine the movement in financing liabilities (e.g., borrowings, lease liabilities) within the Statement of Financial Position and the Statement of Cash Flows. Determine if the acquisition or disposal of a subsidiary directly led to changes in these financing liabilities, such as assuming new debt or repaying existing debt as part of the transaction.",
+              "yes_case": {
+                "question": "Does the entity disclose the changes in liabilities arising from financing activities that resulted from obtaining or losing control of subsidiaries or other businesses, as required by IAS 7.44A(b) and IAS 7.44B(b)?",
+                "guidance": "Refer to the notes to the financial statements, typically in the section discussing cash flow information, business combinations, or significant accounting policies. The disclosure should specifically detail the impact of these events on financing liabilities. Ensure it's clear how obtaining or losing control contributed to the change in these liabilities.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "127.3",
+          "section": "IAS 7",
+          "reference": "IAS 7.44A(c), IAS 7.44B(c)",
+          "question": "Does the entity have liabilities arising from financing activities (e.g., borrowings, lease liabilities, bonds payable)?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the effect of changes in foreign exchange rates on liabilities arising from financing activities?",
+          "decision_tree": {
+            "question": "Does the entity have liabilities arising from financing activities (e.g., borrowings, lease liabilities, bonds payable)?",
+            "guidance": "Review the Statement of Financial Position (Balance Sheet) to identify any long-term or short-term liabilities explicitly classified as financing activities. Also, consult the notes to the financial statements for detailed breakdowns of debt, lease obligations, and other financing-related liabilities.",
+            "yes_case": {
+              "question": "Are any of these liabilities denominated in a foreign currency, or have there been changes in foreign exchange rates during the period that would affect the carrying amount of these financing liabilities?",
+              "guidance": "Examine the currency in which financing liabilities are denominated. If any are in a foreign currency, assess the movement in relevant exchange rates during the reporting period. Look for foreign exchange gains or losses recognized in profit or loss or OCI related to these financing liabilities.",
+              "yes_case": {
+                "question": "Does the entity disclose the effect of changes in foreign exchange rates on these liabilities arising from financing activities?",
+                "guidance": "Refer to the notes to the financial statements, specifically the reconciliation of liabilities arising from financing activities (often presented as a table or schedule, as encouraged by IAS 7.44A and required by IAS 7.44B for changes in liabilities from financing activities). Look for a specific line item or explanation detailing the impact of foreign exchange rate changes on these liabilities.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "127.4",
+          "section": "IAS 7",
+          "reference": "IAS 7.44A(d), IAS 7.44B(d)",
+          "question": "Does the entity have liabilities arising from financing activities recognized in its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose changes in fair values affecting liabilities arising from financing activities?",
+          "decision_tree": {
+            "question": "Does the entity have liabilities arising from financing activities recognized in its financial statements?",
+            "guidance": "Review the Statement of Financial Position for items such as loans, borrowings, lease liabilities, and other financial liabilities that are directly related to financing activities. Refer to IAS 7.44A and IAS 7.44B for the scope of liabilities covered within the reconciliation of liabilities arising from financing activities.",
+            "yes_case": {
+              "question": "Are any of these liabilities arising from financing activities measured at fair value (e.g., FVTPL, FVTOCI), such that changes in fair values would affect them?",
+              "guidance": "Examine the accounting policies and notes to the financial statements related to financial liabilities. Identify if any financing liabilities (e.g., certain derivatives, financial liabilities designated at FVTPL) are measured at fair value. If all financing liabilities are measured at amortized cost, then there would be no fair value changes to disclose for this category.",
+              "yes_case": {
+                "question": "Does the entity disclose changes in fair values affecting liabilities arising from financing activities within the reconciliation of liabilities from financing activities, as required by IAS 7.44A(d) and IAS 7.44B(d)?",
+                "guidance": "Locate the reconciliation of liabilities arising from financing activities in the notes to the financial statements. Verify that changes due to fair value adjustments are explicitly presented as a separate line item or clearly identifiable within this reconciliation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "127.5",
+          "section": "IAS 7",
+          "reference": "IAS 7.44A(e), IAS 7.44B(e)",
+          "question": "Does the entity have any liabilities arising from financing activities during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose other non-cash changes affecting liabilities arising from financing activities?",
+          "decision_tree": {
+            "question": "Does the entity have any liabilities arising from financing activities during the reporting period?",
+            "guidance": "Examine the Statement of Financial Position for items such as borrowings (e.g., bank loans, bonds payable), lease liabilities, and other financial liabilities. Review relevant notes to the financial statements that provide details on financing arrangements and their movements.",
+            "yes_case": {
+              "question": "Were there any other non-cash changes affecting liabilities arising from financing activities during the reporting period?",
+              "guidance": "Review the notes to the financial statements, specifically the reconciliation of liabilities arising from financing activities if provided. Look for items such as foreign exchange differences, changes in fair value not involving cash, reclassifications, transfers from assets held for sale, or other adjustments that modify financing liabilities without a cash transaction. Refer to IAS 7.44B for examples of non-cash changes affecting financing liabilities.",
+              "yes_case": {
+                "question": "Does the entity disclose these other non-cash changes affecting liabilities arising from financing activities?",
+                "guidance": "Check the notes to the financial statements, particularly the section reconciling the opening and closing balances of liabilities arising from financing activities. The disclosure should clearly present the nature and amount of these non-cash changes. Refer to IAS 7.44A(e) and IAS 7.44B(e).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: YES"
+          }
+        },
+        {
+          "id": "128",
+          "section": "IAS 7",
+          "reference": "IAS 7.44D",
+          "question": "Does the entity disclose information about changes in liabilities arising from financing activities, as required by IAS 7.44A?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity discloses the information required by IAS 7.44A by providing a reconciliation between the opening and closing balances in the statement of financial position for liabilities arising from financing activities, does it provide sufficient information to enable users of the financial statements to link items included in the reconciliation to the statement of financial position and the statement of cash flows?",
+          "decision_tree": {
+            "question": "Does the entity disclose information about changes in liabilities arising from financing activities, as required by IAS 7.44A?",
+            "guidance": "Review the notes to the financial statements. Look for a specific note or section that provides information on the changes in financing liabilities (e.g., borrowings, lease liabilities) over the period. If this disclosure is not present, or if there are no liabilities arising from financing activities, answer 'No'.",
+            "yes_case": {
+              "question": "Does this disclosure take the form of a reconciliation between the opening and closing balances of liabilities arising from financing activities in the statement of financial position?",
+              "guidance": "Examine the specific disclosure. It must explicitly present a reconciliation, showing the opening balance, changes due to cash flows (e.g., proceeds, repayments), and non-cash changes (e.g., foreign exchange differences, fair value adjustments), leading to the closing balance for relevant financing liabilities. If the disclosure is present but not in this reconciliation format, answer 'No'.",
+              "yes_case": {
+                "question": "Does the reconciliation provide sufficient information to enable users to link its items to the statement of financial position and the statement of cash flows?",
+                "guidance": "Verify that the reconciliation clearly identifies elements (e.g., 'Proceeds from new borrowings', 'Repayments of lease liabilities') using consistent terminology and amounts that can be directly traced or cross-referenced to specific line items in the Statement of Cash Flows (financing activities section) and the corresponding liability accounts in the Statement of Financial Position (e.g., 'Loans and borrowings', 'Lease liabilities'). Ensure the linkage is clear and unambiguous for financial statement users.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "129",
+          "section": "IAS 7",
+          "reference": "IAS 7.44E",
+          "question": "Does the entity provide a reconciliation of liabilities arising from financing activities as required by IAS 7.44A?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity provides the disclosure required by IAS 7.44A in combination with disclosures of changes in other assets and liabilities, does it disclose the changes in liabilities arising from financing activities separately from changes in those other assets and liabilities?",
+          "decision_tree": {
+            "question": "Does the entity provide a reconciliation of liabilities arising from financing activities as required by IAS 7.44A?",
+            "guidance": "Review the notes to the financial statements, typically alongside the Statement of Cash Flows or as a separate note. Look for a reconciliation that shows changes in liabilities arising from financing activities, such as borrowings, lease liabilities, etc.",
+            "yes_case": {
+              "question": "Is the IAS 7.44A disclosure combined with disclosures of changes in other assets and liabilities (i.e., not presented as a standalone reconciliation of only financing liabilities)?",
+              "guidance": "Examine the reconciliation provided under IAS 7.44A. Determine if it includes changes related to assets or liabilities that do not arise from financing activities. If it is purely a reconciliation of financing liabilities, then it is not 'combined with disclosures of changes in other assets and liabilities'.",
+              "yes_case": {
+                "question": "Does the entity disclose the changes in liabilities arising from financing activities separately from changes in those other assets and liabilities within the combined disclosure?",
+                "guidance": "Within the combined reconciliation, verify that movements related to financing liabilities are clearly identified and separated from movements in other assets and liabilities. This separation should be evident in the presentation (e.g., distinct line items, sub-totals, or sections).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "130.1",
+          "section": "IAS 7",
+          "reference": "IAS 7.44H(a)",
+          "question": "Does the entity have any supplier finance arrangements (also known as supply chain finance or reverse factoring arrangements) during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "To meet the objectives in paragraph 44F, does the entity disclose the terms and conditions of its supplier finance arrangements, and disclose separately the terms and conditions of arrangements that have dissimilar terms and conditions?",
+          "decision_tree": {
+            "question": "Does the entity have any supplier finance arrangements (also known as supply chain finance or reverse factoring arrangements) during the reporting period?",
+            "guidance": "Review all contracts with financial institutions, particularly those related to trade payables or working capital management. Inquire with treasury and procurement departments if such arrangements exist. These arrangements typically involve a financial institution paying the entity's suppliers on agreed terms, and the entity then pays the financial institution.",
+            "yes_case": {
+              "question": "Does the entity disclose the terms and conditions of its supplier finance arrangements, including separate disclosure for arrangements with dissimilar terms and conditions, in accordance with IAS 7.44H(a)?",
+              "guidance": "Examine the notes to the financial statements, particularly sections related to financial instruments, liquidity risk, or specific supplier finance disclosures. Verify that the disclosures cover the general terms and conditions of the arrangements. Specifically, confirm that if there are different types of arrangements with distinct terms and conditions, these dissimilar terms are disclosed separately to meet the objectives in paragraph 44F.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "130.2",
+          "section": "IAS 7",
+          "reference": "IAS 7.44H(b)",
+          "question": "Does the entity have any supplier finance arrangements as defined by IAS 7.44G?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "To meet the objectives in paragraph 44F, does the entity disclose, as at the beginning and end of the reporting period, the carrying amounts and associated line items presented in the entity's statement of financial position of the financial liabilities that are part of a supplier finance arrangement; the carrying amounts and associated line items of the financial liabilities disclosed under (i) for which suppliers have already received payment from the finance providers; and the range of payment due dates (for example, 30–40 days after the invoice date) for both the financial liabilities disclosed under (i) and comparable trade payables that are not part of a supplier finance arrangement?",
+          "decision_tree": {
+            "question": "Does the entity have any supplier finance arrangements as defined by IAS 7.44G?",
+            "guidance": "A supplier finance arrangement typically involves a finance provider paying the entity's suppliers on early invoice payment terms and the entity then paying the finance provider on the original invoice payment terms. Review contracts with suppliers and financial institutions, payment terms, and related disclosures to identify such arrangements. Consult with the treasury, procurement, and accounts payable departments.",
+            "yes_case": {
+              "question": "Does the entity disclose, as at the beginning and end of the reporting period, the carrying amounts and associated line items presented in the statement of financial position for both: (i) financial liabilities that are part of a supplier finance arrangement, and (ii) the portion of those liabilities for which suppliers have already received payment from finance providers?",
+              "guidance": "Refer to the notes to the financial statements, specifically disclosures related to financial liabilities or 'Supplier Finance Arrangements'. Ensure that the carrying amounts (e.g., in trade and other payables) are separately identified or reconcilable for both categories (total supplier finance liabilities and those already paid by finance providers) at both reporting period dates. This addresses IAS 7.44H(b)(i) and (ii).",
+              "yes_case": {
+                "question": "Does the entity disclose, as at the beginning and end of the reporting period, the range of payment due dates for both: (i) the financial liabilities that are part of a supplier finance arrangement, and (ii) comparable trade payables that are not part of a supplier finance arrangement?",
+                "guidance": "Review the notes to the financial statements for disclosures related to payment terms or liquidity risk. Verify that the payment due date ranges (e.g., '30-40 days after invoice') are provided for both types of liabilities and presented for both the beginning and end of the reporting period. This addresses IAS 7.44H(b)(iii).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "130.3",
+          "section": "IAS 7",
+          "reference": "IAS 7.44H(c)",
+          "question": "Does the entity have any financial liabilities that give rise to cash flows classified as financing activities (e.g., borrowings, lease liabilities)?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "To meet the objectives in paragraph 44F, does the entity disclose the type and effect of non-cash changes in the carrying amounts of the financial liabilities disclosed under (b)(i)?",
+          "decision_tree": {
+            "question": "Does the entity have any financial liabilities that give rise to cash flows classified as financing activities (e.g., borrowings, lease liabilities)?",
+            "guidance": "Review the Statement of Financial Position for financial liabilities and the Statement of Cash Flows to determine if cash flows related to these liabilities are classified under financing activities. Common examples include loans payable, bonds, and lease liabilities under IFRS 16.",
+            "yes_case": {
+              "question": "Does the entity disclose a reconciliation of the carrying amounts of liabilities arising from financing activities, distinguishing between those for which cash flows have been, or will be, classified as financing activities, as required by IAS 7.44H(b)(i)?",
+              "guidance": "Examine the notes to the financial statements for a table or narrative disclosure that reconciles the opening and closing balances of liabilities arising from financing activities. This reconciliation should typically include changes from cash flows, non-cash changes (e.g., fair value adjustments, foreign exchange differences), and new liabilities incurred.",
+              "yes_case": {
+                "question": "Does the entity disclose the type and effect of non-cash changes in the carrying amounts of these financial liabilities (those disclosed under IAS 7.44H(b)(i))?",
+                "guidance": "Within the reconciliation or related notes, identify descriptions and monetary amounts for non-cash movements affecting the carrying amounts of financing liabilities. Examples of non-cash changes include fair value adjustments, foreign exchange differences, the effect of obtaining control of entities or businesses, or new lease liabilities recognised. The disclosure must clearly state the *type* of change and its *effect* on the carrying amount.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

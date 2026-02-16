@@ -1,0 +1,648 @@
+{
+  "title": "IFRS 5 Flattened Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 5",
+      "title": "Non-current assets held for sale and discontinued operations",
+      "description": "Flattened checklist for presentation and disclosure requirements under IFRS 5 – atomic, machine-actionable items.",
+      "items": [
+        {
+          "id": "IFRS5-1.1",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.30, 5.33",
+          "question": "Does the entity have discontinued operations during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present a single amount in the statement of comprehensive income comprising the total of the post-tax profit or loss of discontinued operations and the post-tax gain or loss on measurement to fair value less costs to sell or disposal?",
+          "decision_tree": {
+            "question": "Does the entity have discontinued operations during the reporting period?",
+            "guidance": "Review the Statement of Comprehensive Income and supporting notes. Discontinued operations are components of an entity that have been disposed of or classified as held for sale as per IFRS 5.30. Check entity disclosures for clear identification of discontinued operations. Ensure the definition from IFRS 5 is met.",
+            "yes_case": {
+              "question": "Is the post-tax profit or loss of discontinued operations and the post-tax gain or loss on measurement to fair value less costs to sell or disposal calculated correctly?",
+              "guidance": "Verify calculation in the financial statements and disclosures using IFRS 5.33. Check that proper adjustments for tax impacts and fair value measurements are made in line with IFRS guidelines. Common pitfall: tax effects not properly considered or fair value adjustments not reasonably estimable.",
+              "yes_case": {
+                "question": "Is the calculated single amount presented in the Statement of Comprehensive Income as required by IFRS 5.30?",
+                "guidance": "Inspect the Statement of Comprehensive Income. Confirm that the total amount (combining the post-tax profit/loss of discontinued operations and the post-tax gain/loss on measurement/disposal) is shown as a single line item. This presentation is mandatory under IFRS 5.30.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-1.2",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.33(b)",
+          "question": "Does the entity have discontinued operations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-1.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the revenue, expenses and pre-tax profit or loss of discontinued operations and the related income tax expense?",
+          "decision_tree": {
+            "question": "Does the entity have discontinued operations during the reporting period?",
+            "guidance": "Refer to the Statement of Comprehensive Income and relevant notes. Discontinued operations are defined under IFRS 5.32 as components of an entity that have been disposed of or classified as held for sale and represent a separate major line of business or geographical area of operations. Confirm if any such operations exist.",
+            "yes_case": {
+              "question": "Does the entity disclose the revenue, expenses, and pre-tax profit or loss of discontinued operations?",
+              "guidance": "Review the notes to the financial statements and disclosures related to discontinued operations as required by IFRS 5.33(b). Ensure the entity provides detailed information about the revenue, expenses, and pre-tax profit or loss associated with discontinued operations.",
+              "yes_case": {
+                "question": "Does the entity disclose the related income tax expense for discontinued operations?",
+                "guidance": "Examine the financial statements and notes for disclosure of related income tax expense connected to discontinued operations, as explicitly required by IFRS 5.33(b). Ensure the disclosure is detailed and separately identifiable.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-1.3",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.33(b)",
+          "question": "Does the entity have discontinued operations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-1.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the gain or loss on measurement to fair value less costs to sell or disposal of discontinued operations and the related income tax expense?",
+          "decision_tree": {
+            "question": "Does the entity have discontinued operations during the reporting period?",
+            "guidance": "Refer to the financial statements and notes to identify whether the entity has any components classified as discontinued operations as per IFRS 5. Define 'discontinued operations' carefully—check IFRS 5 paragraphs 32-33 for guidance. Typical indicators include divestments of a major component or classification as 'Held for Sale'.",
+            "yes_case": {
+              "question": "Has the entity measured the discontinued operations at fair value less costs to sell or disposal as required by IFRS 5?",
+              "guidance": "Review the notes to the financial statements and specifically look for a measurement of discontinued operations at 'fair value less costs to sell' or similar terminology. Cross-check IFRS 5 paragraph 15 for clarification on the measurement basis.",
+              "yes_case": {
+                "question": "Does the entity disclose the gain or loss on measurement to fair value less costs to sell or disposal of discontinued operations and the related income tax expense as required by IFRS 5.33(b)?",
+                "guidance": "Examine the notes accompanying the financial statements for explicit disclosure of gain or loss relating to discontinued operations and associated income tax expense. Ensure this disclosure follows IFRS 5.33(b). Common pitfalls: failing to separately disclose the tax impact or aggregate gains/losses improperly.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-1.4",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.33(c)",
+          "question": "Does the entity have discontinued operations as defined by IFRS 5?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-1.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the net cash flows from operating activities of discontinued operations?",
+          "decision_tree": {
+            "question": "Does the entity have discontinued operations as defined by IFRS 5?",
+            "guidance": "Refer to IFRS 5.32 and IFRS 5.33 for the definition of discontinued operations. Check the financial statements for any separately disclosed operations that are classified as discontinued (e.g., sold or held for sale). Review prior decisions regarding classification under IFRS 5.",
+            "yes_case": {
+              "question": "Are the net cash flows from operating activities of discontinued operations disclosed separately in the financial statements?",
+              "guidance": "Review the Notes to the Financial Statements and the Statement of Cash Flows. Ensure that net cash flows from operating activities related to discontinued operations are presented separately as required by IFRS 5.33(c). Cross-reference the disclosure against the list of discontinued operations identified.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-1.5",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.33(c)",
+          "question": "Does the entity have any discontinued operations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-1.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the net cash flows from investing activities of discontinued operations?",
+          "decision_tree": {
+            "question": "Does the entity have any discontinued operations during the reporting period?",
+            "guidance": "Refer to the financial statements, specifically the notes and disclosures section. Verify if discontinued operations exist as defined under IFRS 5. Determine if the entity has classified any component of its operations as ‘discontinued’ based on the criteria in IFRS 5 paragraphs 32–33.",
+            "yes_case": {
+              "question": "Are net cash flows from investing activities related to discontinued operations identified separately in the financial statements?",
+              "guidance": "Review the Statement of Cash Flows and related notes. Confirm if cash flows from investing activities of discontinued operations are identified separately, as required by IFRS 5.33(c). Common pitfalls include lumping these cash flows into continuing operations or omitting them entirely.",
+              "yes_case": {
+                "question": "Does the disclosure clearly indicate the net cash flows from investing activities of discontinued operations?",
+                "guidance": "Ensure the disclosure clearly states the net cash flows attributable to discontinued operations under investing activities. Check whether the disclosure is sufficiently detailed and aligns with the requirements of IFRS 5.33(c). Too vague or absent disclosures may result in non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-1.6",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.33(c)",
+          "question": "Does the entity have discontinued operations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-1.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the net cash flows from financing activities of discontinued operations?",
+          "decision_tree": {
+            "question": "Does the entity have discontinued operations during the reporting period?",
+            "guidance": "Review the financial statements, particularly the Notes section, for any mention of discontinued operations as defined under IFRS 5. Confirm whether the entity has classified a component of its business as 'discontinued operations' during the reporting period. Refer to IFRS 5.3 for the definition of discontinued operations to avoid misclassification.",
+            "yes_case": {
+              "question": "Does the entity report any cash flows from financing activities related to these discontinued operations?",
+              "guidance": "Examine the Statement of Cash Flows and related notes. Look for specific entries or breakdowns indicating financing cash flows (e.g., repayments of borrowings, proceeds from loans) clearly attributable to the discontinued operations. Ensure this is distinguished separately from continuing operations as required by IFRS 5.33.",
+              "yes_case": {
+                "question": "Has the entity disclosed the net cash flows from financing activities for the discontinued operations separately?",
+                "guidance": "Verify that the financial statements or the notes provide a clear disclosure of net cash flows from financing activities of discontinued operations as required under IFRS 5.33(c). This should include adequate details for the users of financial statements without being overly aggregated.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-1.7",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.33(d)",
+          "question": "Does the entity have discontinued operations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-1.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the income from continuing operations and from discontinued operations attributable to owners of the parent?",
+          "decision_tree": {
+            "question": "Does the entity have discontinued operations during the reporting period?",
+            "guidance": "Review the financial statements and notes to see if the entity has classified any operations as discontinued according to IFRS 5. Discontinued operations are components of the entity that have been disposed of, or are classified as held for sale, and represent a separate major line of business or geographical area. Check IFRS 5.32 and 5.33 for definitions and examples.",
+            "yes_case": {
+              "question": "Does the entity disclose the income from continuing operations and from discontinued operations attributable to owners of the parent?",
+              "guidance": "Examine the Statement of Comprehensive Income and related notes to confirm separate disclosure of income attributable to owners of the parent. IFRS 5.33(d) requires entities to clearly distinguish between continuing and discontinued operations to provide clarity to users of the financial statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-2",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.34",
+          "question": "Has the entity classified any operations as discontinued during the current reporting period?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-1.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity re-present the disclosures in IFRS 5.33 for prior periods so they relate to all operations discontinued by the end of the current reporting period?",
+          "decision_tree": {
+            "question": "Has the entity classified any operations as discontinued during the current reporting period?",
+            "guidance": "Review the financial statements and disclosures section to determine if any operations meet the criteria for discontinued operations as defined in IFRS 5.32. Discontinued operations are typically major components of the entity that have been disposed of or classified as held for sale. Look for terms like 'discontinued', 'disposed of', or 'held-for-sale' in the notes or other sections.",
+            "yes_case": {
+              "question": "Does the entity disclose comparative information for prior periods as required by IFRS 5.33?",
+              "guidance": "Refer to IFRS 5.33 and review whether the entity has re-presented financial information for prior periods to align with operations that were discontinued by the end of the reporting period. Check for consistency in income statements, cash flows, and notes, ensuring proper segregation of continuing and discontinued operations.",
+              "yes_case": {
+                "question": "Are the disclosures for prior periods correctly related specifically to the operations discontinued by the end of the current reporting period?",
+                "guidance": "Examine whether the re-presented disclosures isolate financial effects specifically for the operations discontinued by the reporting period's end. Look for errors like including non-discontinued operations or misclassification. Ensure the disclosures comply with the levels of detail required by IFRS 5.33.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-3",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.35",
+          "question": "Has the entity reported discontinued operations in the current period?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-1.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity separately classify and disclose adjustments in the current period to previously presented discontinued operations amounts that relate directly to disposals in prior periods?",
+          "decision_tree": {
+            "question": "Has the entity reported discontinued operations in the current period?",
+            "guidance": "Review the financial statements, particularly the Statement of Comprehensive Income and related notes. Look for items classified under 'discontinued operations' in accordance with IFRS 5. Assess whether any operations have been ceased or disposed of during the current or previous reporting periods.",
+            "yes_case": {
+              "question": "Were there adjustments made in the current period to previously presented discontinued operations amounts?",
+              "guidance": "Check the notes accompanying discontinued operations in the financial statements. Look for any revisions or adjustments to amounts reported for discontinued operations in prior periods. Carefully identify if these adjustments are reflected in the current financial statements.",
+              "yes_case": {
+                "question": "Do these adjustments relate directly to disposals in prior periods?",
+                "guidance": "Verify if the adjustments are explicitly tied to the disposal transaction(s) from prior reporting periods (e.g., revisions to gain/loss on disposal, resolution of contingencies connected to the disposal). Cross-reference with documentation of prior disposals.",
+                "yes_case": {
+                  "question": "Has the entity separately classified and disclosed these adjustments in accordance with IFRS 5?",
+                  "guidance": "Ensure the entity has distinctly presented these adjustments in the financial statements under discontinued operations. Confirm the disclosures comply with IFRS 5.35 requirements, including sufficient detail and clarity for users of the financial statements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-4",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.36",
+          "question": "Has the entity classified a component as held for sale during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If a component ceases to be classified as held for sale, does the entity reclassify its results out of discontinued operations into continuing operations for all periods presented?",
+          "decision_tree": {
+            "question": "Has the entity classified a component as held for sale during the reporting period?",
+            "guidance": "Check the financial statements, particularly the notes on non-current assets held for sale and discontinued operations. Look for disclosures under IFRS 5 indicating any component classified as held for sale. A component typically refers to a major line of business or geographical area.",
+            "yes_case": {
+              "question": "Did the component previously classified as held for sale cease to meet the criteria for held for sale under IFRS 5?",
+              "guidance": "Review management's assessments in the notes to the financial statements. A component ceases to be classified as held for sale if it no longer meets IFRS 5.7 to IFRS 5.9 conditions (e.g., sale is no longer highly probable). Look for a rationale provided by management explaining the reclassification.",
+              "yes_case": {
+                "question": "Has the entity reclassified the component's results out of discontinued operations into continuing operations for all periods presented?",
+                "guidance": "Verify compliance with IFRS 5.36. Inspect the income statement and disclosures. Ensure the results of the component are included in continuing operations retrospectively for comparative periods, with appropriate notes explaining the reclassification.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-5",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.36A",
+          "question": "Is there a subsidiary that meets the discontinued-operation criteria and is subject to a plan of sale?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If a subsidiary meeting discontinued-operation criteria is subject to a sale plan, does the entity disclose the IFRS 5.33–36 information for that subsidiary?",
+          "decision_tree": {
+            "question": "Is there a subsidiary that meets the discontinued-operation criteria and is subject to a plan of sale?",
+            "guidance": "Refer to IFRS 5.32–33 to determine if the subsidiary meets discontinued-operation criteria. Review the financial statements and underlying management reports for any evidence of a formal plan of sale approved by the entity. Ensure the criteria for classification as 'discontinued operations' are met, particularly the subsidiary’s operational performance and future sale plans. Common pitfalls include misclassification or incorrect reliance on non-finalized sale plans.",
+            "yes_case": {
+              "question": "Has the entity disclosed all required information under IFRS 5.33–36 for the subsidiary classified as discontinued operations?",
+              "guidance": "Verify the completeness and adequacy of disclosure regarding discontinued operations in the financial statements. Key areas include: detail of the subsidiary's revenue, expenses, pre-tax profit or loss, tax amounts, and cash flow components (operating, investing, and financing). Review the notes to the financial statements for compliance with paragraphs 33–36 of IFRS 5, ensuring transparency and accuracy. Double-check that disclosures align with other reported financial information.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-6",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.30",
+          "question": "Does the entity have any non-current assets or disposal groups classified as held for sale?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity present information that enables users to evaluate the financial effects of disposals of non-current assets or disposal groups held for sale?",
+          "decision_tree": {
+            "question": "Does the entity have any non-current assets or disposal groups classified as held for sale?",
+            "guidance": "Review the Statement of Financial Position and related notes for any assets or disposal groups classified under IFRS 5 as 'held for sale' in accordance with paragraphs 6-9 of IFRS 5. Ensure that all criteria for classification as held for sale are met, including the asset being available for immediate sale and the sale being highly probable.",
+            "yes_case": {
+              "question": "Has the entity provided disclosures about the financial effects of the disposal or potential disposal in the notes to the financial statements?",
+              "guidance": "Verify compliance with IFRS 5.30 by checking whether disclosures about the financial effects of the sale are included in the notes. This includes information such as the nature of the non-current assets or disposal groups, details about the sale, and the impact on the financial statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-7.1",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.38(a)",
+          "question": "Does the entity have non-current assets or disposal groups classified as held for sale?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-6",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present non-current assets and assets of disposal groups held for sale separately from other assets in the statement of financial position?",
+          "decision_tree": {
+            "question": "Does the entity have non-current assets or disposal groups classified as held for sale?",
+            "guidance": "Review the notes to the financial statements and management communications. Look for disclosures where the entity indicates that it has assets that are actively marketed for sale and are expected to be sold within one year, as per IFRS 5.6-5.7. Confirm that the entity meets the criteria outlined in IFRS 5 for classifying assets or disposal groups as held for sale.",
+            "yes_case": {
+              "question": "Are these non-current assets or disposal groups presented separately from other assets in the statement of financial position?",
+              "guidance": "Examine the statement of financial position. Non-current assets and disposal groups held for sale should be clearly distinguished from other assets, as required by IFRS 5.38(a). Verify that a separate line item is presented and labeled appropriately.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-7.2",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.38(b)",
+          "question": "Does the entity have disposal groups classified as held for sale?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-6",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present liabilities of disposal groups held for sale separately from other liabilities in the statement of financial position?",
+          "decision_tree": {
+            "question": "Does the entity have disposal groups classified as held for sale?",
+            "guidance": "Refer to the financial statements, specifically the notes or disclosures related to IFRS 5. Verify if the entity has disposal groups that meet the criteria for classification as held for sale under IFRS 5.7-5.11. Ensure that the disposal groups are clearly identified and meet the conditions specified in these sections.",
+            "yes_case": {
+              "question": "Are liabilities of the disposal groups held for sale recognized in the statement of financial position?",
+              "guidance": "Inspect the statement of financial position and accompanying notes. Check if liabilities corresponding to disposal groups classified as held for sale are appropriately recognized as per IFRS 5. Ensure completeness and accuracy in classification.",
+              "yes_case": {
+                "question": "Are liabilities of disposal groups held for sale presented separately from other liabilities in the statement of financial position?",
+                "guidance": "Review the presentation of liabilities in the statement of financial position. Confirm that liabilities associated with disposal groups classified as held for sale are distinctly presented separately from all other liabilities, as required by IFRS 5.38(b). Check for proper labeling and formatting to ensure compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-7.3",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.38(c)",
+          "question": "Does the entity have any assets or liabilities held for sale as defined in IFRS 5?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-6",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present assets and liabilities held for sale on a gross basis, not offsetting them?",
+          "decision_tree": {
+            "question": "Does the entity have any assets or liabilities held for sale as defined in IFRS 5?",
+            "guidance": "Refer to IFRS 5, paragraph 6-12, for the definition of 'held for sale'. Verify that the asset or disposal group meets the criteria, such as being available for immediate sale in its present condition and the sale being highly probable. Common pitfalls include misclassifying long-term assets or failing to document the likelihood of sale appropriately.",
+            "yes_case": {
+              "question": "Does the entity classify these assets or liabilities as 'held for sale' in its statement of financial position in accordance with IFRS 5?",
+              "guidance": "Review the statement of financial position and ensure separate line items are presented for 'assets held for sale' and 'liabilities held for sale' in accordance with IFRS 5 paragraph 38. Ensure classification is appropriate and consistent with the definitions in paragraphs 6-12.",
+              "yes_case": {
+                "question": "Does the entity present assets and liabilities held for sale on a gross basis, not offsetting them?",
+                "guidance": "Verify that assets and liabilities held for sale are reported separately as distinct line items and are not netted off. Refer to IFRS 5 paragraph 38(c), which prohibits offsetting these assets and liabilities. Double-check consolidated financial statements to ensure compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-7.4",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.38(d)",
+          "question": "Does the entity have any assets or liabilities classified as held for sale?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-6",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the major classes of assets and liabilities held for sale, except for newly acquired subsidiaries meeting held-for-sale on acquisition criteria?",
+          "decision_tree": {
+            "question": "Does the entity have any assets or liabilities classified as held for sale?",
+            "guidance": "Review the entity's statement of financial position and notes to confirm whether any assets or liabilities are classified as 'held for sale'. Pay attention to IFRS 5 criteria for classification, such as management's intention to sell the asset and it being available for immediate sale in present condition. Verify this through Board resolutions or minutes.",
+            "yes_case": {
+              "question": "Were any of the held-for-sale assets or liabilities newly acquired subsidiaries meeting the held-for-sale criteria on acquisition?",
+              "guidance": "Check acquisition agreements and supporting documentation to determine if the entity acquired any subsidiaries during the reporting period. Ensure the held-for-sale classification complies with IFRS 5's requirements for acquisition-related classifications.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Does the entity disclose the major classes of the held-for-sale assets and liabilities separately in the financial statements?",
+                "guidance": "Review the notes and disclosures accompanying the financial statements to locate detailed information about held-for-sale assets and liabilities. Ensure that disclosures include major classes, as required by IFRS 5.38(d), and provide sufficient transparency to users of financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-7.5",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.38(e)",
+          "question": "Does the entity have any assets or disposal groups classified as 'held for sale' or 'held for distribution to owners'?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-6",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose cumulative income or expense recognised in other comprehensive income relating to assets or disposal groups held for sale?",
+          "decision_tree": {
+            "question": "Does the entity have any assets or disposal groups classified as 'held for sale' or 'held for distribution to owners'?",
+            "guidance": "Review the financial statements and notes to confirm whether the entity has classified any assets or disposal groups as 'held for sale' or 'held for distribution to owners' under IFRS 5. Check the definitions in IFRS 5.6-5.7 for what qualifies as 'held for sale' or 'held for distribution'. Common pitfalls include missing reclassifications or misinterpretation of the criteria.",
+            "yes_case": {
+              "question": "Did the entity recognise any income or expense in other comprehensive income related to these assets or disposal groups classified as 'held for sale'?",
+              "guidance": "Inspect the Statement of Comprehensive Income and disclosures in the notes for details of items recognised in OCI. Look for relevant adjustments directly linked to these 'held for sale' assets or disposal groups. Be attentive to misclassification within OCI categories.",
+              "yes_case": {
+                "question": "Does the entity disclose the cumulative income or expense recognised in other comprehensive income relating to assets or disposal groups held for sale?",
+                "guidance": "Review the notes to the financial statements and disclosures under IFRS 5.38(e) to ensure cumulative income or expenses linked to 'held for sale' items are specifically disclosed. The disclosure should clearly indicate the amounts and their nature.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-8.1",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.41(a)",
+          "question": "Has the entity classified a non-current asset or disposal group as held for sale or sold during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "In the period a non-current asset or disposal group is classified as held for sale or sold, does the entity describe the asset or disposal group?",
+          "decision_tree": {
+            "question": "Has the entity classified a non-current asset or disposal group as held for sale or sold during the reporting period?",
+            "guidance": "Examine the relevant sections of the financial statements, particularly the notes on non-current assets and disposal groups. Look for any references to IFRS 5 classifications or disclosures about assets held for sale. Verify classification criteria per IFRS 5.6–IFRS 5.8.",
+            "yes_case": {
+              "question": "Has the entity provided a description of the non-current asset or disposal group as required under IFRS 5.41(a)?",
+              "guidance": "Review the disclosures in the notes to the financial statements. Ensure there is a clear description for each non-current asset or disposal group classified as held for sale or sold. This should include its nature, type, and relevant details to help users of financial statements understand the classification.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-8.2",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.41(b)",
+          "question": "Is the entity disposing of, or planning to sell or dispose of, a non-current asset or disposal group?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-8.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the facts and circumstances of the sale or expected disposal and its timing and manner?",
+          "decision_tree": {
+            "question": "Is the entity disposing of, or planning to sell or dispose of, a non-current asset or disposal group?",
+            "guidance": "Review IFRS 5. Ensure the asset or disposal group meets the criteria for classification as 'held for sale' or 'discontinued operations' under IFRS 5.6-5.10. Verify supporting documentation for evidence of a formal plan to sell or dispose, and assess if it is likely to qualify under IFRS 5.",
+            "yes_case": {
+              "question": "Is the asset or disposal group classified as 'held for sale' or 'discontinued operations' in accordance with IFRS 5?",
+              "guidance": "Check the financial statements and disclosures. Confirm classification criteria such as expectations for sale within 12 months, active marketing efforts, and whether actions to finalize the disposal are consistent with IFRS 5 guidelines (refer to IFRS 5.7-5.10).",
+              "yes_case": {
+                "question": "Does the entity disclose the facts and circumstances of the sale or expected disposal and its timing and manner?",
+                "guidance": "Review IFRS 5.41(b) and examine footnotes and disclosures in the financial statements. Ensure the disclosure includes reasons for the sale (e.g., strategic, financial), timeline for disposal, and how the disposal will be executed (e.g., sale to third parties, spin-off, etc.). Any omissions or ambiguities should be flagged.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-8.3",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.41(c)",
+          "question": "Has the entity classified any non-current assets or disposal groups as held for sale or discontinued operations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-8.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the gain or loss recognised under IFRS 5.20–22 and, if not separately presented, the caption in the statement of comprehensive income where it is included?",
+          "decision_tree": {
+            "question": "Has the entity classified any non-current assets or disposal groups as held for sale or discontinued operations during the reporting period?",
+            "guidance": "Review the financial statements and IFRS 5 disclosures. Check the statement of financial position and notes for any classification of non-current assets or disposal groups as 'held for sale' under IFRS 5.7–5.8. Verify that the entity meets the criteria for classification, such as the asset being available for immediate sale and sale being highly probable.",
+            "yes_case": {
+              "question": "Has the entity recognised any gain or loss under IFRS 5.20–22 relating to assets classified as held for sale or discontinued operations?",
+              "guidance": "Examine the statement of comprehensive income and supporting notes for evidence of gains or losses recognised under IFRS 5.20–22. Ensure these gains or losses arise from remeasurement to fair value less costs to sell or derecognition.",
+              "yes_case": {
+                "question": "Does the entity disclose either (a) the gain or loss recognised under IFRS 5.20–22 or (b) the caption in the statement of comprehensive income where it is included if not separately presented?",
+                "guidance": "Check the notes to the financial statements for disclosure of the gain or loss. If the gain or loss is not separately presented, ensure the entity provides the caption where it is included in the statement of comprehensive income. Refer specifically to IFRS 5.41(c).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-8.4",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.41(d)",
+          "question": "Does the entity have a held-for-sale asset or disposal group as defined under IFRS 5?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-8.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the reportable segment in which the held-for-sale asset or disposal group is presented under IFRS 8, if applicable?",
+          "decision_tree": {
+            "question": "Does the entity have a held-for-sale asset or disposal group as defined under IFRS 5?",
+            "guidance": "Review the financial statements and accounting policies to identify whether the entity has classified any asset or disposal group as held-for-sale under IFRS 5. Refer to IFRS 5.6-5.12 for criteria, including management's commitment to sell and the expectation of sale within one year.",
+            "yes_case": {
+              "question": "Does the entity operate reportable segments as defined under IFRS 8?",
+              "guidance": "Examine disclosures about operating segments in the financial statements and verify that the entity reports separate segments based on IFRS 8. Verify segment identifiers based on IFRS 8.5-8.10, which considers internal reporting to the chief operating decision maker.",
+              "yes_case": {
+                "question": "Does the entity disclose the reportable segment where the held-for-sale asset or disposal group is presented?",
+                "guidance": "Check the notes to the financial statements for disclosures about reportable segments under IFRS 8, ensuring the held-for-sale classification is associated with the correct segment. Refer to IFRS 5.41(d) for specific disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-9.1",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.26–29, 5.42",
+          "question": "Has the entity reversed the held-for-sale classification of any assets or disposal groups during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity reverses held-for-sale classification, does it disclose the facts and circumstances leading to that decision?",
+          "decision_tree": {
+            "question": "Has the entity reversed the held-for-sale classification of any assets or disposal groups during the reporting period?",
+            "guidance": "Review the entity's financial statements and management disclosures. Specifically, check the notes to the financial statements for references to assets or disposal groups that were previously classified as held-for-sale but are no longer classified as such. Cross-check the statement of financial position for reclassified assets.",
+            "yes_case": {
+              "question": "Has the entity disclosed the facts and circumstances leading to the reversal of the held-for-sale classification?",
+              "guidance": "Refer to IFRS 5.26–29 for disclosure requirements. This includes the reasons why the criteria for held-for-sale classification are no longer met and any related changes in accounting treatments. Beware of incomplete or overly general disclosures that lack substance.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-9.2",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.26–29, 5.42",
+          "question": "Has the entity decided to classify a non-current asset (or disposal group) as held for sale or distribute it to owners during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "IFRS5-9.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the effect of that decision on the period's and prior periods' results?",
+          "decision_tree": {
+            "question": "Has the entity decided to classify a non-current asset (or disposal group) as held for sale or distribute it to owners during the reporting period?",
+            "guidance": "Review the financial statements and board meeting minutes for decisions to classify an asset or disposal group as held for sale or distribution. This classification usually arises under IFRS 5. Ensure this decision is clearly documented and aligns with the classification criteria in IFRS 5.7–5.12.",
+            "yes_case": {
+              "question": "Does the entity disclose the impact of the classification on the current reporting period's financial results in accordance with IFRS 5.26–29?",
+              "guidance": "Confirm whether the financial statements include disclosures about the reclassification effects, such as changes to depreciation, impairment losses, or gains. Specifically, refer to IFRS 5.27 to ensure all necessary details are disclosed.",
+              "yes_case": {
+                "question": "Does the entity disclose the impact of the classification on prior periods' financial results (if applicable) in accordance with IFRS 5.42?",
+                "guidance": "Check whether prior periods' financial results are restated as required for comparative purposes or if disclosures explain why restatement is not provided, in adherence to IFRS 5.42.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-10",
+          "section": "IFRS_5",
+          "reference": "IFRS 5 & IFRS 13.5–7",
+          "question": "Does the entity conduct fair-value measurements related to IFRS 5 (e.g., fair value less costs to sell)?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For fair-value measurements (including fair value less costs to sell) required by IFRS 5, does the entity provide the disclosures required by IFRS 13?",
+          "decision_tree": {
+            "question": "Does the entity conduct fair-value measurements related to IFRS 5 (e.g., fair value less costs to sell)?",
+            "guidance": "Review the financial statements, including notes and disclosures, to determine if the entity measures any non-current assets (or disposal groups) classified as held for sale at fair value less costs to sell, as required by IFRS 5. Check assessment criteria in IFRS 5.15–5.17 for classification of such assets. Ensure the measurement basis explicitly mentions 'fair value less costs to sell'.",
+            "yes_case": {
+              "question": "Does the entity provide disclosures for fair-value measurements as required by IFRS 13?",
+              "guidance": "Examine the disclosures in the financial statements. IFRS 13 requires entities to disclose information about valuation techniques, inputs, level of the fair value hierarchy (Level 1, Level 2, Level 3), and any relevant sensitivity analysis for Level 3 valuations. Verify compliance against the checklist provided in IFRS 13.91–13.99. Pay attention to assets measured on a recurring or non-recurring basis and ensure completeness of required disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "IFRS5-11",
+          "section": "IFRS_5",
+          "reference": "IFRS 5.12",
+          "question": "Did the entity meet held-for-sale criteria for any non-current asset or disposal group after the reporting period but before the financial statements were authorized for issue?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If held-for-sale criteria are met after period end but before authorisation, does the entity disclose in notes the information specified in IFRS 5.41(a), (b) and (d)?",
+          "decision_tree": {
+            "question": "Did the entity meet held-for-sale criteria for any non-current asset or disposal group after the reporting period but before the financial statements were authorized for issue?",
+            "guidance": "Refer to the conditions for classification as held-for-sale in IFRS 5.7 to IFRS 5.9. Verify if the entity decided during this timeframe that an asset or disposal group meets these criteria. Review board minutes, management reports, and similar documentation for confirmation.",
+            "yes_case": {
+              "question": "Has the entity disclosed the required information in the notes as specified in IFRS 5.41(a), (b), and (d)?",
+              "guidance": "Ensure disclosures include (a) a description of the non-current asset or disposal group, (b) the facts and circumstances of the held-for-sale classification, and (d) the expected manner and timing of disposal. Cross-check the notes to the financial statements referencing IFRS 5.41.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

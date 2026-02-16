@@ -1,0 +1,503 @@
+{
+  "title": "Related Party Disclosures (IAS 24) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 24",
+      "title": "Related Party Disclosures",
+      "description": "Checklist for presentation and disclosure requirements under IAS 24.",
+      "items": [
+        {
+          "id": "501",
+          "section": "IAS 24",
+          "reference": "IAS 24.12, IAS 24.13",
+          "question": "Does the entity have any parent-subsidiary relationships?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose relationships between parents and subsidiaries, irrespective of whether there are transactions between them?",
+          "decision_tree": {
+            "question": "Does the entity have any parent-subsidiary relationships?",
+            "guidance": "Review the organizational structure and relevant agreements, such as group reporting documentation or the legal structure of the entity. Generally, parent-subsidiary relationships are defined when one entity controls another as per IFRS 10 (e.g., through voting rights or contractual arrangements).",
+            "yes_case": {
+              "question": "Has the entity disclosed the existence of these parent-subsidiary relationships in their financial statements?",
+              "guidance": "Examine the notes to the financial statements, specifically the related party disclosure section. Ensure that relationships between the parent and subsidiaries are explicitly stated, irrespective of whether any transactions have occurred.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "502.1",
+          "section": "IAS 24",
+          "reference": "IAS 24.12(a), IAS 24.13(a)",
+          "question": "Does the entity have a parent entity?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the name of the entity's parent?",
+          "decision_tree": {
+            "question": "Does the entity have a parent entity?",
+            "guidance": "Review the corporate structure, ownership details in the notes to the accounts, shareholder registers, or any organizational documentation. A parent entity typically exercises control over the reporting entity, as defined under IFRS 10.",
+            "yes_case": {
+              "question": "Is the name of the parent entity disclosed in the financial statements?",
+              "guidance": "Check the 'Related Party Disclosures' section of the financial statements or other notes where parent entity relationships are disclosed. Cross-reference this with IAS 24.12(a) and ensure the name of the parent is explicitly mentioned.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "502.2",
+          "section": "IAS 24",
+          "reference": "IAS 24.12(b), IAS 24.13(b)",
+          "question": "Does the entity have a controlling party?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose, if different, the ultimate controlling party?",
+          "decision_tree": {
+            "question": "Does the entity have a controlling party?",
+            "guidance": "Review the organizational structure of the entity as well as related disclosures from the entity’s governance documents or ownership registry. Look for shareholders controlling more than 50% of voting rights or other arrangements that establish control.",
+            "yes_case": {
+              "question": "Is the ultimate controlling party different from the immediate controlling party?",
+              "guidance": "Compare disclosures and ownership records to confirm whether the ultimate controlling party (e.g., individual, entity, or government) differs from the entity listed as the immediate controlling party. Common pitfalls may include assuming the largest shareholder is the ultimate controlling party without verifying indirect ownership structures.",
+              "yes_case": {
+                "question": "Has the entity disclosed the ultimate controlling party in the financial statements?",
+                "guidance": "Review the Notes to Financial Statements under the Related Party Disclosures section to ensure the ultimate controlling party is explicitly identified. Verify this against IAS 24.12(b). If the controlling party is a government, check compliance with IAS 24.13(b).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "502.3",
+          "section": "IAS 24",
+          "reference": "IAS 24.12(c), IAS 24.13(c)",
+          "question": "Does the entity have a parent or an ultimate controlling party?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If neither the entity's parent nor the ultimate controlling party produces consolidated financial statements available for public use, does the entity disclose the name of the next most senior parent that does so?",
+          "decision_tree": {
+            "question": "Does the entity have a parent or an ultimate controlling party?",
+            "guidance": "Refer to the entity’s organizational structure and ownership documentation, such as shareholder agreements or corporate registry records, to determine whether the entity is controlled by another entity or individual (parent or ultimate controlling party). Note that a parent entity may own a controlling interest through direct or indirect ownership.",
+            "yes_case": {
+              "question": "Does the parent or ultimate controlling party produce consolidated financial statements available for public use?",
+              "guidance": "Review publicly available resources, such as stock exchange filings, regulatory submissions, or corporate websites of the parent or ultimate controlling party. Ensure that consolidated financial statements are accessible without legal or physical restrictions.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Has the entity disclosed the name of the next most senior parent that produces consolidated financial statements available for public use?",
+                "guidance": "Inspect the entity's financial statement notes and disclosures. Verify that the name of the next most senior parent entity with public consolidated financial statements is explicitly provided, as required by IAS 24.12(c). Common pitfalls include missing or incomplete disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "503.1",
+          "section": "IAS 24",
+          "reference": "IAS 24.17(a)",
+          "question": "Does the entity have key management personnel?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose key management personnel compensation for short-term employee benefits?",
+          "decision_tree": {
+            "question": "Does the entity have key management personnel?",
+            "guidance": "Review the entity's organizational structure and governance documents to identify key management personnel, as defined by IAS 24.9. Key management personnel typically include senior executives and board members who have authority over planning, directing, and controlling the entity.",
+            "yes_case": {
+              "question": "Did the entity provide compensation to key management personnel during the reporting period?",
+              "guidance": "Examine payroll records, compensation agreements, and other relevant documents to verify if compensation, including short-term employee benefits, was provided to key management personnel. Commonly overlooked items include bonuses and allowances.",
+              "yes_case": {
+                "question": "Does the entity disclose the details of key management personnel compensation for short-term employee benefits in its financial statements?",
+                "guidance": "Check the Notes to the Financial Statements under the section for IAS 24 disclosures. The disclosure should specify the amounts related to short-term employee benefits, such as salaries, wages, and other monetary/non-monetary benefits provided within 12 months.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "503.2",
+          "section": "IAS 24",
+          "reference": "IAS 24.17(b)",
+          "question": "Does the entity have key management personnel?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose key management personnel compensation for post-employment benefits?",
+          "decision_tree": {
+            "question": "Does the entity have key management personnel?",
+            "guidance": "Review the entity's organizational structure and governance documents to identify individuals who qualify as key management personnel based on IAS 24. This typically includes directors and other executives responsible for planning, directing, and controlling the activities of the entity.",
+            "yes_case": {
+              "question": "Does the entity provide post-employment benefits to key management personnel?",
+              "guidance": "Examine contracts, payroll records, or pension agreements related to key management personnel for post-employment benefits. These include pensions, retirement plans, or other benefits payable after employment ends. Focus on terms for ongoing obligations and specific benefits.",
+              "yes_case": {
+                "question": "Does the entity disclose key management personnel compensation for post-employment benefits as required by IAS 24?",
+                "guidance": "Review the financial statements, specifically under the 'Related Party Disclosures' section. Verify that key management personnel's post-employment benefit compensation is disclosed in accordance with IAS 24.17(b), including a clear breakdown of amounts paid, balances due, and description of the benefits.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "503.3",
+          "section": "IAS 24",
+          "reference": "IAS 24.17(c)",
+          "question": "Does the entity have key management personnel?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose key management personnel compensation for other long-term benefits?",
+          "decision_tree": {
+            "question": "Does the entity have key management personnel?",
+            "guidance": "Identify whether the entity has individuals categorized as 'key management personnel' as defined in IAS 24. Key management personnel typically include those who have authority and responsibility for planning, directing, and controlling the entity’s activities, directly or indirectly. Review entity structure, board composition, and management roles in governance documents and disclosures.",
+            "yes_case": {
+              "question": "Does the entity provide other long-term benefits to key management personnel?",
+              "guidance": "Examine records of compensation agreements, employment contracts, and disclosures related to key management personnel. 'Other long-term benefits' may include deferred compensation, post-employment benefit plans, or any compensation payable after 12 months following the reporting period. Check payroll documentation, benefit plan descriptions, and financial disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose key management personnel compensation for other long-term benefits accurately, as required by IAS 24.17(c)?",
+                "guidance": "Review financial disclosures to confirm that compensation related to other long-term benefits is clearly disclosed. Verify compliance with IAS 24.17(c), which specifies that the nature and extent of compensation must be disclosed separately, ensuring transparency. Common pitfalls include omitting detailed breakdowns or misclassifying components of compensation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "503.4",
+          "section": "IAS 24",
+          "reference": "IAS 24.17(d)",
+          "question": "Does the entity have key management personnel to whom termination benefits are provided?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose key management personnel compensation for termination benefits?",
+          "decision_tree": {
+            "question": "Does the entity have key management personnel to whom termination benefits are provided?",
+            "guidance": "Review the employment contracts, board resolutions, or compensation agreements for key management personnel. Key management refers to individuals who have authority and responsibility for planning, directing, and controlling activities of the entity (e.g., directors, executives). Verify whether termination benefits are included in their compensation arrangements.",
+            "yes_case": {
+              "question": "Has the entity disclosed termination benefits provided to key management personnel in accordance with IAS 24.17(d)?",
+              "guidance": "Check the financial statements, specifically disclosures related to key management personnel compensation in note disclosures or relevant sections. Confirm that the termination benefits are disclosed separately and appropriately, as required by IAS 24.17(d). Common pitfalls include missing detailed disclosure or grouping termination benefits with other compensation types.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "503.5",
+          "section": "IAS 24",
+          "reference": "IAS 24.17(e)",
+          "question": "Does the entity have key management personnel?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose key management personnel compensation for share-based payments?",
+          "decision_tree": {
+            "question": "Does the entity have key management personnel?",
+            "guidance": "Review the composition of the entity's management team as disclosed in the financial statements or governance reports. Key management personnel typically includes individuals with authority and responsibility for planning, directing, and controlling the activities of the entity (e.g., CEO, CFO, board members). Check the definition in IAS 24.9 for clarification.",
+            "yes_case": {
+              "question": "Has the entity provided share-based payments to its key management personnel during the reporting period?",
+              "guidance": "Review the entity's remuneration policies or disclosures in the financial statements. Check if share-based payments (e.g., stock options, restricted shares) have been granted to any key management personnel during the reporting period. Verify supporting documentation, such as board decisions and compensation agreements.",
+              "yes_case": {
+                "question": "Does the entity disclose key management personnel compensation for share-based payments in accordance with IAS 24.17(e)?",
+                "guidance": "Ensure that the financial statements include disclosures of share-based payment compensation for key management personnel. IAS 24.17(e) requires a breakdown of compensation elements, including share-based payments. Confirm disclosures in the notes to the financial statements under related party transactions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "504.1",
+          "section": "IAS 24",
+          "reference": "IAS 24.17, IAS 24.18(a)",
+          "question": "Did the entity have any related party transactions during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If there are related party transactions during the period, does the entity disclose the nature of each related party relationship?",
+          "decision_tree": {
+            "question": "Did the entity have any related party transactions during the reporting period?",
+            "guidance": "Review the entity's financial records, contracts, and agreements for transactions with related parties as defined under IAS 24. Identify transactions such as sales, purchases, loans, transfers, or other arrangements. Check disclosures in the financial statements for indications of any related party transactions.",
+            "yes_case": {
+              "question": "Does the entity disclose the nature of each related party relationship?",
+              "guidance": "Examine the notes to the financial statements for disclosures about related parties. Specifically, confirm that the entity has clearly disclosed the nature of the relationships (e.g., parent company, subsidiaries, joint ventures, directors, key management personnel) as required by IAS 24.17 and IAS 24.18(a). Ensure names are excluded if the disclosure violates confidentiality laws but the relationship itself must still be described.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "504.2",
+          "section": "IAS 24",
+          "reference": "IAS 24.17, IAS 24.18(b)",
+          "question": "Does the entity have related party transactions or outstanding balances with related parties?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "504.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose information about related party transactions and outstanding balances, including commitments, necessary for an understanding of their potential effect on the financial statements, specifically: the amount of the transactions; the amount of outstanding balances, including commitments; their terms and conditions (including whether secured and the nature of consideration to be provided); details of any guarantees given or received; provisions for doubtful debts related to outstanding balances; and the expense recognised for bad or doubtful debts due from related parties?",
+          "decision_tree": {
+            "question": "Does the entity have related party transactions or outstanding balances with related parties?",
+            "guidance": "Examine the entity's financial records, contracts, and disclosures for transactions involving related parties, as defined under IAS 24. Review agreements, loan documents, and guarantees, and confirm if any transactions or balances exist with shareholders, directors, entities under common control, or close family members of key management personnel. Pay attention to intragroup transactions that may not be clearly labeled. Review materiality thresholds.",
+            "yes_case": {
+              "question": "Are the related party transactions and outstanding balances material to the financial statements, either quantitatively or qualitatively?",
+              "guidance": "Assess materiality based on IAS 1.7 and IAS 1.31. Consider both quantitative materiality (such as the monetary significance of the transactions and balances) and qualitative materiality (such as the nature of the relationship and its impact on the entity's operations or financial position). Review related party transactions disclosed and evaluate their significance in the context of the entity's overall financial statements.",
+              "yes_case": {
+                "question": "Has the entity disclosed all required information about related party transactions and outstanding balances as specified in IAS 24?",
+                "guidance": "Review the entity's disclosures in the notes to the financial statements. Confirm that the following details are disclosed for material related party transactions and balances: 1) the amount of the transactions, 2) the amount of outstanding balances (including commitments), 3) terms and conditions including whether secured and the nature of consideration, 4) any given or received guarantees, 5) provisions for doubtful debts, and 6) expenses recognised for bad or doubtful debts. Cross-check disclosures against IAS 24.17 and IAS 24.18(b) requirements and scrutinize for completeness and clarity.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "505.1",
+          "section": "IAS 24",
+          "reference": "IAS 24.18(a)",
+          "question": "Is the entity part of a group with a parent entity?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "504.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the information required by IAS 24.18 separately for the parent?",
+          "decision_tree": {
+            "question": "Is the entity part of a group with a parent entity?",
+            "guidance": "Determine if the entity is part of a corporate group with a parent entity by reviewing the organizational structure and ownership information in the financial statements. Check notes and disclosures related to related parties and group structure.",
+            "yes_case": {
+              "question": "Does the entity disclose information required by IAS 24.18 related to the parent entity separately?",
+              "guidance": "Refer to IAS 24.18(a). Ensure that disclosures include information on the relationship with the parent entity, transactions between the parent and the entity, and outstanding balances. Review the 'Related Party Disclosures' note and ensure it specifically addresses the parent entity.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "505.2",
+          "section": "IAS 24",
+          "reference": "IAS 24.18(b)",
+          "question": "Does the entity have entities with joint control of or significant influence over it?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "504.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the information required by IAS 24.18 separately for entities with joint control of or significant influence over the entity?",
+          "decision_tree": {
+            "question": "Does the entity have entities with joint control of or significant influence over it?",
+            "guidance": "Review the related party disclosures in the financial statements and entity governance documents for evidence of joint control arrangements or entities with significant influence (e.g., shareholders with >20% voting power but <50%). Cross-check with IAS 24 definitions and ensure the relationship is recognized according to accounting standards.",
+            "yes_case": {
+              "question": "Does the entity disclose the information required by IAS 24.18 separately for these entities?",
+              "guidance": "Verify the disclosures in the financial statements, particularly the related party transactions section. IAS 24.18 requires information such as the amount, nature of the transactions, outstanding balances, provisions for doubtful debts, and expenses recognized during the period in respect of bad or doubtful debts. Confirm these details are separately disclosed for entities with joint control or significant influence.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "505.3",
+          "section": "IAS 24",
+          "reference": "IAS 24.18(c)",
+          "question": "Does the entity have subsidiaries?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "504.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the information required by IAS 24.18 separately for subsidiaries?",
+          "decision_tree": {
+            "question": "Does the entity have subsidiaries?",
+            "guidance": "Review the consolidation section of the financial statements and any related disclosures. Refer to the entity’s organizational structure to confirm the existence of subsidiaries. Verify using the group's legal documentation, such as shareholder agreements or incorporation records. If subsidiaries exist, they should be consolidated in compliance with IFRS 10.",
+            "yes_case": {
+              "question": "Have transactions occurred between the entity and its subsidiaries during the reporting period?",
+              "guidance": "Check the books of accounts and the related parties disclosure (IAS 24). Look specifically at intercompany sales or purchases, loans, services, or dividends paid/received. Ensure transactions involving subsidiaries are accounted for as related party transactions.",
+              "yes_case": {
+                "question": "Does the entity disclose the information required by IAS 24.18 separately for subsidiaries in the financial statements?",
+                "guidance": "Review IAS 24.18 requirements, which include disclosing the nature of the relationship, the value of transactions, amounts owed by or to subsidiaries, and any outstanding balances. Cross-check the notes to the financial statements for specific and separate disclosure of these items.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "505.4",
+          "section": "IAS 24",
+          "reference": "IAS 24.18(d)",
+          "question": "Does the entity have any associates?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "504.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the information required by IAS 24.18 separately for associates?",
+          "decision_tree": {
+            "question": "Does the entity have any associates?",
+            "guidance": "Review the financial statements and note disclosures to confirm if the entity has any associates as defined in IAS 28, paragraph 3. Associates are entities over which significant influence is exercised but which are not subsidiaries or joint ventures. Significant influence generally involves owning 20% or more of voting power or having strong influence over financial and operational decisions.",
+            "yes_case": {
+              "question": "Has the entity disclosed the required information for associates under IAS 24.18?",
+              "guidance": "Check the related party disclosures in the financial statements for compliance with IAS 24.18. Specifically, look for details such as the nature of the relationship, transactions, outstanding balances, and commitments involving associates. Ensure disclosures are provided separately for associates and include amounts and details as required.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "505.5",
+          "section": "IAS 24",
+          "reference": "IAS 24.18(e)",
+          "question": "Does the entity have joint ventures in which it is a venturer?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "504.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the information required by IAS 24.18 separately for joint ventures in which the entity is a venturer?",
+          "decision_tree": {
+            "question": "Does the entity have joint ventures in which it is a venturer?",
+            "guidance": "Review the entity's investment portfolio and agreements to determine if any joint ventures exist where the entity acts as a venturer. Refer to joint venture definitions and arrangements outlined under IFRS 11. Pay attention to partnerships where control is shared with other venturers.",
+            "yes_case": {
+              "question": "Has the entity identified related party transactions with its joint ventures?",
+              "guidance": "Examine transaction records, agreements, and statutory disclosures to confirm any transactions, such as funding, asset transfers, or service arrangements, with joint ventures. Cross-check disclosures for completeness under IAS 24, as related parties include joint ventures in which the entity is a venturer.",
+              "yes_case": {
+                "question": "Does the entity disclose the information required by IAS 24.18(e) separately for these joint ventures?",
+                "guidance": "Verify that the disclosures include the nature of relationships and information about transactions (e.g., amounts, outstanding balances, terms, and provisions) with joint ventures. Ensure disclosures are separate for joint ventures and in accordance with IAS 24.18(e).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "505.6",
+          "section": "IAS 24",
+          "reference": "IAS 24.18(f)",
+          "question": "Does the entity employ key management personnel for the entity or its parent?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "504.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the information required by IAS 24.18 separately for key management personnel of the entity or its parent?",
+          "decision_tree": {
+            "question": "Does the entity employ key management personnel for the entity or its parent?",
+            "guidance": "Review the organizational structure and employment contracts of the entity and its parent. Key management personnel are individuals who have authority and responsibility for planning, directing, and controlling the entity's activities, directly or indirectly. This includes executive and non-executive directors, officers, and similar roles. Refer to IAS 24 definitions for further clarification.",
+            "yes_case": {
+              "question": "Does the entity disclose all required information about remuneration paid to key management personnel separately in the financial statements?",
+              "guidance": "Verify that the financial statements include all disclosures required by IAS 24.18, specifically related to compensation, including short-term employee benefits, post-employment benefits, other long-term benefits, termination benefits, and share-based payments. Ensure the disclosure is made separately for key management of the entity and its parent.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "505.7",
+          "section": "IAS 24",
+          "reference": "IAS 24.18(g)",
+          "question": "Does the entity have transactions, balances, or relationships with related parties other than key management personnel or the parent's subsidiaries?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "504.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the information required by IAS 24.18 separately for other related parties?",
+          "decision_tree": {
+            "question": "Does the entity have transactions, balances, or relationships with related parties other than key management personnel or the parent's subsidiaries?",
+            "guidance": "Review the entity's records for transactions, outstanding balances, or relationships with related parties as defined in IAS 24, paragraph 9. Related parties include entities under common control, joint ventures, associates, and entities with significant influence. Verify against contracts, agreements, and board minutes. Avoid excluding immaterial items prematurely.",
+            "yes_case": {
+              "question": "Has the entity disclosed the information required by IAS 24.18 for these other related parties?",
+              "guidance": "Confirm that disclosures include the nature of the relationship, types of transactions, amounts involved, outstanding balances, and any relevant terms. Review IAS 24.18 for the mandatory disclosure requirements. Refer to the notes in the financial statements and ensure all material items are included separately.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "508.1",
+          "section": "IAS 24",
+          "reference": "IAS 24.25(a)",
+          "question": "Does the entity apply the exemption under IAS 24.25 for government-related entities?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity applies the exemption in IAS 24.25, does it disclose the name of the government and the nature of its relationship with the reporting entity (control, joint control or significant influence)?",
+          "decision_tree": {
+            "question": "Does the entity apply the exemption under IAS 24.25 for government-related entities?",
+            "guidance": "Review the financial statements and disclosures to check if the entity mentions applying the exemption in IAS 24.25. This exemption applies to related party disclosures for government-related entities where the government controls, jointly controls, or significantly influences the reporting entity.",
+            "yes_case": {
+              "question": "Has the entity disclosed the name of the government and the nature of its relationship with the reporting entity (control, joint control, or significant influence)?",
+              "guidance": "Refer to IAS 24.25(a). Verify that the disclosures explicitly include the name of the government and clearly describe whether the relationship involves control, joint control, or significant influence.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "508.2",
+          "section": "IAS 24",
+          "reference": "IAS 24.25(b), IAS 24.26",
+          "question": "Has the entity applied the exemption specified in IAS 24.25 for related party disclosures?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "508.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity applies the exemption in IAS 24.25, does it disclose, for transactions and outstanding balances (including commitments), the nature and amount of each individually significant transaction, and for other transactions that are collectively but not individually significant, a qualitative or quantitative indication of their extent?",
+          "decision_tree": {
+            "question": "Has the entity applied the exemption specified in IAS 24.25 for related party disclosures?",
+            "guidance": "Review the entity's disclosure notes in the financial statements, particularly those referencing IAS 24.25. The exemption allows entities such as government-controlled entities to limit related party disclosures. Verify whether the entity explicitly states it applies this exemption.",
+            "yes_case": {
+              "question": "Does the entity disclose the nature and amount of each individually significant transaction with the related party?",
+              "guidance": "Check the notes to the financial statements for individually significant transactions. Ensure these transactions are adequately disclosed, including their nature and specific monetary amounts, as required by IAS 24.26.",
+              "yes_case": {
+                "question": "For other transactions that are collectively but not individually significant, does the entity provide a qualitative or quantitative indication of their extent?",
+                "guidance": "Review the disclosure to ensure that collectively significant transactions are grouped together and described either qualitatively (e.g., nature of transactions) or quantitatively (e.g., aggregated monetary totals). Refer to IAS 24.26 for detailed requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

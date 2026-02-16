@@ -1,0 +1,641 @@
+{
+  "title": "IFRS_2 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS_2",
+      "title": "Share-based payment",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 2.",
+      "items": [
+        {
+          "id": "535.1",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.44, IFRS 2.45",
+          "question": "Did the entity have any share-based payment arrangements during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the vesting requirements for each type of share-based payment arrangement that existed during the period?",
+          "decision_tree": {
+            "question": "Did the entity have any share-based payment arrangements during the reporting period?",
+            "guidance": "Review the entity's financial statements, specifically the notes to the accounts, and any sections dealing with employee benefits or share-based payment transactions. Look for references to IFRS 2, which governs share-based payments. Verify if the entity has acknowledged the existence of such arrangements.",
+            "yes_case": {
+              "question": "Are the vesting requirements of each type of share-based payment arrangement disclosed in the financial statements?",
+              "guidance": "Examine the disclosures related to share-based payment arrangements in the financial statements. Vesting requirements usually define conditions such as service periods or performance milestones that must be met before the arrangement becomes exercisable. Common errors include incomplete descriptions or omission of key vesting conditions. Reference IFRS 2 paragraphs 44 and 45 for disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "535.2",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.44, IFRS 2.45",
+          "question": "Does the entity have share-based payment arrangements that existed during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "535.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the range of exercise prices for each type of share-based payment arrangement that existed during the period?",
+          "decision_tree": {
+            "question": "Does the entity have share-based payment arrangements that existed during the reporting period?",
+            "guidance": "Check the financial statements and supporting notes for any references to IFRS 2 compliance. Examine sections that discuss equity-settled or cash-settled share-based transactions in detail. Common indicators include employee stock options, restricted stock units, or any other share-based payment arrangements.",
+            "yes_case": {
+              "question": "Does the entity disclose the range of exercise prices for each type of share-based payment arrangement?",
+              "guidance": "Review the relevant note disclosures related to share-based payments. Specifically, look for tables or narratives explaining the range of exercise prices. Consult IFRS 2, paragraphs 44 and 45, which require detailed disclosure on the terms and conditions of share-based payment arrangements. Make sure the range is clearly stated and each type of arrangement is disclosed separately.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "535.3",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.44, IFRS 2.45",
+          "question": "Did the entity have any share-based payment arrangements during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "535.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the weighted average remaining contractual life for each type of share-based payment arrangement that existed during the period?",
+          "decision_tree": {
+            "question": "Did the entity have any share-based payment arrangements during the reporting period?",
+            "guidance": "Review the contractual agreements and reporting documents, including the Notes to Financial Statements. Check for any mention of equity-settled or cash-settled share-based payment arrangements as defined in IFRS 2. Consider employee compensation plans, stock options, and other similar arrangements.",
+            "yes_case": {
+              "question": "Has the entity disclosed the weighted average remaining contractual life for each type of share-based payment arrangement that existed during the reporting period?",
+              "guidance": "Review the Notes to Financial Statements and disclosures related to share-based payments. Ensure the disclosure includes the weighted average remaining contractual life for ALL types of arrangements (e.g., stock options, restricted stock units). Check whether this information sufficiently represents the arrangements as required by IFRS 2.44 and IFRS 2.45.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.1",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Has the entity granted share options during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the weighted average fair value of share options granted during the period at the measurement date?",
+          "decision_tree": {
+            "question": "Has the entity granted share options during the reporting period?",
+            "guidance": "Review the entity's equity-related transactions and agreements for the reporting period. Check the notes to the financial statements or any schedules detailing share-based payment arrangements. Pay attention to IFRS 2 disclosures, particularly paragraphs 46 and 47, for guidance on share options.",
+            "yes_case": {
+              "question": "Has the entity measured the fair value of the share options granted?",
+              "guidance": "Verify whether the entity has determined the fair value of the share options at the grant date as required by IFRS 2. Use valuation methodologies like Black-Scholes or other models as permitted, and review the calculation details in management's documentation.",
+              "yes_case": {
+                "question": "Has the entity disclosed the weighted average fair value of the share options granted during the period at the measurement date?",
+                "guidance": "Inspect the notes to financial statements for disclosures related to share-based payment arrangements. Specifically, look for the weighted average fair value at grant date, as required by IFRS 2.46. Ensure the disclosure is accurate and complete.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.2",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Has the entity granted share options during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the option pricing model used to measure the fair value of share options granted during the period?",
+          "decision_tree": {
+            "question": "Has the entity granted share options during the reporting period?",
+            "guidance": "Review the entity's agreements and equity transactions noted in the financial statements, particularly the Notes section related to share-based payments or equity-based compensation. Ensure you identify if any share options were granted within the period under audit.",
+            "yes_case": {
+              "question": "Has the entity measured the fair value of the granted share options using an option pricing model?",
+              "guidance": "Check the details in Note disclosures under 'Share-based payments' or 'Equity compensation'. Verify that a fair value calculation has been carried out using an option pricing model, such as the Black-Scholes or binomial model, as required by IFRS 2.46.",
+              "yes_case": {
+                "question": "Has the entity disclosed the option pricing model used in measuring the fair value of share options?",
+                "guidance": "Ensure the disclosures comply with IFRS 2.46 and IFRS 2.47. Specifically, the entity must name the option pricing model used and provide sufficient detail about its assumptions (e.g., volatility, risk-free rate, and expected dividend yield). Check the Notes section for this explicit disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.3",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Has the entity granted share options during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the weighted average share price used as an input to the option pricing model for share options granted during the period?",
+          "decision_tree": {
+            "question": "Has the entity granted share options during the reporting period?",
+            "guidance": "Review the entity's equity-based payment arrangements, focusing on agreements involving share options granted during the reporting period. Check the relevant contracts or agreements and cross-reference disclosures in the financial statements pursuant to IFRS 2.",
+            "yes_case": {
+              "question": "Did the entity use an option pricing model to estimate the fair value of the share options granted?",
+              "guidance": "Refer to the entity's accounting policy note on share-based payments. Look for references to valuation techniques such as Black-Scholes or other models. Ensure that these are explicitly indicated as being used for fair value estimation of share options, as required under IFRS 2.46.",
+              "yes_case": {
+                "question": "Has the entity disclosed the weighted average share price used as an input to the option pricing model for share options granted during the period?",
+                "guidance": "Review the disclosures in the notes to the financial statements, focusing on share-based payments as per IFRS 2.47. Confirm that the weighted average share price is explicitly stated for the relevant grants during the period. Ensure completeness and accuracy of the disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.4",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Has the entity granted share options during the period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the exercise price used as an input to the option pricing model for share options granted during the period?",
+          "decision_tree": {
+            "question": "Has the entity granted share options during the period?",
+            "guidance": "Review the agreements and records of share-based payment transactions for the period under audit. Verify if share options were granted during the reporting period under IFRS 2 requirements.",
+            "yes_case": {
+              "question": "Did the entity use an option pricing model to determine the fair value of the granted share options?",
+              "guidance": "Check the valuation methodology used for determining the fair value of share options, as disclosed in the notes to the financial statements. Specifically, look for references to option pricing models such as Black-Scholes or other valuation techniques.",
+              "yes_case": {
+                "question": "Has the entity disclosed the exercise price used as an input to the option pricing model for the share options granted during the period?",
+                "guidance": "Review the disclosures in the financial statements and accompanying notes under IFRS 2.46 and IFRS 2.47. Validate that the exercise price is explicitly stated as part of the inputs used in the option pricing model for the granted share options.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.5",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Did the entity grant other equity instruments during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the number of other equity instruments granted during the period at the measurement date?",
+          "decision_tree": {
+            "question": "Did the entity grant other equity instruments during the reporting period?",
+            "guidance": "Review the entity’s agreements and records related to equity-settled share-based payment transactions. Look specifically for documented grants of equity instruments that are neither shares nor share options. Verify the period during which these instruments were granted.",
+            "yes_case": {
+              "question": "Has the entity measured these equity instruments at the grant date in accordance with IFRS 2?",
+              "guidance": "Check the entity’s valuation approach at the grant date. Confirm that the measurement complies with IFRS 2's requirements (e.g., fair value determined using appropriate valuation models such as the Black-Scholes model or Monte Carlo simulations). Ensure inputs and assumptions used in the valuation are documented and in line with IFRS 2.46.",
+              "yes_case": {
+                "question": "Has the entity disclosed the number of other equity instruments granted during the period at the measurement date?",
+                "guidance": "Review the notes to the financial statements and disclosures related to share-based payments. Verify that the disclosure includes clear reporting of the number of these equity instruments granted during the reporting period, as required by IFRS 2.46 and IFRS 2.47. Ensure completeness and accuracy.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.6",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Has the entity granted any new equity instruments during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the weighted average fair value of other equity instruments granted during the period at the measurement date?",
+          "decision_tree": {
+            "question": "Has the entity granted any new equity instruments during the reporting period?",
+            "guidance": "Review the entity's agreements, Board resolutions, and disclosures related to equity instruments in the reporting period. Common sources include employee share-based payment plans, new issuances under share schemes, or other equity-based transactions. Ensure that you check both formal grants and agreements that might implicitly involve equity instruments.",
+            "yes_case": {
+              "question": "Has the fair value of the granted equity instruments been measured at the measurement date in accordance with IFRS 2?",
+              "guidance": "Verify that the measurement date aligns with IFRS 2, which is usually the grant date for equity-settled share-based payments. The measurement should reflect market conditions, vesting conditions, and other relevant inputs. Check valuation documentation and assumptions used.",
+              "yes_case": {
+                "question": "Has the entity disclosed the weighted average fair value of the equity instruments granted during the period?",
+                "guidance": "Review the notes to the financial statements and ensure they include the required disclosure of the weighted average fair value. Check if the disclosure is specific, clear, and complies with IFRS 2.46 and IFRS 2.47 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.7",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Did the entity issue equity instruments as part of a share-based payment transaction?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If fair value of other equity instruments was not measured based on an observable market price, has the entity disclosed how it was determined?",
+          "decision_tree": {
+            "question": "Did the entity issue equity instruments as part of a share-based payment transaction?",
+            "guidance": "Check the entity's transactions and agreements during the reporting period for share-based payment arrangements involving equity instruments. Review contractual agreements and the Statement of Financial Position for evidence of issued equity instruments.",
+            "yes_case": {
+              "question": "Was the fair value of those equity instruments NOT measured based on an observable market price?",
+              "guidance": "Determine how the fair value of the equity instruments was measured. Review valuation techniques and any market price references used in the financial statements and disclosures. Look for notes specifically explaining the valuation methodology.",
+              "yes_case": {
+                "question": "Has the entity disclosed how the fair value of those equity instruments was determined?",
+                "guidance": "Review the notes to the financial statements for disclosures describing the valuation method (e.g., models used, inputs, assumptions). Common omissions include lack of detail about key estimates or valuation techniques.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.8",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Did the entity grant any equity instruments to its employees or other parties during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed whether and how expected dividends were incorporated into the measurement of fair value of other equity instruments granted during the period?",
+          "decision_tree": {
+            "question": "Did the entity grant any equity instruments to its employees or other parties during the reporting period?",
+            "guidance": "Review the entity's share-based payment arrangements detailed in the notes to the financial statements. Look for references to equity instruments, such as shares, share options, or similar instruments. Verify their existence in agreements or transactions during the reporting period.",
+            "yes_case": {
+              "question": "Were these equity instruments measured at fair value as required by IFRS 2?",
+              "guidance": "Check the entity's accounting policies and disclosures for compliance with IFRS 2.23-27. Confirm that the equity instruments were measured at the grant date using an appropriate valuation technique, such as the Black-Scholes model or similar. Verify that assumptions such as market conditions or expected dividend yields were considered.",
+              "yes_case": {
+                "question": "Has the entity disclosed whether expected dividends were incorporated into the measurement of fair value for these equity instruments?",
+                "guidance": "Review the disclosure notes in the financial statements, particularly those addressing share-based payment arrangements (IFRS 2.46-47). Check for explicit mention of expected dividends and how they were accounted for when estimating fair value. Ensure the disclosure is clear and sufficient.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.9",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Did the entity grant equity instruments during the period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed whether and how any other features of other equity instruments granted during the period were incorporated into the measurement of fair value?",
+          "decision_tree": {
+            "question": "Did the entity grant equity instruments during the period?",
+            "guidance": "Review transactions for the period in accordance with IFRS 2. Check contractual agreements, board resolutions, issuance documents, or any other evidence in the entity's books to identify equity instruments granted. Ensure there is no omission—common pitfalls include overlooking instruments granted but not yet executed.",
+            "yes_case": {
+              "question": "Do the equity instruments granted have any other features (e.g., non-standard characteristics like vesting conditions, market conditions, or contingent features)?",
+              "guidance": "Examine the terms of the equity instruments granted. Refer to IFRS 2.46 for guidance on identifying features. Pay special attention to clauses describing vesting, market-driven outcomes, or contingent conditions, as these could constitute 'other features'.",
+              "yes_case": {
+                "question": "Has the entity disclosed whether and how these other features were incorporated into the measurement of fair value?",
+                "guidance": "Refer to IFRS 2.46 and IFRS 2.47. Inspect the notes to the financial statements (typically under disclosures for share-based payment arrangements). Ensure clarity on whether these features were disclosed and their impact on fair value measurement.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.10",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Did the entity have any share-based payment arrangements that were modified during the period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed an explanation of any modifications to share-based payment arrangements made during the period?",
+          "decision_tree": {
+            "question": "Did the entity have any share-based payment arrangements that were modified during the period?",
+            "guidance": "Review the entity’s records related to share-based payment arrangements, including board minutes, agreements with employees, and amendments to existing plans. Look for changes such as amendments to terms, conditions, or vesting requirements. Refer to IFRS 2.46 and IFRS 2.47 for specific guidance on what constitutes a modification.",
+            "yes_case": {
+              "question": "Has the entity disclosed an explanation of the modifications to share-based payment arrangements, including the nature, reasons, and effects of the modifications?",
+              "guidance": "Validate disclosures in the notes to financial statements against the requirements in IFRS 2.46 and IFRS 2.47. Ensure the entity has described the type of modifications, the rationale behind them, and their impact on financial results. Common pitfalls include incomplete explanations or omitting effects on valuation.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.11",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Has the entity modified any share-based payment arrangements during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the incremental fair value granted as a result of modifications to share-based payment arrangements during the period?",
+          "decision_tree": {
+            "question": "Has the entity modified any share-based payment arrangements during the reporting period?",
+            "guidance": "Review the entity's agreements and disclosures related to share-based payments for the reporting period. Look for evidence of modifications, which may relate to changes in terms or conditions, including adjustments to vesting periods, exercise prices, or other critical elements of the arrangement as defined in IFRS 2.46-47. Common pitfalls include overlooking minor amendments that may still qualify as modifications.",
+            "yes_case": {
+              "question": "Did the modification of share-based payment arrangements result in an incremental fair value being granted?",
+              "guidance": "Assess whether the terms of the modification resulted in additional fair value being conferred to the recipients, beyond the original arrangement, as outlined in IFRS 2.46. Examine detailed valuations or calculations provided by the entity.",
+              "yes_case": {
+                "question": "Has the entity disclosed the incremental fair value granted due to modifications to share-based payment arrangements during the period?",
+                "guidance": "Ensure that disclosures comply with IFRS 2.46-47. Verify the inclusion of the nature and amount of the incremental fair value, and confirm alignment with disclosure requirements in the financial statements or footnotes. Common mistakes include omitting the disclosure entirely or providing insufficient detail.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "536.12",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.47",
+          "question": "Has the entity made modifications to share options or other equity instruments during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "536.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed how the incremental fair value granted as a result of modifications was measured, consistent with the requirements for share options and other equity instruments?",
+          "decision_tree": {
+            "question": "Has the entity made modifications to share options or other equity instruments during the reporting period?",
+            "guidance": "Review the agreements, contracts, or board resolutions related to share-based payments during the reporting period. Look for evidence of modifications, such as changes to the vesting terms, exercise price, or number of equity instruments granted.",
+            "yes_case": {
+              "question": "Did the modifications result in an incremental fair value for the share options or other equity instruments?",
+              "guidance": "Compare the fair value of the equity instruments immediately before and after the modification using the entity's selected valuation methodology (e.g., Black-Scholes model, Monte Carlo simulation). Confirm that the modifications created a higher fair value than previously recognized.",
+              "yes_case": {
+                "question": "Has the entity disclosed how the incremental fair value from modifications was measured?",
+                "guidance": "Check the Notes to the Financial Statements under Share-Based Payment disclosures. Ensure a detailed explanation is provided, including the valuation method used (e.g., Black-Scholes, Monte Carlo), assumptions used (e.g., volatility, risk-free rates), and the date of measurement. Verify this aligns with IFRS 2.46 and IFRS 2.47.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "537.1",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.46, IFRS 2.48",
+          "question": "Did the entity receive goods or services during the period in a share-based payment arrangement?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed how the fair value of goods or services received during the period was determined?",
+          "decision_tree": {
+            "question": "Did the entity receive goods or services during the period in a share-based payment arrangement?",
+            "guidance": "Review the entity's agreements and transactions for the reporting period that involve share-based payments. This includes reviewing contracts and transaction summaries to confirm such arrangements. Check entities' disclosures for share-based payment arrangements under IFRS 2 requirements. Common pitfalls: overlooking immaterial transactions or confusing share-based payment arrangements with other types of payments.",
+            "yes_case": {
+              "question": "Was the fair value of the goods or services received during the period determined?",
+              "guidance": "Confirm whether the entity assessed and measured the fair value of the goods or services received as required by IFRS 2.46 and IFRS 2. Measurement should typically reference observable market prices or use valuation models where market prices are unavailable. Ensure methods align with IFRS 2 valuation principles.",
+              "yes_case": {
+                "question": "Has the entity disclosed how the fair value of goods or services received was determined in accordance with IFRS 2?",
+                "guidance": "Verify the financial statements and accompanying notes for disclosures about the fairness valuation methodology. Look for explanations consistent with IFRS 2.46 and IFRS 2.48, detailing assumptions, inputs, and valuation techniques used. Common omission: insufficient description or lack of clarity in the methodology.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "538.1",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.49",
+          "question": "Do equity-settled share-based payment transactions involve parties other than employees?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If equity-settled share-based payment transactions involve parties other than employees and the entity cannot reliably estimate the fair value of the goods or services received, has the entity disclosed that fact?",
+          "decision_tree": {
+            "question": "Do equity-settled share-based payment transactions involve parties other than employees?",
+            "guidance": "Review the share-based payment arrangements under IFRS 2 in Note disclosures and transaction records. Identify if any equity-settled arrangements involve suppliers, consultants, or other non-employees. Relevant reference: IFRS 2.49.",
+            "yes_case": {
+              "question": "Can the entity reliably estimate the fair value of the goods or services received in these transactions?",
+              "guidance": "Assess documentation for the transaction, such as contracts or agreements with the other parties. Ensure that fair value is estimated using market prices or valuation techniques, as required under IFRS 2. If no reliable measurement exists, such evidence might include significant uncertainty or subjectivity in valuation inputs.",
+              "yes_case": {
+                "question": "Has the entity disclosed fair value-related information for these transactions as required under IFRS 2?",
+                "guidance": "Review the financial statement disclosures. Specifically, check whether the disclosed information includes fair value assumptions, valuation techniques, and the basis for recognizing share-based payments involving parties other than employees. Disclosure details should appear in the Notes section accompanying financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Has the entity disclosed the fact that it cannot reliably estimate the fair value of the goods or services received, as required by IFRS 2.49?",
+                "guidance": "Verify the Notes section in the financial statements for explicit disclosure of the entity’s inability to reliably estimate fair value. Ensure the wording clearly states this limitation as required by IFRS 2.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "538.2",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.49",
+          "question": "Does the entity have equity-settled share-based payment transactions involving parties other than employees?",
+          "question_type": "Followup",
+          "source_question": "538.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If equity-settled share-based payment transactions involve parties other than employees and the entity cannot reliably estimate fair value, has the entity disclosed why it rebutted the presumption?",
+          "decision_tree": {
+            "question": "Does the entity have equity-settled share-based payment transactions involving parties other than employees?",
+            "guidance": "Review the agreements and arrangements within the scope of IFRS 2 regarding equity-settled share-based payment transactions. Specifically, check if the counterparty is not classified as an employee based on IAS 19 or internal policy documents. Examine transaction contracts and identify non-employee beneficiaries.",
+            "yes_case": {
+              "question": "Can the entity reliably estimate the fair value of the equity-settled share-based payment transactions?",
+              "guidance": "Review valuation methods used by the entity (e.g., option-pricing models, market-based approach). Check supporting documentation for estimates (e.g., assumptions, inputs, or techniques) and whether they comply with IFRS 2.49. Ensure the entity has attempted reliable valuation methods before concluding that fair value cannot be estimated.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Has the entity disclosed why it rebutted the presumption of reliably estimating fair value as required by IFRS 2.49?",
+                "guidance": "Examine the financial statement disclosures, particularly the notes related to share-based payment arrangements. Confirm the entity explicitly states the justification for rebutting the presumption, citing reasons (e.g., lack of observable market data, complex valuation challenges). Ensure the explanation aligns with IFRS 2.49 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "539.1",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.50, IFRS 2.51",
+          "question": "Has the entity engaged in share-based payment transactions during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the total expense recognized for the period relating to share-based payment transactions in which the goods or services received do not qualify for recognition as assets and are recognized immediately as an expense?",
+          "decision_tree": {
+            "question": "Has the entity engaged in share-based payment transactions during the reporting period?",
+            "guidance": "Review transaction records, agreements, and financial statements to identify any share-based payment arrangements. Common indicators include equity awards, stock options, or cash-settled share-based payments authorized within the reporting period.",
+            "yes_case": {
+              "question": "Were any goods or services received under share-based payment transactions that do not qualify for recognition as assets?",
+              "guidance": "Examine the nature of goods or services received through share-based payment transactions. Refer to IFRS 2.50 for conditions where items do not qualify as assets, such as services without future economic benefit. Typical examples include employee services.",
+              "yes_case": {
+                "question": "Has the entity disclosed the total expense recognized for the period for these share-based payment transactions?",
+                "guidance": "Check the financial statements, particularly the disclosures in the notes section. The total expense should be clearly labeled and described in compliance with IFRS 2.50 and IFRS 2.51. Ensure the disclosure includes details about the expense type (equity-settled or cash-settled) and amounts.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "539.2",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.50, IFRS 2.51",
+          "question": "Does the entity engage in share-based payment transactions?",
+          "question_type": "Followup",
+          "source_question": "539.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity separately disclosed the portion of that total expense that arises from equity-settled share-based payment transactions?",
+          "decision_tree": {
+            "question": "Does the entity engage in share-based payment transactions?",
+            "guidance": "Review the accounting policies and note disclosures in the financial statements to identify whether share-based payment transactions exist. Look for indications such as employee stock ownership plans or other arrangements involving equity instruments provided to employees or other parties.",
+            "yes_case": {
+              "question": "Do the share-based payment transactions include equity-settled share-based payment transactions?",
+              "guidance": "Review the details of the share-based payment transactions disclosed. Equity-settled transactions involve the entity's issuance of equity instruments (e.g., shares or options to employees) as consideration for goods or services. Check IFRS 2.51 for definitions.",
+              "yes_case": {
+                "question": "Has the entity disclosed the portion of the total expense arising specifically from equity-settled share-based payment transactions?",
+                "guidance": "Review the note disclosures for share-based payment transactions. Ensure the expense related to equity-settled transactions is separately disclosed in accordance with IFRS 2.50 and IFRS 2.51. Be cautious of aggregated figures that may omit this specific breakdown.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "539.3",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.50, IFRS 2.51",
+          "question": "Does the entity have liabilities arising from share-based payment transactions?",
+          "question_type": "Followup",
+          "source_question": "539.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For liabilities arising from share-based payment transactions, has the entity disclosed the total carrying amount at the end of the period?",
+          "decision_tree": {
+            "question": "Does the entity have liabilities arising from share-based payment transactions?",
+            "guidance": "Review the entity’s financial statements and notes, specifically the section on share-based payments. Refer to IFRS 2, paragraphs 50 and 51. Check whether there are any arrangements where the entity owes liabilities due to share-based payment transactions (e.g., cash-settled arrangements or equity-linked liabilities). Common pitfall: missing liabilities arising from share-based transactions structured through subsidiaries or related entities.",
+            "yes_case": {
+              "question": "Has the entity disclosed the total carrying amount of these liabilities at the end of the period?",
+              "guidance": "Review the notes to the financial statements related to share-based payment liabilities. Ensure that the disclosure includes the total carrying amount of liabilities, as per IFRS 2.51, at the end of the reporting period. Pitfall: Partial or incomplete disclosures are not sufficient; ensure all liabilities related to share-based payments are captured.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "539.4",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.50, IFRS 2.51",
+          "question": "Does the entity have liabilities arising from share-based payment transactions?",
+          "question_type": "Followup",
+          "source_question": "539.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For liabilities arising from share-based payment transactions, has the entity disclosed the total intrinsic value at the end of the period of those liabilities for which the counterparty's right to cash or other assets had vested by period end?",
+          "decision_tree": {
+            "question": "Does the entity have liabilities arising from share-based payment transactions?",
+            "guidance": "Review the financial statements, including Notes and the balance sheet, for any mention of liabilities related to share-based payments. Look for obligations where the entity must settle in cash or other assets. Verify the presence of such liabilities by cross-referencing IFRS 2.50.",
+            "yes_case": {
+              "question": "Do these liabilities include any amounts for which the counterparty's right to cash or other assets had vested by the end of the reporting period?",
+              "guidance": "Identify whether there are vested rights under the terms of the share-based payment arrangement using IFRS 2.51. Check the agreement governing the share-based payments and confirm if the counterparty is entitled to settlement as of the reporting date.",
+              "yes_case": {
+                "question": "Has the entity disclosed the total intrinsic value of the liabilities for which the counterparty's right to cash or other assets had vested by the end of the reporting period?",
+                "guidance": "Review the Notes to the financial statements or the disclosures for this specific share-based payment liability. Verify compliance with IFRS 2.51, which requires disclosure of such intrinsic value. Common pitfalls include omitting values or misclassifying liabilities.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "540.1",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.52",
+          "question": "Does the entity have share-based payment arrangements accounted for under IFRS 2?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed additional information necessary to satisfy the presentation and disclosure principles in IFRS 2.44, IFRS 2.46, and IFRS 2.50?",
+          "decision_tree": {
+            "question": "Does the entity have share-based payment arrangements accounted for under IFRS 2?",
+            "guidance": "Check the accounting policies section in the financial statements and confirm if the entity has recognized any share-based payment transactions. These include transactions settled in equity instruments, cash, or other assets. Common examples are employee stock options or share awards.",
+            "yes_case": {
+              "question": "Has the entity provided disclosures for the nature and extent of share-based payment arrangements, including any information specified in IFRS 2.44, IFRS 2.46, or IFRS 2.50?",
+              "guidance": "Review the notes to the financial statements for share-based payment disclosures. Ensure that the entity has disclosed the types of share-based payment arrangements, the terms and conditions, and any information regarding valuation assumptions, as required by the relevant sections of IFRS 2.",
+              "yes_case": {
+                "question": "Is the provided disclosure sufficient to satisfy the principles of IFRS 2.44, IFRS 2.46, and IFRS 2.50?",
+                "guidance": "Evaluate whether the disclosures are clear, detailed, and provide sufficient information for users of the financial statements to understand the nature and effect of share-based payment transactions. Cross-check with the requirements listed in IFRS 2.44 (general principles of disclosure), IFRS 2.46 (cash-settled arrangement details), and IFRS 2.50 (information for equity-settled transactions). Common pitfalls include insufficient detail or missing valuation assumptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "541.1",
+          "section": "IFRS_2",
+          "reference": "IFRS 2.52",
+          "question": "Has the entity classified any share-based payment transactions as equity-settled under IFRS 2?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity has classified any share-based payment transactions as equity-settled under IFRS 2.33F, has it disclosed an estimate of the amount expected to be transferred to the tax authority to settle employees' tax obligations, when necessary to inform users about future cash-flow effects?",
+          "decision_tree": {
+            "question": "Has the entity classified any share-based payment transactions as equity-settled under IFRS 2?",
+            "guidance": "Review the entity's accounting policies and transactions related to share-based payments in the financial statements and disclosures. Look for evidence of equity-settled classification under IFRS 2.33F, as opposed to cash-settled share-based payment transactions.",
+            "yes_case": {
+              "question": "Are there tax obligations related to employees' share-based payments that are expected to be settled in cash by the entity?",
+              "guidance": "Refer to the terms of the share-based payment arrangements and assess the entity's obligations to settle employees' tax liabilities with the tax authority. Verify transaction documentation and tax calculations for clarity.",
+              "yes_case": {
+                "question": "Has the entity disclosed an estimate of the amount expected to be transferred to the tax authority to settle employees' tax obligations?",
+                "guidance": "Check the financial statement disclosures, particularly under IFRS 2 requirements and notes on share-based payments, to confirm whether this estimate is presented clearly. The disclosure should provide sufficient information to inform users about future cash-flow effects.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

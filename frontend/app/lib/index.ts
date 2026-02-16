@@ -37,8 +37,10 @@ export const apiCall = async<T>(
   const url = `${API_BASE_URL}${endpoint}`;
   const token = getAuthToken();
   
+  const isFormData = typeof FormData !== "undefined" && options.body instanceof FormData;
+
   const headers: Record<string, string> = {
-    "Content-Type": "application/json",
+    ...(isFormData ? {} : { "Content-Type": "application/json" }),
     ...options.headers,
   };
 

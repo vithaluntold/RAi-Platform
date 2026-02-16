@@ -1,0 +1,631 @@
+{
+  "title": "IFRS 10 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 10",
+      "title": "Consolidated Financial Statements",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 10.",
+      "items": [
+        {
+          "id": "179",
+          "section": "IFRS 10",
+          "reference": "IFRS 10.C1E",
+          "question": "Did the entity apply the Amendments to IFRS 10 from Annual Improvements to IFRS Accounting Standards – Volume 11, issued July 2024, in its financial statements for a period beginning before 1 January 2026?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If an entity applies the Amendments to IFRS 10 in Annual Improvements to IFRS Accounting Standards – Volume 11, issued July 2024, in its financial statements for a period beginning before 1 January 2026, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Did the entity apply the Amendments to IFRS 10 from Annual Improvements to IFRS Accounting Standards – Volume 11, issued July 2024, in its financial statements for a period beginning before 1 January 2026?",
+            "guidance": "Review the entity's financial statements and accounting policies disclosure to determine if the Amendments to IFRS 10, as issued in Annual Improvements to IFRS Accounting Standards – Volume 11 (July 2024), have been applied for a financial period starting before 1 January 2026. Check specifically for early adoption statements or references to this standard.",
+            "yes_case": {
+              "question": "Does the entity disclose the fact that it applied these Amendments to IFRS 10 early, as required by IFRS 10.C1E?",
+              "guidance": "Review the notes to the financial statements, particularly sections on new standards and amendments applied. Ensure the disclosure explicitly states that the Amendments to IFRS 10 were applied early, as required by IFRS 10.C1E.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "186",
+          "section": "IFRS 10",
+          "reference": "IFRS 10.C1C",
+          "question": "Has the entity applied the Amendments to IFRS 10 and IAS 28 - Sale or Contribution of Assets between an Investor and its Associate or Joint Venture issued in September 2014?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity applies Amendments to IFRS 10 and IAS 28 - Sale or Contribution of Assets between an Investor and its Associate or Joint Venture issued in September 2014, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Has the entity applied the Amendments to IFRS 10 and IAS 28 - Sale or Contribution of Assets between an Investor and its Associate or Joint Venture issued in September 2014?",
+            "guidance": "Review the accounting policies disclosed in the financial statements, particularly under the 'Basis of Preparation' or 'Changes in Accounting Policies' section. Look for mentions of IFRS 10 and IAS 28 amendments implemented during the reporting period. Confirm this with management if the disclosure is unclear.",
+            "yes_case": {
+              "question": "Has the entity disclosed the fact that it applies the Amendments to IFRS 10 and IAS 28, as required by IAS 8?",
+              "guidance": "Examine the notes to the financial statements, particularly the sections discussing changes in accounting policies or new standards and amendments applied. Ensure the disclosure explicitly mentions the Amendments to IFRS 10 and IAS 28 and the date of the amendment (September 2014).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "187",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.18, IFRS 10.25",
+          "question": "Does the entity have ownership interests in subsidiaries?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity present a schedule that shows the effects on the equity attributable to owners of the parent of any changes in its ownership interest in a subsidiary that do not result in a loss of control?",
+          "decision_tree": {
+            "question": "Does the entity have ownership interests in subsidiaries?",
+            "guidance": "Review the entity's organizational structure and financial statements to identify subsidiaries. Check the consolidated financial statements and disclosures for entities controlled by the parent under IFRS 10. Review the identification criteria for 'control' in IFRS 10.7–10.9.",
+            "yes_case": {
+              "question": "Has there been any change in ownership interest in any subsidiary during the reporting period?",
+              "guidance": "Examine transactional records, legal agreements, or equity changes disclosed in the notes to the financial statements. Look for share transfers, new issuances, or stake changes that affect ownership but do not result in a loss of control.",
+              "yes_case": {
+                "question": "Does the entity present a schedule showing the effects of ownership changes in equity attributable to owners of the parent as required by IFRS 12.18 and IFRS 10.25?",
+                "guidance": "Review the disclosures and schedules in the financial statements. Specifically, verify if changes in ownership interests that do not result in loss of control are accounted for and presented. Ensure the information is detailed, complete, and reconciles with equity movements reported in the statement of changes in equity.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "188.1",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.19(a)",
+          "question": "Has the entity lost control of a subsidiary during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When an entity loses control of a subsidiary, does the entity disclose the gain or loss calculated in accordance with IFRS 10.25?",
+          "decision_tree": {
+            "question": "Has the entity lost control of a subsidiary during the reporting period?",
+            "guidance": "Review the entity's transactions and events during the reporting period. Consult IFRS 10 and the documentation of group structure changes (e.g., sale of shares, liquidation, etc.). Look for evidence of loss of control over a previously consolidated subsidiary.",
+            "yes_case": {
+              "question": "Was the gain or loss from the loss of control calculated in accordance with IFRS 10.25?",
+              "guidance": "Refer to IFRS 10.25 to verify the calculation. Ensure the gain or loss takes into account the fair value of consideration received, the fair value of retained interests, and the carrying amount of assets and liabilities of the subsidiary. Confirm adjustments for amounts previously recognized in other comprehensive income related to the subsidiary.",
+              "yes_case": {
+                "question": "Has the entity adequately disclosed the calculated gain or loss in its financial statements?",
+                "guidance": "Check the notes to the financial statements. Ensure the disclosure explicitly states the gain or loss associated with losing control of the subsidiary, as required by IFRS 12.19(a). Verify that the information is clear, complete, and consistent with the standards.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "188.2",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.19(b)",
+          "question": "Has the entity lost control of a subsidiary during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "188.1",
+          "source_trigger": "Yes",
+          "original_question": "When an entity loses control of a subsidiary, does the entity disclose the portion of that gain or loss attributable to measuring any investment retained in the former subsidiary at its fair value at the date when control is lost?",
+          "decision_tree": {
+            "question": "Has the entity lost control of a subsidiary during the reporting period?",
+            "guidance": "Review the consolidation process under IFRS 10. Examine whether any previously controlled subsidiary was derecognized during the reporting period. Check the entity’s group structure changes and disposal transactions documented in meeting minutes, contracts, or the Consolidated Financial Statements.",
+            "yes_case": {
+              "question": "Did the entity retain an investment in the former subsidiary after losing control?",
+              "guidance": "Review the disposal transaction in detail. Determine whether the entity retains any stake (e.g., shares or interests) in the subsidiary after control is lost, and assess whether this retained investment is accounted for in accordance with IFRS 9 or IAS 28, depending on classification.",
+              "yes_case": {
+                "question": "Has the entity measured the retained investment at fair value at the date control was lost?",
+                "guidance": "Review disclosures regarding the loss of control. Verify whether the retained investment was remeasured at fair value, as required by IFRS 10. Ensure that fair value calculation details are documented properly, and refer to the fair value hierarchy disclosed per IFRS 13.",
+                "yes_case": {
+                  "question": "Has the entity disclosed the portion of the gain or loss attributable to the fair value measurement of the retained investment?",
+                  "guidance": "Examine disclosures in the Notes to the Financial Statements. Confirm whether the entity explains the portion of the gain or loss that arises from the fair value measurement of the retained investment in compliance with IFRS 12.19(b). Ensure clarity and completeness.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "188.3",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.19(c)",
+          "question": "Has the entity lost control of a subsidiary during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "188.1",
+          "source_trigger": "Yes",
+          "original_question": "When an entity loses control of a subsidiary, does the entity disclose the line item(s) in profit or loss in which the gain or loss is recognised if not presented separately?",
+          "decision_tree": {
+            "question": "Has the entity lost control of a subsidiary during the reporting period?",
+            "guidance": "Review the group structure and transactions involving subsidiaries in the reporting period. Refer to IFRS 10 (Consolidated Financial Statements), specifically paragraphs regarding loss of control (e.g., IFRS 10.25 and IFRS 10.B97-B99). Check for any disposals, changes in ownership, or other events leading to the loss of control.",
+            "yes_case": {
+              "question": "Has the entity recognized a gain or loss from losing control of the subsidiary in profit or loss?",
+              "guidance": "Verify the financial statements and accounting treatment of the loss of control event. Check if a gain or loss has been recorded in accordance with IFRS 10.25 and IFRS 10.B98-B99.",
+              "yes_case": {
+                "question": "Is the gain or loss presented separately in the Statement of Profit or Loss?",
+                "guidance": "Inspect the Statement of Profit or Loss (including notes) for a distinct line item showing the gain or loss from losing control of a subsidiary. Ensure compliance with IFRS 12.19(c). Common pitfalls include burying such information under aggregated line items.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": {
+                  "question": "Does the entity disclose the line item(s) in profit or loss where the gain or loss is recognized?",
+                  "guidance": "Consult the notes to the financial statements. IFRS 12.19(c) requires disclosure of the specific line item(s) where the gain or loss is recognized if not presented separately in the Statement of Profit or Loss.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                }
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "189",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.9A, IFRS 10.27",
+          "question": "Is the entity a parent company that has determined it is an investment entity in accordance with IFRS 10.27?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When a parent determines that it is an investment entity in accordance with IFRS 10.27, does the investment entity disclose information about significant judgements and assumptions it has made in determining that it is an investment entity?",
+          "decision_tree": {
+            "question": "Is the entity a parent company that has determined it is an investment entity in accordance with IFRS 10.27?",
+            "guidance": "Refer to the entity's assessment under IFRS 10.27. Verify whether the status of 'investment entity' applies. This requires meeting the definition in IFRS 10.27, which includes characteristics such as having more than one investment, investors not related to the entity, and fair value measurement of investments. Misclassification is a common error, so ensure proper assessment has been documented.",
+            "yes_case": {
+              "question": "Has the entity disclosed significant judgements and assumptions made to determine it is an investment entity?",
+              "guidance": "Examine the notes to the financial statements, specifically under IFRS 12.9A disclosure requirements. Look for explanations of key judgements and assumptions such as the basis for investment entity classification, level of control, or relationship with investors. Ensure disclosures provide sufficient clarity and detail to users of financial statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "190",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.9A, IFRS 10.28",
+          "question": "Does the entity classify itself as an investment entity according to IFRS 10.27?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the investment entity does not have one or more of the typical characteristics of an investment entity (see IFRS 10.28), does the investment entity disclose its reasons for concluding that it is nevertheless an investment entity?",
+          "decision_tree": {
+            "question": "Does the entity classify itself as an investment entity according to IFRS 10.27?",
+            "guidance": "Review the entity's classification based on IFRS 10.27. An investment entity typically has certain characteristics, including obtaining funds to invest for returns, committing to its investors that its business purpose is investing, and measuring and evaluating its investments on a fair value basis. Check the description under IFRS 10.27 to verify classification.",
+            "yes_case": {
+              "question": "Does the investment entity lack one or more of the typical characteristics of an investment entity listed in IFRS 10.28?",
+              "guidance": "Examine the nature of the entity. As per IFRS 10.28, typical characteristics include multiple investments, multiple investors, and no intention to provide strategic management to investees. Determine if the entity deviates from any of these traits outlined in IFRS 10.28.",
+              "yes_case": {
+                "question": "Has the investment entity disclosed its reasons for concluding that it is nevertheless an investment entity despite lacking some typical characteristics?",
+                "guidance": "Review the financial statement disclosures. IFRS 12.9A requires the entity to disclose its reasoning and justification for considering itself an investment entity despite not possessing all the typical characteristics. Confirm that the disclosure is clear and aligns with the standard.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "192.1",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.9B(a)",
+          "question": "Has the entity undergone a change in status to become an investment entity during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When an entity becomes an investment entity, does the entity disclose the total fair value, as of the date of change of status, of the subsidiaries that cease to be consolidated?",
+          "decision_tree": {
+            "question": "Has the entity undergone a change in status to become an investment entity during the reporting period?",
+            "guidance": "Review IFRS 10 and IFRS 12 for definitions and criteria of an investment entity. Investment entities are required to measure subsidiaries at fair value through profit or loss instead of consolidating them. Check board minutes, governance documents, and any changes to the entity's operating strategy.",
+            "yes_case": {
+              "question": "Did the entity have subsidiaries that ceased to be consolidated as a result of becoming an investment entity?",
+              "guidance": "Verify records of subsidiaries prior to the change in status and determine whether any subsidiaries were removed from consolidation. This information can be found in the financial statements and supporting subsidiary schedules.",
+              "yes_case": {
+                "question": "Does the entity disclose the total fair value of these subsidiaries as of the date of change in status?",
+                "guidance": "Inspect disclosures in the notes to the financial statements. Specifically, check for compliance with IFRS 12.9B(a), which requires disclosure of the total fair value of subsidiaries that are no longer consolidated due to the change in status.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "192.2",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.9B(b)",
+          "question": "Has the entity become an investment entity during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "192.1",
+          "source_trigger": "Yes",
+          "original_question": "When an entity becomes an investment entity, does the entity disclose the total gain or loss calculated in accordance with IFRS 10.B101?",
+          "decision_tree": {
+            "question": "Has the entity become an investment entity during the reporting period?",
+            "guidance": "Review changes in the entity's business model, governance, and investment strategy. Check IFRS 10 paragraphs 27-29 and B85-B86 for the definition and criteria of an investment entity. Ensure supporting documentation, board resolutions, and relevant notes explain the change.",
+            "yes_case": {
+              "question": "Has the entity calculated the total gain or loss in accordance with IFRS 10.B101?",
+              "guidance": "Verify if the entity has recalculated the gain or loss arising from the change in classification to investment entity status. This calculation should align with guidance provided in IFRS 10.B101, which includes remeasuring investments previously consolidated to fair value at the date of the change.",
+              "yes_case": {
+                "question": "Has the entity disclosed the total gain or loss calculated in accordance with IFRS 10.B101?",
+                "guidance": "Review the financial statements and disclosure notes to ensure the total gain or loss is disclosed. Check for compliance with IFRS 12.9B(b), which requires clear presentation of this information, usually in the notes accompanying the financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "192.3",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.9B(c)",
+          "question": "Has the entity become an investment entity during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "192.1",
+          "source_trigger": "Yes",
+          "original_question": "When an entity becomes an investment entity, does the entity disclose the line item(s) in profit or loss in which the gain or loss is recognised if not presented separately?",
+          "decision_tree": {
+            "question": "Has the entity become an investment entity during the reporting period?",
+            "guidance": "Review the entity's status and operations during the reporting period against the definition of an investment entity in IFRS 10. An investment entity typically has the sole purpose of investing funds for returns from capital appreciation and/or investment income. Check the entity's management intentions and governance structure.",
+            "yes_case": {
+              "question": "Does the entity disclose the line item(s) in profit or loss where the gain or loss from the change of status is recognised if not presented separately?",
+              "guidance": "Review the notes to the financial statements, specifically the disclosures related to profit or loss in accordance with IFRS 12.9B(c). If gains or losses arising from becoming an investment entity are not separately presented, confirm that the line item(s) where they are included are clearly disclosed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "193",
+          "section": "IFRS 10",
+          "reference": "IFRS 12.19A, IFRS 10",
+          "question": "Is the entity an investment entity as defined in IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does an investment entity that, in accordance with IFRS 10, is required to apply the exception to consolidation and, instead, account for its investment in a subsidiary at fair value through profit or loss disclose that fact?",
+          "decision_tree": {
+            "question": "Is the entity an investment entity as defined in IFRS 10?",
+            "guidance": "Review the entity's financial statements and organizational structure. An investment entity, as per IFRS 10, typically: (1) obtains funds from multiple investors, (2) provides investment management services, and (3) measures and evaluates investments on a fair value basis. Refer to IFRS 10.27 for the definition and key characteristics.",
+            "yes_case": {
+              "question": "Does the entity hold investments in subsidiaries that qualify for the exception from consolidation under IFRS 10?",
+              "guidance": "Evaluate the nature of the subsidiaries held by the investment entity. Per IFRS 10.31, the exception applies if the entity accounts for its investment in subsidiaries at fair value through profit or loss (FVTPL) based on its business model. Ensure that the entity applies this exception correctly.",
+              "yes_case": {
+                "question": "Does the entity disclose, in accordance with IFRS 12.19A, that it applies the exception to consolidation and instead accounts for its subsidiaries at fair value through profit or loss?",
+                "guidance": "Check the entity's disclosure note in the financial statements. IFRS 12.19A requires explicit disclosure detailing the use of the exception, including the accounting treatment of subsidiaries at FVTPL. Ensure the disclosure is clear and comprehensive.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.1",
+          "section": "IFRS 10",
+          "reference": "IAS 27.16(a)",
+          "question": "Does the entity prepare separate financial statements in accordance with IAS 27, and not consolidated financial statements in accordance with IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "In the parent's separate financial statements (where consolidated financial statements are not presented in accordance with IFRS 10.4(a)), does the entity disclose that the financial statements are separate financial statements?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements in accordance with IAS 27, and not consolidated financial statements in accordance with IFRS 10?",
+            "guidance": "Verify the entity's accounting policy note and the type of financial statements prepared. Check whether the financial statements are explicitly described as 'separate financial statements' and confirm that consolidated financial statements are not presented (per IFRS 10.4(a)).",
+            "yes_case": {
+              "question": "Do the separate financial statements disclose explicitly that they are separate financial statements as required by IAS 27?",
+              "guidance": "Review the financial statements, particularly the accounting policies and footnotes, for a clear statement such as 'These are the separate financial statements of [Parent Entity Name]' and verify compliance with IAS 27.16(a).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.2",
+          "section": "IFRS 10",
+          "reference": "IAS 27.16(b)",
+          "question": "Does the parent entity prepare separate financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "242.1",
+          "source_trigger": "Yes",
+          "original_question": "In the parent's separate financial statements, does the entity disclose that the exemption from consolidation has been used?",
+          "decision_tree": {
+            "question": "Does the parent entity prepare separate financial statements?",
+            "guidance": "Review the financial statements to check if the parent entity has prepared separate financial statements, as defined in IAS 27. Separate financial statements present investments in subsidiaries, joint ventures, or associates without consolidating their accounts.",
+            "yes_case": {
+              "question": "Has the parent entity elected to use the exemption from consolidation under IFRS 10?",
+              "guidance": "Review IFRS 10, specifically paragraph 4(a), which outlines exemption criteria. The exemption is available if the parent itself is a wholly-owned subsidiary or partially-owned subsidiary of another entity, and certain conditions regarding users of the financial statements and disclosures are met.",
+              "yes_case": {
+                "question": "Does the parent entity disclose in the separate financial statements that the exemption from consolidation has been used?",
+                "guidance": "Review the notes to the separate financial statements, particularly the section explaining the accounting policies. IAS 27.16(b) requires clear disclosure that exemption under IFRS 10 has been applied.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.3",
+          "section": "IFRS 10",
+          "reference": "IAS 27.16(c)",
+          "question": "Is the entity preparing separate financial statements as a parent company?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "242.1",
+          "source_trigger": "Yes",
+          "original_question": "In the parent's separate financial statements, does the entity disclose the name and principal place of business (and country of incorporation, if different) of the entity whose consolidated financial statements that comply with IFRS accounting standards have been produced for public use, and the address where these are obtainable?",
+          "decision_tree": {
+            "question": "Is the entity preparing separate financial statements as a parent company?",
+            "guidance": "Review the financial statement hierarchy and confirm if the reporting entity is producing separate financial statements as the parent. Separate financial statements are typically prepared in addition to consolidated financial statements and exclude investments in subsidiaries measured using full consolidation.",
+            "yes_case": {
+              "question": "Has the parent produced consolidated financial statements that comply with IFRS accounting standards for public use?",
+              "guidance": "Confirm if consolidated financial statements have been prepared. Look for a compliance statement (e.g., 'These financial statements comply with IFRS') and verify their public availability. If consolidated financial statements were not produced, separate financial statements may need additional disclosures.",
+              "yes_case": {
+                "question": "Do the separate financial statements disclose the name and principal place of business (and country of incorporation, if different) of the entity whose consolidated financial statements have been produced for public use?",
+                "guidance": "Review the disclosure notes in the separate financial statements, particularly any section detailing the parent company's relationship with its subsidiaries or group reporting structure. Ensure that the name, principal place of business, country of incorporation (if different), and address where the consolidated financial statements are obtainable are clearly stated.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.4",
+          "section": "IFRS 10",
+          "reference": "IAS 27.16(d)",
+          "question": "Does the entity prepare separate financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "242.1",
+          "source_trigger": "Yes",
+          "original_question": "In the parent's separate financial statements, does the entity disclose a list of significant investments in subsidiaries, joint ventures and associates, including the names of those investees, the principal place of business (and country of incorporation, if different) of those investees, and its proportion of the ownership interest (and, if different, proportion of the voting rights) held in those investees?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements?",
+            "guidance": "Review the entity's financial reporting framework to determine if separate financial statements are prepared in accordance with IFRS. Separate financial statements are those presented by a parent (or investor) that account for its investments in subsidiaries, joint ventures, and associates either at cost, in accordance with IFRS 9, or using the equity method as permitted. If the entity only prepares consolidated financial statements, this item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity have significant investments in subsidiaries, joint ventures, or associates?",
+              "guidance": "Check the entity's Statement of Financial Position and notes for investments classified as subsidiaries, joint ventures, or associates. Typically, these should be identifiable based on IFRS 10 (subsidiaries), IAS 28 (associates and joint ventures). Confirm their significance by reviewing materiality thresholds and relevance to the financial statements.",
+              "yes_case": {
+                "question": "Does the entity disclose the required information for each significant investment in its separate financial statements?",
+                "guidance": "Review the entity's separate financial statement notes for disclosures required by IAS 27.16(d) and IFRS 10. Specifically, verify that the names of investees, principal place of business (and country of incorporation, if different), proportion of ownership interest, and proportion of voting rights (if different) are disclosed in sufficient detail.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.5",
+          "section": "IFRS 10",
+          "reference": "IAS 27.16(e)",
+          "question": "Does the entity prepare separate financial statements for the parent entity?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "242.1",
+          "source_trigger": "Yes",
+          "original_question": "In the parent's separate financial statements, does the entity disclose a description of the method used to account for investments listed under IAS 27.16(d)?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements for the parent entity?",
+            "guidance": "Check if the parent entity prepares separate financial statements as defined by IAS 27. Separate financial statements are those presented by a parent in which investments in subsidiaries, joint ventures, or associates are accounted for at cost or in accordance with IFRS 9 or using the equity method. Verify the presence of such statements in the financial report package.",
+            "yes_case": {
+              "question": "Do the separate financial statements of the parent include investments as defined under IAS 27.16(d)?",
+              "guidance": "Review IAS 27.16(d) and check the entity’s financial statements for investments in subsidiaries, joint ventures, or associates. Ensure that these investments are identified and disclosed in the separate financial statements.",
+              "yes_case": {
+                "question": "Do the parent’s separate financial statements disclose a description of the method used to account for these investments?",
+                "guidance": "Refer to the notes in the separate financial statements where the accounting method is likely disclosed. Common methods include cost, equity method, or fair value through profit or loss under IFRS 9. Ensure the description complies with IAS 27.16(e) requirements and is sufficiently detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "244",
+          "section": "IFRS 10",
+          "reference": "IFRS 10.31",
+          "question": "Is the entity an investment entity as defined by IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does an investment entity that is required, throughout the current period and all comparative periods presented, to apply the exception to consolidation for all of its subsidiaries in accordance with IFRS 10.31 present separate financial statements as its only financial statements?",
+          "decision_tree": {
+            "question": "Is the entity an investment entity as defined by IFRS 10?",
+            "guidance": "Review the entity's business model, objectives, and characteristics against the definition of an investment entity in IFRS 10.27-28. Investment entities typically earn returns from capital appreciation, investment income, or both, and measure these investments at fair value. Ensure proper documentation exists to confirm this classification.",
+            "yes_case": {
+              "question": "Does the entity apply the exception to consolidation for all subsidiaries throughout the current period and all comparative periods presented, in accordance with IFRS 10.31?",
+              "guidance": "Inspect whether the entity does not consolidate its subsidiaries, and instead measures them at fair value through profit or loss. Review historical financial statements for consistency in applying this exception.",
+              "yes_case": {
+                "question": "Are separate financial statements the only financial statements presented by the entity?",
+                "guidance": "Check whether the entity has presented financial statements in accordance with IAS 27, providing only separate financial statements and not consolidated financial statements. Review the nature of the financial statements provided.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "245.1",
+          "section": "IFRS 10",
+          "reference": "IAS 27.8A",
+          "question": "Is the entity an investment entity that is a parent preparing separate financial statements as its only financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When an investment entity that is a parent (other than a parent under IAS 27.16) prepares, in accordance with IAS 27.8A, separate financial statements as its only financial statements, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Is the entity an investment entity that is a parent preparing separate financial statements as its only financial statements?",
+            "guidance": "Review the entity's status as an investment entity under IFRS 10 by confirming it meets the definition (e.g., investing for capital appreciation, investment income, or both). Then ensure it is preparing separate financial statements as defined under IAS 27.8A, without consolidated financial statements. Check the notes to the financial statements for clarification on the type of financial reporting.",
+            "yes_case": {
+              "question": "Does the entity disclose in the financial statements that it prepares separate financial statements as its only financial statements?",
+              "guidance": "Examine the disclosure section of the financial statements. Verify whether the entity explicitly states that it is preparing separate financial statements as its only financial statements, in accordance with IAS 27.8A. Pay close attention to deliberate omissions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "245.2",
+          "section": "IFRS 10",
+          "reference": "IFRS 12",
+          "question": "Does the entity qualify as an investment entity under IFRS 10?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "245.1",
+          "source_trigger": "Yes",
+          "original_question": "When an investment entity prepares separate financial statements as its only financial statements, does the entity present the disclosures relating to investment entities required by IFRS 12?",
+          "decision_tree": {
+            "question": "Does the entity qualify as an investment entity under IFRS 10?",
+            "guidance": "Review the entity's policies and operations against the criteria defined in IFRS 10 (Section B85A-B85B). Investment entities typically: (1) obtain funds from investors to provide investment management services, (2) commit to investing solely for capital appreciation, investment income, or both, and (3) measure performance on a fair value basis. Examine any provided investment agreements and accounting policies.",
+            "yes_case": {
+              "question": "Are separate financial statements the only financial statements prepared by the entity?",
+              "guidance": "Check whether the entity presents consolidated financial statements. An investment entity, under IFRS 10 exemption, is not required to consolidate subsidiaries and may prepare separate financial statements instead. Confirm this from the annual report and management's assertions.",
+              "yes_case": {
+                "question": "Do the separate financial statements include the IFRS 12 disclosures related to investment entities?",
+                "guidance": "Review the notes to the financial statements. Ensure disclosures required by IFRS 12 specifically for investment entities are included. This includes information on fair value measurement, the nature and extent of investments held, and risks associated with these investments (see IFRS 12, paras 19A-19G).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.1",
+          "section": "IFRS 10",
+          "reference": "IAS 27.17(a)",
+          "question": "Does the entity prepare separate financial statements as defined under IAS 27.17(a)?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When a parent or investor with joint control or significant influence prepares separate financial statements, does the entity identify the financial statements prepared in accordance with IFRS 10, IFRS 11 or IAS 28 to which they relate?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements as defined under IAS 27.17(a)?",
+            "guidance": "Check the entity's reporting framework and confirm if the financial statements are separate financial statements. Separate financial statements are prepared by a parent, an investor with joint control, or significant influence to account for investments in subsidiaries, joint ventures, or associates under IAS 27. Review the financial statement headers and notes for explicit reference to separate financial statements.",
+            "yes_case": {
+              "question": "Do the separate financial statements identify which consolidated financial statements or financial statements prepared under IFRS 10, IFRS 11, or IAS 28 they relate to?",
+              "guidance": "Examine the notes to the financial statements. Verify if there is a clear reference to other relevant financial statements prepared in accordance with IFRS 10 (for consolidation), IFRS 11 (for joint arrangements), or IAS 28 (for associates and joint ventures). Ensure proper linkage and identification are established in line with IAS 27.17(a).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.2",
+          "section": "IFRS 10",
+          "reference": "IAS 27.17(b)",
+          "question": "Does the entity prepare separate financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "246.1",
+          "source_trigger": "Yes",
+          "original_question": "When a parent or investor prepares separate financial statements, does the entity disclose that these statements are separate financial statements?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements?",
+            "guidance": "Verify whether the parent or investor prepares separate financial statements, as defined in IAS 27. Separate financial statements are standalone accounts that reflect investments in subsidiaries, joint ventures, or associates, whereas consolidated financial statements combine results of the group. Look for a specific financial statement titled 'Separate Financial Statements' or verify the entity’s reporting practices.",
+            "yes_case": {
+              "question": "Do the separate financial statements include a disclosure stating that they are separate financial statements?",
+              "guidance": "Inspect the accounting policies and notes to the separate financial statements. The disclosure should explicitly state that these are separate financial statements prepared in accordance with IAS 27. Cross-check this against the entity’s annual report and ensure it is clearly stated.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.3",
+          "section": "IFRS 10",
+          "reference": "IAS 27.17(c)",
+          "question": "Is the entity preparing separate financial statements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "246.1",
+          "source_trigger": "Yes",
+          "original_question": "When a parent or investor prepares separate financial statements, does the entity disclose a list of significant investments in subsidiaries, joint ventures and associates, including the name of those investees, the principal place of business (and country of incorporation, if different) of those investees, and its proportion of the ownership interest (and, if different, proportion of the voting rights) held in those investees?",
+          "decision_tree": {
+            "question": "Is the entity preparing separate financial statements?",
+            "guidance": "Check if the entity has issued separate financial statements as defined in IAS 27. Separate financial statements are prepared by a parent, or investor, that chooses to account for investments in subsidiaries, joint ventures, or associates either at cost, fair value through profit or loss, or under the equity method, without consolidating the subsidiaries or applying IFRS 10.",
+            "yes_case": {
+              "question": "Does the entity have significant investments in subsidiaries, joint ventures, or associates?",
+              "guidance": "Review the entity's financial statement footnotes and investment registers. Significant investments generally refer to investments that have a material impact on financial statements and require specific disclosure under IAS 27.",
+              "yes_case": {
+                "question": "Does the entity disclose a list of significant investments including the name of the investee, principal place of business (and country of incorporation, if different), proportion of ownership interest, and proportion of voting rights (if different)?",
+                "guidance": "Inspect the notes to the separate financial statements to confirm that the disclosed information includes: (1) Name of subsidiary, joint venture, or associate; (2) Principal place of business (and country of incorporation, if it differs from the place of business); (3) Ownership interest percentage; (4) Voting rights percentage if different from ownership interest.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.4",
+          "section": "IFRS 10",
+          "reference": "IAS 27.17(d)",
+          "question": "Does the entity prepare separate financial statements as a parent or investor?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "246.1",
+          "source_trigger": "Yes",
+          "original_question": "When a parent or investor prepares separate financial statements, does the entity disclose a description of the method used to account for the investments listed under IAS 27.17(c)?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements as a parent or investor?",
+            "guidance": "Review the financial reporting framework applied by the entity. Check whether the entity presents separate financial statements as defined under IAS 27.17 and IFRS 10, where investments in subsidiaries, associates, or joint ventures are reported separately from consolidated financial statements.",
+            "yes_case": {
+              "question": "Does the entity have investments in subsidiaries, associates, or joint ventures listed under IAS 27.17(c)?",
+              "guidance": "Review the entity's Statement of Financial Position and accompanying notes to identify any investments in subsidiaries, associates, or joint ventures that are accounted for according to IAS 27.17(c). Look for disclosures clearly identifying such investments.",
+              "yes_case": {
+                "question": "Does the entity disclose a description of the method used to account for the investments listed under IAS 27.17(c) in its separate financial statements?",
+                "guidance": "Examine the notes to the separate financial statements. Ensure the accounting method for investments (e.g., cost method, equity method, or fair value through profit or loss) is clearly and adequately described. The disclosure must explicitly specify the chosen method and align with IAS 27.17(d) requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

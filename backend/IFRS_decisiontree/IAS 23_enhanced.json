@@ -1,0 +1,62 @@
+{
+  "title": "Borrowing Costs (IAS 23) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 23",
+      "title": "Borrowing Costs",
+      "description": "Checklist for presentation and disclosure requirements under IAS 23.",
+      "items": [
+        {
+          "id": "174.1",
+          "section": "IAS 23",
+          "reference": "IAS 23.26(a)",
+          "question": "Did the entity incur borrowing costs during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity capitalised borrowing costs during the reporting period, does it disclose the amount of borrowing costs capitalised during the period?",
+          "decision_tree": {
+            "question": "Did the entity incur borrowing costs during the reporting period?",
+            "guidance": "Review the financial records, particularly loan agreements and interest expense accounts, to determine whether borrowing costs were incurred. Borrowing costs include interest expense and other costs incurred in connection with borrowing funds.",
+            "yes_case": {
+              "question": "Were any of the borrowing costs capitalised during the reporting period?",
+              "guidance": "Check the accounting treatment of borrowing costs in the entity's financial statements. Refer to IAS 23.8, which specifies that borrowing costs directly attributable to the acquisition, construction, or production of a qualifying asset must be capitalised.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of borrowing costs capitalised during the period?",
+                "guidance": "Examine the Notes to the Financial Statements or the Statement of Financial Position. IAS 23.26(a) requires disclosure of the amount of borrowing costs capitalised during the period. Ensure the disclosure is explicit and adequately detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "174.2",
+          "section": "IAS 23",
+          "reference": "IAS 23.26(b)",
+          "question": "Did the entity capitalise borrowing costs during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "174.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity capitalised borrowing costs during the reporting period, does it disclose the capitalisation rate used to determine the amount of borrowing costs eligible for capitalisation?",
+          "decision_tree": {
+            "question": "Did the entity capitalise borrowing costs during the reporting period?",
+            "guidance": "Check the notes to the financial statements and accounting policies section for any mention of borrowing costs capitalised. Borrowing costs are likely to be capitalised if the entity has qualifying assets under construction or development. Review the relevant line items in the Statement of Financial Position, such as 'Property, Plant and Equipment' or 'Investment Property', for evidence of capitalisation.",
+            "yes_case": {
+              "question": "Did the entity disclose the capitalisation rate used to determine the amount of borrowing costs eligible for capitalisation?",
+              "guidance": "Refer to IAS 23 paragraph 26(b). Examine the disclosures regarding borrowing costs in the financial statement notes. The capitalisation rate should be explicitly stated, typically in the accounting policy note or a dedicated borrowing cost note.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

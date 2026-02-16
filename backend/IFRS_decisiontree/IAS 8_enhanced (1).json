@@ -1,0 +1,2021 @@
+{
+  "title": "International GAAP® Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 8",
+      "title": "Accounting Policies, Changes in Accounting Estimates and Errors",
+      "description": "Checklist for presentation and disclosure requirements under IAS 8.",
+      "items": [
+        {
+          "id": "144",
+          "section": "IAS 8",
+          "reference": "IAS 8.22",
+          "question": "Has the entity applied a new accounting policy retrospectively or retrospectively restated items in the financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If retrospective application is required, does the entity disclose the adjustment to the opening balance of each affected component of equity for the earliest prior period presented and the other comparative amounts for each prior period presented as if the entity had always applied the new accounting policy?",
+          "decision_tree": {
+            "question": "Has the entity applied a new accounting policy retrospectively or retrospectively restated items in the financial statements?",
+            "guidance": "Review the notes to the financial statements, particularly the accounting policies section and any disclosures regarding changes in accounting policies or restatements. Focus on IAS 8.22 requirements for retrospective application/restatement, often explicitly stated if a new accounting policy or correction of errors is involved.",
+            "yes_case": {
+              "question": "Does the retrospective application or restatement affect the opening balance of any component of equity for the earliest prior period presented?",
+              "guidance": "Determine whether the adjustments resulting from retrospective application or restatement impact the opening balances of components of equity (e.g., retained earnings, other reserves). Examine the reconciliation statements and disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose the adjustment to the opening balance of each affected component of equity for the earliest prior period presented?",
+                "guidance": "Review the disclosures in the financial statements. Verify that the opening balance adjustments for each affected equity component are clearly identified and quantified per IAS 8.22. Look for errors in the calculation or omissions.",
+                "yes_case": {
+                  "question": "Does the entity disclose the comparative amounts for each prior period presented as if the entity had always applied the new accounting policy?",
+                  "guidance": "Ensure the financial statements include comparatives that reflect consistent application of the new accounting policy or correction of errors. Verify that disclosures recreate prior period amounts as if the new policy was in place historically. Pay attention to disclosure formatting and numerical accuracy.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "145.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(a)",
+          "question": "Does the entity prepare financial statements in compliance with IFRS standards?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the title of the IFRS accounting standard?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements in compliance with IFRS standards?",
+            "guidance": "Start by confirming whether the entity explicitly states compliance with IFRS in the financial statements. Check the notes to the financial statements, particularly the basis of preparation section, for a statement confirming IFRS compliance. Ensure that the entity's jurisdiction permits full use of IFRS.",
+            "yes_case": {
+              "question": "Does the entity disclose the title of the IFRS accounting standard as required under IAS 8.28(a)?",
+              "guidance": "Review the financial statements, particularly the notes referencing changes in accounting policies or standards applied. The title of the applied IFRS standards should be explicitly mentioned (e.g., 'IAS 16 - Property, Plant and Equipment'). Ensure this disclosure exists for all relevant IFRS standards.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "145.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(b)",
+          "question": "Has the entity changed an accounting policy?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose that the change in accounting policy is made in accordance with its transitional provisions, if applicable?",
+          "decision_tree": {
+            "question": "Has the entity changed an accounting policy?",
+            "guidance": "Review the financial statements and accompanying notes. Check for any mention of changes to the accounting policy. Look for explicit references under the 'Changes in Accounting Policies' section or similar indication in the accounting policies disclosure notes.",
+            "yes_case": {
+              "question": "Does the change in accounting policy have transitional provisions under the relevant IFRS standard?",
+              "guidance": "Review the relevant IFRS standard governing the accounting policy change. Look for specific sections that outline transitional provisions, which may detail mandatory or optional approaches for implementation during the transition period.",
+              "yes_case": {
+                "question": "Does the entity disclose that the change in accounting policy is made in accordance with its transitional provisions?",
+                "guidance": "Verify the disclosures provided by the entity on the change in accounting policy. Check for explicit statements confirming compliance with the transitional provisions of the relevant IFRS standard. This disclosure is typically found in the 'Changes in Accounting Policies' or 'Notes to the Financial Statements' section.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "145.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(c)",
+          "question": "Has the entity changed its accounting policy during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of the change in accounting policy?",
+          "decision_tree": {
+            "question": "Has the entity changed its accounting policy during the reporting period?",
+            "guidance": "Review the accounting policies described in the notes to the financial statements and compare them with previous periods. Cross-check against adjustments or changes disclosed in the financial statements. Common pitfalls include failing to detect minor policy changes or changes resulting from applying new IFRS standards.",
+            "yes_case": {
+              "question": "Does the entity disclose the nature of the change in accounting policy?",
+              "guidance": "Look into the notes to the financial statements for a clear description of the change. This should explain why the policy changed (e.g., due to adoption of a new standard or voluntary change for better representation). Ensure the nature of the change is specific and not overly generic.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "145.4",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(d)",
+          "question": "Has the entity adopted a new accounting policy, standard, or interpretation during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the transitional provisions, if applicable?",
+          "decision_tree": {
+            "question": "Has the entity adopted a new accounting policy, standard, or interpretation during the reporting period?",
+            "guidance": "Review the Notes to the Financial Statements, specifically the accounting policies section. Check for any mention of new standards, amendments, or interpretations that were adopted during the reporting period.",
+            "yes_case": {
+              "question": "Do the new accounting policies, standards, or interpretations include transitional provisions?",
+              "guidance": "Refer to the specific text of the adopted standard or interpretation. Most transitional provisions are detailed in the standard under a section titled 'Transitional Provisions' or similar. Verify applicability by comparing to the provisions mentioned in the standard.",
+              "yes_case": {
+                "question": "Has the entity disclosed the transitional provisions as required by IAS 8.28(d)?",
+                "guidance": "Review the Notes to the Financial Statements for disclosures related to transitional provisions. Ensure the disclosure aligns with IAS 8.28(d), which requires an explanation of the transitional provisions, including methods for implementing changes (e.g., retrospective or prospective application). Common issues include incomplete or vague disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "145.5",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(e), IAS 33.2",
+          "question": "Have any new or amended IFRS standards been applied by the entity during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the transitional provisions that might have an effect on future periods, if applicable?",
+          "decision_tree": {
+            "question": "Have any new or amended IFRS standards been applied by the entity during the reporting period?",
+            "guidance": "Review the entity's accounting policy note and recent updates to IFRS standards effective during the reporting period. Check for any mention of new standards or amendments adopted by the entity. Cross-reference IAS 8.28(e) for guidance on disclosure requirements.",
+            "yes_case": {
+              "question": "Do the new or amended IFRS standards contain transitional provisions?",
+              "guidance": "Refer to the text of the adopted IFRS standards or amendments. Look for sections titled ‘Transitional Provisions’ or equivalent phrasing that outlines compliance actions required for adopting the standard.",
+              "yes_case": {
+                "question": "Do the transitional provisions have an effect on future periods?",
+                "guidance": "Assess the disclosures provided in the financial statement notes. Verify whether the entity explains how the transitional provisions might affect future accounting, such as timing of recognition, measurement changes, or presentation adjustments.",
+                "yes_case": {
+                  "question": "Does the entity disclose the impact of the transitional provisions as required under IAS 8?",
+                  "guidance": "Ensure the disclosures explicitly describe the transitional provisions and their likely effect on future periods, referencing IAS 8.28(e). Common pitfalls include vague language or omitting quantitative data when required.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "145.6",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(f)",
+          "question": "Has the entity made an adjustment due to changes in accounting policies, corrections of errors, or reclassifications in the current period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of the adjustment for each financial statement line item affected and the basic and diluted earnings per share for the current period and each prior period presented, to the extent practicable (if IAS 33 applies)?",
+          "decision_tree": {
+            "question": "Has the entity made an adjustment due to changes in accounting policies, corrections of errors, or reclassifications in the current period?",
+            "guidance": "Review changes in accounting policies, errors corrected, or reclassifications disclosed under IAS 8. Start by checking the notes to the financial statements and the accounting policy section. Look for changes that affect financial statement line items or earnings per share calculations.",
+            "yes_case": {
+              "question": "Does IAS 33 (Earnings per Share) apply to the entity?",
+              "guidance": "Determine if IAS 33 applies by checking if the entity is a listed company or is otherwise required to disclose earnings per share (EPS). Review regulatory requirements and the entity’s financial statement presentation. If the entity is not listed or not required to calculate EPS, IAS 33 does not apply.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of adjustment for each financial statement line item affected and the basic and diluted earnings per share for the current period and each prior period presented, to the extent practicable?",
+                "guidance": "Review disclosures in the financial statements, specifically in the notes related to changes in accounting policies, error corrections, and reclassifications. Verify if amounts for each financial statement line item affected, basic EPS, and diluted EPS have been disclosed correctly for the current and prior periods. Ensure disclosures comply with IAS 8.28(f).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "145.7",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(g)",
+          "question": "Has the entity made adjustments to correct errors or apply changes in accounting policies affecting prior periods?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of the adjustment relating to periods before those presented, to the extent practicable?",
+          "decision_tree": {
+            "question": "Has the entity made adjustments to correct errors or apply changes in accounting policies affecting prior periods?",
+            "guidance": "Review the financial statements, particularly the notes related to changes in accounting policies or error corrections. Look for any restatements or adjustments explicitly mentioning prior periods.",
+            "yes_case": {
+              "question": "Is the amount of the adjustment relating to periods before those presented disclosed, to the extent practicable?",
+              "guidance": "Check the notes to the financial statements for disclosures related to retrospective adjustments. Verify whether the entity has disclosed the value of adjustments affecting prior periods not presented. Confirm that the disclosure aligns with IAS 8.28(g) and is sufficiently detailed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "145.8",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(h)",
+          "question": "Has the entity changed an accounting policy during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If retrospective application is impracticable for a particular prior period or for periods before those presented, does the entity disclose the circumstances that led to that condition and describe how and from when the change in accounting policy has been applied?",
+          "decision_tree": {
+            "question": "Has the entity changed an accounting policy during the reporting period?",
+            "guidance": "Review the entity’s financial statements, especially the accounting policies note, and management commentary. Look for disclosures of changes in accounting policies resulting from new IFRS standards, voluntary changes, or corrections. Ensure such changes are clearly identified and explicitly stated.",
+            "yes_case": {
+              "question": "Is the change applied retrospectively?",
+              "guidance": "Identify whether the change in accounting policy has been applied retrospectively by reviewing the financial statements. Check prior period adjustments and the restatement of comparative figures, as required by IAS 8.",
+              "yes_case": {
+                "question": "Is retrospective application impracticable for a particular prior period or for periods before those presented?",
+                "guidance": "Review the circumstances under which retrospective application was deemed impracticable. IAS 8 defines impracticable as situations where the entity cannot apply the requirement after making every reasonable effort to do so. Look for evidence supporting this claim in management’s disclosures.",
+                "yes_case": {
+                  "question": "Does the entity disclose the circumstances leading to impracticability and describe how and from when the change has been applied?",
+                  "guidance": "Inspect the disclosures in the accounting policy change note. IAS 8.28(h) requires the explanation of impracticability and detailed information on the nature, timing, and method of applying the change. Check for specificity and completeness.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "146.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.29(d)",
+          "question": "Does IAS 33 apply to the entity?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the basic and diluted earnings per share for the current reporting period and each prior reporting period presented (if IAS 33 applies and to the extent practicable)?",
+          "decision_tree": {
+            "question": "Does IAS 33 apply to the entity?",
+            "guidance": "Review the entity's obligations to disclose earnings per share (EPS) as per IAS 33. It applies if the entity's ordinary shares or potential ordinary shares are publicly traded, or if the entity is in the process of issuing shares in a public market. Check the entity's financial statements and any share issuance activities.",
+            "yes_case": {
+              "question": "Has the entity disclosed basic and diluted earnings per share for the current reporting period?",
+              "guidance": "Review the notes to the financial statements and the Statement of Comprehensive Income. Ensure that the basic and diluted EPS are included, clearly calculated, and presented for the current reporting period.",
+              "yes_case": {
+                "question": "Has the entity disclosed basic and diluted earnings per share for each prior reporting period presented?",
+                "guidance": "Verify that basic and diluted EPS for all prior periods presented in the financial statements are included, unless impractical. For impracticability, assess whether sufficient justification is provided in the financial statement disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "146.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.29(e)",
+          "question": "Has the entity made adjustments to prior periods that are not presented in the current financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of the adjustment relating to periods before those presented, to the extent practicable?",
+          "decision_tree": {
+            "question": "Has the entity made adjustments to prior periods that are not presented in the current financial statements?",
+            "guidance": "Review the entity’s financial statements and accounting policies for indications of adjustments to comparative amounts for periods prior to those included in the current presentation. Look for disclosures about changes in accounting policies, corrections of errors, or retrospective adjustments as defined by IAS 8.",
+            "yes_case": {
+              "question": "Were the adjustments made to prior periods practicable to calculate or estimate?",
+              "guidance": "Refer to IAS 8. Consider the availability of reliable information and the entity’s efforts to determine the adjustment amounts. Practicality is defined as the ability to calculate reasonable adjustments without excessive cost or effort.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of the adjustment relating to periods before those presented, to the extent practicable?",
+                "guidance": "Review the disclosures in the financial statements. Under IAS 8.29(e), the entity must disclose the adjustment amount for periods prior to those presented, given it is practicable to calculate/estimate. Ensure the disclosures are complete and clear.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "146.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.29(f)",
+          "question": "Has the entity made a change in accounting policy that requires retrospective application?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If retrospective application is impracticable for a particular prior period or for periods before those presented, does the entity disclose the circumstances that led to that condition and describe how and from when the change in accounting policy has been applied?",
+          "decision_tree": {
+            "question": "Has the entity made a change in accounting policy that requires retrospective application?",
+            "guidance": "Review the financial statements, specifically the accounting policies note. Determine if there has been a change to an accounting policy and whether IAS 8 requires retrospective application of the change. Typical cues include adoption of new standards or amendments to existing accounting policies.",
+            "yes_case": {
+              "question": "Is retrospective application for a particular prior period or for periods before those presented impracticable?",
+              "guidance": "Analyze whether the entity has documented practical limitations (e.g., insufficient data, undue cost, or effort) that prevent retrospective application as per IAS 8. Consider documentation from management explaining impracticality.",
+              "yes_case": {
+                "question": "Has the entity disclosed the circumstances leading to the impracticability and described how and from when the change in accounting policy has been applied?",
+                "guidance": "Review the financial statements, including disclosures related to accounting policies and changes. Ensure IAS 8.29(f) is followed, where the entity explains the practical reasons for not applying retrospectively and clearly states the date and manner of application of the new policy.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "147.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(a)",
+          "question": "Has the IASB issued any new IFRS accounting standards that are not yet effective as of the reporting date?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the title of the new IFRS accounting standard that is issued but not yet effective?",
+          "decision_tree": {
+            "question": "Has the IASB issued any new IFRS accounting standards that are not yet effective as of the reporting date?",
+            "guidance": "Review the latest pronouncements from the IASB and compare the effective dates of the standards with the entity's reporting period. Ensure you check the IASB website or authoritative updates. Be cautious of standards issued close to the reporting date.",
+            "yes_case": {
+              "question": "Has the entity assessed whether the new IFRS standards issued but not yet effective are relevant to its financial reporting?",
+              "guidance": "Check the entity's accounting policies, relevant transactions, and operations to determine if the new standards could impact the financial statements. Cross-reference the entity's industry to see if the standards are applicable.",
+              "yes_case": {
+                "question": "Does the entity disclose the title of each IFRS standard issued but not yet effective?",
+                "guidance": "Examine the entity's financial statement disclosures, specifically the 'Standards Issued But Not Yet Effective' section. Titles of standards must align with IAS 8.30(a). Avoid relying solely on summaries—verify the exact names.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "147.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(b)",
+          "question": "Has the entity announced or been made aware of an impending change in its accounting policy?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of the impending change or changes in accounting policy?",
+          "decision_tree": {
+            "question": "Has the entity announced or been made aware of an impending change in its accounting policy?",
+            "guidance": "Review the minutes of board meetings, communications from regulators, or updates to accounting standards (e.g., IAS or IFRS updates). Verify whether any changes have been formally announced or are expected to occur. Avoid assuming a change unless documented evidence supports it.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the impending change in accounting policy in its financial statements?",
+              "guidance": "Check the notes to the financial statements under 'Accounting Policies' or relevant disclosures sections. Look for a clear description of the change, including the type of policy affected, and ensure all details are adequately provided.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "147.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(c)",
+          "question": "Has a new IFRS accounting standard been issued that applies to the entity but is not yet effective?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the date by which application of the IFRS accounting standard is required?",
+          "decision_tree": {
+            "question": "Has a new IFRS accounting standard been issued that applies to the entity but is not yet effective?",
+            "guidance": "Review the latest IASB publications to identify newly issued IFRS standards. Check if any of these are applicable to the entity's financial statements based on the nature of its operations and industry. Cross-reference with the entity's financial reporting period to determine if the standard is not yet effective for this reporting cycle.",
+            "yes_case": {
+              "question": "Has the entity disclosed the date by which application of the new IFRS accounting standard is required?",
+              "guidance": "Examine the entity’s financial statements, specifically the notes section. Look for disclosure related to the effective date of the new IFRS accounting standard identified earlier. Ensure this is provided alongside details about the standard.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "147.4",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(d)",
+          "question": "Has the entity issued new or amended IFRS accounting standards that are not yet effective but require disclosure of adoption plans?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the date as at which it plans to adopt the IFRS accounting standard initially?",
+          "decision_tree": {
+            "question": "Has the entity issued new or amended IFRS accounting standards that are not yet effective but require disclosure of adoption plans?",
+            "guidance": "Review the financial statements and notes to identify any reference to IFRS standards that have been issued but are not yet effective. Check whether these standards are relevant to the entity’s financial reporting. Refer to IAS 8.30(d) and any appendix listing standards issued but not effective.",
+            "yes_case": {
+              "question": "Has the entity disclosed the date on which it plans to adopt the new or amended IFRS accounting standards?",
+              "guidance": "In the notes to the financial statements, verify that the entity specifies the intended adoption date for each applicable IFRS standard that is not yet effective. Common pitfalls include vague descriptions of adoption plans or missing dates altogether.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "147.5",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(e)",
+          "question": "Has the entity adopted a new IFRS accounting standard for the first time, or will it adopt one in the upcoming reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity either discuss the impact that initial application of the IFRS accounting standard is expected to have on its financial statements or, if such impact is not known or reasonably estimable, state that fact?",
+          "decision_tree": {
+            "question": "Has the entity adopted a new IFRS accounting standard for the first time, or will it adopt one in the upcoming reporting period?",
+            "guidance": "Review the entity's accounting policies and recent amendments to IFRS standards. Check disclosures in the financial statements, especially under 'Significant Accounting Policies' and 'Recent and Upcoming Accounting Standard Changes.' Ensure you're aware of mandatory adoption dates of new IFRS standards.",
+            "yes_case": {
+              "question": "Is the impact of the initial application of the new IFRS standard known or reasonably estimable?",
+              "guidance": "Consult the entity's management assessments, relevant IFRS guidance documents, and accounting estimates. Check if the entity has performed analysis to quantify the financial impact based on the standard's requirements. Refer to prior discussions with management in audit files.",
+              "yes_case": {
+                "question": "Has the entity disclosed the expected impact of the initial application of the new IFRS standard in its financial statements?",
+                "guidance": "Review the disclosures in the entity's financial statements under 'Significant Accounting Policies' or 'Notes to the Accounts.' Ensure the discussion covers key financial metrics and areas impacted, including narratives or numeric estimations where relevant. Cross-reference the disclosure against the IFRS standard's requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Has the entity disclosed in its financial statements that the impact of the initial application of the IFRS standard is not known or cannot reasonably be estimated?",
+                "guidance": "Check financial statement disclosures, particularly under 'Significant Accounting Policies' or 'Notes to the Accounts.' Verify if there is a clear statement explaining the uncertainty or inability to estimate the impact as required by IAS 8.30(e).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "173",
+          "section": "IAS 8",
+          "reference": "IAS 1.117, IAS 8.27A",
+          "question": "Does the entity incur borrowing costs in the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the accounting policy for the recognition of borrowing costs?",
+          "decision_tree": {
+            "question": "Does the entity incur borrowing costs in the reporting period?",
+            "guidance": "Check the financial statements and supporting records for evidence of interest expense, ancillary costs related to borrowings, or costs directly attributed to a qualifying asset. Review the profit or loss statement and disclosures for related expenses.",
+            "yes_case": {
+              "question": "Is the entity required to capitalize borrowing costs under IAS 23 or has it elected to capitalize them under its accounting policy?",
+              "guidance": "Determine whether borrowing costs relate to a qualifying asset as defined by IAS 23 Borrowing Costs. Check if the entity’s accounting policies mention capitalization and verify against IAS 23 requirements.",
+              "yes_case": {
+                "question": "Does the entity disclose its accounting policy for recognizing borrowing costs?",
+                "guidance": "Review the accounting policies section in the notes to the financial statements (per IAS 1.117). Ensure the disclosure includes whether borrowing costs are capitalized or expensed and defines the treatment criteria for capitalization.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "175.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.39(a)",
+          "question": "Has the entity made a change in an accounting estimate during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of a change in accounting estimate that has an effect in the current period or is expected to have an effect in future periods?",
+          "decision_tree": {
+            "question": "Has the entity made a change in an accounting estimate during the reporting period?",
+            "guidance": "Check the accounting records and financial statements for any changes in accounting estimates as defined in IAS 8. Paragraph 5 provides examples, such as revisions in estimated useful life of assets, provisions, or fair value adjustments. Review board meeting notes, management discussions, and audit schedules for evidence.",
+            "yes_case": {
+              "question": "Does the change in accounting estimate have an effect in the current period or is it expected to have an effect in future periods?",
+              "guidance": "Evaluate the change's impact on financial statement line items. Refer to IAS 8.32-33 for how changes in estimates should be assessed based on their effect on current and/or future periods.",
+              "yes_case": {
+                "question": "Has the entity disclosed the nature of the change in the accounting estimate in the financial statements, as required by IAS 8.39(a)?",
+                "guidance": "Review the financial statements, specifically the notes, for disclosure about the nature of the change, including why the change was made, how it impacts the financial statements, and details of current and future period effects. Ensure compliance with the level of detail stipulated in IAS 8.39(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "175.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.39(b)",
+          "question": "Has the entity made a change in an accounting estimate during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "175.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of that change in accounting estimate?",
+          "decision_tree": {
+            "question": "Has the entity made a change in an accounting estimate during the reporting period?",
+            "guidance": "Check the financial statements and accompanying notes for mention of a change in accounting estimate. This typically involves revisions to previous estimates based on new information or developments (e.g., depreciation rates, inventory obsolescence, fair value adjustments). Look for any disclosures under IAS 8 or similar terminology in the notes section.",
+            "yes_case": {
+              "question": "Has the entity disclosed the amount of the change in accounting estimate in the notes to the financial statements?",
+              "guidance": "Review the notes section of the financial statements where changes in accounting estimates are typically disclosed. The amount of the change should be clearly stated, as required by IAS 8.39(b). Ensure the disclosure is specific and aligns with the financial impact of the change.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "175.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.40(c)",
+          "question": "Has the entity changed an accounting policy or made an accounting estimate that affects future periods?",
+          "question_type": "Followup",
+          "source_question": "175.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If applicable, does the entity disclose that the amount of the effect in future periods is not disclosed because estimating it is impracticable?",
+          "decision_tree": {
+            "question": "Has the entity changed an accounting policy or made an accounting estimate that affects future periods?",
+            "guidance": "Refer to the financial statements and analyze the notes concerning changes in accounting policies or estimates. Look for disclosures under IAS 8, particularly around areas such as depreciation methodology, valuation techniques, or measurement bases. Ensure that these changes impact future periods and avoid confusion with changes that do not affect future reporting.",
+            "yes_case": {
+              "question": "Is the entity unable to estimate the amount of the effect of the change on future periods?",
+              "guidance": "Review the notes on accounting policy changes or estimates. IAS 8.40(c) specifies that if estimating the future impact is impracticable, the entity should disclose this fact. Look for detailed reasons why estimation is impracticable based on evidence provided by the entity.",
+              "yes_case": {
+                "question": "Has the entity disclosed that the amount of the effect in future periods is not disclosed because estimating it is impracticable?",
+                "guidance": "Cross-check the disclosure in the notes to the financial statements for explicit wording stating that future period effects are not disclosed due to impracticability. Ensure the term 'impracticable' is clearly used as per IAS 8.40(c). Absence of this disclosure may indicate non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "247.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.42(a), IAS 8.43(a)",
+          "question": "Has the entity identified an error in the financial statements of prior periods?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity report the amount of the correction of an error by restating the comparative amounts for the prior period(s) in which the error occurred, unless impracticable?",
+          "decision_tree": {
+            "question": "Has the entity identified an error in the financial statements of prior periods?",
+            "guidance": "Review the entity's financial records, audit documentation, management discussions, and the notes to the financial statements. Errors typically arise from mathematical mistakes, incorrect application of accounting policies, oversights, or fraud. Ensure documentation explicitly mentions prior-period errors.",
+            "yes_case": {
+              "question": "Is it practicable to restate the comparative amounts for the prior periods in which the error occurred?",
+              "guidance": "Check the entity's records and systems for historical financial data. Assess whether sufficient information is available and reliable to perform the restatement. Refer to the definition of 'impracticable' under IAS 8.5, which includes undue cost or effort to gather data or reconstruct reliable numbers.",
+              "yes_case": {
+                "question": "Does the entity report the correction of the error by restating the comparative amounts accurately in the financial statements?",
+                "guidance": "Examine the financial statements, especially the comparative figures presented for prior periods. Verify that all corrections have been restated in accordance with IAS 8.42(a) and that the accompanying disclosures appropriately explain the nature and effect of the correction. Cross-reference with supporting documentation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Does the entity disclose why it is impracticable to restate the comparative amounts for the prior periods?",
+                "guidance": "Review the notes to the financial statements to confirm that the entity provides a detailed explanation as required by IAS 8.43(a). Ensure the disclosure adequately describes the reason for impracticability, including undue effort or lack of reliable data.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "247.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.42(b), IAS 8.43(b)",
+          "question": "Did the entity identify an error that occurred before the earliest prior period presented?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "If the error occurred before the earliest prior period presented, does the entity report the amount of the correction by restating the opening balances of assets, liabilities and retained equity, unless impracticable?",
+          "decision_tree": {
+            "question": "Did the entity identify an error that occurred before the earliest prior period presented?",
+            "guidance": "Review the financial statements for disclosure of prior-period errors. Examine revised opening balances in the Statement of Financial Position and related explanatory notes. Ensure proper documentation of the error's timing and its impact.",
+            "yes_case": {
+              "question": "Did the entity correct the error by restating the opening balances of assets, liabilities, and retained equity?",
+              "guidance": "Check the financial statements, particularly the Statement of Financial Position and the notes, for restated opening balances. Verify whether the amounts align with the corrected figures due to the identified error. If restatement was deemed impracticable, ensure there is proper justification provided as per IAS 8.43(b).",
+              "yes_case": {
+                "question": "Did the entity provide detailed disclosures for the correction, including the nature of the error, the amount of correction for each affected financial statement line item, and the reasons for impracticability if restatement was not possible?",
+                "guidance": "Inspect the notes to the financial statements for disclosures required by IAS 8.42(b) and IAS 8.43(b). Ensure the entity has disclosed the nature of the prior-period error, the correction amounts for each affected line item, and explanations if the restatement was impracticable.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "248",
+          "section": "IAS 8",
+          "reference": "IAS 8.43, IAS 8.44",
+          "question": "Has the entity identified an error relating to prior period financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "If it is impracticable to determine the period-specific effects of an error on comparative information, does the entity restate the opening balance of assets, liabilities and equity for the earliest period for which retrospective restatement is practicable?",
+          "decision_tree": {
+            "question": "Has the entity identified an error relating to prior period financial statements?",
+            "guidance": "Assess whether there are material misstatements in prior period financial statements that warrant adjustment. Refer to IAS 8.5 for the definition of an error and IAS 8.42 for guidance on correcting errors. Ensure documented evidence of assessment and confirmation of materiality.",
+            "yes_case": {
+              "question": "Is it practicable to determine the period-specific effects of the error on comparative information?",
+              "guidance": "Review the entity's working papers or analysis on whether sufficient data exists to quantify the period-specific effects of the error. Check estimations against audit evidence conforming to IAS 8.41. Consider if reliable information is available and assess common challenges, such as lack of historical data.",
+              "yes_case": {
+                "question": "Has the entity corrected the error retrospectively by restating comparative information?",
+                "guidance": "Verify the financial statements to confirm the error is corrected for all affected comparative periods in line with IAS 8.42-43. The retrospective correction should align with the accounting policy changes outlined in IAS 8.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Has the entity restated the opening balances of assets, liabilities, and equity for the earliest period for which retrospective restatement is practicable?",
+                "guidance": "Inspect adjustments to the opening balances in the statement of financial position for the earliest period for which retrospective application is practicable. Ensure compliance with IAS 8.43-44 and validate supporting documentation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "249",
+          "section": "IAS 8",
+          "reference": "IAS 8.43, IAS 8.45",
+          "question": "Has the entity identified an error in prior reporting periods?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "If it is impracticable to determine the cumulative effect at the beginning of the current reporting period of an error on all prior reporting periods, does the entity restate the comparative information to correct the error prospectively from the earliest date practicable?",
+          "decision_tree": {
+            "question": "Has the entity identified an error in prior reporting periods?",
+            "guidance": "Review the financial statements and supporting work papers for current and prior reporting periods. Determine if any errors have been identified and documented as affecting prior reporting periods. Look for audit adjustments, restatements, or corrections disclosed in footnotes.",
+            "yes_case": {
+              "question": "Is it practicable to determine the cumulative effect of the error at the beginning of the current reporting period?",
+              "guidance": "Assess whether the cumulative monetary impact of the error across all prior periods can be accurately calculated. Consult historical financial data, accounting records, and management computations. IAS 8.45 defines 'impracticable' as cases where effort exceeds cost-benefit or reliable data is unavailable.",
+              "yes_case": {
+                "question": "Has the entity restated the comparative information for prior periods to correct the error retrospectively?",
+                "guidance": "Verify that the financial statements include an adjustment for comparative information to account for the error retrospectively. Review the notes to the financial statements for explanations and adjustments provided as per IAS 8.43.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Has the entity restated the comparative information prospectively from the earliest practicable date?",
+                "guidance": "Check if the entity adjusted comparative information only from the earliest date practicable, without attempting full retrospective adjustments as described in IAS 8.43 and IAS 8.45. If impracticable, prospective correction is allowable.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "250.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.49(a)",
+          "question": "Has the entity identified a prior period error?",
+          "question_type": "Followup",
+          "source_question": "247.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of the prior period error?",
+          "decision_tree": {
+            "question": "Has the entity identified a prior period error?",
+            "guidance": "Review the financial statements and accounting records to determine if there has been an identified prior period error. Refer to IAS 8.5 for the definition of a prior period error, which includes omissions or misstatements in past financial statements due to errors or misinformation. Ensure this is properly identified before proceeding.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the prior period error in accordance with IAS 8.49(a)?",
+              "guidance": "Check the notes or disclosures accompanying the financial statements. Ensure the description accurately identifies the nature of the prior period error, such as whether it was a mathematical mistake, error in applying accounting policies, or a misstatement due to fraud or oversight. The description should be clear and informative, as per IAS 8.49(a).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "250.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.49(b), IAS 33.2",
+          "question": "Has the entity made a correction of a prior period error?",
+          "question_type": "Followup",
+          "source_question": "247.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of the correction for each prior period presented, for each financial statement line item affected?",
+          "decision_tree": {
+            "question": "Has the entity made a correction of a prior period error?",
+            "guidance": "Refer to IAS 8 paragraph 49. Review the notes and disclosures in the financial statements and verify whether any prior period error corrections are listed. Cross-check management's records, audit adjustments, and prior period restatements for errors that have been corrected.",
+            "yes_case": {
+              "question": "Does the correction affect any financial statement line items presented?",
+              "guidance": "Review the impact of the prior period correction. Check if any line items in the financial statements, such as assets, liabilities, income, expenses, or equity, have been restated. Reference the reconciliations provided by management for each adjustment.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of the correction for each affected financial statement line item for each prior period presented?",
+                "guidance": "Verify in the notes to the financial statements whether the entity explicitly discloses the amount of the correction for each financial statement line item and each affected prior period presented. Ensure that the disclosure includes sufficient clarity and detail for users of financial statements to understand the adjustments made.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "250.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.49(c)",
+          "question": "Does IAS 33 apply to the entity?",
+          "question_type": "Followup",
+          "source_question": "247.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity disclose the amount of the correction for each prior period presented for basic and diluted earnings per share (if IAS 33 applies)?",
+          "decision_tree": {
+            "question": "Does IAS 33 apply to the entity?",
+            "guidance": "Review the entity's financial statements to determine if they are required to disclose earnings per share (EPS) information as per IAS 33. This typically applies if the entity's shares are publicly traded or the entity is preparing financial statements for the purpose of issuing shares in a public market.",
+            "yes_case": {
+              "question": "Has the entity made a correction of prior period errors that affects earnings per share (EPS)?",
+              "guidance": "Review IAS 8.49 for requirements regarding disclosure of prior period error corrections. Check whether the correction impacts the calculation of basic or diluted EPS as disclosed under IAS 33.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of the correction for each prior period presented for basic and diluted earnings per share (EPS)?",
+                "guidance": "Review the financial statement disclosures to confirm that the entity has presented the corrected EPS figures for each prior period affected. These disclosures should appear in the notes to the financial statements under IAS 33 and IAS 8 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "250.4",
+          "section": "IAS 8",
+          "reference": "IAS 8.49(d)",
+          "question": "Has the entity made a correction of a prior period error during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "247.1",
+          "source_trigger": "Yes",
+          "context_required": "financial_statements",
+          "original_question": "Does the entity disclose the amount of the correction at the beginning of the earliest prior period presented?",
+          "decision_tree": {
+            "question": "Has the entity made a correction of a prior period error during the reporting period?",
+            "guidance": "Review the financial statements and notes for disclosures regarding prior period errors. Check if IAS 8 adjustments for errors in previous periods have been made in the current reporting period. Common places to check include the summary of significant accounting policies and retrospective adjustments tables.",
+            "yes_case": {
+              "question": "Is the entity presenting comparative financial information for prior periods in accordance with IAS 1?",
+              "guidance": "Check the financial statements to ensure comparative figures are included for the earliest prior period presented, as required by IAS 1. If only current period information is provided without comparatives, this question is not applicable.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of the correction at the beginning of the earliest prior period presented?",
+                "guidance": "Examine the financial statement notes, particularly those describing retrospective application. Verify if IAS 8.49(d) is applied by the entity, ensuring the correction amount is disclosed clearly for the beginning of the earliest period presented. Ensure the disclosure is complete and explains the impact.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "250.5",
+          "section": "IAS 8",
+          "reference": "IAS 8.49(e)",
+          "question": "Has the entity identified an error in its prior period financial statements?",
+          "question_type": "Followup",
+          "source_question": "247.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If retrospective restatement is impracticable for a particular prior period, does the entity disclose the circumstances that led to that condition and describe how and from when the error was corrected?",
+          "decision_tree": {
+            "question": "Has the entity identified an error in its prior period financial statements?",
+            "guidance": "Review the financial statements and the entity's documentation to identify if an error has been detected in the prior period. Common sources include accounting system errors, misapplication of standards, or incorrect data. Ensure to distinguish errors from changes in estimates or policies.",
+            "yes_case": {
+              "question": "Was retrospective restatement of the error impracticable for a particular prior period?",
+              "guidance": "Assess whether the entity attempted retrospective restatement as required by IAS 8. Verify if retrospective application is impracticable due to lack of sufficient data or excessive costs. Review supporting documentation and rationale in accounting policies disclosures.",
+              "yes_case": {
+                "question": "Did the entity disclose the circumstances leading to the impracticability of retrospective restatement and describe how and from when the error was corrected?",
+                "guidance": "Locate the disclosures concerning the error in the notes to the financial statements. Ensure the entity explicitly explains why retrospective application was impracticable and provides details of how the correction was made, including the time period from which it was applied.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "328",
+          "section": "IAS 8",
+          "reference": "IFRS 7.21, IAS 1.117, IAS 8.27A",
+          "question": "Does the entity prepare financial statements under IFRS?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose its material accounting policy information (including the measurement basis or bases for financial instruments used)?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements under IFRS?",
+            "guidance": "Review the basic framework used in the entity's financial reporting. Check the accounting policies section of the financial statements or consult the regulatory requirements. Ensure that the financial statements are prepared under IFRS and not a different accounting framework such as local GAAP.",
+            "yes_case": {
+              "question": "Does the entity have material accounting policy information related to financial instruments in its operations?",
+              "guidance": "Examine the notes to the financial statements, and check if the entity deals with financial instruments such as loans, receivables, derivatives, or investments that require disclosure of accounting policies. Materiality should be determined based on IAS 1.117, which states information is material if its omission or misstatement could influence users' decisions.",
+              "yes_case": {
+                "question": "Does the entity disclose the measurement basis or bases for financial instruments used as part of its accounting policy information?",
+                "guidance": "Inspect the accounting policies section of the financial statements. Verify if the measurement basis (e.g., fair value, amortized cost) used for financial instruments is disclosed clearly, as required by IAS 8. Ensure completeness and alignment with IFRS 7.21 and IAS 1.117.",
+                "yes_case": {
+                  "question": "Does the disclosed accounting policy information adequately explain judgments made in applying the policy and provide sufficient clarity as per IAS 8.27A?",
+                  "guidance": "Review the disclosed accounting policies regarding financial instruments to ensure explanations are thorough and provide context for judgments, estimates, and mechanisms behind applying the chosen policies. Look for compliance with IAS 8.27A.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "332",
+          "section": "IAS 8",
+          "reference": "IFRS 7.B5, IAS 1.122, IAS 8.27G",
+          "question": "Are there financial instruments recognized in the entity's financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose management's judgements for financial instruments that have the most significant effect on the financial statements?",
+          "decision_tree": {
+            "question": "Are there financial instruments recognized in the entity's financial statements?",
+            "guidance": "Review the Statement of Financial Position and notes to the financial statements. Look for recognized financial assets, financial liabilities, or equity instruments as defined under IFRS 9. Ensure these are presented accurately based on the entity's accounting policies.",
+            "yes_case": {
+              "question": "Do management's judgements regarding these financial instruments have a significant effect on the financial statements?",
+              "guidance": "Evaluate the notes to the financial statements, specifically disclosures about accounting policies (IAS 1.122) and management judgement. For example, look at areas such as classification decisions (e.g., fair value vs amortized cost), impairment assessments, and assumptions used in fair value estimations. Cross-check with IFRS 7 guidance to ensure material judgement disclosures are included.",
+              "yes_case": {
+                "question": "Has the entity disclosed these critical management judgements adequately?",
+                "guidance": "Check if the financial statements contain detailed disclosures about significant judgements as required by IAS 8.27G. Specifically, ensure management has clearly explained the assumptions, decisions, and methodologies that materially impact financial instruments within the financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "662",
+          "section": "IAS 8",
+          "reference": "IAS 8.6A, IAS 8.6C, IFRS 18.113",
+          "question": "Has the entity engaged in transactions, events, or conditions that impact its financial position or performance and are significant enough to require disclosure?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity provide additional disclosures when compliance with IFRS Accounting Standards is insufficient to enable users to understand the impact of particular transactions, events and conditions on its financial position and performance?",
+          "decision_tree": {
+            "question": "Has the entity engaged in transactions, events, or conditions that impact its financial position or performance and are significant enough to require disclosure?",
+            "guidance": "Review the entity's financial statements, including notes, and identify whether any transactions, events, or conditions (e.g., acquisitions, changes in accounting estimates, or unusual events) have occurred that have a material impact on financial position and performance. Consult IAS 1.15 and IAS 8 for guidance on materiality and disclosure requirements. Ensure that minor or immaterial items are not considered.",
+            "yes_case": {
+              "question": "Do the current disclosures in the financial statements provide sufficient information for users to understand the impact of these transactions, events, or conditions?",
+              "guidance": "Cross-reference disclosures in the financial statements with IAS 8.6A and IAS 8.6C, which require sufficient detail to enable users to evaluate the nature and financial impact of significant items. Ensure that disclosures are relevant, understandable, and adequately detailed. Pay special attention to IFRS 18.113 if the transactions relate to revenue recognition.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Has the entity provided additional disclosures to address gaps in compliance with IFRS standards with regard to these transactions, events, or conditions?",
+                "guidance": "Check for additional notes in the financial statements. These disclosures should address specific deficiencies and enable users to fully understand the impact of these transactions, events, or conditions. Ensure compliance with IAS 8.6A, which emphasizes the need for disclosures when existing IFRS requirements are insufficient.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "663",
+          "section": "IAS 8",
+          "reference": "IAS 8.6B",
+          "question": "Does the entity prepare its financial statements in accordance with IFRS Accounting Standards?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose an explicit and unreserved statement of compliance with IFRS Accounting Standards?",
+          "decision_tree": {
+            "question": "Does the entity prepare its financial statements in accordance with IFRS Accounting Standards?",
+            "guidance": "Review the basis of preparation section of the financial statements. Confirm whether IFRS is explicitly mentioned as the framework governing the preparation. Be cautious of generic statements that do not explicitly mention IFRS Accounting Standards.",
+            "yes_case": {
+              "question": "Does the entity disclose an explicit and unreserved statement of compliance with IFRS Accounting Standards?",
+              "guidance": "Check the introductory sections or notes to the financial statements for an explicit and unreserved statement affirming full compliance with IFRS, as required by IAS 8.6. Ensure the statement is not implied or partial, but direct and unconditional.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "664.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.6E(a), IAS 8.6F(a)",
+          "question": "Has the entity departed from any IFRS requirements in preparing its financial statements?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose that management concluded the financial statements present fairly the entity's position, performance and cash flows when departing from a requirement?",
+          "decision_tree": {
+            "question": "Has the entity departed from any IFRS requirements in preparing its financial statements?",
+            "guidance": "Review the accounting policies and disclosures. Specifically, check instances where management has explicitly stated a departure from IFRS due to a belief that compliance would result in misleading financial statements. Consult IAS 8 paragraphs 6E(a) and 6F(a).",
+            "yes_case": {
+              "question": "Has management disclosed that the financial statements still present fairly the entity's financial position, performance, and cash flows despite the departure?",
+              "guidance": "Examine the disclosure notes to the financial statements, ensuring management has provided a clear statement justifying the departure and ensuring fair presentation (IAS 8.6E(a)). Notes should explain the reasoning behind the departure and its impact.",
+              "yes_case": {
+                "question": "Is the reasoning behind the departure and its impact adequately explained as per IAS 8?",
+                "guidance": "Review the disclosure for detailed reasoning regarding why compliance would result in misleading information. Check that the entity has provided evidence or rationalization supporting its decision (IAS 8.6F(a)).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "664.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.6E(b), IAS 8.6F(b)",
+          "question": "Has the entity prepared its financial statements in accordance with IFRS?",
+          "question_type": "Followup",
+          "source_question": "664.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose that it has complied with applicable IFRSs except for the departure required to achieve a fair presentation?",
+          "decision_tree": {
+            "question": "Has the entity prepared its financial statements in accordance with IFRS?",
+            "guidance": "Check the Basis of Preparation section in the financial statements or the Notes to Financial Statements. Ensure the entity explicitly states that it is complying with IFRS. Look for phrases such as 'these financial statements have been prepared in accordance with International Financial Reporting Standards (IFRS)'.",
+            "yes_case": {
+              "question": "Has the entity opted for a departure from any IFRS to achieve a fair presentation of its financial statements?",
+              "guidance": "Review the financial statements for disclosures under IAS 8.6E and IAS 8.6F. If the entity has opted for a departure, it must clearly state the departure, the reason for departure, and why compliance with IFRS would have been misleading.",
+              "yes_case": {
+                "question": "Has the entity disclosed that it has complied with other relevant IFRSs except for the specific departure?",
+                "guidance": "Verify that the entity explicitly states its compliance with other IFRSs aside from the standard it departed from. This disclosure must include acknowledgment of the relevant standards and justification for the departure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "664.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.6E(c), IAS 8.6F(c)",
+          "question": "Has the entity departed from a specific IFRS standard?",
+          "question_type": "Followup",
+          "source_question": "664.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the title of the IFRS from which it has departed?",
+          "decision_tree": {
+            "question": "Has the entity departed from a specific IFRS standard?",
+            "guidance": "Check the financial statements and supporting documents for any explicit mentions of departures from IFRS standards. Focus on the Notes to the Financial Statements, which should state unusual or non-standard accounting treatments. Ensure that the departure is intentional and not simply an error in application.",
+            "yes_case": {
+              "question": "Has the entity disclosed the title of the IFRS standard from which it has departed?",
+              "guidance": "Review the Notes to the Financial Statements for a clear and explicit statement mentioning the title of the specific IFRS standard departed from. If the title is not explicitly disclosed, it indicates non-compliance.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "664.4",
+          "section": "IAS 8",
+          "reference": "IAS 8.6E(d), IAS 8.6F(d)",
+          "question": "Has the entity departed from any requirement of an IFRS standard?",
+          "question_type": "Followup",
+          "source_question": "664.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of the departure?",
+          "decision_tree": {
+            "question": "Has the entity departed from any requirement of an IFRS standard?",
+            "guidance": "Review financial statements and disclosures to identify any instances where the entity has explicitly or implicitly departed from complying with IFRS standards. Common areas include recognition, measurement, presentation, or disclosure requirements. Refer to IAS 8 paragraphs 6E and 6F for specific guidance on departures.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the departure as required by IAS 8?",
+              "guidance": "Examine the entity's disclosures, specifically in the notes to the financial statements, for a clear explanation of: (i) which IFRS requirement was departed from, and (ii) the justification for why the departure provides more reliable information. Ensure the disclosure follows IAS 8.6E(d).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "664.5",
+          "section": "IAS 8",
+          "reference": "IAS 8.6E(e), IAS 8.6F(e)",
+          "question": "Does the entity apply an IFRS that requires disclosure of the treatment of accounting policies?",
+          "question_type": "Followup",
+          "source_question": "664.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the treatment that the IFRS would require?",
+          "decision_tree": {
+            "question": "Does the entity apply an IFRS that requires disclosure of the treatment of accounting policies?",
+            "guidance": "Review the financial statements and check whether the entity applies IAS 8 or another specific IFRS that mandates disclosure of the treatment of accounting policies. Look into the accounting policies section to confirm alignment with IFRS treatment requirements.",
+            "yes_case": {
+              "question": "Does the entity disclose the treatment that the relevant IFRS requires?",
+              "guidance": "Inspect the notes to the financial statements, specifically the section on accounting policies. IAS 8 requires entities to disclose how IFRSs are applied, including any changes to accounting policies due to transition or implementation of new standards. Avoid common pitfalls such as unclear or incomplete disclosure.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "664.6",
+          "section": "IAS 8",
+          "reference": "IAS 8.6E(f), IAS 8.6F(f)",
+          "question": "Does the entity apply an accounting policy that deviates from the standard requirements due to considering it misleading in its specific circumstances?",
+          "question_type": "Followup",
+          "source_question": "664.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the reason why that treatment would be so misleading in the circumstances?",
+          "decision_tree": {
+            "question": "Does the entity apply an accounting policy that deviates from the standard requirements due to considering it misleading in its specific circumstances?",
+            "guidance": "Review the financial statements and accounting policy disclosures, particularly the notes section referring to IAS 8. Look for any mention of deviations from prescribed accounting treatments under IFRS. Ensure reasons such as unique business circumstances or unusual industry-specific impacts are clearly indicated if such a deviation exists.",
+            "yes_case": {
+              "question": "Has the entity disclosed the reasons why it believes that applying the relevant IFRS requirement would be misleading in the specific circumstances?",
+              "guidance": "Locate disclosures pursuant to IAS 8.6E(f) and IAS 8.6F(f). The disclosure must explain why the application of standard IFRS requirements would fail to provide a true and fair view. Verify this explanation is clear, specific to the entity's circumstances, and not generic.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "664.7",
+          "section": "IAS 8",
+          "reference": "IAS 8.6E(g), IAS 8.6F(g)",
+          "question": "Has the entity made any changes in accounting policies, accounting estimates, or corrections of prior period errors during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "664.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the treatment adopted?",
+          "decision_tree": {
+            "question": "Has the entity made any changes in accounting policies, accounting estimates, or corrections of prior period errors during the reporting period?",
+            "guidance": "Review the financial statements and their notes, particularly the summary of significant accounting policies and disclosures related to accounting estimates. Look for any statements or notes mentioning changes in policies, estimates, or corrections of prior period errors. Ensure that materiality has been properly considered.",
+            "yes_case": {
+              "question": "Has the entity disclosed the treatment adopted for the change in policy, estimate, or correction of prior period error?",
+              "guidance": "Verify in the financial statements (usually under the Accounting Policies or Notes section) whether the entity outlines how the changes were treated (e.g., retrospectively, prospectively, or as per IAS 8 requirements). Check disclosure requirements against IAS 8.6E(g) and IAS 8.6F(g). Common pitfalls include neglecting to explain the rationale for the method chosen or failing to provide comparative disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "664.8",
+          "section": "IAS 8",
+          "reference": "IAS 8.6E(h), IAS 8.6F(h)",
+          "question": "Has the entity departed from an IAS requirement when preparing its financial statements?",
+          "question_type": "Followup",
+          "source_question": "664.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each period presented, does the entity disclose the financial effect of the departure on each item in the financial statements that would have been reported in complying with the requirement?",
+          "decision_tree": {
+            "question": "Has the entity departed from an IAS requirement when preparing its financial statements?",
+            "guidance": "Review the financial statements and disclosures for evidence of any stated departure from a requirement of IAS standards. Check for explicit mentions of non-compliance in the notes or other sections. Common reasons for departure include conflicting requirements or management's belief that compliance would not result in a fair presentation.",
+            "yes_case": {
+              "question": "Has the entity disclosed the reasons why compliance with the IAS requirement would have been misleading in its circumstances?",
+              "guidance": "Examine the notes to the financial statements for a clear and specific explanation. The explanation should justify why following the IAS requirement would not result in a true and fair presentation. Verify if the entity has provided sufficient detail, avoiding vague or generic statements.",
+              "yes_case": {
+                "question": "For each period presented, has the entity disclosed the financial effect of the departure on every financial statement item that would have been reported under the IAS requirement?",
+                "guidance": "Review the notes and disclosures to ensure that the entity has quantified and presented the financial impact of the departure on each affected item, such as profit, assets, liabilities, or equity figures. Ensure the disclosure is complete for all presented periods and matches the requirements of IAS 8.6E(h) and IAS 8.6F(h).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "665.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.6G(a), IAS 8.6F(a)",
+          "question": "Did the entity depart from an IFRS in a prior period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the title of the IFRS from which it departed in a prior period?",
+          "decision_tree": {
+            "question": "Did the entity depart from an IFRS in a prior period?",
+            "guidance": "Review past financial statements and disclosures to identify if the entity explicitly departed from any IFRS in previous reporting periods. Check the explanatory notes in the financial statements under 'Accounting Policies' or 'Other Disclosures'. If no such departure is mentioned, the entity did not depart from any IFRS.",
+            "yes_case": {
+              "question": "Has the entity disclosed the title of the IFRS from which it departed in the prior period?",
+              "guidance": "Examine the current financial statements, particularly the disclosures under IAS 8 'Accounting Policies, Changes in Accounting Estimates and Errors'. Verify that the name/title of the specific IFRS is explicitly mentioned in the disclosures. Common errors include omitting the IFRS title or providing incomplete information.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "665.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.6G(b), IAS 8.6F(b)",
+          "question": "Has the entity departed from an IAS requirement in preparing its financial statements?",
+          "question_type": "Followup",
+          "source_question": "665.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of the departure?",
+          "decision_tree": {
+            "question": "Has the entity departed from an IAS requirement in preparing its financial statements?",
+            "guidance": "Review the financial statements and accompanying notes for any explicit mention of a departure from an International Accounting Standard (IAS). Look for disclosures of non-compliance due to rare circumstances when compliance would result in misleading information. Refer to IAS 8.6 and IAS 8.7 for criteria on departures.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the departure in the financial statements?",
+              "guidance": "Check the notes to the financial statements. The disclosure should describe the requirement of the IAS that was departed from and provide a clear explanation of the nature, reasons, and impact of the departure. Refer to IAS 8.6G(b) for details.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "665.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.6G(c), IAS 8.6F(c)",
+          "question": "Has the entity applied new or revised IFRS standards or interpretations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "665.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the treatment that the IFRS would require?",
+          "decision_tree": {
+            "question": "Has the entity applied new or revised IFRS standards or interpretations during the reporting period?",
+            "guidance": "Review the entity's financial statements and note any mentions of new or revised standards applied within the period. Check disclosures under IAS 8. If there are no new or revised standards referenced, this item is not applicable. Cross-check IFRS updates for the reporting period.",
+            "yes_case": {
+              "question": "Has the entity performed an assessment of the required treatment as per the applicable IFRS standard or interpretation?",
+              "guidance": "Verify whether the entity evaluated the specific treatment required by the new or revised IFRS standard(s). Look for references to the IFRS standards applied in the accounting policies section or relevant notes in the financial statements. Ensure the assessment is documented.",
+              "yes_case": {
+                "question": "Does the entity disclose this treatment in accordance with IAS 8.6G(c) and IAS 8.6F(c)?",
+                "guidance": "Examine the disclosures in the financial statements, particularly under IAS 8. Ensure the entity clearly describes the required treatment that the IFRS standard prescribes (e.g., accounting policies and impacts). Pay attention to whether this disclosure is complete and understandable.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "665.4",
+          "section": "IAS 8",
+          "reference": "IAS 8.6G(d), IAS 8.6F(d)",
+          "question": "Has the entity departed from a requirement in an IFRS standard to achieve a fair presentation?",
+          "question_type": "Followup",
+          "source_question": "665.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the reason why that treatment would be so misleading in the circumstances?",
+          "decision_tree": {
+            "question": "Has the entity departed from a requirement in an IFRS standard to achieve a fair presentation?",
+            "guidance": "Check the accounting policies in the financial statements and search for any explicit mention of a departure from a specific IFRS standard. This situation is rare and must be justified based on a fair presentation override under IAS 1. Review management's notes and explanations closely.",
+            "yes_case": {
+              "question": "Has the entity disclosed the fact that it has departed from the IFRS requirement?",
+              "guidance": "Review the notes accompanying the financial statements. IAS 1 requires entities to clearly disclose departures from IFRS requirements when a fair presentation override is applied. Ensure that this fact is mentioned explicitly.",
+              "yes_case": {
+                "question": "Has the entity disclosed the reason why applying the IFRS requirement would be misleading?",
+                "guidance": "Look for detailed disclosure explaining the circumstances that make compliance with the IFRS requirement misleading. Common examples include situations where compliance would obscure the financial reality or misrepresent the economic substance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "665.5",
+          "section": "IAS 8",
+          "reference": "IAS 8.6G(e), IAS 8.6F(e)",
+          "question": "Has the entity made a change in accounting policy, accounting estimate, or correction of a prior period error during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "665.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the treatment adopted?",
+          "decision_tree": {
+            "question": "Has the entity made a change in accounting policy, accounting estimate, or correction of a prior period error during the reporting period?",
+            "guidance": "Review the financial statements, specifically IAS 8 disclosures, and check notes detailing changes in accounting policies, estimates, or prior period error corrections. Ensure all changes are documented and the reasoning behind them is provided as per IAS 8 requirements.",
+            "yes_case": {
+              "question": "Does the entity disclose the treatment adopted for the change in accounting policy, accounting estimate, or correction of the prior period error?",
+              "guidance": "Examine the notes to the financial statements for disclosures on the treatment adopted as required by IAS 8. Look for explanations detailing how the change or correction was applied (e.g., retrospective or prospective treatment), along with any associated impacts on the financial statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "665.6",
+          "section": "IAS 8",
+          "reference": "IAS 8.6G(f), IAS 8.6F(f)",
+          "question": "Has the entity departed from an IFRS requirement during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "665.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each period presented, does the entity disclose the financial effect of the departure on each item in the financial statements that would have been reported in complying with the requirement?",
+          "decision_tree": {
+            "question": "Has the entity departed from an IFRS requirement during the reporting period?",
+            "guidance": "Review the financial statements and disclosures. Departure from IFRS requirements occurs when an entity chooses not to apply an IFRS standard where it is required. Confirm through the notes to the financial statements and explanations provided in management commentary. Check references to 'departure from IFRS' or explicit deviations.",
+            "yes_case": {
+              "question": "Has the entity disclosed the financial effect of the departure for each period presented?",
+              "guidance": "Examine the disclosures in the financial statements. Specifically, check whether the entity has quantified and clearly explained the impact of the deviation from financial reporting standards on each affected item (e.g., revenue, expenses, assets, liabilities) for every period presented in the financial statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "666.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.6I(a)",
+          "question": "Has the entity identified an instance where compliance with an IFRS would be misleading in its specific financial circumstances?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the title of the IFRS in question when compliance is misleading but departure is prohibited?",
+          "decision_tree": {
+            "question": "Has the entity identified an instance where compliance with an IFRS would be misleading in its specific financial circumstances?",
+            "guidance": "Review the financial statements and disclosures. Look for instances where strict compliance with an IFRS could result in misleading financial results or presentation. Check any supporting documentation or board discussions about this issue.",
+            "yes_case": {
+              "question": "Is the departure from the IFRS explicitly prohibited by IAS 8?",
+              "guidance": "Refer to IAS 8. Verify whether the IFRS in question explicitly prohibits departures in any circumstances, despite potential misleading outcomes. Review sections and mandatory requirements outlined in the IFRS documentation.",
+              "yes_case": {
+                "question": "Does the entity disclose the title of the IFRS and explain why compliance would be misleading?",
+                "guidance": "Check the notes to the financial statements. Ensure that the disclosure includes the title of the relevant IFRS standard and an explanation detailing why compliance would result in misleading financial statements. Verify clarity and accuracy of disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "666.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.6I(b)",
+          "question": "Does the entity have a mandatory requirement to disclose specific accounting policies, changes in estimates, or corrections of errors as required by IAS 8?",
+          "question_type": "Followup",
+          "source_question": "666.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of the requirement?",
+          "decision_tree": {
+            "question": "Does the entity have a mandatory requirement to disclose specific accounting policies, changes in estimates, or corrections of errors as required by IAS 8?",
+            "guidance": "Check the entity's financial records and accounting policies against the requirements specified in IAS 8. Section 8.6I(b) requires entities to disclose the nature of a requirement. Review whether there are any new accounting standards, changes in accounting estimates, or corrections of errors that pertain to the current reporting period.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the requirement in its financial statements?",
+              "guidance": "Ensure that the disclosure includes a clear description of the nature of the requirement in accordance with IAS 8. Typical locations for this information include the accounting policy section, notes regarding changes in accounting estimates, or notes related to corrections of errors. Cross-check the disclosures against the requirements in IAS 8 to confirm compliance.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "666.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.6I(c)",
+          "question": "Has the entity opted not to comply with an IFRS requirement because compliance would be misleading in specific circumstances?",
+          "question_type": "Followup",
+          "source_question": "666.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the reason why complying with that requirement is misleading in those circumstances?",
+          "decision_tree": {
+            "question": "Has the entity opted not to comply with an IFRS requirement because compliance would be misleading in specific circumstances?",
+            "guidance": "Review the disclosures in the financial statements and accompanying notes. Look for explicit statements where the entity has chosen not to apply a specific IFRS requirement due to the belief that compliance would lead to misleading information. IAS 8.6 permits this only in extremely rare cases, so confirm the justification and documentation.",
+            "yes_case": {
+              "question": "Has the entity disclosed the specific circumstances that make compliance with the IFRS requirement misleading?",
+              "guidance": "Check the notes to the financial statements for clear disclosure of the particular facts and conditions leading to the conclusion that compliance is misleading. Avoid relying on vague or generic statements; IAS 8 requires detailed explanations.",
+              "yes_case": {
+                "question": "Has the entity disclosed the reason why complying with the IFRS requirement is misleading under those circumstances?",
+                "guidance": "IAS 8.6(c) mandates disclosure of the reasoning behind the decision. Verify the explanation given in the financial statements and ensure it is explicit, logical, and directly related to the specific circumstances. Lack of adequate explanation raises a compliance issue.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "666.4",
+          "section": "IAS 8",
+          "reference": "IAS 8.6I(d)",
+          "question": "Did the entity make adjustments to the financial statements during the reporting period to achieve a fair presentation?",
+          "question_type": "Followup",
+          "source_question": "666.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For each period presented, does the entity disclose the adjustments to each item in the financial statements that management concluded would be necessary to achieve a fair presentation?",
+          "decision_tree": {
+            "question": "Did the entity make adjustments to the financial statements during the reporting period to achieve a fair presentation?",
+            "guidance": "Review management's notes and disclosures for any mention of adjustments made to items in the financial statements. Look for specific references to adjustments intended for fair presentation, as these may involve correcting errors, policy changes, or reclassifications. Check IAS 8.6I(d) for clarification.",
+            "yes_case": {
+              "question": "Did the entity disclose the adjustments made to each item in the financial statements for all periods presented?",
+              "guidance": "Verify the notes to the financial statements to ensure they specify the adjustments, including explanations of the nature of the changes and the basis for management's conclusion that the adjustments were necessary for fair presentation. Look at prior-period financial statements for these adjustments.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "667",
+          "section": "IAS 8",
+          "reference": "IAS 8.6K",
+          "question": "Has the entity assessed its ability to continue as a going concern?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose material uncertainties related to events or conditions that may cast significant doubt upon its ability to continue as a going concern?",
+          "decision_tree": {
+            "question": "Has the entity assessed its ability to continue as a going concern?",
+            "guidance": "Review the management's assessment documented in financial statements and related disclosures. Check for any reference to material uncertainties affecting the entity's ability to continue as a going concern. Ensure this assessment considers at least 12 months from the reporting date, as required by IAS 1.26.",
+            "yes_case": {
+              "question": "Did the entity identify any material uncertainties related to events or conditions that may cast significant doubt upon its ability to continue as a going concern?",
+              "guidance": "Review supporting evidence such as cash flow forecasts, loan agreements, covenants, and other financial and operational indicators in accordance with IAS 8. Focus on significant events or conditions like liquidity issues, negative operational cash flows, or other financial risks.",
+              "yes_case": {
+                "question": "Has the entity disclosed all identified material uncertainties in accordance with IAS 8?",
+                "guidance": "Confirm whether the financial statements provide adequate detailed disclosures about the material uncertainties. Refer to IAS 1.25 and IAS 8 for guidance on necessary disclosure. Ensure that the disclosures provide sufficient information for users of financial statements to understand the uncertainties.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "668.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.6K(a)",
+          "question": "Are the financial statements prepared on a going concern basis?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the fact that the financial statements are not prepared on a going concern basis?",
+          "decision_tree": {
+            "question": "Are the financial statements prepared on a going concern basis?",
+            "guidance": "Review the basis of preparation section in the notes to the financial statements or the accounting policy disclosure. The going concern assumption means the entity is expected to continue its operations for the foreseeable future and will not liquidate or significantly curtail its operations.",
+            "yes_case": "COMPLIANT: N/A",
+            "no_case": {
+              "question": "Does the entity disclose that the financial statements are not prepared on a going concern basis?",
+              "guidance": "Review the notes to the financial statements for explicit disclosure stating that the financial statements have not been prepared on a going concern basis. Check if the reasons for this assumption and the associated financial implications are clearly addressed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            }
+          }
+        },
+        {
+          "id": "668.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.6K(b)",
+          "question": "Are the entity's financial statements prepared on a going concern basis?",
+          "question_type": "Followup",
+          "source_question": "668.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the basis on which the financial statements are prepared if not on a going concern basis?",
+          "decision_tree": {
+            "question": "Are the entity's financial statements prepared on a going concern basis?",
+            "guidance": "Review the accounting policy disclosures in the financial statements, typically found in Note 1 or a similar section. Check whether the entity explicitly states that financial statements are prepared on a going concern basis or if there are indications that they are not prepared on this basis, such as material uncertainty regarding the entity's ability to continue operating.",
+            "yes_case": "COMPLIANT: N/A",
+            "no_case": {
+              "question": "Does the entity disclose the basis on which the financial statements are prepared, given that they are not on a going concern basis?",
+              "guidance": "Examine the financial statement disclosures for clarity on the alternative basis of preparation used when not applying a going concern basis. For example, liquidation basis or other basis of accounting must be disclosed with sufficient details about the assumptions and methods applied.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            }
+          }
+        },
+        {
+          "id": "668.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.6K(c)",
+          "question": "Is there any indication that the entity is not regarded as a going concern?",
+          "question_type": "Followup",
+          "source_question": "668.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the reason why it is not regarded as a going concern?",
+          "decision_tree": {
+            "question": "Is there any indication that the entity is not regarded as a going concern?",
+            "guidance": "Review the financial statements and disclosures, specifically the notes related to the going concern assumption as per IAS 1. If the entity's directors are uncertain about its ability to continue as a going concern within the foreseeable future, this condition might be triggered. Common indicators include negative net asset positions, inability to meet debt obligations, or significant uncertainties regarding funding.",
+            "yes_case": {
+              "question": "Has the entity disclosed the reason why it is not regarded as a going concern?",
+              "guidance": "Examine the notes accompanying the financial statements for a clear and specific disclosure. IAS 8.6K(c) requires the entity to explain why the going concern assumption is not applied. Ensure the disclosure highlights key reasons, such as financial difficulties, operational challenges, or external factors. Lack of sufficient detail is a common compliance issue.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "759",
+          "section": "IAS 8",
+          "reference": "IAS 8.27A",
+          "question": "Does the entity have material accounting policy information relevant to its financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose material accounting policy information?",
+          "decision_tree": {
+            "question": "Does the entity have material accounting policy information relevant to its financial statements?",
+            "guidance": "Review the entity's financial statements and assess whether there are significant accounting policies that influence its financial position, performance, or cash flows. Examples include revenue recognition, lease accounting, or inventory valuation. Refer to IAS 8.27A for details on what constitutes 'material' policy information.",
+            "yes_case": {
+              "question": "Is the material accounting policy information adequately disclosed in the financial statements?",
+              "guidance": "Verify if the accounting policy information is disclosed in a way that is clear, prominent, and provides meaningful insights about how the entity has applied IFRS standards. Ensure that disclosures are aligned with the requirements of IAS 8.27A and are sufficient to allow users of financial statements to understand the choices made by the entity.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "762",
+          "section": "IAS 8",
+          "reference": "IAS 8.22",
+          "question": "Has the entity changed an accounting policy that requires retrospective application under IAS 8.22?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If retrospective application is required, does the entity disclose the adjustment to the opening balance of each affected component of equity for the earliest prior period presented and the other comparative amounts for each prior period presented as if the entity had always applied the new accounting policy?",
+          "decision_tree": {
+            "question": "Has the entity changed an accounting policy that requires retrospective application under IAS 8.22?",
+            "guidance": "Review the financial statements, including disclosures and accounting policies notes. Check for instances where the entity states it has changed an accounting policy. Refer to the requirements outlined in IAS 8.22 regarding changes due to new standards or voluntary changes. Ensure changes meet the conditions requiring retrospective application.",
+            "yes_case": {
+              "question": "Does the entity disclose the adjustment to the opening balance of each affected component of equity for the earliest prior period presented?",
+              "guidance": "Examine the equity section of the statement of financial position for the earliest prior period presented. Verify that all adjustments due to the change in accounting policy are shown clearly and accurately. Refer to IAS 8.22 for specific disclosure requirements. Common pitfalls include missing disclosures for immaterial adjustments or confusion between adjustments resulting from errors versus policy changes.",
+              "yes_case": {
+                "question": "Does the entity disclose other comparative amounts for each prior period presented as if the entity had always applied the new accounting policy?",
+                "guidance": "Review the financial statements and compare the reported amounts for prior periods against what they would have been if the new accounting policy had always been applied. Ensure the comparative amounts are restated consistently and the adjustment is clearly explained. Pay special attention to reconciliation statements provided by the entity.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "763.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(a)",
+          "question": "Does the entity prepare financial statements in accordance with IFRS?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the title of the IFRS accounting standard?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements in accordance with IFRS?",
+            "guidance": "Review the basis of preparation section of the financial statements or the accompanying notes to confirm the financial reporting framework used by the entity. Look for a statement explicitly mentioning IFRS compliance. Common pitfalls include misinterpretations of local GAAP convergence statements, which may not equate to IFRS compliance.",
+            "yes_case": {
+              "question": "Does the entity disclose the title of the IFRS accounting standard where applicable?",
+              "guidance": "Examine the accounting policies and related notes sections of the financial statements. Ensure any reference to IFRS standards includes the title of the relevant standard (e.g., IAS 8 'Accounting Policies, Changes in Accounting Estimates, and Errors'). Omissions might be inadvertent but can impact compliance.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "763.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(b)",
+          "question": "Has the entity changed any accounting policy during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose that the change in accounting policy is made in accordance with the transitional provisions and might have an effect on future periods, if applicable?",
+          "decision_tree": {
+            "question": "Has the entity changed any accounting policy during the reporting period?",
+            "guidance": "Review the entity's financial statements and note disclosures for any mention of changes in accounting policies. Common areas include changes due to new IFRS standards, management decisions, or corrections of prior period errors. Check IAS 8.14-15 for further clarifications on changes in accounting policies.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the change in accounting policy?",
+              "guidance": "Examine the note disclosures in the financial statements related to accounting policies. The disclosure should include a description of the change, including the reason and nature of the adjustment. Refer to IAS 8.28(c) for disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "763.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(c)",
+          "question": "Has the entity changed any accounting policy during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose that the change in accounting policy is made in accordance with the transitional provisions and might have an effect on future periods, if applicable?",
+          "decision_tree": {
+            "question": "Has the entity changed any accounting policy during the reporting period?",
+            "guidance": "Review the entity's financial statements and note disclosures for any mention of changes in accounting policies. Common areas include changes due to new IFRS standards, management decisions, or corrections of prior period errors. Check IAS 8.14-15 for further clarifications on changes in accounting policies.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the change in accounting policy?",
+              "guidance": "Examine the note disclosures in the financial statements related to accounting policies. The disclosure should include a description of the change, including the reason and nature of the adjustment. Refer to IAS 8.28(c) for disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "763.4",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(d)",
+          "question": "Has the entity applied a new or revised IFRS standard during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the transitional provisions, if applicable?",
+          "decision_tree": {
+            "question": "Has the entity applied a new or revised IFRS standard during the reporting period?",
+            "guidance": "Review the accounting policies note in the financial statements and verify if any new or amended IFRS standards were adopted. Check for references to standards listed in the IASB's documentation for the reporting period. Ensure no standards are missed. Common pitfalls include overlooking standards with deferred application dates.",
+            "yes_case": {
+              "question": "Do the transitional provisions of the newly applied standard impact how the entity transitions its accounting policies?",
+              "guidance": "Refer to the specific IFRS standard in question. Transitional provisions can usually be found in the implementation section or appendices of the standard; look for requirements concerning retrospective or prospective application. Ensure to check for specific details on prior period adjustments.",
+              "yes_case": {
+                "question": "Has the entity disclosed the required transitional provisions as per IAS 8.28(d)?",
+                "guidance": "Refer to IAS 8.28(d). Verify if the financial statements include detailed disclosures about the transitional provisions, including how the standard has been applied, any retrospective adjustments, prior period impact, and the effect on current and future periods.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "763.5",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(e), IAS 33.2",
+          "question": "Has the entity adopted a new accounting policy or made a change to an existing accounting policy during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the transitional provisions that might have an effect on future periods, if applicable?",
+          "decision_tree": {
+            "question": "Has the entity adopted a new accounting policy or made a change to an existing accounting policy during the reporting period?",
+            "guidance": "Refer to the entity's accounting policy note in the financial statements and the disclosures provided. Check for any mention of adoption of new IFRS standards, amendments, or changes to previously applied accounting policies. Ensure to review IAS 8 paragraphs 19-31 regarding changes in accounting policies, estimates, and corrections of errors.",
+            "yes_case": {
+              "question": "Does the new or revised accounting policy include transitional provisions impacting future periods?",
+              "guidance": "Examine the details of the newly adopted or revised policy. Transitional provisions are usually provided under the specific IFRS standard that introduced the policy. Check IFRS standards issued during the reporting period and any amendments. Pay attention to IAS 8 paragraph 28(e) for detailed requirements.",
+              "yes_case": {
+                "question": "Has the entity disclosed the details of these transitional provisions that might affect future periods?",
+                "guidance": "Review the entity’s financial statements, specifically the accounting policy note and disclosures regarding standards not yet adopted. The disclosure should include the nature of the transitional provisions, how they impact the financial statements, and their effect on future periods. Cross-check with IAS 8 paragraph 28(e).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "763.6",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(f)",
+          "question": "Has the entity made an adjustment to a financial statement line item due to a change in accounting policy or correction of prior period errors?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose the amount of the adjustment for each financial statement line item affected and the basic and diluted earnings per share for the current period and each prior period presented, to the extent practicable (if IAS 33 applies)?",
+          "decision_tree": {
+            "question": "Has the entity made an adjustment to a financial statement line item due to a change in accounting policy or correction of prior period errors?",
+            "guidance": "Review the notes to the financial statements and management disclosures for any mention of adjustments made due to changes in accounting policy or corrections of prior period errors. These should align with the requirements under IAS 8. Ensure that such adjustments are explicitly stated and linked to financial statement line items. If no adjustments are reported, this question is not applicable.",
+            "yes_case": {
+              "question": "Does IAS 33 (Earnings Per Share) apply to the entity?",
+              "guidance": "Check if the entity is required to disclose earnings per share (EPS). IAS 33 applies to entities whose shares are publicly traded or that are in the process of issuing shares in a public market. Review the financial reporting framework and the notes for EPS information.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of adjustment for each financial statement line item affected, as well as the basic and diluted EPS for both the current period and each prior period presented (to the extent practicable)?",
+                "guidance": "Verify disclosure details in the financial statements. The entity must provide information about the adjustment amounts explicitly for all relevant financial statement line items, including basic and diluted EPS. Focus on compliance with IAS 8.28(f) and ensure information is presented for all applicable periods.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "763.7",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(g)",
+          "question": "Has the entity made an accounting policy change or correction of a prior-period error?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of the adjustment relating to periods before those presented, to the extent practicable?",
+          "decision_tree": {
+            "question": "Has the entity made an accounting policy change or correction of a prior-period error?",
+            "guidance": "Review the notes to the financial statements and relevant sections in the general ledger. Look for disclosures or adjustments related to accounting policy changes or corrections of prior-period errors. Check IAS 8 paragraphs 14-27 to verify the treatment and identification of these adjustments.",
+            "yes_case": {
+              "question": "Does the accounting policy change or prior-period error affect periods before the ones presented in the current financial statements?",
+              "guidance": "Analyze the nature of the accounting policy change or error correction. Refer to IAS 8.28 to determine if these adjustments impact periods prior to the comparative periods shown in the current financial statements. Common pitfalls include overlooking impacts on historical data.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of the adjustment relating to periods before those presented, to the extent practicable?",
+                "guidance": "Verify disclosures in the financial statements, particularly in the notes section where IAS 8 adjustments are typically presented. Ensure that the adjustment amount is disclosed, and where it is not practicable, confirm that the impracticability is properly justified as per IAS 8.28(g).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "763.8",
+          "section": "IAS 8",
+          "reference": "IAS 8.28(h)",
+          "question": "Has the entity made a change in accounting policy during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If retrospective application is impracticable for a particular prior period or for periods before those presented, does the entity disclose the circumstances that led to that condition and describe how and from when the change in accounting policy has been applied?",
+          "decision_tree": {
+            "question": "Has the entity made a change in accounting policy during the reporting period?",
+            "guidance": "Review the notes to the financial statements or policy disclosures to identify any changes in accounting policy. Pay close attention to sections detailing changes due to new IFRS standards or voluntary changes improving financial reporting. Look out for any mention of 'change in accounting policy' or specific amendments to standards.",
+            "yes_case": {
+              "question": "Is the change in accounting policy required to be applied retrospectively under IAS 8?",
+              "guidance": "Check IAS 8 paragraphs 19–27 regarding retrospective application. Retrospective application is usually required unless impracticable. Ensure you review whether the accounting policy change relates to corrections of errors or initial adoption of a new or revised standard.",
+              "yes_case": {
+                "question": "Was retrospective application impracticable for one or more prior periods or for periods before those presented?",
+                "guidance": "Evaluate whether the entity explicitly states that applying the new policy retrospectively was impracticable. Key indicators could include the lack of sufficient information to apply the change or issues with estimation that cannot meet IFRS requirements.",
+                "yes_case": {
+                  "question": "Did the entity disclose the circumstances that led to retrospective application being impracticable and describe how and from when the change in accounting policy has been applied?",
+                  "guidance": "Verify the disclosures in the financial statements (usually under the accounting policies or changes in accounting policies section). Look for specific details explaining why retrospective application was impracticable and a description of the point from which the policy change is effective and how it has been applied since.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "764.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.29(a)",
+          "question": "Has the entity changed an accounting policy during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of the change in accounting policy?",
+          "decision_tree": {
+            "question": "Has the entity changed an accounting policy during the reporting period?",
+            "guidance": "Review the financial statements and disclosures, particularly the notes section. Check for any mention of changes in accounting policies being described as required under IAS 8. Inspect prior-year comparatives and verify if changes are explicitly stated.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the change in accounting policy?",
+              "guidance": "Refer to IAS 8.29(a). The disclosure should describe what the change entails and why it was made (e.g., due to new IFRS standards or voluntary changes). Ensure the explanation is clear and detailed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "764.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.29(e)",
+          "question": "Did the entity make an adjustment to correct an error or change an accounting policy that affects periods before those presented?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of the adjustment relating to periods before those presented, to the extent practicable?",
+          "decision_tree": {
+            "question": "Did the entity make an adjustment to correct an error or change an accounting policy that affects periods before those presented?",
+            "guidance": "Review the accounting records and financial statements, particularly the disclosures for changes in accounting policies or corrections of prior-period errors as required by IAS 8. Look for retrospective adjustments and whether they impact periods prior to the ones currently presented. Common pitfalls include omitting adjustments related to earlier periods or misidentifying the adjustments that affect prior periods.",
+            "yes_case": {
+              "question": "Is it practicable to determine the amount of the adjustment for periods before those presented?",
+              "guidance": "Assess whether sufficient information or records exist to calculate the adjustment accurately. According to IAS 8, 'practicable' means all reasonable efforts have been made to obtain the necessary data without excessive cost or undue delay. If the data is unavailable or unreliable, disclosure of impracticability is required.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of the adjustment relating to periods before those presented?",
+                "guidance": "Review disclosures in the financial statements, particularly in the notes. Ensure the adjustment amount is clearly stated and aligns with IAS 8.29(e). The disclosure should include a breakdown of the adjustments and how they relate to prior periods.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Has the entity disclosed that it was impracticable to determine the amount of the adjustment for periods before those presented?",
+                "guidance": "Check the disclosures for a clear explanation of impracticability. IAS 8 requires entities to disclose why determining the adjustment amount was impracticable, including any constraints or challenges faced during this process.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "764.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.29(f)",
+          "question": "Has the entity made a change in accounting policy that requires retrospective application?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If retrospective application is impracticable for a particular prior period or for periods before those presented, does the entity disclose the circumstances that led to that condition and describe how and from when the change in accounting policy has been applied?",
+          "decision_tree": {
+            "question": "Has the entity made a change in accounting policy that requires retrospective application?",
+            "guidance": "Review the financial statements and accounting policies note to identify whether there is a change in accounting policy. Changes are typically due to new standards or revisions to existing standards. Ensure that the change impacts prior periods.",
+            "yes_case": {
+              "question": "Is retrospective application impracticable for a particular prior period or for periods before those presented?",
+              "guidance": "Check the entity's disclosures and working papers for evidence explaining why retrospective application is impracticable. Impracticability occurs when the entity cannot determine the prior period effects without undue effort or expense.",
+              "yes_case": {
+                "question": "Does the entity disclose the circumstances that led to retrospective application being impracticable and describe how and from when the change in accounting policy has been applied?",
+                "guidance": "Review the disclosures in the financial statements, particularly the notes on accounting policies and changes. The entity must explain why retrospective application is impracticable, how the policy change has been applied, and from what date. Ensure this aligns with IAS 8.29(f).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "765.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(a)",
+          "question": "Has a new IFRS been issued that is not yet effective and is applicable to the entity's financial reporting?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the fact that it did not apply a new IFRS that has been issued but is not yet effective?",
+          "decision_tree": {
+            "question": "Has a new IFRS been issued that is not yet effective and is applicable to the entity's financial reporting?",
+            "guidance": "Check the latest IFRS publications and amendments issued by the IASB. Consult the entity's industry and financial reporting scope to confirm if any new standard or amendment applies to its activities. Be aware of standards that may seem industry-specific but still have broader implications.",
+            "yes_case": {
+              "question": "Has the entity disclosed that it did not apply the new IFRS that is issued but not yet effective?",
+              "guidance": "Review the notes to the financial statements and specifically check for disclosures related to 'Standards and interpretations issued but not yet applied'. Ensure the disclosure explicitly states the non-application of the new IFRS and provides relevant details, such as the standard's title and effective date.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "765.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(b)",
+          "question": "Has a new IFRS been issued but is not yet effective, and is it relevant to the entity's financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose known or reasonably estimable information relevant to assessing the possible impact that application of the new IFRS will have on the financial statements in the period of initial application?",
+          "decision_tree": {
+            "question": "Has a new IFRS been issued but is not yet effective, and is it relevant to the entity's financial statements?",
+            "guidance": "Review the recent amendments, new IFRS, or revisions listed in the Notes to the Financial Statements or IFRS updates. Check if the new IFRS is applicable to the entity's accounting policies or transactions. Common pitfalls include ignoring standards applicable to industry-specific situations.",
+            "yes_case": {
+              "question": "Has the entity assessed the possible impact of the new IFRS on its financial statements?",
+              "guidance": "Review internal documentation, IFRS implementation assessments, or meeting minutes of those charged with governance to verify the entity has considered the relevant impact. Ensure that the assessment covers notable areas such as measurement, presentation, and disclosure changes.",
+              "yes_case": {
+                "question": "Does the entity disclose known or reasonably estimable information relevant to assessing the possible impact of the new IFRS in the Notes to the Financial Statements?",
+                "guidance": "Examine the Notes to the Financial Statements, particularly the section discussing upcoming changes in accounting policies. Confirm that the disclosure includes qualitative or quantitative details on how the new IFRS will affect the entity. Be cautious of vague or incomplete disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "765.3",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(c)",
+          "question": "Has the entity adopted a new IFRS standard during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the title of the new IFRS?",
+          "decision_tree": {
+            "question": "Has the entity adopted a new IFRS standard during the reporting period?",
+            "guidance": "Review the accounting policies note in the financial statements and check if there is any mention of adoption of a new IFRS standard during the reporting period. Look specifically for references to 'New Standards and Interpretations' or changes in accounting policies as required under IAS 8.30.",
+            "yes_case": {
+              "question": "Does the entity disclose the title of the newly adopted IFRS standard in its financial statements?",
+              "guidance": "Examine the financial statements, particularly the accounting policies and disclosures section, and verify if the title of the newly adopted IFRS standard is clearly mentioned. This should appear as part of the entity's explanation of new or revised accounting policies (IAS 8.30(c)).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "765.4",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(d)",
+          "question": "Is there an impending change in accounting policy at the entity?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature of the impending change or changes in accounting policy?",
+          "decision_tree": {
+            "question": "Is there an impending change in accounting policy at the entity?",
+            "guidance": "Review recent amendments to IAS, IFRS, or local accounting standards applicable to the entity. Check Board minutes, regulatory filings, and accounting policy documentation for decisions or commitments to change accounting policies. Impending changes refer to those formally announced and expected to be implemented in future reporting periods.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of the impending change in accounting policy?",
+              "guidance": "Review the notes to the financial statements and sections dedicated to accounting policies. Check if the entity has explicitly explained the nature of the change (e.g., shift to a new measurement basis, adoption of a new standard) as required by IAS 8.30(d). Common pitfalls include vague language or incomplete information about the nature of the change.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "765.5",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(e)",
+          "question": "Has the entity applied a new or amended IFRS standard during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the date by which application of the IFRS is required?",
+          "decision_tree": {
+            "question": "Has the entity applied a new or amended IFRS standard during the reporting period?",
+            "guidance": "Review the financial statements and accounting policies note. Look for mentions of new IFRS standards or amendments effective during the reporting period. Check the IASB website or the entity's prior disclosures for updates on newly effective standards.",
+            "yes_case": {
+              "question": "Does the entity disclose the date by which application of the IFRS standard is required?",
+              "guidance": "Check the financial statements, especially the accounting policies or notes discussing changes in standards. The disclosure should specify the effective date, as required under IAS 8.30(e). Commonly found errors include omission of the effective date or vague descriptions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "765.6",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(f)",
+          "question": "Has the entity identified a new IFRS that it plans to adopt for the first time?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the date as at which it plans to adopt the IFRS initially?",
+          "decision_tree": {
+            "question": "Has the entity identified a new IFRS that it plans to adopt for the first time?",
+            "guidance": "Review the notes to the financial statements and entity disclosures regarding standards issued but not yet effective. Check if the entity has identified any new IFRS that requires initial adoption in future reporting periods.",
+            "yes_case": {
+              "question": "Has the entity disclosed the date as at which it plans to adopt the IFRS initially?",
+              "guidance": "Check the disclosure section of the financial statements where information about new IFRS adoption is typically provided. Verify that the entity has clearly stated the intended adoption date for each IFRS it plans to adopt. Ensure the disclosed date is specific and matches the implementation timelines provided in IAS 8.30(f).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "765.7",
+          "section": "IAS 8",
+          "reference": "IAS 8.30(g)",
+          "question": "Has the entity initially applied a new or revised IFRS during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity discuss the impact that initial application of the IFRS is expected to have on its financial statements or, if such impact is not known or reasonably estimable, state that fact?",
+          "decision_tree": {
+            "question": "Has the entity initially applied a new or revised IFRS during the reporting period?",
+            "guidance": "Check the entity's accounting policies note or disclosure section for mentions of newly applied IFRS during the reporting period. Refer specifically to IAS 8.28-30 for guidance on requirements for disclosing these changes.",
+            "yes_case": {
+              "question": "Does the entity disclose the expected impact of the initial application of the IFRS on its financial statements?",
+              "guidance": "Review the entity's disclosures for clear discussion of the expected financial impact. This may include changes to recognition, measurement, or presentation. If the impact is not known or reasonably estimable, ensure the entity states this explicitly (IAS 8.30(g)).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity explicitly state that the impact of the initial IFRS application is not known or reasonably estimable?",
+                "guidance": "Verify whether the disclosures indicate that the expected impact cannot be determined or reasonably estimated. Ensure this statement is clear and unambiguous as per IAS 8.30(g).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "766",
+          "section": "IAS 8",
+          "reference": "IAS 8.31A",
+          "question": "Does the entity have significant assumptions about the future or major sources of estimation uncertainty as of the end of the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity disclose information about the assumptions it makes about the future and other major sources of estimation uncertainty at the end of the reporting period that have a significant risk of resulting in a material adjustment to the carrying amounts of assets and liabilities within the next financial year?",
+          "decision_tree": {
+            "question": "Does the entity have significant assumptions about the future or major sources of estimation uncertainty as of the end of the reporting period?",
+            "guidance": "Review the entity's financial statements, particularly the notes to the accounts. Check for situations where estimates or assumptions are used to determine the carrying amounts of assets or liabilities, such as provisions, impairment reviews, or fair value measurements. Focus on areas with material impacts on the financial statements in the next financial year.",
+            "yes_case": {
+              "question": "Do these assumptions or sources of estimation uncertainty have a significant risk of resulting in a material adjustment to the carrying amounts of assets or liabilities within the next financial year?",
+              "guidance": "Evaluate the nature of the estimates disclosed. Consider areas like risk management, sensitivity analysis, and historical adjustments. Disclosures should clearly demonstrate the potential impact of these uncertainties.",
+              "yes_case": {
+                "question": "Does the entity disclose information about these significant assumptions and estimation uncertainties in line with IAS 8.31A?",
+                "guidance": "Check the notes to the financial statements for disclosures about assumptions and uncertainties as required by IAS 8.31A. Ensure that the information provided makes the potential impact understandable, including sensitivity analysis, methodologies used, and reasoning behind critical judgements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "767.1",
+          "section": "IAS 8",
+          "reference": "IAS 8.31A(a)",
+          "question": "Does the entity have assets or liabilities that fall under the scope of IAS 8.31A?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For the assets and liabilities in IAS 8.31A, does the entity disclose their nature?",
+          "decision_tree": {
+            "question": "Does the entity have assets or liabilities that fall under the scope of IAS 8.31A?",
+            "guidance": "Refer to IAS 8.31A and check whether the entity has made changes in accounting policies, estimates, or corrections of prior period errors that affect specific assets and liabilities. Review accounting records, supporting documents, and financial statement notes to confirm their existence.",
+            "yes_case": {
+              "question": "Has the entity disclosed the nature of these assets and liabilities affected by IAS 8.31A?",
+              "guidance": "Check the notes to the financial statements for disclosures about the assets and liabilities. Ensure the description aligns with IAS 8.31A requirements, detailing the nature of the assets and liabilities affected by changes in accounting policies, estimates, or prior period corrections.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "767.2",
+          "section": "IAS 8",
+          "reference": "IAS 8.31A(b)",
+          "question": "Does the entity have assets or liabilities affected by retrospective application, retrospective restatement, or reclassification as defined in IAS 8.31A?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "For the assets and liabilities in IAS 8.31A, does the entity disclose their carrying amount as at the end of the reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have assets or liabilities affected by retrospective application, retrospective restatement, or reclassification as defined in IAS 8.31A?",
+            "guidance": "Review IAS 8.31A and check whether the entity applied any retrospective adjustments (e.g., due to adoption of a new accounting policy, correction of errors, or reclassification of amounts). Look for these adjustments in the notes to the financial statements under 'Accounting Policies' and 'Changes in Accounting Policies'.",
+            "yes_case": {
+              "question": "Has the entity disclosed the carrying amounts of those assets and liabilities as at the end of the reporting period?",
+              "guidance": "Verify in the financial statement disclosures whether the entity has specified the carrying amounts of affected assets and liabilities after the adjustments. Refer to the notes section related to accounting changes or retrospectives for clarity. Common omissions include leaving certain adjusted items undisclosed or providing insufficient detail.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2247 @@
+{
+  "title": "IFRS 12 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 12",
+      "title": "Disclosure of Interests in Other Entities",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 12.",
+      "items": [
+        {
+          "id": "176",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.7",
+          "question": "Does the entity prepare consolidated financial statements under IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose information about significant judgements and assumptions it has made (and changes to those judgements and assumptions) in determining that it has control of another entity, i.e., an investee?",
+          "decision_tree": {
+            "question": "Does the entity prepare consolidated financial statements under IFRS 10?",
+            "guidance": "Review the entity's financial statements and ensure they are prepared under the consolidation requirements of IFRS 10. Typically, consolidated financial statements are required when the entity controls one or more subsidiaries. If the entity does not have any subsidiaries, this question is 'Not Applicable'.",
+            "yes_case": {
+              "question": "Does the entity determine that it has control over one or more investees?",
+              "guidance": "Review the entity's assessment of control over investees, as defined in IFRS 10. Control exists if the entity has power over the investee, exposure or rights to variable returns, and the ability to affect returns through control. Common pitfalls include incorrectly assessing control based on ownership percentage alone.",
+              "yes_case": {
+                "question": "Has the entity disclosed significant judgements and assumptions made in determining that it has control over another entity (including changes to those judgements and assumptions)?",
+                "guidance": "Review the entity's disclosures in the notes to the financial statements. Ensure that significant judgements and assumptions, including any changes, are disclosed. These disclosures should provide clarity on how control was assessed and the reasons behind such conclusions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "177",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.8",
+          "question": "Do any changes in facts and circumstances during the reporting period indicate a change in the conclusion about whether the entity has control over an investee?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "176",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity include under the significant judgements and assumptions disclosed in IFRS 12.7 those made when changes in facts and circumstances are such that the conclusion about whether it has control changes during the reporting period?",
+          "decision_tree": {
+            "question": "Do any changes in facts and circumstances during the reporting period indicate a change in the conclusion about whether the entity has control over an investee?",
+            "guidance": "Review board minutes, contracts, agreements, and any changes in shareholdings or governance. Pay special attention to events that might result in reconsideration of control, such as changes in voting rights, protective rights, or potential voting rights. Cross-reference the assessment of control with IFRS 10 Consolidated Financial Statements.",
+            "yes_case": {
+              "question": "Has the entity disclosed the significant judgements and assumptions made when re-assessing control under IFRS 12.7?",
+              "guidance": "Examine the notes to the financial statements. Look for disclosures that explain the judgements and assumptions used to determine whether control exists or ceases to exist, particularly any changes resulting from new facts and circumstances. Common disclosure areas include the basis for loss or acquisition of control.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "178.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9(a)",
+          "question": "Does the entity hold more than half of the voting rights of another entity?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose significant judgements and assumptions made in determining that it does not control another entity even though it holds more than half of the voting rights of that entity?",
+          "decision_tree": {
+            "question": "Does the entity hold more than half of the voting rights of another entity?",
+            "guidance": "Review the entity's financial statements and supporting documentation, such as ownership structures and share registers. Verify whether the entity's voting rights exceed 50% for any investee. Focus only on situations where the ownership condition is met.",
+            "yes_case": {
+              "question": "Has the entity concluded that it does NOT control the other entity despite holding more than half of the voting rights?",
+              "guidance": "Check the entity's assessment in accordance with IFRS 10 Consolidated Financial Statements, particularly paragraphs 7-9, regarding control and decision-making rights. Verify any documentation or memos that explain why the entity believes it does not have control. Ensure the reasoning is clear and consistent.",
+              "yes_case": {
+                "question": "Has the entity disclosed significant judgements and assumptions made in determining that it does not control the other entity?",
+                "guidance": "Review the notes to the financial statements to confirm that significant judgements and assumptions are disclosed, as required by IFRS 12.9(a). Pay attention to detailed explanations regarding voting rights, contractual agreements, or other factors affecting control.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "178.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9(b)",
+          "question": "Does the entity control another entity while holding less than half of the voting rights of that entity?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose significant judgements and assumptions made in determining that it controls another entity even though it holds less than half of the voting rights of that entity?",
+          "decision_tree": {
+            "question": "Does the entity control another entity while holding less than half of the voting rights of that entity?",
+            "guidance": "Review the consolidation details in the entity's financial statements and supporting documentation to identify cases where the entity consolidates another entity despite holding less than 50% of voting rights. Look for references to agreements, practical control mechanisms, or other factors indicating control even with minority voting rights.",
+            "yes_case": {
+              "question": "Has the entity disclosed significant judgements and assumptions made in determining that it controls the other entity?",
+              "guidance": "Check the notes to the financial statements under 'Significant Judgements' or related sections. Ensure the entity has explicitly described the key judgements and assumptions underpinning the control decision, such as contractual arrangements, de facto control, or the dominance of decision-making rights.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "178.3",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9(c)",
+          "question": "Has the entity entered into arrangements where it could act as an agent or a principal?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose significant judgements and assumptions made in determining that it is an agent or a principal?",
+          "decision_tree": {
+            "question": "Has the entity entered into arrangements where it could act as an agent or a principal?",
+            "guidance": "Review the contracts, agreements, or business arrangements disclosed in the entity’s financial statements or supporting documentation. Look for relationships involving decision-making authority, control, or intermediary roles. Cross-reference IFRS 12 for definitions and examples related to agent-principal evaluations.",
+            "yes_case": {
+              "question": "Has the entity made significant judgements or assumptions to determine whether it is an agent or a principal?",
+              "guidance": "Analyze the accounting policies and relevant disclosures in the notes to the financial statements. Look for areas where management has used estimates or assumptions to decide its role as an agent or principal. Pay attention to whether the entity explicitly mentions reliance on IFRS 12’s guidance to make such determinations. Ensure that these judgements relate specifically to relationships covered under IFRS 12 requirements.",
+              "yes_case": {
+                "question": "Has the entity adequately disclosed these significant judgements and assumptions in its financial statements?",
+                "guidance": "Examine the financial statement notes under disclosures related to investments or arrangements where the agent-principal determination applies. Ensure that the disclosures provide sufficient detail about the judgements and assumptions used, as required under IFRS 12.9(c). Confirm they are understandable and relevant to stakeholders.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "180.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.10–12.12",
+          "question": "Does the entity consolidate financial statements as a group with subsidiaries?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose enough information to understand the composition of the group, including the group's composition and the interest that non-controlling interests have in the group's activities and cash flows?",
+          "decision_tree": {
+            "question": "Does the entity consolidate financial statements as a group with subsidiaries?",
+            "guidance": "Review the entity's financial statements, particularly the consolidation section in compliance with IFRS 10. Verify whether the entity controls one or more subsidiaries, requiring group-level financial statements.",
+            "yes_case": {
+              "question": "Does the entity have non-controlling interests in its subsidiaries?",
+              "guidance": "Examine the financial statements and the notes for disclosures about ownership structure. Non-controlling interests typically arise when the entity owns less than 100% of a subsidiary but still exercises control.",
+              "yes_case": {
+                "question": "Does the entity disclose information sufficient to understand the composition of the group and the interest non-controlling interests have in the group's activities and cash flows?",
+                "guidance": "Refer to IFRS 12.10–12.12 and confirm whether the notes or accompanying disclosures explain: 1) the composition of the group, 2) material arrangements affecting activities, and 3) the impact of non-controlling interests (e.g., share of profit or loss, cash flows). Disclosures should be clear, complete, and reconciled to structural financial data.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "180.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.13",
+          "question": "Does the entity have significant restrictions on its ability to access or use group assets or to settle group liabilities?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose enough information to evaluate the nature and extent of significant restrictions on its ability to access or use group assets and to settle group liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have significant restrictions on its ability to access or use group assets or to settle group liabilities?",
+            "guidance": "Review the entity's consolidated financial statements and supporting notes. Look for disclosures or agreements indicating restrictions, such as legal, contractual, or other regulatory limitations preventing the use or settlement of group assets and liabilities. Focus on subsidiaries, joint arrangements, and associates.",
+            "yes_case": {
+              "question": "Does the entity disclose enough information to evaluate the nature and extent of these significant restrictions?",
+              "guidance": "Verify that the financial statement notes provide detailed information on the restrictions, including their nature, the entities or assets involved, the basis for the restrictions, and their financial impact on the group. Reference IFRS 12.13 for specific disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "180.3",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.14–12.17",
+          "question": "Does the entity have interests in consolidated structured entities?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose enough information to evaluate the nature of, and changes in, the risks associated with its interests in consolidated structured entities?",
+          "decision_tree": {
+            "question": "Does the entity have interests in consolidated structured entities?",
+            "guidance": "Review the entity’s financial statements (specifically the notes) to determine whether it holds interests in structured entities that fall under the definition in IFRS 12. Confirm that these entities are consolidated as per IFRS 10.",
+            "yes_case": {
+              "question": "Has the entity disclosed information to evaluate the nature of the risks associated with its interests in consolidated structured entities?",
+              "guidance": "Check the notes to the financial statements for disclosures pursuant to IFRS 12.14–12.17. This includes qualitative and quantitative information about risks (e.g., credit risk, liquidity risk) linked to the structured entities consolidated by the entity.",
+              "yes_case": {
+                "question": "Has the entity disclosed information to evaluate changes in the risks associated with its interests in consolidated structured entities?",
+                "guidance": "Look for disclosures that explicitly describe how the risks associated with consolidated structured entities have evolved during the reporting period. This may include impacts from market changes, modifications in the entities' operations, or shifts in economic conditions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "180.4",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.18",
+          "question": "Does the entity have any changes in ownership interest in a subsidiary during the reporting period that did not result in a loss of control?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose enough information to evaluate the consequences of changes in its ownership interest in a subsidiary that do not result in a loss of control?",
+          "decision_tree": {
+            "question": "Does the entity have any changes in ownership interest in a subsidiary during the reporting period that did not result in a loss of control?",
+            "guidance": "Review the consolidated financial statements, specifically footnotes or disclosures about subsidiaries. Look for transactions where ownership percentages changed but the parent entity retained control. Control is typically defined as having more than 50% voting rights or power to govern financial and operating policies.",
+            "yes_case": {
+              "question": "Has the entity disclosed sufficient information about the nature and financial effects of each change in ownership interest?",
+              "guidance": "Check the disclosures under IFRS 12 in the notes. Verify whether details on the reasons for these changes, their financial impact, and the method of accounting are included. Ensure compliance with IFRS 12.18, which requires clear and thorough explanations.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "180.5",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19",
+          "question": "Has the entity lost control of a subsidiary during the reporting period?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose enough information to evaluate the consequences of losing control of a subsidiary during the reporting period?",
+          "decision_tree": {
+            "question": "Has the entity lost control of a subsidiary during the reporting period?",
+            "guidance": "Review the Consolidated Financial Statements. Check for derecognition of subsidiaries in the reporting period. Look in the 'Changes in Group Structure' note or similar disclosures for any mention of loss of control events.",
+            "yes_case": {
+              "question": "Has the entity disclosed sufficient information to evaluate the consequences of losing control of the subsidiary?",
+              "guidance": "Verify that the financial statements include details such as the gain or loss recognized on loss of control, the valuation of remaining interests (if any), and relevant details as per IFRS 12 paragraph 19. Consult the disclosures for qualitative and quantitative explanations of the consequences to the group structure, financial performance, and financial position.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "181.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.11(a)",
+          "question": "Does the entity have subsidiaries whose financial statements are used for consolidation?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When a subsidiary's financial statements used for consolidation are as of a different date or for a different period, does the entity disclose the date of that subsidiary's reporting period?",
+          "decision_tree": {
+            "question": "Does the entity have subsidiaries whose financial statements are used for consolidation?",
+            "guidance": "Review the financial statements, consolidation procedures, and group structure. Look for references to subsidiaries in the group financial reporting documentation and ensure accurate identification of all subsidiaries consolidated under IFRS 10. Verify the existence of subsidiaries from the notes to the financial statements or the organizational chart.",
+            "yes_case": {
+              "question": "Are the financial statements of any subsidiaries prepared as of a different reporting date or for a different reporting period than the entity's consolidated financial statements?",
+              "guidance": "Check the reporting dates and periods explicitly mentioned in each subsidiary's financial statements compared to the consolidated group accounts. Refer to IFRS 10. B92 for guidance on aligning reporting dates and periods. Common pitfall: Ensure adjusted balances for the subsidiary reflect appropriate consolidation adjustments, if any.",
+              "yes_case": {
+                "question": "Has the entity disclosed the reporting date or period of those subsidiaries whose financial statements are prepared as of a different date or for a different period?",
+                "guidance": "Check the financial statement disclosures, specifically under IFRS 12.11(a). Look for explicit mention of reporting dates or periods of such subsidiaries. Ensure the disclosures provide sufficient information for users to understand the reporting period misalignment.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "181.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.11(b)",
+          "question": "Does the entity have any subsidiaries with financial statements prepared as of a different date or for a different period used for consolidation?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "181.1",
+          "source_trigger": "Yes",
+          "original_question": "When a subsidiary's financial statements used for consolidation are as of a different date or for a different period, does the entity disclose the reason for using that different date or period?",
+          "decision_tree": {
+            "question": "Does the entity have any subsidiaries with financial statements prepared as of a different date or for a different period used for consolidation?",
+            "guidance": "Review the consolidation process documentation and check the reporting dates of all subsidiary financial statements against the parent company’s reporting date. Consult IFRS 10 for guidance on when this situation might arise. Ensure any adjustments for such differences are reviewed during the audit process.",
+            "yes_case": {
+              "question": "Has the entity disclosed the reason for using the different date or period for the subsidiary's financial statements in the consolidation?",
+              "guidance": "Examine the disclosures within the consolidated financial statements, particularly in the notes section. Verify the explanation regarding the different dates or periods complies with IFRS 12.11(b). Check for clarity and consistent use of terminology.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "182.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.12(a)",
+          "question": "Does the entity have subsidiaries with material non-controlling interests?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the name of each subsidiary with material non-controlling interests?",
+          "decision_tree": {
+            "question": "Does the entity have subsidiaries with material non-controlling interests?",
+            "guidance": "Review the consolidated financial statements and identify subsidiaries. Examine the equity section and related disclosures to determine if any subsidiaries have significant ownership by parties other than the parent entity. Refer to IFRS 12 definition of 'material non-controlling interests' – these are interests that could influence decisions or provide useful information to users of financial statements.",
+            "yes_case": {
+              "question": "Does the entity disclose the name of each subsidiary with material non-controlling interests?",
+              "guidance": "Inspect the notes to the consolidated financial statements, specifically disclosures related to IFRS 12.12(a). Confirm whether the names of subsidiaries with material non-controlling interests are explicitly mentioned. Avoid common pitfalls such as incomplete lists or failing to distinguish subsidiaries with material non-controlling interests from other subsidiaries.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "182.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.12(b)",
+          "question": "Does the entity have subsidiaries with material non-controlling interests?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "182.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the principal place of business (and country of incorporation, if different) of each subsidiary with material non-controlling interests?",
+          "decision_tree": {
+            "question": "Does the entity have subsidiaries with material non-controlling interests?",
+            "guidance": "Refer to the consolidated financial statements, specifically the ownership structure and equity disclosures. Check if the entity owns less than 100% of certain subsidiaries, and verify the materiality of the non-controlling interest based on its quantitative and qualitative impact on the financial statements.",
+            "yes_case": {
+              "question": "Does the entity disclose the principal place of business of each subsidiary with material non-controlling interests?",
+              "guidance": "Review the notes to the financial statements, especially the disclosures under IFRS 12 (e.g., sections related to subsidiaries and non-controlling interests). Ensure the location where the subsidiary’s day-to-day operations occur is disclosed. Cross-check this with subsidiary registration documents, if needed.",
+              "yes_case": {
+                "question": "If the country of incorporation differs from the principal place of business, does the entity disclose the country of incorporation?",
+                "guidance": "Examine the subsidiary-specific disclosures. Confirm if there are differences between the principal place of business and the legal country of incorporation. If applicable, ensure the country of incorporation is explicitly stated.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "182.3",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.12(c)",
+          "question": "Does the entity have subsidiaries with material non-controlling interests?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "182.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the proportion of ownership interests held by non-controlling interests for each subsidiary with material non-controlling interests?",
+          "decision_tree": {
+            "question": "Does the entity have subsidiaries with material non-controlling interests?",
+            "guidance": "Review the entity's consolidated financial statements and related notes to identify subsidiaries with material non-controlling interests. Check the ownership structure detailed in IAS 27 or IFRS 10, focusing on interests classified as 'non-controlling'. Materiality should be assessed using the entity’s accounting policies and thresholds.",
+            "yes_case": {
+              "question": "Does the entity disclose the proportion of ownership interests held by non-controlling interests for each subsidiary with material non-controlling interests?",
+              "guidance": "Check the notes to the consolidated financial statements under IFRS 12.12(c). The disclosure must provide the proportion of ownership interests held by non-controlling interests for each material subsidiary. Ensure the details align with IFRS 12 requirements, avoiding errors such as aggregating disclosure or omitting material subsidiaries.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "182.4",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.12(d)",
+          "question": "Does the entity have subsidiaries with non-controlling interests?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "182.3",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the proportion of voting rights held by non-controlling interests, if different from the proportion of ownership interests?",
+          "decision_tree": {
+            "question": "Does the entity have subsidiaries with non-controlling interests?",
+            "guidance": "Review the entity's consolidated financial statements and identify if any subsidiaries are not 100% owned by the parent. This information is typically disclosed in the notes to the financial statements, particularly in the section addressing 'Group Structure' or 'Non-Controlling Interests'.",
+            "yes_case": {
+              "question": "Is the proportion of voting rights held by non-controlling interests different from their proportion of ownership interests?",
+              "guidance": "Review the governance structure of subsidiaries with non-controlling interests. Check the voting arrangements and compare the proportion of ownership interests to the proportion of voting rights as disclosed in the notes. Common pitfalls: Ensure the disclosures align with the reality of the rights and avoid assuming equal proportions unless explicitly stated.",
+              "yes_case": {
+                "question": "Does the entity disclose the proportion of voting rights held by non-controlling interests, as required by IFRS 12.12(d)?",
+                "guidance": "Refer to IFRS 12 paragraph 12(d). Ensure the notes to the financial statements clearly state the proportion of voting rights held by non-controlling interests where it differs from their ownership interests. Verify the accuracy and completeness of the disclosure. Be aware of instances where disclosures may be missing or insufficiently detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "182.5",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B10",
+          "question": "Does the entity have subsidiaries with non-controlling interests?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "182.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose dividends paid to non-controlling interests in each subsidiary?",
+          "decision_tree": {
+            "question": "Does the entity have subsidiaries with non-controlling interests?",
+            "guidance": "Review the entity’s group structure as reported in the notes to the financial statements, specifically under IFRS 12 disclosures. Look for subsidiaries where ownership by the parent is less than 100%, resulting in non-controlling interests.",
+            "yes_case": {
+              "question": "Have dividends been paid to non-controlling interests during the reporting period?",
+              "guidance": "Check the Statement of Changes in Equity and the notes to the financial statements. Look for transactions classified as dividends paid to non-controlling interests. Ensure that these payments are labeled properly and align with the entities mentioned under IFRS 12 disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose the details of dividends paid to non-controlling interests for each subsidiary?",
+                "guidance": "Verify the notes to the financial statements under IFRS 12 disclosures. Look for a detailed breakdown by subsidiary, specifying the amount of dividends paid to non-controlling interests. Ensure the disclosure provides clarity and complies with IFRS 12.B10 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "182.6",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B10",
+          "question": "Does the entity have subsidiaries with material non-controlling interests?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "182.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose summarised financial information for each subsidiary with material non-controlling interests, including current assets, non-current assets, current liabilities, non-current liabilities, revenue, profit or loss and total comprehensive income?",
+          "decision_tree": {
+            "question": "Does the entity have subsidiaries with material non-controlling interests?",
+            "guidance": "Evaluate the entity's consolidated financial statements and notes to identify subsidiaries where non-controlling interests are significant in relation to the group's equity and performance. Look into IFRS 12.B10 for thresholds or examples defining 'material non-controlling interests'. Avoid assuming immateriality without sufficient quantitative and qualitative analysis.",
+            "yes_case": {
+              "question": "Does the entity disclose summarised financial information for each subsidiary with material non-controlling interests?",
+              "guidance": "Check the notes accompanying the consolidated financial statements. IFRS 12.B10 requires disclosure of specific summarised financial information for each relevant subsidiary, including current assets, non-current assets, current liabilities, non-current liabilities, revenue, profit or loss, and total comprehensive income. Ensure the disclosures are detailed enough to allow users of financial statements to evaluate the financial impact of non-controlling interests.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "183.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.13(a)(i)",
+          "question": "Does the entity have a group structure with a parent and subsidiaries?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose restrictions that limit a parent or its subsidiaries from transferring cash or other assets to or from other group entities?",
+          "decision_tree": {
+            "question": "Does the entity have a group structure with a parent and subsidiaries?",
+            "guidance": "Review the entity's Consolidated Financial Statements and identify if there is a parent and one or more subsidiaries under the scope of IFRS 12. Check the organizational chart or notes to the financial statements for confirmation.",
+            "yes_case": {
+              "question": "Are there restrictions that limit the transfer of cash or other assets between the parent and its subsidiaries, or among subsidiaries?",
+              "guidance": "Examine the notes to the financial statements, specifically any disclosures regarding legal, regulatory, or contractual restrictions that prevent free movement of cash or other assets within the group. Pay attention to loan covenants, foreign exchange controls, or other restrictions imposed by external entities or jurisdictions. Ensure all relevant agreements and legal documentation are reviewed.",
+              "yes_case": {
+                "question": "Has the entity disclosed these restrictions in accordance with IFRS 12.13(a)(i)?",
+                "guidance": "Review IFRS 12.13(a)(i), which requires disclosure of restrictions on the ability of subsidiaries to distribute profits or transfer assets to the parent. Check whether the restrictions are disclosed clearly in the financial statement notes, including the nature of the restrictions, their extent, and any implications for the group’s liquidity or operations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "183.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.13(a)(ii)",
+          "question": "Does the entity have group entities, such as subsidiaries, associates, or joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "183.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose guarantees or other requirements that may restrict dividends, capital distributions, loans or advances between group entities?",
+          "decision_tree": {
+            "question": "Does the entity have group entities, such as subsidiaries, associates, or joint ventures?",
+            "guidance": "Review the entity's organizational structure and financial statements. Check the Consolidated Statement of Financial Position and related notes for evidence of subsidiaries, associates, or joint ventures. Refer to IFRS 12 definitions for clarity.",
+            "yes_case": {
+              "question": "Do the group entities have any guarantees or requirements that may restrict dividends, capital distributions, loans, or advances?",
+              "guidance": "Examine contractual agreements, loan covenants, and restrictions disclosed in financial statements related to group entities. Pay special attention to guarantees provided by the parent entity on behalf of subsidiaries and restrictions imposed by regulators or financial institutions.",
+              "yes_case": {
+                "question": "Has the entity disclosed these guarantees or restrictions in accordance with IFRS 12.13(a)(ii)?",
+                "guidance": "Review the relevant disclosure notes in the financial statements. IFRS 12.13(a)(ii) requires an entity to disclose guarantees or other restrictions that impact intra-group transactions relating to dividends, capital distributions, loans, or advances.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "184",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.13(b)",
+          "question": "Does the entity have non-controlling interests in its subsidiaries?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the nature and extent to which protective rights of non-controlling interests can restrict access to or use of group assets and settlement of group liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have non-controlling interests in its subsidiaries?",
+            "guidance": "Review the consolidated statement of financial position and ownership structure documentation (e.g., subsidiary details). Non-controlling interests are owners other than the parent entity that hold equity in subsidiaries. Confirm their existence in equity disclosures or notes.",
+            "yes_case": {
+              "question": "Do the non-controlling interests have protective rights that could restrict access to or use of group assets or settlement of group liabilities?",
+              "guidance": "Examine the agreements, contracts, or governance documents associated with the subsidiaries. Look for clauses specifying restrictions on decision-making, access to assets, or liability settlements impacted by protective rights of non-controlling interests.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature and extent of these restrictions in the financial statements?",
+                "guidance": "Consult the notes to the consolidated financial statements, particularly the disclosures for non-controlling interests. Verify that the disclosure specifies the types of restrictions, the entities affected, and how these restrictions impact financial reporting.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "185",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.13(c)",
+          "question": "Does the entity have assets and liabilities subject to restrictions disclosed in its consolidated financial statements?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "184",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the carrying amounts in its consolidated financial statements of the assets and liabilities subject to those restrictions?",
+          "decision_tree": {
+            "question": "Does the entity have assets and liabilities subject to restrictions disclosed in its consolidated financial statements?",
+            "guidance": "Review the consolidated financial statements and any notes on restrictions on assets or liabilities. Look for indications of legal, regulatory, or contractual restrictions affecting the entity's ability to utilize these assets or liabilities. Common areas include restricted cash, pledged assets, or items tied to covenants.",
+            "yes_case": {
+              "question": "Does the entity disclose the carrying amounts of the assets and liabilities subject to those restrictions?",
+              "guidance": "Examine the notes to the financial statements for explicit disclosure of carrying amounts related to restricted assets and liabilities. Ensure alignment with IFRS 12.13(c), which requires this information to be clearly disclosed.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "187",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.18",
+          "question": "Does the entity have changes in its ownership interest in a subsidiary that do not result in a loss of control?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity present a schedule showing the effects on equity attributable to owners of the parent of any changes in its ownership interest in a subsidiary that do not result in a loss of control?",
+          "decision_tree": {
+            "question": "Does the entity have changes in its ownership interest in a subsidiary that do not result in a loss of control?",
+            "guidance": "Review IFRS 12.18 and the entity's group structure and transactions during the reporting period. Check notes to the financial statements and transaction records for changes in ownership interests where the subsidiary remains under control. Ensure you distinguish these transactions from changes that result in loss of control or de-recognition.",
+            "yes_case": {
+              "question": "Does the entity present a schedule showing the effects of these changes on equity attributable to owners of the parent?",
+              "guidance": "Examine the notes to the financial statements and the equity section of the Statement of Changes in Equity. Confirm that the effects of changes in ownership interests, specifically attributable to the parent, are clearly disclosed. The schedule should detail the impact on equity resulting from these transactions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "188.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19(a)",
+          "question": "Has the entity lost control of a subsidiary during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When an entity loses control of a subsidiary, does it disclose the gain or loss calculated in accordance with IFRS 10.25?",
+          "decision_tree": {
+            "question": "Has the entity lost control of a subsidiary during the reporting period?",
+            "guidance": "Review the entity's financial records and disclosures for the reporting period. Refer to consolidation procedures in IFRS 10. Look for transactions or events indicating the loss of control, such as changes in ownership, legal arrangements, or significant governance changes. Ensure events are material and meet IFRS 10 control loss criteria.",
+            "yes_case": {
+              "question": "Has the entity calculated the gain or loss from losing control of the subsidiary in accordance with IFRS 10.25?",
+              "guidance": "Refer to IFRS 10.25. Verify if the entity has calculated the gain or loss by comparing the consideration received and the carrying amount of the subsidiary's net assets at the loss of control date. Include amounts for previously recognized other comprehensive income attributed to the subsidiary. Check calculations against IFRS 10 guidance for accuracy.",
+              "yes_case": {
+                "question": "Has the entity disclosed the gain or loss from the loss of control of the subsidiary, as required by IFRS 12.19(a)?",
+                "guidance": "Refer to IFRS 12.19(a). Review the entity's notes to the financial statements for disclosure of the gain or loss calculated under IFRS 10.25. Ensure disclosure includes clear communication of the amount, reason for loss of control, and compliance with IFRS presentation standards.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "188.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19(c)",
+          "question": "Has the entity lost control of a subsidiary during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "188.1",
+          "source_trigger": "Yes",
+          "original_question": "When an entity loses control of a subsidiary, does it disclose the line item(s) in profit or loss in which the gain or loss is recognised if not presented separately?",
+          "decision_tree": {
+            "question": "Has the entity lost control of a subsidiary during the reporting period?",
+            "guidance": "Review the entity's financial records for the reporting period and check for any derecognition events of subsidiaries. Look at transactional records and Notes to the Financial Statements. Verify that loss of control complies with IFRS 10.25–27, which governs control loss due to disposals or other changes.",
+            "yes_case": {
+              "question": "Is the gain or loss from the loss of control of the subsidiary presented separately in the profit or loss statement?",
+              "guidance": "Examine the Statement of Profit or Loss and Other Comprehensive Income. Review whether the gain or loss is clearly presented as a separate line item. Check the format and structure against IFRS presentation requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity disclose the line item(s) in profit or loss where the gain or loss is recognized?",
+                "guidance": "Inspect the Notes to the Financial Statements for specific disclosure of what line item(s) absorb the gain or loss. Refer to IFRS 12.19(c) for disclosure requirements in this scenario. Ensure the disclosure is detailed and informative to users of financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "189",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9A",
+          "question": "Is the reporting entity a parent that has determined it is an investment entity in accordance with IFRS 10.27?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When a parent determines that it is an investment entity in accordance with IFRS 10.27, does it disclose significant judgements and assumptions made in making that determination?",
+          "decision_tree": {
+            "question": "Is the reporting entity a parent that has determined it is an investment entity in accordance with IFRS 10.27?",
+            "guidance": "Review the entity's accounting policies and disclosures against the criteria in IFRS 10.27 to determine if it qualifies as an investment entity. Investment entities are commonly characterized by providing services to multiple investors, acting as a collective vehicle for investing, demonstrating fair value-focused reporting, and lacking substantive business activities beyond investing.",
+            "yes_case": {
+              "question": "Has the entity disclosed the significant judgements and assumptions made in identifying itself as an investment entity in accordance with IFRS 12.9A?",
+              "guidance": "Check the disclosure notes section of the financial statements to confirm that the entity has explicitly stated the significant judgements and assumptions used to determine it is an investment entity, such as meeting the description and criteria set out in IFRS 10.27. Lack of these disclosures constitutes non-compliance.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "190",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9A",
+          "question": "Does the entity qualify as an investment entity under IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "189",
+          "source_trigger": "Yes",
+          "original_question": "If the investment entity lacks one or more typical characteristics (see IFRS 10.28), does it disclose its reasons for concluding that it is nevertheless an investment entity?",
+          "decision_tree": {
+            "question": "Does the entity qualify as an investment entity under IFRS 10?",
+            "guidance": "Review the entity's classification against the definition and criteria specified in IFRS 10.27. An investment entity typically obtains funds from investors to provide investment management services, commits to investing solely for returns, and measures substantially all investments at fair value. Refer to IFRS 10.B85-B87 for detailed examples and guidance.",
+            "yes_case": {
+              "question": "Does the investment entity lack one or more of the typical characteristics outlined in IFRS 10.28?",
+              "guidance": "Refer to IFRS 10.28, which lists typical characteristics of an investment entity, such as having multiple investors, having ownership interests in the form of equity/debt, and holding investments only for capital appreciation/investment income. Confirm whether the entity deviates from one or more of these characteristics.",
+              "yes_case": {
+                "question": "Has the entity disclosed its reasons for concluding that it is nevertheless an investment entity despite lacking typical characteristics?",
+                "guidance": "Check the financial statements' disclosures for the explanation of why the entity qualifies as an investment entity even though it lacks one or more typical characteristics. The disclosure should be clear and specific, as required by IFRS 12.9A.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "191",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9B",
+          "question": "Has the entity undergone a change in status, becoming or ceasing to be an investment entity during the reporting period?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When an entity becomes or ceases to be an investment entity, does it disclose the change in status and the reasons for the change?",
+          "decision_tree": {
+            "question": "Has the entity undergone a change in status, becoming or ceasing to be an investment entity during the reporting period?",
+            "guidance": "Review the entity's financial statements and supporting notes for changes in the investment entity status. Check board resolutions, shareholder meeting minutes, or management decisions recorded during the reporting period that explicitly state a status change. Ensure you validate this against IFRS 12 definitions of an investment entity.",
+            "yes_case": {
+              "question": "Has the entity disclosed the change in status in the financial statements?",
+              "guidance": "Verify whether the disclosure is included in the notes to the financial statements. It should specify the change in status, referencing the IFRS definition, and explain the reasons behind the change. Common pitfalls include omitting the justification or vague reasoning.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Has the entity provided the reasons for the change in status along with the disclosure?",
+                "guidance": "In addition to disclosure, confirm that the notes explicitly state the reasons for the change in status as required by IFRS 12.9B. The reasons should be clear, specific, and consistent with other financial statement disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "192.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9B(a)",
+          "question": "Has the entity undergone a change in status to become an investment entity during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "191",
+          "source_trigger": "Yes",
+          "original_question": "When an entity becomes an investment entity, does it disclose the total fair value, as of the date of change of status, of the subsidiaries that cease to be consolidated?",
+          "decision_tree": {
+            "question": "Has the entity undergone a change in status to become an investment entity during the reporting period?",
+            "guidance": "Review board minutes, organizational structure, and IFRS 12 criteria to determine if the entity has transitioned into meeting the definition of an investment entity during the reporting period. Reference IFRS 10.B85C for the criteria defining an investment entity and ensure supporting documentation is reviewed.",
+            "yes_case": {
+              "question": "Did the entity have subsidiaries that ceased to be consolidated due to this change in status?",
+              "guidance": "Identify if the entity previously consolidated subsidiaries before the change in status and whether those subsidiaries meet the scope outlined in IFRS 12.9B(a). Check prior financial statements and the entity's new accounting policy disclosures.",
+              "yes_case": {
+                "question": "Has the entity disclosed the total fair value, as of the date of the change in status, of these subsidiaries?",
+                "guidance": "Verify disclosures in the notes to the financial statements. Look for a clear statement specifying the total fair value of the subsidiaries as at the date the entity became an investment entity. This is required under IFRS 12.9B.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "192.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9B(b)",
+          "question": "Has the entity become an investment entity during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "192.1",
+          "source_trigger": "Yes",
+          "original_question": "When an entity becomes an investment entity, does it disclose the total gain or loss, if any, calculated in accordance with IFRS 10.B101?",
+          "decision_tree": {
+            "question": "Has the entity become an investment entity during the reporting period?",
+            "guidance": "Check the entity’s classification in accordance with IFRS 10.27-29. An investment entity is defined by characteristics such as obtaining funds for investing purposes and measuring returns for investors at fair value. Review the entity's documentation and classification changes.",
+            "yes_case": {
+              "question": "Did the entity calculate the total gain or loss, if any, as required by IFRS 10.B101?",
+              "guidance": "Review the calculation of gain or loss during the reclassification event. Ensure adherence to IFRS 10.B101, including the treatment of the assets being consolidated before the entity qualifies as an investment entity. Verify methodology for determining fair value changes.",
+              "yes_case": {
+                "question": "Did the entity disclose the total gain or loss in accordance with IFRS 12.9B(b)?",
+                "guidance": "Inspect the financial statements, specifically the notes section. Verify if the entity has disclosed the total gain or loss during the reclassification event as required by IFRS 12.9B(b). Ensure disclosures include sufficient detail for users to understand the financial impact.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "192.3",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9B(c)",
+          "question": "Has the entity recently become an investment entity?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "192.2",
+          "source_trigger": "Yes",
+          "original_question": "When an entity becomes an investment entity, does it disclose the line item(s) in profit or loss in which the gain or loss is recognised if not presented separately?",
+          "decision_tree": {
+            "question": "Has the entity recently become an investment entity?",
+            "guidance": "Review the entity’s financial statements and board or management declarations to confirm its classification as an investment entity. The classification should align with the criteria outlined in IFRS 10.27, such as the entity deriving returns principally from capital appreciation, investment income, or both. Verify if the change in classification occurred during the reporting period.",
+            "yes_case": {
+              "question": "Did the entity recognise any gain or loss in profit or loss as a result of becoming an investment entity?",
+              "guidance": "Examine the profit or loss section of the financial statements for recognised gains or losses resulting from the change to investment entity status. This may include fair value adjustments or derecognition impacts related to subsidiaries as required by IFRS 10. Keep in mind that such gains or losses are specific to the transition and should be identifiable as line items in the profit or loss.",
+              "yes_case": {
+                "question": "Is the gain or loss presented separately as a distinct line item in profit or loss?",
+                "guidance": "Check the presentation in the Statement of Profit or Loss. IFRS requires that material gains or losses are either presented as separate line items or disclosed. If material amounts are included within other line items without proper disclosure, it may raise a compliance issue.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": {
+                  "question": "Does the entity disclose the line item(s) in profit or loss in which the gain or loss is recognised?",
+                  "guidance": "Assess the notes to the financial statements for disclosure of the specific line items in which the gain or loss is recorded. The disclosure should clearly communicate to users of financial statements where these gains or losses are reported, as mandated by IFRS 12.9B(c).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                }
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "193",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19A",
+          "question": "Is the entity classified as an investment entity under IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does an investment entity that applies the consolidation exception and accounts for a subsidiary at fair value through profit or loss disclose that fact?",
+          "decision_tree": {
+            "question": "Is the entity classified as an investment entity under IFRS 10?",
+            "guidance": "Refer to IFRS 10 Appendix A for the definition of an investment entity. Review the entity's organizational purpose, activities, and characteristics in its governance documents and financial statements. Key indicators include obtaining funds from investors, managing investments for returns, and measuring performance primarily by fair value.",
+            "yes_case": {
+              "question": "Does the entity apply the consolidation exception and account for a subsidiary at fair value through profit or loss as required under IFRS 10.31?",
+              "guidance": "Refer to IFRS 10.31 to determine if the entity is exempted from consolidating subsidiaries because it qualifies as an investment entity. Check financial statement disclosures and ensure subsidiaries are accounted for at fair value through profit or loss.",
+              "yes_case": {
+                "question": "Does the entity disclose in the financial statements that it applies the consolidation exception and accounts for a subsidiary at fair value through profit or loss, as required by IFRS 12.19A?",
+                "guidance": "Review the entity's financial statement disclosures, specifically under the notes to the financial statements. Verify that the entity explicitly states it applies the consolidation exception and accounts for subsidiaries at fair value through profit or loss.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "194.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19B(a)",
+          "question": "Does the entity qualify as an investment entity under IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "193",
+          "source_trigger": "Yes",
+          "original_question": "For each unconsolidated subsidiary, does an investment entity disclose the subsidiary's name?",
+          "decision_tree": {
+            "question": "Does the entity qualify as an investment entity under IFRS 10?",
+            "guidance": "Refer to IFRS 10.27 for the definition of an investment entity. Review if the entity holds investments solely for capital appreciation, investing returns, or both, and if it measures investments at fair value through profit or loss as required.",
+            "yes_case": {
+              "question": "Does the entity have any unconsolidated subsidiaries?",
+              "guidance": "Check the consolidated financial statements or notes for references to subsidiaries that are controlled but not consolidated, as permitted for investment entities under IFRS 10. Review the list of investments in subsidiaries and confirm their consolidation status.",
+              "yes_case": {
+                "question": "Does the entity disclose the names of all unconsolidated subsidiaries?",
+                "guidance": "Inspect the notes to the financial statements for details of unconsolidated subsidiaries. The names of all such subsidiaries should be explicitly listed as per IFRS 12.19B(a). Ensure completeness by cross-referencing the list of subsidiaries with internal records.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "194.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19B(b)",
+          "question": "Does the entity qualify as an investment entity under IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "194.1",
+          "source_trigger": "Yes",
+          "original_question": "For each unconsolidated subsidiary, does an investment entity disclose the principal place of business (and country of incorporation, if different)?",
+          "decision_tree": {
+            "question": "Does the entity qualify as an investment entity under IFRS 10?",
+            "guidance": "Review the financial statements and entity classification criteria under IFRS 10. Confirm if the entity meets the definition of an investment entity. Look for characteristics such as: obtaining funds from investors to provide investment management services, committing to investors that its business purpose is investing solely for returns, and measuring its investments at fair value. References: IFRS 10.27–33.",
+            "yes_case": {
+              "question": "Does the entity have any unconsolidated subsidiaries?",
+              "guidance": "Examine the entity’s group structure and investment disclosures, specifically focusing on subsidiaries that are not consolidated into its financial statements. Refer to the consolidation section of IFRS 10 (IFRS 10.6–7).",
+              "yes_case": {
+                "question": "Does the entity disclose the principal place of business for each unconsolidated subsidiary?",
+                "guidance": "Verify the notes to the financial statements for disclosure of the principal place of business for each unconsolidated subsidiary. Check whether the entity specifies the country of incorporation if it differs from the principal place of business. Refer to IFRS 12.19B(b).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "194.3",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19B(c)",
+          "question": "Does the entity have any unconsolidated subsidiaries?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "194.1",
+          "source_trigger": "Yes",
+          "original_question": "For each unconsolidated subsidiary, does an investment entity disclose the proportion of ownership interest held and, if different, the proportion of voting rights held?",
+          "decision_tree": {
+            "question": "Does the entity have any unconsolidated subsidiaries?",
+            "guidance": "Review the entity’s financial statements, particularly the notes related to investments in subsidiaries. Look for references to unconsolidated subsidiaries, typically disclosed when the entity qualifies as an investment entity under IFRS 10 Consolidated Financial Statements.",
+            "yes_case": {
+              "question": "Is the entity classified as an investment entity under IFRS 10?",
+              "guidance": "Check the notes to the financial statements for statements qualifying the entity as an investment entity. Verify criteria such as the entity earning returns from capital appreciation, investment income, or both, and its management of investments on a fair value basis.",
+              "yes_case": {
+                "question": "Has the entity disclosed the proportion of ownership interest held for each unconsolidated subsidiary?",
+                "guidance": "Review disclosures in compliance with IFRS 12 Section 19B(c). Ensure the proportion of ownership interest held is included for each subsidiary where consolidation does not occur.",
+                "yes_case": {
+                  "question": "Has the entity disclosed the proportion of voting rights held for each unconsolidated subsidiary, if different from the ownership interest?",
+                  "guidance": "Check the same section of disclosures for voting rights information. This is applicable only if the voting rights differ from the ownership interest. Cross-check for completeness and accuracy.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "195",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19C",
+          "question": "Is the reporting entity an investment entity under IFRS 12?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If an investment entity is the parent of another investment entity, does it provide the disclosures in IFRS 12.19B for investments controlled by its investment entity subsidiary?",
+          "decision_tree": {
+            "question": "Is the reporting entity an investment entity under IFRS 12?",
+            "guidance": "Review the entity's financial statement disclosures and confirm its classification as an investment entity. IFRS defines an investment entity as one that obtains funds from one or more investors for providing investment management services, commits to its investors that its business purpose is to invest solely for returns from capital appreciation, investment income, or both, and measures and evaluates the performance of substantially all of its investments on a fair value basis. Consult IFRS 10.B85B for detailed criteria.",
+            "yes_case": {
+              "question": "Is the investment entity the parent of another investment entity?",
+              "guidance": "Review the group structure in the consolidated financial statements or notes to determine if the reporting entity has investment entity subsidiaries. Investment entity subsidiaries are those that meet the IFRS definition of an investment entity and are controlled by the parent investment entity.",
+              "yes_case": {
+                "question": "Does the parent investment entity provide the disclosures specified in IFRS 12.19B for investments controlled by its investment entity subsidiary?",
+                "guidance": "Verify whether IFRS 12.19B disclosures are provided for investments held by the subsidiary. These disclosures include information about the nature and extent of any significant restrictions (e.g., legal, regulatory, contractual) on the subsidiary investing funds or transferring assets to the parent, commitments or intentions related to the disposal of investments, and any risks arising from changes in fair value.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "196.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19D(a)",
+          "question": "Does the entity qualify as an investment entity under IFRS?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "193",
+          "source_trigger": "Yes",
+          "original_question": "Does an investment entity disclose the nature and extent of any significant restrictions on an unconsolidated subsidiary's ability to transfer funds to the investment entity as dividends or to repay loans or advances?",
+          "decision_tree": {
+            "question": "Does the entity qualify as an investment entity under IFRS?",
+            "guidance": "Review the entity's financial statements and business model. Refer to IFRS 10 paragraphs 27 and B85B-B85M for the definition of an investment entity. Investment entities typically hold investments for returns from capital appreciation, investment income, or both, and do not have operating entities within the group.",
+            "yes_case": {
+              "question": "Does the investment entity have any unconsolidated subsidiaries as per IFRS 12?",
+              "guidance": "Review the disclosures in the consolidated financial statements and any related notes. Verify whether the subsidiaries meet the criteria for exclusion from consolidation under IFRS 10 and are accounted for as investments.",
+              "yes_case": {
+                "question": "Are there significant restrictions on an unconsolidated subsidiary’s ability to transfer funds to the investment entity as dividends or to repay loans or advances?",
+                "guidance": "Consider restrictive covenants, regulatory limitations, or other agreements that may limit such transfers. Verify these details in the notes to the financial statements, along with any supporting contracts or legal documents.",
+                "yes_case": {
+                  "question": "Has the nature and extent of these significant restrictions been disclosed in accordance with IFRS 12.19D(a)?",
+                  "guidance": "Check the notes to the financial statements under the section for unconsolidated subsidiaries. Disclosure should specifically mention the restrictions, their nature, and extent, in sufficient detail to inform users of financial statements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "196.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19D(b)",
+          "question": "Does the entity qualify as an investment entity under IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "193",
+          "source_trigger": "Yes",
+          "original_question": "Does an investment entity disclose any current commitments or intentions to provide financial or other support to an unconsolidated subsidiary, including assistance in obtaining financial support?",
+          "decision_tree": {
+            "question": "Does the entity qualify as an investment entity under IFRS 10?",
+            "guidance": "Refer to IFRS 10 paragraphs 27-33 for the definition and criteria of an investment entity. An investment entity is one whose primary business purpose is investing funds for returns, measures and evaluates investments on a fair value basis, and may have multiple investors and exit strategies. Review the entity's financial statements and management's discussion for confirmation.",
+            "yes_case": {
+              "question": "Does the investment entity have any unconsolidated subsidiaries?",
+              "guidance": "Check the entity's consolidated or standalone financial statements for disclosures about subsidiaries. Specifically, look for references to unconsolidated subsidiaries in the notes to the financial statements or any related disclosures.",
+              "yes_case": {
+                "question": "Does the investment entity have any current commitments or intentions to provide financial or other support to an unconsolidated subsidiary?",
+                "guidance": "Review the notes to the financial statements under IFRS 12 disclosures and any additional statements regarding commitments or support. Look for specific details that mention financial support, guarantees, or assistance in obtaining financial support.",
+                "yes_case": {
+                  "question": "Are these current commitments or intentions adequately disclosed in line with IFRS 12.19D(b)?",
+                  "guidance": "Confirm that disclosures include descriptions of such commitments or intentions, the amounts involved, and the nature or reason for the support. Evaluate whether the disclosures provide sufficient information to users of financial statements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "197.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19E(a)",
+          "question": "Did the investment entity or any of its subsidiaries provide support to an unconsolidated subsidiary during the reporting period?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If, without contractual obligation, an investment entity or its subsidiaries provided support to an unconsolidated subsidiary, does it disclose the type and amount of support provided to each subsidiary?",
+          "decision_tree": {
+            "question": "Did the investment entity or any of its subsidiaries provide support to an unconsolidated subsidiary during the reporting period?",
+            "guidance": "Review records of transactions and arrangements involving unconsolidated subsidiaries, including any financial or operational assistance provided without a contractual obligation. Common sources include related party transactions documentation, board minutes, or management records.",
+            "yes_case": {
+              "question": "Was the provision of support made without a contractual obligation?",
+              "guidance": "Examine the agreements or contracts between the investment entity and the unconsolidated subsidiary. Confirm if the support was voluntary and not mandated by legally enforceable agreements. Avoid misclassification by thoroughly verifying the absence of formal contracts.",
+              "yes_case": {
+                "question": "Does the entity disclose the type and amount of support provided to each unconsolidated subsidiary?",
+                "guidance": "Check the notes to the financial statements. Specifically, look for disclosures under IFRS 12.19E(a) detailing the nature (e.g., financial assistance, operational interventions) and monetary value of the support provided to each unconsolidated subsidiary. Ensure the disclosures are complete and sufficiently detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "197.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19E(b)",
+          "question": "Has the investment entity or its subsidiaries provided support to an unconsolidated subsidiary without contractual obligation?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "197.1",
+          "source_trigger": "Yes",
+          "original_question": "If, without contractual obligation, an investment entity or its subsidiaries provided support to an unconsolidated subsidiary, does it disclose the reasons for providing that support?",
+          "decision_tree": {
+            "question": "Has the investment entity or its subsidiaries provided support to an unconsolidated subsidiary without contractual obligation?",
+            "guidance": "Review relevant transactions or events where the investment entity or its subsidiaries may have given financial or other types of support (e.g., loans, guarantees, payments) to unconsolidated subsidiaries outside of any contractual agreements. Check board minutes, related party transaction disclosures, and correspondence for evidence of such support. Be cautious about overlooking informal agreements.",
+            "yes_case": {
+              "question": "Has the entity disclosed the reasons for providing the support to the unconsolidated subsidiary?",
+              "guidance": "Inspect the entity's notes to the financial statements, specifically those addressing IFRS 12 disclosures about unconsolidated subsidiaries. Look for explanations detailing why the support was provided, aligned with the requirements of IFRS 12.19E(b). Ensure the disclosure is clear, complete, and not misleading.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "198",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19F",
+          "question": "Is the entity classified as an investment entity under IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "193",
+          "source_trigger": "Yes",
+          "original_question": "Does an investment entity disclose the terms of any contractual arrangements that could require it or its unconsolidated subsidiaries to provide financial support to a controlled structured entity, including events or circumstances that could expose it to a loss?",
+          "decision_tree": {
+            "question": "Is the entity classified as an investment entity under IFRS 10?",
+            "guidance": "Review the financial statements and entity classification criteria in IFRS 10 paragraphs 27-33. An investment entity typically earns returns from capital appreciation, investment income, or both. Ensure the entity does not consolidate its subsidiaries except when an exception applies. Common pitfalls include assuming the entity is an investment entity without verifying the criteria.",
+            "yes_case": {
+              "question": "Does the entity have unconsolidated subsidiaries that qualify as controlled structured entities?",
+              "guidance": "Review the entity's list of subsidiaries in its disclosures and determine if any are controlled structured entities. Controlled structured entities often involve entities created for specific purposes, such as securitization or investment purposes. Verify control following IFRS 10 criteria like power over a structured entity and exposure to variable returns. Be cautious to distinguish structured entities from other unconsolidated subsidiaries.",
+              "yes_case": {
+                "question": "Are there any contractual arrangements that require the entity or its unconsolidated subsidiaries to provide financial support to these structured entities?",
+                "guidance": "Analyze the entity's agreements and contracts with structured entities. Look for clauses that mandate financial support, including guarantees, funding agreements, or other forms of obligations linked to losses or liquidity needs. Focus on IFRS 12 paragraph 19F requirements to identify relevant events or conditions. Ensure no terms are overlooked that would expose the entity to potential financial losses.",
+                "yes_case": {
+                  "question": "Has the entity disclosed the terms of these contractual arrangements, including events or circumstances that could expose it to a loss?",
+                  "guidance": "Verify disclosure in the notes to the financial statements regarding the terms of contractual arrangements with controlled structured entities. Relevant IFRS 12 disclosures should include details about triggers of financial obligations and potential exposure to losses. Ensure the entity meets the quantitative and qualitative disclosure requirements under IFRS 12.19F.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "199",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.19G",
+          "question": "Has the entity or its unconsolidated subsidiaries provided support to a structured entity they did not control, without contractual obligation?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If, without contractual obligation, an investment entity or its unconsolidated subsidiaries provided support to a structured entity they did not control and that support resulted in control, does the entity disclose an explanation of the factors leading to that decision?",
+          "decision_tree": {
+            "question": "Has the entity or its unconsolidated subsidiaries provided support to a structured entity they did not control, without contractual obligation?",
+            "guidance": "Review the investment entity’s records, including contracts, agreements, and financial statements. Look for evidence of financial or operational support to a structured entity that does not arise from a legal or contractual requirement.",
+            "yes_case": {
+              "question": "Did the support provided result in the entity or its unconsolidated subsidiaries obtaining control of the structured entity?",
+              "guidance": "Examine the structured entity’s governance documents, voting rights arrangements, and other factors indicating control as per IFRS 10.7 – such as power over governing decisions, exposure to variable returns, and ability to influence those returns.",
+              "yes_case": {
+                "question": "Did the entity disclose an explanation of the factors that led to the provision of support and subsequent control?",
+                "guidance": "Review the entity’s disclosures in its financial statements. Specifically, check for explanatory notes addressing the circumstances and factors leading to the provision of support and resulting control, as required by IFRS 12.19G.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "201.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.7(a)",
+          "question": "Does the entity participate in a joint arrangement?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose significant judgements and assumptions made in determining that it has joint control of an arrangement?",
+          "decision_tree": {
+            "question": "Does the entity participate in a joint arrangement?",
+            "guidance": "Review the entity's contracts, agreements, and financial statements for any arrangements classified as joint ventures or joint operations, as defined by IFRS 11. Cross-reference Section B14–B33 of IFRS 11 for criteria determining joint arrangements.",
+            "yes_case": {
+              "question": "Has the entity determined that it has joint control over the arrangement?",
+              "guidance": "Check the entity's documentation on joint control assessment. Joint control exists when decisions about relevant activities require unanimous consent of all parties. Verify supporting agreements and meeting minutes detailing decision-making processes.",
+              "yes_case": {
+                "question": "Does the entity disclose significant judgements and assumptions made in determining joint control of the arrangement?",
+                "guidance": "Inspect the entity's financial statement notes, specifically disclosures related to joint arrangements (IFRS 12.7(a)). Ensure the disclosure includes specific judgements and assumptions, such as unanimous decision-making requirement or contractual terms used as the basis for joint control.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "201.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.7(b)",
+          "question": "Does the entity have a joint arrangement structured through a separate vehicle?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "201.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose significant judgements and assumptions made in determining the type of joint arrangement (joint operation or joint venture) when structured through a separate vehicle?",
+          "decision_tree": {
+            "question": "Does the entity have a joint arrangement structured through a separate vehicle?",
+            "guidance": "Review the joint arrangement agreements and the financial statements to identify any joint arrangements. Check if there is evidence that the arrangement is conducted through a legally separate entity (e.g., corporation, partnership, or trust). Common pitfalls include overlooking arrangements classified as joint operations due to shared control.",
+            "yes_case": {
+              "question": "Has the entity determined the type of joint arrangement (joint operation or joint venture) based on the rights and obligations inherent in the arrangement?",
+              "guidance": "Assess whether the entity has analyzed the contractual terms of the arrangement, other facts and circumstances, and the legal form of the arrangement as per IFRS 11.B14-B33. Common errors involve failing to consider rights to assets and obligations for liabilities, instead relying solely on the legal form.",
+              "yes_case": {
+                "question": "Does the entity disclose significant judgements and assumptions made in determining the type of joint arrangement?",
+                "guidance": "Check the disclosure notes in the financial statements, specifically those related to IFRS 12 Section 7(b). Ensure the entity has identified and disclosed any assumptions, such as whether certain rights or obligations influenced their classification decision. Missing this disclosure is a common compliance issue.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "202",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.8",
+          "question": "Did the entity experience any changes in facts and circumstances during the reporting period that could impact the conclusion about joint control?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "201.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity include under those judgements and assumptions any made when changes in facts and circumstances cause the conclusion about joint control to change during the reporting period?",
+          "decision_tree": {
+            "question": "Did the entity experience any changes in facts and circumstances during the reporting period that could impact the conclusion about joint control?",
+            "guidance": "Review agreements related to joint arrangements, significant events, or other contractual changes. Additionally, check for any changes in operational practices or relationships with joint arrangement participants. Pay attention to board minutes, contracts, or external communications indicating altered circumstances.",
+            "yes_case": {
+              "question": "Did the entity reassess and document whether joint control exists based on the updated facts and circumstances?",
+              "guidance": "Verify whether the reassessment process followed IFRS 12. Assess whether the entity correctly evaluated whether the changes affected the enforceability of joint control. Look for properly documented judgments in accounting policies, disclosures, and the reporting analysis.",
+              "yes_case": {
+                "question": "Does the entity disclose the judgements and assumptions made during the reassessment process in compliance with IFRS 12.8?",
+                "guidance": "Check the financial statements for disclosure of specific judgements and assumptions in line with IFRS 12.8. Ensure these include the nature of the changes and the reasoning for the new conclusion regarding joint control. The disclosure should be sufficient to inform users of the financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "203.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.20(a)",
+          "question": "Does the entity have interests in joint arrangements?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose information to evaluate the nature, extent and financial effects of its interests in joint arrangements, including the nature and effects of its contractual relationship with other investors with joint control?",
+          "decision_tree": {
+            "question": "Does the entity have interests in joint arrangements?",
+            "guidance": "Review the entity's financial statements, specifically the notes or disclosures, for any mention of joint arrangements under IFRS 11. Joint arrangements include joint ventures and joint operations, where control is shared contractually with other parties. Verify agreements and contracts for shared control to confirm the existence of such arrangements.",
+            "yes_case": {
+              "question": "Does the entity disclose information sufficient to evaluate the nature, extent, and financial effects of its interests in joint arrangements?",
+              "guidance": "Inspect the disclosures in the financial statements. IFRS 12.20(a) requires details about the entity’s interests in joint arrangements, their nature, the extent of involvement in terms of assets, liabilities, revenues, and expenses, as well as the financial effects of the arrangements. Review the contracts and agreements to ensure alignment with the disclosed information.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity disclose the nature and effects of its contractual relationships with other investors having joint control?",
+                "guidance": "Check whether the entity discloses the nature of its involvement and the contractual terms governing the joint arrangement, such as agreement specifics with other investors who hold joint control. Confirm if these disclosures align with the requirements of IFRS 12.20(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "203.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.20(b)",
+          "question": "Does the entity have any interests in joint ventures?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "203.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose information to evaluate the nature of, and changes in, the risks associated with its interests in joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity have any interests in joint ventures?",
+            "guidance": "Review the financial statements, particularly the notes on investments and joint arrangements, and confirm whether the entity is involved in any joint ventures based on IFRS 11 definitions. Joint ventures typically involve shared control and require contractual arrangements. Be aware of potential misclassification of joint operations as joint ventures.",
+            "yes_case": {
+              "question": "Does the entity disclose information to evaluate the nature of its risks associated with interests in joint ventures?",
+              "guidance": "Review the financial statement disclosures and notes related to joint ventures. Look for qualitative and quantitative details that provide insights into the nature of risks (e.g., credit risk, liquidity risk) arising from the joint venture. Ensure these disclosures align with IFRS 12.20(b).",
+              "yes_case": {
+                "question": "Does the entity disclose information about changes in risks associated with its interests in joint ventures?",
+                "guidance": "Check the continuity schedules and narrative notes concerning the entity’s joint ventures for explanations of any changes in risks over the reporting period. Common changes may include amendments to the joint venture agreement, shifts in market conditions, or operational events.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "204.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(a)(i)",
+          "question": "Does the entity have any material joint arrangements?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For each material joint arrangement, does the entity disclose the name of the joint arrangement?",
+          "decision_tree": {
+            "question": "Does the entity have any material joint arrangements?",
+            "guidance": "Review the entity's agreements and financial statements, specifically the notes to the financial statements under IFRS 12 disclosures. Look for joint arrangements defined as joint operations or joint ventures pursuant to IFRS 11. Verify whether any of these arrangements are considered material based on qualitative and quantitative factors.",
+            "yes_case": {
+              "question": "Has the entity disclosed the name of each material joint arrangement?",
+              "guidance": "Inspect the entity's financial statement notes under IFRS 12.21(a)(i) to ensure the names of all material joint arrangements are disclosed. Cross-check this information against agreements and supporting documents to verify completeness. Common mistakes include omitting immaterial arrangements or using outdated names.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "204.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(a)(ii)",
+          "question": "Does the entity have any material joint arrangements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "204.1",
+          "source_trigger": "Yes",
+          "original_question": "For each material joint arrangement, does the entity describe the nature of its relationship with the arrangement (e.g., nature of activities and strategic importance)?",
+          "decision_tree": {
+            "question": "Does the entity have any material joint arrangements?",
+            "guidance": "Refer to the financial statements and accompanying notes. Check whether the entity has disclosed any joint arrangements that are considered material. A joint arrangement could be a joint venture or a joint operation. Ensure materiality is assessed per IFRS 12. For assessment, review IFRS 12.17 and 12.18 for determining 'material' relevance based on size, nature, and strategic significance.",
+            "yes_case": {
+              "question": "Has the entity described the nature of its relationship with its material joint arrangements, including the nature of activities and strategic importance?",
+              "guidance": "Review the notes to the financial statements. Look for descriptive disclosures as required by IFRS 12.21(a)(ii). Ensure the entity has provided meaningful information about its relationship with each material joint arrangement, including details of activities and strategic importance to the entity. Avoid generic or incomplete disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "204.3",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(a)(iii)",
+          "question": "Does the entity have at least one material joint arrangement?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "204.1",
+          "source_trigger": "Yes",
+          "original_question": "For each material joint arrangement, does the entity disclose the principal place of business (and country of incorporation, if different)?",
+          "decision_tree": {
+            "question": "Does the entity have at least one material joint arrangement?",
+            "guidance": "Review the entity's financial statements and supporting documentation. Refer to IFRS 12.7 to determine if any joint arrangements are classified as material based on quantitative and qualitative factors. Materiality should be assessed in relation to overall financial statement impact.",
+            "yes_case": {
+              "question": "Has the entity disclosed the principal place of business for each material joint arrangement?",
+              "guidance": "Examine the entity’s financial statement disclosures, specifically the notes section under IFRS 12 compliance. Ensure the principal place of business of each material joint arrangement is clearly stated.",
+              "yes_case": {
+                "question": "If the country of incorporation differs from the principal place of business, has the entity disclosed the country of incorporation for each material joint arrangement?",
+                "guidance": "Verify if the notes or disclosures include the country of incorporation for each material joint arrangement where necessary. IFRS 12.21(a)(iii) requires this additional disclosure only when the locations differ.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "204.4",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(a)(iv)",
+          "question": "Does the entity have any material joint arrangements?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "204.1",
+          "source_trigger": "Yes",
+          "original_question": "For each material joint arrangement, does the entity disclose the proportion of ownership interest or participating share and, if different, the proportion of voting rights held?",
+          "decision_tree": {
+            "question": "Does the entity have any material joint arrangements?",
+            "guidance": "Review agreements, contracts, or partnerships listed in the entity’s financial records or disclosures (e.g., investment notes or joint venture agreements). Refer to the definition of 'joint arrangements' in IFRS 11. Confirm these arrangements meet the materiality threshold as per IFRS Practice Statement 2.",
+            "yes_case": {
+              "question": "Does the entity disclose the proportion of ownership interest or participating share for each material joint arrangement?",
+              "guidance": "Check financial statements, specifically notes on joint arrangements. The ownership interest or participating share should be clearly quantified for each arrangement. Verify against IFRS 12.21(a)(iv).",
+              "yes_case": {
+                "question": "If the proportion of voting rights held differs from ownership interest, does the entity disclose the proportion of voting rights held for each material joint arrangement?",
+                "guidance": "Review joint arrangement disclosures. If voting rights are not aligned with ownership interest, they must be separately disclosed under IFRS 12.21(a)(iv). Watch for cases where voting control differs due to agreements or share structures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "206.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(b)(i)",
+          "question": "Does the entity have any material joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "204.1",
+          "source_trigger": "Yes",
+          "original_question": "For each material joint venture, does the entity disclose whether the investment is measured using the equity method or at fair value?",
+          "decision_tree": {
+            "question": "Does the entity have any material joint ventures?",
+            "guidance": "Review the entity's consolidated financial statements and notes to identify if there are any joint ventures classified as material under IFRS 12. Materiality should be assessed based on the quantitative and qualitative criteria provided in IAS 1. Be cautious about entities incorrectly excluding joint ventures or material ones that are only marginally disclosed.",
+            "yes_case": {
+              "question": "Does the entity measure its investment in each material joint venture using either the equity method or at fair value?",
+              "guidance": "Check the accounting policies section of the financial statements to determine if the entity consistently applies either the equity method (as required by IAS 28) or fair value measurement (if allowed and disclosed under IFRS 12) for each material joint venture. Verify this against the joint venture disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose the measurement method (equity method or fair value) for each material joint venture?",
+                "guidance": "Review the detailed notes or specific disclosure sections related to joint ventures in the financial statements. Ensure that the measurement basis (equity method or fair value) is clearly stated for each material joint venture. Pay close attention to ensure this disclosure applies to each joint venture, not just aggregate disclosure of measurement methods.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "206.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(b)(ii) & B12–B13",
+          "question": "Does the entity have material joint ventures?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "206.1",
+          "source_trigger": "Yes",
+          "original_question": "For each material joint venture, does the entity disclose financial information including dividends received and summarised financial information (current assets, non-current assets, current liabilities, non-current liabilities, revenue, profit or loss, depreciation and amortisation, interest income, interest expense, income tax expense or income), and, if equity-accounted, fair value if a quoted market price exists?",
+          "decision_tree": {
+            "question": "Does the entity have material joint ventures?",
+            "guidance": "Review the entity's financial statements and accompanying notes to identify joint ventures. Materiality refers to whether the joint venture's financial information could influence the economic decisions of users of the financial statements, as per IAS 1. Define what constitutes 'material' using the entity’s accounting policies.",
+            "yes_case": {
+              "question": "Are the material joint ventures equity-accounted in the entity's financial statements?",
+              "guidance": "Check the accounting method used for the joint ventures in the notes to the financial statements. Equity accounting involves recognizing the investor’s share of profit or loss in the joint ventures. Look for IFRS 12 disclosures under the 'Interests in Other Entities' section.",
+              "yes_case": {
+                "question": "Does the entity disclose summarised financial information for each material joint venture, including dividends received and financial details as required (e.g., current assets, non-current assets, liabilities, revenue, profit/loss, etc.)?",
+                "guidance": "Review the notes on joint ventures for the list of financial information specified in IFRS 12.21(b)(ii) & B12–B13. Ensure the disclosure is complete and includes all required items. Cross-check against each joint venture for missing data.",
+                "yes_case": {
+                  "question": "If a quoted market price exists for the joint venture, does the entity disclose the joint venture's fair value?",
+                  "guidance": "Determine whether any material joint venture has a quoted market price on recognized exchanges. If so, confirm the fair value is disclosed in alignment with IFRS 12 requirements.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "207",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B14",
+          "question": "Does the entity have investments in joint ventures that require summarised financial information disclosure under IFRS 12?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "206.2",
+          "source_trigger": "Yes",
+          "original_question": "Does the summarised financial information reflect the amounts in the joint venture's IFRS financial statements and not the entity's share of those amounts?",
+          "decision_tree": {
+            "question": "Does the entity have investments in joint ventures that require summarised financial information disclosure under IFRS 12?",
+            "guidance": "Refer to IFRS 12.4(a) and the entity's financial statements. Check if the entity owns joint ventures that qualify as reportable investments. Ensure each investment meets the definition of a joint venture per IFRS 11 before proceeding.",
+            "yes_case": {
+              "question": "Has summarised financial information for the joint ventures been disclosed in the notes to the financial statements?",
+              "guidance": "Review the entity's disclosure notes. Look for a dedicated section that outlines summarised financial information for joint ventures. This information should cover assets, liabilities, revenues, expenses, and other relevant details as required by IFRS 12.B12–B13.",
+              "yes_case": {
+                "question": "Does the disclosed summarised financial information reflect the amounts from the joint venture's IFRS financial statements, rather than the entity's share of those amounts?",
+                "guidance": "Verify that the amounts disclosed match the financial statements of the joint venture itself, as prepared under IFRS, and NOT the portion attributed to the reporting entity. Cross-check IFRS 12.B14 to ensure compliance. Common pitfalls include disclosing only the entity's share rather than the full amounts and omitting adjustments due to IFRS compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "208",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B14",
+          "question": "Does the entity have joint ventures accounted for using the equity method?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "206.1",
+          "source_trigger": "Yes",
+          "original_question": "If equity-accounted, are the joint venture's IFRS statement amounts adjusted for fair value adjustments at acquisition and accounting policy differences?",
+          "decision_tree": {
+            "question": "Does the entity have joint ventures accounted for using the equity method?",
+            "guidance": "Review the entity's consolidated financial statements and notes for investments in joint ventures under the equity method. Use IFRS 12 and IAS 28 for definitions and recognition criteria. Verify joint ventures are not consolidated but rather equity-accounted.",
+            "yes_case": {
+              "question": "Has the entity adjusted the joint venture's IFRS statement amounts for fair value adjustments made at the acquisition date?",
+              "guidance": "Check the entity's records for adjustments made to the joint venture's financial statements to reflect fair value changes upon the acquisition date, as required by IFRS 12.B14. These adjustments might relate to assets, liabilities, or identifiable items at acquisition. Verify the reconciliation or notes in the financial statements.",
+              "yes_case": {
+                "question": "Has the entity adjusted the joint venture's IFRS statement amounts for accounting policy differences?",
+                "guidance": "Review the accounting policies disclosed for the joint venture and compare them to the policies applied by the reporting entity. Ensure that any differences (e.g., in depreciation methods or inventory valuation) are consistently adjusted for compliance with IAS 28 and IFRS 12.B14.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "209",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B14",
+          "question": "Does the entity have an interest in a joint venture?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "206.2",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity provide a reconciliation of the summarised financial information to the carrying amount of its interest in the joint venture?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in a joint venture?",
+            "guidance": "Review the entity's investments and associated agreements. Look for partnerships or arrangements classified as joint ventures under IFRS 11, which are characterized by joint control and rights over the net assets of the arrangement.",
+            "yes_case": {
+              "question": "Is summarised financial information for the joint venture disclosed in the financial statements?",
+              "guidance": "Review the notes to the financial statements for disclosures about joint ventures as required by IFRS 12. Look for summarised statements such as financial position, performance, and cash flows. Ensure the information is presented in sufficient detail, but not excessively.",
+              "yes_case": {
+                "question": "Is there a reconciliation of the summarised financial information to the carrying amount of the entity's interest in the joint venture?",
+                "guidance": "Examine the disclosure of the reconciliation in the notes to the financial statements. The IFRS 12.B14 requires entities to provide a clear reconciliation between the summarised financial information of the joint venture and the carrying amount reflected in the entity's financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "210.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B15(a)",
+          "question": "Does the entity have an interest in a joint venture?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "206.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity measures its interest in a joint venture at fair value, does it disclose the basis on which the summarised financial information has been prepared?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in a joint venture?",
+            "guidance": "Review the entity's financial statements and IFRS 12 disclosures, specifically the notes about investments in joint ventures. Ensure there is evidence of the entity holding an interest characterized as a joint venture under IFRS 11.",
+            "yes_case": {
+              "question": "Is the interest in the joint venture measured at fair value?",
+              "guidance": "Verify the measurement basis used for the joint venture by reviewing the financial statements, particularly the accounting policies and valuation methods outlined in the IFRS 12 section. Check if the joint venture is measured at fair value per IFRS guidelines.",
+              "yes_case": {
+                "question": "Does the entity disclose the basis on which the summarised financial information for the joint venture has been prepared?",
+                "guidance": "Inspect the IFRS 12 disclosures related to the joint venture. Specifically, check if the basis of preparation for the summarised financial information (e.g., IFRS compliance, adjustments for fair value measurement) has been explicitly disclosed, as required by IFRS 12.B15(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "210.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B15(b)",
+          "question": "Does the entity hold an interest in a joint venture?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "206.2",
+          "source_trigger": "Yes",
+          "original_question": "If the joint venture does not prepare IFRS financial statements and preparation is impracticable or costly, does the entity disclose the basis on which the summarised financial information has been prepared?",
+          "decision_tree": {
+            "question": "Does the entity hold an interest in a joint venture?",
+            "guidance": "Review the entity's consolidation schedule or notes to the financial statements. Confirm if the entity reports an investment in a joint venture under IFRS 11 as part of its financial arrangements.",
+            "yes_case": {
+              "question": "Does the joint venture prepare IFRS financial statements?",
+              "guidance": "Obtain financial information for the joint venture. Review the reporting framework mentioned in the joint venture's financial statements or disclosures to verify if they comply with IFRS.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Is the preparation of IFRS financial statements by the joint venture impracticable or excessively costly?",
+                "guidance": "Assess documentation from the entity that demonstrates impracticability or excessive cost for requiring IFRS financial statements for the joint venture. Common evidence includes detailed cost analysis or legal/operational challenges.",
+                "yes_case": {
+                  "question": "Does the entity disclose the basis on which the summarised financial information for the joint venture has been prepared?",
+                  "guidance": "Review the entity's disclosures regarding the joint venture in the financial statement notes. The basis should provide adequate clarity on how the summarised financial information is compiled (e.g., local GAAP, another accounting framework, adjustments made for IFRS).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "211",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B16",
+          "question": "Does the entity have any joint ventures accounted for using the equity method?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose, in aggregate, the carrying amount of its interests in all individually immaterial joint ventures accounted for using the equity method?",
+          "decision_tree": {
+            "question": "Does the entity have any joint ventures accounted for using the equity method?",
+            "guidance": "Review the entity's financial statements, particularly in the notes section related to investments accounted for using the equity method. Check if the entity has any joint ventures classified and accounted for under the equity method as per IAS 28. Avoid including interests in associates or joint operations that are not accounted for using the equity method.",
+            "yes_case": {
+              "question": "Are all these joint ventures individually immaterial for the entity's consolidated financial statements?",
+              "guidance": "Evaluate whether each joint venture's financial impact is insignificant to the entity’s consolidated financial position and performance. Use quantitative and qualitative factors defined in IFRS 12.B16. Confirm that they are individually immaterial without combining them inappropriately.",
+              "yes_case": {
+                "question": "Does the entity disclose, in aggregate, the carrying amount of its interests in all these individually immaterial joint ventures accounted for using the equity method?",
+                "guidance": "Review the disclosure notes in the financial statements specifically under the section 'Joint Ventures and Associates'. Verify if the aggregate carrying amount (total value) of individually immaterial joint ventures is disclosed. Ensure compliance with IFRS 12.B16 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "212.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(c)(i)",
+          "question": "Does the entity have interests in joint ventures?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "211",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the aggregate share of profit or loss from continuing operations for all individually immaterial joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity have interests in joint ventures?",
+            "guidance": "Review the investment disclosures and financial statements, specifically the notes to the financial statements under IFRS 12. Joint ventures are collaborative arrangements where two or more entities have joint control. Confirm this by reviewing the definition of joint control in IFRS 11, paragraph 7.",
+            "yes_case": {
+              "question": "Are any of the entity’s joint ventures considered individually immaterial?",
+              "guidance": "Examine the investment disclosures for details on joint ventures. Joint ventures are immaterial if they are not significant individually to the group’s financial performance or position. Review IFRS 12.21(c) and the materiality assessment thresholds outlined in the entity's accounting policy documentation.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate share of profit or loss from continuing operations for all individually immaterial joint ventures?",
+                "guidance": "Verify the disclosure in the notes to the financial statements. The IFRS 12 requirement (para 21(c)(i)) specifies that aggregate information on profit or loss from continuing operations related to immaterial joint ventures must be disclosed. Ensure this information is provided in compliance with the standard.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "212.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(c)(ii)",
+          "question": "Does the entity have joint ventures?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "211",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the aggregate share of post-tax profit or loss from discontinued operations for all individually immaterial joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity have joint ventures?",
+            "guidance": "Review the entity's investment portfolio in the financial statements and notes. Look for references to joint ventures in the Consolidated Statement of Financial Position and accompanying disclosures. Common sections to examine include financial assets or interests in joint arrangements. Ensure these meet the definition outlined in IFRS 11.",
+            "yes_case": {
+              "question": "Does the entity have any individually immaterial joint ventures?",
+              "guidance": "Verify the disclosures related to joint ventures in the financial statement notes. Look for details distinguishing 'individually immaterial' joint ventures from 'material' joint ventures based on the entity's assessment. Ensure proper classification based on IFRS 12 guidance and quantitative materiality thresholds.",
+              "yes_case": {
+                "question": "Did any of the individually immaterial joint ventures report post-tax profit or loss from discontinued operations during the reporting period?",
+                "guidance": "Review the financial statements and disclosures of jointly controlled entities. Search for indications of discontinued operations within the joint ventures. This might appear on the face of the statement of profit or loss, in the notes on joint ventures, or in a summary of discontinued operations as required under IFRS 5.",
+                "yes_case": {
+                  "question": "Does the entity disclose the aggregate share of post-tax profit or loss from discontinued operations for all individually immaterial joint ventures?",
+                  "guidance": "Assess the notes to the financial statements under IFRS 12. Verify if the aggregate share of post-tax profit or loss from discontinued operations for all individually immaterial joint ventures is clearly disclosed. The disclosure must be sufficiently detailed to comply with the requirements of IFRS 12.21(c)(ii).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: N/A"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "212.3",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(c)(iii)",
+          "question": "Does the entity have interests in joint ventures?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "211",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the aggregate share of other comprehensive income for all individually immaterial joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity have interests in joint ventures?",
+            "guidance": "Review the consolidated financial statements, specifically the notes on investments and joint arrangements, as well as disclosures regarding associate and joint venture interests. Confirm whether any joint ventures are recognized as part of the entity's financial structure.",
+            "yes_case": {
+              "question": "Are there any individually immaterial joint ventures?",
+              "guidance": "Check the disclosures related to joint ventures in the financial statements and the entity’s notes. Verify if there are joint ventures that are deemed immaterial individually but are disclosed as part of aggregated information.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate share of other comprehensive income for all individually immaterial joint ventures?",
+                "guidance": "Review the notes related to joint ventures in the financial statements, specifically the disclosures of equity-accounted investments. Ensure that the entity has disclosed the aggregate amount of other comprehensive income arising from individually immaterial joint ventures, as required under IFRS 12.21(c)(iii). Cross-check calculations to verify they align with supporting schedules or documents.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "212.4",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(c)(iv)",
+          "question": "Does the entity have interests in joint ventures?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "211",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose the aggregate share of total comprehensive income for all individually immaterial joint ventures?",
+          "decision_tree": {
+            "question": "Does the entity have interests in joint ventures?",
+            "guidance": "Check the entity’s financial statements and notes under IFRS 12. Look for references to joint ventures, which involve joint control and are accounted for using the equity method as per IAS 28. Verify details in the 'Investments in joint ventures' section.",
+            "yes_case": {
+              "question": "Are any of the joint ventures considered individually immaterial?",
+              "guidance": "Review the entity’s disclosure of joint ventures in the financial statements. Identify if specific joint ventures do not meet materiality thresholds based on quantitative (e.g., size, income contribution) and qualitative factors (e.g., strategic importance). Refer to IFRS 12.21(c).",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate share of total comprehensive income for all individually immaterial joint ventures?",
+                "guidance": "Examine the notes to the financial statements (specifically under IFRS 12 disclosures). Ensure that the entity provides the aggregate figures for total comprehensive income of all joint ventures classified as individually immaterial. This includes items of profit or loss and other comprehensive income aggregated together.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "213.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.23(a)(i), B18–B19",
+          "question": "Does the entity have unrecognised commitments to contribute funding or resources?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose, separately from other commitments, unrecognised commitments to contribute funding or resources that may give rise to future outflows?",
+          "decision_tree": {
+            "question": "Does the entity have unrecognised commitments to contribute funding or resources?",
+            "guidance": "Review all agreements, contracts, and disclosures related to commitments. Check specifically for any obligations to provide funding or resources in the future that have not been recognised as liabilities in the financial statements. Consult IFRS 12.B18–B19 for guidance on identifying unrecognised commitments. Be careful not to overlook contingent commitments that may arise from non-binding agreements.",
+            "yes_case": {
+              "question": "Does the entity disclose these unrecognised commitments separately from other commitments?",
+              "guidance": "Examine the notes to the financial statements, specifically the section that deals with commitments and contingencies. Ensure that unrecognised commitments are disclosed separately, as required by IFRS 12.23(a)(i). Pay particular attention to wording and structure that might combine these commitments with other types of commitments. Verify that the disclosure is clear and cohesive to comply with transparency requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "213.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.23(a)(ii), B18–B19",
+          "question": "Does the entity have a joint venture?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "213.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose, separately from other commitments, unrecognised commitments to acquire another party's ownership interest in a joint venture if a specified event occurs or does not occur?",
+          "decision_tree": {
+            "question": "Does the entity have a joint venture?",
+            "guidance": "Review the entity's financial statements and operational arrangements to identify if it participates in any joint venture arrangements as defined in IFRS 11. Check the agreements and disclosures to confirm classification as a joint venture.",
+            "yes_case": {
+              "question": "Does the entity have any unrecognised commitments to acquire another party's ownership interest in the joint venture?",
+              "guidance": "Examine agreements and other commitments related to the joint venture. Look for clauses that indicate an obligation to acquire another party's ownership interest based on a conditional event. Ensure completeness by reviewing contract terms often missed, such as contingent commitments.",
+              "yes_case": {
+                "question": "Does the entity disclose these unrecognised commitments separately from other commitments?",
+                "guidance": "Refer to IFRS 12.23(a)(ii) and paragraphs B18–B19. Check the entity's disclosures in the financial statements, specifically reviewing the notes section for separation from other commitments as required by IFRS 12. Missing or inadequate segregation could result in a compliance issue.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "214",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.23(b)",
+          "question": "Does the entity have interests in joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose contingent liabilities relating to its interests in joint ventures, including its share of jointly incurred contingent liabilities, separately from other contingent liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have interests in joint ventures?",
+            "guidance": "Review the financial statements and supporting documentation, especially the notes. Check the entity's disclosures in the Statement of Investments or disclosures under IFRS 12 to identify if any joint ventures exist. Common documentation includes joint venture agreements or equity method investment details. Ensure 'joint venture' is explicitly mentioned.",
+            "yes_case": {
+              "question": "Does the entity have any contingent liabilities related to its interests in joint ventures, including its share of jointly incurred contingent liabilities?",
+              "guidance": "Refer to the notes regarding contingencies and commitments in the financial statements. Review joint venture agreements for any obligations or guarantees. Check for disclosures required by IAS 37 on contingent liabilities to identify joint venture-related items.",
+              "yes_case": {
+                "question": "Does the entity separately disclose contingent liabilities related to its interests in joint ventures from other contingent liabilities?",
+                "guidance": "Verify in the financial statement notes whether contingent liabilities specifically relating to joint ventures are disclosed in a manner that distinguishes them from other unrelated contingent liabilities. Look for headings or narrative explanations strictly identifying joint venture-related contingent liabilities.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "215.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.22(a)",
+          "question": "Does the entity have an interest in joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the nature and extent of significant restrictions on joint ventures' ability to transfer funds as dividends or to repay loans or advances?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in joint ventures?",
+            "guidance": "Review the entity’s financial statements and supporting documentation. Specifically, check the investment section and disclosures related to equity method investments and joint arrangements. Ensure that the entity has joint ventures as defined in IFRS 11.",
+            "yes_case": {
+              "question": "Do the joint ventures have significant restrictions on their ability to transfer funds as dividends or to repay loans or advances?",
+              "guidance": "Review the agreements related to the joint ventures, including shareholder agreements, loan covenants, or regulatory restrictions. Look for limitations or conditions that may restrict funds transfer. Examples include statutory restrictions, agreements requiring consent for distributions, or regulatory approvals.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature and extent of these significant restrictions in its financial statements?",
+                "guidance": "Review the entity’s financial statements, focusing on the notes related to joint ventures and IFRS 12 disclosures. The disclosure should describe the specific restrictions in sufficient detail, including their nature, magnitude, and impact on the entity’s operations. Ensure that the disclosure complies with IFRS 12.22(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "215.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.22(b)",
+          "question": "Does the entity have an interest in a joint venture accounted for using the equity method?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose when a joint venture's financial statements used for equity accounting are as of a date or for a period different from the entity's?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in a joint venture accounted for using the equity method?",
+            "guidance": "Review the entity's financial statements, specifically the notes regarding investments in joint ventures, typically under 'Investments accounted for using the equity method'. Verify if the entity has classified any investment as a 'joint venture' under IFRS 11 and whether equity accounting is applied.",
+            "yes_case": {
+              "question": "Are the financial statements of the joint venture used for equity accounting prepared as of a different date or for a period different from the entity's financial statements?",
+              "guidance": "Review the disclosures about joint ventures in the financial statement notes. Check if the reporting dates or periods of the joint venture's financial statements differ from the reporting entity's financial statements. Cross-check reporting dates between the joint venture and the entity.",
+              "yes_case": {
+                "question": "Has the entity disclosed the fact that the joint venture’s financial statements are as of a different date or for a different period?",
+                "guidance": "Verify within the notes to the financial statements (e.g., 'Investments in Joint Ventures' or equivalent) whether the entity explicitly mentions the different reporting date or period of the joint venture’s financial statements, as required by IFRS 12.22(b). Absence of such disclosure indicates non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "218",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.7",
+          "question": "Does the entity have any investments in other entities?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose significant judgements and assumptions made in determining if it has significant influence over another entity?",
+          "decision_tree": {
+            "question": "Does the entity have any investments in other entities?",
+            "guidance": "Review the entity's financial statements, particularly the Statement of Financial Position and related notes, to identify if there are any investments in associates, joint ventures, or subsidiaries. Ensure you verify this against IFRS 12 requirements.",
+            "yes_case": {
+              "question": "Has the entity assessed whether it has significant influence over these investments?",
+              "guidance": "Review the entity's analysis and supporting documentation. Determine if significant influence has been assessed based on factors such as ownership percentage (generally over 20%, per IAS 28), board representation, or participation in policy-making decisions.",
+              "yes_case": {
+                "question": "Does the entity disclose significant judgements and assumptions made in determining if it has significant influence over another entity?",
+                "guidance": "Review the entity's disclosure notes in accordance with IFRS 12.7. Ensure the disclosures adequately describe the judgements and assumptions, such as voting rights or other contractual arrangements, used to determine significant influence. Verify disclosure completeness and clarity.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "219",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.8",
+          "question": "Did the entity experience changes in facts or circumstances during the reporting period that could affect the conclusion about significant influence?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "218",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity include under those judgements and assumptions any made when facts or circumstances change such that the conclusion about significant influence changes during the reporting period?",
+          "decision_tree": {
+            "question": "Did the entity experience changes in facts or circumstances during the reporting period that could affect the conclusion about significant influence?",
+            "guidance": "Review all relevant transactions, events, or changes in agreements during the reporting period. Check if any changes impact the determination of significant influence as defined in IAS 28, para 5-9. Common examples include changes in ownership percentage, agreements, or board representation.",
+            "yes_case": {
+              "question": "Has the entity made and disclosed the required judgements and assumptions related to the changes in facts or circumstances in accordance with IFRS 12.8?",
+              "guidance": "Examine the financial statement disclosures, particularly Section on Interests in Other Entities. Verify whether the entity provided transparent and detailed disclosure of the judgements and assumptions following the changes in facts or circumstances. Ensure these align with IFRS 12.8 requirements, avoiding generic or inadequate explanations.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "220.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9(a)",
+          "question": "Does the entity hold 20% or more of the voting rights in another entity?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "218",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose significant judgements and assumptions made in determining that it does not have significant influence even though it holds 20% or more of the voting rights?",
+          "decision_tree": {
+            "question": "Does the entity hold 20% or more of the voting rights in another entity?",
+            "guidance": "Review the entity's investment registers, board minutes, and shareholder agreements to identify whether the entity holds 20% or more of voting rights. Look for direct ownership percentages or indirect influence through arrangements. Be cautious of rounding errors or shared control structures.",
+            "yes_case": {
+              "question": "Has the entity determined that it does not have significant influence over the investee despite holding 20% or more of the voting rights?",
+              "guidance": "Review documented assessments, such as agreements restricting influence, correspondence with the investee, and analysis using IFRS 12 definitions. Confirm if factors such as inability to participate in policy decisions or restricted contractual powers have been cited.",
+              "yes_case": {
+                "question": "Has the entity disclosed significant judgements and assumptions made in determining no significant influence?",
+                "guidance": "Check the notes accompanying the financial statements for disclosures about significant judgements. Look for a clear explanation of the factors considered and the rationale supporting the judgement, as required by IFRS 12.9(a). Ensure terminology aligns with IFRS standards.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "220.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.9(b)",
+          "question": "Does the entity hold less than 20% of the voting rights in another entity?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "218",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose significant judgements and assumptions made in determining that it has significant influence even though it holds less than 20% of the voting rights?",
+          "decision_tree": {
+            "question": "Does the entity hold less than 20% of the voting rights in another entity?",
+            "guidance": "Review the group's investments and ownership percentages in other entities. Refer to investment records or equity ownership schedules in the financial statements to determine voting rights percentages.",
+            "yes_case": {
+              "question": "Has the entity concluded that it has significant influence over the other entity despite holding less than 20% of the voting rights?",
+              "guidance": "Evaluate the financial statement disclosures and any supporting details regarding significant influence assertions. Consider qualitative factors such as participation in policy-making processes, representation on the board of directors, or reliance on contractual arrangements.",
+              "yes_case": {
+                "question": "Does the entity disclose the significant judgements and assumptions made to determine significant influence as required by IFRS 12.9(b)?",
+                "guidance": "Review the notes to the financial statements specific to IFRS 12 disclosures. Check if explanations of the key judgements and assumptions (e.g., contractual support, board representation decisions) are clearly documented and justified.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "221.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.20(a)",
+          "question": "Does the entity have interests in associates?",
+          "context_required": "full",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose information to evaluate the nature, extent and financial effects of its interests in associates, including the nature and effects of its contractual relationship with other investors with significant influence?",
+          "decision_tree": {
+            "question": "Does the entity have interests in associates?",
+            "guidance": "Review the financial statements and notes, specifically the section regarding 'Investments in Associates and Joint Ventures'. Evaluate if the entity has ownership or influence in another entity classified as an associate under IAS 28 (usually significant influence is indicated by ownership of 20%-50% of the voting power or other evidence of influence).",
+            "yes_case": {
+              "question": "Has the entity disclosed information about the nature, extent, and financial effects of its interests in associates?",
+              "guidance": "Check the financial statement disclosures, specifically IFRS 12. Ensure the following are disclosed: (1) the nature of the associate; (2) the extent of interests including equity ownership; (3) financial impacts such as share of profits/losses, dividends received, and other material relationships. Common error: Omitting details of contractual relationships with other investors.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity have any contractual relationships with other investors influencing its interests in the associates?",
+                "guidance": "Review agreements and terms related to the associate investment to identify any existing contractual relationships with other investors. Examples include joint influence agreements, voting rights agreements, or other arrangements that materially impact the associate.",
+                "yes_case": "COMPLIANT: NO",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "221.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.23",
+          "question": "Does the entity have interests in associates?",
+          "context_required": "full",
+          "question_type": "Followup",
+          "source_question": "221.1",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity disclose information to evaluate the nature of, and changes in, the risks associated with its interests in associates?",
+          "decision_tree": {
+            "question": "Does the entity have interests in associates?",
+            "guidance": "Review the financial statements, particularly the investment section (e.g., 'Investments in Associates'). Check section IFRS 12.3-7 to confirm that the entity has significant influence over another entity, indicating it is an associate. Ensure the associate is recognized in the financial statements.",
+            "yes_case": {
+              "question": "Does the entity disclose information in line with IFRS 12.23 to evaluate the nature of, and changes in, the risks associated with its interests in associates?",
+              "guidance": "Refer to the notes to the financial statements or disclosures section. Check if risks regarding associates are comprehensively described, including qualitative and quantitative details such as income from associates, exposure to risks, and significant changes in the investment. Common pitfalls include generic risk commentary or missing updated disclosures for significant changes.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "222.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(a)(i)",
+          "question": "Does the entity have one or more material associates?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "For each material associate, does the entity disclose the associate's name?",
+          "decision_tree": {
+            "question": "Does the entity have one or more material associates?",
+            "guidance": "Review the entity's financial statements and notes to identify the presence of associates classified as material in accordance with IFRS 12. Assess materiality per the definition in IFRS 12 and IAS 1, considering both quantitative and qualitative factors such as the size, nature, and importance of the associate to the entity's financial position or performance.",
+            "yes_case": {
+              "question": "Does the entity disclose the name of each material associate?",
+              "guidance": "Examine the notes to the financial statements under the disclosures related to investments in associates and joint ventures. Verify that the name of each material associate is specifically mentioned as required by IFRS 12.21(a)(i). Ensure that names are clearly identifiable and not obscured by abbreviations or irrelevant detail.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "222.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(a)(ii)",
+          "question": "Does the entity have any material associates?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "222.1",
+          "source_trigger": "Yes",
+          "original_question": "For each material associate, does the entity describe the nature of its relationship with the associate (e.g., nature of activities and strategic importance)?",
+          "decision_tree": {
+            "question": "Does the entity have any material associates?",
+            "guidance": "Review the definition of 'associate' under IFRS 12 (para. 5) and IAS 28. An associate is an entity over which the investor has significant influence but not control or joint control. Determine materiality using IFRS framework and entity-specific thresholds. Check investment records and disclosures in the financial statements.",
+            "yes_case": {
+              "question": "Has the entity described the nature of its relationship with each material associate, including the nature of activities and strategic importance?",
+              "guidance": "Refer to IFRS 12.21(a)(ii). Verify the notes to the financial statements and management disclosures. Ensure descriptions include specific details about the associate's activities and why the relationship is strategically important for the entity. See whether the information is relevant and complete for stakeholders.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "222.3",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(a)(iii)",
+          "question": "Does the entity have material associates?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "222.1",
+          "source_trigger": "Yes",
+          "original_question": "For each material associate, does the entity disclose the principal place of business (and country of incorporation, if different)?",
+          "decision_tree": {
+            "question": "Does the entity have material associates?",
+            "guidance": "Review the financial statements and management disclosures. A material associate is an entity over which the reporting entity has significant influence, typically evidenced by ownership of 20% to 50% of voting power, unless otherwise demonstrated. Assess materiality based on the associate's influence on the entity's financial position or performance.",
+            "yes_case": {
+              "question": "Does the entity disclose the principal place of business for each material associate?",
+              "guidance": "Examine the notes to the financial statements under the section that discusses associates. Look for explicit disclosure of the location where the associate primarily conducts its operations (principal place of business). Ensure this is clearly stated and does not rely solely on generic descriptions.",
+              "yes_case": {
+                "question": "If the country of incorporation differs from the principal place of business, does the entity disclose this information?",
+                "guidance": "Verify whether the disclosure includes both the country of incorporation and the principal place of business, if these are different. Compare the provided descriptions with corporate registration records or publicly available information about the associate.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "222.4",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(a)(iv)",
+          "question": "Does the entity have any material associates?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "222.1",
+          "source_trigger": "Yes",
+          "original_question": "For each material associate, does the entity disclose the proportion of ownership interest or participating share and, if different, the proportion of voting rights held?",
+          "decision_tree": {
+            "question": "Does the entity have any material associates?",
+            "guidance": "Review the entity's financial statements and notes to identify if there are investments classified as associates according to IAS 28. A material associate is one that significantly affects the entity's financial position or results. Consult IFRS 12.B31 for the definition of material associates.",
+            "yes_case": {
+              "question": "Does the entity disclose the proportion of ownership interest or participating share for each material associate?",
+              "guidance": "Examine the notes to the financial statements. Look specifically for disclosures relating to IFRS 12.21(a)(iv). Ensure that the ownership interest or participating share is provided for every material associate in a clear and consistent manner.",
+              "yes_case": {
+                "question": "If the proportion of voting rights held is different from the proportion of ownership interest, does the entity disclose the proportion of voting rights for each material associate?",
+                "guidance": "Check if the voting rights proportion is disclosed whenever it differs from ownership interest. This should also comply with IFRS 12.21(a)(iv). Ensure differences are adequately explained.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "223.1",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.21(b)",
+          "question": "Does the entity have investments in material associates?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "222.1",
+          "source_trigger": "Yes",
+          "original_question": "For each material associate, does the entity disclose whether the investment is measured using the equity method or at fair value?",
+          "decision_tree": {
+            "question": "Does the entity have investments in material associates?",
+            "guidance": "Refer to the financial statements, particularly the notes on investments and associated entities. Check if any associates are deemed material based on quantitative or qualitative factors, such as size, financial significance, or strategic importance. Material associates should be explicitly mentioned in the disclosures.",
+            "yes_case": {
+              "question": "Is the measurement basis of the investment (equity method or fair value) disclosed for each material associate?",
+              "guidance": "Review the notes to the financial statements and the section on associates. Check if the entity specifically states whether each material associate is measured using the equity method or at fair value. Ensure that this disclosure complies with IFRS 12.21(b). Common errors include missing the measurement basis entirely or grouping detailed disclosures inappropriately.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "223.2",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B12",
+          "question": "Does the entity have an equity-accounted associate?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "223.1",
+          "source_trigger": "Yes",
+          "original_question": "If the associate is equity-accounted, does the entity disclose the fair value of its investment if there is a quoted market price?",
+          "decision_tree": {
+            "question": "Does the entity have an equity-accounted associate?",
+            "guidance": "Review the financial statements and accompanying notes, specifically the section on investments in associates and joint ventures. Confirm if any associate is recognized using the equity method per IAS 28. Cross-check the entity's accounting policies section if unclear.",
+            "yes_case": {
+              "question": "Does the equity-accounted associate have a quoted market price?",
+              "guidance": "Investigate whether any of the equity-accounted associates are publicly traded. Review market listings or the investment details disclosed in the financial statements. If publicly traded, a market price should be readily available.",
+              "yes_case": {
+                "question": "Does the entity disclose the fair value of its investment in the equity-accounted associate?",
+                "guidance": "Inspect the IFRS 12 disclosures in the financial statement notes. Specifically, look for a section discussing associates and joint ventures, which should include the quoted fair value of the investment if the associate has a market price.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "224",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B14",
+          "question": "Does the entity have an investment in an associate reported in its financial statements?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "223.2",
+          "source_trigger": "Yes",
+          "original_question": "Does the summarised financial information reflect the amounts in the associate's IFRS financial statements and not the entity's share of those amounts?",
+          "decision_tree": {
+            "question": "Does the entity have an investment in an associate reported in its financial statements?",
+            "guidance": "Review the financial statements and footnotes to determine whether the entity has classified any investment as an associate under IAS 28. An associate typically involves significant influence, evidenced by ownership of 20-50% of voting power or other mechanisms of influence.",
+            "yes_case": {
+              "question": "Has the entity disclosed summarized financial information for the associate, as required by IFRS 12?",
+              "guidance": "Evaluate the disclosures in the notes to the financial statements. Summarized financial information is typically presented for material associates and includes financial position, performance, and cash flow details. Check the requirements in IFRS 12. B14(a)-(b) for the specific details that should be summarized.",
+              "yes_case": {
+                "question": "Does the summarized financial information reflect the amounts in the associate's IFRS financial statements and not the entity's share of those amounts?",
+                "guidance": "Compare the disclosed summarized financial information with the associate's IFRS financial statements. The amounts should align with the associate's standalone IFRS-compliant figures, ensuring they represent 100% of the associate's amounts, without adjustments for the entity's ownership percentage. Refer specifically to IFRS 12.B14 for detailed requirements and common errors.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "225",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B14",
+          "question": "Does the entity have investments in associates accounted for using the equity method?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "223.1",
+          "source_trigger": "Yes",
+          "original_question": "If equity-accounted, are the associate's IFRS statement amounts adjusted for fair value adjustments at acquisition and accounting policy differences?",
+          "decision_tree": {
+            "question": "Does the entity have investments in associates accounted for using the equity method?",
+            "guidance": "Verify the entity’s financial statements and notes. Look for investments classified as 'associates' and confirm that these are accounted for using the equity method per IAS 28. Common pitfalls include misclassification under joint ventures or fair value through profit or loss accounting policies.",
+            "yes_case": {
+              "question": "At the acquisition of the associate, were fair value adjustments made to align the associate’s IFRS statement amounts with the fair value of the net assets acquired?",
+              "guidance": "Review acquisition details in the investment documentation and check the disclosures in the financial statements under IAS 28 and IFRS 12. Ensure adjustments account for differences between the associate’s carrying amounts and the fair value of identifiable assets and liabilities at acquisition.",
+              "yes_case": {
+                "question": "Have any accounting policy differences between the reporting entity and the associate been appropriately adjusted in the equity-accounted amounts?",
+                "guidance": "Check consistency between the associate’s significant accounting policies (e.g., depreciation methods, revenue recognition) and the entity’s policies. Adjustments should align with IAS 28 requirements for uniform accounting policies across group entities.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "226",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B14",
+          "question": "Does the entity have an interest in an associate?",
+          "context_required": "financial_statements",
+          "question_type": "Followup",
+          "source_question": "224",
+          "source_trigger": "Yes",
+          "original_question": "Does the entity provide a reconciliation of the summarised financial information to the carrying amount of its interest in the associate?",
+          "decision_tree": {
+            "question": "Does the entity have an interest in an associate?",
+            "guidance": "Review the entity's financial statements, particularly its consolidated statement of financial position and disclosures under IFRS 12. Verify if the entity holds an interest in an associate as defined in IAS 28 (investments where significant influence is exercised but not control).",
+            "yes_case": {
+              "question": "Does the entity apply IFRS 12 for its interest in the associate?",
+              "guidance": "Ensure that the entity applies IFRS 12 for disclosure requirements related to interests in associates. Check the accounting policies section and confirm that the entity follows IFRS 12 for associates.",
+              "yes_case": {
+                "question": "Does the entity provide summarised financial information about the associate as part of its disclosures?",
+                "guidance": "Review the notes to the financial statements for summarised financial information regarding the associate, including details on assets, liabilities, revenue, and profit/loss, as required under IFRS 12.B12-B13.",
+                "yes_case": {
+                  "question": "Does the entity provide a reconciliation of the summarised financial information to the carrying amount of its interest in the associate?",
+                  "guidance": "Cross-check the disclosure in the financial statements (typically in the notes related to associates). Verify if a reconciliation is provided that links the associate's summarised financial information to the carrying amount of the entity’s interest as required under IFRS 12.B14. The reconciliation should account for adjustments such as the entity’s share of profit or loss and other comprehensive income, dividends received, and any other relevant adjustments.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "227",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B15",
+          "question": "Does the entity have an investment in an associate?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "223.1",
+          "source_trigger": "Yes",
+          "original_question": "If the entity presents information on the basis of the associate's financial statements because it measures the investment at fair value or preparation of IFRS statements is impracticable, does it disclose the basis on which the summarised information has been prepared?",
+          "decision_tree": {
+            "question": "Does the entity have an investment in an associate?",
+            "guidance": "Review the entity's financial statements, specifically the notes related to investments in associates or joint ventures, as well as IAS 28 compliance. Confirm the existence of an investment classified as an associate under IFRS 12 using the definition provided in IFRS 12 Appendix A.",
+            "yes_case": {
+              "question": "Is the entity measuring the investment in the associate at fair value, OR is preparation of IFRS-compliant financial statements for the associate impracticable?",
+              "guidance": "Check if the investment is being measured at fair value through profit or loss under IFRS 9 or if financial statements in accordance with IFRS cannot practically be obtained for the associate due to reasons such as significant cost or effort. Verify this via the accounting policy notes and entity disclosures for associates.",
+              "yes_case": {
+                "question": "Does the entity disclose the basis on which the summarised information of the associate has been prepared?",
+                "guidance": "Examine the notes accompanying the summarised financial information of associates. IFRS 12.B15 requires disclosure specifying whether the summarised information is based on the financial statements of the associate or on another basis (e.g., fair value measurements or other GAAPs). Ensure the disclosure is clear and explains the assumptions used.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "228",
+          "section": "IFRS 12",
+          "reference": "IFRS 12.B16",
+          "question": "Does the entity have interests in associates accounted for using the equity method?",
+          "context_required": "financial_statements",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose, in aggregate, the carrying amount of its interests in all individually immaterial associates accounted for using the equity method?",
+          "decision_tree": {
+            "question": "Does the entity have interests in associates accounted for using the equity method?",
+            "guidance": "Verify whether the entity has interests in associates accounted for under IAS 28 using the equity method. Check the financial statements, specifically the notes on investments in associates and joint ventures. Confirm details about the accounting method used in alignment with IAS 28.",
+            "yes_case": {
+              "question": "Are any of the associates individually immaterial to the financial statements?",
+              "guidance": "Review the notes to the financial statements describing associates. Determine if specific associates are small enough that they do not individually contribute significantly to the entity’s overall financial position, results of operations, or cash flows.",
+              "yes_case": {
+                "question": "Does the entity disclose, in aggregate, the carrying amount of its interests in all individually immaterial associates accounted for using the equity method?",
+                "guidance": "Refer to IFRS 12.B16 and check the disclosures in the notes to the financial statements. Confirm that the carrying amounts of interests in all individually immaterial associates have been aggregated and disclosed. Avoid overlooking disclosures in footnotes or supplementary schedules.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

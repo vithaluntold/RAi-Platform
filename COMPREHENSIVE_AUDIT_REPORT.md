@@ -32,8 +32,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 ### 1.1 Workflow Templates (4 tables)
 
 #### `workflows`
+
 | Column | Type | Constraints |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `id` | UUID PK | `uuid4()` default |
 | `organization_id` | UUID | nullable |
 | `name` | String(255) | not null |
@@ -47,8 +48,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 - **Index**: `idx_workflows_org_status` on `(organization_id, status)`
 
 #### `workflow_stages`
+
 | Column | Type | Constraints |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `id` | UUID PK | |
 | `workflow_id` | UUID | not null (no FK constraint) |
 | `name` | String(255) | not null |
@@ -60,8 +62,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 - **Indexes**: `idx_workflow_stages_workflow`, `idx_workflow_stages_position`
 
 #### `workflow_steps`
+
 | Column | Type | Constraints |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `id` | UUID PK | |
 | `stage_id` | UUID | not null (no FK constraint) |
 | `name` | String(255) | not null |
@@ -71,8 +74,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `created_at` / `updated_at` | DateTime | |
 
 #### `workflow_tasks`
+
 | Column | Type | Constraints |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `id` | UUID PK | |
 | `step_id` | UUID | not null (no FK constraint) |
 | `name` | String(255) | not null |
@@ -88,8 +92,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 ### 1.2 Assignment Instances (4 tables)
 
 #### `workflow_assignments`
+
 | Column | Type | Constraints |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `id` | UUID PK | |
 | `workflow_id` | UUID | not null (no FK) |
 | `client_id` | UUID FK | → `clients.id` |
@@ -106,8 +111,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 > **BUG**: No `name` column exists, but notification_service references `assignment.name`. See §14.
 
 #### `assignment_workflow_stages`
+
 | Column | Type | Constraints |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `id` | UUID PK | |
 | `assignment_id` | UUID | not null (no FK) |
 | `template_stage_id` | UUID | nullable — link back to original template stage |
@@ -122,8 +128,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `created_at` / `updated_at` | DateTime | |
 
 #### `assignment_workflow_steps`
+
 | Column | Type | Constraints |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `id` | UUID PK | |
 | `stage_id` | UUID | not null (no FK) |
 | `template_step_id` | UUID | nullable |
@@ -138,8 +145,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `created_at` / `updated_at` | DateTime | |
 
 #### `assignment_workflow_tasks`
+
 | Column | Type | Constraints |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `id` | UUID PK | |
 | `step_id` | UUID | not null (no FK) |
 | `template_task_id` | UUID | nullable |
@@ -162,8 +170,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 ### 1.3 Agent Models (4 tables)
 
 #### `agents`
+
 | Column | Type | Constraints |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `id` | UUID PK | |
 | `organization_id` | UUID | nullable |
 | `name` | String(255) | not null |
@@ -180,8 +189,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `created_at` / `updated_at` | DateTime | |
 
 #### `workflow_task_agents` (template-level)
+
 | Column | Type |
-|--------|------|
+| -------- | ------ |
 | `id` | UUID PK |
 | `task_id` | UUID — points to `workflow_tasks.id` |
 | `agent_id` | UUID — points to `agents.id` |
@@ -192,8 +202,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `created_at` / `updated_at` | DateTime |
 
 #### `assignment_task_agents` (instance-level)
+
 | Column | Type |
-|--------|------|
+| -------- | ------ |
 | `id` | UUID PK |
 | `task_id` | UUID — points to `assignment_workflow_tasks.id` |
 | `agent_id` | UUID |
@@ -209,8 +220,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `created_at` / `updated_at` | DateTime |
 
 #### `agent_executions`
+
 | Column | Type |
-|--------|------|
+| -------- | ------ |
 | `id` | UUID PK |
 | `assignment_task_agent_id` | UUID |
 | `agent_id` | UUID |
@@ -231,8 +243,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 ### 1.4 Supporting Models
 
 #### `users`
+
 | Column | Type | Notes |
-|--------|------|-------|
+| -------- | ------ | ------- |
 | `id` | UUID PK | |
 | `first_name` / `last_name` | String(100) | |
 | `email` | String(255), unique | |
@@ -245,8 +258,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `created_at` / `updated_at` | DateTime | |
 
 #### `clients`
+
 | Column | Type |
-|--------|------|
+| -------- | ------ |
 | `id` | UUID PK |
 | `organization_id` | UUID |
 | `name` | String(255), not null |
@@ -259,8 +273,9 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `created_by` | UUID |
 
 #### `contacts`
+
 | Column | Type |
-|--------|------|
+| -------- | ------ |
 | `id` | UUID PK |
 | `organization_id` | UUID |
 | `first_name/last_name` | String(100) |
@@ -271,14 +286,16 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `created_by` | UUID |
 
 #### `client_contacts` (M2M join)
+
 - FK `client_id` → `clients.id` (CASCADE delete)
 - FK `contact_id` → `contacts.id` (CASCADE delete)
 - `role` (String 100), `is_primary` (Boolean)
 - UniqueConstraint on `(client_id, contact_id)`
 
 #### `projects`
+
 | Column | Type |
-|--------|------|
+| -------- | ------ |
 | `id` | UUID PK |
 | `organization_id` | UUID |
 | `name` | String(255), not null |
@@ -294,13 +311,15 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `custom_metadata` | JSON |
 
 #### `project_collaborators`
+
 - `project_id` + `user_id` (UniqueConstraint)
 - `role` Enum: `owner`, `editor`, `viewer`, `commenter`
 - `joined_at` DateTime
 
 #### `project_tasks` (Kanban cards)
+
 | Column | Type |
-|--------|------|
+| -------- | ------ |
 | `id` | UUID PK |
 | `project_id` | UUID |
 | `title` | String(500), not null |
@@ -315,21 +334,25 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `custom_metadata` | JSON |
 
 #### `notifications`
+
 - `user_id` FK → `users.id` (CASCADE)
 - `type` Enum: `task_completed`, `step_completed`, `stage_completed`, `assignment_completed`, `task_assigned`, `task_created`, `general`
 - `title/message(Text)/link`
 - `is_read` Boolean, `email_sent` Boolean
 
 #### `notification_settings` (Admin Outlook config)
+
 - `outlook_email/client_id/client_secret/tenant_id`
 - `is_enabled` Boolean
 
 #### `user_notification_preferences`
+
 - `user_id` FK unique → `users.id`
 - `email_enabled/in_app_enabled` Boolean
 - `updated_by` FK
 
 #### `reminders`
+
 - `user_id` FK → `users.id` (CASCADE)
 - `entity_type` Enum: `assignment`, `stage`, `step`, `task`
 - `entity_id/entity_name`
@@ -349,7 +372,7 @@ The system implements a **template → instance** pattern. Workflow templates ar
 ### 2.1 WorkflowService (429 lines)
 
 | Method | Signature | Logic |
-|--------|-----------|-------|
+| -------- | ----------- | ------- |
 | `create_workflow` | `(db, name, description, org_id, created_by)` | Creates with status `draft`, position auto-set |
 | `get_workflow` | `(db, workflow_id)` | Single lookup by ID |
 | `list_workflows` | `(db, org_id)` | Filter by `organization_id` or return all |
@@ -377,7 +400,7 @@ The system implements a **template → instance** pattern. Workflow templates ar
 ### 2.2 AssignmentService (757 lines) — Core Business Logic
 
 | Method | Signature | Logic |
-|--------|-----------|-------|
+| -------- | ----------- | ------- |
 | `activate_assignment` | `(db, assignment)` | **Deep clone**: copies all template stages → steps → tasks → agents into assignment instance tables. Sets assignment status to `active`. |
 | `get_assignment_hierarchy` | `(db, assignment_id)` | Multi-join query returning full nested hierarchy with progress %, agents, and counts |
 | `calculate_progress` | `(db, assignment_id)` | `(completed_tasks / total_tasks) * 100`, rounded to int |
@@ -388,10 +411,13 @@ The system implements a **template → instance** pattern. Workflow templates ar
 | `update_stage_status` | `(db, assignment_id, stage_id, data)` | If stage set to `completed`, auto-completes all child steps/tasks. If set to `not_started`, resets all. Then propagates up to assignment. |
 
 **Activation deep-clone flow**:
-```
+
+```text
+
 Template:  Workflow → Stages → Steps → Tasks → WorkflowTaskAgents
                                           ↓ (clone)
 Instance:  Assignment → AssignmentStages → AssignmentSteps → AssignmentTasks → AssignmentTaskAgents
+
 ```
 
 Each cloned entity preserves `template_*_id` for traceability back to the original.
@@ -401,7 +427,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 2.3 AgentService (406 lines, 4 service classes)
 
 | Class | Key Methods |
-|-------|-------------|
+| ------- | ------------- |
 | **AgentService** | `create_agent`, `get_agent`, `list_agents`, `update_agent`, `delete_agent` |
 | **WorkflowTaskAgentService** | `attach_agent_to_task` (template), `list_agents_for_task`, `update_task_agent`, `remove_agent_from_task` |
 | **AssignmentTaskAgentService** | `clone_agents_from_template` (used during activation), `assign_agent_to_task`, `list_agents_for_task`, `update_task_agent`, `remove_agent_from_task` |
@@ -414,7 +440,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 2.4 ProjectService (287 lines)
 
 | Method | Logic |
-|--------|-------|
+| -------- | ------- |
 | `get_project_tasks_grouped` | Returns tasks grouped by status column: `{todo: [...], in_progress: [...], review: [...], completed: [...]}` |
 | `move_task` | Updates `status` and `position`, re-indexes siblings for clean ordering |
 | `get_project_stats` | Counts tasks by status, calculates completion % |
@@ -427,7 +453,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 2.5 ClientService (176 lines)
 
 | Method | Logic |
-|--------|-------|
+| -------- | ------- |
 | `create_client` | Standard create |
 | `get_client` | By ID |
 | `get_clients` | With `contact_count` subquery, search by name/email, filter by status |
@@ -443,7 +469,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 2.6 ContactService (151 lines)
 
 | Method | Logic |
-|--------|-------|
+| -------- | ------- |
 | `create_contact` | Standard create |
 | `get_contact` | By ID |
 | `get_contacts` | Search by first/last name or email, filter by status |
@@ -456,7 +482,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 2.7 NotificationService (413 lines)
 
 | Method | Logic |
-|--------|-------|
+| -------- | ------- |
 | `create_notification` | Checks user `in_app_enabled` preference; only creates if true |
 | `get_user_notifications` | Paginated, optional `unread_only` filter |
 | `get_unread_count` | COUNT where `is_read = False` |
@@ -478,7 +504,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 2.8 ReminderService (362 lines)
 
 | Method | Logic |
-|--------|-------|
+| -------- | ------- |
 | `create_manual_reminder` | User-created reminder with `reminder_type = manual` |
 | `generate_due_date_reminders` | **Idempotent**: creates 4 reminders per entity (`3_days_before`, `1_day_before`, `on_due_date`, `1_day_overdue`). Skips duplicates via `offset_label` check. |
 | `remove_auto_reminders_for_entity` | Deletes auto-generated reminders when due dates change |
@@ -499,7 +525,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.1 Workflows (`/api/v1/workflows`)
 
 | Method | Path | Auth | Description |
-|--------|------|------|-------------|
+| -------- | ------ | ------ | ------------- |
 | `POST` | `/` | Active user | Create workflow |
 | `GET` | `/` | Active user | List workflows (optional `organization_id` query) |
 | `GET` | `/{id}` | Active user | Get workflow hierarchy (full nested) |
@@ -522,7 +548,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.2 Assignments (`/api/v1/assignments`)
 
 | Method | Path | Auth | Description |
-|--------|------|------|-------------|
+| -------- | ------ | ------ | ------------- |
 | `GET` | `/` | Active user | Paginated list with progress %, client name, filters |
 | `POST` | `/` | Active user | Create draft assignment |
 | `GET` | `/{id}` | Active user | Full hierarchy (stages→steps→tasks→agents) |
@@ -534,7 +560,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.3 Canvas (`/api/v1/canvas`)
 
 | Method | Path | Description |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `GET` | `/workflows/{id}` | Template canvas: generates positioned nodes (stages left-to-right, 340px spacing) + edges. Each node includes nested `steps[]` with `tasks[]` and `agents[]`. |
 | `GET` | `/assignments/{id}` | Assignment canvas: same layout but with status overlays, progress %, completed/task counts, agent status. |
 | `GET` | `/workflows/{id}/stats` | Template stats: stage/step/task/agent counts. |
@@ -543,7 +569,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.4 Agents (`/api/v1/agents`)
 
 | Method | Path | Description |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `POST` | `/` | Create agent |
 | `GET` | `/` | List agents (filter by `organization_id`, `agent_type`, `status`) |
 | `GET` | `/{id}` | Get agent |
@@ -564,7 +590,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.5 Projects (`/api/v1/projects`)
 
 | Method | Path | Description |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `GET` | `/` | Paginated list with stats |
 | `POST` | `/` | Create project + auto-add creator as `owner` collaborator |
 | `GET` | `/{id}/kanban` | Kanban view: tasks grouped by status column |
@@ -577,7 +603,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.6 Clients (`/api/v1/clients`)
 
 | Method | Path | Description |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `GET` | `/` | List with contact counts, search, status filter |
 | `POST` | `/` | Create client |
 | `GET` | `/{id}` | Get client |
@@ -590,7 +616,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.7 Contacts (`/api/v1/contacts`)
 
 | Method | Path | Description |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `GET` | `/` | List with search, status filter |
 | `POST` | `/` | Create |
 | `GET` | `/{id}` | Get |
@@ -600,13 +626,13 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.8 Documents (`/api/v1/documents`)
 
 | Method | Path | Description |
-|--------|------|-------------|
+| -------- | ------ | ------------- |
 | `POST` | `/upload` | File upload to disk (`uploads/` dir). Returns filename, content_type, location. |
 
 ### 3.9 Notifications (`/api/v1/notifications`)
 
 | Method | Path | Auth | Description |
-|--------|------|------|-------------|
+| -------- | ------ | ------ | ------------- |
 | `GET` | `/` | User | Get notifications (paginated, optional `unread_only`) |
 | `GET` | `/count` | User | Unread + total count |
 | `PATCH` | `/read` | User | Mark specific IDs as read |
@@ -622,7 +648,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.10 Reminders (`/api/v1/reminders`)
 
 | Method | Path | Auth | Description |
-|--------|------|------|-------------|
+| -------- | ------ | ------ | ------------- |
 | `GET` | `/` | User | List my reminders (optional status filter) |
 | `GET` | `/counts` | User | Pending + overdue counts |
 | `POST` | `/` | User | Create manual reminder |
@@ -635,14 +661,14 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 3.11 Users (`/api/v1/users`)
 
 | Method | Path | Auth | Description |
-|--------|------|------|-------------|
+| -------- | ------ | ------ | ------------- |
 | `POST` | `/onboard` | Admin | Create single user |
 | `POST` | `/onboard/bulk` | Admin | Bulk create via CSV upload |
 
 ### 3.12 Dashboard (`/api/v1/dashboard`)
 
 | Method | Path | Auth | Description |
-|--------|------|------|-------------|
+| -------- | ------ | ------ | ------------- |
 | `GET` | `/stats` | Admin | Returns `{total_users, active_workflows: 5, documents_processed: 120, storage_used: "1.2 GB"}` — **NOTE: mostly hardcoded values** |
 
 ---
@@ -652,7 +678,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 4.1 Workflow Schemas
 
 | Schema | Fields | Notes |
-|--------|--------|-------|
+| -------- | -------- | ------- |
 | `WorkflowCreate` | `name` (required), `description`, `organization_id` | |
 | `WorkflowUpdate` | `name`, `description`, `status` | All optional |
 | `WorkflowResponse` | `id, name, description, status, organization_id, custom_metadata, created_by, created_at, updated_at` | `from_attributes = True` |
@@ -669,7 +695,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 4.2 Assignment Schemas
 
 | Schema | Fields | Notes |
-|--------|--------|-------|
+| -------- | -------- | ------- |
 | `AssignmentCreate` | `workflow_id` (required), `client_id` (required), `priority`, `notes`, `due_date`, `start_date`, `organization_id` | |
 | `AssignmentUpdate` | `status`, `priority`, `notes`, `due_date`, `start_date` | All optional |
 | `AssignmentTaskUpdate` | `status`, `assigned_to`, `due_date`, `actual_hours` | |
@@ -685,7 +711,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 4.3 Agent Schemas
 
 | Schema | Fields |
-|--------|--------|
+| -------- | -------- |
 | `AgentCreate` | `name, description, agent_type, backend_provider, backend_config, capabilities, input_schema, output_schema, organization_id` |
 | `AgentUpdate` | All optional |
 | `AgentResponse` | Full model fields |
@@ -699,7 +725,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 4.4 Project Schemas
 
 | Schema | Key Fields |
-|--------|------------|
+| -------- | ------------ |
 | `ProjectCreate` | `name, description, client_id, priority, owner_id, manager_ids, start_date, due_date, visibility, organization_id` |
 | `ProjectTaskCreate` | `title, description, status, priority, assignee_id, due_date, position, estimated_hours` |
 | `ProjectTaskMove` | `status, position` |
@@ -709,7 +735,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 4.5 Notification Schemas
 
 | Schema | Fields |
-|--------|--------|
+| -------- | -------- |
 | `NotificationResponse` | `id, user_id, type, title, message, link, is_read, email_sent, created_at` |
 | `NotificationMarkRead` | `notification_ids: list[UUID]` |
 | `NotificationCountResponse` | `unread_count, total_count` |
@@ -720,7 +746,7 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 ### 4.6 Reminder Schemas
 
 | Schema | Fields |
-|--------|--------|
+| -------- | -------- |
 | `ReminderCreate` | `entity_type, entity_id, entity_name, title, message, remind_at, link` |
 | `ReminderSnooze` | `snooze_until: datetime` |
 | `ReminderUpdate` | `title, message, remind_at, link` (all optional) |
@@ -733,7 +759,8 @@ Each cloned entity preserves `template_*_id` for traceability back to the origin
 
 The system implements a **bottom-up cascading completion** pattern in `AssignmentService._propagate_status_upward`:
 
-```
+```text
+
 Task marked "completed"
     │
     ├── Check: Are ALL sibling tasks in this step "completed"?
@@ -756,15 +783,18 @@ Task marked "completed"
     │     NO → (do nothing)
     │
     └── Send task_completed notification
+
 ```
 
 **Top-down cascade** (step/stage updates):
+
 - Setting a **step to `completed`** → auto-completes all child tasks that are not yet completed
 - Setting a **stage to `completed`** → auto-completes all child steps → all child tasks
 - Setting to `not_started` → resets all children to `not_started`
 - Each downstream update also sets `completed_date` or clears it
 
 **Notification trigger points**:
+
 - `task_completed` → notifies `assignment.assigned_by`
 - `step_completed` → notifies `assignment.assigned_by`
 - `stage_completed` → notifies `assignment.assigned_by`
@@ -779,15 +809,18 @@ Task marked "completed"
 The canvas endpoint (`/api/v1/canvas`) transforms the hierarchical data into a graph structure:
 
 **Node positioning algorithm**:
+
 - Stages are laid out **left-to-right** with `x = index * 340`, `y = 50`
 - Each stage node is 280px wide × variable height
 - Steps and tasks are **nested inside** the stage node data (not separate nodes)
 
 **Edge generation**:
+
 - Sequential stage-to-stage edges: `stage[0] → stage[1] → stage[2] → ...`
 - Each edge has `animated = True` if the source stage is `in_progress` or `completed`
 
 **Assignment canvas enrichment**:
+
 - Adds `status`, `progress` (formatted as "X%"), `completedCount`, `taskCount` per stage
 - Includes agent data on tasks with `agent_name`, `agent_type`, `status`
 
@@ -796,6 +829,7 @@ The canvas endpoint (`/api/v1/canvas`) transforms the hierarchical data into a g
 The canvas is a **custom SVG-based renderer** (no React Flow):
 
 **Features**:
+
 - **Zoom**: Mouse wheel, min 0.3×, max 2.0×
 - **Pan**: Click-and-drag on canvas background
 - **Fit-to-screen**: Auto-calculates bounding box and centers with padding
@@ -815,7 +849,8 @@ The canvas is a **custom SVG-based renderer** (no React Flow):
 
 ### 7.1 Architecture
 
-```
+```text
+
 Agent (definition) ──attach──→ WorkflowTaskAgent (template binding)
                                        │
                                ╭───────┴──── (clone on activation) ──────╮
@@ -823,12 +858,13 @@ Agent (definition) ──attach──→ WorkflowTaskAgent (template binding)
                     AssignmentTaskAgent (instance binding)                │
                                │                                         │
                     AgentExecution (run history)                          │
+
 ```
 
 ### 7.2 Agent Types & Their Purpose
 
 | Type | Intended Use |
-|------|-------------|
+| ------ | ------------- |
 | `document_intelligence` | Azure Document Intelligence / OCR |
 | `search` | AI-powered search across documents |
 | `extraction` | Data extraction from unstructured content |
@@ -857,7 +893,8 @@ Agent (definition) ──attach──→ WorkflowTaskAgent (template binding)
 
 ## 8. Assignment Lifecycle
 
-```
+```text
+
               ┌─────────┐
               │  CREATE  │ (status = draft)
               └────┬─────┘
@@ -883,9 +920,11 @@ Agent (definition) ──attach──→ WorkflowTaskAgent (template binding)
               └───────────────┘
 
   Side states: ON_HOLD, CANCELLED (set manually via PATCH)
+
 ```
 
 **Key behaviors**:
+
 - Draft assignments have **no** cloned hierarchy — the template is referenced but not copied
 - Activation is a **one-time** operation; re-activating has no guard (potential double-clone issue)
 - Progress is calculated as `completed_tasks / total_tasks * 100`
@@ -902,7 +941,7 @@ Projects are **independent of workflows/assignments**. They have their own task 
 ### 9.2 Kanban Columns
 
 | Column | Status Value |
-|--------|-------------|
+| -------- | ------------- |
 | To Do | `todo` |
 | In Progress | `in_progress` |
 | Review | `review` |
@@ -920,6 +959,7 @@ Projects are **independent of workflows/assignments**. They have their own task 
 ### 9.4 Access Control
 
 `check_project_access(db, project_id, user_id, required_role)` checks:
+
 1. Is user the project `owner_id`? → full access
 2. Is user in `manager_ids` array? → manager access
 3. Is user a collaborator with sufficient role? → based on role hierarchy
@@ -930,12 +970,14 @@ Projects are **independent of workflows/assignments**. They have their own task 
 
 ### 10.1 Architecture
 
-```
+```text
+
 Client ←──M2M──→ Contact
   │                  (via client_contacts join table)
   │
   ├── Has many Assignments (via client_id FK)
   └── Has many Projects (via client_id FK)
+
 ```
 
 ### 10.2 Client Features
@@ -959,6 +1001,7 @@ Client ←──M2M──→ Contact
 ### 11.1 Notifications
 
 **Trigger Points** (all from `AssignmentService` auto-progression):
+
 - Task completed → `notify_task_completed`
 - Step completed → `notify_step_completed`
 - Stage completed → `notify_stage_completed`
@@ -967,6 +1010,7 @@ Client ←──M2M──→ Contact
 - Task created → `notify_task_created` (not currently triggered from any code path)
 
 **Delivery channels**:
+
 1. **In-app**: Stored in `notifications` table, surfaced via API
 2. **Email**: Via Microsoft Graph API (Outlook) — requires admin configuration of OAuth2 credentials
 
@@ -975,10 +1019,12 @@ Client ←──M2M──→ Contact
 ### 11.2 Reminders
 
 **Types**:
+
 - `auto_due_date`: Auto-generated when assignment gets a `due_date` during activation
 - `manual`: User-created for any entity
 
 **Auto-generated offsets** (4 per entity):
+
 - 3 days before due date
 - 1 day before due date
 - On due date
@@ -987,6 +1033,7 @@ Client ←──M2M──→ Contact
 **Background processing**: Every 60 seconds, `process_pending_reminders` checks for pending reminders where `remind_at <= now()`, creates an in-app notification for each, and marks them as `sent`.
 
 **Snooze/dismiss lifecycle**:
+
 - Snooze: `snoozed → pending` (with new `remind_at`), `snooze_count++`
 - Dismiss: `status = dismissed`, terminal state
 
@@ -997,7 +1044,7 @@ Client ←──M2M──→ Contact
 ### 12.1 Auth Providers
 
 | Provider | Flow |
-|----------|------|
+| ---------- | ------ |
 | `LOCAL` | Email + password, `bcrypt` hash, JWT token |
 | `AD` | Active Directory username + password via `requests.post` to AD endpoint, JWT issued on success |
 | `KEYCLOAK` | Keycloak SubjectID stored, token validation delegated |
@@ -1011,13 +1058,14 @@ Client ←──M2M──→ Contact
 ### 12.3 Role-Based Access
 
 | Role | Permissions |
-|------|-------------|
+| ------ | ------------- |
 | `ADMIN` | All endpoints, user management, notification settings |
 | `MANAGER` | Standard endpoints, project management |
 | `ENDUSER` | Standard endpoints |
 | `CLIENT` | TBD — role exists but no client-specific restrictions implemented |
 
 **Dependency helpers**:
+
 - `get_current_active_user` — any authenticated active user
 - `get_current_active_admin` — admin only
 - `require_roles(*roles)` — factory for custom role checks
@@ -1040,6 +1088,7 @@ Client ←──M2M──→ Contact
 ### 13.2 Workflow Builder (`workflow/page.tsx`, 1043 lines)
 
 **List view**:
+
 - Search workflows by name
 - Filter by status: all / draft / active / archived
 - Stats cards: Total, Draft, Active, Archived counts
@@ -1048,6 +1097,7 @@ Client ←──M2M──→ Contact
 - Create workflow modal
 
 **Detail/hierarchy view**:
+
 - Full stage → step → task tree displayed as columns
 - Drag-and-drop stage reorder
 - Inline add/delete for stages, steps, tasks
@@ -1102,7 +1152,7 @@ Comprehensive endpoint mapping covering all 14 API domains (auth, users, documen
 ### 14.1 Critical Bugs
 
 | # | Location | Issue | Impact |
-|---|----------|-------|--------|
+| --- | ---------- | ------- | -------- |
 | 1 | `notification_service.py` lines ~200-260 | References `assignment.name` but `WorkflowAssignment` model has **no `name` column** | **Runtime AttributeError** on any completed task/step/stage/assignment. The notification system would crash entirely. |
 | 2 | `notification_service.py` ~line 275 | References `assignment.assigned_to` but model has no such column (only `assigned_by`) | **Runtime AttributeError** when assignment completes |
 | 3 | `assignment_service.py` + `assignments.py` | No guard against **double activation** — if PATCH sets status to `active` twice, the deep clone runs again, duplicating all stages/steps/tasks/agents | **Data corruption** — duplicate hierarchy records |
@@ -1110,7 +1160,7 @@ Comprehensive endpoint mapping covering all 14 API domains (auth, users, documen
 ### 14.2 Functional Gaps
 
 | # | Area | Gap |
-|---|------|-----|
+| --- | ------ | ----- |
 | 4 | Agent execution | `is_required` flag on agents is stored but **never enforced** — tasks can be marked completed without running required agents |
 | 5 | Agent execution | No actual AI backend integration — `execute` endpoint creates a record but **no processing runs**. Status must be manually updated. |
 | 6 | Multi-tenancy | `organization_id` exists on models but **no row-level filtering** is applied in queries. Any authenticated user can access any organization's data. |
@@ -1123,7 +1173,7 @@ Comprehensive endpoint mapping covering all 14 API domains (auth, users, documen
 ### 14.3 Schema/Type Mismatches
 
 | # | Location | Issue |
-|---|----------|-------|
+| --- | ---------- | ------- |
 | 12 | Assignment task status | Backend model uses lowercase enum (`not_started`, `completed`) but frontend checks for both `'completed'` and `'COMPLETED'` — suggests inconsistent casing at some point |
 | 13 | Canvas node status | Canvas API normalizes status to lowercase but original assignment models store lowercase; the frontend's `getStatusStyle` function handles both cases defensively |
 | 14 | `AssignmentListItem` schema | Includes `workflow_id` and `client_id` but **no workflow name** — the list view cannot show which template an assignment is based on |
@@ -1131,7 +1181,7 @@ Comprehensive endpoint mapping covering all 14 API domains (auth, users, documen
 ### 14.4 Security Concerns
 
 | # | Area | Issue |
-|---|------|-------|
+| --- | ------ | ------- |
 | 15 | Authorization | Most endpoints only check `is_active` — no ownership or organization-level scoping. Any active user can read/modify any workflow, assignment, client, etc. |
 | 16 | File upload | `/documents/upload` saves files to disk with original filename — no sanitization, no virus scanning, no size limit at the API level |
 | 17 | Reminder/Notification | Ownership checks are present in reminder endpoints but **absent in notification mark-as-read** — bulk ID parameter could mark other users' notifications |
@@ -1140,7 +1190,7 @@ Comprehensive endpoint mapping covering all 14 API domains (auth, users, documen
 ### 14.5 Performance Considerations
 
 | # | Area | Issue |
-|---|------|-------|
+| --- | ------ | ------- |
 | 19 | Assignment hierarchy | `get_assignment_hierarchy` builds the full nested response via multiple sequential queries — no eager loading or joins used. For large workflows, this could be slow. |
 | 20 | Progress calculation | `calculate_progress` is called per-item in paginated list — N+1 query pattern |
 | 21 | Template cascade delete | `delete_workflow` runs separate DELETE queries for each level (stages, steps, tasks) instead of using a single cascaded operation |
@@ -1151,7 +1201,7 @@ Comprehensive endpoint mapping covering all 14 API domains (auth, users, documen
 ## 15. Summary Statistics
 
 | Metric | Count |
-|--------|-------|
+| -------- | ------- |
 | **Database tables** | 18 |
 | **SQLAlchemy models** | 18 |
 | **Pydantic schemas** | ~50 |
@@ -1168,7 +1218,7 @@ Comprehensive endpoint mapping covering all 14 API domains (auth, users, documen
 ### Enum Value Reference
 
 | Enum | Values |
-|------|--------|
+| ------ | -------- |
 | `WorkflowStatus` | `draft`, `active`, `archived` |
 | `AssignmentStatus` | `draft`, `active`, `in_progress`, `completed`, `on_hold`, `cancelled` |
 | `StageStatus` (assignment) | `not_started`, `in_progress`, `completed` |

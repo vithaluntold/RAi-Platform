@@ -1,5 +1,10 @@
 """
-Agent Service - business logic for agent CRUD, task linking, and execution
+Agent Service — business logic for agent CRUD, task linking, and execution.
+
+Provider abstraction:
+  The service layer is provider-agnostic.  It stores whatever backend_config
+  the caller sends, tagged with provider_type + backend_provider so the
+  runtime dispatch layer (future) can route to Azure / LLMLite / hybrid.
 """
 import uuid
 from datetime import datetime
@@ -7,7 +12,7 @@ from typing import Optional
 from sqlalchemy.orm import Session
 
 from app.models.agent import (
-    Agent, AgentType, AgentStatus,
+    Agent, AgentType, AgentStatus, ProviderType,
     WorkflowTaskAgent,
     AssignmentTaskAgent, AgentAssignmentStatus,
     AgentExecution, ExecutionStatus,
@@ -26,12 +31,21 @@ class AgentService:
         except ValueError:
             agent_type_enum = AgentType.CUSTOM
 
+        provider_type_value = payload.get("provider_type", "external")
+        try:
+            provider_type_enum = ProviderType(provider_type_value)
+        except ValueError:
+            provider_type_enum = ProviderType.EXTERNAL
+
         agent = Agent(
             name=payload["name"],
             description=payload.get("description"),
+            version=payload.get("version", "1.0.0"),
             agent_type=agent_type_enum,
+            provider_type=provider_type_enum,
             backend_provider=payload.get("backend_provider", "azure"),
             backend_config=payload.get("backend_config"),
+            external_url=payload.get("external_url"),
             capabilities=payload.get("capabilities"),
             input_schema=payload.get("input_schema"),
             output_schema=payload.get("output_schema"),
@@ -55,6 +69,8 @@ class AgentService:
         db: Session,
         agent_type: Optional[str] = None,
         status: Optional[str] = None,
+        provider_type: Optional[str] = None,
+        backend_provider: Optional[str] = None,
     ) -> list:
         """List agents with optional filters"""
         query = db.query(Agent)
@@ -68,6 +84,13 @@ class AgentService:
                 query = query.filter(Agent.status == AgentStatus(status))
             except ValueError:
                 pass
+        if provider_type:
+            try:
+                query = query.filter(Agent.provider_type == ProviderType(provider_type))
+            except ValueError:
+                pass
+        if backend_provider:
+            query = query.filter(Agent.backend_provider == backend_provider)
         return query.order_by(Agent.name).all()
 
     @staticmethod
@@ -77,7 +100,8 @@ class AgentService:
         if not agent:
             return None
 
-        for field in ["name", "description", "backend_provider", "backend_config",
+        for field in ["name", "description", "version", "backend_provider",
+                       "backend_config", "external_url",
                        "capabilities", "input_schema", "output_schema"]:
             if field in payload and payload[field] is not None:
                 setattr(agent, field, payload[field])
@@ -85,6 +109,12 @@ class AgentService:
         if "agent_type" in payload and payload["agent_type"] is not None:
             try:
                 agent.agent_type = AgentType(payload["agent_type"])
+            except ValueError:
+                pass
+
+        if "provider_type" in payload and payload["provider_type"] is not None:
+            try:
+                agent.provider_type = ProviderType(payload["provider_type"])
             except ValueError:
                 pass
 

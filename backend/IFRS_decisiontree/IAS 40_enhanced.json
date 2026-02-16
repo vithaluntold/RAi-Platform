@@ -1,0 +1,811 @@
+{
+  "title": "Investment Property (IAS 40) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 40",
+      "title": "Investment property",
+      "description": "Checklist for presentation and disclosure requirements under IAS 40.",
+      "items": [
+        {
+          "id": "426",
+          "section": "IAS 40",
+          "reference": "IAS 40.84E(b)",
+          "question": "Did the entity apply the Amendments to IAS 40 – Transfers of Investment Property at the date of initial application?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If an entity reclassifies property at the date of initial application of Amendments to IAS 40 – Transfers of Investment Property, does it disclose the amounts reclassified to, or from, investment property in accordance with paragraph 84C as part of the reconciliation of the carrying amount of investment property at the beginning and end of the period as required by paragraphs 76 and 79?",
+          "decision_tree": {
+            "question": "Did the entity apply the Amendments to IAS 40 – Transfers of Investment Property at the date of initial application?",
+            "guidance": "Review the entity's accounting policies and financial statement notes for disclosures regarding the application of Amendments to IAS 40. Check whether the entity has explicitly referred to the date of initial application and whether there was any mention of reclassification events involving investment property.",
+            "yes_case": {
+              "question": "Did the entity reclassify property to or from investment property at the date of initial application?",
+              "guidance": "Examine the reconciliation required by IAS 40 paragraphs 76 and 79. Verify whether there is any movement involving reclassification of property to or from investment property. Look for specific references in the financial statements to reclassification events.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amounts reclassified to or from investment property in accordance with IAS 40 paragraph 84C as part of the reconciliation of the carrying amount of investment property at the beginning and end of the period?",
+                "guidance": "Ensure the entity's financial statement provides a complete reconciliation in line with IAS 40 paragraphs 76 and 79, including clear disclosure of reclassification amounts per paragraph 84C. Refer to the reconciliation tables and notes accompanying investment property disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "427.1",
+          "section": "IAS 40",
+          "reference": "IAS 40.75(a)",
+          "question": "Does the entity hold investment property?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose whether it applies the fair value model or the cost model?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property?",
+            "guidance": "Refer to the entity's balance sheet and notes to the financial statements, specifically under IAS 40. Investment property typically includes land or buildings held for rental income or capital appreciation, not for use in production or administrative purposes nor for sale in ordinary business operations.",
+            "yes_case": {
+              "question": "Does the entity disclose the accounting model it applies for its investment property (fair value model or cost model)?",
+              "guidance": "Review the accounting policies note in the financial statements, which should explicitly state the chosen model for measuring investment property in accordance with IAS 40.75(a). Ensure the disclosure is clear, complete, and consistent throughout the statements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "427.2",
+          "section": "IAS 40",
+          "reference": "IAS 40.75(b)",
+          "question": "Does the entity hold property that could be classified as investment property, owner-occupied property, or property held for sale in the ordinary course of business?",
+          "question_type": "Followup",
+          "source_question": "427.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If classification is difficult, does the entity disclose the criteria it uses to distinguish investment property from owner-occupied property and from property held for sale in the ordinary course of business?",
+          "decision_tree": {
+            "question": "Does the entity hold property that could be classified as investment property, owner-occupied property, or property held for sale in the ordinary course of business?",
+            "guidance": "Review the entity's financial statements and accounting policies to identify properties held by the entity. Refer to IAS 40.5-7 for definitions: Investment property is held to earn rentals or for capital appreciation. Owner-occupied property is used in production or administration. Property held for sale refers to inventories under IFRS 5.",
+            "yes_case": {
+              "question": "Is it difficult to classify the held property into one of these categories: investment property, owner-occupied property, or property held for sale?",
+              "guidance": "Evaluate the classification criteria used by the entity. Difficulty in classification may arise in mixed-use properties or properties being transitioned for a new purpose. Refer to IAS 40.75 for cases and criteria. Common pitfalls include lack of clear classification policies.",
+              "yes_case": {
+                "question": "Does the entity disclose the criteria it uses to distinguish investment property, owner-occupied property, and property held for sale?",
+                "guidance": "Verify disclosures in the accounting policies section or notes to the financial statements. The criteria should sufficiently describe how classifications are determined under IAS 40.75(b). Look for missing clarity or inconsistency across the presented disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "427.3",
+          "section": "IAS 40",
+          "reference": "IAS 40.75(c)",
+          "question": "Does the entity hold investment property classified under IAS 40?",
+          "question_type": "Followup",
+          "source_question": "427.1",
+          "source_trigger": "Yes",
+          "context_required": "full",
+          "original_question": "Does the entity disclose the fair value measurement disclosures required by IFRS 13?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property classified under IAS 40?",
+            "guidance": "Review the entity's financial statements and supporting documents to identify any property classified as investment property. Check recognition criteria in IAS 40 paragraphs 5-15 to ensure the property meets the definition of investment property. Common pitfalls include misclassification of owner-occupied property or property held for sale.",
+            "yes_case": {
+              "question": "Does the entity measure investment property at fair value as per IAS 40 or disclose fair value when using the cost model?",
+              "guidance": "Verify whether the entity uses the fair value model or the cost model for subsequent measurement of investment properties. Refer to IAS 40 paragraphs 30-32 for fair value model requirements and paragraph 79(e) for fair value disclosure requirements under the cost model. Ensure the fair value is determined in accordance with IFRS 13.",
+              "yes_case": {
+                "question": "Does the entity include all fair value measurement disclosures required by IFRS 13?",
+                "guidance": "Review the notes to the financial statements and identify disclosures related to fair value measurement (e.g., valuation techniques, input levels, sensitivity analysis). Consult IFRS 13 paragraphs 91-99 for requirements, including the hierarchy level of inputs and methods used. Ensure completeness and compliance with disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "427.4",
+          "section": "IAS 40",
+          "reference": "IAS 40.75(d)",
+          "question": "Does the entity hold investment property?",
+          "question_type": "Followup",
+          "source_question": "427.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the extent to which the fair value of investment property is based on a valuation by an independent valuer with a recognised professional qualification and recent experience in the location and category of the property?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property?",
+            "guidance": "Review the entity's Statement of Financial Position and accompanying notes for any assets classified as 'investment property' under IAS 40. Investment property is property held to earn rentals or for capital appreciation, rather than for use in the production of goods/services or sale in the ordinary course of business.",
+            "yes_case": {
+              "question": "Does the entity measure investment property at fair value?",
+              "guidance": "Check the accounting policy disclosed in the notes to the financial statements. IAS 40 includes two measurement models: cost and fair value. The fair value model must disclose the fair value of the property, even if calculated internally.",
+              "yes_case": {
+                "question": "Is the disclosed fair value of investment property based on a valuation by an independent valuer with recognised professional qualifications and recent experience in the location and category of the property?",
+                "guidance": "Review the disclosure notes for information about the valuer. The notes should specify whether an independent valuer was used, their qualifications, and confirmation of experience relevant to the specific type and location of the property. If absent, the fair value may not comply with IAS 40.75(d).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "427.5",
+          "section": "IAS 40",
+          "reference": "IAS 40.75(e)",
+          "question": "Has the entity obtained a valuation of investment property by an independent valuer during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "427.4",
+          "source_trigger": "No",
+          "context_required": "notes_only",
+          "original_question": "If there is no valuation by an independent valuer as described, does the entity disclose that fact?",
+          "decision_tree": {
+            "question": "Has the entity obtained a valuation of investment property by an independent valuer during the reporting period?",
+            "guidance": "Review the entity's notes and disclosures related to investment property in the financial statements. Look for explicit references to valuation reports and confirm whether the valuation was performed by an independent valuer. Independent valuers are external professionals with relevant qualifications and experience in property valuation. Common pitfalls: Ensure the valuer is not associated with the entity to avoid conflicts of interest.",
+            "yes_case": {
+              "question": "Does the entity disclose the fact that the valuation was performed by an independent valuer?",
+              "guidance": "Check the disclosure notes under IAS 40.75(e). Confirm whether the entity specifies that the valuation was performed by an independent valuer. This should include details such as the name of the valuer or the valuer’s qualification. Ensure that the disclosure aligns with IAS 40 requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": {
+              "question": "Does the entity disclose the fact that no valuation by an independent valuer was performed?",
+              "guidance": "Review the disclosure notes related to investment property. If no valuation was performed, IAS 40.75(e) requires the entity to explicitly state this fact in the financial statements. Avoid overlooking this disclosure even if no valuation occurred.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            }
+          }
+        },
+        {
+          "id": "427.6",
+          "section": "IAS 40",
+          "reference": "IAS 40.75(f)",
+          "question": "Does the entity hold any investment property?",
+          "question_type": "Followup",
+          "source_question": "427.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amounts included in profit or loss for rental income from investment property?",
+          "decision_tree": {
+            "question": "Does the entity hold any investment property?",
+            "guidance": "Review the Statement of Financial Position and relevant notes to identify whether the entity has classified any assets as investment property under IAS 40. Investment property includes properties held to earn rentals or for capital appreciation. Common pitfalls: ensure properties held for owner-occupation or internal use are not classified as investment property.",
+            "yes_case": {
+              "question": "Does the entity recognize rental income from its investment property in profit or loss?",
+              "guidance": "Review the Statement of Profit or Loss and corresponding notes. Confirm whether rental income generated from investment property is separately recognized. Check for misclassification of income sources or absence of disclosure despite holding investment property.",
+              "yes_case": {
+                "question": "Does the entity disclose the amounts included in profit or loss for rental income from investment property, as required under IAS 40.75(f)?",
+                "guidance": "Review the financial statement notes related to investment properties. IAS 40.75(f) requires disclosure of rental income earned from investment property. Check if rental income is stated explicitly and ensure it is not consolidated with other income categories inappropriately.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "427.7",
+          "section": "IAS 40",
+          "reference": "IAS 40.75(g)",
+          "question": "Does the entity hold any investment property?",
+          "question_type": "Followup",
+          "source_question": "427.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the existence and amounts of restrictions on the realisability of investment property or on the remittance of income and proceeds of disposal?",
+          "decision_tree": {
+            "question": "Does the entity hold any investment property?",
+            "guidance": "Refer to the entity's Statement of Financial Position and accompanying notes. Investment property is defined in IAS 40 as property held for rental income or capital appreciation. Confirm its existence, classification, and recognition.",
+            "yes_case": {
+              "question": "Are there restrictions on the realisability of the investment property or on the remittance of income and proceeds of disposal?",
+              "guidance": "Review lease agreements, regulatory guidelines, and legal restrictions. Look for contractual clauses restricting sale or transfer, or limitations on income remittance (e.g., foreign exchange controls or tenant restrictions). Cross-check this information with disclosures in the financial statements.",
+              "yes_case": {
+                "question": "Does the entity disclose the existence and amounts of these restrictions in accordance with IAS 40.75(g)?",
+                "guidance": "Check the notes accompanying the financial statements. Disclosures under IAS 40.75(g) should provide details of restrictions, including amounts affected, nature of restrictions, and their impact on financial reporting. Verify that the disclosure is clear and complete without omission.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "427.8",
+          "section": "IAS 40",
+          "reference": "IAS 40.75(h)",
+          "question": "Does the entity hold any investment property?",
+          "question_type": "Followup",
+          "source_question": "427.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose its contractual obligations to purchase, construct or develop investment property or for repairs, maintenance or enhancements?",
+          "decision_tree": {
+            "question": "Does the entity hold any investment property?",
+            "guidance": "Refer to the Statement of Financial Position and Review IAS 40 definitions. Investment property is property held to earn rentals or for capital appreciation. Check whether any property is classified as investment property under IAS 40.",
+            "yes_case": {
+              "question": "Does the entity have any contractual obligations related to investment property (e.g., obligations to purchase, construct, develop, repair, maintain, or enhance investment property)?",
+              "guidance": "Examine contracts, agreements, or purchase orders related to investment property. Pay special attention to any future promises to expend resources related to investment property as required per IAS 40.75(h).",
+              "yes_case": {
+                "question": "Are the contractual obligations disclosed adequately in the notes to the financial statements?",
+                "guidance": "Check whether the relevant disclosures include a description of the contractual obligations and sufficient details about the timing, amount, and nature of these obligations. Confirm compliance with IAS 40.75(h).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "428.1",
+          "section": "IAS 40",
+          "reference": "IAS 40.76(a)",
+          "question": "Does the entity hold investment property?",
+          "question_type": "Followup",
+          "source_question": "427.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the entity applies the fair value model, does it reconcile additions (disclosing separately those from acquisitions and those from subsequent expenditure)?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property?",
+            "guidance": "Review the financial statements, specifically the Statement of Financial Position and accompanying notes. Investment property is typically classified as property held to earn rentals or for capital appreciation. Ensure the entity has such assets recognized under IAS 40.",
+            "yes_case": {
+              "question": "Does the entity apply the fair value model for its investment property?",
+              "guidance": "Refer to the notes to the financial statements under the accounting policies. The fair value model requires investment property to be measured at fair value after initial recognition, with changes in fair value recognized in profit or loss. Check IAS 40.30 for confirmation.",
+              "yes_case": {
+                "question": "Does the entity reconcile additions to investment property, disclosing separately those from acquisitions and those from subsequent expenditure?",
+                "guidance": "Examine the disclosures related to investment property in the financial statements. Specifically, check if the entity provides a reconciliation of additions, with separate disclosure of acquisitions (e.g., purchases, business combinations) and subsequent expenditures (e.g., improvements). This requirement is outlined in IAS 40.76(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "428.2",
+          "section": "IAS 40",
+          "reference": "IAS 40.76(b)",
+          "question": "Does the entity own or manage investment property under IAS 40?",
+          "question_type": "Followup",
+          "source_question": "428.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include additions resulting from acquisitions through business combinations?",
+          "decision_tree": {
+            "question": "Does the entity own or manage investment property under IAS 40?",
+            "guidance": "Refer to the financial statements and accounting policies. Investment property is defined in IAS 40 as property (land or a building) held to earn rentals or for capital appreciation, or both. Review the statement of financial position and footnotes to confirm if any assets are classified as investment property.",
+            "yes_case": {
+              "question": "Has the entity performed a reconciliation of changes in the carrying amount of investment property as required by IAS 40.76?",
+              "guidance": "Inspect the disclosures on investment property in the notes to the financial statements. IAS 40.76 requires a reconciliation that includes changes such as additions, disposals, fair value adjustments, and acquisitions through business combinations.",
+              "yes_case": {
+                "question": "Does the reconciliation include additions resulting from acquisitions through business combinations?",
+                "guidance": "Verify the reconciliation table for investment property disclosures. It must explicitly include any additions resulting from acquisitions through business combinations, typically disclosed under the movements in carrying amounts during the reporting period. Cross-check against the acquisition-related disclosures (e.g., IFRS 3). Missing information on this aspect raises compliance concerns.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "428.3",
+          "section": "IAS 40",
+          "reference": "IAS 40.76(c)",
+          "question": "Does the entity own investment property as defined under IAS 40?",
+          "question_type": "Followup",
+          "source_question": "428.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include assets classified as held for sale or included in a disposal group classified as held for sale under IFRS 5, and other disposals?",
+          "decision_tree": {
+            "question": "Does the entity own investment property as defined under IAS 40?",
+            "guidance": "Review the entity's Statement of Financial Position and supporting notes. Investment property is typically land or buildings held to earn rentals or for capital appreciation, rather than for use in the production, supply of goods/services, or administration, or sale in the ordinary course of operations. Confirm classification against IAS 40.5.",
+            "yes_case": {
+              "question": "Has the entity classified any investment property as held for sale or as part of a disposal group under IFRS 5?",
+              "guidance": "Check the entity's disclosures under IFRS 5 and IAS 40. Look for references to property being held for sale, especially where active plans exist to sell the asset or group within a year. IFRS 5 defines criteria for held-for-sale classification in paragraphs 6–9. Ensure plans align with these criteria.",
+              "yes_case": {
+                "question": "Does the reconciliation of investment property include assets classified as held for sale or included in a disposal group classified as held for sale under IFRS 5, and other disposals?",
+                "guidance": "Review the reconciliation provided for investment properties in the notes to the financial statements. IAS 40.76(c) requires a reconciliation showing changes during the period, including transfers to/from held-for-sale classification under IFRS 5 and disposals. Ensure proper segregation and clear disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "428.4",
+          "section": "IAS 40",
+          "reference": "IAS 40.76(d)",
+          "question": "Does the entity hold investment property measured at fair value?",
+          "question_type": "Followup",
+          "source_question": "428.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include net gains or losses from fair value adjustments?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property measured at fair value?",
+            "guidance": "Review the accounting policy note and the Statement of Financial Position. Check if investment property is recognized in accordance with IAS 40 and whether the entity has chosen the fair value model for measurement of investment property.",
+            "yes_case": {
+              "question": "Does the entity provide a reconciliation of the carrying amount of investment property, as required by IAS 40.76(d)?",
+              "guidance": "Examine the Notes to the Financial Statements related to investment property. The reconciliation should include the opening balance, additions, disposals, and adjustments (such as transfers and fair value changes). Ensure the reconciliation complies with the requirements of IAS 40.76(d).",
+              "yes_case": {
+                "question": "Does the reconciliation include net gains or losses from fair value adjustments?",
+                "guidance": "Inspect the reconciliation details in the Notes to the Financial Statements. Confirm that net gains or losses on fair value adjustments are expressly disclosed within the reconciliation, as required by IAS 40.76(d). Pay close attention to accuracy and completeness of disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "428.5",
+          "section": "IAS 40",
+          "reference": "IAS 40.76(e)",
+          "question": "Does the entity own investment property as defined in IAS 40?",
+          "question_type": "Followup",
+          "source_question": "428.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include the net exchange differences arising on translation into a different presentation currency and on translation of a foreign operation?",
+          "decision_tree": {
+            "question": "Does the entity own investment property as defined in IAS 40?",
+            "guidance": "Review the entity's financial statements and accounting policies for references to IAS 40. Investment property is defined as property held (by the owner or right-of-use asset holder) to earn rentals or for capital appreciation. Exclude owner-occupied property and property held for sale in the ordinary course of business.",
+            "yes_case": {
+              "question": "Does the entity prepare a reconciliation of changes in investment property as required by IAS 40.76?",
+              "guidance": "Verify whether the entity's financial statements provide a reconciliation schedule for investment property. This should include changes in carrying amounts such as acquisitions, disposals, fair value adjustments, and transfers.",
+              "yes_case": {
+                "question": "Does the reconciliation include the net exchange differences arising on translation into a different presentation currency and on translation of a foreign operation, as per IAS 40.76(e)?",
+                "guidance": "Examine the reconciliation schedule of investment property in the financial statements. Look for explicit disclosure of net exchange differences related to translation into a different presentation currency and translation of foreign operations. Ensure compliance with IAS 40.76(e) by confirming those disclosures are complete and properly presented.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "428.6",
+          "section": "IAS 40",
+          "reference": "IAS 40.76(f)",
+          "question": "Does the entity own investment properties as defined under IAS 40?",
+          "question_type": "Followup",
+          "source_question": "428.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include transfers to and from inventories and owner-occupied property?",
+          "decision_tree": {
+            "question": "Does the entity own investment properties as defined under IAS 40?",
+            "guidance": "Review the Statement of Financial Position and accompanying notes. Investment property is property held to earn rentals or for capital appreciation. It must not be owner-occupied or held for sale in the ordinary course of business. Verify the classification aligns with IAS 40.5.",
+            "yes_case": {
+              "question": "Does the entity prepare a reconciliation of carrying amounts of investment property as required by IAS 40.76?",
+              "guidance": "Check the notes to the financial statements. IAS 40.76 requires entities to disclose a reconciliation of the carrying amounts of investment properties. This includes additions, disposals, changes from revaluation, and transfers. Ensure the reconciliation is included in the disclosures and clearly presented.",
+              "yes_case": {
+                "question": "Does the reconciliation include transfers to and from inventories and owner-occupied property as required by IAS 40.76(f)?",
+                "guidance": "Review the reconciliation in the notes to the financial statements under Investment Property. Ensure that transfers to/from inventories and owner-occupied property are properly disclosed, as required by IAS 40.76(f). Such transfers typically occur due to changes in usage or intentions regarding the property.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "428.7",
+          "section": "IAS 40",
+          "reference": "IAS 40.76(g)",
+          "question": "Does the entity hold investment property accounted for under IAS 40?",
+          "question_type": "Followup",
+          "source_question": "428.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include other changes?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property accounted for under IAS 40?",
+            "guidance": "Review the entity's financial statements, particularly the Statement of Financial Position and accompanying Notes. Look for disclosures or line items indicating 'Investment Property'. Verify that the accounting policy explicitly states treatment under IAS 40. Common mistakes include misclassification of property intended for sale as Investment Property or failure to adopt IAS 40 when required.",
+            "yes_case": {
+              "question": "Does the entity provide a reconciliation of changes in the carrying amount of investment property, as required by IAS 40.76?",
+              "guidance": "Inspect the Notes to the Financial Statements. The reconciliation should detail opening balance, additions, disposals, revaluations, transfers, depreciation (if applicable), and other changes. Common omission is failure to include all required categories or present revaluations separately.",
+              "yes_case": {
+                "question": "Does the reconciliation include other changes as required under IAS 40.76(g)?",
+                "guidance": "Ensure the reconciliation includes any other changes affecting the carrying amount of investment property, such as effects of foreign exchange movements or changes in measurement model (e.g., from cost model to fair value model). Verify that these items are clearly identified and quantified in the reconciliation table.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "429.1",
+          "section": "IAS 40",
+          "reference": "IAS 40.77(a)",
+          "question": "Does the entity hold investment property in its financial statements?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity adjusts a valuation obtained for investment property, does it reconcile between the valuation obtained and the adjusted valuation, showing the aggregate amount of recognized lease liabilities that have been added back?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property in its financial statements?",
+            "guidance": "Review the entity's financial statements and notes, particularly the Statement of Financial Position and the Investment Property disclosures under IAS 40. Investment property typically includes property held to earn rentals or for capital appreciation. Common pitfalls: ensure the property is not classified as owner-occupied or inventory.",
+            "yes_case": {
+              "question": "Does the entity obtain valuations for its investment properties?",
+              "guidance": "Confirm whether valuations are obtained either externally (e.g., independent appraisers) or internally (using qualified personnel). Check for disclosures about valuation methods and frequency in the notes to the financial statements under IAS 40.75.",
+              "yes_case": {
+                "question": "Does the entity adjust the valuation obtained for investment property?",
+                "guidance": "Review whether any adjustment has been made to the valuation obtained. Adjustments may include, for instance, adding back recognized lease liabilities to the valuation amount. Cross-reference disclosures in the notes to IAS 40.77 to identify any stated adjustments.",
+                "yes_case": {
+                  "question": "Does the entity reconcile between the valuation obtained and the adjusted valuation, showing the aggregate amount of recognized lease liabilities added back?",
+                  "guidance": "Verify whether the financial statements or notes include a reconciliation under IAS 40.77(a) between the valuation obtained and the adjusted valuation. The disclosure should show all adjustments, including the aggregate amount of recognized lease liabilities added back, if applicable. Ensure reconciling items match the valuation adjustment details.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "429.2",
+          "section": "IAS 40",
+          "reference": "IAS 40.77(b)",
+          "question": "Does the entity own or lease investment property?",
+          "question_type": "Followup",
+          "source_question": "429.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation show any other significant adjustments?",
+          "decision_tree": {
+            "question": "Does the entity own or lease investment property?",
+            "guidance": "Review the entity's Statement of Financial Position and related notes. Investment property is typically classified separately and defined under IAS 40. It includes property held for rental income or capital appreciation. Verify references to IAS 40 compliance within the notes.",
+            "yes_case": {
+              "question": "Does the entity measure investment property at fair value at the reporting date or cost (with fair value disclosed)?",
+              "guidance": "Check IAS 40 guidelines in the accounting policies section of the entity's financial statements. Fair value measurement involves valuation techniques as per IFRS 13, while cost measurement should include fair value disclosures. Ensure such information is clearly stated in both recognition and measurement notes.",
+              "yes_case": {
+                "question": "Does the entity provide a reconciliation of the carrying amounts of investment property at the beginning and end of the period?",
+                "guidance": "Review IAS 40.76-77 for reconciliation requirements. The reconciliation should include additions, disposals, transfers, and fair value adjustments. Locate this disclosure in the notes accompanying the financial statements.",
+                "yes_case": {
+                  "question": "Does the reconciliation show any other significant adjustments?",
+                  "guidance": "Examine the reconciliation details in the notes. 'Significant adjustments' might involve errors, reclassifications, or other material changes. Ensure these are explained sufficiently according to IAS 40.77(b).",
+                  "yes_case": "COMPLIANT: NO",
+                  "no_case": "COMPLIANT: YES"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "430.1",
+          "section": "IAS 40",
+          "reference": "IAS 40.78(a)",
+          "question": "Does the entity hold investment property?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "In exceptional cases where fair value cannot be reliably measured and cost model is used, does the entity present a separate reconciliation under IAS 40.76 of the carrying amount at the beginning and end of the period for that property?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property?",
+            "guidance": "Check the entity’s financial statements, specifically the Statement of Financial Position and accompanying notes, to confirm if there are any assets classified as investment property under IAS 40. Investment property is typically land or buildings held for rental income or capital appreciation.",
+            "yes_case": {
+              "question": "Does the entity use the cost model to measure investment property?",
+              "guidance": "Review the accounting policy section in the financial statements or notes for investment property. The cost model is applied when fair value cannot be reliably measured. Confirm if fair value measurement is not feasible and the entity explicitly states the use of the cost model.",
+              "yes_case": {
+                "question": "Does the entity present a separate reconciliation of the carrying amount of investment property at the beginning and end of the period, as required under IAS 40.76?",
+                "guidance": "Examine the notes to the financial statements related to investment property under IAS 40.76. The reconciliation should include additions, disposals, depreciation, impairment losses, changes in fair value (if any), and other movements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "430.2",
+          "section": "IAS 40",
+          "reference": "IAS 40.78(b)",
+          "question": "Does the entity own or lease any investment property as defined in IAS 40?",
+          "question_type": "Followup",
+          "source_question": "430.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity provide a description of the investment property?",
+          "decision_tree": {
+            "question": "Does the entity own or lease any investment property as defined in IAS 40?",
+            "guidance": "Check the Statement of Financial Position and related notes to identify if investment property is recognized. Investment property is typically property held to earn rentals or for capital appreciation, rather than for use in production/supply of goods or services or administrative purposes.",
+            "yes_case": {
+              "question": "Is the investment property disclosed in the financial statements appropriately classified under IAS 40?",
+              "guidance": "Review the notes to the financial statements to verify whether the entity classifies property held for rental income or capital appreciation as investment property. Ensure the classification aligns with IAS 40 definitions.",
+              "yes_case": {
+                "question": "Does the entity provide a description of the investment property in the financial statements?",
+                "guidance": "Examine the relevant sections in the notes to the financial statements. A description may include the nature, location, pending construction, or other distinguishing features of the investment property. Refer to IAS 40.78(b) for specific disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "430.3",
+          "section": "IAS 40",
+          "reference": "IAS 40.78(c)",
+          "question": "Does the entity hold any investment property?",
+          "question_type": "Followup",
+          "source_question": "430.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity explain why fair value cannot be measured reliably?",
+          "decision_tree": {
+            "question": "Does the entity hold any investment property?",
+            "guidance": "Check the Statement of Financial Position and notes to the financial statements for recognition of investment property. Review IAS 40 definitions to confirm if an asset qualifies as investment property.",
+            "yes_case": {
+              "question": "Is the investment property measured using the cost model instead of fair value model?",
+              "guidance": "Refer to the accounting policies section of the financial statements. If the fair value model is applied, fair values must be disclosed, and this question is not applicable. If the cost model is applied, IAS 40 requires disclosure of the inability to measure fair value reliably.",
+              "yes_case": {
+                "question": "Has the entity disclosed why the fair value of the investment property cannot be measured reliably?",
+                "guidance": "Review IAS 40.78(c). Ensure the financial statement notes explicitly explain the reason(s) fair value cannot be determined, such as the lack of reliable market data or comparable transactions. Common pitfalls include generic statements or incomplete justification.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "430.4",
+          "section": "IAS 40",
+          "reference": "IAS 40.78(d)",
+          "question": "Does the entity hold investment property measured at fair value under IAS 40?",
+          "question_type": "Followup",
+          "source_question": "430.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If possible, does the entity disclose the range of estimates within which fair value is highly likely to lie?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property measured at fair value under IAS 40?",
+            "guidance": "Review the entity's Statement of Financial Position and accounting policies in the Notes to the Financial Statements. Check if the entity holds property classified as 'investment property' and that it is measured at fair value rather than cost.",
+            "yes_case": {
+              "question": "Has the entity assessed the fair value of the investment property using significant estimation techniques?",
+              "guidance": "Examine the valuation methods described in the financial statement notes under IAS 40 disclosures. Check whether the fair value is determined using techniques requiring estimates, such as discounted cash flows or market comparables. Fair value directly observable or based on Level 1 inputs may not involve ranges of estimates.",
+              "yes_case": {
+                "question": "Has the entity disclosed the range of estimates within which the fair value of the investment property is highly likely to lie?",
+                "guidance": "Evaluate the notes to the financial statements. Ensure the range of estimates disclosure is presented, as required under IAS 40.78(d), when fair value measurements involve estimation uncertainty. The disclosure should include key judgments and assumptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "430.5",
+          "section": "IAS 40",
+          "reference": "IAS 40.78(e)",
+          "question": "Has the entity disposed of investment property during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "430.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "On disposal of investment property not carried at fair value, does the entity disclose the fact of disposal, the carrying amount at the time of sale, and the amount of gain or loss recognised?",
+          "decision_tree": {
+            "question": "Has the entity disposed of investment property during the reporting period?",
+            "guidance": "Refer to the notes and disclosures in the financial statements, specifically under IAS 40, paragraph 78. Check for transactions that involve investment property being sold or otherwise disposed of. Look for asset disposal records or related transaction notes.",
+            "yes_case": {
+              "question": "Was the disposed investment property NOT carried at fair value prior to disposal?",
+              "guidance": "Review the accounting policy for measurement of investment properties in the financial statements. Check if the property was carried at cost less accumulated depreciation and impairment losses, rather than at fair value. IAS 40 specifies this distinct treatment pre-disposal.",
+              "yes_case": {
+                "question": "Does the entity disclose the fact of disposal, the carrying amount at the time of sale, and the amount of gain or loss recognised?",
+                "guidance": "Inspect the disclosures under IAS 40.78(e) in the financial statements. Verify that the disposal is explicitly mentioned, the carrying amount is indicated at the time of disposal, and the gain or loss recognised is properly disclosed. These elements must be clear and complete.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "431.1",
+          "section": "IAS 40",
+          "reference": "IAS 40.79(a)",
+          "question": "Does the entity hold investment property?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity applies the cost model, does it disclose the depreciation methods used?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property?",
+            "guidance": "Review the financial statements, especially the non-current asset section, and accompanying disclosures for references to IAS 40. Investment property typically includes land or buildings held to earn rentals or for capital appreciation, not for use in production or administrative purposes. Ensure that the classification complies with IAS 40.",
+            "yes_case": {
+              "question": "Does the entity apply the cost model for investment property valuation?",
+              "guidance": "Review the accounting policy note regarding investment property in the financial statements. The cost model requires investment property to be measured at cost less accumulated depreciation and impairment, as per IAS 40.56. If fair value model is used instead, this checklist item is not applicable.",
+              "yes_case": {
+                "question": "Does the entity disclose the depreciation methods used for investment property as required by IAS 40.79(a)?",
+                "guidance": "Examine the notes to the financial statements under the section for investment property disclosures. Specifically, look for statements about the depreciation methods (e.g., straight-line, reducing balance). Ensure that the disclosure provides enough detail to understand how depreciation is calculated.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "431.2",
+          "section": "IAS 40",
+          "reference": "IAS 40.79(b)",
+          "question": "Does the entity hold any property classified as investment property under IAS 40?",
+          "question_type": "Followup",
+          "source_question": "431.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the useful lives or the depreciation rates used?",
+          "decision_tree": {
+            "question": "Does the entity hold any property classified as investment property under IAS 40?",
+            "guidance": "Review the entity's property holdings. Investment property is defined in IAS 40 as property (land or a building, or part of a building, or both) held to earn rentals or for capital appreciation, or both. Ensure the entity's classification of property is consistent with this definition.",
+            "yes_case": {
+              "question": "Does the entity apply the cost model for measuring investment property after initial recognition?",
+              "guidance": "Check the accounting policy Note disclosures or the financial statements under IAS 40. If the cost model is used, investment property is measured at cost less accumulated depreciation and impairment losses. If the fair value model is used instead, this question is 'Not Applicable'.",
+              "yes_case": {
+                "question": "Has the entity disclosed the useful lives or depreciation rates used for its investment property?",
+                "guidance": "Review the notes to the financial statements where accounting policies and disclosures related to investment property are provided. IAS 40.79(b) requires disclosure of the useful lives or depreciation rates used for assets measured under the cost model. Verify the disclosure is complete and specific (e.g., useful life ranges or percentages for depreciation rates).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "431.3",
+          "section": "IAS 40",
+          "reference": "IAS 40.79(c)",
+          "question": "Does the entity hold any investment property within its financial statements?",
+          "question_type": "Followup",
+          "source_question": "431.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the gross carrying amount and the accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period?",
+          "decision_tree": {
+            "question": "Does the entity hold any investment property within its financial statements?",
+            "guidance": "Review the statement of financial position and accompanying notes to identify if any property is classified as 'Investment Property' under IAS 40. Investment property refers to property held to earn rentals or for capital appreciation, not for use in production or administrative purposes.",
+            "yes_case": {
+              "question": "Is the investment property accounted for under the cost model (not the fair value model)?",
+              "guidance": "Examine the entity's accounting policy for investment property in the notes to the financial statements. Under IAS 40, entities can choose between the cost model (subsequent measurement at cost less depreciation and impairment) and the fair value model (measured at fair value). Ensure the entity reports its choice explicitly.",
+              "yes_case": {
+                "question": "Does the entity disclose the gross carrying amount and the accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period?",
+                "guidance": "Verify the disclosures in the notes to the financial statements related to investment property. IAS 40.79(c) requires the gross carrying amount (historical cost) and the accumulated depreciation and impairment to be disclosed for both the beginning and end of the reporting period. Common pitfalls: Ensure both gross amounts and aggregate depreciation/impairment are reported clearly.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "431.4",
+          "section": "IAS 40",
+          "reference": "IAS 40.79(d)",
+          "question": "Does the entity own or lease investment property as defined in IAS 40?",
+          "question_type": "Followup",
+          "source_question": "431.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose a reconciliation of the carrying amount at the beginning and end of the period, showing additions (disclosing separately those additions)?",
+          "decision_tree": {
+            "question": "Does the entity own or lease investment property as defined in IAS 40?",
+            "guidance": "Review the entity's balance sheet and notes to the financial statements. Investment property is property (land or a building—or part of a building—or both) held to earn rentals or for capital appreciation, rather than for use in production, supply of goods/services, or administrative purposes. Ensure that the classification is accurate and conforms to IAS 40.7.",
+            "yes_case": {
+              "question": "Is the investment property recognized in the financial statements as required under IAS 40?",
+              "guidance": "Check whether the investment property is accounted for following IAS 40. Investment property should be recognized when it is probable that future economic benefits will flow to the entity and its cost can be reliably measured (IAS 40.16). Common errors include unrecognized relevant properties or incorrect classification.",
+              "yes_case": {
+                "question": "Does the entity disclose a reconciliation of the carrying amount of investment property at the beginning and end of the period?",
+                "guidance": "Review the financial statement notes for IAS 40 disclosures. The reconciliation should show (at a minimum) additions, disposals, transfers, and other adjustments. Pay attention to the completeness and clarity of the disclosure, as required by IAS 40.79(d).",
+                "yes_case": {
+                  "question": "Does the reconciliation of the carrying amount separately disclose additions?",
+                  "guidance": "Verify that the reconciliation of additions explicitly identifies additions as a separate line item. Check for inconsistencies, omissions, or aggregated disclosures that may obscure required detail. Ensure compliance with IAS 40.79(d).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "431.5",
+          "section": "IAS 40",
+          "reference": "IAS 40.79(e)",
+          "question": "Does the entity own any investment property as defined under IAS 40?",
+          "question_type": "Followup",
+          "source_question": "431.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the fair value of investment property?",
+          "decision_tree": {
+            "question": "Does the entity own any investment property as defined under IAS 40?",
+            "guidance": "Review the entity's statement of financial position and relevant disclosures to confirm the existence of investment property. According to IAS 40.5, investment property is property held to earn rentals or for capital appreciation. Do not include property held for use in production or supply of goods/services or for administrative purposes, as this would be classified as PPE under IAS 16. Confirm classification under IAS 40 in the accounting policies.",
+            "yes_case": {
+              "question": "Is the investment property measured at fair value or under the cost model?",
+              "guidance": "Check the accounting policies disclosed in the entity's financial statements. If the investment property is measured at fair value, this is in line with paragraph 33 of IAS 40. If measured at cost, paragraph 79(e) requires disclosure of the fair value. Ensure you verify whether fair value measurement is explicitly referenced or denied for investment property in the disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose the fair value of its investment property in line with IAS 40.79(e)?",
+                "guidance": "Inspect the entity’s disclosures in the notes to the financial statements for the fair value of investment property. Confirm that the fair value is determined according to IFRS 13 standards, with significant assumptions and valuation techniques specified if applicable.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "Not Applicable, as fair value disclosure is not required if the entity measures investment property at fair value."
+            },
+            "no_case": "Not Applicable, as the entity does not own any investment property."
+          }
+        },
+        {
+          "id": "431.6",
+          "section": "IAS 40",
+          "reference": "IAS 40.79(f)",
+          "question": "Does the entity hold investment property covered under IAS 40?",
+          "question_type": "Followup",
+          "source_question": "431.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "In exceptional cases where fair value cannot be measured reliably, does the entity disclose a description of the property, an explanation of why fair value cannot be reliably measured, and if possible, the range of estimates within which fair value is highly likely to lie?",
+          "decision_tree": {
+            "question": "Does the entity hold investment property covered under IAS 40?",
+            "guidance": "Review the entity's financial statements and accounting policies to identify any property classified as investment property. Investment property can include land or buildings held to earn rentals or for capital appreciation, not for use in production or supply of goods or services or for sale in the ordinary course of business.",
+            "yes_case": {
+              "question": "Is the investment property measured at fair value as part of the entity’s accounting policy?",
+              "guidance": "Check the entity's accounting policy on investment property in the financial statements. Fair value measurement means the value is based on market conditions, not cost. Look for explicit references to the fair value model under IAS 40.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Is the fair value of the investment property not reliably measurable as per IAS 40?",
+                "guidance": "Consider whether the entity has provided sufficient evidence demonstrating that fair value cannot be reliably measured. This might include the absence of an active market, significant variability in comparable valuations, or lack of observable inputs.",
+                "yes_case": {
+                  "question": "Does the entity disclose: (1) a description of the property, (2) an explanation of why fair value cannot be reliably measured, and (3) a range of estimates within which fair value is highly likely to lie?",
+                  "guidance": "Review the financial statement notes covering the investment property. Verify the presence of disclosures addressing (1) the description of the property, (2) specific reasons why reliable measurement is not possible (e.g., lack of market activity), and (3) the range of estimates if applicable.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: N/A"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

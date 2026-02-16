@@ -1,0 +1,67 @@
+{
+  "title": "Interim Financial Reporting (IAS 34) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 34",
+      "title": "Interim Financial Reporting",
+      "description": "Checklist for presentation and disclosure requirements under IAS 34.",
+      "items": [
+        {
+          "id": "393.1",
+          "section": "IAS 34",
+          "reference": "IAS 34.26(a)",
+          "question": "Did the entity have a change in an estimate of an amount reported in a previous interim period during the final interim period of the financial year?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If an estimate of an amount reported in a previous interim period is changed significantly during the final interim period of the financial year, but a separate financial report is not published for that final interim period, has the nature of that change in estimate been disclosed in a note to the annual financial statements for that financial year?",
+          "decision_tree": {
+            "question": "Did the entity have a change in an estimate of an amount reported in a previous interim period during the final interim period of the financial year?",
+            "guidance": "Review interim financial reports and management records for the financial year. An estimate might involve areas such as provisions, fair value measurements, or actuarial assumptions. Verify if any adjustments were made to amounts previously reported during the final interim period.",
+            "yes_case": {
+              "question": "Was a separate financial report published for the final interim period of the financial year?",
+              "guidance": "Check whether the entity issued a specific interim financial report covering only the final interim period. Review publication records, regulatory announcements, or other communications indicating the release of such a report.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Has the nature of the change in estimate been disclosed in a note to the annual financial statements for that financial year?",
+                "guidance": "Inspect the notes to the annual financial statements. Look for sections discussing significant changes in accounting estimates, typically under provisions, fair value adjustments, or similar areas. Ensure the disclosure specifies the nature of the change, affected amounts, and underlying reasons.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "393.2",
+          "section": "IAS 34",
+          "reference": "IAS 34.26(b)",
+          "question": "Did the entity change a significant estimate reported in a previous interim period during the final interim period of the financial year?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "393.1",
+          "source_trigger": "Yes",
+          "original_question": "If an estimate of an amount reported in a previous interim period is changed significantly during the final interim period of the financial year, but a separate financial report is not published for that final interim period, has the amount of that change in estimate been disclosed in a note to the annual financial statements for that financial year?",
+          "decision_tree": {
+            "question": "Did the entity change a significant estimate reported in a previous interim period during the final interim period of the financial year?",
+            "guidance": "Review internal documentation and prior interim reports to identify estimates that were significantly revised in the final interim period. Focus on key financial areas such as inventory obsolescence, fair value adjustments, or provisions. Cross-check against prior interim disclosures to confirm if such changes occurred.",
+            "yes_case": {
+              "question": "Was a separate financial report published for the final interim period of the financial year?",
+              "guidance": "Check for the availability and public issuance of a financial report covering the final interim period. Verify publication dates and ensure it includes relevant financial disclosures for the last interim period.",
+              "yes_case": "COMPLIANT: N/A",
+              "no_case": {
+                "question": "Has the amount of the change in estimate been disclosed in a note to the annual financial statements for that financial year?",
+                "guidance": "Review the annual financial statements. Locate disclosure notes, typically in sections related to accounting estimates and judgments or significant changes in estimates. Ensure the change is explicitly stated along with the nature and financial impact.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

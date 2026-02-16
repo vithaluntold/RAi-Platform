@@ -23,6 +23,7 @@ const AGENT_TYPES = [
   { value: "search", label: "Search" },
   { value: "extraction", label: "Extraction" },
   { value: "validation", label: "Validation" },
+  { value: "compliance_analysis", label: "Compliance Analysis" },
   { value: "custom", label: "Custom" },
 ];
 
@@ -39,6 +40,7 @@ const typeBadge = (type: string) => {
     search: "bg-blue-50 text-blue-700 border-blue-200",
     extraction: "bg-amber-50 text-amber-700 border-amber-200",
     validation: "bg-emerald-50 text-emerald-700 border-emerald-200",
+    compliance_analysis: "bg-cyan-50 text-cyan-700 border-cyan-200",
     custom: "bg-gray-50 text-gray-700 border-gray-200",
   };
   return map[type] || map.custom;

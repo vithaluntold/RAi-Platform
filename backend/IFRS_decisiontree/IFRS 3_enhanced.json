@@ -1,0 +1,1762 @@
+{
+  "title": "IFRS 3 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 3",
+      "title": "Business Combinations",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 3.",
+      "items": [
+        {
+          "id": "152.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(a)-(e), IFRS 3.B66",
+          "question": "Has the entity entered into any business combinations during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the name of the acquiree for each business combination during the period?",
+          "decision_tree": {
+            "question": "Has the entity entered into any business combinations during the reporting period?",
+            "guidance": "Review the financial statements, management disclosures, or board minutes for transactions recognized as business combinations per IFRS 3. Check acquisition agreements or transaction records to confirm if any business combinations occurred during the reporting period.",
+            "yes_case": {
+              "question": "Has the entity disclosed the name of the acquiree for each business combination?",
+              "guidance": "Review the entity's notes to the financial statements, specifically the disclosures related to business combinations (IFRS 3.59, IFRS 3.B64(a)-(e)). The name of the acquiree should be clearly stated as part of the required details for each combination.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "152.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(a)-(e), IFRS 3.B66",
+          "question": "Did the entity complete any business combinations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity provided a description of the acquiree for each business combination during the period?",
+          "decision_tree": {
+            "question": "Did the entity complete any business combinations during the reporting period?",
+            "guidance": "Examine the financial statements, including the notes. Specifically, check for disclosures under IFRS 3, section B64(a)-(e), which outline disclosure requirements for business combinations. Ensure transactions meet the definition of a business combination as per IFRS 3 Appendix A.",
+            "yes_case": {
+              "question": "Has the entity disclosed a description of the acquiree for each business combination completed during the period?",
+              "guidance": "Review the disclosures related to business combinations in the notes to the financial statements. Verify that the entity provides a description of the acquiree, including its name, nature of operations, and other relevant contextual details as outlined in IFRS 3.59 and IFRS 3.B64(a)-(e). Ensure clarity and completeness of descriptions for all material combinations.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "152.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(a)-(e), IFRS 3.B66",
+          "question": "Has the entity engaged in any business combinations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquisition date for each business combination during the period?",
+          "decision_tree": {
+            "question": "Has the entity engaged in any business combinations during the reporting period?",
+            "guidance": "Review the financial statements and supporting documentation, particularly the notes on acquisitions and mergers. Look for transactions that meet the definition of a business combination under IFRS 3, which typically involve the acquisition of control over another entity or business.",
+            "yes_case": {
+              "question": "Has the entity disclosed the acquisition date for each business combination?",
+              "guidance": "Check the notes to the financial statements or specific disclosures related to IFRS 3. The acquisition date should be explicitly mentioned for each business combination. Ensure this date aligns with the definition in IFRS 3.59, i.e., the date when the acquirer obtains control of the acquiree.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "152.4",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(a)-(e), IFRS 3.B66",
+          "question": "Did the entity engage in any business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the percentage of voting equity interests acquired in each business combination?",
+          "decision_tree": {
+            "question": "Did the entity engage in any business combination during the reporting period?",
+            "guidance": "Review agreements, contracts, and disclosures in the financial statements for evidence of business combinations as per IFRS 3. These typically involve acquisitions of control over another entity or operations. Check transaction notes and legal documentation such as purchase or merger agreements to verify.",
+            "yes_case": {
+              "question": "Was the business combination finalized (i.e., control has been obtained and the transaction is completed)?",
+              "guidance": "Confirm the transaction completion date in line with IFRS 3 requirements. Review the date at which the entity obtained control as defined by IFRS 10 Consolidated Financial Statements.",
+              "yes_case": {
+                "question": "Has the entity disclosed the percentage of voting equity interests acquired in the business combination?",
+                "guidance": "Refer to IFRS 3.B64(a)-(b) and IFRS 3.A for disclosure requirements. Check the financial statements' notes to ensure the percentage of voting equity interests acquired has been clearly disclosed for each business combination.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "152.5",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(a)-(e), IFRS 3.B66",
+          "question": "Did the entity enter into one or more business combinations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity explained the primary reasons for each business combination and how control was obtained?",
+          "decision_tree": {
+            "question": "Did the entity enter into one or more business combinations during the reporting period?",
+            "guidance": "Review the financial statement disclosures and entity transactions during the reporting period. Business combinations typically involve acquiring control of one business by another. Check the notes to the financial statements and acquisition agreements.",
+            "yes_case": {
+              "question": "Has the entity explained the primary reasons for each business combination in its disclosure notes?",
+              "guidance": "Refer to IFRS 3.59 and IFRS 3.B64(a). Evaluate whether the notes to the financial statements include a clear narrative outlining the strategic or economic rationale behind each business combination. Ensure the explanation links to the objectives of the acquiring entity (e.g., expanding market share, accessing new technology, etc.).",
+              "yes_case": {
+                "question": "Has the entity explained how control was obtained for each business combination?",
+                "guidance": "Review IFRS 3.B64(e) and IFRS 3.B66. Examine the financial statement notes to confirm they describe the mechanisms of control acquisition (e.g., acquisition of equity, voting rights, contractual arrangements). Ensure sufficient detail is provided without being overly technical.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "152.6",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(a)-(e), IFRS 3.B66",
+          "question": "Has the entity completed a business combination under IFRS 3 during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity described the factors that make up the goodwill recognised (e.g., expected synergies, unrecognised intangibles or other factors)?",
+          "decision_tree": {
+            "question": "Has the entity completed a business combination under IFRS 3 during the reporting period?",
+            "guidance": "Review the financial statements and accounting policies for disclosures or transactions indicating a business combination (e.g., acquisition of another entity or asset group treated as a business under IFRS 3). Check notes to the financial statements, specifically sections detailing acquisitions or mergers. Ensure the transaction qualifies as a business combination per IFRS 3 definitions.",
+            "yes_case": {
+              "question": "Has the entity recognised goodwill as part of the business combination?",
+              "guidance": "Examine the business combination disclosures to determine if goodwill has been recognised. Goodwill arises when the total consideration exceeds the net fair value of identifiable assets and liabilities acquired in the business combination (refer to IFRS 3.32). Review key transaction details in IFRS 3 disclosures.",
+              "yes_case": {
+                "question": "Has the entity described the factors that make up the goodwill recognised, such as expected synergies, unrecognised intangibles, or other factors?",
+                "guidance": "Review the notes to the financial statements, specifically those related to the business combination and goodwill. Ensure the entity has provided sufficient detail as outlined in IFRS 3.59 and IFRS 3.B64(a)-(e). Descriptions should specify reasons for goodwill recognition, including expected benefits or other considerations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "153.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(f), IFRS 3.B66, IFRS 3.App.A",
+          "question": "Has the entity undertaken a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquisition-date fair value of the total consideration transferred?",
+          "decision_tree": {
+            "question": "Has the entity undertaken a business combination during the reporting period?",
+            "guidance": "Review the accounting records and disclosures to determine if a transaction qualifies as a business combination under IFRS 3. Verify that an acquirer has obtained control of one or more businesses. Refer to the definition of a business combination in IFRS 3 Appendix A and the guidance in IFRS 3.B5-B12. If no such transaction occurred, this checklist item is 'Not Applicable.'",
+            "yes_case": {
+              "question": "Has the entity determined the acquisition-date fair value of the total consideration transferred?",
+              "guidance": "Check the acquisition accounting under IFRS 3 to confirm if the entity has measured the consideration transferred at its acquisition-date fair value. This should include all payments made to the seller, including contingent consideration, in accordance with IFRS 3.37-39 and IFRS 3.B64(f).",
+              "yes_case": {
+                "question": "Has the entity disclosed the acquisition-date fair value of the total consideration transferred?",
+                "guidance": "Review the financial statements, particularly the disclosures related to business combinations. Confirm that the acquisition-date fair value of the transferred consideration is disclosed, as required by IFRS 3.59 and IFRS 3.B64(f). Ensure the disclosure includes sufficient detail for users to understand the valuation and its components.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "153.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(f), IFRS 3.B66, IFRS 3.App.A",
+          "question": "Did the entity complete a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquisition-date fair value of cash transferred?",
+          "decision_tree": {
+            "question": "Did the entity complete a business combination during the reporting period?",
+            "guidance": "Review the financial statements and accompanying notes for disclosures related to acquisitions. Check whether an acquisition is identified under IFRS 3. The acquisition is typically disclosed in sections such as 'Business Combinations' or similar headings in the notes to the financial statements.",
+            "yes_case": {
+              "question": "Was cash transferred by the entity as consideration in the business combination?",
+              "guidance": "Examine relevant acquisition-related notes and contracts. Look at the purchase agreements to determine if cash was part of the consideration transferred. Cross-check the acquisition-date fair value calculation under IFRS 3.",
+              "yes_case": {
+                "question": "Has the entity disclosed the acquisition-date fair value of the cash transferred?",
+                "guidance": "Refer to IFRS 3.59, IFRS 3.B64(f), and related guidance. Ensure that the disclosure identifies the exact acquisition-date fair value of the cash transferred as part of the total consideration. The disclosure should be detailed and presented within the note on 'Business Combinations'. Ensure no ambiguity about the valuation figure or its timing.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "153.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(f), IFRS 3.B66, IFRS 3.App.A",
+          "question": "Has the entity completed a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquisition-date fair value of other tangible or intangible assets transferred?",
+          "decision_tree": {
+            "question": "Has the entity completed a business combination during the reporting period?",
+            "guidance": "Review the entity's financial statements and disclosures for evidence of a business combination. Refer to contracts, agreements, and IFRS 3 definitions in Appendix A for clarification on whether the transaction meets the criteria of a business combination. Common pitfalls include misidentification of group restructurings that don't qualify as business combinations.",
+            "yes_case": {
+              "question": "Were any other tangible or intangible assets transferred as part of the business combination?",
+              "guidance": "Examine the purchase agreement, acquisition-related documentation, and IFRS 3.B64(f) disclosures. Check for any mention of transferred tangible or intangible assets beyond the primary identifiable assets acquired, liabilities incurred, or equity interests issued.",
+              "yes_case": {
+                "question": "Has the entity disclosed the acquisition-date fair value of the transferred tangible or intangible assets?",
+                "guidance": "Validate whether the financial statements disclose the fair value of all tangible and intangible assets transferred on the acquisition date, as required by IFRS 3.59 and IFRS 3.B66. Pay attention to whether the disclosure aligns with the definition and requirements outlined in the IFRS 3 Appendix and whether any omissions are noted.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "153.4",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(f), IFRS 3.B66, IFRS 3.App.A",
+          "question": "Has the entity completed a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquisition-date fair value of liabilities incurred (e.g., contingent consideration)?",
+          "decision_tree": {
+            "question": "Has the entity completed a business combination during the reporting period?",
+            "guidance": "Refer to the entity’s financial statements and its disclosures in the notes, specifically looking for any mention of transactions classified as business combinations under IFRS 3. Check the relevant transaction dates and ensure they fall within the reporting period.",
+            "yes_case": {
+              "question": "Did the business combination result in the recognition of liabilities incurred (e.g., contingent consideration) at acquisition date?",
+              "guidance": "Examine the entity’s accounting records and disclosures in the financial statements regarding the business combination. Verify whether liabilities, such as contingent consideration, were identified as part of the acquisition-date fair value calculation.",
+              "yes_case": {
+                "question": "Has the entity disclosed the acquisition-date fair value of the liabilities incurred (e.g., contingent consideration) in accordance with IFRS 3?",
+                "guidance": "Review the entity’s financial statement disclosures regarding the business combination. Specifically, inspect whether the acquisition-date fair value of such liabilities (e.g., contingent consideration) is disclosed as required by IFRS 3.59, IFRS 3.B64(f), and related provisions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "153.5",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(f), IFRS 3.B66, IFRS 3.App.A",
+          "question": "Did the entity undertake a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquisition-date fair value of equity interests issued or issuable, and how those were measured?",
+          "decision_tree": {
+            "question": "Did the entity undertake a business combination during the reporting period?",
+            "guidance": "Review the financial statements and management disclosures for indications of a business combination (e.g., acquisition of one company by another, forming part of IFRS 3 compliance). Check transaction agreements and disclosures, and ensure they align with the definition in IFRS 3 Appendix A.",
+            "yes_case": {
+              "question": "Were equity interests issued or issuable as part of the business combination's purchase consideration?",
+              "guidance": "Inspect the acquisition agreement or relevant disclosures for equity interests issued or committed to be issued as part of the consideration. Pay attention to IFRS 3.B64(f), which covers how equity interests must be disclosed when issued as part of the transaction.",
+              "yes_case": {
+                "question": "Has the entity disclosed the acquisition-date fair value of these equity interests and the measurement method used?",
+                "guidance": "Verify that the financial statements or accompanying notes disclose the fair value of equity interests at the acquisition date. Review IFRS 3.59 for the disclosure requirement and IFRS 3.B66 for guidance on measuring the fair value. Ensure the measurement method is clearly explained and aligns with IFRS 13 requirements for fair value measurement.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "154.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(g), IFRS 3.B66",
+          "question": "Did the entity acquire a business during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the amount recognised for each contingent consideration arrangement at the acquisition date?",
+          "decision_tree": {
+            "question": "Did the entity acquire a business during the reporting period?",
+            "guidance": "Review the financial statements for any mention of business combinations under IFRS 3. Check acquisitions disclosed in the notes section, particularly under 'Business Combinations' or related headings. Look for details in legally binding agreements or acquisition transaction statements.",
+            "yes_case": {
+              "question": "Did the acquisition involve any contingent consideration arrangements?",
+              "guidance": "Examine the acquisition agreements and IFRS 3 disclosures. Contingent consideration usually refers to additional payments or obligations dependent on future events or performance milestones (e.g., earn-outs). Verify this in the purchase agreements or notes accompanying financial statements.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount recognised for each contingent consideration arrangement at the acquisition date?",
+                "guidance": "Review the notes accompanying the business combination disclosures. Check IFRS 3.59 for specific disclosure requirements mentioning the contingent consideration amounts. Each arrangement must be clearly disclosed with details. Be cautious of missing, aggregated, or incorrectly classified disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "154.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(g), IFRS 3.B66",
+          "question": "Does the entity have a contingent consideration arrangement as part of a business combination?",
+          "question_type": "Followup",
+          "source_question": "154.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity described each contingent consideration arrangement and the basis for determining payment?",
+          "decision_tree": {
+            "question": "Does the entity have a contingent consideration arrangement as part of a business combination?",
+            "guidance": "Examine the entity's business combination agreements and disclosures, particularly in the notes to the financial statements. Review IFRS 3 to confirm definitions of contingent consideration, which refers to additional compensation dependent on future events or conditions. Look for references to payments contingent upon performance, milestones, or other criteria (IFRS 3.59, IFRS 3.B64(g)).",
+            "yes_case": {
+              "question": "Has the entity described each contingent consideration arrangement in its financial statement disclosures?",
+              "guidance": "Verify disclosures in accordance with IFRS 3.B64(g). Ensure that the arrangements are described explicitly and cover essential details, such as the triggering conditions, basis for payment amounts, and the time frame for realizing these conditions.",
+              "yes_case": {
+                "question": "Has the entity provided the basis for determining payments for contingent consideration?",
+                "guidance": "Review the disclosure to confirm compliance with IFRS 3.B66. This should include clear explanations on how payment amounts are calculated, including formulas, performance conditions, or methods used (e.g., fair value approach or probability assessments).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "154.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(g), IFRS 3.B66",
+          "question": "Does the entity have contingent consideration as part of a business combination under IFRS 3?",
+          "question_type": "Followup",
+          "source_question": "154.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity estimated the range of undiscounted outcomes for contingent consideration or, if not, disclosed that fact and the reasons?",
+          "decision_tree": {
+            "question": "Does the entity have contingent consideration as part of a business combination under IFRS 3?",
+            "guidance": "Review the business combination agreements and the purchase price allocation. Contingent consideration typically arises when part of the acquisition cost is dependent on future events or conditions being met. Refer to IFRS 3.39 and IFRS 3.57 for recognition guidance.",
+            "yes_case": {
+              "question": "Is the contingent consideration measured at fair value and recognized on the acquisition date?",
+              "guidance": "Check whether the contingent consideration is initially recognized at fair value as part of the purchase price allocation. Review IFRS 3.B64(g) for required disclosures about contingent consideration.",
+              "yes_case": {
+                "question": "Has the entity estimated the range of undiscounted outcomes for the contingent consideration?",
+                "guidance": "Inspect financial disclosures related to contingent consideration in the notes to the financial statements. IFRS 3.B64(g) specifies that entities should disclose a range of possible outcomes unless impracticable. Confirm whether this information is provided.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": {
+                  "question": "Has the entity disclosed that the range of undiscounted outcomes cannot be estimated, along with the reasons?",
+                  "guidance": "Check the notes to the financial statements for an explanation as required by IFRS 3.B64(g) and IFRS 3.B66. Ensure the reasons provided for non-disclosure are adequate and valid.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                }
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "154.4",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(g), IFRS 3.B66",
+          "question": "Does the entity have contingent consideration as part of a business combination?",
+          "question_type": "Followup",
+          "source_question": "154.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If the maximum contingent consideration payment is unlimited, has the entity disclosed that fact?",
+          "decision_tree": {
+            "question": "Does the entity have contingent consideration as part of a business combination?",
+            "guidance": "Review the terms of any business combinations detailed in the agreements and financial statements. Specifically, assess whether the purchase price includes contingent consideration, which is a future payment based on specific conditions. Refer to IFRS 3.59 and the related disclosures.",
+            "yes_case": {
+              "question": "Is the maximum contingent consideration payment unlimited?",
+              "guidance": "Check the contract or agreement for the business combination and any supporting disclosures. Determine if there is a stated cap or limit on contingent payments. If no limit exists, the payment is considered unlimited. Look for explicit phrasing indicating a lack of a maximum amount as per IFRS 3.B64(g) and IFRS 3.B66.",
+              "yes_case": {
+                "question": "Has the entity disclosed the fact that the maximum contingent consideration payment is unlimited?",
+                "guidance": "Review the financial statements, particularly the notes on business combinations and contingent consideration. Disclosures should explicitly state that the maximum payment is unlimited, as required by IFRS 3.59 and related guidance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "155.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(h), IFRS 3.B66",
+          "question": "Did the entity acquire another business during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the fair value of acquired receivables at the acquisition date?",
+          "decision_tree": {
+            "question": "Did the entity acquire another business during the reporting period?",
+            "guidance": "Review the notes to the financial statements and the entity's disclosures for acquisitions accounted under IFRS 3 Business Combinations. Check for references to acquisitions, merger agreements, or business purchase transactions within the reporting period.",
+            "yes_case": {
+              "question": "Did the business combination include the acquisition of receivables?",
+              "guidance": "Review the purchase agreement, acquisition-related disclosures, and supporting schedules prepared for IFRS 3 compliance (e.g., fair value allocation). Look specifically for any mention of acquired receivables at the acquisition date.",
+              "yes_case": {
+                "question": "Has the entity disclosed the fair value of acquired receivables at the acquisition date?",
+                "guidance": "Examine the financial statement disclosures relating to the acquisition, particularly notes and tables addressing the fair value allocation (refer to IFRS 3.59). Ensure the fair value of receivables is explicitly disclosed along with other identifiable acquired assets in the notes.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "155.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(h), IFRS 3.B66",
+          "question": "Has the entity completed a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "155.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the gross contractual amounts receivable acquired?",
+          "decision_tree": {
+            "question": "Has the entity completed a business combination during the reporting period?",
+            "guidance": "Verify the financial statement notes, particularly those referring to IFRS 3 Business Combinations. Look for disclosures about acquisitions, including references to purchase agreements or allocation of acquired assets and liabilities.",
+            "yes_case": {
+              "question": "Were receivables among the assets acquired in the business combination?",
+              "guidance": "Review the allocation of acquired assets (IFRS 3.B64). Receivables may include trade receivables, loans, or similar financial assets. Check acquisition-related schedules or notes for explicit mention of receivables.",
+              "yes_case": {
+                "question": "Has the entity disclosed the gross contractual amounts receivable acquired?",
+                "guidance": "Inspect the disclosures related to the business combination (IFRS 3.59, IFRS 3.B64(h)). The gross contractual amounts receivable refer to the total amount receivable before considering provisions for doubtful debts or credit adjustments. Ensure this information is visible and adequately detailed in the notes to the financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "155.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(h), IFRS 3.B66",
+          "question": "Does the entity recognize any receivables in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "155.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed its best estimate of contractual cash flows not expected to be collected, by major class of receivable?",
+          "decision_tree": {
+            "question": "Does the entity recognize any receivables in its financial statements?",
+            "guidance": "Review the Statement of Financial Position and notes to the financial statements for any recognized receivables. Receivables typically include trade receivables, loan receivables, or other financial assets. Ensure that these are recognized in accordance with IFRS 9.",
+            "yes_case": {
+              "question": "Has the entity disclosed information regarding expected credit losses or uncollectible contractual cash flows?",
+              "guidance": "Check the notes to the financial statements. The entity should disclose an estimate of cash flows not expected to be collected by major class of receivable, as required by IFRS 3.59 and IFRS 3.B64(h). Look for clear disclosure related to allowances for credit losses or any specific expectation for non-collection.",
+              "yes_case": {
+                "question": "Are the disclosed estimates of cash flows not expected to be collected adequately detailed by major class of receivable?",
+                "guidance": "Review the disclosure to ensure it categorizes expected credit losses by major class of receivable (e.g., trade receivables, loan receivables). IFRS 3.B66 requires enough granularity and transparency in information provided. Watch for vague or incomplete classifications.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "156.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(i), IFRS 3.B66",
+          "question": "Did the entity engage in a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquisition-date amounts recognised for each major class of assets acquired?",
+          "decision_tree": {
+            "question": "Did the entity engage in a business combination during the reporting period?",
+            "guidance": "Review entity records and financial statements, specifically the notes related to acquisitions, mergers, or similar transactions. Check for references to IFRS 3 or descriptions of a business combination event within the reporting period.",
+            "yes_case": {
+              "question": "Has the entity recognized the acquisition-date amounts for each major class of assets acquired as part of the business combination?",
+              "guidance": "Verify that the entity has identified and allocated acquisition-date fair values for assets acquired in accordance with IFRS 3. Refer to IFRS 3.59 for the required recognition and measurement criteria. Look for documentation justifying the recognition and valuation methodology.",
+              "yes_case": {
+                "question": "Has the entity disclosed the acquisition-date amounts recognized for each major class of assets acquired in the financial statements?",
+                "guidance": "Check the notes to the financial statements for disclosure. Ensure the entity has detailed acquisition-date values for each major class of assets acquired as required by IFRS 3.B64(i). Cross-check values with any recognition entries for completeness and accuracy.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "156.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(i), IFRS 3.B66",
+          "question": "Did the entity complete a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquisition-date amounts recognised for each major class of liabilities assumed?",
+          "decision_tree": {
+            "question": "Did the entity complete a business combination during the reporting period?",
+            "guidance": "Refer to IFRS 3, paragraphs 4-5, which define a business combination. Check the financial statements and accompanying notes for acquisition-related disclosures, including whether the entity acquired one or more businesses as defined by IFRS 3.",
+            "yes_case": {
+              "question": "Did the entity assume liabilities as part of the business combination?",
+              "guidance": "Review the acquisition-related disclosures and the financial statements to identify whether liabilities were recognized as part of the acquisition. Check IFRS 3.B64(i) for specific requirements on disclosing assumed liabilities.",
+              "yes_case": {
+                "question": "Has the entity disclosed acquisition-date amounts recognized for each major class of liabilities assumed?",
+                "guidance": "Refer to IFRS 3.59 and IFRS 3.B64(i). Verify that the entity has disclosed the amounts for major classes of liabilities (e.g., provisions, deferred tax liabilities). Cross-check the presentation with the acquisition-related notes in the financial statements and ensure that the acquisition-date amounts are clearly stated.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "157.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.23, IFRS 3.B64(j), IFRS 3.B66",
+          "question": "Has the entity acquired a business during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For each contingent liability recognised under IFRS 3.23, has the entity disclosed the information required by IAS 37.85?",
+          "decision_tree": {
+            "question": "Has the entity acquired a business during the reporting period?",
+            "guidance": "Review the entity's financial statements for references to business combinations during the reporting period. Specifically, examine the Statement of Financial Position, Notes to the Financial Statements, and acquisition-related disclosures under IFRS 3.",
+            "yes_case": {
+              "question": "Has the entity recognized any contingent liabilities as part of the business combination in accordance with IFRS 3.23?",
+              "guidance": "Review the purchase price allocation and accompanying disclosures related to the business combination. Contingent liabilities would be recognized if they meet the definition of a liability and are reliably measurable as per IFRS 3.23.",
+              "yes_case": {
+                "question": "Has the entity disclosed the required information relating to contingent liabilities under IAS 37.85?",
+                "guidance": "Review the notes to the financial statements and confirm whether disclosures include: 1) A description of the nature of each contingent liability, 2) The uncertainties that exist about the outcome of the contingent liability, 3) An estimate of the financial effect or a statement that such an estimate cannot be made, and 4) Any other relevant information per IAS 37.85. Cross-check against IFRS 3.B64(j) for additional specifics about what is required.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "158.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.23, IFRS 3.B64(j), IFRS 3.B66",
+          "question": "Does the entity have a contingent liability arising as part of a business combination?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If a contingent liability is not recognised because fair value cannot be measured reliably, has the entity disclosed the information required by IAS 37.86?",
+          "decision_tree": {
+            "question": "Does the entity have a contingent liability arising as part of a business combination?",
+            "guidance": "Consult the purchase agreement and relevant documents related to the business combination. Verify whether a contingent liability was disclosed as part of the combination under IFRS 3. Look for references to contingent liabilities in the financial statements, acquisition agreements, or legal documentation. Ensure the liability meets the definition in IAS 37.",
+            "yes_case": {
+              "question": "Can the fair value of the contingent liability be measured reliably?",
+              "guidance": "Refer to IFRS 3.59 and IFRS 13 to assess fair value measurement. Check if sufficient inputs exist based on observable data (market values, data models) or reliable estimates from management considering relevant facts and circumstances. If fair value cannot be measured reliably, the contingent liability should not be recognized.",
+              "yes_case": {
+                "question": "Has the contingent liability been recognized in accordance with IFRS 3?",
+                "guidance": "Review the entity's Statement of Financial Position and acquisition-related disclosures (IFRS 3.B64(j)). Confirm if the liability is recognized at fair value and its recognition aligns with IFRS 3 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Has the entity disclosed the information required by IAS 37.86 for the unrecognized contingent liability?",
+                "guidance": "Ensure the notes to the financial statements include disclosures as per IAS 37.86. This includes a description of the liability, an estimate of its financial effect, uncertainties relating to the amount or timing of outflows, and the possibility of any reimbursement.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "158.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.23, IFRS 3.B64(j), IFRS 3.B66",
+          "question": "Does the entity have a contingent liability related to a business combination?",
+          "question_type": "Followup",
+          "source_question": "158.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If a contingent liability is not recognised, has the entity disclosed why the liability cannot be measured reliably?",
+          "decision_tree": {
+            "question": "Does the entity have a contingent liability related to a business combination?",
+            "guidance": "Review the acquisition documentation and the detailed disclosures in the financial statements related to the business combination. A contingent liability is described in IFRS 3.23 and must arise in relation to the business combination. Pay close attention to contracts, ongoing litigation, or other uncertain obligations.",
+            "yes_case": {
+              "question": "Is the contingent liability not recognised in the financial statements?",
+              "guidance": "Refer to IFRS 3.23 and IFRS 3.59. Contingent liabilities are recognised at the acquisition date only if they can be reliably measured and meet the definition of a liability. Review whether the entity explicitly states that the liability is unrecognised due to measurement reliability concerns.",
+              "yes_case": {
+                "question": "Has the entity disclosed in the financial statements why the liability cannot be measured reliably?",
+                "guidance": "Refer to IFRS 3.B64(j) and IFRS 3.B66. The disclosure should provide a clear explanation of why the contingent liability cannot be reliably measured and other relevant details. Review the notes accompanying the financial statements for this information.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "159.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(k), IFRS 3.B66",
+          "question": "Has the entity recognized goodwill in its financial statements as part of a business combination?",
+          "question_type": "Followup",
+          "source_question": "152.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the amount of goodwill expected to be deductible for tax purposes?",
+          "decision_tree": {
+            "question": "Has the entity recognized goodwill in its financial statements as part of a business combination?",
+            "guidance": "Review the entity's Statement of Financial Position and accompanying notes. Look for records of goodwill arising from business combinations under IFRS 3. Check the acquisition accounting details disclosed in Note B64 and review supporting documentation (e.g., purchase agreements) to confirm if goodwill exists.",
+            "yes_case": {
+              "question": "Has the entity evaluated whether any portion of the recognized goodwill is expected to be deductible for tax purposes?",
+              "guidance": "Examine the entity's tax analysis and reconciliation prepared as part of the business combination accounting. Review documentation provided by the entity, including any communication from tax authorities or evidence of calculations for tax deductibility. Ensure this evaluation corresponds to the requirements of IFRS 3.B64(k).",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of goodwill expected to be deductible for tax purposes in accordance with IFRS 3.B64(k)?",
+                "guidance": "Check the financial statement disclosures, specifically the notes related to the business combination as required by IFRS 3.B64(k). Ensure the disclosure specifies the amount of goodwill expected to be deductible for tax purposes. Common errors include vague disclosure or omission of key details such as specific amounts or assumptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "160.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.51, IFRS 3.B64(l), IFRS 3.B66",
+          "question": "Has the entity undergone any business combinations during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity described each transaction recognised separately under IFRS 3.51?",
+          "decision_tree": {
+            "question": "Has the entity undergone any business combinations during the reporting period?",
+            "guidance": "Review the entity's financial statements for transactions that meet the definition of a business combination as per IFRS 3. Ensure they involve mergers, acquisitions, or takeovers. Verify documentation of such transactions in relevant financial disclosures and agreements.",
+            "yes_case": {
+              "question": "Are all transactions related to the business combinations recognized separately, as required under IFRS 3.51?",
+              "guidance": "Refer to IFRS 3.51 for the details on identifying and recognizing separate transactions. Ensure the entity has distinguished between payments for the acquired business and other transactions, such as payments for future services or settlement of pre-existing relationships. Review the acquisition agreements and relevant disclosures.",
+              "yes_case": {
+                "question": "Has the entity disclosed each identified transaction in accordance with IFRS 3.59, IFRS 3.B64(l), and IFRS 3.B66?",
+                "guidance": "Review the disclosure notes and ensure the entity has described each separately recognized transaction, including their nature, amounts, and accounting treatment, as required by the referenced IFRS standards. Focus especially on IFRS 3.59 regarding disclosure of additional information and IFRS 3.B64(l) and IFRS 3.B66 for specific disclosure requirements on equity interests, contingent considerations, and indemnification assets.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "160.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.51, IFRS 3.B64(l), IFRS 3.B66",
+          "question": "Did the entity conduct a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "160.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed how the acquirer accounted for each separately recognised transaction?",
+          "decision_tree": {
+            "question": "Did the entity conduct a business combination during the reporting period?",
+            "guidance": "Review the entity’s financial statements, particularly the notes and disclosures section, for references to business combinations. Check acquisition agreements and supporting documentation to confirm such a transaction. Verify this information is consistent with IFRS 3 requirements and involves acquiring a business as defined in IFRS 3 Appendix A.",
+            "yes_case": {
+              "question": "Were any transactions separately recognized by the acquirer as part of the business combination?",
+              "guidance": "Examine the acquisition agreements and supporting documentation to identify whether the acquirer separately recognized transactions. Examples include contingent consideration, settlement of pre-existing relationships, or reimbursement of the acquiree’s acquisition-related costs per IFRS 3.B64(l).",
+              "yes_case": {
+                "question": "Has the entity disclosed how the acquirer accounted for each separately recognized transaction?",
+                "guidance": "Inspect the financial statements, particularly the disclosures related to business combinations in accordance with IFRS 3.59 and IFRS 3.B66. Ensure the accounting treatment of each separately recognized transaction is clearly explained, including the basis for recognition and measurement.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "160.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.51, IFRS 3.B64(l), IFRS 3.B66",
+          "question": "Has the entity undertaken any business combinations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "160.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the amounts recognised for each separately identified transaction and the line items in which they appear?",
+          "decision_tree": {
+            "question": "Has the entity undertaken any business combinations during the reporting period?",
+            "guidance": "Review the financial statements, particularly the notes and disclosures section, for references to business combinations as defined by IFRS 3. A business combination involves gaining control of one or more businesses, typically through acquisition or merger. Check for transactions such as purchase agreements, acquisition of subsidiaries, or similar events.",
+            "yes_case": {
+              "question": "Has the entity recognized amounts for each separately identified transaction related to the business combination?",
+              "guidance": "Review the notes to the financial statements. IFRS 3 requires disclosure of amounts recognized for each transaction that is separately identified as part of the business combination, such as contingent consideration, acquisition-related costs, or indemnification assets. Verify that these transactions are recorded appropriately and linked to the financial statement line items in which they are recognized.",
+              "yes_case": {
+                "question": "Has the entity disclosed the line items in which the recognized amounts for separately identified transactions appear?",
+                "guidance": "Check the financial statement notes and disclosures for specific references to the line items (e.g., asset, liability, or expense categories) in which the amounts related to each transaction are presented. Ensure that the disclosures are detailed and align with IFRS 3.B64(l) requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "160.4",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.51, IFRS 3.B64(l), IFRS 3.B66",
+          "question": "Did the entity engage in a business combination that involved settling a pre-existing relationship as part of the transaction?",
+          "question_type": "Followup",
+          "source_question": "160.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For transactions that settle a pre-existing relationship, has the entity disclosed the method used to determine the settlement amount?",
+          "decision_tree": {
+            "question": "Did the entity engage in a business combination that involved settling a pre-existing relationship as part of the transaction?",
+            "guidance": "Check the agreement and documentation associated with the business combination. A pre-existing relationship refers to any contractual or legal relationship between the acquirer and acquiree that existed prior to the combination (e.g., supply agreements, service contracts). Refer to IFRS 3.B64(l) for specific disclosure requirements.",
+            "yes_case": {
+              "question": "Was the settlement amount for the pre-existing relationship determined and included in the business combination accounting?",
+              "guidance": "Review the calculation of the settlement amount and ensure it is distinct from the consideration paid for the business combination. IFRS 3.51 and IFRS 3.59 require that the settlement amount is identified and disclosed separately from the purchase consideration.",
+              "yes_case": {
+                "question": "Has the entity disclosed the method used to determine the settlement amount?",
+                "guidance": "Verify the financial statement disclosures. Review the notes accompanying the business combination to confirm if the specific methodology used to determine the settlement amount (e.g., based on fair value or other agreed terms) has been disclosed. Refer to IFRS 3.B64(l) for guidance on disclosure requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "161.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(m), IFRS 3.B66",
+          "question": "Has the entity completed a business combination within the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the total amount of acquisition-related costs?",
+          "decision_tree": {
+            "question": "Has the entity completed a business combination within the reporting period?",
+            "guidance": "Review the entity's financial statements and disclosures for evidence of a transaction meeting the definition of a business combination under IFRS 3. Check for acquisitions or mergers involving control over another business. Refer to IFRS 3 Appendix A for the definition of a business combination.",
+            "yes_case": {
+              "question": "Has the entity incurred any acquisition-related costs in relation to the business combination?",
+              "guidance": "Review supporting documentation such as invoices, accounting records, or any schedules detailing legal, advisory, or administrative costs directly linked to the acquisition. Refer to IFRS 3.B64(m) for requirements related to acquisition-related costs.",
+              "yes_case": {
+                "question": "Has the entity disclosed the total amount of acquisition-related costs as required by IFRS 3?",
+                "guidance": "Verify the financial statements and accompanying notes to ensure disclosure of the total amount of acquisition-related costs. Check if the disclosure is sufficiently detailed and complies with IFRS 3.59 and IFRS 3.B64(m). Acquisition-related costs are generally expensed and disclosed separately.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "161.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(m), IFRS 3.B66",
+          "question": "Has the entity completed a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "161.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the amount of acquisition-related costs recognised as an expense?",
+          "decision_tree": {
+            "question": "Has the entity completed a business combination during the reporting period?",
+            "guidance": "Review the financial statements, particularly the notes on acquisitions and combinations. Look for evidence of transactions where one entity acquired control over another entity or its operations. Verify whether IFRS 3 was applied to any transactions in the reporting period.",
+            "yes_case": {
+              "question": "Did the entity incur acquisition-related costs as part of the business combination?",
+              "guidance": "Check the detailed transaction records and disclosures related to the acquisition. Acquisition-related costs typically include advisory, legal, accounting, valuation, and other professional expenses directly linked to the business combination as defined by IFRS 3. Review invoices, contracts, and management commentary to confirm.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of acquisition-related costs recognized as an expense in accordance with IFRS 3 requirements?",
+                "guidance": "Review the financial statement disclosures, particularly in the notes regarding business combinations. Ensure the amount of acquisition-related costs is explicitly disclosed as required by IFRS 3.59, IFRS 3.B64(m), and IFRS 3.B66. Avoid common omissions such as aggregating these costs with other expenses. The disclosure should separately identify acquisition-related costs.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "161.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(m), IFRS 3.B66",
+          "question": "Has the entity incurred acquisition-related costs during the period?",
+          "question_type": "Followup",
+          "source_question": "161.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the line item(s) in the statement of comprehensive income where acquisition-related costs are recognised?",
+          "decision_tree": {
+            "question": "Has the entity incurred acquisition-related costs during the period?",
+            "guidance": "Review the acquisition transactions undertaken during the reporting period. Check purchase agreements, transaction summaries, and journal entries to confirm if acquisition-related costs, such as legal fees, due diligence costs, or advisory expenses, have been incurred.",
+            "yes_case": {
+              "question": "Are acquisition-related costs appropriately recognised in the statement of comprehensive income?",
+              "guidance": "Verify in the financial statements that acquisition-related costs are recognised as an expense in the statement of comprehensive income. Acquisition-related costs should not be capitalized as part of the purchase consideration under IFRS 3.",
+              "yes_case": {
+                "question": "Has the entity disclosed the line item(s) in the statement of comprehensive income where acquisition-related costs are recognised?",
+                "guidance": "Check the notes to the financial statements and the statement of comprehensive income. Ensure the line item(s) disclosing acquisition-related costs are clearly identified and detailed per IFRS 3.59, IFRS 3.B64(m), or IFRS 3.B66 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "161.4",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(m), IFRS 3.B66",
+          "question": "Has the entity incurred issue costs related to a business combination?",
+          "question_type": "Followup",
+          "source_question": "161.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the amount of issue costs not recognised as an expense?",
+          "decision_tree": {
+            "question": "Has the entity incurred issue costs related to a business combination?",
+            "guidance": "Review the transaction documents related to the business combination. Issue costs include fees such as underwriting fees, legal fees, registration fees, and other costs directly attributable to issuing equity or debt instruments. Verify these amounts against the entity’s accounting records and IFRS 3 guidance.",
+            "yes_case": {
+              "question": "Has the entity excluded the issue costs from the profit or loss and recognised them as part of equity or debt issuance costs, as required by IFRS 3?",
+              "guidance": "Examine the financial statements. Check the Statement of Changes in Equity and the notes related to financing activities to ensure issue costs are correctly accounted for. Ensure the entity followed IFRS 3’s treatment of issue costs where these are not treated as an expense in the profit or loss but as part of issuance costs.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of issue costs not recognised as an expense in the notes to the financial statements?",
+                "guidance": "Review the notes to the financial statements. Confirm that the entity has disclosed the total amount of issue costs incurred and separately identified the portion not recognised as an expense. Cross-check this against IFRS 3.B64(m) to ensure compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "161.5",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(m), IFRS 3.B66",
+          "question": "Did the entity incur issue costs?",
+          "question_type": "Followup",
+          "source_question": "161.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity explained the treatment of issue costs not recognised as an expense?",
+          "decision_tree": {
+            "question": "Did the entity incur issue costs?",
+            "guidance": "Review the transaction records related to acquisitions or equity instruments issuance. Check accounting records, supporting documents, and management notes for any issue costs incurred during the period. Issue costs are typically fees paid for professional services (e.g., legal, regulatory, or consulting), underwriting commissions, or printing and registration fees.",
+            "yes_case": {
+              "question": "Were issue costs recognized as an asset or directly deducted from equity, in accordance with IFRS 3.59 and IFRS 3.B64(m)?",
+              "guidance": "Check the financial statements and accounting policy notes. According to IFRS 3.59, only issue costs not recognized as an expense (i.e., capitalized or deducted from equity) need explanation. Confirm the method used aligns with relevant IFRS guidance.",
+              "yes_case": {
+                "question": "Has the entity explained the treatment of issue costs not recognized as an expense in the financial statement disclosures?",
+                "guidance": "Review the disclosures in the financial statements (typically found in the notes section). Per IFRS 3.B64(m), entities must disclose the method of accounting for issue costs if not immediately expensed. Ensure the explanation is clear and consistent with IFRS 3 requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "162.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(n), IFRS 3.34, IFRS 3.B66",
+          "question": "Has the entity entered into a business combination where the identifiable net assets acquired exceed the consideration transferred (bargain purchase)?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "In a bargain purchase, has the entity disclosed the amount of any gain recognised?",
+          "decision_tree": {
+            "question": "Has the entity entered into a business combination where the identifiable net assets acquired exceed the consideration transferred (bargain purchase)?",
+            "guidance": "Review the documentation of all business combinations, specifically the calculation of net assets acquired versus consideration transferred. Refer to IFRS 3.34 for guidance on identifying a bargain purchase. Ensure the valuation methods and assumptions used are accurate and align with IFRS standards.",
+            "yes_case": {
+              "question": "Has the entity recognised a gain from the bargain purchase in profit or loss as required by IFRS 3.34?",
+              "guidance": "Verify the Statement of Profit or Loss for the recognition of a gain from the business combination. Ensure the gain has been calculated correctly and is not an adjustment for errors in fair value estimation or other factors. Refer to the requirements of IFRS 3.34 for further clarification.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of the gain recognised, as required by IFRS 3.59 and IFRS 3.B64(n)?",
+                "guidance": "Check the business combination disclosures in the notes to financial statements, specifically the details of the gain, including its valuation and nature. Cross-check with IFRS 3.59 and IFRS 3.B64(n). Ensure all required elements are disclosed, including supporting rationale and measurement assumptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "162.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(n), IFRS 3.34, IFRS 3.B66",
+          "question": "Has the entity entered into a bargain purchase transaction?",
+          "question_type": "Followup",
+          "source_question": "162.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "In a bargain purchase, has the entity disclosed the line item in which the gain is recognised?",
+          "decision_tree": {
+            "question": "Has the entity entered into a bargain purchase transaction?",
+            "guidance": "Examine the purchase agreement and relevant financial data to verify if the consideration transferred is less than the net assets acquired in a business combination. A bargain purchase typically arises when the fair value of the net assets acquired exceeds the total consideration paid.",
+            "yes_case": {
+              "question": "Has the entity recognised the gain from the bargain purchase in profit or loss as required by IFRS 3.34?",
+              "guidance": "Review the financial statements, particularly the income statement, to ensure the gain is recognised in profit or loss. Verify compliance with IFRS 3.34, which mandates that such gains cannot be deferred or accounted for in other comprehensive income.",
+              "yes_case": {
+                "question": "Has the entity disclosed the line item in which the gain is recognised as required by IFRS 3.B64(n)?",
+                "guidance": "Check the entity's financial statement disclosures. Ensure the entity identifies the specific line item (e.g., 'Other income') where the gain is recognised and complies with the detailed disclosure requirements of IFRS 3.B64(n).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "162.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(n), IFRS 3.34, IFRS 3.B66",
+          "question": "Has the entity entered into a bargain purchase transaction?",
+          "question_type": "Followup",
+          "source_question": "162.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "In a bargain purchase, has the entity explained why the transaction resulted in a gain?",
+          "decision_tree": {
+            "question": "Has the entity entered into a bargain purchase transaction?",
+            "guidance": "Review the details of the business combination under IFRS 3. Check whether the fair value of the net assets acquired exceeds the consideration transferred, which characterizes a bargain purchase. Verify this in the acquisition accounting records.",
+            "yes_case": {
+              "question": "Has the entity recognized the resulting gain from the bargain purchase in profit or loss as required by IFRS 3.34?",
+              "guidance": "Refer to the financial statements and acquisition records. Confirm that the gain has been properly calculated and recognized in profit or loss. The gain typically arises due to differences in fair value of net assets acquired and consideration paid. Ensure calculations align with IFRS 3 requirements.",
+              "yes_case": {
+                "question": "Has the entity provided an adequate explanation for why the transaction resulted in a gain, as required by IFRS 3.B64(n)?",
+                "guidance": "Review disclosures in the financial statements, especially under the notes related to business combinations. Ensure the explanation includes reasonable and clear justification for the bargain purchase gain, reflecting facts such as market conditions or acquisition circumstances.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "163.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(o), IFRS 3.B66, IFRS 3.App.A",
+          "question": "Did the entity have a business combination during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For non-controlling interests held at acquisition, has the entity disclosed the amount recognised and the measurement basis?",
+          "decision_tree": {
+            "question": "Did the entity have a business combination during the reporting period?",
+            "guidance": "Review the financial statements and management reports to identify any business combinations in the reporting period. Look for evidence in the Statement of Financial Position, Notes to the Financial Statements, or acquisitions mentioned in the Annual Report. Verify references to IFRS 3 compliance in relevant sections.",
+            "yes_case": {
+              "question": "Did the business combination result in non-controlling interests being recognised?",
+              "guidance": "Check the acquisition-related disclosures in the Notes to the Financial Statements. Non-controlling interests typically arise when less than 100% of the equity in a subsidiary is acquired. Look for relevant disclosures in line with IFRS 3.B64(o).",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of non-controlling interests recognised in the financial statements?",
+                "guidance": "Review IFRS 3.B64(o) and the Notes to the Financial Statements. The amount should be explicitly disclosed, typically in a specific 'Business Combination' note or corresponding equity section. Ensure the disclosure is clear and aligns with IFRS terminology.",
+                "yes_case": {
+                  "question": "Has the entity disclosed the measurement basis of the recognised non-controlling interests?",
+                  "guidance": "Check if the entity disclosed whether the non-controlling interests were measured using the 'fair value' method or the 'proportionate share of net assets' method as per IFRS 3.59 and IFRS 3.App.A. This should also be included in the 'Business Combination' note.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "163.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(o), IFRS 3.B66, IFRS 3.App.A",
+          "question": "Does the entity have any non-controlling interest (NCI) measured at fair value?",
+          "question_type": "Followup",
+          "source_question": "163.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For any non-controlling interest measured at fair value, has the entity disclosed the valuation techniques and significant inputs used?",
+          "decision_tree": {
+            "question": "Does the entity have any non-controlling interest (NCI) measured at fair value?",
+            "guidance": "Review the financial statements, specifically the notes regarding non-controlling interests. Check if any NCI is recognized and explicitly measured at fair value according to IFRS 3. App.A definition. Ensure that measurement bases are disclosed, and confirm the valuation approach in relevant sections of the notes.",
+            "yes_case": {
+              "question": "Has the entity disclosed the valuation techniques and significant inputs used for measuring the fair value of the non-controlling interests?",
+              "guidance": "Examine the disclosures related to non-controlling interests in the notes. Look for detailed explanations of the valuation techniques (e.g., discounted cash flows or market approach) and identify significant inputs (e.g., discount rates, growth rates, market comparables). Reference IFRS 3.B64(o) and IFRS 3.B66 for specific disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "164.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(p), IFRS 3.B66, IFRS 3.42",
+          "question": "Has the entity completed a staged acquisition during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "In a staged acquisition, has the entity disclosed the acquisition-date fair value of equity interests held immediately before the final acquisition?",
+          "decision_tree": {
+            "question": "Has the entity completed a staged acquisition during the reporting period?",
+            "guidance": "Review transaction records and agreements to determine if the entity acquired an interest in another entity in stages, i.e., through multiple steps rather than a single transaction. Refer to IFRS 3.59 for definitions related to staged acquisitions.",
+            "yes_case": {
+              "question": "Has the entity recognized the acquisition-date fair value of equity interests held immediately before the final acquisition step?",
+              "guidance": "Verify in the financial statements and supporting schedules whether the entity has calculated and recorded the acquisition-date fair value of previously held equity interests as required in IFRS 3.B64(p). Cross-check against acquisition agreements.",
+              "yes_case": {
+                "question": "Has the entity disclosed details of the acquisition-date fair value of equity interests held immediately before the final acquisition?",
+                "guidance": "Review the disclosures in the notes to the financial statements, specifically related to acquisitions. Ensure compliance with IFRS 3.B64(p) and IFRS 3.42, which require disclosure of amounts and methods used for valuation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "164.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(p), IFRS 3.B66, IFRS 3.42",
+          "question": "Has the entity completed a staged acquisition during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "164.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "In a staged acquisition, has the entity disclosed any gain or loss from remeasuring the prior interest to fair value and the line item where it is recognised?",
+          "decision_tree": {
+            "question": "Has the entity completed a staged acquisition during the reporting period?",
+            "guidance": "Review contracts, transaction details, or entity records for acquisitions made during the reporting period. A staged acquisition involves acquiring incremental ownership interests over time instead of a single transaction.",
+            "yes_case": {
+              "question": "Was there a remeasurement of the previously held interest to fair value?",
+              "guidance": "Check IFRS 3.42 to determine if the previously held equity interest was remeasured to its fair value as part of the acquisition accounting. Verify this in the entity's financial statements or supporting documentation from the transaction.",
+              "yes_case": {
+                "question": "Has the entity disclosed the gain or loss from this remeasurement and the line item where it is recognized in the financial statements?",
+                "guidance": "Refer to IFRS 3.59 and IFRS 3.B64(p). Ensure the disclosure includes both the gain or loss amount and the specific line item (e.g., 'Other Gains or Losses' or profit or loss statement accounts). Confirm the disclosure is complete and accurate.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "165.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(q), IFRS 3.B66",
+          "question": "Has the entity completed a business combination during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquiree's revenue in the consolidated statement of comprehensive income since acquisition?",
+          "decision_tree": {
+            "question": "Has the entity completed a business combination during the reporting period?",
+            "guidance": "Refer to IFRS 3. Ensure that the entity has undertaken a business combination as defined in IFRS 3 Appendix A. Verify acquisition transactions in the reporting period using legal agreements, board minutes, and acquisition accounting records.",
+            "yes_case": {
+              "question": "Has the acquiree been included in the consolidated financial statements since the acquisition date?",
+              "guidance": "Review the consolidation workings and confirm that the acquiree's financial information is included from the acquisition date. Ensure compliance with IFRS 10, which governs consolidation principles.",
+              "yes_case": {
+                "question": "Has the entity disclosed the acquiree's revenue since acquisition in the consolidated statement of comprehensive income?",
+                "guidance": "Check the disclosures in the consolidated statement of comprehensive income and accompanying notes, specifically for revenue attributable to the acquiree since the acquisition date, as required by IFRS 3.59, IFRS 3.B64(q), and IFRS 3.B66. Avoid overlooking disclosures related to partial-year inclusion if the acquisition occurred mid-year.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "165.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(q), IFRS 3.B66",
+          "question": "Did the entity complete a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "165.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the acquiree's profit or loss in the consolidated statement of comprehensive income since acquisition?",
+          "decision_tree": {
+            "question": "Did the entity complete a business combination during the reporting period?",
+            "guidance": "Review the entity’s financial transactions and disclosures, especially under IFRS 3. Check if there are references to acquisitions, mergers, or other transactions involving control of another business. Look at the notes to the financial statements and any disclosures about acquired subsidiaries.",
+            "yes_case": {
+              "question": "Has the entity included the acquiree’s financial results in the consolidated financial statements since the acquisition date?",
+              "guidance": "Verify in the consolidated statement of comprehensive income and accompanying notes whether the acquiree’s financial performance is included for the period after the business combination. Refer to IFRS 3.59 for the requirement to include post-acquisition results.",
+              "yes_case": {
+                "question": "Has the entity disclosed the acquiree's profit or loss separately or provided sufficient details since acquisition in the consolidated statement of comprehensive income?",
+                "guidance": "Check the disclosures accompanying the consolidated statement of comprehensive income and the notes. Verify compliance with IFRS 3.B64(q), which requires entities to disclose the acquiree's profit or loss generated post-acquisition. Ensure the disclosure identifies the acquiree's contributions clearly without aggregation errors.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "165.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(q), IFRS 3.B66",
+          "question": "Has the entity made a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "165.1",
+          "source_trigger": "No",
+          "context_required": "notes_only",
+          "original_question": "If revenue or profit or loss since acquisition is impracticable to disclose, has the entity stated that fact and explained why?",
+          "decision_tree": {
+            "question": "Has the entity made a business combination during the reporting period?",
+            "guidance": "Review the entity's disclosures and transaction records to identify if a business combination occurred. Check acquisition agreements and relevant documentation such as board minutes. Refer to IFRS 3.4 to confirm the definition of a business combination.",
+            "yes_case": {
+              "question": "Has the entity disclosed revenue or profit or loss generated by the acquiree since the acquisition date?",
+              "guidance": "Examine the financial statement notes related to the business combination. Ensure the revenue or profit or loss directly attributable to the acquiree since acquisition is disclosed as required by IFRS 3.B64(q). Note that this information must be separate and specific to the acquiree.",
+              "yes_case": {
+                "question": "Is the disclosure provided clear, complete, and in compliance with IFRS 3 requirements?",
+                "guidance": "Assess whether the disclosed information is detailed enough to meet IFRS 3.B64(q). Avoid generic statements or aggregated figures. Verify that the disclosure is understandable and relevant to users of financial statements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": {
+                "question": "Is it impracticable for the entity to disclose the revenue or profit or loss information since acquisition?",
+                "guidance": "Review the entity's explanation for non-disclosure. Impracticability must be justified with evidence, per IFRS 3.59, such as lack of records or inability to obtain reliable information regarding the acquiree's revenue or profit or loss.",
+                "yes_case": {
+                  "question": "Has the entity explicitly stated the impracticability and provided a clear explanation for why it cannot disclose this information?",
+                  "guidance": "Ensure the entity has included a statement in the notes explaining why the disclosure is impracticable, as required by IFRS 3.59 and IFRS 3.B66. The explanation must be specific and not simply assert impracticability without adequate reasoning.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "166.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(q), IFRS 3.B66",
+          "question": "Did the entity engage in a business combination during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed combined-entity revenue as if all combinations occurred at the start of the period?",
+          "decision_tree": {
+            "question": "Did the entity engage in a business combination during the reporting period?",
+            "guidance": "Review the reporting period for any transactions identified as business combinations under IFRS 3. Verify acquisition documentation, contracts, and the financial statements for the period to confirm if any business combination occurred.",
+            "yes_case": {
+              "question": "Was the business combination finalized during the reporting period or before the reporting date?",
+              "guidance": "Check the acquisition date of the business combination as specified in IFRS 3 and review supporting documents (e.g., purchase agreements) to ensure the transaction's completion aligns with the reporting period.",
+              "yes_case": {
+                "question": "Has the entity disclosed the combined-entity revenue as if all combinations occurred at the start of the reporting period?",
+                "guidance": "Refer to IFRS 3.B64(q) and IFRS 3.B66. Ensure the financial statement notes disclose the combined revenue amounts as if all combinations occurred at the start of the annual reporting period. Pay close attention to presentation consistency and adequate disclosure of assumptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "166.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(q), IFRS 3.B66",
+          "question": "Has the entity undergone a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "166.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed combined-entity profit or loss as if all combinations occurred at the start of the period?",
+          "decision_tree": {
+            "question": "Has the entity undergone a business combination during the reporting period?",
+            "guidance": "Check the financial statements and notes, particularly the disclosures required by IFRS 3. Look for a note titled 'Business Combinations' or similar, which should outline any acquisitions made during the period. If no business combinations occurred, this checklist item does not apply.",
+            "yes_case": {
+              "question": "Was the combined entity's profit or loss disclosed as if all combinations occurred at the start of the reporting period?",
+              "guidance": "Review the notes to the financial statements related to business combinations. Specifically, check for disclosures in line with IFRS 3.59, IFRS 3.B64(q), and IFRS 3.B66. Ensure the entity has provided profit or loss information for the combined entity, as if the combination occurred at the start of the reporting period. This information should include comparative figures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "166.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.59, IFRS 3.B64(q), IFRS 3.B66",
+          "question": "Has the entity undertaken a business combination during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "166.1",
+          "source_trigger": "No",
+          "context_required": "notes_only",
+          "original_question": "If combined-entity revenue or profit or loss is impracticable to disclose, has the entity stated that fact and explained why?",
+          "decision_tree": {
+            "question": "Has the entity undertaken a business combination during the reporting period?",
+            "guidance": "Review the financial statements and supporting documentation (e.g., acquisition agreements or disclosures in the notes) for evidence of a business combination. Check IFRS 3 definitions for clarity on what constitutes a business combination. Common pitfalls include misclassification of asset purchases or joint arrangements as business combinations.",
+            "yes_case": {
+              "question": "Is it impracticable for the entity to disclose the combined revenue or profit or loss of the new combined entity as required by IFRS 3?",
+              "guidance": "The term 'impracticable' is specifically defined in IAS 1. Review IFRS 3.B64(q) and IFRS 3.B66 for disclosure requirements. Impracticable situations may involve unavailable historical financial data or prohibitive costs in obtaining such data. Ensure the explanation is reasonable and supported by evidence.",
+              "yes_case": {
+                "question": "Has the entity stated the fact that the disclosure is impracticable and explained why?",
+                "guidance": "Check the notes to the financial statements for explicit disclosure of impracticability and a detailed explanation providing reasonable justification for the omission. Refer to IFRS 3.59 for specific wording requirements. Ensure the explanation aligns with the IFRS definition of 'impracticable'.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "167.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B66",
+          "question": "Was the acquisition accounting incomplete at the authorization date of the financial statements?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If acquisition accounting is incomplete at authorization date, has the entity disclosed which disclosures could not be made?",
+          "decision_tree": {
+            "question": "Was the acquisition accounting incomplete at the authorization date of the financial statements?",
+            "guidance": "Review the acquisition documentation and financial statement authorization records. Confirm whether all necessary information for acquisition accounting was available and recognized by the reporting date. Pay special attention to disclosures required under IFRS 3.B66.",
+            "yes_case": {
+              "question": "Has the entity disclosed the specific information about acquisition accounting that could not be included?",
+              "guidance": "Check the financial statements for disclosures under IFRS 3.B66. Ensure the entity has identified which disclosures (e.g., fair value of consideration, identifiable assets, liabilities assumed, goodwill calculation) are incomplete and explicitly stated the pending details.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "167.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B66",
+          "question": "Was the acquisition accounting incomplete at the authorization date of the financial statements?",
+          "question_type": "Followup",
+          "source_question": "167.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If acquisition accounting is incomplete at authorization date, has the entity explained why those disclosures could not be made?",
+          "decision_tree": {
+            "question": "Was the acquisition accounting incomplete at the authorization date of the financial statements?",
+            "guidance": "Review the acquisition transaction details against IFRS 3 requirements. Check whether all acquisition-related data (e.g., fair values, purchase price allocation) was available and finalized by the financial statement authorization date. Common signs of incomplete accounting include ongoing measurement of assets and liabilities or uncertain contingent consideration amounts.",
+            "yes_case": {
+              "question": "Has the entity provided an explanation in the financial statements as to why the required disclosures could not be made?",
+              "guidance": "Inspect the relevant section of the notes in the financial statements, as per IFRS 3.B66. Look for a clear and reasonable justification explaining the delay, such as operational constraints or unavailable data. Ensure the explanation aligns with the nature of the acquisition.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "168.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(a), IFRS 3.45, IFRS 3.49",
+          "question": "Has the entity engaged in a business combination during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the reasons why initial acquisition accounting is incomplete for particular items?",
+          "decision_tree": {
+            "question": "Has the entity engaged in a business combination during the reporting period?",
+            "guidance": "Review the financial statements, especially the notes on acquisitions and mergers. Look for references to IFRS 3 compliance, business combination disclosures, and any mention of an acquirer obtaining control of a business.",
+            "yes_case": {
+              "question": "Has the entity identified any particular items within the acquisition accounting that are incomplete?",
+              "guidance": "Examine the acquisition-related disclosures, including notes to the accounts, for any indication that estimates or valuations for assets, liabilities, or contingencies are marked as 'incomplete' or 'provisional'. Refer to IFRS 3.45 and IFRS 3.49.",
+              "yes_case": {
+                "question": "Has the entity disclosed the reasons why these particular items are incomplete?",
+                "guidance": "Check the disclosures accompanying the business combination section. These reasons should explain the incompleteness, such as awaiting external valuations, legal resolutions, or further information under IFRS 3.B67(a). Ensure the explanation is detailed and aligns with the standard.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "168.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(a), IFRS 3.45, IFRS 3.49",
+          "question": "Has the entity completed a business combination within the current reporting period?",
+          "question_type": "Followup",
+          "source_question": "168.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity identified which assets, liabilities, equity interests or consideration items have provisional amounts?",
+          "decision_tree": {
+            "question": "Has the entity completed a business combination within the current reporting period?",
+            "guidance": "Review the entity's financial statements and disclosures for the reporting period. Confirm if IFRS 3 applies by identifying transactions such as acquisitions of one entity by another resulting in control transfer. Check the acquisition date and ensure it falls within the current reporting period.",
+            "yes_case": {
+              "question": "Has the entity made provisional measurements for any identifiable assets, liabilities, equity interests, or consideration items as part of the business combination?",
+              "guidance": "Examine the purchase price allocation process disclosed in accordance with IFRS 3. Look for references to provisional amounts—these may occur when measurement is incomplete at the reporting date (e.g., fair values pending further information). Provisional amounts are typically disclosed in notes accompanying the business combination.",
+              "yes_case": {
+                "question": "Has the entity disclosed the nature and reason for the provisional amounts in accordance with IFRS 3.B67(a)?",
+                "guidance": "Check the disclosure notes related to the business combination. Ensure the entity has provided clear explanations in line with IFRS 3.B67(a), including the types of items measured provisionally and the reasons why final measurement was not completed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "168.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(a), IFRS 3.45, IFRS 3.49",
+          "question": "Did the entity complete a business combination within the measurement period as defined in IFRS 3?",
+          "question_type": "Followup",
+          "source_question": "168.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the nature and amount of any measurement-period adjustments recognised during the period?",
+          "decision_tree": {
+            "question": "Did the entity complete a business combination within the measurement period as defined in IFRS 3?",
+            "guidance": "Review acquisition-related documentation and disclosures, particularly notes to the financial statements. Refer to IFRS 3.45 for the definition of the measurement period, which begins on the acquisition date and ends when necessary information about the facts and circumstances is obtained, and cannot exceed one year. Check the timeline since the business combination occurred.",
+            "yes_case": {
+              "question": "Were measurement-period adjustments recognised during the current reporting period as per IFRS 3?",
+              "guidance": "Examine the adjustments to the initial accounting for the business combination during the measurement period. Refer to IFRS 3.B67(a), which details the requirement to disclose any period adjustments. Measurement-period adjustments typically arise from new information about facts and circumstances as of the acquisition date.",
+              "yes_case": {
+                "question": "Has the entity disclosed the nature and amount of these measurement-period adjustments as required by IFRS 3.B67(a)?",
+                "guidance": "Check the financial statement notes and disclosure section to confirm nature (e.g., fair value adjustments, identifiable asset revisions) and amount of measurement-period adjustments. Ensure disclosures meet the requirements specified in IFRS 3.B67(a). Common pitfalls include incomplete or vague disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "169.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(b)",
+          "question": "Has the entity completed a business combination during the post-acquisition period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For post-acquisition periods, has the entity disclosed changes in recognised contingent consideration amounts, including differences on settlement?",
+          "decision_tree": {
+            "question": "Has the entity completed a business combination during the post-acquisition period?",
+            "guidance": "Refer to IFRS 3, specifically the entity's financial statements and disclosures. Check documentation like the acquisition agreement, notes to the financial statements, and Section IFRS_3.B67 to confirm whether a business combination occurred in the post-acquisition period.",
+            "yes_case": {
+              "question": "Does the entity have recognised contingent consideration as part of the business combination?",
+              "guidance": "Review the financial statements to identify if contingent consideration was recognised during the acquisition as per IFRS 3. Look into the notes about acquisition accounting or related liabilities. Confirm that contingent consideration is correctly recognised under IFRS 3 requirements.",
+              "yes_case": {
+                "question": "Has the entity disclosed changes in the recognised contingent consideration amounts, including differences on settlement, during the post-acquisition period?",
+                "guidance": "Inspect the notes to the financial statements for detailed disclosure of changes in contingent consideration amounts and differences on settlement. Refer to IFRS 3.B67(b) for specific disclosure requirements. Ensure these disclosures include the nature and reasons for changes, as well as any impacts on financial results or positions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "169.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(b)",
+          "question": "Does the entity have a business combination accounted for under IFRS 3 during the post-acquisition period?",
+          "question_type": "Followup",
+          "source_question": "169.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For post-acquisition periods, has the entity disclosed changes in the range of undiscounted outcomes and the reasons for those changes?",
+          "decision_tree": {
+            "question": "Does the entity have a business combination accounted for under IFRS 3 during the post-acquisition period?",
+            "guidance": "Review the entity’s financial statements and notes for evidence of a business combination. Look for disclosures in the notes regarding acquisitions made under IFRS 3, including information in the current or prior reporting periods. Refer to IFRS 3.B67 for specific terms such as 'business combination' and verify the acquisition timeline.",
+            "yes_case": {
+              "question": "Does the entity have contingent consideration related to the business combination?",
+              "guidance": "Check the acquisition-related disclosures for mentions of contingent consideration, including its initial recognition. Contingent consideration is typically disclosed as part of the purchase price allocation and involves a liability or equity component dependent on future events or outcomes.",
+              "yes_case": {
+                "question": "During the post-acquisition period, have there been changes in the range of undiscounted outcomes for the contingent consideration?",
+                "guidance": "Examine disclosures in the notes or management commentary for changes to contingent consideration valuation or its range. The range represents possible future payments or outcomes. Review IFRS 3.B67(b) for details on contingent consideration measurement updates.",
+                "yes_case": {
+                  "question": "Has the entity disclosed the reasons for the changes in the range of undiscounted outcomes as required by IFRS 3.B67(b)?",
+                  "guidance": "Inspect the notes to the financial statements for explanations of changes in contingent consideration. Reasons for changes often include revised estimates due to updated information or changes in fair value. Ensure disclosures comply with IFRS 3.B67(b).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "169.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(b)",
+          "question": "Does the entity have contingent consideration as part of a business combination?",
+          "question_type": "Followup",
+          "source_question": "169.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For post-acquisition periods, has the entity disclosed the valuation techniques and key model inputs used for contingent consideration?",
+          "decision_tree": {
+            "question": "Does the entity have contingent consideration as part of a business combination?",
+            "guidance": "Review the entity's business combination agreements and acquisition-related disclosures in the financial statements. Contingent consideration is typically presented in the Purchase Price Allocation (PPA) and described in the notes. Check whether any future payments depend on specific events or conditions being met.",
+            "yes_case": {
+              "question": "Has the contingent consideration extended into post-acquisition periods?",
+              "guidance": "Verify whether the contingent consideration, as outlined in IFRS 3.B67(b), continues to exist after the acquisition date. Review disclosures in the notes and track the fulfillment of contingent conditions or adjustments in subsequent periods.",
+              "yes_case": {
+                "question": "Does the entity disclose the valuation techniques and key model inputs used for measuring the contingent consideration in post-acquisition periods?",
+                "guidance": "Examine the financial statement notes for compliance with IFRS 3.B67(b). Ensure disclosures include detailed descriptions of valuation methods (e.g., discounted cash flow, market benchmarks) and significant assumptions (e.g., discount rates, probability-weighted outcomes). Cross-check with IFRS 13 if applicable (fair value measurement).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "170.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(c)",
+          "question": "Has the entity undergone a business combination during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For contingent liabilities recognised in a business combination, has the entity disclosed the information required by IAS 37.84 and 37.85 for each provision?",
+          "decision_tree": {
+            "question": "Has the entity undergone a business combination during the reporting period?",
+            "guidance": "Review the entity's financial statements and disclosures for evidence of a business combination, such as acquisitions or mergers. Refer to the statement of financial position and notes on acquisitions, typically disclosed as required by IFRS 3. Ensure there is no confusion with other transactions like joint ventures.",
+            "yes_case": {
+              "question": "Were any contingent liabilities recognised as part of the business combination?",
+              "guidance": "Examine the purchase price allocation in the acquisition disclosures (under IFRS 3). Look for contingent liabilities recognised at fair value at the acquisition date. Check for liabilities that depend on uncertain future events.",
+              "yes_case": {
+                "question": "Has the entity disclosed the information required by IAS 37.84 and 37.85 for each recognised contingent liability?",
+                "guidance": "Refer to IAS 37.84 and IAS 37.85. Ensure disclosures include: (1) the nature of the liability; (2) expected timing of future cash flows; (3) uncertainties about the amount or timing of cash flows; and (4) major assumptions used to estimate the liability. Review the notes accompanying provisions and contingent liabilities. Common pitfalls: Ensure completeness and relevance of disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "171.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(d), IFRS 5.6, IFRS 3.67, IAS 36.104, IAS 21.47",
+          "question": "Does the entity recognize goodwill on its financial statements?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity reconciled the gross carrying amount of goodwill at the beginning of the period?",
+          "decision_tree": {
+            "question": "Does the entity recognize goodwill on its financial statements?",
+            "guidance": "Review the entity's Statement of Financial Position and Notes to the Financial Statements. Goodwill is typically reported under 'Intangible Assets'. Ensure this review includes acquisitions and business combinations disclosed in accordance with IFRS 3.",
+            "yes_case": {
+              "question": "Has the entity performed a reconciliation of the gross carrying amount of goodwill at the beginning of the period?",
+              "guidance": "Verify the Notes to the Financial Statements. Look for a reconciliation showing the opening balance of goodwill and adjustments such as additions, disposals, impairments, or foreign exchange differences. Ensure compliance with IFRS 3.B67(d) and IAS 21.47 for adjustments related to foreign exchange rates.",
+              "yes_case": {
+                "question": "Is the reconciliation consistent, complete, and in accordance with related IFRS standards?",
+                "guidance": "Cross-check all movements in goodwill against IFRS 3, IAS 36, IFRS 5, and IAS 21 standards. Confirm that disclosures include impairment testing (IAS 36.104), effects of foreign currency adjustments (IAS 21.47), and proper accounting in cases of disposal or reclassification (IFRS 5.6). Common errors include missing items or discrepancies in foreign currency translation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "171.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(d), IFRS 5.6, IFRS 3.67, IAS 36.104, IAS 21.47",
+          "question": "Has the entity recognised goodwill during the period?",
+          "question_type": "Followup",
+          "source_question": "171.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed additional goodwill recognised during the period (excluding amounts in disposal groups held for sale)?",
+          "decision_tree": {
+            "question": "Has the entity recognised goodwill during the period?",
+            "guidance": "Review the entity's financial statements, specifically the balance sheet and notes to ensure goodwill is reported as an asset. Refer to acquisition-related transactions under IFRS 3.67 for how goodwill is initially recognised. Ensure you exclude amounts related to disposal groups classified as 'held for sale' under IFRS 5.6.",
+            "yes_case": {
+              "question": "Has the entity disclosed any additional goodwill recognised during the period?",
+              "guidance": "Examine the notes to the financial statements for details of new acquisition transactions completed during the period. Look specifically for the disclosure of goodwill under IFRS 3.B67(d), which requires explanations about the allocation of goodwill from acquisitions. Avoid including amounts allocated to disposal groups held for sale as per IFRS 5.6 and IFRS 3.67.",
+              "yes_case": {
+                "question": "Is the disclosure of additional goodwill complete and aligned with IFRS 3.B67(d)?",
+                "guidance": "Verify that the disclosure includes the nature of the transactions leading to the goodwill, the amount recognised, and an explanation about why that amount is classified as goodwill. Confirm compliance with IFRS 3.B67(d), and ensure disposition-related goodwill adheres to IAS 36.104 and IAS 21.47 guidance (e.g., foreign currency adjustments).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "171.3",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(d), IFRS 5.6, IFRS 3.67, IAS 36.104, IAS 21.47",
+          "question": "Does the entity recognize deferred tax assets in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "171.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed adjustments from subsequent recognition of deferred tax assets during the period?",
+          "decision_tree": {
+            "question": "Does the entity recognize deferred tax assets in its financial statements?",
+            "guidance": "Examine the entity's Statement of Financial Position and notes to the financial statements. Look for deferred tax assets categorized under non-current assets due to temporary timing differences or unused tax losses. Common pitfalls include confusing deferred tax liabilities with deferred tax assets.",
+            "yes_case": {
+              "question": "Have there been adjustments during the period related to the subsequent recognition of previously unrecognized deferred tax assets?",
+              "guidance": "Check the notes to the financial statements for disclosures related to tax adjustments. Look specifically for previously unrecognized deferred tax assets that have been recognized in the current reporting period. Refer to the reconciliation between accounting profit and taxable profit.",
+              "yes_case": {
+                "question": "Has the entity disclosed these adjustments appropriately, as required by IFRS 3.B67(d)?",
+                "guidance": "Verify that the notes to the financial statements include disclosures of these adjustments. The adjustments should be linked to the business combination or acquisition that initially didn't account for the deferred tax assets. Common pitfalls include omitting the nature and amount of these adjustments.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "171.4",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(d), IFRS 5.6, IFRS 3.67, IAS 36.104, IAS 21.47",
+          "question": "Did the entity have any disposal groups held for sale or dispose of any components of its business during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "171.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed goodwill included in disposal groups held for sale and goodwill derecognised during the period?",
+          "decision_tree": {
+            "question": "Did the entity have any disposal groups held for sale or dispose of any components of its business during the reporting period?",
+            "guidance": "Review the entity's financial statements, particularly related to disclosures under IFRS 5. Check if disposal groups or discontinued operations have been classified as 'held for sale' or derecognition. Look for relevant details in the notes to the financial statements and management discussions.",
+            "yes_case": {
+              "question": "Does the disposal group or disposed business component include any goodwill?",
+              "guidance": "Examine the entity's breakdown of assets included in disposal groups held for sale and/or derecognised business components. Specifically, ensure goodwill is identified (refer to IFRS 3.B67(d) and IAS 36). Look for common pitfalls such as hidden goodwill allocations within asset reclassifications.",
+              "yes_case": {
+                "question": "Has the entity disclosed goodwill included in disposal groups held for sale and goodwill derecognised during the period?",
+                "guidance": "Review the notes to the financial statements for disclosures related to disposal groups and derecognition events (IFRS 3.67, IFRS 5.6). Ensure goodwill amounts are clearly disclosed, including the basis of measurement, effects of foreign exchange translation (IAS 21.47), and any related impairment charge (IAS 36.104).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "171.5",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(d), IFRS 5.6, IFRS 3.67, IAS 36.104, IAS 21.47",
+          "question": "Did the entity recognise goodwill in prior or current periods?",
+          "question_type": "Followup",
+          "source_question": "171.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed impairment losses on goodwill recognised during the period?",
+          "decision_tree": {
+            "question": "Did the entity recognise goodwill in prior or current periods?",
+            "guidance": "Review the financial statements, particularly the Statement of Financial Position and notes related to intangible assets. Check whether goodwill is listed as an asset and the periods in which it was recognised. Common errors include omitting small acquisitions where goodwill may exist.",
+            "yes_case": {
+              "question": "Has the entity tested goodwill for impairment during the period, as required by IAS 36.104?",
+              "guidance": "Confirm that the entity has performed an impairment test for goodwill at least annually or when triggering events occur. Refer to IAS 36.104 for guidance on how testing should be performed. Look for any disclosed results in the notes to the accounts.",
+              "yes_case": {
+                "question": "Did the impairment test result in recognition of an impairment loss on goodwill during the period?",
+                "guidance": "Verify whether the impairment test identified any decline in recoverable amounts below the carrying amount of goodwill. Look for entries in the Statement of Comprehensive Income and corresponding disclosures.",
+                "yes_case": {
+                  "question": "Has the entity disclosed the impairment losses on goodwill recognised during the period, as required by IFRS 3.67, IFRS 3.B67(d), IAS 36.104, IAS 21.47, and IFRS 5.6?",
+                  "guidance": "Review the financial statement notes for disclosures about goodwill impairment. Disclosures should include the amount of the loss, reasons for it, and any key assumptions involved in the impairment test (e.g., discount rate, cash flow projections). Pay attention to translation risks if goodwill is denominated in foreign currencies (IAS 21.47).",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "171.6",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(d), IFRS 5.6, IFRS 3.67, IAS 36.104, IAS 21.47",
+          "question": "Does the entity recognize goodwill in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "171.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed net exchange rate differences on goodwill during the period?",
+          "decision_tree": {
+            "question": "Does the entity recognize goodwill in its financial statements?",
+            "guidance": "Review the statement of financial position and the notes to the financial statements to confirm if goodwill is recognized as an asset. Goodwill is typically recognized under 'Intangible Assets'. Ensure this aligns with IFRS 3 requirements. If goodwill is not recognized, this item does not apply.",
+            "yes_case": {
+              "question": "Has there been a net exchange rate difference on goodwill during the period?",
+              "guidance": "Examine the notes to the financial statements or the reconciliation of goodwill balances over the period. Look for adjustments due to foreign exchange differences, particularly if goodwill involves foreign operations and currency translation under IAS 21. Be careful to distinguish this from other changes in goodwill, such as impairment.",
+              "yes_case": {
+                "question": "Has the entity disclosed the net exchange rate differences on goodwill during the period?",
+                "guidance": "Verify that the entity has disclosed net exchange rate differences related to goodwill in the relevant notes to the financial statements. Refer to IFRS 3.B67(d) for disclosure requirements. Ensure the disclosure is clear, accurate, and sufficiently detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "171.7",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(d), IFRS 5.6, IFRS 3.67, IAS 36.104, IAS 21.47",
+          "question": "Does the entity recognize goodwill on its balance sheet?",
+          "question_type": "Followup",
+          "source_question": "171.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed any other changes in the carrying amount of goodwill during the period?",
+          "decision_tree": {
+            "question": "Does the entity recognize goodwill on its balance sheet?",
+            "guidance": "Review the entity's statement of financial position. Check for the presence of goodwill under intangible assets. Refer to IFRS 3.67 for guidance on recognizing goodwill arising from a business combination.",
+            "yes_case": {
+              "question": "Has the carrying amount of goodwill changed during the reporting period?",
+              "guidance": "Review the entity's financial records and disclosures for changes in goodwill. Look for impairments, foreign exchange revaluations, or derecognition of goodwill due to divestments or adjustments. Reference IFRS 3.B67(d), IAS 36.104, and IAS 21.47 for specific types of changes.",
+              "yes_case": {
+                "question": "Has the entity disclosed all changes in the carrying amount of goodwill during the period?",
+                "guidance": "Check the notes to the financial statements for disclosures related to goodwill. The entity should disclose changes such as impairments, acquisitions, disposals, and foreign currency translation differences per IFRS 3.B67(d) and IFRS 5.6. Ensure the disclosures are comprehensive and transparent.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "171.8",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(d), IFRS 5.6, IFRS 3.67, IAS 36.104, IAS 21.47",
+          "question": "Does the entity recognize goodwill in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "171.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity reconciled the gross carrying amount and accumulated impairment losses of goodwill at the end of the period?",
+          "decision_tree": {
+            "question": "Does the entity recognize goodwill in its financial statements?",
+            "guidance": "Check the Statement of Financial Position and related notes for the recognition of goodwill under 'Intangible Assets'. Verify its existence by reviewing records of business combinations as goodwill arises from such transactions.",
+            "yes_case": {
+              "question": "Has the entity tested goodwill for impairment during the reporting period?",
+              "guidance": "Review disclosures related to impairment testing under IAS 36, specifically for goodwill. Impairment testing should be conducted annually or more frequently if indicators of impairment exist. Confirm whether the entity has documented the process.",
+              "yes_case": {
+                "question": "Has the entity reconciled the gross carrying amount and accumulated impairment losses of goodwill at the end of the period?",
+                "guidance": "Examine the notes to the financial statements for a reconciliation as required under IFRS 3.B67(d). The reconciliation should include the opening balance, additions, disposals, impairment losses recognized, and closing balance for both the gross carrying amount and accumulated impairment losses.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "172.1",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(e)",
+          "question": "Did the entity acquire identifiable assets or assume liabilities during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Has the entity disclosed the amount of any gain or loss relating to identifiable assets acquired or liabilities assumed?",
+          "decision_tree": {
+            "question": "Did the entity acquire identifiable assets or assume liabilities during the reporting period?",
+            "guidance": "Review acquisition-related transactions in the financial period. Check the acquisition agreement, the financial statements, and related disclosures to confirm if identifiable assets were acquired or liabilities were assumed. Refer to IFRS 3 Section B67 for further details on acquisitions.",
+            "yes_case": {
+              "question": "Did the entity recognize a gain or loss related to identifiable assets acquired or liabilities assumed?",
+              "guidance": "Examine the financial statements, including the income statement and notes. Look for any mention of gains or losses related to acquisition activities. Gains or losses may arise due to adjustments in fair value or errors in prior estimations.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of the gain or loss related to identifiable assets acquired or liabilities assumed?",
+                "guidance": "Review the notes to the financial statements. Ensure the entity has disclosed the exact amount of any gain or loss tied to these items. According to IFRS 3.B67(e), disclosure is mandatory for transparency.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "172.2",
+          "section": "IFRS_3",
+          "reference": "IFRS 3.B67(e)",
+          "question": "Does the combined entity's financial statements include a gain or loss of significant size or nature?",
+          "question_type": "Followup",
+          "source_question": "172.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Has the entity explained any gain or loss of such size or nature that disclosure is relevant to understanding the combined entity's financial statements?",
+          "decision_tree": {
+            "question": "Does the combined entity's financial statements include a gain or loss of significant size or nature?",
+            "guidance": "Review the financial statements for any material gains or losses reported. Check the notes to the financial statements, especially sections related to mergers, acquisitions, or business combinations. Look for descriptions of unusual items or high monetary impact transactions.",
+            "yes_case": {
+              "question": "Has the entity disclosed sufficient details about the gain or loss for understanding the financial performance of the combined entity?",
+              "guidance": "Refer to IFRS 3.B67(e). Ensure the disclosure explains the nature, size, and relevance of the gain or loss. Verify that the description provides clarity on how this affects the financial position, performance, or cash flows of the entity.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

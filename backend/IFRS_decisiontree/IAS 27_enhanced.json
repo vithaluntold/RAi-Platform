@@ -1,0 +1,405 @@
+{
+  "title": "Separate Financial Statements (IAS 27) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 27",
+      "title": "Separate Financial Statements",
+      "description": "Checklist for presentation and disclosure requirements under IAS 27.",
+      "items": [
+        {
+          "id": "87",
+          "section": "IAS 27",
+          "reference": "IAS 33.4",
+          "question": "Does the entity prepare both consolidated financial statements and separate financial statements under IFRS 10 and IAS 27?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If the entity presents both consolidated financial statements and separate financial statements prepared under IFRS 10 and IAS 27, does it present the disclosures required by IAS 33 only on the basis of the consolidated information?",
+          "decision_tree": {
+            "question": "Does the entity prepare both consolidated financial statements and separate financial statements under IFRS 10 and IAS 27?",
+            "guidance": "Review the financial statement package provided by the entity. Check the notes to the financial statements or auditor's report to confirm if both consolidated financial statements (IFRS 10) and separate financial statements (IAS 27) are prepared. Common pitfall: Misclassification of financial statements or absence of proper labeling.",
+            "yes_case": {
+              "question": "Are the disclosures required by IAS 33 presented only on the basis of the consolidated information?",
+              "guidance": "Examine the consolidated financial statements and disclosures section. IAS 33 disclosures, such as EPS (Earnings Per Share), should align with consolidated data only. Ensure they are not duplicated or based on separate financial statement data unless explicitly required. Missteps often include mixing consolidated and separate disclosure data.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.1",
+          "section": "IAS 27",
+          "reference": "IAS 27.16(a)",
+          "question": "Does the entity prepare separate financial statements as defined under IAS 27?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "In the parent's separate financial statements, does the entity disclose that the financial statements are separate financial statements?",
+          "decision_tree": {
+            "question": "Does the entity prepare separate financial statements as defined under IAS 27?",
+            "guidance": "Separate financial statements are those presented by a parent, an investor with joint control, or significant influence, where investments are accounted for at cost or as financial assets under IAS 39/IFRS 9 rather than consolidated. Review the accounting policy note and confirm whether the entity explicitly acknowledges preparing standalone financial statements for these investments.",
+            "yes_case": {
+              "question": "Do the separate financial statements explicitly disclose that they are separate financial statements in accordance with IAS 27?",
+              "guidance": "Review the introductory notes, accounting policy notes, and basis of preparation sections in the financial statements. Ensure the entity explicitly identifies the statements as 'separate financial statements' prepared in compliance with IAS 27.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.2",
+          "section": "IAS 27",
+          "reference": "IAS 27.16(b)",
+          "question": "Has the entity applied the exemption from consolidation under IAS 27?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose that the exemption from consolidation has been used?",
+          "decision_tree": {
+            "question": "Has the entity applied the exemption from consolidation under IAS 27?",
+            "guidance": "Check whether the entity claims the exemption for consolidation as a parent. Per IAS 27.16(b), the exemption applies if the ultimate or intermediate parent prepares consolidated financial statements that comply with IFRS. Review the entity's notes to the financial statements, specifically the consolidation exemption disclosures, and the reporting structure of the group.",
+            "yes_case": {
+              "question": "Has the entity disclosed the use of the exemption from consolidation in accordance with IAS 27.16(b)?",
+              "guidance": "Verify within the notes to the financial statements if the entity specifically states that it is not preparing consolidated financial statements because it qualifies for the exemption under IAS 27. The disclosure should mention the reliance on consolidated financial statements prepared by the ultimate or intermediate parent.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.3",
+          "section": "IAS 27",
+          "reference": "IAS 27.16(c)",
+          "question": "Has the entity produced consolidated financial statements for public use?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose the name and principal place of business (and country of incorporation, if different) of the entity whose consolidated financial statements have been produced for public use (and the address where these are obtainable)?",
+          "decision_tree": {
+            "question": "Has the entity produced consolidated financial statements for public use?",
+            "guidance": "Review the entity's financial statements and verify if the entity prepares consolidated financial statements. Check the cover page or notes to the financial statements. If consolidation is mentioned, then proceed. Avoid assuming public use if the entity is privately held.",
+            "yes_case": {
+              "question": "Does the entity disclose the name and principal place of business of the entity whose consolidated financial statements have been produced?",
+              "guidance": "Inspect the financial statement disclosures, specifically under the 'General Information' or 'Notes to the Financial Statements' section. Ensure the name and address of the producing entity are clearly stated.",
+              "yes_case": {
+                "question": "If the country of incorporation is different from the principal place of business, does the entity disclose the country of incorporation?",
+                "guidance": "Check whether the disclosures under general information or entity-specific notes provide ample clarity on any difference between the country of incorporation and the principal place of business.",
+                "yes_case": {
+                  "question": "Does the entity disclose the address where the consolidated financial statements are obtainable?",
+                  "guidance": "Review the disclosures to confirm the availability of consolidated financial statements for public use. This should include a specific address or clear instructions for access.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.4",
+          "section": "IAS 27",
+          "reference": "IAS 27.16(d)",
+          "question": "Does the entity have significant investments in subsidiaries, joint ventures, or associates?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity disclose a list of significant investments in subsidiaries, joint ventures and associates, including the names of those investees, their principal place of business (and country of incorporation, if different), and the proportion of ownership interest (and, if different, proportion of voting rights) held?",
+          "decision_tree": {
+            "question": "Does the entity have significant investments in subsidiaries, joint ventures, or associates?",
+            "guidance": "Review the entity's financial statements and notes, particularly the sections for subsidiaries, joint ventures, and associates. Cross-check significant investments against IAS 27 definitions, considering both quantitative and qualitative materiality. Significant investments typically have a material effect on the consolidated financial statements.",
+            "yes_case": {
+              "question": "Are the required disclosures provided, including the names of investees, their principal place of business (and country of incorporation, if different), and the proportion of ownership interest (and, if different, proportion of voting rights) held?",
+              "guidance": "Examine the notes to the financial statements for compliance with IAS 27.16(d). Verify names, locations, ownership interest percentages, and voting rights information. Ensure information is complete and accurately reflects the entity's records.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.5",
+          "section": "IAS 27",
+          "reference": "IAS 27.16(e)",
+          "question": "Does the entity have investments in subsidiaries, joint ventures, or associates as listed under IAS 27.16(d)?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the entity describe the method used to account for the investments listed under (d)?",
+          "decision_tree": {
+            "question": "Does the entity have investments in subsidiaries, joint ventures, or associates as listed under IAS 27.16(d)?",
+            "guidance": "Review the entity's accounting policies and disclosures in the financial statements, particularly the notes that address interests in other entities. Confirm whether the entity reports investments in subsidiaries, joint ventures, or associates as outlined in IAS 27.16(d). Common errors include overlooking investments classified as associates or joint ventures under relevant standards.",
+            "yes_case": {
+              "question": "Does the entity describe the method used to account for these investments in its financial statements?",
+              "guidance": "Examine the notes to the financial statements and any relevant sections related to accounting policies for investments. IAS 27.16(e) requires that the entity disclose whether the investments are accounted for using the equity method, fair value method, or some other acceptable method. Pay attention to whether sufficient detail is provided about the chosen method.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "242.6",
+          "section": "IAS 27",
+          "reference": "IAS 27.16(f)",
+          "question": "Does the entity have investments in subsidiaries, associates, or joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "242.5",
+          "source_trigger": "Fair value",
+          "original_question": "If the method used to account for investments in subsidiaries, associates and joint ventures is fair value, does the entity disclose the IFRS 13 fair-value measurement disclosures?",
+          "decision_tree": {
+            "question": "Does the entity have investments in subsidiaries, associates, or joint ventures?",
+            "guidance": "Examine the consolidated financial statements or separate financial statements to confirm whether the entity holds investments in subsidiaries, associates, or joint ventures. Look specifically at IAS 27 disclosures and supporting notes for such investments.",
+            "yes_case": {
+              "question": "Are the investments in subsidiaries, associates, or joint ventures accounted for using the fair value method?",
+              "guidance": "Verify that the accounting policy explicitly states the use of fair value measurement for these investments. Look at the accounting policies disclosed in the notes to financial statements under IAS 27. Ensure that the fair value basis is defined and applied.",
+              "yes_case": {
+                "question": "Does the entity disclose adequate IFRS 13 fair-value measurement disclosures for these investments?",
+                "guidance": "Check the disclosures in the financial statements related to fair value measurement. Confirm that they include all required items such as the valuation techniques, inputs used, hierarchy levels, and any sensitivity analyses in accordance with IFRS 13.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "243.1",
+          "section": "IAS 27",
+          "reference": "IAS 27.17(d)",
+          "question": "Does the entity have investments in subsidiaries, associates, or joint ventures?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the parent or investor disclose a description of the method used to account for the investments identified under paragraph (c)?",
+          "decision_tree": {
+            "question": "Does the entity have investments in subsidiaries, associates, or joint ventures?",
+            "guidance": "Review the entity’s Statement of Financial Position and relevant notes. Check for line items or disclosures indicating investments in subsidiaries, associates, or joint ventures. Refer to IAS 27 for definitions of these terms if there is uncertainty. Common pitfalls include misclassifying financial assets or failing to identify investments structured under joint arrangements.",
+            "yes_case": {
+              "question": "Has the entity identified these investments under IAS 27 paragraph (c)?",
+              "guidance": "Check whether the entity has classified the investments appropriately as per IAS 27 paragraph (c). This includes consolidated investments (subsidiaries), investments in associates, or those in joint ventures. Look for indications in the entity’s financial statements and supporting schedules. Ensure compliance with paragraphs addressing recognition and measurement.",
+              "yes_case": {
+                "question": "Does the entity disclose a description of the method used to account for these investments?",
+                "guidance": "Examine the financial statement disclosures, particularly the notes related to consolidation and equity accounting. Confirm whether the entity explicitly describes the accounting methods used (e.g., equity method, consolidation). Ensure clarity and accuracy in the description as per IAS 27 paragraph 17(d).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "243.2",
+          "section": "IAS 27",
+          "reference": "IAS 27.17(e)",
+          "question": "Does the parent or investor account for investments in subsidiaries, joint ventures, or associates using the fair value method?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "243.1",
+          "source_trigger": "Fair value",
+          "original_question": "If the method used to account for those investments is fair value, does the parent or investor disclose the IFRS 13 fair-value measurement disclosures?",
+          "decision_tree": {
+            "question": "Does the parent or investor account for investments in subsidiaries, joint ventures, or associates using the fair value method?",
+            "guidance": "Check the accounting policy note under IAS 27 in the financial statements. Confirm whether the parent or investor uses fair value to measure investments in subsidiaries, joint ventures, or associates, as opposed to other methods (e.g., cost or equity method). Be cautious of inconsistent disclosures in the notes.",
+            "yes_case": {
+              "question": "Has the entity made the required IFRS 13 fair-value measurement disclosures related to these investments?",
+              "guidance": "Verify the disclosures in the financial statements, specifically in the notes detailing fair value measurement. Ensure there is information on the valuation techniques, inputs used (observable/unobservable), and the fair value hierarchy level. Cross-check IFRS 13 requirements for fair value disclosure (including paragraphs 91-99 for detailed guidance). Omission of this information raises compliance issues.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "244",
+          "section": "IAS 27",
+          "reference": "IAS 27.8A",
+          "question": "Is the reporting entity an investment entity as defined by IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "If an investment entity is required to apply the exception to consolidation for all of its subsidiaries throughout the current and comparative periods, does it present separate financial statements as its only financial statements?",
+          "decision_tree": {
+            "question": "Is the reporting entity an investment entity as defined by IFRS 10?",
+            "guidance": "Check the definition of an investment entity under IFRS 10. An investment entity typically obtains funds from investors to provide them with investment management services, commits to investing solely for returns from capital appreciation or investment income, and measures and evaluates performance of substantially all investments on a fair value basis. Review entity documentation, such as the charter, objectives, and financial performance reports.",
+            "yes_case": {
+              "question": "Is the entity applying the consolidation exception for all of its subsidiaries throughout the current and comparative periods?",
+              "guidance": "Verify if the entity has consistently applied the consolidation exception for all its subsidiaries (i.e., the entities it controls but does not consolidate) as permitted for investment entities under IFRS 10. Refer to the financial statements and comparative periods to confirm consistent application.",
+              "yes_case": {
+                "question": "Does the entity present separate financial statements as its only financial statements?",
+                "guidance": "Review the financial statements provided by the entity. Separate financial statements should be prepared as defined by IAS 27.8, containing only the entity's standalone financial information without the consolidation of its subsidiaries' financials.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "245",
+          "section": "IAS 27",
+          "reference": "IAS 27.16A",
+          "question": "Is the entity an investment entity as defined by IFRS 10?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "When an investment entity parent prepares separate financial statements as its only financial statements, does it disclose that fact and present the IFRS 12 disclosures relating to investment entities?",
+          "decision_tree": {
+            "question": "Is the entity an investment entity as defined by IFRS 10?",
+            "guidance": "Refer to IFRS 10.27-33 for the definition and characteristics of an investment entity. Confirm whether the entity meets the criteria, such as holding investments for capital appreciation, investment income, or both, and evaluating those investments on a fair value basis.",
+            "yes_case": {
+              "question": "Does the investment entity parent prepare separate financial statements as its only financial statements?",
+              "guidance": "Check whether the entity chose to present separate financial statements in accordance with IAS 27 and did not prepare consolidated financial statements. Verify this in the accounting policy section and financial statement disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose that it prepares separate financial statements as its only financial statements and present IFRS 12 disclosures relating to investment entities?",
+                "guidance": "Review the notes to the financial statements for explicit disclosure that separate financial statements are being prepared due to the entity being an investment entity. Also, verify compliance with IFRS 12 disclosures, such as the nature and extent of interests in unconsolidated subsidiaries.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.1",
+          "section": "IAS 27",
+          "reference": "IAS 27.17(a)",
+          "question": "Is the entity a parent or investor preparing separate financial statements?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the parent or investor disclose the fact that the statements are separate financial statements?",
+          "decision_tree": {
+            "question": "Is the entity a parent or investor preparing separate financial statements?",
+            "guidance": "Check the financial statement heading and descriptions in the notes to the accounts, as well as the accounting policies section. Separate financial statements are prepared by a parent or investor when they do not consolidate their investments but instead account for them as per IAS 27. Ensure the financial statements are titled and described as 'Separate Financial Statements'.",
+            "yes_case": {
+              "question": "Do the financial statements explicitly disclose that they are separate financial statements?",
+              "guidance": "Review the accounting policies and the notes to financial statements. Look specifically for a statement acknowledging that these financial statements are prepared as separate financial statements under IAS 27.17(a). Beware of missing or ambiguous disclosures that may lead to compliance issues.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.2",
+          "section": "IAS 27",
+          "reference": "IAS 27.17(b)",
+          "question": "Does the parent or investor prepare financial statements that are not required by law?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the parent or investor disclose the reasons why those statements are prepared if not required by law?",
+          "decision_tree": {
+            "question": "Does the parent or investor prepare financial statements that are not required by law?",
+            "guidance": "Review the financial statements and accompanying disclosures. Verify if the financial statements are being voluntarily prepared and not due to a legal or regulatory requirement. Check any statements or notes explaining the existence of the voluntary financial statements.",
+            "yes_case": {
+              "question": "Does the parent or investor disclose the reasons why those financial statements are being prepared voluntarily?",
+              "guidance": "Examine the notes to the financial statements or other supplementary disclosures. The reasons should be explicitly stated, such as aligning with stakeholder needs or demonstrating compliance with accounting standards. Ensure the explanation is clear and avoids generic language.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.3",
+          "section": "IAS 27",
+          "reference": "IAS 27.17(c)",
+          "question": "Does the entity have significant investments in subsidiaries, joint ventures, or associates?",
+          "context_required": "notes_only",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the parent or investor disclose a list of significant investments in subsidiaries, joint ventures and associates, including the name of each investee, its principal place of business (and country of incorporation, if different), and the proportion of ownership interest (and voting rights, if different) held?",
+          "decision_tree": {
+            "question": "Does the entity have significant investments in subsidiaries, joint ventures, or associates?",
+            "guidance": "Examine the entity's financial statements and notes. Look for investments classified as subsidiaries, joint ventures, or associates under IAS 27. Significant investments are typically those that materially affect the entity's financial position or performance.",
+            "yes_case": {
+              "question": "Has the entity disclosed a list of significant investments, including the investee's name, principal place of business, and country of incorporation if different?",
+              "guidance": "Review the disclosure notes in the financial statements. This information is typically found in sections describing subsidiaries, joint ventures, or associates. Ensure that the name of each significant investee, its principal place of business, and country of incorporation (if different) are properly disclosed.",
+              "yes_case": {
+                "question": "Has the entity disclosed the proportion of ownership interest and voting rights of each significant investee, if different?",
+                "guidance": "Verify that for each significant investment disclosed, the proportion of ownership interest held by the parent or investor is clearly stated. If voting rights differ from ownership interest, they must also be disclosed. Look for this information in footnotes or accompanying tables.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.4",
+          "section": "IAS 27",
+          "reference": "IAS 27.17(d)",
+          "question": "Does the parent or investor hold investments that fall under IAS 27.17(c)?",
+          "context_required": "notes_only",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "original_question": "Does the parent or investor describe the method used to account for the investments listed under (c)?",
+          "decision_tree": {
+            "question": "Does the parent or investor hold investments that fall under IAS 27.17(c)?",
+            "guidance": "Review the entity's financial statements, particularly the Statement of Financial Position and related notes, to identify investments classified under IAS 27.17(c). These are typically investments in subsidiaries, associates, or joint ventures. Ensure you reference the definitions provided in IAS 27.17(c) and cross-check the notes to ensure the classification aligns.",
+            "yes_case": {
+              "question": "Does the parent or investor describe the method used to account for these investments listed under IAS 27.17(c)?",
+              "guidance": "Examine the accounting policies section of the financial statements. Look for explicit disclosure describing the method used to account for investments in subsidiaries, associates, or joint ventures (e.g., cost method, equity method, or alternatives as permitted by IAS 27). Ensure the description is clear and complies with IAS 27.17(d).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "246.5",
+          "section": "IAS 27",
+          "reference": "IAS 27.17(e)",
+          "question": "Does the entity have investments accounted for under IAS 27?",
+          "context_required": "notes_only",
+          "question_type": "Followup",
+          "source_question": "246.4",
+          "source_trigger": "Fair value",
+          "original_question": "If the method used to account for the investments listed under (c) is fair value, does the parent or investor disclose the IFRS 13 fair-value measurement disclosures?",
+          "decision_tree": {
+            "question": "Does the entity have investments accounted for under IAS 27?",
+            "guidance": "Refer to the financial statements and note disclosures to determine if the entity recognizes any investments under IAS 27. Review investment-related sections or disclosures, particularly in relation to subsidiaries, joint ventures, or associates.",
+            "yes_case": {
+              "question": "Is the method used to account for these investments fair value?",
+              "guidance": "Examine the accounting policies section of the financial statements to confirm whether the entity applies fair value measurement for these investments under IAS 27. Cross-check the measurement basis with IFRS standards to ensure correct interpretation.",
+              "yes_case": {
+                "question": "Does the parent or investor disclose the IFRS 13 fair-value measurement disclosures in the financial statements?",
+                "guidance": "Review the fair value measurement note in the financial statements to check if the disclosures required by IFRS 13 are included (e.g., fair value hierarchy, methods used for valuation, inputs for measurement, sensitivity analysis for Level 3 inputs). Ensure the disclosures meet the specific requirements laid out under IFRS 13.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

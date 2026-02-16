@@ -1,0 +1,1100 @@
+{
+  "title": "Agriculture (IAS 41) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 41",
+      "title": "Agriculture",
+      "description": "Checklist for presentation and disclosure requirements under IAS 41.",
+      "items": [
+        {
+          "id": "542.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.40(a)",
+          "question": "Does the entity have biological assets or agricultural produce?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the aggregate gain or loss arising during the current period on initial recognition of biological assets and agricultural produce?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets or agricultural produce?",
+            "guidance": "Review the Statement of Financial Position and related notes. Biological assets typically include living animals or plants held for agricultural activity. Agricultural produce refers to harvested products from biological assets. Look for accounts or disclosures under IAS 41 to identify these items.",
+            "yes_case": {
+              "question": "Did the entity recognize aggregate gains or losses during the current period from the initial recognition of biological assets or agricultural produce?",
+              "guidance": "Examine the financial records and disclosures. Gains or losses on initial recognition typically occur when biological assets are measured at fair value less costs to sell upon acquisition or growth, and agricultural produce is measured at fair value at point of harvest. Check the applicable IAS 41 valuation methods and inputs.",
+              "yes_case": {
+                "question": "Has the entity disclosed the aggregate gain or loss arising during the current period on initial recognition of biological assets and agricultural produce?",
+                "guidance": "Verify the entity's disclosures in the notes to the financial statements covering biological assets and agricultural produce. Check if they include the aggregate gain or loss and ensure the amounts align with the calculations under IAS 41.40(a).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "542.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.40(b)",
+          "question": "Does the entity have biological assets?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the aggregate gain or loss arising from the change in fair value less costs to sell of biological assets?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets?",
+            "guidance": "Review the entity's financial statements and supporting documentation (e.g., fixed assets register, inventory records). Biological assets are living animals or plants. Ensure these qualify as assets under IAS 41 definitions.",
+            "yes_case": {
+              "question": "Does the entity measure biological assets at fair value less costs to sell?",
+              "guidance": "Verify the measurement method for biological assets. Biological assets are typically measured at fair value less costs to sell unless their fair value cannot be reliably measured, in which case cost may be used (IAS 41.12-13). Review the valuation methodology and check financial statement disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose the aggregate gain or loss arising from the change in fair value less costs to sell of biological assets?",
+                "guidance": "Examine the disclosures in the financial statements (e.g., the notes section related to IAS 41 compliance). This disclosure should include the total amount of gains or losses due to changes in fair value less costs to sell during the reporting period.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "543.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.41",
+          "question": "Does the entity own or control any biological assets?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose a narrative description of each group of biological assets?",
+          "decision_tree": {
+            "question": "Does the entity own or control any biological assets?",
+            "guidance": "Review the entity’s Statement of Financial Position and accompanying notes to identify any recognized biological assets, which include living plants or animals, per IAS 41 definitions. Common examples are livestock, crops, or forests. Cross-check with Section IAS 41.5 for definitions to confirm.",
+            "yes_case": {
+              "question": "Does the entity disclose a narrative description of each group of biological assets in its financial statements?",
+              "guidance": "Examine the notes to the financial statements, particularly those related to biological assets, to verify the presence of a clear narrative description for each group of biological assets (e.g., 'livestock', 'crops'). Ensure the descriptions provide enough detail to distinguish different groups per IAS 41.41.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "543.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.42",
+          "question": "Does the entity hold biological assets?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose a quantified description of each group of biological assets?",
+          "decision_tree": {
+            "question": "Does the entity hold biological assets?",
+            "guidance": "Review the entity's financial statements and explanatory notes. Biological assets include living plants or animals. Examples: livestock, fish stock, crops. Check the Statement of Financial Position for asset classifications, and note disclosures for descriptions.",
+            "yes_case": {
+              "question": "Has the entity grouped its biological assets based on nature or function?",
+              "guidance": "Refer to IAS 41.42 requirements. Groups should be categorized based on shared characteristics (e.g., livestock type – cattle, sheep; crop type – timber, orchards) or economic function. Confirm grouping in the notes to the financial statements.",
+              "yes_case": {
+                "question": "Does the entity disclose a quantified description of each group of biological assets?",
+                "guidance": "Verify the entity provides a detailed quantitative summary for each group as per IAS 41.42. Quantified descriptions typically include the number of units or area (e.g., hectares of forest, number of cattle). Cross-check with operational reports for consistency. Ensure all groups are covered.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "544.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.43(a)",
+          "question": "Does the entity own or control any biological assets?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity elect to provide a quantified description of each group of biological assets distinguishing between consumable and bearer biological assets?",
+          "decision_tree": {
+            "question": "Does the entity own or control any biological assets?",
+            "guidance": "Biological assets are defined under IAS 41 as living plants or animals. Review the Statement of Financial Position and Notes to the Accounts for any mention of biological assets. Common examples include livestock, vineyards, orchards, or plantations. Ensure the entity has clearly documented ownership or control over these assets.",
+            "yes_case": {
+              "question": "Has the entity distinguished between consumable and bearer biological assets for classification purposes?",
+              "guidance": "IAS 41 requires biological assets to be classified into consumable (e.g., animals for meat production, crops for sale) and bearer assets (e.g., livestock producing milk, trees yielding fruits). Check the accounting policies and disclosures for this distinction. Also, review if the categorization follows the purpose of the assets' use.",
+              "yes_case": {
+                "question": "Has the entity elected to provide a quantified description of each group of biological assets in its disclosures?",
+                "guidance": "Refer to the disclosures section in the financial statements, particularly under IAS 41.43(a). Quantified descriptions might include the number of livestock, hectares of plantations, or other measurable details. Verify if this election is explicitly made and if sufficient detail is provided.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "544.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.43(b)",
+          "question": "Does the entity own biological assets?",
+          "question_type": "Followup",
+          "source_question": "544.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity elect to provide a quantified description of each group of biological assets distinguishing between mature and immature biological assets?",
+          "decision_tree": {
+            "question": "Does the entity own biological assets?",
+            "guidance": "Review the entity's assets in the Statement of Financial Position and disclosures in financial statement notes. Biological assets are living animals or plants, as defined in IAS 41. Check for explicit mentions of biological assets or related terms such as livestock, crops, or plantations.",
+            "yes_case": {
+              "question": "Has the entity distinguished biological assets between mature and immature groups in its financial disclosures?",
+              "guidance": "Examine the notes to the financial statements and other disclosures related to biological assets. Look for categories such as 'mature biological assets' and 'immature biological assets.' Common examples include livestock grouped by age or plantations grouped by maturity stage.",
+              "yes_case": {
+                "question": "Are the quantified descriptions of mature and immature biological assets provided by the entity in accordance with IAS 41.43(b)?",
+                "guidance": "Check if the entity provides numerical data (e.g., number of animals, hectares of crops) for each group of biological assets in its disclosures. Ensure the data sufficiently complies with IAS 41.43(b) requirements for transparency and completeness.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "544.3",
+          "section": "IAS 41",
+          "reference": "IAS 41.43(c)",
+          "question": "Does the entity engage in agricultural activity as defined under IAS 41?",
+          "question_type": "Followup",
+          "source_question": "544.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the basis for making any such distinction?",
+          "decision_tree": {
+            "question": "Does the entity engage in agricultural activity as defined under IAS 41?",
+            "guidance": "Review the entity's operational scope and activities. Confirm if the entity manages living plants or animals for sale, agricultural produce, or biological transformation as defined under IAS 41, paragraphs 5-6. Ensure that this applies at the reporting date.",
+            "yes_case": {
+              "question": "Does the fair value measurement of biological assets or agricultural produce require distinctions (e.g., between different biological asset groups or conditions)?",
+              "guidance": "Examine the notes to the financial statements and valuation practices. Determine how the fair value measurement process is applied to biological assets or produce, and assess whether distinctions are necessary for accurate valuation, as outlined in IAS 41. Refer to IAS 41.12-13 for fair value measurement principles.",
+              "yes_case": {
+                "question": "Does the entity disclose the basis for making any such distinction in compliance with IAS 41.43(c)?",
+                "guidance": "Inspect the disclosures in the financial statements and notes. Check if the entity explains the criteria used for distinguishing between types, categories, or conditions of biological assets or agricultural produce. This includes providing sufficient clarity and methods used in valuation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "545.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.46(a)",
+          "question": "Does the entity hold biological assets?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity describe the nature of its activities involving each group of biological assets?",
+          "decision_tree": {
+            "question": "Does the entity hold biological assets?",
+            "guidance": "Refer to the Statement of Financial Position and related notes. Biological assets are living plants or animals, as defined in IAS 41. Determine if the entity has recognized any biological assets under IAS 41. Look out for assets such as livestock, plantations, or crops actively managed for harvest or farming.",
+            "yes_case": {
+              "question": "Does the entity group biological assets into categories based on their nature (e.g., livestock, crops, plantations)?",
+              "guidance": "Check the Notes to the Financial Statements or supporting schedules for biological assets. Entities are required to differentiate biological assets by nature to ensure proper classification and relevance of disclosures.",
+              "yes_case": {
+                "question": "Does the entity describe the nature of its activities involving each group of biological assets?",
+                "guidance": "Review the Notes to the Financial Statements or management commentary. Ensure that for each group of biological assets (e.g., livestock, plantations, crops), the entity discloses how these assets are managed, harvested, or utilized. Note that this description should provide sufficient clarity to understand the entity's operations and compliance with IAS 41.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "545.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.46(b)(i)",
+          "question": "Does the entity own biological assets at the end of the reporting period?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose non-financial measures or estimates of the physical quantities of each group of biological assets at the end of the period?",
+          "decision_tree": {
+            "question": "Does the entity own biological assets at the end of the reporting period?",
+            "guidance": "Review the entity's Statement of Financial Position and supporting notes to identify recognized biological assets. Biological assets are living plants or animals, as defined by IAS 41. Ensure consistency between physical records, inventory management systems, and financial reporting.",
+            "yes_case": {
+              "question": "Has the entity grouped biological assets into identifiable categories as required by IAS 41?",
+              "guidance": "Examine the descriptions and classifications used by the entity in financial statements or supporting disclosures. Categories should be specific, such as types of livestock, crops, or forests. Avoid overly generic groupings that may lack relevance or clarity.",
+              "yes_case": {
+                "question": "Does the entity disclose non-financial measures or estimates of the physical quantities of each group of biological assets at the end of the period?",
+                "guidance": "Review the disclosures in the notes to financial statements for quantifiable metrics such as the count, weight, or area of biological assets. Verify the use of appropriate and consistent measurement methods (e.g., hectares for crops, headcount for livestock). Ensure these disclosures are aligned with the end-of-period reporting date.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "545.3",
+          "section": "IAS 41",
+          "reference": "IAS 41.46(b)(ii)",
+          "question": "Does the entity engage in agricultural activity as defined by IAS 41?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose non-financial measures or estimates of the physical quantities of the output of agricultural produce during the period?",
+          "decision_tree": {
+            "question": "Does the entity engage in agricultural activity as defined by IAS 41?",
+            "guidance": "Agricultural activity refers to the management of biological assets for transformation into agricultural produce or additional biological assets. Check the nature of operations in the entity’s business description and review the financial statements for references to biological assets or agricultural produce.",
+            "yes_case": {
+              "question": "Does the entity have agricultural produce output during the reporting period?",
+              "guidance": "Examine production reports, inventory records, or financial statement disclosures for details of agricultural produce harvested during the period. Ensure the definition of 'agricultural produce' aligns with IAS 41.13.",
+              "yes_case": {
+                "question": "Does the entity disclose non-financial measures or estimates of the physical quantities of the agricultural produce output as required by IAS 41.46(b)(ii)?",
+                "guidance": "Refer to the notes to the financial statements or management reports. Verify that non-financial information, such as harvested volumes or physical quantities, is disclosed. Cross-check consistency with production records and other disclosures to confirm accuracy.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "547.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.49(a)",
+          "question": "Does the entity have biological assets?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the existence and carrying amounts of biological assets whose title is restricted?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets?",
+            "guidance": "Inspect the entity's Statement of Financial Position and relevant notes. Biological assets are living plants or animals, as defined under IAS 41. Ensure proper identification of such assets by reviewing inventory and non-current asset classifications.",
+            "yes_case": {
+              "question": "Are there restrictions on the title of any biological assets?",
+              "guidance": "Review contractual agreements, legal documents, and statutory filings related to the biological assets. Restrictions may include legal liens, pledges, or regulatory restrictions imposed by external parties. Common pitfalls include overlooking minor clauses that limit usage or transfer.",
+              "yes_case": {
+                "question": "Does the entity disclose the existence and carrying amounts of biological assets whose title is restricted?",
+                "guidance": "Check the financial statement disclosures, particularly the notes to the Biological Assets section. Ensure the entity specifies the existence of restrictions and provides the corresponding carrying amounts. Verify compliance with IAS 41.49(a). Omissions in title restrictions or insufficient detail may raise compliance issues.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "547.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.49(b)",
+          "question": "Does the entity have biological assets recognized in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the carrying amounts of biological assets pledged as security for liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets recognized in its financial statements?",
+            "guidance": "Review the Statement of Financial Position and relevant notes. Biological assets are typically living plants or animals used for agricultural production. Check whether these are recognized under IAS 41. Refer to the accounting policies section to confirm classification.",
+            "yes_case": {
+              "question": "Are any of the recognized biological assets pledged as security for liabilities?",
+              "guidance": "Examine loan agreements, contract documents, and the notes to the financial statements for references to biological assets used as collateral. Check specific terms regarding pledging security against liabilities.",
+              "yes_case": {
+                "question": "Has the entity disclosed the carrying amounts of biological assets pledged as security for liabilities?",
+                "guidance": "Check the notes to the financial statements for disclosures. The carrying amounts of biological assets pledged should be clearly stated, as required by IAS 41.49(b). Ensure these disclosures are complete and comply with the standard requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "547.3",
+          "section": "IAS 41",
+          "reference": "IAS 41.49(c)",
+          "question": "Does the entity have biological assets?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of commitments for the development or acquisition of biological assets?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets?",
+            "guidance": "Review the entity's Statement of Financial Position and supporting notes for the presence of biological assets. Biological assets are living plants or animals, as defined in IAS 41. Check the asset classification to confirm whether any biological assets have been recognized.",
+            "yes_case": {
+              "question": "Has the entity made commitments for the development or acquisition of biological assets?",
+              "guidance": "Examine legally binding agreements, contracts, or internal records that indicate the entity's future obligations to develop or acquire biological assets. Include purchase agreements, supply contracts, or development plans in your review.",
+              "yes_case": {
+                "question": "Has the entity disclosed the amount of commitments for the development or acquisition of biological assets in accordance with IAS 41.49(c)?",
+                "guidance": "Verify the notes to the financial statements to ensure disclosures include the monetary value of commitments explicitly related to the development or acquisition of biological assets. Disclosures should be clear, specific, and in compliance with IAS 41.49(c). If no such disclosures are found, it indicates potential non-compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "547.4",
+          "section": "IAS 41",
+          "reference": "IAS 41.49(d)",
+          "question": "Does the entity engage in agricultural activity?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose financial risk management strategies related to agricultural activity?",
+          "decision_tree": {
+            "question": "Does the entity engage in agricultural activity?",
+            "guidance": "Refer to IAS 41. Inspect the scope of operations, assets, and income in the financial statements. Agricultural activity involves the management of biological assets (plants and animals) for sale, harvesting, or conversion into agricultural produce. Cross-check supporting documentation such as farming contracts or internal management reports.",
+            "yes_case": {
+              "question": "Does the entity recognize biological assets or agricultural produce in its financial statements?",
+              "guidance": "Check the asset section of the Statement of Financial Position. Biological assets should be recognized in compliance with IAS 41 (e.g., living plants or animals). Review supporting schedules or notes for details on recognition and measurement.",
+              "yes_case": {
+                "question": "Does the entity disclose financial risk management strategies related to its agricultural activity?",
+                "guidance": "Review the disclosures in the Notes to the Financial Statements, particularly under risk management and IAS 41 compliance. Look for strategies addressing risks such as market price fluctuations, credit risk, and operational risks related to agricultural activity. Ensure the strategies have sufficient qualitative and quantitative detail.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "548.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.50",
+          "question": "Does the entity have biological assets recognized in its financial statements?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity provide a reconciliation of changes in the carrying amount of biological assets between the beginning and the end of the current period?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets recognized in its financial statements?",
+            "guidance": "Review the entity's Statement of Financial Position and accompanying disclosures. Biological assets are living animals or plants. Refer to IAS 41 to confirm the recognition criteria and classification.",
+            "yes_case": {
+              "question": "Has the entity made disclosures on the changes in the carrying amount of biological assets during the current period?",
+              "guidance": "Review the notes to financial statements or accompanying disclosures. Look for reconciliations or roll-forward schedules that detail changes such as acquisitions, disposals, births, deaths, harvest, or adjustments from fair value changes.",
+              "yes_case": {
+                "question": "Is the reconciliation of changes in the carrying amount detailed in accordance with IAS 41.50?",
+                "guidance": "Confirm the reconciliation includes all required elements: acquisitions, disposals, increases due to births, decreases due to deaths, harvests, and fair value adjustments. Ensure the reconciliation is transparent and provides sufficient detail for stakeholders.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "548.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.50(g)",
+          "question": "Does the entity engage in agricultural activity within the scope of IAS 41?",
+          "question_type": "Followup",
+          "source_question": "548.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does that reconciliation include other changes?",
+          "decision_tree": {
+            "question": "Does the entity engage in agricultural activity within the scope of IAS 41?",
+            "guidance": "Review the entity's financial statements and operational activities. Agricultural activity refers to the management of biological assets for sale, processing into agricultural produce, or for breeding purposes. Ensure this is clearly documented in the nature of operations or accounting policies.",
+            "yes_case": {
+              "question": "Has the entity prepared a reconciliation of changes in the carrying amount of biological assets as required by IAS 41?",
+              "guidance": "Examine the disclosures in the notes to the financial statements, specifically the section detailing biological assets. The reconciliation should include opening balances, additions, disposals, changes due to revaluations, and closing balances.",
+              "yes_case": {
+                "question": "Does the reconciliation include all types of changes, including other changes as specified by IAS 41.50(g)?",
+                "guidance": "Verify that the reconciliation includes 'other changes' such as changes in classification, transfers to/from other asset classes, or adjustments due to errors. Compare against IAS 41.50(g) and note any omitted change classifications in the reconciliation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "549",
+          "section": "IAS 41",
+          "reference": "IAS 41.53",
+          "question": "Does the entity operate in agricultural activities as defined by IAS 41?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature and amount of material items of income or expense that result from climatic, disease, or other natural risks?",
+          "decision_tree": {
+            "question": "Does the entity operate in agricultural activities as defined by IAS 41?",
+            "guidance": "Examine the entity's business operations and financial statements to determine if agricultural activities exist, as defined by IAS 41. Agricultural activities involve managing biological assets (e.g., crops, livestock) for sale, harvesting, or production. Review related disclosures in the notes to the financial statements and the nature of operations provided in the annual report.",
+            "yes_case": {
+              "question": "Did the entity experience climatic, disease, or other natural risks during the reporting period?",
+              "guidance": "Review external reports, regulatory filings, and management commentary for references to events such as droughts, floods, pest infestations, or diseases affecting biological assets. Confirm whether these risks materially impacted the entity's financial performance or operations.",
+              "yes_case": {
+                "question": "Did the entity disclose the nature and amount of material income or expenses that resulted from these risks?",
+                "guidance": "Review disclosures in the financial statements, particularly under notes related to IAS 41.53, operating income and expense notes, and other relevant sections. Ensure that material impacts from climatic, disease, or natural risks are presented clearly, including amounts and the specific nature of the events.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "550.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.51",
+          "question": "Does the entity have biological assets accounted for under IAS 41?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity elect to disclose the amount of change in fair value less costs to sell included in profit or loss due to physical changes?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets accounted for under IAS 41?",
+            "guidance": "Review the entity's statement of financial position and accounting policies. Biological assets are living plants or animals, such as livestock, crops, or timber. Verify that the entity recognizes any such assets under IAS 41.",
+            "yes_case": {
+              "question": "Are the biological assets measured at fair value less costs to sell as required by IAS 41?",
+              "guidance": "Check the accounting treatment for biological assets in the financial statements. IAS 41 requires biological assets to be measured at fair value less costs to sell unless fair value cannot be reliably measured.",
+              "yes_case": {
+                "question": "Does the entity elect to disclose the amount of change in fair value less costs to sell included in profit or loss due to physical changes?",
+                "guidance": "Review the disclosures in the notes to the financial statements under IAS 41.51. Look for specific disclosure about the change in fair value due to physical changes, such as growth, degradation, or other physical transformations of the biological assets.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "550.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.52",
+          "question": "Does the entity hold biological assets or agricultural produce measured at fair value less costs to sell?",
+          "question_type": "Followup",
+          "source_question": "542.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity elect to disclose the amount of change in fair value less costs to sell included in profit or loss due to price changes?",
+          "decision_tree": {
+            "question": "Does the entity hold biological assets or agricultural produce measured at fair value less costs to sell?",
+            "guidance": "Examine the financial statements and disclosures, particularly the Statement of Financial Position and related notes under IAS 41. Verify if 'Biological assets' or 'Agricultural produce' is listed and measured at fair value less costs to sell as required by IAS 41.8.",
+            "yes_case": {
+              "question": "Does the entity measure changes in fair value less costs to sell of biological assets or agricultural produce included in profit or loss?",
+              "guidance": "Review the entity's profit or loss statement or the notes to it. IAS 41.26 requires changes in fair value less costs to sell to be included in profit or loss. Confirm presence of these figures.",
+              "yes_case": {
+                "question": "Does the entity elect to disclose the portion of the change in fair value less costs to sell due to price changes as required by IAS 41.52?",
+                "guidance": "Review the notes to the financial statements under IAS 41.52. A detailed disclosure is required to segregate the change in fair value stemming from price changes, enabling a deeper understanding of market movements. Ensure this disclosure is presented.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "551.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.54(a)",
+          "question": "Does the entity have biological assets?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If biological assets are measured at cost less depreciation and impairment because fair value cannot be measured reliably, does the entity disclose a description of those biological assets?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets?",
+            "guidance": "Review the entity's financial statements, particularly the balance sheet and notes. Biological assets are defined in IAS 41 as living plants or animals under management for agricultural activity.",
+            "yes_case": {
+              "question": "Are the biological assets measured at cost less accumulated depreciation and impairment because fair value cannot be measured reliably?",
+              "guidance": "Examine the measurement basis in the accounting policies and footnotes related to the biological assets. Confirm that fair value measurement is not applied due to reliability issues as per IAS 41.30.",
+              "yes_case": {
+                "question": "Does the entity disclose a description of the biological assets measured at cost less depreciation and impairment?",
+                "guidance": "Locate the disclosures regarding biological assets in the financial statement notes. Verify that the entity provides a description of the relevant assets as required by IAS 41.54(a). Common pitfalls include generic disclosures or missing descriptions entirely.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "551.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.54(b)",
+          "question": "Does the entity hold biological assets?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity explain why fair value cannot be measured reliably?",
+          "decision_tree": {
+            "question": "Does the entity hold biological assets?",
+            "guidance": "Refer to the entity's statement of financial position and relevant notes to determine if biological assets are held, as defined in IAS 41. Biological assets include living plants or animals, such as livestock, crops, or forestry products. Verify classification under IAS 41.",
+            "yes_case": {
+              "question": "Has the entity opted to measure biological assets at fair value?",
+              "guidance": "Review the accounting policy disclosed in the notes to the financial statements. Under IAS 41, biological assets are typically measured at fair value less costs to sell unless fair value cannot be measured reliably.",
+              "yes_case": {
+                "question": "Has the entity disclosed an explanation as to why the fair value of biological assets cannot be measured reliably?",
+                "guidance": "Check the disclosure section related to biological assets in the notes to the financial statements. IAS 41.54(b) requires a clear explanation if fair value cannot be measured reliably. Look for specific reasons, such as market activity limitations or the absence of reliable market data.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "551.3",
+          "section": "IAS 41",
+          "reference": "IAS 41.54(c)",
+          "question": "Does the entity own or control biological assets measured at fair value under IAS 41?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the range of estimates within which fair value is highly likely to lie, if possible?",
+          "decision_tree": {
+            "question": "Does the entity own or control biological assets measured at fair value under IAS 41?",
+            "guidance": "Review the Statement of Financial Position and supporting notes to identify any biological assets (e.g., livestock, crops, etc.). Ensure these are measured at fair value minus costs to sell, as required by IAS 41. Check documentation to confirm recognition of biological assets.",
+            "yes_case": {
+              "question": "Is the fair value of biological assets reliably measurable?",
+              "guidance": "Review the supporting notes and valuation techniques used for biological assets. Fair value must be estimated based on market data, discounted cash flows, or other appropriate methods. Confirm that fair value reliability is explicitly stated or clearly supported.",
+              "yes_case": {
+                "question": "Has the entity disclosed a range of estimates within which fair value is highly likely to lie, if possible?",
+                "guidance": "Examine the disclosures in the notes to the financial statements under IAS 41.54(c). The range of estimates should give users insight into uncertainty or estimation variability. Common pitfalls include failing to provide a range when fair value involves significant judgment or estimation challenges.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "551.4",
+          "section": "IAS 41",
+          "reference": "IAS 41.54(d)",
+          "question": "Does the entity hold any assets within the scope of IAS 41 (Agriculture)?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the depreciation method used?",
+          "decision_tree": {
+            "question": "Does the entity hold any assets within the scope of IAS 41 (Agriculture)?",
+            "guidance": "Check the financial statements and accounting policies to identify if the entity has biological assets or agricultural produce, as these fall under IAS 41. Review the notes to financial statements and inventory sections for mentions of agricultural activities. If no such assets or activities are present, this checklist item is not applicable.",
+            "yes_case": {
+              "question": "Are the biological assets or agricultural produce subject to depreciation?",
+              "guidance": "Review IAS 41 and the entity's accounting policies to determine if the biological assets or agricultural produce are measured in a way that requires depreciation (e.g., certain assets may be accounted for initially at cost). Check if the entity states the need for depreciation in their accounting treatment.",
+              "yes_case": {
+                "question": "Does the entity disclose the depreciation method used for these assets?",
+                "guidance": "Review the notes to the financial statements specifically relating to biological assets or agricultural produce. The entity should specify the method used (e.g., straight-line or declining balance) if the assets are depreciable. Ensure the disclosure aligns with IAS 41.54(d).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "551.5",
+          "section": "IAS 41",
+          "reference": "IAS 41.54(e)",
+          "question": "Does the entity have biological assets or agricultural produce subject to depreciation or useful life disclosures?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the useful lives or depreciation rates used?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets or agricultural produce subject to depreciation or useful life disclosures?",
+            "guidance": "Review the financial statements for the presence of biological assets and agricultural produce. Check IAS 41 compliance by identifying items that are measured at cost less accumulated depreciation (not fair value less costs to sell). Look for terms such as 'biological transformation' or related agricultural activity notes.",
+            "yes_case": {
+              "question": "Has the entity disclosed the useful lives or depreciation rates used for these assets?",
+              "guidance": "Inspect the notes to the financial statements, particularly the section on accounting policies for biological assets. Ensure that useful lives (e.g., years of use before replacement) or depreciation rates (e.g., percentage applied annually) are explicitly stated. Common pitfalls include vague or missing disclosures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "551.6",
+          "section": "IAS 41",
+          "reference": "IAS 41.54(f)",
+          "question": "Does the entity have biological assets or bearers subject to IAS 41?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the gross carrying amount and the accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets or bearers subject to IAS 41?",
+            "guidance": "Refer to the Statement of Financial Position and relevant notes to identify if the entity owns biological assets that are within the scope of IAS 41 (e.g., consumable plants or bearer plants). Confirm from documentation such as asset registers or management reports. Ensure assets are not mistakenly classified under other standards like IAS 16 or IAS 2.",
+            "yes_case": {
+              "question": "Are these biological assets measured at their gross carrying amount and accumulated depreciation or accumulated impairment losses aggregated at the beginning and end of the period?",
+              "guidance": "Review the financial statement disclosures for biological assets. Specifically, check note disclosures in compliance with IAS 41.54(f) to confirm that the gross carrying amount and aggregated accumulated depreciation or impairment losses are disclosed for both the start and the end of the reporting period.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(a)",
+          "question": "Does the entity have biological assets measured at cost less depreciation and impairment?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose any gain or loss recognised on disposal of biological assets measured at cost less depreciation and impairment?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets measured at cost less depreciation and impairment?",
+            "guidance": "Review the entity's Statement of Financial Position and associated notes for the recognition of biological assets. Check whether these assets are measured using the 'cost less depreciation and impairment' model as outlined in IAS 41. Consider how biological assets are accounted for in prior periods and confirm the measurement basis is consistent.",
+            "yes_case": {
+              "question": "Has the entity disposed of any of these biological assets during the reporting period?",
+              "guidance": "Examine the entity's transaction records, disposal documentation, and notes to determine whether any biological assets measured at cost less depreciation and impairment have been sold, written off, transferred, or otherwise disposed of during the reporting period.",
+              "yes_case": {
+                "question": "Has the entity disclosed any gain or loss recognised on disposal of these biological assets?",
+                "guidance": "Verify the disclosures related to disposals of biological assets within the notes to the financial statements. Ensure the disclosure specifically addresses the gain or loss recognised from the disposal, as required by IAS 41.55(a). Common mistakes include failing to clearly distinguish these disclosures or omitting them entirely.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(b)(i)",
+          "question": "Does the entity engage in agricultural activity, as defined by IAS 41?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include increases due to purchases?",
+          "decision_tree": {
+            "question": "Does the entity engage in agricultural activity, as defined by IAS 41?",
+            "guidance": "Review the entity's operations and financial statements to determine if they involve the management of biological assets for sale, production, or transformation into agricultural produce. Check IAS 41.5 for definitions and examples of agricultural activities.",
+            "yes_case": {
+              "question": "Does the entity prepare a reconciliation of changes in the carrying amount of biological assets, as required by IAS 41.55?",
+              "guidance": "Examine the financial statements, particularly the notes section, to confirm whether a reconciliation table for biological assets is presented. Ensure changes such as purchases, sales, and revaluations are disclosed.",
+              "yes_case": {
+                "question": "Does the reconciliation include increases in the carrying amount due to purchases of biological assets, as required by IAS 41.55(b)(i)?",
+                "guidance": "Inspect the reconciliation table prepared by the entity and verify if it explicitly lists increases from the purchase of biological assets. These should be separately disclosed as part of the reconciliation note.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.3",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(b)(ii)",
+          "question": "Does the entity hold biological assets classified as held for sale or sold during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include decreases due to sales and biological assets classified as held for sale in accordance with IFRS 5?",
+          "decision_tree": {
+            "question": "Does the entity hold biological assets classified as held for sale or sold during the reporting period?",
+            "guidance": "Review the entity's Statement of Financial Position and supporting notes. Look for any biological assets classified as held for sale in accordance with IFRS 5 or sales transactions involving biological assets. Check disclosures related to biological assets and IFRS 5 classification criteria.",
+            "yes_case": {
+              "question": "Does the entity prepare a reconciliation of changes in the carrying amount of biological assets, as required by IAS 41?",
+              "guidance": "Examine the notes to the financial statements for a reconciliation schedule showing changes in the carrying amount of biological assets, including acquisitions, disposals, changes due to fair value adjustments, and sales. Verify completeness and accuracy of the reconciliation.",
+              "yes_case": {
+                "question": "Does the reconciliation include decreases due to sales and biological assets classified as held for sale in accordance with IFRS 5?",
+                "guidance": "Ensure the reconciliation explicitly accounts for decreases from sales of biological assets and transfers of biological assets to the 'held for sale' category under IFRS 5. Cross-check relevant documentation and disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.4",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(b)(iii)",
+          "question": "Does the entity have biological assets subject to IAS 41?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include decreases due to harvest?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets subject to IAS 41?",
+            "guidance": "Evaluate whether the entity recognizes biological assets as defined under IAS 41 (e.g., living plants or animals). Check the Statement of Financial Position and related notes for references to biological assets.",
+            "yes_case": {
+              "question": "Does the entity harvest any of its biological assets during the reporting period?",
+              "guidance": "Review operational records and financial statements for evidence of harvesting activities, such as agricultural produce being harvested from biological assets. Specifically, check the notes accompanying the financial statements for disclosures related to harvested produce.",
+              "yes_case": {
+                "question": "Does the reconciliation of changes in biological assets include decreases due to harvest?",
+                "guidance": "Confirm that the reconciliation schedule for biological assets (IAS 41.55) explicitly includes decreases resulting from harvest. Ensure that the decrease is correctly quantified and categorized in the reconciliation table.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.5",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(b)(iv)",
+          "question": "Has the entity engaged in any business combinations during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include increases resulting from business combinations?",
+          "decision_tree": {
+            "question": "Has the entity engaged in any business combinations during the reporting period?",
+            "guidance": "Examine the entity's financial statements and disclosures to identify any activities or transactions defined as business combinations under IFRS 3. Look into acquisition-related notes and review the entity's disclosures for terms like 'purchase of subsidiaries,' 'mergers,' or 'asset acquisitions.'",
+            "yes_case": {
+              "question": "Does IAS 41 apply to the entity (e.g., does the entity have biological assets or agricultural activity)?",
+              "guidance": "Verify whether the entity owns any biological assets or engages in agricultural activity, as defined by IAS 41. Review the financial statements for areas such as livestock, crops, or biological transformation of assets. Cross-check references to IAS 41 in the entity's accounting policies.",
+              "yes_case": {
+                "question": "Does the reconciliation of biological assets include increases resulting from business combinations?",
+                "guidance": "Review the disclosures specifically related to IAS 41, section 55(b)(iv). Reconciliation tables should detail increases in biological assets resulting from business combinations. Confirm that all relevant increases are recorded and accurately disclosed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.6",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(b)(v)",
+          "question": "Do the entity's financial statements include biological assets or agricultural produce as defined by IAS 41?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include net exchange differences arising on translation of the financial statements?",
+          "decision_tree": {
+            "question": "Do the entity's financial statements include biological assets or agricultural produce as defined by IAS 41?",
+            "guidance": "Check the financial statements, particularly the notes or accounting policies section. Biological assets refer to living plants and animals, and agricultural produce is harvested product from these assets. Ensure the entity is applying IAS 41.",
+            "yes_case": {
+              "question": "Does the entity prepare a reconciliation for changes in the carrying amount of biological assets during the period, as required by IAS 41?",
+              "guidance": "Review the financial statements or disclosures. The reconciliation must detail changes, such as additions, disposals, and fair value adjustments. This is typically found in the notes to the financial statements under IAS 41.55(b).",
+              "yes_case": {
+                "question": "Does the reconciliation include net exchange differences arising from translation of the financial statements?",
+                "guidance": "Examine the reconciliation in the notes to the financial statements. Net exchange differences should be presented separately as part of the changes in carrying amounts. This applies when the entity operates in multiple currencies or consolidates foreign entities.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.7",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(b)(vi)",
+          "question": "Does the entity hold biological assets covered under IAS 41?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include impairment losses included in profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity hold biological assets covered under IAS 41?",
+            "guidance": "Check the entity's financial statements, specifically the notes related to non-current assets or inventory. Biological assets typically include living plants or animals cultivated for harvest (e.g., livestock, crops). Confirm their existence and classification under IAS 41.",
+            "yes_case": {
+              "question": "Does the entity recognize impairment losses on biological assets in profit or loss?",
+              "guidance": "Review the income statement and notes to identify whether the entity has recorded impairment losses related to biological assets. These losses typically arise when the carrying amount exceeds the recoverable amount.",
+              "yes_case": {
+                "question": "Does the entity include these impairment losses in the reconciliation required under IAS 41?",
+                "guidance": "Check the reconciliation of changes in the carrying amount of biological assets (IAS 41.55(b)). Confirm whether the entity explicitly includes impairment losses as part of this reconciliation, as they are required to be disclosed separately.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.8",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(b)(vii)",
+          "question": "Does the entity hold biological assets or agricultural produce within the scope of IAS 41?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include reversals of impairment losses included in profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity hold biological assets or agricultural produce within the scope of IAS 41?",
+            "guidance": "Review the financial statements and accounting policies to identify biological assets or agricultural produce. Refer to IAS 41.5 for definitions and examples of such items. Typical assets include livestock, plantations, or harvested crops.",
+            "yes_case": {
+              "question": "Has the entity recognized any impairment losses on its biological assets or agricultural produce in profit or loss during the reporting period?",
+              "guidance": "Check the profit or loss statement and related notes for reported impairment losses on biological assets or agricultural produce. Impairment losses are typically disclosed under expenses or as adjustments to fair value changes for biological assets, as per IAS 41.55(b).",
+              "yes_case": {
+                "question": "Does the reconciliation include reversals of impairment losses included in profit or loss, as required by IAS 41.55(b)(vii)?",
+                "guidance": "Examine the notes or disclosures on biological assets reconciliation within the financial statements. Ensure reversals of impairment losses are appropriately presented and included in the reconciliation as required by IAS 41.55(b)(vii). Cross-check the amounts with the profit or loss statement.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.9",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(b)(viii)",
+          "question": "Does the entity have biological assets accounted for under IAS 41 Agriculture?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include depreciation included in profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity have biological assets accounted for under IAS 41 Agriculture?",
+            "guidance": "Review the entity's financial statements and accounting policies to identify whether any assets are classified as biological assets under IAS 41. Biological assets are living plants or animals (e.g., livestock, orchards). Confirm this classification corresponds to IAS 41.",
+            "yes_case": {
+              "question": "Does the entity prepare a reconciliation for biological assets as required under IAS 41.55(b)?",
+              "guidance": "Examine the entity's disclosures. IAS 41.55(b) requires entities to provide a reconciliation of changes in carrying amount of biological assets, including additions, disposals, gains/losses, and depreciation. Ensure this reconciliation exists.",
+              "yes_case": {
+                "question": "Does the reconciliation include depreciation included in profit or loss as required by IAS 41.55(b)(viii)?",
+                "guidance": "Verify the reconciliation of biological assets includes depreciation charged to profit or loss. Review financial disclosures and confirm this specific line item is included per paragraph IAS 41.55(b)(viii). Look for clarity in the reconciliation format.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "552.10",
+          "section": "IAS 41",
+          "reference": "IAS 41.55(b)(ix)",
+          "question": "Does the entity engage in agricultural activities under the scope of IAS 41?",
+          "question_type": "Followup",
+          "source_question": "551.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the reconciliation include other changes?",
+          "decision_tree": {
+            "question": "Does the entity engage in agricultural activities under the scope of IAS 41?",
+            "guidance": "Refer to IAS 41 paragraphs 5-6 to determine whether the entity has biological assets or agricultural produce that are accounted for under IAS 41. Agricultural activities involve the management of biological transformation of living plants and animals into consumable goods, other biological assets, or additional agricultural produce.",
+            "yes_case": {
+              "question": "Does the entity prepare a reconciliation of changes in the carrying amount of biological assets, as required by IAS 41.55(b)?",
+              "guidance": "Review the financial statements and disclosures. IAS 41.55(b) requires a detailed reconciliation of the carrying amount of biological assets, including additions, disposals, gains/losses, and other changes. Examine the notes to the financial statements for this specific reconciliation.",
+              "yes_case": {
+                "question": "Does the reconciliation clearly include other changes in the carrying amount of biological assets as required by IAS 41.55(b)(ix)?",
+                "guidance": "Check the reconciliation statement for a specific line item disclosing 'other changes.' Ensure this captures relevant adjustments outside of the main categories listed in IAS 41.55(b) (e.g., changes due to reclassification or policy adjustments).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "553.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.56(a)",
+          "question": "Does the entity own or control biological assets during the current period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If fair value becomes reliably measurable during the current period, does the entity disclose a description of the biological assets?",
+          "decision_tree": {
+            "question": "Does the entity own or control biological assets during the current period?",
+            "guidance": "Review the Statement of Financial Position and relevant disclosures. Biological assets are living plants or animals (e.g., livestock, crops) as defined in IAS 41. Check for mentions of such assets in the narrative reports or notes to the financial statements.",
+            "yes_case": {
+              "question": "Did the fair value of the biological assets become reliably measurable during the current period?",
+              "guidance": "Examine any valuation reports, accounting policies, and disclosures. Reliable measurement implies that the fair value can be determined using observable market data or other reliable valuation techniques as per IAS 41. Verify changes in measurement methods or new valuation evidence.",
+              "yes_case": {
+                "question": "Does the entity disclose a description of the biological assets?",
+                "guidance": "Check the notes to the financial statements for a detailed description of the biological assets, including their nature, quantity, and location. This disclosure is required by IAS 41.56(a). Ensure that it sufficiently informs users without ambiguity.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "553.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.56(b)",
+          "question": "Does the entity hold biological assets whose fair value was previously considered not reliably measurable?",
+          "question_type": "Followup",
+          "source_question": "553.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose an explanation of why fair value has become reliably measurable?",
+          "decision_tree": {
+            "question": "Does the entity hold biological assets whose fair value was previously considered not reliably measurable?",
+            "guidance": "Review the financial statements and disclosures, specifically note if the entity holds biological assets (as defined in IAS 41) and has previously stated that the fair value of these assets was not reliably measurable. Look for notes in previous reporting periods where costs were used as a substitute for fair value.",
+            "yes_case": {
+              "question": "Has the entity determined that the fair value of these biological assets has now become reliably measurable?",
+              "guidance": "Evaluate whether the entity has disclosed the change in assessment regarding the reliable measurement of fair value. Check for documentation detailing improved market conditions, availability of valuation models, or other factors supporting the claim.",
+              "yes_case": {
+                "question": "Does the entity disclose an explanation of why fair value has become reliably measurable for these biological assets?",
+                "guidance": "Inspect the notes to the financial statements. Ensure the entity provides a clear and specific explanation as required under IAS 41.56(b). The disclosure should address the reasons for the change, such as availability of active markets or valuation techniques.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "553.3",
+          "section": "IAS 41",
+          "reference": "IAS 41.56(c)",
+          "question": "Has the entity made a change in accounting policy or methodology related to agricultural activity as per IAS 41?",
+          "question_type": "Followup",
+          "source_question": "553.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the effect of the change?",
+          "decision_tree": {
+            "question": "Has the entity made a change in accounting policy or methodology related to agricultural activity as per IAS 41?",
+            "guidance": "Examine the entity's accounting policies and disclosures in the financial statements. Look specifically at policies impacting agricultural activity, such as fair value measurement or biological asset treatment. Verify if changes are explicitly stated or implied in the notes.",
+            "yes_case": {
+              "question": "Has the entity disclosed the effect of the change in accordance with IAS 41.56(c)?",
+              "guidance": "Review the financial statement notes and disclosures to check if the entity has quantified and explained the impact of the change, including the financial effect on relevant balances and performance metrics. Ensure that the explanation aligns with IAS 41 requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "554.1",
+          "section": "IAS 41",
+          "reference": "IAS 41.57(a)",
+          "question": "Has the entity received any government grants during the reporting period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the nature and extent of government grants recognised in the financial statements?",
+          "decision_tree": {
+            "question": "Has the entity received any government grants during the reporting period?",
+            "guidance": "Review the financial records, Statement of Financial Position, and Statement of Profit or Loss for any amounts described as government grants. Check sections mentioning subsidies, grants, or aid from governmental bodies. Ensure all grant receipts are included, even if received indirectly.",
+            "yes_case": {
+              "question": "Have the government grants been recognized in the financial statements?",
+              "guidance": "Verify if the government grants are recorded in accordance with IAS 41 requirements. Review the accounting treatment applied, specifically reviewing recognition in line with IAS 41 guidance. Check if the grants are reliably measurable and meet recognition criteria.",
+              "yes_case": {
+                "question": "Does the entity disclose the nature and extent of the government grants recognized in the financial statements?",
+                "guidance": "Review the disclosure notes accompanying the financial statements. Confirm that the entity has provided sufficient information regarding the types of grants received, their amounts, and any associated conditions or restrictions in line with IAS 41.57(a). Look for clear explanations and avoid vague or incomplete disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "554.2",
+          "section": "IAS 41",
+          "reference": "IAS 41.57(b)",
+          "question": "Has the entity received government grants during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "554.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose any unfulfilled conditions and other contingencies attaching to government grants?",
+          "decision_tree": {
+            "question": "Has the entity received government grants during the reporting period?",
+            "guidance": "Review the entity's financial records, income statement, and notes to identify any amounts classified as government grants. Check agreements or contracts with government entities for evidence of grants.",
+            "yes_case": {
+              "question": "Do the government grants have conditions or contingencies attached?",
+              "guidance": "Review the agreements underlying the government grants to determine if they are subject to conditions (e.g., performance requirements, use restrictions) or contingencies (e.g., return of funds if conditions are unmet). Focus on IAS 41.57(b) for specific requirements.",
+              "yes_case": {
+                "question": "Does the entity disclose all unfulfilled conditions and other contingencies associated with the government grants?",
+                "guidance": "Verify the entity's financial statement disclosures. Review the notes and accompanying explanations to confirm the entity has identified and disclosed all unfulfilled conditions and contingencies explicitly, as required by IAS 41.57(b). Ensure disclosures are clear and comprehensively describe the nature of the conditions or contingencies.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "554.3",
+          "section": "IAS 41",
+          "reference": "IAS 41.57(c)",
+          "question": "Does the entity receive government grants related to biological assets or agricultural activity?",
+          "question_type": "Followup",
+          "source_question": "554.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose significant decreases expected in the level of government grants?",
+          "decision_tree": {
+            "question": "Does the entity receive government grants related to biological assets or agricultural activity?",
+            "guidance": "Review the financial statements and disclosures, particularly the notes related to biological assets and agricultural activities. Look for references to government grants, as defined in IAS 41. Confirm their relevance to the entity's operations.",
+            "yes_case": {
+              "question": "Has the entity identified significant decreases expected in the level of government grants?",
+              "guidance": "Analyze the terms and conditions of the government grants disclosed. Check if the entity anticipates significant reductions in these grants, based on contractual terms, government notifications, or other relevant evidence.",
+              "yes_case": {
+                "question": "Does the entity clearly disclose the expected significant decreases in government grants as required by IAS 41?",
+                "guidance": "Check the disclosures related to government grants under IAS 41.57(c). Ensure that the entity has explicitly disclosed any expected decreases, including quantitative or qualitative details, in a transparent manner.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

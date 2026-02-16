@@ -36,6 +36,7 @@ from app.models.agent import (  # noqa
     Agent,
     AgentType,
     AgentStatus,
+    ProviderType,
     WorkflowTaskAgent,
     AssignmentTaskAgent,
     AgentAssignmentStatus,
@@ -56,6 +57,22 @@ from app.models.reminder import (  # noqa
     ReminderOffset,
 )
 from app.models.document import Document, DocumentStatus, DocumentCategory  # noqa
+from app.models.compliance import (  # noqa
+    ComplianceSession,
+    ComplianceSessionStatus,
+    ComplianceFramework,
+    ComplianceResult,
+    ComplianceResultStatus,
+    ComplianceDocument,
+    DocumentExtractionStatus,
+    AnalysisProgressStatus,
+    ChatMessageRole,
+    CachedAnalysisResult,
+    AnalysisProgress,
+    QuestionLearningData,
+    ComplianceConversation,
+    ComplianceMessage,
+)
 from app.models.automation import (  # noqa
     WorkflowDependency,
     AssignmentDependency,

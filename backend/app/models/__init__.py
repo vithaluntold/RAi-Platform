@@ -57,6 +57,22 @@ from app.models.reminder import (
     ReminderOffset,
 )
 from app.models.document import Document, DocumentStatus, DocumentCategory
+from app.models.compliance import (
+    ComplianceSession,
+    ComplianceSessionStatus,
+    ComplianceFramework,
+    ComplianceResult,
+    ComplianceResultStatus,
+    ComplianceDocument,
+    DocumentExtractionStatus,
+    AnalysisProgressStatus,
+    ChatMessageRole,
+    CachedAnalysisResult,
+    AnalysisProgress,
+    QuestionLearningData,
+    ComplianceConversation,
+    ComplianceMessage,
+)
 from app.models.automation import (
     WorkflowDependency,
     AssignmentDependency,
@@ -133,6 +149,21 @@ __all__ = [
     "Document",
     "DocumentStatus",
     "DocumentCategory",
+    # Compliance models
+    "ComplianceSession",
+    "ComplianceSessionStatus",
+    "ComplianceFramework",
+    "ComplianceResult",
+    "ComplianceResultStatus",
+    "ComplianceDocument",
+    "DocumentExtractionStatus",
+    "AnalysisProgressStatus",
+    "ChatMessageRole",
+    "CachedAnalysisResult",
+    "AnalysisProgress",
+    "QuestionLearningData",
+    "ComplianceConversation",
+    "ComplianceMessage",
     # Automation models
     "WorkflowDependency",
     "AssignmentDependency",

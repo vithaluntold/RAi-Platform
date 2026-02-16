@@ -1,0 +1,1249 @@
+{
+  "title": "IFRS 16 Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IFRS 16",
+      "title": "Leases",
+      "description": "Checklist for presentation and disclosure requirements under IFRS 16.",
+      "items": [
+        {
+          "id": "432",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.47(a)",
+          "question": "Does the entity have right-of-use assets as defined under IFRS 16?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present right-of-use assets separately from other assets in the statement of financial position (or disclose in the notes)?",
+          "decision_tree": {
+            "question": "Does the entity have right-of-use assets as defined under IFRS 16?",
+            "guidance": "Review the lease agreements and identify if the entity has recognized right-of-use assets under IFRS 16. Check the statement of financial position and Note disclosures for references to right-of-use assets. Ensure that the entity has leases in scope of IFRS 16, excluding exempt leases like short-term leases or leases of low-value assets.",
+            "yes_case": {
+              "question": "Are right-of-use assets presented separately from other types of assets in the statement of financial position?",
+              "guidance": "Examine the statement of financial position. Right-of-use assets must either be presented as a separate line item or be disclosed separately in the notes. Check the label and categorization in the financial statements.",
+              "yes_case": {
+                "question": "If right-of-use assets are not presented separately, is their nature and relevant amounts disclosed in the notes?",
+                "guidance": "Review the notes to the financial statements for adequate disclosure of the nature of right-of-use assets and their relevant amounts as per IFRS 16.47(a). Ensure this disclosure is clear and aligns with the requirements of the standard.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "433.1",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.47(a)(i)",
+          "question": "Does the entity hold right-of-use assets under IFRS 16?",
+          "question_type": "Followup",
+          "source_question": "432",
+          "source_trigger": "No",
+          "context_required": "financial_statements",
+          "original_question": "If the entity does not present right-of-use assets separately, does it include them within the same line item as that in which the corresponding underlying assets would be presented if owned?",
+          "decision_tree": {
+            "question": "Does the entity hold right-of-use assets under IFRS 16?",
+            "guidance": "Review the Lease Agreements and the Statement of Financial Position. Right-of-use assets represent the lessee’s right to use an underlying asset for the lease term. Confirm if the entity has recognized any such assets under IFRS 16.",
+            "yes_case": {
+              "question": "Does the entity present right-of-use assets separately on the Statement of Financial Position?",
+              "guidance": "Refer to the Statement of Financial Position. Check if there is a distinct line item labeled 'Right-of-Use Assets' or equivalent under non-current assets. Ensure presentation complies with IFRS 16 requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Are the right-of-use assets included within the same line item as that in which the corresponding underlying assets would be presented if owned?",
+                "guidance": "Identify the type of underlying assets (e.g., property, plant, equipment) and confirm that right-of-use assets are grouped within the same corresponding line item in the Statement of Financial Position. Cross-check with the entity’s accounting policies and financial disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "433.2",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.47(a)(ii)",
+          "question": "Does the entity have right-of-use assets recognized on its financial statements?",
+          "question_type": "Followup",
+          "source_question": "432",
+          "source_trigger": "No",
+          "context_required": "notes_only",
+          "original_question": "If the entity does not present right-of-use assets separately, does it disclose which line items include those right-of-use assets?",
+          "decision_tree": {
+            "question": "Does the entity have right-of-use assets recognized on its financial statements?",
+            "guidance": "Review the entity's Statement of Financial Position and accompanying notes. Look for ‘Right-of-Use Assets,’ typically recognized under IFRS 16 for leases. Ensure these assets are recorded if the entity has lease agreements that meet IFRS 16 recognition criteria.",
+            "yes_case": {
+              "question": "Are the right-of-use assets presented separately on the Statement of Financial Position?",
+              "guidance": "Examine whether the entity has a separate line item titled ‘Right-of-Use Assets’ or similar on the Statement of Financial Position. If not, review notes explaining their aggregation with other asset classes.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity disclose which line items include the right-of-use assets?",
+                "guidance": "Review the financial statement notes. IFRS 16.47(a)(ii) requires disclosure of the specific line items where right-of-use assets are aggregated, such as within property, plant, and equipment. Ensure the disclosures are clear enough to identify the inclusion of these assets.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "434.1",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.47(b)",
+          "question": "Does the entity have lease liabilities under IFRS 16?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present lease liabilities separately from other liabilities in the statement of financial position?",
+          "decision_tree": {
+            "question": "Does the entity have lease liabilities under IFRS 16?",
+            "guidance": "Review the entity’s contracts and financial records to identify lease agreements classified under IFRS 16. Check whether the agreements meet recognition criteria under IFRS 16, such as control of an identified asset for a period of time.",
+            "yes_case": {
+              "question": "Are lease liabilities presented separately from other liabilities in the statement of financial position?",
+              "guidance": "Examine the statement of financial position to verify if lease liabilities are explicitly presented as a separate line item or if their grouping ensures clarity in the financial statements. Refer to IFRS 16.47(b) for specific requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "434.2",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.47(b)",
+          "question": "Does the entity have lease liabilities under IFRS 16?",
+          "question_type": "Followup",
+          "source_question": "434.1",
+          "source_trigger": "No",
+          "context_required": "notes_only",
+          "original_question": "If lease liabilities are not presented separately, does it disclose which line items include those liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have lease liabilities under IFRS 16?",
+            "guidance": "Review the Statement of Financial Position and relevant notes to confirm if the entity has lease liabilities recognized. Lease liabilities arise from lease contracts where the entity is a lessee and has recognized liability under IFRS 16.",
+            "yes_case": {
+              "question": "Are lease liabilities presented as a separate line item on the Statement of Financial Position?",
+              "guidance": "Examine the Statement of Financial Position. Lease liabilities must be clearly presented, either within 'current liabilities' or 'non-current liabilities,' or as a separate line item labeled 'lease liabilities.' Check for any combined presentation or grouping that may obscure lease liabilities.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": {
+                "question": "Does the entity disclose which line items include the lease liabilities?",
+                "guidance": "Review the notes to the financial statements for disclosure. The entity should explicitly state which line items on the Statement of Financial Position include lease liabilities, such as 'included in other financial liabilities' or similar notes.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              }
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "435",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.49",
+          "question": "Does the entity have lease liabilities under IFRS 16?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "In the statement of profit or loss and other comprehensive income, does the entity present interest expense on lease liabilities separately from the depreciation charge for right-of-use assets?",
+          "decision_tree": {
+            "question": "Does the entity have lease liabilities under IFRS 16?",
+            "guidance": "Identify if the entity has lease agreements that give rise to lease liabilities. Inspect the lease agreements and the financial statements to confirm recognition of lease liabilities as per IFRS 16. Check the entity's balance sheet and note disclosures about leases (reference IFRS 16.20 for recognition requirements).",
+            "yes_case": {
+              "question": "Does the entity present the depreciation charge for right-of-use assets in the statement of profit or loss and other comprehensive income?",
+              "guidance": "Review the statement of profit or loss and other comprehensive income for a line item explicitly labeled 'Depreciation'. Check supporting notes to ensure this relates to right-of-use assets under IFRS 16. Confirm proper classification according to its nature (reference IFRS 16.49 and IAS 1 for presentation guidance).",
+              "yes_case": {
+                "question": "Does the entity present interest expense on lease liabilities separately from the depreciation charge for right-of-use assets?",
+                "guidance": "Verify that the interest expense associated with lease liabilities is not combined with the depreciation charge for right-of-use assets. Examine relevant notes and line items in the financial statements to confirm separate presentation. Ensure compliance with IFRS 16.49, which requires interest expense to be presented under finance costs and depreciation under operating expenses (if classified by function).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "436.1",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.50(a)",
+          "question": "Does the entity have lease liabilities recognized under IFRS 16?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "In the statement of cash flows, does the entity classify cash payments for the principal portion of lease liabilities within financing activities?",
+          "decision_tree": {
+            "question": "Does the entity have lease liabilities recognized under IFRS 16?",
+            "guidance": "Review the Statement of Financial Position and supporting notes to identify any lease liabilities. Lease liabilities are typically recognized when the entity has contracts deemed leases under IFRS 16, unless the leases are exempt (e.g., short-term leases or low-value assets). Ensure that the liability is not misclassified under another heading.",
+            "yes_case": {
+              "question": "Has the entity made cash payments for the principal portion of lease liabilities during the reporting period?",
+              "guidance": "Examine the entity's payment records, lease agreements, and financial statement notes. Look for payments classified as reductions of lease liabilities. Consider whether any lease modifications or settlements affect the payments.",
+              "yes_case": {
+                "question": "Does the entity classify these cash payments within financing activities in the statement of cash flows?",
+                "guidance": "Review the Statement of Cash Flows and ensure that cash payments for the principal portion of lease liabilities are clearly presented under 'Financing Activities'. Per IFRS 16.50(a), principal repayments of lease liabilities must not be grouped with operating or investing activities.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "436.2",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.50(b)",
+          "question": "Does the entity have lease liabilities that require interest payments?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "In the statement of cash flows, does the entity classify cash payments for the interest portion of lease liabilities applying IAS 7 requirements for interest paid?",
+          "decision_tree": {
+            "question": "Does the entity have lease liabilities that require interest payments?",
+            "guidance": "Refer to the entity's lease agreements and financial statements, specifically the notes to liabilities and leases. Lease liabilities with payment obligations often appear under IFRS 16 disclosures. If there are no lease liabilities, this item is not applicable.",
+            "yes_case": {
+              "question": "Does the entity report cash payments for the interest portion of these lease liabilities in the statement of cash flows?",
+              "guidance": "Verify the Statement of Cash Flows and cross-check with IAS 7. Interest portions should be classified under operating, investing, or financing activities depending on the entity's accounting policy. Review footnotes and policies for classification.",
+              "yes_case": {
+                "question": "Is the classification of interest payments consistent with IAS 7 requirements for interest paid?",
+                "guidance": "Ensure the interest payments are classified correctly based on IAS 7. Interest paid is typically classified under operating activities unless the entity elects another treatment under financing or investing activities, as allowed. Confirm the entity's policy and check for disclosures.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "436.3",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.50(c)",
+          "question": "Does the entity have leases, including short-term leases, low-value leases, or variable lease payments not included in lease liabilities?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "In the statement of cash flows, does the entity classify short-term lease payments, low-value lease payments, and variable lease payments not included in lease liabilities within operating activities?",
+          "decision_tree": {
+            "question": "Does the entity have leases, including short-term leases, low-value leases, or variable lease payments not included in lease liabilities?",
+            "guidance": "Review the lease agreements and financial statement notes under IFRS 16 disclosures, specifically sections addressing lease types and exemptions. Ensure there are transactions relevant to short-term leases, low-value leases, or variable lease payments excluded from lease liabilities. Verify that IFRS 16 exemptions for certain leases are applied correctly.",
+            "yes_case": {
+              "question": "Has the entity made payments related to these leases during the reporting period?",
+              "guidance": "Examine the entity's lease payment records. Refer to the general ledger and cash payment details to identify payments made for short-term leases, low-value leases, and variable lease payments excluded from lease liabilities.",
+              "yes_case": {
+                "question": "Does the entity classify these payments within operating activities in the statement of cash flows?",
+                "guidance": "Check the presentation within the statement of cash flows. Payments for short-term leases, low-value leases, and variable lease payments excluded from lease liabilities must be classified under operating activities as per IFRS 16.50(c). Ensure the classification aligns with the guidance from IFRS 16.40-50.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "437",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.52",
+          "question": "Does the entity have leases in which it acts as the lessee?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose information about its leases (as lessee) in a single note or separate section of its financial statements?",
+          "decision_tree": {
+            "question": "Does the entity have leases in which it acts as the lessee?",
+            "guidance": "Review the entity's financial statements and lease agreements under IFRS 16. Verify if the entity has any leased assets (right-of-use assets) recorded or lease liabilities disclosed. If no such items are recognized, the entity may not act as a lessee.",
+            "yes_case": {
+              "question": "Does the entity present information about its leases (as lessee) in its financial statements?",
+              "guidance": "Inspect the notes or sections of the financial statements for disclosures related to leases under IFRS 16 requirements. Look for details such as lease terms, right-of-use assets, lease liabilities, and cash flows associated with leases.",
+              "yes_case": {
+                "question": "Is the lease information disclosed either in a single note or in a separate section?",
+                "guidance": "Review the organization of the financial statement disclosures. IFRS 16.52 requires that lease information be grouped for clarity, either in a single note or a dedicated section. Avoid fragmented disclosures spread across unrelated parts of the notes, which may reduce transparency.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.1",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(a)",
+          "question": "Does the entity have any right-of-use assets recognized under IFRS 16?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the depreciation charge for right-of-use assets by class of underlying asset?",
+          "decision_tree": {
+            "question": "Does the entity have any right-of-use assets recognized under IFRS 16?",
+            "guidance": "Review the entity's Statement of Financial Position and lease agreements. Right-of-use assets are recognized when a lease exists and the entity controls the asset. Ensure that the entity applies IFRS 16 to account for leases. Common pitfalls include failing to recognize assets for leases or mistaking service contracts for leases.",
+            "yes_case": {
+              "question": "Has the entity calculated and recognized depreciation charges for its right-of-use assets?",
+              "guidance": "Review the entity's financial records and accounting policies. Depreciation charges should be calculated systematically over the useful life of the underlying assets. Refer to IFRS 16.31 for depreciation guidelines. Check for errors such as missing calculations or inconsistent application of methods.",
+              "yes_case": {
+                "question": "Does the entity disclose the depreciation charge for right-of-use assets by class of underlying asset?",
+                "guidance": "Check the entity's financial statements, particularly the notes on leases and right-of-use assets. IFRS 16.53(a) requires disclosure of the depreciation charge split by class (e.g., buildings, machinery, vehicles). Ensure the disclosure format distinguishes between these classes clearly.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.2",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(b)",
+          "question": "Does the entity have lease liabilities as defined under IFRS 16?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose interest expense on lease liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have lease liabilities as defined under IFRS 16?",
+            "guidance": "Review the entity's financial statements and note disclosures. Lease liabilities arise from leases classified under IFRS 16 where the entity has a lessee obligation. Check the balance sheet for 'lease liabilities' or corresponding notes. Ensure these liabilities are recognized as per IFRS 16.22-25.",
+            "yes_case": {
+              "question": "Does the entity include interest expense on lease liabilities in its financial disclosures?",
+              "guidance": "Examine the entity's Statement of Profit or Loss and related note disclosures for the interest expense associated with lease liabilities. It should be disclosed separately or included as part of finance costs as required by IFRS 7.20(b). Be mindful of errors such as omission or misclassification of lease-related interest expense.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.3",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(c)",
+          "question": "Does the entity have short-term leases as defined by IFRS 16.6?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the expense relating to short-term leases accounted for under IFRS 16.6?",
+          "decision_tree": {
+            "question": "Does the entity have short-term leases as defined by IFRS 16.6?",
+            "guidance": "Review lease agreements and refer to IFRS 16.6 to determine if the leases meet the definition of short-term leases (i.e., leases with a lease term of 12 months or less and no purchase option). Cross-check contract durations and renewal terms carefully to avoid misclassification.",
+            "yes_case": {
+              "question": "Has the entity opted to account for short-term leases by recognizing lease payments as an expense instead of recognizing right-of-use assets and lease liabilities?",
+              "guidance": "Verify the accounting policy for leases disclosed in the notes to the financial statements. Check if the entity has elected the short-term lease exemption under IFRS 16.6.",
+              "yes_case": {
+                "question": "Does the entity disclose the total expense amount related to short-term leases as required by IFRS 16.53(c)?",
+                "guidance": "Review the notes to the financial statements to ensure the total expense for short-term leases is presented. The disclosure should be clear, specific, and separately identified, avoiding aggregation with other types of lease expenses.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.4",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(d)",
+          "question": "Does the entity have leases of low-value assets as defined under IFRS 16.6?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the expense relating to leases of low-value assets accounted for under IFRS 16.6?",
+          "decision_tree": {
+            "question": "Does the entity have leases of low-value assets as defined under IFRS 16.6?",
+            "guidance": "Review lease agreements and assess whether the leased assets meet the criteria for low-value assets under IFRS 16.6. Consider assets like laptops, office furniture, or phones that are typically not material individually. Verify against the entity's accounting policy and lease classification documentation.",
+            "yes_case": {
+              "question": "Has the entity elected to apply the exemption for recognition of leases of low-value assets under IFRS 16.6?",
+              "guidance": "Check the entity's accounting policies or disclosures. The exemption must be explicitly elected for low-value leases. Entities applying this exemption should recognize the lease payments as an expense rather than capitalizing the leased asset.",
+              "yes_case": {
+                "question": "Does the entity disclose the expense relating to the leases of low-value assets in its financial statements, in accordance with IFRS 16.53(d)?",
+                "guidance": "Inspect the disclosures in the notes to the financial statements. Ensure that the expense from low-value leases is clearly identified (e.g., explicit amounts or related explanations). Common issues include omission or aggregation into other expense categories without specification.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.5",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(e)",
+          "question": "Does the entity have leases that include variable lease payments not included in lease liability measurements?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the expense relating to variable lease payments not included in lease liability measurements?",
+          "decision_tree": {
+            "question": "Does the entity have leases that include variable lease payments not included in lease liability measurements?",
+            "guidance": "Review the lease agreements and note if there are any variable lease payments. Variable lease payments are typically based on performance, usage, or another factor and may not be included in the lease liability measurements as per IFRS 16. Check the lease liability computations and agreements for such exclusions.",
+            "yes_case": {
+              "question": "Does the entity disclose the expense related to variable lease payments not included in lease liability measurements?",
+              "guidance": "Examine the financial statement notes related to leases. Verify whether the entity has specifically disclosed the expense amount associated with these variable payments, as required by IFRS 16.53(e). Ensure that the disclosure is clear, precise, and meets the requirements of IFRS.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.6",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(f)",
+          "question": "Does the entity have sublease agreements for right-of-use assets?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose income from subleasing right-of-use assets?",
+          "decision_tree": {
+            "question": "Does the entity have sublease agreements for right-of-use assets?",
+            "guidance": "Review the lease agreements and financial statement disclosures under IFRS 16. Check whether the entity subleases any right-of-use assets, which are lease agreements where the lessee becomes a lessor. Verify lease classification (e.g., operating or finance subleases). Common pitfalls include overlooking embedded sublease arrangements.",
+            "yes_case": {
+              "question": "Does the entity recognize income from subleasing right-of-use assets?",
+              "guidance": "Examine the income statement and supporting schedules. Look for income characterized as sublease revenue. Ensure amounts are correctly classified and aligned with terms stated in sublease agreements. Ensure no income is hidden under other categories.",
+              "yes_case": {
+                "question": "Does the entity disclose the income from subleasing right-of-use assets as required by IFRS 16.53(f)?",
+                "guidance": "Check disclosures related to leases in the notes to the financial statements. Confirm sublease income is clearly disclosed as a separate item or in a section addressing lease-related income. The disclosure should be sufficiently detailed to comply with IFRS 16.53(f). Ensure sublease income isn't aggregated with other unrelated revenues.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.7",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(g)",
+          "question": "Has the entity entered into any lease agreements during the reporting period?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose total cash outflow for leases?",
+          "decision_tree": {
+            "question": "Has the entity entered into any lease agreements during the reporting period?",
+            "guidance": "Review the lease agreements, accounting policies, and financial statement notes. Refer to the lease register or contract records to confirm if any lease agreements exist. Ensure all types of leases (finance and operating) are considered.",
+            "yes_case": {
+              "question": "Does the entity apply IFRS 16 for lease accounting in its financial statements?",
+              "guidance": "Check the accounting policies section of the financial statements or disclosures to ensure IFRS 16 is being followed. Verify the consistency of reporting with IFRS 16 requirements for leases. Pay attention to possible exemptions such as low-value assets or short-term leases.",
+              "yes_case": {
+                "question": "Does the entity disclose the total cash outflow for leases in its financial statements?",
+                "guidance": "Review the notes to the financial statements, particularly under lease disclosures or cash flow statements. Ensure the total cash outflow for leases is disclosed, as required under IFRS 16.53(g). Common pitfalls include omitting cash outflows for short-term leases or variable lease payments.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.8",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(h)",
+          "question": "Does the entity have right-of-use assets under IFRS 16?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose additions to right-of-use assets?",
+          "decision_tree": {
+            "question": "Does the entity have right-of-use assets under IFRS 16?",
+            "guidance": "Review the entity's financial statements and accounting policies to check for leases accounted for under IFRS 16. Look at the balance sheet for 'Right-of-use assets' and disclosures in the notes to identify if leases exist. Verify against any recent lease agreements or contractual arrangements.",
+            "yes_case": {
+              "question": "Did the entity recognize additions to right-of-use assets during the reporting period?",
+              "guidance": "Examine lease agreements entered into or modified during the reporting period. Check for any new right-of-use assets recognized, as additions typically arise from new leases or lease modifications. Look at relevant ledger accounts, the lease register, or note disclosures.",
+              "yes_case": {
+                "question": "Does the entity disclose the additions to right-of-use assets in accordance with IFRS 16.53(h)?",
+                "guidance": "Check the entity's financial statement disclosures, particularly in the lease notes. IFRS 16.53(h) requires entities to disclose additions to right-of-use assets as part of the lease-related information. Ensure the disclosures are clear, sufficient, and comply with the standard's requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.9",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(i)",
+          "question": "Has the entity entered into any sale and leaseback transactions during the reporting period?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose gains or losses arising from sale and leaseback transactions?",
+          "decision_tree": {
+            "question": "Has the entity entered into any sale and leaseback transactions during the reporting period?",
+            "guidance": "Review the entity's lease agreements and sale transactions for the financial period. Specifically, check if there are contracts where assets were sold and immediately leased back. Refer to transaction details, notes to the financial statements, and section IFRS 16.53 for specific guidance.",
+            "yes_case": {
+              "question": "Does the entity disclose the resulting gains or losses from these sale and leaseback transactions?",
+              "guidance": "Inspect the notes to the financial statements. Confirm if the entity has disclosed gains or losses, including the calculations and the treatment of the leaseback asset or liability as specified in IFRS 16. Fair value measurements should also align with IFRS 13 if applicable.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "438.10",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.53(j)",
+          "question": "Does the entity lease any assets classified as right-of-use assets?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the carrying amount of right-of-use assets at period end by class of underlying asset?",
+          "decision_tree": {
+            "question": "Does the entity lease any assets classified as right-of-use assets?",
+            "guidance": "Review the lease agreements and the Statement of Financial Position. Check for entries related to right-of-use assets, which are recognized under IFRS 16. Common indicators include 'Right-of-Use Assets' or similar terminology. Be careful not to misclassify regular fixed assets as right-of-use assets.",
+            "yes_case": {
+              "question": "Are the right-of-use assets presented by class of underlying asset in the financial statements?",
+              "guidance": "Examine the disclosures within the Notes to the Financial Statements. IFRS 16.53(j) requires the carrying amount of the right-of-use assets at period end to be disclosed separately by class of underlying asset, such as land, buildings, equipment, vehicles, etc. Ensure that the breakdown aligns with the requirements of IFRS 16. Double-check for missing or generic classes.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "439",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.55 & IFRS 16.6",
+          "question": "Does the entity have any short-term leases at the period end?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the portfolio of short-term leases at period end is dissimilar to that reflected in IFRS 16.53(c), does the entity disclose its lease commitments for short-term leases accounted under IFRS 16.6?",
+          "decision_tree": {
+            "question": "Does the entity have any short-term leases at the period end?",
+            "guidance": "Check the lease agreements in place during the reporting period and at the period end. Short-term leases are defined by IFRS 16 as leases that have a lease term of 12 months or less and do not contain a purchase option.",
+            "yes_case": {
+              "question": "Has the entity chosen to apply the short-term lease exemption under IFRS 16.6 for these leases?",
+              "guidance": "Review the entity's accounting policies disclosed in the financial statements or notes. Specifically, determine whether the entity opted not to recognize right-of-use assets and lease liabilities for short-term leases under the exemption allowed in IFRS 16.6.",
+              "yes_case": {
+                "question": "Is the portfolio of short-term leases at the period end dissimilar to the portfolio disclosed based on IFRS 16.53(c)?",
+                "guidance": "Compare the portfolio of short-term leases at the reporting date with the disclosures under IFRS 16.53(c) in the notes to the financial statements. IFRS 16.53(c) requires disclosure of expenses related to short-term leases. A mismatch may arise if new leases were entered into or existing leases changed in nature during the reporting period.",
+                "yes_case": {
+                  "question": "Does the entity disclose its lease commitments for these short-term leases as required under IFRS 16.55?",
+                  "guidance": "Verify whether the entity discloses its lease commitments for short-term leases in the financial statements or notes, fulfilling the disclosure requirements under IFRS 16.55. The commitments should be clearly stated and adequately cover the obligations expected beyond the reporting date.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "440",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.56",
+          "question": "Does the entity have right-of-use assets?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "If right-of-use assets meet the definition of investment property, does the entity apply IAS 40 disclosure requirements?",
+          "decision_tree": {
+            "question": "Does the entity have right-of-use assets?",
+            "guidance": "Review the entity's Statement of Financial Position or relevant notes to determine if right-of-use assets are recognized under leases in accordance with IFRS 16. Cross-check lease agreements and accounting records for their classification.",
+            "yes_case": {
+              "question": "Do any of the right-of-use assets meet the definition of investment property under IAS 40?",
+              "guidance": "Evaluate whether the right-of-use assets are properties held to earn rentals or for capital appreciation, as defined in IAS 40. Check notes regarding property types and intended use, and confirm compliance with the investment property criteria.",
+              "yes_case": {
+                "question": "Does the entity apply IAS 40 disclosure requirements to the right-of-use assets classified as investment property?",
+                "guidance": "Review the financial statement disclosures, specifically those related to investment properties. Confirm that disclosures are in line with IAS 40 requirements, including fair value measurement, valuation methods, and relevant assumptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "441",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.57 & IAS 16.77",
+          "question": "Does the entity have right-of-use assets?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "If right-of-use assets are measured at revalued amounts under IAS 16, does the entity disclose the information required by IAS 16.77 for those assets?",
+          "decision_tree": {
+            "question": "Does the entity have right-of-use assets?",
+            "guidance": "Review the Statement of Financial Position and related notes to identify if the entity has recognized right-of-use assets under IFRS 16. Right-of-use assets are typically labeled as such and arise from lease contracts.",
+            "yes_case": {
+              "question": "Are the right-of-use assets measured at revalued amounts under IAS 16?",
+              "guidance": "Review the accounting policy disclosures and the notes related to right-of-use assets. Check whether the entity has chosen to measure right-of-use assets using the revaluation model under IAS 16 (as opposed to the cost model).",
+              "yes_case": {
+                "question": "Does the entity disclose the information required by IAS 16.77 for revalued right-of-use assets?",
+                "guidance": "Review the financial statement disclosures. IAS 16.77 requires details such as the effective date of the revaluation, methods and assumptions used, whether an independent valuer was involved, and a reconciliation of the opening and closing balances. Missing disclosures raise compliance issues.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "442",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.58 & IFRS 7.39, IFRS 7.B11",
+          "question": "Does the entity have lease liabilities recognized on the balance sheet?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose a maturity analysis of lease liabilities separately from other financial liabilities?",
+          "decision_tree": {
+            "question": "Does the entity have lease liabilities recognized on the balance sheet?",
+            "guidance": "Review the balance sheet and supporting notes to confirm if lease liabilities are recognized as per IFRS 16. Check IFRS 16.22 for recognition criteria for lease liabilities. Common pitfalls include missing recognition of leases classified as finance leases or overlooking short-term lease exemptions.",
+            "yes_case": {
+              "question": "Does the entity disclose lease liabilities separately from other financial liabilities?",
+              "guidance": "Review the notes to the financial statements. Verify if lease liabilities are presented distinctly from other categories of financial liabilities in accordance with disclosure requirements under IFRS 16. Ensure compliance with IFRS 16.47 and IFRS 7. Provide a clear breakdown to avoid ambiguous classification.",
+              "yes_case": {
+                "question": "Does the entity disclose a detailed maturity analysis for lease liabilities?",
+                "guidance": "Confirm that the entity has provided a maturity analysis specific to lease liabilities as required by IFRS 16.58 and IFRS 7.39. The analysis should include undiscounted cash flows grouped by relevant maturity buckets (e.g., less than 1 year, 1-2 years, etc.). Common pitfalls include aggregating lease liabilities with other financial liabilities or partial disclosure.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "443.1",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.59(a)",
+          "question": "Does the entity have lease arrangements that fall under the scope of IFRS 16?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose qualitative information about the nature of its leasing activities necessary to meet IFRS 16.51?",
+          "decision_tree": {
+            "question": "Does the entity have lease arrangements that fall under the scope of IFRS 16?",
+            "guidance": "Review lease agreements and the entity’s contracts to determine if they meet the definition of a lease under IFRS 16. Relevant documentation includes lease contracts and arrangements for assets. Pay attention to whether the entity controls the use of an identified asset for a period in exchange for consideration. Exclude contracts explicitly scoped out by IFRS 16 (e.g., leases of biological assets).",
+            "yes_case": {
+              "question": "Does the entity prepare disclosures in accordance with IFRS 16?",
+              "guidance": "Review the financial statements and ensure that there is a dedicated section for lease disclosures, as required by IFRS 16. Focus on qualitative and quantitative information related to leases. Determine if the disclosures are aligned with IFRS 16.51, covering the entity’s leasing arrangements and activities effectively.",
+              "yes_case": {
+                "question": "Does the entity disclose qualitative information about the nature of its leasing activities necessary to meet IFRS 16.51?",
+                "guidance": "Check whether the financial statements provide qualitative descriptions like the types of leased assets, lease terms (e.g., fixed vs. variable payments), and restrictions imposed by leases. Ensure these are sufficient for users of financial statements to assess the nature and financial impact of leasing activities.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "443.2",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.59(b)(i)",
+          "question": "Does the entity have leases as defined under IFRS 16?",
+          "question_type": "Followup",
+          "source_question": "443.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose exposure to future cash outflows not reflected in lease liabilities, including variable lease payments?",
+          "decision_tree": {
+            "question": "Does the entity have leases as defined under IFRS 16?",
+            "guidance": "Review the lease agreements and the financial statements to identify whether any arrangements meet the definition of a lease under IFRS 16. Ensure the agreements grant the entity the right to control an identified asset for a period of time in exchange for consideration. Pay attention to embedded leases within service contracts.",
+            "yes_case": {
+              "question": "Do the lease agreements involve exposure to future cash outflows not reflected in lease liabilities, such as variable lease payments?",
+              "guidance": "Examine the lease agreements and payment schedules. Look for clauses that indicate payments based on usage, sales, or other variable factors that are not included in the recognized lease liability. Common pitfalls include overlooking contingent lease payments or conditions triggering additional payments.",
+              "yes_case": {
+                "question": "Does the entity disclose information about such future cash outflows, including the nature of variable lease payments?",
+                "guidance": "Verify whether the disclosures in the notes to the financial statements provide detailed information about the exposure to variable lease payments. Refer specifically to IFRS 16.59(b)(i) requirements, ensuring that the explanations cover the nature and potential magnitude of these future cash outflows.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "443.3",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.59(b)(ii)",
+          "question": "Does the entity have lease contracts with extension or termination options?",
+          "question_type": "Followup",
+          "source_question": "443.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose exposure from extension and termination options?",
+          "decision_tree": {
+            "question": "Does the entity have lease contracts with extension or termination options?",
+            "guidance": "Examine the lease agreements and related documentation to confirm whether any extension or termination options are included. These options are typically clauses that allow the lessee to extend the lease term or terminate it early. Common pitfalls include overlooking embedded options in complex lease contracts.",
+            "yes_case": {
+              "question": "Has the entity assessed the impact of extension and termination options on the lease liability and right-of-use asset?",
+              "guidance": "Review financial statements and supporting calculations for the lease liability and right-of-use asset. The entity should consider whether extension or termination options affect initial recognition, subsequent measurement, or reassessment of the lease terms. Documentation such as reassessment schedules and accounting policies would provide evidence.",
+              "yes_case": {
+                "question": "Does the entity disclose qualitative and quantitative information about its exposure from extension and termination options as required by IFRS 16.59(b)(ii)?",
+                "guidance": "Inspect the notes to the financial statements to confirm that disclosures provide adequate detail about the potential exposure from extension or termination options. Compliance includes explaining how these options might impact lease duration and amounts payable. Common pitfalls include insufficient detail or omitting material information.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "443.4",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.59(b)(iii)",
+          "question": "Has the entity entered into lease agreements that include residual value guarantees?",
+          "question_type": "Followup",
+          "source_question": "443.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose exposure from residual value guarantees?",
+          "decision_tree": {
+            "question": "Has the entity entered into lease agreements that include residual value guarantees?",
+            "guidance": "Review the lease agreements and verify whether residual value guarantees are explicitly mentioned. This may be stated in the terms of the contract or described in supporting documentation. Pay specific attention to guarantees provided to the lessor that relate to the value of the underlying asset at the end of the lease term.",
+            "yes_case": {
+              "question": "Does the entity disclose its exposure from residual value guarantees as required under IFRS 16.59(b)(iii)?",
+              "guidance": "Refer to the financial statement disclosures, particularly the notes regarding leases. Ensure that the exposure related to residual value guarantees is disclosed in line with IFRS 16.59(b)(iii), including the nature, amount, and timing of such guarantees. Check whether the disclosure sufficiently communicates the risk and aligns with the materiality principle.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "443.5",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.59(b)(iv)",
+          "question": "Does the entity have lease agreements signed but not yet commenced as of the reporting date?",
+          "question_type": "Followup",
+          "source_question": "443.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose exposure from leases not yet commenced to which it is committed?",
+          "decision_tree": {
+            "question": "Does the entity have lease agreements signed but not yet commenced as of the reporting date?",
+            "guidance": "Review the lease contracts and agreements to determine if the entity has committed to lease arrangements that will commence in the future. Check lease contracts, board approvals, and any disclosures under IFRS 16. Ensure you are verifying commitments as at the reporting date, not future intentions.",
+            "yes_case": {
+              "question": "Has the entity disclosed its exposure from these leases in the financial statements as required under IFRS 16.59(b)(iv)?",
+              "guidance": "Inspect the Lease Disclosure section of the notes to the financial statements. Ensure the entity provides sufficient information about the exposure, including amounts and nature of the commitments under leases not yet commenced.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "443.6",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.59(c)",
+          "question": "Does the entity have any active lease agreements?",
+          "question_type": "Followup",
+          "source_question": "443.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose restrictions or covenants imposed by leases?",
+          "decision_tree": {
+            "question": "Does the entity have any active lease agreements?",
+            "guidance": "Review the lease agreements and related records. Look for lease contracts or similar arrangements in the entity's records. Check the Statement of Financial Position for lease liabilities or right-of-use assets reported under IFRS 16.",
+            "yes_case": {
+              "question": "Do the lease agreements include restrictions or covenants?",
+              "guidance": "Inspect the lease agreements for clauses that impose restrictions on the entity's activities or financial performance, such as limitations on asset use, cash flow conditions, or debt levels. Pay attention to sections labeled as 'restrictions', 'terms', or 'financial covenants'.",
+              "yes_case": {
+                "question": "Does the entity disclose these restrictions or covenants in the financial statements?",
+                "guidance": "Examine the notes to the financial statements, specifically the lease-related disclosures under IFRS 16.59. Ensure that restrictions or covenants are explicitly mentioned and described if they exist. Look for omissions or overly vague descriptions.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "443.7",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.59(d)",
+          "question": "Did the entity engage in any sale and leaseback transactions during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "443.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose information about sale and leaseback transactions?",
+          "decision_tree": {
+            "question": "Did the entity engage in any sale and leaseback transactions during the reporting period?",
+            "guidance": "Review the entity's contracts and transactions to determine if any sale and leaseback arrangements were entered into. Examine leasing agreements, asset sales records, and related documentation. Pay attention to whether the sale involves a leaseback component. Ensure there is no oversight in identifying such transactions.",
+            "yes_case": {
+              "question": "Has the entity provided disclosures regarding the terms and conditions of the sale and leaseback transactions?",
+              "guidance": "Check the financial statements and notes for mentions of sale and leaseback transactions. Specifically, verify whether information such as the gain or loss arising from the transaction, lease payments, and other material details (e.g., the duration of the lease) are disclosed. Refer to IFRS 16.59(d) for the specific disclosure requirements.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "444",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.60",
+          "question": "Does the entity have short-term leases or low-value asset leases?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity applies IFRS 16.6 to short-term leases or low-value assets, does it disclose that fact?",
+          "decision_tree": {
+            "question": "Does the entity have short-term leases or low-value asset leases?",
+            "guidance": "Review the lease agreements or similar arrangements in the entity's records. Short-term leases are defined in IFRS 16.8 as leases with a lease term of 12 months or less without a purchase option. Low-value assets typically include items such as laptops and office furniture, as outlined in IFRS 16.B5.",
+            "yes_case": {
+              "question": "Does the entity apply the exemption under IFRS 16.6 to short-term leases or low-value assets?",
+              "guidance": "Check the accounting policies disclosed by the entity. IFRS 16.6 allows a lessee to elect not to apply lease accounting to these types of leases. Look for explicit documentation stating the entity uses the exemption.",
+              "yes_case": {
+                "question": "Does the entity disclose the use of exemptions under IFRS 16.6 for short-term leases or low-value assets?",
+                "guidance": "Review the financial statements, particularly the notes section. Check if the entity explicitly discloses the exemption usage per IFRS 16.60. This may be found under lease accounting policies or specific disclosures for leases.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "445.1",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.60A(a)",
+          "question": "Is the entity applying the practical expedient in IFRS 16.46A for rent concessions?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If applying the practical expedient in IFRS 16.46A, does the entity disclose that it has applied it to all eligible rent concessions or, if not, the nature of the contracts to which it applied it?",
+          "decision_tree": {
+            "question": "Is the entity applying the practical expedient in IFRS 16.46A for rent concessions?",
+            "guidance": "Review lease agreements, amendments, and the financial statement disclosures. The practical expedient in IFRS 16.46A allows lessees to bypass assessing whether a rent concession resulting directly from the COVID-19 pandemic is a lease modification. Confirm that the entity has disclosed the application of this expedient in their financial statements or policy notes.",
+            "yes_case": {
+              "question": "Has the entity disclosed that the practical expedient is applied to all eligible rent concessions or, if not, has it provided details about the nature of the contracts to which it applied?",
+              "guidance": "Review accompanying notes to the financial statements or disclosures relating to IFRS 16. Confirm whether the entity explicitly mentions that the practical expedient was applied to all eligible concessions or outlines specific contracts where it has been applied. Missing this disclosure would violate IFRS 16.60A(a).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "445.2",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.60A(b)",
+          "question": "Is the entity applying the practical expedient for rent concessions as per IFRS 16.46A?",
+          "question_type": "Followup",
+          "source_question": "445.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "If applying the practical expedient in IFRS 16.46A, does the entity disclose the amount recognised in profit or loss for changes in lease payments from those rent concessions?",
+          "decision_tree": {
+            "question": "Is the entity applying the practical expedient for rent concessions as per IFRS 16.46A?",
+            "guidance": "Refer to the entity's accounting policy disclosures or lease modification notes in the financial statements. IFRS 16.46A allows lessees to account for certain COVID-19-related rent concessions as if they were not lease modifications. Check if the entity has elected this expedient and disclosed its application.",
+            "yes_case": {
+              "question": "Has the entity disclosed the amount recognised in profit or loss for changes in lease payments arising from the rent concessions?",
+              "guidance": "Review the entity's disclosures in the notes to the financial statements about lease payments. Specifically, look for a clear numerical disclosure of the impact of rent concessions on profit or loss, as required under IFRS 16.60A(b). Ensure the disclosure is complete and aligns with the recognised amounts.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "446",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.67",
+          "question": "Does the entity have assets held under finance leases?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present assets held under finance leases as a receivable at the net investment amount?",
+          "decision_tree": {
+            "question": "Does the entity have assets held under finance leases?",
+            "guidance": "Review the lease agreements and the financial statements (including the Statement of Financial Position) to identify if the entity holds assets under finance leases. Check whether the entity acts as a lessor in leasing arrangements outlined in IFRS 16. Look for terms such as 'finance lease' or indications that substantially all risks and rewards are transferred to the lessee.",
+            "yes_case": {
+              "question": "Has the entity classified these finance lease assets correctly as a receivable?",
+              "guidance": "Refer to IFRS 16.67. Finance leases must be presented as receivables at the amount of the net investment in the lease. Verify that the entity calculates the net investment as the present value of lease payments and does not incorrectly record the asset under other categories such as 'Property, Plant, and Equipment'.",
+              "yes_case": {
+                "question": "Is the receivable measured at the net investment amount?",
+                "guidance": "Examine the calculation of the net investment in the lease. Refer to the lease payment schedule provided in the lease contract and confirm that the entity uses the present value of lease payments discounted at the interest rate implicit in the lease, as required by IFRS 16. Ensure that no additional adjustments are incorrectly applied.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "447",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.88",
+          "question": "Does the entity have underlying assets subject to operating leases?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity present underlying assets subject to operating leases in its statement of financial position according to the nature of the underlying asset?",
+          "decision_tree": {
+            "question": "Does the entity have underlying assets subject to operating leases?",
+            "guidance": "Review lease agreements and the entity’s financial records to identify assets that are subject to operating leases. Common examples include property, plant, and equipment leased out to lessees. Validate by cross-checking the list of leased assets with recognized operating lease arrangements.",
+            "yes_case": {
+              "question": "Are the underlying assets recognized in the statement of financial position?",
+              "guidance": "Check the entity's statement of financial position to confirm if the leased assets are listed. Refer to relevant sections to ensure all leased assets are accounted for and match the nature of the assets described in the operating lease agreements.",
+              "yes_case": {
+                "question": "Are the underlying assets presented according to their nature (e.g., property, plant, and equipment, investment property, etc.)?",
+                "guidance": "Review the classification of the recognized assets in the statement of financial position. Verify whether each asset is categorized by its nature, as required by IFRS 16.88. For example, an office building leased out should be presented as 'property, plant, and equipment' or 'investment property' depending on its use.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "448.1",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.90(a)",
+          "question": "Does the entity have finance leases as a lessor?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "For finance leases, does the entity disclose selling profit or loss?",
+          "decision_tree": {
+            "question": "Does the entity have finance leases as a lessor?",
+            "guidance": "Review the lease agreements and the financial statements, specifically looking at note disclosures related to leases under IFRS 16. Confirm if the entity acts as a lessor in finance lease arrangements. Finance leases transfer substantially all risks and rewards incidental to ownership of the leased asset to the lessee.",
+            "yes_case": {
+              "question": "Does the entity recognize selling profit or loss from finance leases in its Statement of Profit or Loss?",
+              "guidance": "Verify the accounting records and financial statements. Review the Statement of Profit or Loss and related notes for any line items or explanatory disclosure indicating selling profit or loss derived from finance leases. Common pitfalls include incorrectly classifying income or failing to record it entirely.",
+              "yes_case": {
+                "question": "Does the entity disclose selling profit or loss from finance leases in its financial statements as required by IFRS 16.90(a)?",
+                "guidance": "Check the disclosure notes accompanying the financial statements, specifically the section related to leases. Ensure the selling profit or loss from finance leases is clearly disclosed per IFRS 16.90(a), including the amounts recognized during the reporting period.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "448.2",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.90(b)",
+          "question": "Does the entity have any finance leases?",
+          "question_type": "Followup",
+          "source_question": "448.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For finance leases, does the entity disclose finance income on the net investment in the lease?",
+          "decision_tree": {
+            "question": "Does the entity have any finance leases?",
+            "guidance": "Review the lease agreements and the financial statements to determine if the entity has entered into any finance leases. Finance leases transfer substantially all risks and rewards of ownership to the lessee, as per IFRS 16. Check contract terms for indicators, such as lease term covering the major part of the asset's economic life or the present value of lease payments substantially equaling the fair value of the asset.",
+            "yes_case": {
+              "question": "Does the entity recognize finance income on the net investment in the lease?",
+              "guidance": "Check the financial statements, particularly in the revenue section or notes, to ensure that finance income from finance leases is disclosed. The 'net investment in the lease' is defined in IFRS 16.76, calculated as the present value of lease payments plus unguaranteed residual value. Ensure this income is disclosed in accordance with IFRS 16.90(b).",
+              "yes_case": {
+                "question": "Is the disclosure of finance income on the net investment in the lease accurate and complete?",
+                "guidance": "Review the financial statements and accompanying notes. Confirm that the finance income is disclosed according to IFRS 16.90(b), providing sufficient detail to meet transparency requirements. Common errors include omitting details of the calculation or inconsistencies in values.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "448.3",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.90(c)",
+          "question": "Does the entity have finance leases with variable lease payments?",
+          "question_type": "Followup",
+          "source_question": "448.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For finance leases, does the entity disclose income relating to variable lease payments not included in the net investment measurement?",
+          "decision_tree": {
+            "question": "Does the entity have finance leases with variable lease payments?",
+            "guidance": "Review the lease agreements and the financial statements (Note disclosures). Check if the entity has entered into finance lease arrangements and whether these include variable lease payment terms not included in the net investment measurement. Common pitfalls include overlooking the disclosure of finance lease agreements entirely or confusing variable lease payments with fixed lease payments.",
+            "yes_case": {
+              "question": "Has the entity disclosed income related to these variable lease payments separately in accordance with IFRS 16.90(c)?",
+              "guidance": "Check the lease-related note disclosures in the financial statements. Confirm that income from variable lease payments (not included in the net investment measurement) is differentiated and disclosed. Pay attention to whether this income is accurately reported and properly categorized. Frequent errors include aggregating this income with unrelated items or omitting disclosure entirely.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "448.4",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.90(d)",
+          "question": "Does the entity have operating leases where it is acting as the lessor?",
+          "question_type": "Followup",
+          "source_question": "448.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "For operating leases, does the entity disclose lease income, separately disclosing income from variable lease payments not dependent on an index or rate?",
+          "decision_tree": {
+            "question": "Does the entity have operating leases where it is acting as the lessor?",
+            "guidance": "Review the lease agreements and the terms of lease arrangements disclosed in the financial statements. Confirm if the entity earns revenue as a lessor from operating leases. Operating leases typically do not transfer substantially all the risks and rewards of ownership to the lessee.",
+            "yes_case": {
+              "question": "Does the entity earn lease income from operating leases?",
+              "guidance": "Examine the income statement and related notes to identify any revenue earned from lease arrangements. Look for amounts labeled as 'lease income' or similar terms that refer to income from the use of leased assets.",
+              "yes_case": {
+                "question": "Does the entity earn income from variable lease payments not dependent on an index or rate?",
+                "guidance": "Review lease agreements and disclosures related to variable lease payments. Confirm if variable payments are explicitly excluded from index-based or rate-based adjustments and are determined by usage, sales, or other performance measures.",
+                "yes_case": {
+                  "question": "Does the entity separately disclose lease income and income from variable lease payments not dependent on an index or rate?",
+                  "guidance": "Verify the notes to the financial statements, particularly those on leases under IFRS 16.90(d). Ensure lease income from operating leases is disclosed separately and income from variable lease payments is clearly distinguished.",
+                  "yes_case": "COMPLIANT: YES",
+                  "no_case": "COMPLIANT: NO"
+                },
+                "no_case": "COMPLIANT: YES"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "449.1",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.92(a)",
+          "question": "Is the entity a lessor engaging in leasing activities?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose qualitative information about the nature of its leasing activities as lessor?",
+          "decision_tree": {
+            "question": "Is the entity a lessor engaging in leasing activities?",
+            "guidance": "Review the financial statements and entity operations to confirm whether the entity is engaged in leasing activities as a lessor. Leasing activities involve granting the right to use an asset over a specified period in return for payment. Refer to IFRS 16 definition of 'lessor' and review revenue and contractual agreements.",
+            "yes_case": {
+              "question": "Has the entity disclosed qualitative information about the nature of its leasing activities as required by IFRS 16.92(a)?",
+              "guidance": "Review the notes to the financial statements. Verify the presence of disclosures regarding the type of leases provided (e.g., operating or finance), the leased assets involved, and the key terms of leasing arrangements. Ensure that the disclosures sufficiently describe the nature of the leasing activities without omitting significant details.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "449.2",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.92(b)",
+          "question": "Does the entity have leases where it retains rights in underlying assets?",
+          "question_type": "Followup",
+          "source_question": "449.1",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose its risk management strategy for rights it retains in underlying assets?",
+          "decision_tree": {
+            "question": "Does the entity have leases where it retains rights in underlying assets?",
+            "guidance": "Review lease agreements and the accounting policies disclosure to identify if the entity has leased assets where it retains rights in the underlying assets. Check references to IFRS 16.92(b) and verify the presence of such contracts. Look closely at lease terms and conditions to confirm the entity’s involvement with retained rights.",
+            "yes_case": {
+              "question": "Does the entity have a risk management strategy for these retained rights in the underlying assets?",
+              "guidance": "Review the entity's risk management policies and disclosures. Specifically look for references to addressing risks related to retained rights in leased assets. These can include risks related to residual value, operational risks, or market risks. Ensure that the risk management strategy aligns with the requirements of IFRS 16.92(b).",
+              "yes_case": {
+                "question": "Does the entity disclose its risk management strategy for the retained rights in underlying assets in accordance with IFRS 16.92(b)?",
+                "guidance": "Inspect the financial statement disclosures, particularly the notes relating to leases and their risk management strategy. Ensure that the details of how the entity manages risks for retained rights in leased assets are clearly articulated and comply with IFRS 16.92(b). Common pitfalls include incomplete or missing disclosure of the specifics of risk management strategies.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "450",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.93",
+          "question": "Does the entity have net investments in finance leases recognized on its financial statements?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity explain significant changes in the carrying amount of net investment in finance leases with qualitative and quantitative information?",
+          "decision_tree": {
+            "question": "Does the entity have net investments in finance leases recognized on its financial statements?",
+            "guidance": "Review the financial statements (specifically the balance sheet and related notes). Confirm if the entity recognizes net investment in finance leases. Look for assets categorized under 'Net Investment in Finance Leases' or similar terminology in accordance with IFRS 16. If none are recognized, this item is not applicable.",
+            "yes_case": {
+              "question": "Are there significant changes in the carrying amount of net investment in finance leases during the reporting period?",
+              "guidance": "Examine the lease disclosures and supporting schedules. Identify variances in the carrying amounts compared to prior periods. 'Significant changes' typically include large variances due to new contracts, terminations, or remeasurements.",
+              "yes_case": {
+                "question": "Does the entity provide both qualitative and quantitative information explaining the significant changes in the carrying amount of net investment in finance leases?",
+                "guidance": "Review the notes to the financial statements. Verify if the entity explains significant changes using qualitative (e.g., reasons for changes such as contract modifications, asset derecognition) and quantitative information (e.g., numerical breakdowns of increases or decreases in balance). Ensure disclosures comply with IFRS 16.93 and are sufficiently detailed.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "451",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.94(a)",
+          "question": "Does the entity have lease payments receivable under its leases?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose a maturity analysis of lease payments receivable showing undiscounted lease payments on an annual basis for at least the first five years and a total for remaining years?",
+          "decision_tree": {
+            "question": "Does the entity have lease payments receivable under its leases?",
+            "guidance": "Review the entity's lease agreements and financial statements, particularly the Statement of Financial Position and accompanying notes, to identify whether the entity has recognized any lease receivables. Cross-check with the lease arrangements to ensure the recognition accurately reflects the economic substance of the leases.",
+            "yes_case": {
+              "question": "Has the entity disclosed a maturity analysis of lease payments receivable?",
+              "guidance": "Refer to the Notes to the Financial Statements. Confirm that a maturity analysis showing the lease payments receivable is included. Such a disclosure is often presented in a tabular format indicating the undiscounted payments categorized by their due dates.",
+              "yes_case": {
+                "question": "Does the maturity analysis disclose annual undiscounted lease payments for at least the first five years and a total for remaining years?",
+                "guidance": "Review the maturity analysis in the Notes to the Financial Statements. Verify it includes a breakdown of undiscounted lease payments by year for at least the first five years and aggregates the payments beyond that period into one total. Refer to IFRS 16.94(a) for specific requirements.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "451.2",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.94(b)",
+          "question": "Does the entity have leases classified as finance leases where it acts as the lessor?",
+          "question_type": "Followup",
+          "source_question": "451",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity reconcile undiscounted lease payments to the net investment in the lease, identifying unearned finance income and any discounted unguaranteed residual value?",
+          "decision_tree": {
+            "question": "Does the entity have leases classified as finance leases where it acts as the lessor?",
+            "guidance": "Review the lease agreements and the financial statements, specifically analyzing the entity's role in lease transactions. According to IFRS 16.62, finance leases occur if substantially all risks and rewards of ownership are transferred. Check disclosures about lease classifications.",
+            "yes_case": {
+              "question": "Does the entity provide a reconciliation of undiscounted lease payments to the net investment in the lease?",
+              "guidance": "Examine the financial disclosures for reconciliation details under IFRS 16.94(b). Ensure that the reconciliation identifies components such as unearned finance income and any discounted unguaranteed residual value. Typical locations include notes on leases in the financial statement.",
+              "yes_case": {
+                "question": "Is the reconciliation accurate, clear, and aligned with the definitions in IFRS 16?",
+                "guidance": "Verify that all critical elements are included: undiscounted lease payments, unearned finance income, discounted unguaranteed residual value. Cross-check calculations against accounting records and verify conformity to IFRS 16 requirements. Common errors include missing components or incorrect calculations.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "452",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.95",
+          "question": "Does the entity have property, plant, and equipment under operating leases?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "For items of property, plant and equipment under operating leases, does the entity apply IAS 16 disclosure requirements?",
+          "decision_tree": {
+            "question": "Does the entity have property, plant, and equipment under operating leases?",
+            "guidance": "Examine lease agreements and the financial statements to identify any items classified as property, plant, and equipment that are leased out under operating leases. Pay attention to disclosures in the notes on lease arrangements and verify the classification under IFRS 16. Beware of confusing finance leases with operating leases.",
+            "yes_case": {
+              "question": "Has the entity disclosed the required information under IAS 16 for these items of property, plant, and equipment?",
+              "guidance": "Review IAS 16 disclosure requirements (e.g., depreciation methods, carrying amounts, and historical cost or revaluation basis). Check the notes to the financial statements to ensure adequate disclosure is provided for leased property, plant, and equipment, and verify compliance with IAS 16 Section 73-79.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "453",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.96",
+          "question": "Does the entity have assets subject to operating leases under IFRS 16?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "Does the entity apply the disclosure requirements in IAS 36, IAS 38, IAS 40 and IAS 41 for assets subject to operating leases?",
+          "decision_tree": {
+            "question": "Does the entity have assets subject to operating leases under IFRS 16?",
+            "guidance": "Examine the lease agreements disclosed in the financial statements or supporting documentation. Specifically, check if the entity has identified assets leased out to another party and classified them as operating leases. Refer to IFRS 16 definitions of operating leases and ensure the classification aligns with paragraphs 62-66 of IFRS 16.",
+            "yes_case": {
+              "question": "Are the assets subject to operating leases disclosed in accordance with the requirements of IAS 36, IAS 38, IAS 40, and IAS 41?",
+              "guidance": "Review notes to the financial statements and disclosures related to the leased assets. Verify compliance with the following standards: IAS 36 for impairment, IAS 38 for intangible assets, IAS 40 for investment property, and IAS 41 for biological assets. Ensure disclosures include recognition, measurement methods, and relevant assumptions.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "454",
+          "section": "IFRS 16",
+          "reference": "IFRS 16.97",
+          "question": "Does the entity have leases that fall under the scope of IFRS 16?",
+          "question_type": "Independent",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose a maturity analysis of lease payments showing undiscounted lease payments on an annual basis for at least the first five years and a total for remaining years?",
+          "decision_tree": {
+            "question": "Does the entity have leases that fall under the scope of IFRS 16?",
+            "guidance": "Review the lease agreements and applicable contracts to confirm whether they qualify for recognition under IFRS 16 (e.g., defined as leases under IFRS 16 Appendix A). Ensure to exclude transactions that are scoped out as per IFRS 16.6-7, such as leases of intangible assets or exploration rights.",
+            "yes_case": {
+              "question": "Has the entity recognized lease liabilities on its financial statements in accordance with IFRS 16?",
+              "guidance": "Check the statement of financial position to confirm the recognition of lease liabilities and associated right-of-use assets. Ensure compliance with initial measurement requirements as detailed in IFRS 16.26-28.",
+              "yes_case": {
+                "question": "Does the entity disclose a maturity analysis of lease payments showing undiscounted lease payments on an annual basis for at least the first five years and a total for remaining years?",
+                "guidance": "Review the lease disclosures in the notes to the financial statements. These should include a maturity analysis as required under IFRS 16.97, showing undiscounted contractual lease payments broken down annually for the first five years and aggregated thereafter. Confirm compliance with the format specified in the standard.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

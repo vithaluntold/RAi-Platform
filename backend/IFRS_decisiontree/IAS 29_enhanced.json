@@ -1,0 +1,116 @@
+{
+  "title": "Financial Reporting in Hyperinflationary Economies (IAS 29) Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 29",
+      "title": "Financial Reporting in Hyperinflationary Economies",
+      "description": "Checklist for presentation and disclosure requirements under IAS 29.",
+      "items": [
+        {
+          "id": "397.1",
+          "section": "IAS 29",
+          "reference": "IAS 29.39(a)",
+          "question": "Is the entity operating in an economy classified as hyperinflationary during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose that the financial statements and the corresponding figures for previous periods have been restated for changes in the general purchasing power of the functional currency and are stated in terms of the measuring unit current at the end of the reporting period?",
+          "decision_tree": {
+            "question": "Is the entity operating in an economy classified as hyperinflationary during the reporting period?",
+            "guidance": "Check the economic conditions of the entity’s functional currency as outlined in IAS 29. Paragraph 3 provides indicators of hyperinflation, such as cumulative inflation rates over three years exceeding 100%. Review economic reports and financial statements for evidence.",
+            "yes_case": {
+              "question": "Has the entity restated the financial statements and the corresponding figures for previous periods to reflect changes in the general purchasing power of the functional currency?",
+              "guidance": "Review the financial statements and disclosures. Ensure that IAS 29 paragraph 8 has been adhered to, requiring restatement of financial statements to reflect the current measuring unit at the end of the reporting period. Look for clear adjustments and explanations in the notes to the financial statements.",
+              "yes_case": {
+                "question": "Does the entity disclose that the financial statements and previous periods' figures have been restated for changes in general purchasing power and stated in terms of the measuring unit current at the end of the reporting period?",
+                "guidance": "Inspect the financial statements for explicit disclosure as required by IAS 29 paragraph 39(a). Verify whether the entity has disclosed both the restatement of financial statements for previous periods and the usage of the measuring unit current as of the end of the reporting date.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "397.2",
+          "section": "IAS 29",
+          "reference": "IAS 29.39(b)",
+          "question": "Are the financial statements prepared in accordance with IAS 29 (Financial Reporting in Hyperinflationary Economies)?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose whether the financial statements are based on a historical cost approach or a current cost approach?",
+          "decision_tree": {
+            "question": "Are the financial statements prepared in accordance with IAS 29 (Financial Reporting in Hyperinflationary Economies)?",
+            "guidance": "Review the financial statements and confirm if the entity operates in a hyperinflationary economy as defined under IAS 29. Indicators include a cumulative inflation rate over three years approaching or exceeding 100%, or other qualitative factors. Verify that IAS 29 is applicable and applied.",
+            "yes_case": {
+              "question": "Does the entity disclose whether the financial statements are based on a historical cost approach or a current cost approach?",
+              "guidance": "Examine the notes to the financial statements, particularly the accounting policies section, to confirm how the entity has disclosed the measurement basis (historical cost or current cost). Ensure the disclosure is clear and explicitly states the basis used.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "398",
+          "section": "IAS 29",
+          "reference": "IAS 29.9, IAS 29.27, IAS 29.28",
+          "question": "Does the entity prepare financial statements in accordance with IAS 29 (Financial Reporting in Hyperinflationary Economies)?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "financial_statements",
+          "original_question": "Does the entity separately disclose the gain or loss on the net monetary position resulting from the application of IAS 29.27–28?",
+          "decision_tree": {
+            "question": "Does the entity prepare financial statements in accordance with IAS 29 (Financial Reporting in Hyperinflationary Economies)?",
+            "guidance": "Check the reporting framework of the entity. IAS 29 applies only if the entity operates in a hyperinflationary economy. Review the jurisdiction-specific criteria to determine if hyperinflation exists as per IAS 29. Confirm through the entity’s financial statement notes or management declaration.",
+            "yes_case": {
+              "question": "Has the entity applied IAS 29 adjustments to its financial statements, including restating non-monetary items for the impact of inflation?",
+              "guidance": "Review the financial statements. IAS 29 requires adjustments such as restatement of non-monetary assets and liabilities, equity components, and income statement items to reflect inflation impacts. Check if the restatement is performed as per IAS 29.9 and IAS 29.20.",
+              "yes_case": {
+                "question": "Does the entity disclose the gain or loss on the net monetary position separately in accordance with IAS 29.27–28?",
+                "guidance": "Inspect the disclosures in the financial statements and review notes related to the effects of inflation. The gain or loss on the net monetary position must be separately presented and explained to comply with IAS 29.27–28. Ensure that the presentation reconciles with the restated financial data.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "399",
+          "section": "IAS 29",
+          "reference": "IAS 29.40",
+          "question": "Is the entity operating in a hyperinflationary economy as defined by IAS 29?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity make all necessary disclosures required by IAS 29 to clarify the basis for dealing with the effects of hyperinflation and to provide other information necessary to understand that basis and the resulting amounts?",
+          "decision_tree": {
+            "question": "Is the entity operating in a hyperinflationary economy as defined by IAS 29?",
+            "guidance": "Review IAS 29, paragraphs 3-4, and determine if the entity operates in an environment where the cumulative inflation rate over three years approaches or exceeds 100%. Analyze economic data for indicators of hyperinflation, such as price index trends, currency devaluations, and interest rates. Common pitfalls include misinterpretation of isolated inflation spikes or relying solely on historic inflation figures.",
+            "yes_case": {
+              "question": "Has the entity applied IAS 29 in preparing its financial statements?",
+              "guidance": "Confirm that the financial statements reflect adjustments for the effects of hyperinflation, including restatement of non-monetary items and equity components in accordance with IAS 29, paragraphs 7-27. Verify consistency with the entity’s hyperinflation accounting policy. Look out for errors or omission of these adjustments.",
+              "yes_case": {
+                "question": "Has the entity made all required disclosures under IAS 29?",
+                "guidance": "Review IAS 29, paragraph 40. Check that the disclosures clarify the basis for accounting for hyperinflationary effects and include any relevant details, such as the methods used, key assumptions, and the resulting adjustments. Common pitfalls are incomplete disclosure of assumptions or insufficient explanation of the basis for dealing with hyperinflation.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

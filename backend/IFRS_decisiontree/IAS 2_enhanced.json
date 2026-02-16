@@ -1,0 +1,258 @@
+{
+  "title": "International GAAP® Disclosure Checklist",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "IAS 2",
+      "title": "Inventories",
+      "description": "Checklist for presentation and disclosure requirements under IAS 2.",
+      "items": [
+        {
+          "id": "423.1",
+          "section": "IAS 2",
+          "reference": "IAS 2.36(a)",
+          "question": "Does the entity hold inventories?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the accounting policies for measuring inventories, including the cost formula used?",
+          "decision_tree": {
+            "question": "Does the entity hold inventories?",
+            "guidance": "Refer to the Statement of Financial Position or relevant supporting notes to confirm if inventories are recognized. Typically, inventories include items such as raw materials, work-in-progress, and finished goods.",
+            "yes_case": {
+              "question": "Has the entity disclosed the accounting policies for measuring inventories in its financial statements?",
+              "guidance": "Review the accounting policies section of the financial statements. Check for disclosure explaining how inventories are measured (e.g., at cost or net realizable value) and whether the cost formula used (e.g., FIFO or weighted average cost) is explicitly detailed.",
+              "yes_case": {
+                "question": "Does the disclosed cost formula comply with IAS 2 requirements?",
+                "guidance": "Verify that the cost formula conforms to IAS 2, which allows FIFO (First-In, First-Out) or weighted average cost methods. Methods like LIFO are not permitted under IAS 2.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "423.2",
+          "section": "IAS 2",
+          "reference": "IAS 2.36(b)",
+          "question": "Does the entity hold inventories as defined under IAS 2 (i.e., assets held for sale in the ordinary course of business, in the process of production, or materials/supplies for production)?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the total carrying amount of inventories and the carrying amount in classifications appropriate to the entity?",
+          "decision_tree": {
+            "question": "Does the entity hold inventories as defined under IAS 2 (i.e., assets held for sale in the ordinary course of business, in the process of production, or materials/supplies for production)?",
+            "guidance": "Review the entity's statement of financial position, accounting policies, and notes to the financial statements to identify whether any assets are recognized as inventories under IAS 2. Check if these assets meet the definition of inventories in IAS 2, paragraphs 6–7.",
+            "yes_case": {
+              "question": "Has the entity disclosed the total carrying amount of inventories as required by IAS 2.36(b)?",
+              "guidance": "Locate the inventory section in the financial statements' notes. Verify if the entity has clearly presented the aggregated carrying amount of inventories under one category. Ensure this includes all inventory subclasses (e.g., finished goods, raw materials, work in progress).",
+              "yes_case": {
+                "question": "Has the entity further disclosed the carrying amount of inventories in classifications appropriate to the entity (e.g., raw materials, work in progress, finished goods)?",
+                "guidance": "Review IAS 2.36(b) and check whether the financial notes include the carrying amount of inventories segmented into classifications that are relevant and specific to the entity's operations. Common classifications may include raw materials, work in progress, finished goods, etc. Consider the nature of the entity's business, as these disclosures must be tailored accordingly.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "423.3",
+          "section": "IAS 2",
+          "reference": "IAS 2.36(c)",
+          "question": "Does the entity hold inventories carried at fair value less costs to sell?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the carrying amount of inventories carried at fair value less costs to sell?",
+          "decision_tree": {
+            "question": "Does the entity hold inventories carried at fair value less costs to sell?",
+            "guidance": "Examine the financial statements, specifically the disclosures under IAS 2 Inventories and fair value measurement. Look for any references to inventories measured at fair value less costs to sell. Typical examples include agricultural produce or commodities where fair value measurement is permitted under IAS 2. Ensure you check inventory valuation policies in the accounting policies note.",
+            "yes_case": {
+              "question": "Does the entity disclose the carrying amount of such inventories in its financial statements?",
+              "guidance": "Verify whether the entity includes the carrying amount of inventories carried at fair value less costs to sell in the inventory note or a related disclosure under IAS 2.36(c). The disclosure should specifically provide the cost figure and identify the inventory classes measured at fair value less costs to sell.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "423.4",
+          "section": "IAS 2",
+          "reference": "IAS 2.36(d)",
+          "question": "Does the entity hold inventories that are recognized on the financial statements?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of inventories recognised as an expense during the period?",
+          "decision_tree": {
+            "question": "Does the entity hold inventories that are recognized on the financial statements?",
+            "guidance": "Review the entity's Statement of Financial Position and Notes to the Accounts to verify if inventories are listed as an asset. Check the classification under IAS 2 and ensure that any item reported as inventory meets the IAS 2 definition (e.g., assets held for sale in the ordinary course of business, or in the process of production for such sale).",
+            "yes_case": {
+              "question": "Has the entity recognized any inventory as an expense during the period?",
+              "guidance": "Examine the Notes and the Statement of Profit or Loss. Look for references to 'cost of sales,' 'inventory write-downs,' or any expensed portions of inventory during the period. Ensure recognition aligns with IAS 2 requirements, which dictate that inventories are expensed when sold or consumed.",
+              "yes_case": {
+                "question": "Does the entity disclose the amount of inventories recognized as an expense during the period in accordance with IAS 2.36(d)?",
+                "guidance": "Check the Notes to the Financial Statements where inventory disclosures are normally provided. Locate the specific disclosure of the amount of inventory recognized as an expense. Ensure the disclosure includes clear quantification of the expense and is adequately detailed per IAS 2.36(d).",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: N/A"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "423.5",
+          "section": "IAS 2",
+          "reference": "IAS 2.36(e)",
+          "question": "Has the entity recognized a write-down of inventories as an expense during the reporting period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of any write-down of inventories recognised as an expense in the period?",
+          "decision_tree": {
+            "question": "Has the entity recognized a write-down of inventories as an expense during the reporting period?",
+            "guidance": "Review the inventory accounts and related expense accounts in the general ledger for the reporting period. Look for journal entries or supporting documentation indicating a reduction in inventory value due to write-downs. Commonly, this is tagged under 'Cost of Sales' or 'Inventory Adjustments'. Refer to IAS 2.36(e) for specific disclosure requirements.",
+            "yes_case": {
+              "question": "Has the entity disclosed the amount of the inventory write-down as an expense in the financial statements?",
+              "guidance": "Examine the notes to the financial statements, particularly under disclosures related to inventories or cost of sales. The amount should be clearly stated and tied to the reporting period. Ensure compliance with IAS 2.36(e), which mandates this disclosure.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "423.6",
+          "section": "IAS 2",
+          "reference": "IAS 2.36(f)",
+          "question": "Did the entity reverse any write-down of inventories during the period?",
+          "question_type": "Source",
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the amount of any reversal of any write-down that is recognised as a reduction in the amount of inventories recognised as expense in the period?",
+          "decision_tree": {
+            "question": "Did the entity reverse any write-down of inventories during the period?",
+            "guidance": "Review the inventory accounting records and relevant supporting documents. Specifically, verify whether any earlier write-downs of inventory (e.g., due to lower net realizable value) have been reversed during the reporting period. This can often be found in the inventory valuation section and expense disclosures of the entity’s financial statements.",
+            "yes_case": {
+              "question": "Has the entity disclosed the amount of the reversal as a reduction in the expense for inventories the period?",
+              "guidance": "Check the notes to the financial statements under inventory or expense disclosures. IAS 2.36(f) requires the reversal amount to be disclosed explicitly as a reduction in the inventory expense recognized during the period. Ensure the disclosure is clear, specific, and aligns with other reported figures.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "423.7",
+          "section": "IAS 2",
+          "reference": "IAS 2.36(g)",
+          "question": "Has the entity previously recognized a write-down of inventories that has been reversed during the reporting period?",
+          "question_type": "Followup",
+          "source_question": "423.6",
+          "source_trigger": "Yes",
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the circumstances or events that led to the reversal of a write-down of inventories?",
+          "decision_tree": {
+            "question": "Has the entity previously recognized a write-down of inventories that has been reversed during the reporting period?",
+            "guidance": "Review the inventory section of the financial statements, particularly the notes or disclosures related to inventories. Look for instances where a previously recorded write-down has been reversed due to changes in circumstances like increased selling prices or decreased costs. Ensure the reversal is documented correctly.",
+            "yes_case": {
+              "question": "Does the entity disclose the circumstances or events that led to the reversal of the write-down of inventories?",
+              "guidance": "Verify that the notes to the financial statements include an explanation for the reversal. This should detail specific circumstances or events, such as changes in market conditions or improvements in inventory usability. Check compliance with IAS 2.36(g).",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "423.8",
+          "section": "IAS 2",
+          "reference": "IAS 2.36(h)",
+          "question": "Does the entity hold inventories?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "Does the entity disclose the carrying amount of inventories pledged as security for liabilities?",
+          "decision_tree": {
+            "question": "Does the entity hold inventories?",
+            "guidance": "Review the Statement of Financial Position and supporting notes to identify whether the entity has recognized inventories as an asset. Common inventory types include raw materials, work-in-progress, and finished goods as defined by IAS 2. Inspect account names related to inventories and ensure they meet the definition outlined in IAS 2.",
+            "yes_case": {
+              "question": "Has any portion of the inventories been pledged as security for liabilities?",
+              "guidance": "Review loan agreements, financing arrangements, and disclosures about liabilities in the financial statements. Check whether inventories have been identified or disclosed as collateral for borrowings or other liabilities. Look for terms such as 'secured by inventories' in financing arrangements.",
+              "yes_case": {
+                "question": "Does the entity disclose the carrying amount of inventories pledged as security for liabilities?",
+                "guidance": "Examine the notes accompanying the financial statements, particularly the section on inventories. Confirm if the carrying amount of pledged inventories is disclosed in accordance with IAS 2.36(h). Ensure the inclusion of specific quantitative details, such as the monetary value of the pledged inventories.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: YES"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "424",
+          "section": "IAS 2",
+          "reference": "IAS 2.39",
+          "question": "Does the entity adopt a format for profit or loss under IAS 1 that results in amounts being disclosed other than the cost of inventories recognised as an expense during the period?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "notes_only",
+          "original_question": "If the entity adopts a format for profit or loss under IAS 1 that results in amounts being disclosed other than the cost of inventories recognised as an expense during the period and presents an analysis of expenses using a classification based on the nature of expenses, does the entity disclose the costs recognised as an expense for raw materials and consumables, labour costs and other costs together with the amount of the net change in inventories for the period?",
+          "decision_tree": {
+            "question": "Does the entity adopt a format for profit or loss under IAS 1 that results in amounts being disclosed other than the cost of inventories recognised as an expense during the period?",
+            "guidance": "Review the financial statements, particularly the Statement of Profit or Loss. Determine if the entity provides an analysis of expenses based on their nature (e.g., raw materials, labour costs) instead of a function-based classification (e.g., cost of sales). Under IAS 1, using a 'nature of expense' format is allowed but requires specific disclosures.",
+            "yes_case": {
+              "question": "Does the entity disclose the costs recognised as an expense for raw materials and consumables, labour costs, and other costs, together with the amount of the net change in inventories for the period?",
+              "guidance": "Refer to the notes accompanying the financial statements and ensure these disclosures are made in a manner compliant with IAS 2.39. Cross-check if costs are individually disclosed and whether the net inventory change is accurately presented. Ensure no essential expense type is omitted.",
+              "yes_case": "COMPLIANT: YES",
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        },
+        {
+          "id": "425",
+          "section": "IAS 2",
+          "reference": "IAS 2.39",
+          "question": "Has the entity adopted IFRS 18 early and classified expenses by nature in the operating category of the statement of profit or loss?",
+          "question_type": null,
+          "source_question": null,
+          "source_trigger": null,
+          "context_required": "full",
+          "original_question": "If the entity adopts IFRS 18 early and classifies expenses by nature in the operating category of the statement of profit or loss in a way that results in amounts being presented other than the cost of inventories recognised as an expense during the period, does the entity present the costs recognised as an expense for raw materials and consumables, employee benefits and other costs together with the amount of the net change in inventories for the period?",
+          "decision_tree": {
+            "question": "Has the entity adopted IFRS 18 early and classified expenses by nature in the operating category of the statement of profit or loss?",
+            "guidance": "Verify whether the entity has early adopted IFRS 18 from its accounting policies disclosed in the financial statements. Check the statement of profit or loss to see if expenses are classified by nature in the operating category, rather than by function. Pay attention to any restatements or notes explaining accounting standards applied.",
+            "yes_case": {
+              "question": "Are there amounts presented in the statement of profit or loss other than the cost of inventories recognized as an expense during the period?",
+              "guidance": "Review the entity's statement of profit or loss. Identify if expenses classified by nature include expenses not related to inventory costs, such as raw materials, consumables, employee benefits, or other direct costs. Compare this presentation with IAS 2.39 requirements.",
+              "yes_case": {
+                "question": "Does the entity correctly present costs recognized as an expense for raw materials, consumables, employee benefits, and other costs together with the net change in inventories for the period?",
+                "guidance": "Ensure that the financial statements provide a breakdown that includes costs for raw materials and consumables used, employee benefits, other direct costs, and the net change in inventories during the period. This level of detail should comply with IAS 2.39 disclosure requirements. Check supporting notes for compliance.",
+                "yes_case": "COMPLIANT: YES",
+                "no_case": "COMPLIANT: NO"
+              },
+              "no_case": "COMPLIANT: NO"
+            },
+            "no_case": "COMPLIANT: N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

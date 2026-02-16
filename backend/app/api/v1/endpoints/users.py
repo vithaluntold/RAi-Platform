@@ -1,16 +1,149 @@
-from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Query
 from sqlalchemy.orm import Session
-from typing import List
+from typing import List, Optional
 import csv
 import io
 import uuid
 
-from app.api.deps import get_db, get_current_active_admin
+from app.api.deps import get_db, get_current_active_admin, get_current_active_user
 from app.core.security import get_password_hash
 from app.models.user import User
-from app.schemas.user import UserOnboard, BulkOnboardRequest, UserResponse
+from app.models.notification import Notification, UserNotificationPreference
+from app.models.reminder import Reminder
+from app.schemas.user import UserOnboard, BulkOnboardRequest, UserResponse, UserUpdate, UserListResponse
+from app.constants.user_enums import UserRole
 
 router = APIRouter()
+
+
+# -------------------------------
+# List Users (with search, filter, pagination)
+# -------------------------------
+@router.get("", response_model=UserListResponse)
+def list_users(
+    search: Optional[str] = Query(None, description="Search by name or email"),
+    role: Optional[str] = Query(None, description="Filter by role"),
+    status: Optional[str] = Query(None, description="Filter by status: active, inactive"),
+    page: int = Query(1, ge=1),
+    per_page: int = Query(20, ge=1, le=100),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_active_admin),
+):
+    query = db.query(User)
+
+    if search:
+        term = f"%{search.strip()}%"
+        query = query.filter(
+            (User.first_name.ilike(term))
+            | (User.last_name.ilike(term))
+            | (User.email.ilike(term))
+        )
+
+    if role:
+        try:
+            role_enum = UserRole(role.lower())
+            query = query.filter(User.role == role_enum)
+        except ValueError:
+            pass
+
+    if status:
+        if status.lower() == "active":
+            query = query.filter(User.is_active == True)
+        elif status.lower() == "inactive":
+            query = query.filter(User.is_active == False)
+
+    total = query.count()
+    users = (
+        query.order_by(User.created_at.desc())
+        .offset((page - 1) * per_page)
+        .limit(per_page)
+        .all()
+    )
+
+    return UserListResponse(
+        users=[UserResponse.model_validate(u) for u in users],
+        total=total,
+        page=page,
+        per_page=per_page,
+    )
+
+
+# -------------------------------
+# Get Single User
+# -------------------------------
+@router.get("/{user_id}", response_model=UserResponse)
+def get_user(
+    user_id: uuid.UUID,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_active_admin),
+):
+    user = db.query(User).filter(User.id == user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    return UserResponse.model_validate(user)
+
+
+# -------------------------------
+# Update User
+# -------------------------------
+@router.patch("/{user_id}", response_model=UserResponse)
+def update_user(
+    user_id: uuid.UUID,
+    user_in: UserUpdate,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_active_admin),
+):
+    user = db.query(User).filter(User.id == user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    update_data = user_in.model_dump(exclude_unset=True)
+
+    if "email" in update_data:
+        existing = db.query(User).filter(User.email == update_data["email"], User.id != user_id).first()
+        if existing:
+            raise HTTPException(status_code=400, detail="Email already in use")
+
+    if "password" in update_data:
+        update_data["hashed_password"] = get_password_hash(update_data.pop("password"))
+
+    if "role" in update_data:
+        try:
+            update_data["role"] = UserRole(update_data["role"].lower())
+        except ValueError:
+            raise HTTPException(status_code=400, detail=f"Invalid role: {update_data['role']}")
+
+    for field, value in update_data.items():
+        setattr(user, field, value)
+
+    db.commit()
+    db.refresh(user)
+    return UserResponse.model_validate(user)
+
+
+# -------------------------------
+# Delete User
+# -------------------------------
+@router.delete("/{user_id}")
+def delete_user(
+    user_id: uuid.UUID,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_active_admin),
+):
+    user = db.query(User).filter(User.id == user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    if user.id == current_user.id:
+        raise HTTPException(status_code=400, detail="Cannot delete yourself")
+
+    # Clean up related records (DB has ON DELETE CASCADE but ORM intercepts)
+    db.query(Notification).filter(Notification.user_id == user_id).delete()
+    db.query(UserNotificationPreference).filter(UserNotificationPreference.user_id == user_id).delete()
+    db.query(Reminder).filter(Reminder.user_id == user_id).delete()
+
+    db.delete(user)
+    db.commit()
+    return {"detail": "User deleted"}
 
 
 # -------------------------------
