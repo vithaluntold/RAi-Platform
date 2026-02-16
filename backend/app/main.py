@@ -45,9 +45,6 @@ async def lifespan(application: FastAPI):
     logger.info("Reminder background scheduler stopped")
 
 
-# Create tables (only for dev; in production, rely on Alembic migrations)
-Base.metadata.create_all(bind=engine)
-
 app = FastAPI(title=settings.PROJECT_NAME, lifespan=lifespan)
 
 # Build CORS origins — include configured origins + Railway auto-generated domains
