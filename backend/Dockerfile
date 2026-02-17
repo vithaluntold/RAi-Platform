@@ -43,4 +43,5 @@ USER appuser
 EXPOSE 8000
 
 # Run server (migrations handled separately via Railway shell)
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Use shell form to allow PORT environment variable expansion
+CMD uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}
